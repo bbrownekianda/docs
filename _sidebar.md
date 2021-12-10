@@ -8,6 +8,7 @@
     - [Responsive layout](/platform/responsive_layout.md)
     - [Form owner and form display mode](/platform/form_owner_and_form_display_mode.md)
     - [Version history](/platform/version_history.md)
+    - [Expressions](/platform/expressions.md)
   - [Controls (Form fields)](/fields/)
     - [Input](/fields/input/)
       - [Text box](/fields/input/textbox.md)
