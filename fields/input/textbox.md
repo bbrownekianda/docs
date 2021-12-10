@@ -4,17 +4,19 @@
 
 The Text box field is used to input text into a form for example a name or address. There are various options available when creating this field for example to allow you to make the field mandatory for users to fill in.
 
+
+
 ## How to get started
 
 1. To add the Text box to your form click on **Controls** > **Input** > **Text box**.
 
-2. To edit the Text box, click on the field itself and the Pen icon  ![](C:\Kianda\docs-dev\fields\input\textbox.assets\penicon.png)            appears allowing you to edit the field.
+2. To edit the Text box, click on the field itself and the Pen icon ![Pen icon](images/penicon.png) appears allowing you to edit the field.
 
-   ![](/edittextbox.png)
+   ![Edit text box](images/edittextbox.png)
 
 3. Choose from the edit options:
 
-   - **Title** - such as Employee Name
+   - **Title** - of the field, for example Employee Name
 
    - **Name** - this is a unique name for the field
 
@@ -34,13 +36,19 @@ The Text box field is used to input text into a form for example a name or addre
 
    - **Expression** - this can be used to return a value for example Date() returns the current date and time. For a full list of expressions see [link to expression list]
 
-     <img src="/images/textboxfilled.png" style="zoom:50%;" alt="Text box edit options"/>
+     ![Example of text box options](images/textboxfilled.png)
 
 4. To move the text box, click on the field itself and drag it to where you want it to appear on the form, for example within a panel. 
 
-5. To change the text box properties, click on the field itself and the properties pane appears on the right.
+5. To save your changes to the text box field, click on the Save button ![Save button](images/saveprocess.png).
 
-   ![textboxproperties](C:\Kianda\docs-dev\images\\textboxproperties.jpg)
+7. To delete the text box, click on the field itself and then click on the Bin icon ![Bin or Trash icon](images/binicon.png).
+
+## How to edit Text box properties
+
+1. To change the text box properties, click on the field itself and the properties pane appears on the right.
+
+   ![Text box properties](images/textboxproperties.png)
 
    The options within properties are:
 
@@ -51,10 +59,7 @@ The Text box field is used to input text into a form for example a name or addre
    - **Max length** - the maximum number of characters for the field
    - **Layout** - change the width of the field by clicking on the Layout box until you see the desired size. Click on the arrow beside Layout to see the Mobile Layout and click on box to change the width of the text box for mobile use.
 
-   ![textboxsize](C:\Kianda\docs-dev\images\textboxsize.jpg)
+   ![Changing text box width](images/textboxsize.png)
 
-   - **Rules** - Rules are covered in [link to document]
+   - **Rules** - rules for input fields are covered in [link to document]
 
-6. To save your changes to the text box field, click on the Save button ![saveprocess](C:\Kianda\docs-dev\images\saveprocess.jpg).
-
-7. To delete the text box, click on the field itself and then click on the Bin icon ![binicon](C:\Kianda\docs-dev\images\binicon.jpg)
