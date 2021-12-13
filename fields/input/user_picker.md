@@ -1,15 +1,61 @@
 # User picker field
 
-## Introduction
-
-The user picker field provides a way to find a manager for a particular user, for example by connecting to a data source in SharePoint.
+The **user picker field** provides a way to associate a user to a particular task for example to allow a form user to find their manager to approve a workflow. This is achieved by connecting your Kianda form to a data source, for example information in SharePoint, and using the user picker field.
 
 
 
 ## How to get started
 
-1. Click on the OK button ![OK button](C:\Kianda\docs-dev\fields\input\images\ok.png) when you are finished editing the field. 
+1. To add a particular user, click on **Controls** > **Input** > **User picker**.
 
-2. To move the list, click on the field itself and drag it to where you want it to appear on the form, for example within a panel. 
+2. Choose from the edit options:
 
-3. To save your changes to the list field, click on the Save button ![Save button](C:\Kianda\docs-dev\fields\input\user_picker.assets\saveprocess.png).
+   - **Title** - of the user, for example Training Manager
+
+   - **Name** - this is a unique name for the field
+
+   - **Help text** - information to help the form user
+
+   - **Mode** - options are a) Single or b) Multiple 
+
+      If you choose b) Multiple then you can choose the maximum number of users to select by clicking on the arrow or simply typing your number into the box, for example 3 users as shown below.
+
+      ![Maximum number of users to select](images/maxusers.png)
+
+   - **Default to current user** - options to default to the current user when in edit mode are a) No or b) Yes
+
+   - **Member of group** - select the group from your data source that the user is a member of
+
+   - **Selection options** - choose from a) Users b) Groups c) Partners,  as many as needed
+
+   - **Default selection option** - choose one from a) Users b) Groups c) Partners
+
+   - **Show selection option menu** - options are a) No or b) Yes
+
+3. Click on the OK button ![Ok button](images/ok.png) when you are finished editing the field. 
+
+4. If you need to re-edit the user picker field, click on the field itself and the Pen icon ![Pen icon](images/penicon.png) appears allowing you to edit the field.
+
+   ![Editing the user picker field](images/userpickeredit.png)
+
+5. To move the field, click on the Drag handle ![Move button](images/move.png)on the user picker field itself and drag it to where you want it to appear on the form, for example within a panel. 
+
+3. To save your changes to the form, click on the Save button ![Save button](images/saveprocess.png).
+
+
+
+## How to edit User picker properties
+
+To change the User picker field properties, click on the field itself and the properties pane appears on the right.
+
+![User picker field properties](images/userpickerproperties.png)The options within properties are:
+
+- **Show Title** - show the title of the field
+- **Required** - make this field mandatory for users to use
+- **Enabled** - the field is enabled for users to use
+- **Visible** - the field is visible to users
+- **Layout** - change the width of the field by clicking on the bar in the Layout box until you see the desired size. Click on the arrow beside Layout to see the Mobile Layout and click on the bar to change the width of the text box for mobile use.
+
+![Changing text box width](images/textboxsize.png)
+
+- **Rules** - rules for input fields are covered in [link to document]

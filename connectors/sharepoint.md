@@ -1,7 +1,5 @@
 # SharePoint connector
 
-## Introduction
-
 A SharePoint data connector allows you to use SharePoint data sources as part of your Kianda forms or dashboards. This means that as your processes are running they will use the 
 
 

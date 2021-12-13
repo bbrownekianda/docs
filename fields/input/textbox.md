@@ -1,8 +1,6 @@
 # Text box field
 
-## Introduction
-
-The Text box field is used to input text into a form for example a name or address. There are various options available when creating this field for example to allow you to make the field mandatory for users to fill in.
+The **Text box field** is used to input text into a form for example a name or address. There are various options available when creating this field, these are explained below.
 
 
 ## How to get started
@@ -15,13 +13,13 @@ The Text box field is used to input text into a form for example a name or addre
 
 3. Choose from the edit options:
 
-   1. **Title** - of the field, for example Employee Name
+   - **Title** - of the field, for example Employee Name
 
-   2. **Name** - this is a unique name for the field
+   - **Name** - this is a unique name for the field
 
-   3. **Help text** - information to help the form user
+   - **Help text** - information to help the form user
 
-   4. **Mode** - options are a) Single line of text b) Multiple lines of text c) Rich text
+   - **Mode** - options are a) Single line of text b) Multiple lines of text c) Rich text
 
       All three modes include options number 5) to 8) below as well as other options as follows.
 
@@ -45,43 +43,43 @@ The Text box field is used to input text into a form for example a name or addre
 
       ​	If you choose c) Rich text then the options 5) to 8) below are visible.
 
-   5. **Text style** - options are a) Normal b) Capitalise c) Uppercase d) Lowercase
+   - **Text style** - options are a) Normal b) Capitalise c) Uppercase d) Lowercase
 
-   6. **Max length** - the maximum number of characters for the field
+   - **Max length** - the maximum number of characters for the field
 
-   7. **Text style** - options are a) Normal b) Capitalise c) Uppercase d) Lowercase
+   - **Text style** - options are a) Normal b) Capitalise c) Uppercase d) Lowercase
 
-   8. **Expression** - this can be used to return a value for example Date() returns the current date and time. For a full explanation of expressions go to [Expressions](platform/expressions.md) 
+   - **Expression** - this can be used to return a value for example Date() returns the current date and time. For a full explanation of expressions go to [Expressions](platform/expressions.md) 
 
      ![Example of text box options](images/textboxfilled.png)
 
-4. Click on the OK button ![OK button](C:\Kianda\docs-dev\fields\input\textbox.assets\ok.png) when you are finished editing the field. 
+4. Click on the OK button ![OK button](images/ok.png) when you are finished editing the field. 
 
-4. To move the text box, click on the field itself and drag it to where you want it to appear on the form, for example within a panel. 
+4. To move the text box, click on the Drag handle ![Move button](images/move.png)on the text box field itself and drag it to where you want it to appear on the form, for example within a panel. 
 
-5. To save your changes to the text box field, click on the Save button ![Save button](images/saveprocess.png).
+5. To save your changes to the form, click on the Save button ![Save button](images/saveprocess.png).
 
-7. To delete the text box, click on the field itself and then click on the Bin icon ![Bin or Trash icon](images/binicon.png).
+7. To delete the text box, click on the field itself and then click on the Bin/Trash icon ![Bin or Trash icon](images/binicon.png).
 
    
 
 
 ## How to edit Text box properties
 
-1. To change the text box properties, click on the field itself and the properties pane appears on the right.
+To change the text box properties, click on the field itself and the properties pane appears on the right.
 
-   ![Text box properties](images/textboxproperties.png)
+![Text box properties](images/textboxproperties.png)
 
-   The options within properties are:
+The options within properties are:
 
-   - **Show Title** - show the title of the field
-   - **Required** - make this field mandatory for users to fill out
-   - **Enabled** - the field is enabled for users to fill out
-   - **Visible** - the field is visible to users
-   - **Max length** - the maximum number of characters for the field
-   - **Layout** - change the width of the field by clicking on the Layout box until you see the desired size. Click on the arrow beside Layout to see the Mobile Layout and click on box to change the width of the text box for mobile use.
+- **Show Title** - show the title of the field
+- **Required** - make this field mandatory for users to fill out
+- **Enabled** - the field is enabled for users to fill out
+- **Visible** - the field is visible to users
+- **Max length** - the maximum number of characters for the field
+- **Layout** - change the width of the field by clicking on the bar in the Layout box until you see the desired size. Click on the arrow beside Layout to see the Mobile Layout and click on the bar to change the width of the text box for mobile use.
 
-   ![Changing text box width](images/textboxsize.png)
+![Changing text box width](images/textboxsize.png)
 
-   - **Rules** - rules for input fields are covered in [link to document]
+- **Rules** - rules for input fields are covered in [link to document]
 

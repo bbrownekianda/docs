@@ -1,8 +1,6 @@
 # List fields
 
-## Introduction
-
-Lists  can be manually entered into a form or created from an external site like SharePoint, for example a list of Types of Training. There are different display options from dropdown lists to checklists and the ability to make lists mandatory for users to choose in a form amongst other options.
+**Lists** can be manually entered into a form or created from an external site like SharePoint, for example a list of Types of Training. There are different display options from dropdown lists to checklists and the ability to make lists mandatory for users to choose in a form amongst other options.
 
 
 
@@ -46,9 +44,9 @@ Lists  can be manually entered into a form or created from an external site like
 
 3. Click on the OK button ![OK button](images/ok.png) when you are finished editing the field. 
 
-4. To move the list, click on the field itself and drag it to where you want it to appear on the form, for example within a panel. 
+4. To move the list, click on the Drag handle ![Move button](images/move.png)on the list field itself and drag it to where you want it to appear on the form, for example within a panel. 
 
-5. To save your changes to the list field, click on the Save button ![Save button](images/saveprocess.png).
+5. To save your changes to the form, click on the Save button ![Save button](images/saveprocess.png).
 
 6. When your list is complete you should see the list displaying in the format chosen, for example a dropdown list as shown below.
 
@@ -61,19 +59,19 @@ Lists  can be manually entered into a form or created from an external site like
 
 ## How to edit List properties
 
-1. To change the list properties, click on the field itself and the properties pane appears on the right.
+To change the list properties, click on the field itself and the properties pane appears on the right.
 
-   ![List properties](images/listproperties.png)
+![List properties](images/listproperties.png)
 
-   The options within properties are:
+The options within properties are:
 
-   - **Show Title** - show the title of the field
-   - **Required** - make this field mandatory for users to fill out
-   - **Enabled** - the field is enabled for users to fill out
-   - **Visible** - the field is visible to users
-   - **Max length** - the maximum number of characters for the field
-   - **Layout** - change the width of the field by clicking on the Layout box until you see the desired size. Click on the arrow beside Layout to see the Mobile Layout and click on box to change the width of the text box for mobile use.
+- **Show Title** - show the title of the field
+- **Required** - make this field mandatory for users to fill out
+- **Enabled** - the field is enabled for users to fill out
+- **Visible** - the field is visible to users
+- **Max length** - the maximum number of characters for the field
+- **Layout** - change the width of the field by clicking on the bar in the Layout box until you see the desired size. Click on the arrow beside Layout to see the Mobile Layout and click on the bar to change the width of the text box for mobile use.
 
-   ![Changing text box width](images/textboxsize.png)
+![Changing text box width](images/textboxsize.png)
 
-   - **Rules** - rules for input fields are covered in [link to document]
+- **Rules** - rules for input fields are covered in [link to document]

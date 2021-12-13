@@ -24,7 +24,7 @@ This allows you to specify a layout made of 1 to 12 columns and is based on boot
 
 ## Forms & layout fields
 
-Kianda comes with several pre-defined field widgets. In case none of them satisfies your specific needs and if you have some level of [development](development.md) skills you can always create your custom field widget.
+Kianda comes with several pre-defined field widgets. In case none of these satisfies your specific needs and if you have some level of [development](development.md) skills you can always create your custom field widget.
 
 At the time of writing, the default fields fall into four main categories of fields:
 
