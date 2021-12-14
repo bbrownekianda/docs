@@ -4,6 +4,12 @@ The **Text box field** is used to input text into a form for example a name or a
 
 
 ## How to get started
+**How to add a text box to a form - a sample video**
+
+<video title="How to add a text box to a form" width="100%" style="width:100%" controls="controls">
+    <source src="/videos/textbox.mp4" type="video/mp4">
+</video>
+
 
 1. To add the Text box to your form click on **Controls** > **Input** > **Text box**.
 
@@ -13,17 +19,17 @@ The **Text box field** is used to input text into a form for example a name or a
 
 3. Choose from the edit options:
 
-   - **Title** - of the field, for example Employee Name
+   1. **Title** - of the field, for example Employee Name
 
-   - **Name** - this is a unique name for the field
+   2. **Name** - this is a unique name for the field
 
-   - **Help text** - information to help the form user
+   3. **Help text** - information to help the form user
 
-   - **Mode** - options are a) Single line of text b) Multiple lines of text c) Rich text
+   4. **Mode** - options are a) Single line of text b) Multiple lines of text c) Rich text
 
-      All three modes include options number 5) to 8) below as well as other options as follows.
+      All three modes include options numbered 5) to 8) below as well as other options as follows.
 
-      ​	If you choose a) Single line of text then the following options are visible:
+      If you choose a) Single line of text then the following additional options are visible:
 
       ​		**Control type** - options are a) Text b) Password
 
@@ -31,7 +37,7 @@ The **Text box field** is used to input text into a form for example a name or a
 
       ​		**Placeholder** - placeholder text that can help the user to know what to fill out in the text box
 
-      ​	If you choose b) Multiple lines of text then the following options are visible:
+      If you choose b) Multiple lines of text then the following additional options are visible:
 
       ​		**Control type** - options are a) Text b) Password
 
@@ -41,15 +47,15 @@ The **Text box field** is used to input text into a form for example a name or a
 
       ​		**Rows** - the number of rows you would like for the text box
 
-      ​	If you choose c) Rich text then the options 5) to 8) below are visible.
+      If you choose c) Rich text then the options 5) to 8) below are visible.
 
-   - **Text style** - options are a) Normal b) Capitalise c) Uppercase d) Lowercase
+   5. **Text style** - options are a) Normal b) Capitalise c) Uppercase d) Lowercase
 
-   - **Max length** - the maximum number of characters for the field
+   6. **Max length** - the maximum number of characters for the field
 
-   - **Text style** - options are a) Normal b) Capitalise c) Uppercase d) Lowercase
+   7. **Text style** - options are a) Normal b) Capitalise c) Uppercase d) Lowercase
 
-   - **Expression** - this can be used to return a value for example Date() returns the current date and time. For a full explanation of expressions go to [Expressions](platform/expressions.md) 
+   8. **Expression** - this can be used to return a value for example Date() returns the current date and time. For a full explanation of expressions go to [Expressions](platform/expressions.md) 
 
      ![Example of text box options](images/textboxfilled.png)
 

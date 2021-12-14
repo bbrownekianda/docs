@@ -8,7 +8,7 @@
 
 1. To add the List field to your form click on **Controls** > **Input** > **List**.
 
-2. The New field - List box appears. The options are: 
+2. The New field - List box appears, allowing you different editing options. The options are: 
 
    - **Title** - the Title of the field, for example Type of Training, a list of different types of training in an organisation
 
@@ -22,25 +22,33 @@
 
      ![Manually entered list](images/manuallist.png)
 
-     If you choose b) Form data ?[What does this mean]?
+     If you choose b) Form data ?[What does this mean]? then you must choose a Display field and Value field???
 
-     If you choose c) Data source then click on the Datasource button ![Data source button](images/datasource.png) to connect to different data sources for example SharePoint. For information on how to connect to a data source please see [Data connectors](connectors/ReadME.md). 
+     If you choose c) Data source then click on the **Datasource** button ![Data source button](images/datasource.png) to connect to different data sources for example SharePoint. For information on how to connect to a data source please see [Data connectors](connectors/ReadME.md). 
 
-     When you select a data source, select the Display field, Value field and field to Sort by. You can sort values in Ascending or Descending order. 
-
-     Other options include: 
-
-     - Enable offline cache - Yes or No
-
-     - List items limit (default is 50)
+     When you select a data source, select the **Display field**, **Value field** and field to Sort by. You can sort values in **Ascending** or **Descending** order. 
 
      ![Data source list options](images/datasourceops.png) 
 
+     Other options include: 
+
+     - **Enable offline cache** - Yes or No
+
+     - **List items limit** (default is 50)
+
    - **Display format** - options are a) Dropdown list b) Radio list c) Multi select d) Checkbox list
 
-   - **Filter mode** - options are a) Starts with and b) Contains
+     If you choose a) Dropdown list then you have the additional options:
 
-   - **Enable native selector on mobile** - options are a) Yes or b) No
+     - **Filter mode** - the choice is a) Starts with and b) Contains
+
+     - **Enable native selector on mobile** - options are a) Yes or b) No
+
+       ![Dropdown list display format](images/dropdownoptions.png)
+
+     If you choose b) Radio list or d) Checkbox list then you have an option:
+
+     - **List display position** - the choice is a) Horizontal and b) Vertical
 
 3. Click on the OK button ![OK button](images/ok.png) when you are finished editing the field. 
 

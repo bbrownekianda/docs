@@ -8,7 +8,7 @@ A **panel** is section of a form. Panels hold other fields like lists and text b
 
 1. To add a panel to your form click on **Controls** > **Layout** > **Panel**.
 
-2. To edit panel click on the panel itself, click on the field itself and the Pen icon ![Pen icon](images/penicon.png) appears allowing you to edit the panel. 
+2. To edit the panel click on the panel itself and the Pen icon ![Pen icon](images/penicon.png) appears allowing you to edit the panel. 
 
    ![Edit panel](images/panel.png)
 
