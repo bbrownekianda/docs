@@ -1,6 +1,6 @@
 # Introduction to form designer
 
-Kianda form designer provides an intuitive interface where both technical and non-technical users can quickly start building forms for any use case.
+Kianda form designer provides an intuitive interface where you can quickly start building forms for any use case.
 
 The key components of the form designer are:
 

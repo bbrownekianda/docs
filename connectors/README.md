@@ -4,22 +4,22 @@ Connecting to data in Kianda is a breeze. You can quickly connect to a data sour
 
 Kianda comes with a pre-defined set of data connectors, these include:
 
-- [Active Directory](platform/active_directory.md)
-- [DocuSign](platform/docusign.md)
-- [Dropbox](platform/dropbox.md)
-- [Email](platform/email.md)
-- [File system](platform/file_system.md) 
-- [FTP](platform/ftp.md) 
-- [Google Drive](platform/google_drive.md) 
-- [MySQL](platform/mysql.md) 
-- [Office 365](platform/office_365.md) 
-- [Oracle](platform/oracle_database.md) 
-- [Powershell](platform/powershell.md) 
-- [Salesforce](platform/Salesforce.md)
-- [SAP](platform/SAP.md)
-- [SharePoint](platform/sharepoint.md)
-- [SQL](platform/sql_server.md) 
-- [Web services](platform/webservices.md) 
+- [Active Directory](connectors/active_directory.md)
+- [DocuSign](connectors/docusign.md)
+- [Dropbox](connectors/dropbox.md)
+- [Email](connectors/email.md)
+- [File system](connectors/file_system.md) 
+- [FTP](connectors/ftp.md) 
+- [Google Drive](connectors/google_drive.md) 
+- [MySQL](connectors/mysql.md) 
+- [Office 365](connectors/office_365.md) 
+- [Oracle](connectors/oracle_database.md) 
+- [Powershell](connectors/powershell.md) 
+- [Salesforce](connectors/Salesforce.md)
+- [SAP](connectors/SAP.md)
+- [SharePoint](connectors/sharepoint.md)
+- [SQL](connectors/sql_server.md) 
+- [Web services](connectors/webservices.md) 
 
 Click on each of the links above to find out more about each data connector. 
 
