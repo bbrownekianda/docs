@@ -1,6 +1,6 @@
 ## Getting started with Kianda processes
 
-The power of Kianda lies in giving anyone the ability, even those without coding experience, to design a business application or process quickly and efficiently. This process could be a Quality Assurance checklist that installation engineers must follow on site using an application on their mobile phone or it could be a HR process to allow employees to submit annual leave requests and approve these online. Processes can connect to your data sources like Sharepoint or SalesForce allowing for the flexibility of your applications to grow as your business grows.
+The power of Kianda lies in giving anyone, even those without coding experience, the ability to design a **business application or process** quickly and efficiently, for example, this process could be a Quality Assurance checklist that installation engineers must follow on site using an app on their mobile phone or it could be a HR process to allow employees to submit annual leave requests and approve these online. Processes can connect to your data sources like Sharepoint or SalesForce allowing for the flexibility of your applications to grow as your business grows.
 
 Each process comes with **dashboards** so you can see at a glance, for example, how many leave requests were submitted, approved and so on. And you can customise all of these processes the way you want.
 
@@ -32,7 +32,7 @@ Insert video
 
 4. Click on the OK button ![OK button](images/ok.png) when you are finished editing the process. 
 
-5. Your process is now available to start editing. Go to [Form Designer](platform/form_designer.md) to find out more on how to edit your process.
+5. Your process is now available to start editing. Go to [Form Designer](platform/form_designer.md) to find out more on how to customise your process.
 
    
 

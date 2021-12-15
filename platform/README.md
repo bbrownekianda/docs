@@ -1,4 +1,4 @@
-## Getting started with the Kianda platform
+##  Getting started with the Kianda platform
 
 The Kianda platform no-code / low-code (NCLC) platform is built with the ultimate flexibility and agility in mind.
 
@@ -33,7 +33,7 @@ In summary the Kianda platform provides an ideal interface for rapid prototyping
 
 
 
-### Table of contents:
+### Table of contents
 
 - [First steps with Kianda](/platform/first_steps.md)
 - [Application desiger (Rapid UI prototyping)](/platform/form-designer.md)

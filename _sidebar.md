@@ -3,6 +3,7 @@
 - [Platform](/platform/)
 
   - [Getting started](/platform/first_steps.md)
+    - [Kianda Workspace](platform/workspace.md)
   - [Application designer](/platform/form-designer.md)
     - [Form designer](/platform/form-designer.md)
     - [Responsive layout](/platform/responsive_layout.md)

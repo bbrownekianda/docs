@@ -33,9 +33,9 @@ You can add this data connector
 
    - **Authentication mode** - options are a) SharePoint Online Authorisation and b) System User Credentials
 
-     If you choose a) SharePoint Online Authorisation then click on **Authorize** button ![Authorize button](images/authorize.png) - requires admin rights
+     If you choose a) SharePoint Online Authorisation then click on **Authorize** button ![Authorize button](images/authorize.png) in this instance you will need SharePoint administration rights
 
-     If you choose b) System User Credentials then fill out your username and password - doesn't require admin rights
+     If you choose b) System User Credentials then fill out your username and password. In this instance you do not need SharePoint administration rights.
    
 1. Click on **Save** ![Save button](images/save.png) and you should see a message "Details saved successfully".
 
