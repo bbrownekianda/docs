@@ -2,18 +2,18 @@
 
 The Kianda user interface is designed to be responsive and intuitive, allowing you to easily create and control your business processes.  The Kianda **Workspace** gives you to ability to manage all your processes and view real-time data presented in dashboards, to guide your business decisions.
 
+You can find out more about the Kianda workspace below or go straight to [Getting started with Kianda processes](gettingstarted.md) to create your first process.
+
 ![User interface](images/userinterface2.png)
 
 The layout of the user interface is as follows:
 
-1. **Company logo** - the top left-hand corner is reserved for the upload of your company logos. If you click on the **Collapse navigation** button ![Collapse navigation button](images/navigation.png)you will see the collapsed version of the company logo (as seen on a mobile phone?)
+1. **Company logo** - the top left-hand corner is reserved for the upload of your company logos. If you click on the **Collapse navigation** button ![Collapse navigation button](images/navigation.png)you will see the collapsed version of the company logo and collapsed side menu.
 
 2. **Side menu** - This left-hand pane contains all the key functions for process management. Features include:
    - Home - home page for the workspace
    
-   - [Dashboard](platform/dashboard.md) - contains all the process dashboards
-   
-   - [Inspection Checklist](platform/checklist.md) - dashboard of inspection lists
+   - User defined pages - these are defined by you the user, depending on what features you want to showcase, for example Dashboard could contain all the process dashboards and Inspection Checklist could be a dashboard of inspection lists
    
    - [Administration](platform/administration.md) - contains 9 functions related to administration of your Kianda workspace. Click on Details below to see a list of functions and links to find out more about each one.
    
@@ -41,4 +41,7 @@ The layout of the user interface is as follows:
    - User notifications ![Notifications button](images/notifications.png)
    - User profile ![User profile](images/userprofile.png) 
    
-5. **View pane** - When you click on different functions like Dashboards, you will be able to see this in the main pane
+   Click on [Quick Action menu](quickaction.md) to find out more about each button.
+
+
+

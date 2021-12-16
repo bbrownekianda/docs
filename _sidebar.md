@@ -4,6 +4,8 @@
 
   - [Getting started](/platform/first_steps.md)
     - [Kianda Workspace](platform/workspace.md)
+    - [Getting started with Kianda processes](platform/process.md)
+    - [Help](platform/help.md)
   - [Application designer](/platform/form-designer.md)
     - [Form designer](/platform/form-designer.md)
     - [Responsive layout](/platform/responsive_layout.md)
