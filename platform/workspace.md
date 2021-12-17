@@ -2,7 +2,7 @@
 
 The Kianda user interface is designed to be responsive and intuitive, allowing you to easily create and control your business processes.  The Kianda **Workspace** gives you to ability to manage all your processes and view real-time data presented in dashboards, to guide your business decisions.
 
-You can find out more about the Kianda workspace below or go straight to [Getting started with Kianda processes](gettingstarted.md) to create your first process.
+You can find out more about the Kianda workspace below or go straight to [Getting started with Kianda processes](platform.md) to create your first process.
 
 ![User interface](images/userinterface2.png)
 

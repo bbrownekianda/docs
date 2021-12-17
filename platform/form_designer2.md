@@ -1,209 +1,191 @@
-# Designer
+# Form Designer
 
-The Designer function is found under Administration in the side menu. Kianda form **Designer** provides an intuitive interface where you can quickly start building forms for any use case.
+Kianda form **Designer** provides an intuitive interface where you can quickly start building **forms** for any use case.
+
+From the main process view, double-click on any process and the form designer window opens.
+
+![Form Designer](images/formlayout.png)
 
 The key components of the form designer are:
 
-1. Left side panel containing both **controls** and **rules** that can be added to forms.
+1. Left-hand pane contains both **controls** and **rules** that can be added to forms. Go to [Controls](fields/README.md) and [Rules](rules/README.md) to find out more. 
+
 2. The central area is where the current **form canvas** is displayed.
-3. The right panel is where the currently selected component **properties** and **rules** are displayed.
 
-***Form designer key components***
+3. The right-hand pane is where the **properties** and **rules** are displayed for the selected item.
+Note that the name of the process you are working on is shown in the top menu bar, for example Training Request. 
 
-![Form designer components](../images/form-designer.png)
+4. At any time you can go back to the process list by clicking on Exit process designer button ![Exit process designer](images/exitdesign.png) .
 
-## Responsive form layout
 
-Form fields are made to with a mobile-first approach giving you design once and deploy everywhere opportunity.
 
-By using the **Layout** option under the property panel you will be able to simply define the layout of your fields or panels within a form. Clicking on the **^** quickly uncovers the layout mode for desktop and mobile.
+## Getting started with forms
 
-![Layout mode](../images/layout-mode.png)
+1. How you get started with forms depends on:
 
-This allows you to specify a layout made of 1 to 12 columns and is based on bootstrap, a popular CSS  framework that allows designing web interfaces with a mobile-first approach.
+   - If you have created a process using the App Store, see [Predefined forms](#Predefined forms)
 
-## Forms & layout fields
+   - If you have created a process from scratch, see [New form](#New form)
 
-Kianda comes with several pre-defined field widgets. In case none of these satisfies your specific needs and if you have some level of [development](development.md) skills you can always create your custom field widget.
+   - If you import forms, see [Import forms](#Import forms)
 
-At the time of writing, the default fields fall into four main categories of fields:
+2. Once your form is created, there are a number of actions you can perform, see [Settings and Properties](#Settings and Properties). 
 
-1. **Input** - Input fields include the most common data fields such as textbox, user picker, date field, table, checkbox, drop-down and number fields.
-2. **Layout** - Layout fields are the fields that serve the purpose of perfecting the layout of your form. They include responsive panels, dialog box, field groups and rich text fields.
-3. **Action** - Action fields are fields that allow user interface actions like buttons, links or even signature components.
-4. **Custom**  - Under custom fields, you will find any custom-developed fields available under your developer section.
+   
 
-Layout fields take an important role when building a modern user interface and allow you to achieve the pixel perfect layout you want.
+### Predefined forms ###
 
-### Model dialogs
+1. If you have created a process using the App Store, then a number of forms will already be part of the process. For example the process Security Incident Management has 5 forms attached: Incident detail, Data breach, Malware outbreak, Root cause remedy and Caller review. Click on [Kianda Apps](platform/appstore.md) to find out more about other apps in the App Store. 
 
-Model dialogs are a special form of layout fields. It allows a form designer to define an interface with the key intention of grabbing users attention to something important.
+2. You can simply click on a form and click on the Pen button ![Pen icon](images/penicon.png)to edit the form details. You can also click on the **Add form** button ![Add form](images/addform.png)to add a new form. Edit options are shown under [New form](#New form).
 
-Typically we use dialogs for things like requiring user confirmation or to let them make a final decision.
+   
 
-***How to use a model dialog***
+### New form ###
 
-<video width="100%" style="width:100%" controls>
-    <source src="../videos/How to use a model dialog.mp4">
-    Your browser does not support the video tag.
-    </source>
-</video>
+1. If you have created a process from scratch, an empty form is added to your process by default. Click on this form and the Pen button ![Pen icon](images/penicon.png)to customise it. You can also click on the **Add form** button ![Add form](images/addform.png)to add a new form. 
 
+   ![Edit form](images/editform.png)
 
-On the example above, we use a modal dialog to display a simple *warning to the user*. The following are the steps:
+2. Choose from the edit options:
 
-1. On the Layout components, select the *Dialog*.
-2. Click on the dialog component to insert other fields within it.
-3. You can add any field to your dialog, in this case, we are adding a Rich text.
-4. To preview how your dialog box will be displayed, you can use the **Preview** button, on the dialog component.
+   1. **Title** - of the form, for example Employee Request Form
 
-### Forms
+   2. **Name** - this is a unique name for the form
 
-Forms are an important component of any process, they might be used as stages of a process and could be made active individually or at the same time (parallel forms).
+   3. **Default owner(s)** - by default the form creator is an owner. You can remove this user by clicking on x and add other owners by clicking on the arrow and choose from **Users**, **Groups** or **Partners**. 
 
-The key rules for working with forms are:
+      - Users - allows you to choose individual owners
+      - Groups - allows you to choose from defined groups for example HR Team or Management Team
+      - Partners - TO COME BACK TO
 
-1. Forms are assignable - means that only a form assignee can edit a particular form. This can be a combination of users and groups.
-2. Only form owners can edit a given form by default. Any other user with access to view the form will see it in read-only mode.
-3. Multi-step processes use the concept of "current form". Only the form matching the process status will be made editable.
-4. In a multi-step process, other forms that are not "current form" can be configured to **activate with** the current form. Meaning they might also be editable and will form a form group.
+   4. **Activate with** - TO COME BACK TO
 
-The rules above work together to determine if the form is in edit mode or display mode. Form designers have at their disposal [business rules](business-rules.md) such as *assign form*, *go to form* and *submit rule* to dynamically control the ability for end-users to edit a particular form or a section of a form.
+   5. **Submit mode** - options are a) Only this form or b) All forms in edit mode
 
-***How to add new form***
+   6. **Form icon** - click on the arrow to choose from hundreds of icons to attach to your form.
 
-<video width="100%" style="width:100%" controls>
-    <source src="../videos/How to add new form 2.mp4">
-    Your browser does not support the video tag.
-    </source>
-</video>
+   7. **Form theme** - choose from Navy, Green, Blue, Amber, Red or White Colours for your form.
 
+   8. **Enable quick actions** - if you tick the box, you can select from the options a) Enable re-assign b) Enable edit and c) Enable custom action. Click on Ellipsis button ![Ellipsis button](images/ellipsis.png)to further modify the action settings. I
 
-1. Click on *Add form*, on the top right side of the page.
-2. Give your form a title.
-3. The *name* is a unique identifier - you can leave it as it is.
-4. You can define an owner to the form.
-5. Activate with will decide when the form will be active - if you leave it blank, the new form will be activated *sequentially* after the first form is submitted.
-6. Select *Submit mode* - you can submit just the current form or all forms that are in edit mode.
-7. Check *Enable quick actions* if you want the form to be edited or re-assigned.
-8. Provide a user or group in the *Quick action user (s)* to whom you would like to permit to re-assign or edit the form.
+      - If you click on **Enable re-assign**, you can reassign action settings to particular Users, Groups or Partners. Click on **Allow form owners** if you want form owners to be able to reassign actions.
 
-## Anonymous Forms
+      ![Reassign action settings](images/reassignactions.png)
 
-Anonymous forms are a great way of allowing people outside of your organisation to interact with your processes. 
+      - If you click on **Enable edit**, you can allow certain Users, Groups or Partners to edit the form, along with form owners by clicking on **Allow form owners**. 
 
-It could be something as simple as a contact form or a feedback form but as we all know a contact form never ends with the contact submission. There is always a process or a series of steps behind each public/anonymous form that might culminate with an actionable result back to the person that started the submission.
+        Other options include a tick box **When editing auto hide form footer buttons** and **Trigger rules on save**. Click on the Save action field bar to choose from actions: **Submit**, **Save** or **Close**. 
 
-We have seen a few examples of how people use anonymous forms in Kianda. From simple feedback forms to GDPR data requests that hope between multi divisions before sending back a response to the requester with the level of information held by the organization.
+        ![Edit action settings](images/editactions.png)
 
-Anonymous forms can be embedded in iframes and safely displayed within other web-based applications.
+      - If you click on **Enable custom action**, you can allow certain Users, Groups or Partners to edit the form, along with form owners by clicking on **Allow form owners**. 
 
-In Kianda there are effectively 2 types of anonymous forms
+        Other options include **Action label**, Target action field and **Action display mode**, for example **Read-only mode**, **Edit mode** or **Both**.  TO COME BACK TO
 
-- New process anonymous form
-- Existing process anonymous form
+     ![Custom action settings](images/customsettings.png)
 
-### New instance anonymous form URL
+3. Click on the **OK** button ![OK button](C:\Kianda\docs-dev\fields\input\images\ok.png) when you are finished editing or click on **Close** to exit the dialog box.
 
-To set up a globally available link for allowing external users to create a new instance, perform the following steps within the form designer:
+4. To save your changes to the form, click on the Save button ![Save button](C:\Kianda\docs-dev\fields\input\images\saveprocess.png). You can also implement additional settings see [Process Settings](#Process Settings).
 
-1. On the top right corner of the designer click on the settings button.
-2. Then click the option "Enable anonymous sharing of forms" to Yes.
-3. Click the button "New Link" to generate a new anonymous link.
+5. You are now ready to start adding **controls** and **rules** to your form. Go to [Controls](fields/README.md) and [Rules](rules/README.md) to find out more. 
 
-![Anonymous Form Setting](../images\anonymous-forms.png)
+   
 
-### Existing instance anonymous form URL
+### Import forms ###
 
-To setup existing instance anonymous form one needs to use the anonymous form rule to generate a new anonymous link at the runtime that will point to an existing process record that can then be shared with external users.
+1. You can import a previously designed form by clicking on the Import button ![Import button](images/importform.png).
 
-Note that for this to work steps 1 and 2 of New Instance Anonymous form is still required.
+2. Click on the arrow to select from the drop down list to **Select a process design**. 
 
-The following are some of the key options of the anonymous link rule:
+3. Click on a process of interest and then click on the forms and fields to import. Forms are indicated by a + symbol and can be expanded to show elements within a form like a panel containing different fields like lists and text boxes. 
 
-- Form to share (any form within an existing process).
-- Link expires settings: Number of uses, time-based or never expire.
-- Message to display on submission.
+   ![Import from another process](images/importprocessdetails.png)
 
-**Important**: There can be only one active link of each type for a given process. Once a new anonymous link is created for a process it will automatically expire the previous of the same type if a link existed.
+   In this way you can very quickly reuse some or all parts of an existing form. 
 
-## Input fields
+4. Click on the **OK** button ![OK button](C:\Kianda\docs-dev\fields\input\images\ok.png) when you are finished editing or click on **Close** to exit the dialog box.
 
-Kianda forms usability is brought to life with the help of the various input fields available that are specifically adapted to work in mobile, tablet or desktop modes.
 
-From the textbox, date picker, numeric input, file upload and table, Kianda offers a flexible array of controls that can be adjusted to work with a myriad of scenarios.
 
-Key properties of fields:
+ ## Settings and Properties ## 
 
-Each field comes with its own set of settings like autofill for textbox and currency format for numeric input. 
+In addition to the edits above, there are a number other actions and settings that you can implement to your process and forms. 
 
-The following are some of the common settings of input fields:
+![Process and form properties](images/processproperties.png)
 
-- Title - Every field comes with a title property that is usually displayed on top of the field and can serve as a prompt to a user.
-- Required - This Boolean property allows making a field mandatory or not.
-- Visible - Displays the field in the form or not.
-- Layout - Defines both desktop or mobile layout.
+These are on view in the right-hand pane and give you the ability to:
 
-### Cascading dropdown
+- View [Design version history](#Design version history)
 
-The List field provides the opportunity to define an unlimited level cascading dropdown hierarchy very easily.
+- Change [Process settings](#Process settings)
 
-To achieve that you might connect your list to a data source table or SharePoint list then use the list data source conditions options to filter its content based on a parent list. 
+- Create a duplicate form by selecting a form, clicking on the Clone button ![Clone button](C:\Kianda\docs-dev\platform\form_designer2.assets\clone.png)and then click on **Ok**. A version called 'Form Name Copy' is created and available to edit on the canvas. 
 
-![Cascading dropdown](../images/cascading-dropdown.png)
+- Edit form information by selecting a form and clicking on the Pen button ![Pen icon](images/penicon.png).
 
-***How to create cascading dropdowns***
+- Delete a form by selecting a form, clicking on the Bin/Trash button ![Bin icon](C:\Kianda\docs-dev\platform\form_designer2.assets\binicon-16397581516591.png) and then click on **Ok** after you have reviewed the form title and you are sure this is what you want to delete. Click on **Cancel** if you wish to cancel the deletion.
 
-<video width="100%" style="width:100%" controls>
-    <source src="../videos/How to create cascading dropdowns.mp4">
-    Your browser does not support the video tag.
-    </source>
-</video>
+- View and edit [Form properties](#Form properties)
 
+  
 
-## Input validation
+### Design version history ###
 
-Validating input in forms is quick and easy. Simply enable the **required** flag of an input field and it will automatically prevent users from submitting it empty.
+The **current version** of a process is always visible in the right-hand pane, for example V0.1 as shown below.
 
-The required flag will conveniently be ignored in case the field is not visible, this will allow you to configure conditionally mandatory fields.
+![Right-hand pane](images/processproperties.png)
 
-Another way of validating input is to use the **validate input rule** this allows greater flexibility in terms of when or what to validate.
+The **first version** of a process is **0.1** and will increment to 0.2 and so on, each time a process is saved. Once the process is **published** the version changes to **1.0** and increments with each publication. This makes it is easy to keep track of who and when changes were made and to restore an older version if needed. 
 
-## Cloning
+1. To view the version history click on the Design version history button ![View design version history](images/version.png) .
 
-In the form designer, almost any of the components can be cloned. This will increase your productivity considerably and will make creating multi-step processes a breeze.
+2. A pop-up shows the version history details including when the version was created and who created it. 
 
-To clone either a field a panel or even a form simple select the component then click the clone button in the  properties panel in the right-hand side of the panel.
+   ![Version history details](images/versiondetails.png)
 
-If cloning a field the cloning dialog will prompt for the destination of the new cloned field, once your choice is made, simply click ok.
+3. Click on a particular version to see the version information, for example forms, fields and rules that were added,  modified or removed.
 
-***Cloning a form***
+4. Click on the Restore button ![Restore button](images/restore.png) beside a particular version and then click on **Ok** to confirm that you want to restore to that version. 
 
-<video width="100%" style="width:100%" controls>
-    <source src="../videos/Cloning a form updated.mp4">
-    Your browser does not support the video tag.
-    </source>
-</video>
 
 
-## Custom fields
+### Process settings
 
-Custom fields section provides access to fields that are built for extensibility of Kianda capabilities. It is particularly useful in those situations where existing fields or rules will not provide the required functionality.
+You can edit process settings by clicking on the **Settings** button ![Settings button](images/settings.png)in the right-hand pane. 
 
-Custom fields have the purpose of providing a user interface for end-users. If you need to build "an action" then you should use a custom rule widget.
+Choose from the settings:
 
-It allows a developer to build a reusable component that would then be used by process designers in real processes.
+1. **Process id settings** - choose from a) Default or b) Custom and use a combination of [ProcessName]-[UniqueNumber]-[FieldName]
 
-Check-out the [development](development.md) section for more details on how to build custom widgets in Kianda.
+2. **Enable process security** - if you tick the box, can allow certain Users, Groups or Partners to have certain privileges related to the radio button options to create, assign and view as shown below.
 
-## Advanced techniques
+   ![Process security](images/processsecurity.png)
 
-Like the cascading dropdown discussed above, several other advanced scenarios can be easily configured in Kianda. Here is a short-list:
+   The default setting is **Security users can create, assign to can update, everyone else can view**.
 
-- **Repeating section** - A repeating section can be created by adding a **panel** to a table field. This table can be configured to include a single column made of the panel that itself will include the repeating fields of your repeating section.
-- **The capture of media** - Kianda enables mobile users to directly capture pictures, video or audio just like a native application.
--  **Background save** - By making use of PWA principles (Progressive Web Application) Kianda allows the ability to perform background operations. This is useful when, for example, a mobile user picks-up their phone to perform a quick action and places it back in his pocket. Operations will continue in the background allowing all data to be captured.
-- **Image annotation** - Kianda allows for image annotation online or offline.
-- **Multi-column / row layout** - Making multi-column responsive interfaces is quite easy. Simply add two panels into a form that only use half of the screen (6 columns) then add fields inside panels and you have multiple column layouts. Adding a panel using 12 columns gives you a row.
-- **Form tab colour and icon** - Form tabs can be quickly customised to display their icons or tab colours, it is also possible to define custom colours for selected and completed form tabs.
-- **Hide form tab and left nav** - This is self-explanatory, yes you can hide the default navigation elements.
+3. **On load rules execution mode** - options are a) Always b) When in edit mode or c) When open new. The default setting is **Always**. TO COME BACK TO
+
+4. **Hide form tabs** - options are a) Yes or b) No TO COME BACK TO
+
+5. **Hide left nav** - options are a) Yes or b) No TO COME BACK TO
+
+6. **Enable anonymous sharing of forms** - options are a) Yes or b) No TO COME BACK TO
+
+7. **Enable mobile bottom navigation** - options are a) Yes or b) No TO COME BACK TO
+
+8. **Instance delete settings** - options are a) Any user can delete b) Creator can delete c) "Current form owner" can delete d) "Security users" can delete e) "Admins only" can delete. The default setting is **Creator can delete**.
+
+9. **Enable form assignment notification** - options are a) Yes or b) No TO COME BACK TO
+
+10. **Prevent closing instance with unsaved data** - options are a) Yes or b) No
+
+11. **Selected tab theme** - choose from Navy, Green, Blue, Amber, Red or White as a colour when a form is selected.
+
+12. **Completed tab theme** - choose from Navy, Green, Blue, Amber, Red or White as a colour when a form is completed.
+
+13. Click on the **OK** button ![OK button](C:\Kianda\docs-dev\fields\input\images\ok.png) when you are finished or click on **Close** to exit the dialog box. 
+
+
+

@@ -4,9 +4,7 @@ The power of Kianda lies in giving anyone, even those without coding experience,
 
 Each process comes with **dashboards** so you can see at a glance, for example, how many leave requests were submitted, approved and so on. And you can customise all of these processes the way you want.
 
-Before you begin, we at Kianda recommend doing some simple planning before you design your process. It could be something as simple as a quick flow chart or a spreadsheet where you quickly log the key components, fields or rules that should be needed in the process. Watch this video to give you some ideas about what is possible with Kianda and how you can use these features in your process design.
-
-Insert video
+Before you begin, we at Kianda recommend doing some simple planning before you design your process. It could be something as simple as a quick flow chart or a spreadsheet where you quickly log the key components, fields or rules that should be needed in the process. 
 
 
 
@@ -22,23 +20,17 @@ Insert video
 
    - Import processes that are already created, see [Importing processes](#Importing processes)
 
-3. When processes are created they are available to view and to edit.
-   
-     ![Process created](images/firstprocess2.png)
-     
-     You will note that information related to your processes are found in the main view panel, for example who created the process, and when. 
-     
-     The first version of a process is 0.1 and will increment to 0.2 and so on, each time a process is updated. Once the process is published the version changes, to 1.0 and increments with each publication. This way it is easy to keep track of who and when changes were made and to restore an older version if needed.
-     
-4. When you have created your process go to [Form Designer](platform/form_designer.md) to find out more on how to add and change forms within your process(es).
+3. When you have created your process go to [Editing processes](#Editing processes) to find out more about your new process.
 
-     
+   ​    
 
-### Create processes using the App Store
+### Using the App Store
 
 1. You can choose from Kianda's process templates by clicking on the **App Store** button ![App Store button](images/appstore.png)
 
 2. Choose from General, IT, Customer Services, Finance, Travel, Quality and Accounting apps in the left-hand pane and then select an app from within that category, for example Customer Support Queries.
+
+   Click on [Kianda Apps](platform/appstore.md) to find out more about other apps in the App Store.
 
    ![App store General Apps](images/appstoreegs2.png)
 
@@ -62,13 +54,11 @@ Insert video
 
 8. Imported processes are available to view and edit from the main process view.
 
-9. Click on [App Store](platform/appstore.md) to find out more about other Kianda apps. 
-
 5. When you have created your process go to [Form Designer](platform/form_designer.md) to find out more on how to add and change forms within your process(es).
 
 
 
-### Create your own processes
+### Creating your own processes
 
 1. To create your own process, click on the **Add new button** ![Add new process button](images/addnew.png) . Note that if you click on the arrow you have options to create a Process, a Component or to Create from datasource. Click on [Process design](platform/processdesign.md) to find out more.
 
@@ -90,7 +80,7 @@ Insert video
 
      ![Admin users](images/adminusers.png)
 
-3. Click on the OK button ![OK button](images/ok.png) when you are finished. 
+3. Click on the **OK** button ![OK button](images/ok.png) when you are finished, or click on **Close** to exit the dialog box.
 
 3. When you have created your process go to [Form Designer](platform/form_designer.md) to find out more on how to add forms to your process(es).
 
@@ -150,9 +140,24 @@ Insert video
 
    ![Exported files](images/kiandafiles.png)
 
-   
 
-   
+
+
+## Editing processes
+
+1. When processes are created they are available to view and to edit.
+
+   ![Process created](images/firstprocess2.png)
+
+   You will note that information related to your processes are found in the main view panel, for example who created the process, and when. 
+
+2. The first version of a process is **0.1** and will increment to 0.2 and so on, each time a process is updated. Once the process is **published** the version changes to **1.0** and increments with each publication. This makes it is easy to keep track of who and when changes were made and to restore an older version if needed. You can search for processes by typing your keywords into the search bar.
+
+2. When you have created your process go to [Form Designer](platform/form_designer.md) to find out more on how to add and change forms within your process(es).
+
+3. At any time you can edit the Title, Description, Group and Administrators of the process by clicking on the Pen button ![Pen icon](images/penicon.png).
+
+4. At any time you can delete a process by clicking on the Bin/Trash button ![Bin icon](images/binicon.png) and then click on **Ok** after you have reviewed the process title and are sure this is what you want to delete. Click on **Cancel** if you wish to cancel the deletion.
 
 
 
