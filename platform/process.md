@@ -14,13 +14,15 @@ Before you begin, we at Kianda recommend doing some simple planning before you d
 
 2. To create processes you can:
 
-   - Use Kianda's pre-defined processes or Apps, see [Create processes using the App Store](#Create processes using the App Store)
+   - Use Kianda's pre-defined processes or Apps, see [Using the App Store](#Using the App Store)
 
-   - Create your own processes from scratch, see [Create your own processes](#Create your own processes) 
+   - Create your own processes from scratch, see [Creating your own processes](#Creating your own processes) 
 
    - Import processes that are already created, see [Importing processes](#Importing processes)
 
-3. When you have created your process go to [Editing processes](#Editing processes) to find out more about your new process.
+3. When you have created your process(es)  go to [Editing processes](#Editing processes) to find out how to start adding forms.
+
+3. You can also export any processes for backup and reuse, see [Exporting processes](#Exporting processes).
 
    ​    
 
@@ -28,7 +30,7 @@ Before you begin, we at Kianda recommend doing some simple planning before you d
 
 1. You can choose from Kianda's process templates by clicking on the **App Store** button ![App Store button](images/appstore.png)
 
-2. Choose from General, IT, Customer Services, Finance, Travel, Quality and Accounting apps in the left-hand pane and then select an app from within that category, for example Customer Support Queries.
+2. Choose from **General**, **IT**, **Customer Services**, **Finance**, **Travel**, **Quality** and **Accounting** apps by clicking on the relevant button in the left-hand pane and then select an app from within that category, for example Customer Support Queries.
 
    Click on [Kianda Apps](platform/appstore.md) to find out more about other apps in the App Store.
 
@@ -60,11 +62,23 @@ Before you begin, we at Kianda recommend doing some simple planning before you d
 
 ### Creating your own processes
 
-1. To create your own process, click on the **Add new button** ![Add new process button](images/addnew.png) . Note that if you click on the arrow you have options to create a Process, a Component or to Create from datasource. Click on [Process design](platform/processdesign.md) to find out more.
+1. To create your own process, click on the **Add new button** ![Add new process button](images/addnew.png) . Note that if you click on the arrow you have options to create a **Process**, a **Component** or **Create from datasource**.
 
-   ![Add new process options](images/newprocessoptions.png)
+   ![Add new process options](C:\Kianda\docs-dev\platform\process.assets\newprocessoptions.png)
 
-2. Choose from the edit options:
+   
+
+   - A **Process** is a complete set of forms that encapsulates a business process like Purchase Order Approval.
+
+   - A **Component** is a part of a business process, you can decide your approach and how you want to order and present forms.
+
+   - **Create from datasource** refers to using a particular data source and elements within that (datasource tree), for example if you choose Kianda pre-defined processes then when you select **Kianda** then you can see all the processes that are already imported into your system as shown on the right in the image below.
+
+     ![Kianda data source](images/datasourcecreate.png)
+
+      Click on the **OK** button ![OK button](images/ok.png) when you are finished, or click on **Close** to exit the dialog box.
+
+2. The following edit options are available:
 
    - **Title** - of the process, for example Annual Leave Approval
 
@@ -72,7 +86,7 @@ Before you begin, we at Kianda recommend doing some simple planning before you d
 
    - **Description** - a description of the process
 
-   - **Group** - TO RETURN TO
+   - **Group** - a defined group of users for example HR Managers
 
    - **Administrators** - choose from a) Users or b) Groups
 
@@ -82,7 +96,7 @@ Before you begin, we at Kianda recommend doing some simple planning before you d
 
 3. Click on the **OK** button ![OK button](images/ok.png) when you are finished, or click on **Close** to exit the dialog box.
 
-3. When you have created your process go to [Form Designer](platform/form_designer.md) to find out more on how to add forms to your process(es).
+3. When you have created your process go to [Form Designer](platform/form_designer2.md) to find out more on how to add forms to your process(es).
 
    
 
@@ -153,11 +167,11 @@ Before you begin, we at Kianda recommend doing some simple planning before you d
 
 2. The first version of a process is **0.1** and will increment to 0.2 and so on, each time a process is updated. Once the process is **published** the version changes to **1.0** and increments with each publication. This makes it is easy to keep track of who and when changes were made and to restore an older version if needed. You can search for processes by typing your keywords into the search bar.
 
-2. When you have created your process go to [Form Designer](platform/form_designer.md) to find out more on how to add and change forms within your process(es).
+2. When you have created your process, go to [Form Designer](platform/form_designer2.md) to find out more on how to add and change forms within your process(es).
 
-3. At any time you can edit the Title, Description, Group and Administrators of the process by clicking on the Pen button ![Pen icon](images/penicon.png).
+3. At any time you can edit the Title, Description, Group and Administrators of the process by clicking on the **Pen** button ![Pen icon](images/penicon.png).
 
-4. At any time you can delete a process by clicking on the Bin/Trash button ![Bin icon](images/binicon.png) and then click on **Ok** after you have reviewed the process title and are sure this is what you want to delete. Click on **Cancel** if you wish to cancel the deletion.
+4. At any time you can delete a process by clicking on the **Bin/Trash** button ![Bin icon](images/binicon.png) and then click on **Ok** after you have reviewed the process title and are sure this is what you want to delete. Click on **Cancel** if you wish to cancel the deletion.
 
 
 

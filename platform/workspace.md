@@ -35,11 +35,11 @@ The layout of the user interface is as follows:
 
 3. **Quick Action menu** - the top right-hand menu bar contains shortcuts to keep you updated. Features include:
    
-   - Create a new page ![create a new page](images/addnewpage.png)
-   - Edit current page ![Edit the current page](images/editpage.png)
-   - Online session refresh ![Refresh button](images/refresh.png)
-   - User notifications ![Notifications button](images/notifications.png)
-   - User profile ![User profile](images/userprofile.png) 
+   - **Create a new page** ![create a new page](images/addnewpage.png)
+   - **Edit current page** ![Edit the current page](images/editpage.png)
+   - **Online session refresh** ![Refresh button](images/refresh.png)
+   - **User notifications** ![Notifications button](images/notifications.png)
+   - **User profile** ![User profile](images/userprofile.png) 
    
    Click on [Quick Action menu](quickaction.md) to find out more about each button.
 
