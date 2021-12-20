@@ -140,7 +140,7 @@ If you have added a new form during the form creation process, then a blank canv
 
 You can:
 
-1) Add elements to this canvas by clicking on  [Controls](fields/README.md) and [Rules](rules/README.md) in the left-hand pane.
+1) Add elements to this canvas by clicking on [Controls](fields/README.md) and [Rules](rules/README.md) in the left-hand pane.
 2) Move elements by clicking on the **Drag Handle** ![Drag handle](images/move.png) beside the item and dragging it to where you want to place it. 
 3) Edit elements by clicking on each item and clicking on the **Pen** button ![Pen icon](images/penicon.png) for example if you click on the **Close button** there are a number of options to choose from when editing see [Form buttons](#Form buttons).
 
@@ -248,13 +248,13 @@ Choose from the settings:
 
 3. **Show info** - click on this tickbox if you want to show information???
 
-Go to  [Rules](rules/README.md) to find out more about **rules**.
+Go to [Rules](rules/README.md) to find out more about **rules**.
 
 
 
 ### Form buttons ###
 
-By default there are 3 buttons on all forms, **Submit**, **Save** and **Close**, but you can change these to buttons of your choice. 
+By default there are 3 buttons on all forms, **Submit**, **Save** and **Close**, but you can change these to buttons in a myriad of ways to customise your users' experience see sections [Editing a button](#Editing a button), [Copying a button](#Copying a button), [Changing button properties](#Changing button properties) and [Deleting a button](#Deleting a button) below.
 
 #### Editing a button
 
@@ -278,18 +278,47 @@ To edit a button:
 
    7. **Enable button security** - options are a) Yes or b) No
 
-   Click on the **OK** button ![OK button](C:\Kianda\docs-dev\fields\input\images\ok.png) when you are finished or click on **Close** to exit the dialog box. 
+3. Click on the **OK** button ![OK button](C:\Kianda\docs-dev\fields\input\images\ok.png) when you are finished or click on **Close** to exit the dialog box. 
+
+3. You can change the button to a different field type by clicking on the button itself and the **Change field** button ![Change field](images/changefield.png)in the right-hand pane. Then choose from one of 18 field types and edit the field chosen. See [Controls](fields/README.md) for more information on field types.
+
    
-   
+
+#### Changing button properties ####
+
+To edit button properties, click on the button itself and the properties appear in the right-hand pane.
+
+![Button properties](images/buttonproperties.png)
+
+The options within properties are:
+
+- **Title** - the name of the button, for example Close
+- **Show title** - show the title of the button
+- **Enabled** - the field is enabled for users to use
+- **Visible** - the button is visible to users
+- **Perform validation** - TO COME BACK TO
+- **Show in display mode** - TO COME BACK TO
+- **Layout** - change the width of the field {TO COME BACK TO - does this work for buttons??) by clicking on the bar in the Layout box until you see the desired size, from 1 to 12 columns. Click on the arrow beside Layout to see the Mobile Layout and click on the bar to change the width for mobile use.
+
+![Changing text box width](C:\Kianda\docs-dev\platform\form_designer2.assets\textboxsize.png)
+
+- **Rules** - rules for input fields. These are covered in details in [Rules](rules/README.md). 
+
+
 
 #### Copying a button ####
 
 To copy a button you can click on **Clone** button ![Clone button](C:\Kianda\docs-dev\platform\form_designer2.assets\clone.png)in the right-hand pane and choose from the options:
 
    - **Select destination** - click into the field and then choose from another form associated to that process or a panel within another form
-   - **Move field instead?** - tick the box to move the field instead of copying
+   - **Move field instead** - the box to move the field instead of copying
 
    ![Cloning](images/clonefield.png)
 
    Click on the **OK** button ![OK button](C:\Kianda\docs-dev\fields\input\images\ok.png) when you are finished or click on **Close** to exit the dialog box. 
 
+
+
+#### Deleting a button ####
+
+Click on the on the **Bin/Trash** button ![Bin icon](C:\Kianda\docs-dev\platform\form_designer2.assets\binicon-16397581516591.png) and then click on **Ok** after you have reviewed the form title and you are sure this is what you want to delete. Click on **Cancel** if you wish to cancel the deletion.

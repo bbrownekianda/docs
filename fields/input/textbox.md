@@ -87,5 +87,5 @@ The options within properties are:
 
 ![Changing text box width](images/textboxsize.png)
 
-- **Rules** - rules for input fields are covered in [link to document]
+- **Rules** - rules for input fields are covered in [Rules](rules/README.md).
 
