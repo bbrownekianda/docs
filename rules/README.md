@@ -2,7 +2,7 @@
 
 Business rules are what makes Kianda forms come alive. They represent the actual actions users intend to perform when they interact with form components.
 
-> There are 56 default business rules in Kianda and you might easily create more.
+> There are 56 default business rules in Kianda and you might easily create more. 60??
 
 In Kianda, we categorise business rules in the below categories:
 

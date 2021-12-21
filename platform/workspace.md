@@ -8,26 +8,36 @@ You can find out more about the Kianda workspace below or go straight to [Gettin
 
 The layout of the user interface is as follows:
 
-1. **Company logo** - the top left-hand corner is reserved for the upload of your company logos. If you click on the **Collapse navigation** button ![Collapse navigation button](images/navigation.png)you will see the collapsed version of the company logo and collapsed side menu.
+1. **Company logo** - the top left-hand corner is reserved uploading your company logos. If you click on the **Collapse navigation** button ![Collapse navigation button](images/navigation.png)you will see the collapsed version of the company logo and collapsed side menu.
 
 2. **Side menu** - This left-hand pane contains all the key functions for process management. Features include:
    - Home - home page for the workspace
    
-   - User defined pages - these are defined by you the user, depending on what features you want to showcase, for example Dashboard could contain all the process dashboards and Inspection Checklist could be a dashboard of inspection lists
+   - User defined pages - these are defined by you the user, depending on what features you want to showcase, for example Dashboard could contain all the process dashboards and Inspection Checklist could be a dashboard of inspection lists.
    
    - [Administration](platform/administration.md) - contains 9 functions related to administration of your Kianda workspace. Click on Details below to see a list of functions and links to find out more about each one.
    
      <details>
    
      - [Designer](platform/designer.md)
+   
      - [App Store](platform/appstore.md)
+   
      - [Subscription](platform/subscription.md)
+   
      - [Data sources](platform/datasources.md)
+   
      - [Scheduled tasks](platform/scheduledtasks.md)
+   
      - [Recycle bin]([platform/recyclebin.md])
+   
      - [Users](platform/users.md)
+   
      - [Invite partner]([platform/invitepartner.md])
-     - [Developer](platform/developer.md) </details>
+   
+     - [Developer](platform/developer.md) 
+   
+       </details>
    
    - More - includes [Help](platform/help.md), [Support](platform/support.md) and [Feedback](platform/feedback.md) links
    
@@ -35,8 +45,6 @@ The layout of the user interface is as follows:
 
 3. **Quick Action menu** - the top right-hand menu bar contains shortcuts to keep you updated. Features include:
    
-   - **Create a new page** ![create a new page](images/addnewpage.png)
-   - **Edit current page** ![Edit the current page](images/editpage.png)
    - **Online session refresh** ![Refresh button](images/refresh.png)
    - **User notifications** ![Notifications button](images/notifications.png)
    - **User profile** ![User profile](images/userprofile.png) 

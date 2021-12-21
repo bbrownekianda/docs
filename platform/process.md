@@ -1,4 +1,4 @@
-## Getting started with Kianda processes
+Getting started with Kianda processes
 
 The power of Kianda lies in giving anyone, even those without coding experience, the ability to design a **business application or process** quickly and efficiently, for example, this process could be a Quality Assurance checklist that installation engineers must follow on site using an app on their mobile phone or it could be a HR process to allow employees to submit annual leave requests and approve these online. Processes can connect to your data sources like Sharepoint or SalesForce allowing for the flexibility of your applications to grow as your business grows.
 
@@ -48,7 +48,7 @@ Before you begin, we at Kianda recommend doing some simple planning before you d
 
    ![Import business processes](images/importbusinessprocess.png)
 
-6. Select dashboards to be included by checking the tickbox beside dashboards you want to import. In each case you can decide to override the existing dashboards by clicking on **Yes** or if not **No**. Click on **Next**.
+6. Select dashboards to be included by checking the checkbox beside dashboards you want to import. In each case you can decide to override the existing dashboards by clicking on **Yes** or if not **No**. Click on **Next**.
 
    ![Import dashboards](images/importcustomerdashboard.png)
 
@@ -118,7 +118,7 @@ Before you begin, we at Kianda recommend doing some simple planning before you d
 
    ![Import business processes](images/importbusinessprocess.png)
 
-6. Select dashboards to be included by checking the tickbox beside dashboards you want to import. In each case you can decide to override the existing dashboards by clicking on **Yes** or if not **No**. Click on **Next**.
+6. Select dashboards to be included by checking the checkbox beside dashboards you want to import. In each case you can decide to override the existing dashboards by clicking on **Yes** or if not **No**. Click on **Next**.
 
    ![Import dashboards](images/importdashboards.png)
 
@@ -144,7 +144,7 @@ Before you begin, we at Kianda recommend doing some simple planning before you d
 
    ![Exporting business processes with datasources](images/exportanddata.png)
 
-4. Select dashboards to be included by checking the tickbox beside dashboards you want to export. Click on **Next**.
+4. Select dashboards to be included by checking the checkbox beside dashboards you want to export. Click on **Next**.
 
     ![Export business processes](images/exportingprocesses.png)
 
@@ -159,19 +159,19 @@ Before you begin, we at Kianda recommend doing some simple planning before you d
 
 ## Editing processes
 
-1. When processes are created they are available to view and to edit.
+1. When processes are created they are available to view and to edit from the central view panel.
 
    ![Process created](images/firstprocess2.png)
 
-   You will note that information related to your processes are found in the main view panel, for example who created the process, and when. 
+   You will note that information related to your processes is found in this panel, for example who created the process, and when. 
 
 2. The first version of a process is **0.1** and will increment to 0.2 and so on, each time a process is updated. Once the process is **published** the version changes to **1.0** and increments with each publication. This makes it is easy to keep track of who and when changes were made and to restore an older version if needed. You can search for processes by typing your keywords into the search bar.
 
-2. When you have created your process, go to [Form Designer](platform/form_designer2.md) to find out more on how to add and change forms within your process(es).
-
-3. At any time you can edit the Title, Description, Group and Administrators of the process by clicking on the **Pen** button ![Pen icon](images/penicon.png).
+3. At any time you can edit the Title, Description, Group and Administrators of the process by clicking on the **Pen** button ![Pen icon](images/penicon.png)beside your process of choice.
 
 4. At any time you can delete a process by clicking on the **Bin/Trash** button ![Bin icon](images/binicon.png) and then click on **Ok** after you have reviewed the process title and are sure this is what you want to delete. Click on **Cancel** if you wish to cancel the deletion.
+
+4. Once you have created your process, you are ready to add forms. Go to [Form Designer](platform/form_designer2.md) to find out more on how to add and change forms within your process(es).
 
 
 

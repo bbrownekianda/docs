@@ -1,14 +1,48 @@
-##### Send email 	 
-###### Introduction
+# Send email #
+
 This rule sends an email according to a predefined template.  Each element of the email is configurable.  The body of the email can include text and images.  Data stored in fields in the current form can be copied in dynamically.  It is also possible to add attachments to the email.
 
-![Send email rule dialog box](images/sendemail.png)
 
-###### When to use 
+
+## When to use the Send email rule
+
 You can add this rule:
+
 - [x] to a field
 - [x] to a form 
 - [x] to a process (the rule will run on load)
+
+
+
+## Before you get started ##
+
+Before you set up a 'Send email' rule you need to decide who will the email be from, for example a no-reply type email, who the email will be to, 
+
+
+
+## **How to get started**
+
+1. Click on an existing process by going to **Administration** > **Designer** and then click on **Rules** > Communications > Send email. 
+
+2. Choose from the edit options:
+
+   1. **Title** - of the email for example 'Send email to Training Managers'
+
+   2. **Edit conditions** - click on the **Edit conditions** button ![Edit conditions button](images/editconditions.png) create conditions to send the email, for example based....
+
+   3. **From** - who the email is from, click on Person button 
+
+   4. **Help text** - information to help the form user
+
+   5. **Mode** - options are a) Single line of text b) Multiple lines of text c) Rich text
+
+      If you choose a) Single line of text then the following additional options are visible:
+
+      ​		**Control type** - options are a) Text b) Password
+
+![Send email rule dialog box](images/sendemail.png)
+
+
 
 ###### How to use
 To send an email when the user submits a form:

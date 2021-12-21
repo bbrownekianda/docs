@@ -6,7 +6,9 @@ The **user picker field** provides a way to associate a user to a particular tas
 
 ## How to get started
 
-1. To add a particular user, click on **Controls** > **Input** > **User picker**.
+1. To add a particular user, click on **Controls** > **Input** > **User picker**. The field can also be placed within an element for example a panel, by clicking on the panel itself and then add user picker field. Compare in the image below, the field Line Manager which is inside a panel versus Department Manager which is outside the panel, both in the form Employee Request.
+
+   ![User picker field inside and outside a panel](images/userpickerinout.png)
 
 2. Choose from the edit options:
 
@@ -24,7 +26,7 @@ The **user picker field** provides a way to associate a user to a particular tas
 
    - **Default to current user** - options to default to the current user when in edit mode are a) No or b) Yes
 
-   - **Member of group** - select the group from your data source that the user is a member of
+   - **Member of group** - select the group from your data source that the user is a member of, for example HR Managers
 
    - **Selection options** - choose from a) Users b) Groups c) Partners,  as many as needed
 
@@ -32,21 +34,23 @@ The **user picker field** provides a way to associate a user to a particular tas
 
    - **Show selection option menu** - options are a) No or b) Yes
 
-3. Click on the OK button ![Ok button](images/ok.png) when you are finished editing the field. 
+3. Click on the **OK** button ![Ok button](images/ok.png) when you are finished editing to save your changes or click on **Close** to exit the dialog box without saving.
 
-4. If you need to re-edit the user picker field, click on the field itself and the Pen icon ![Pen icon](images/penicon.png) appears allowing you to edit the field.
+4. If you need to re-edit the user picker field, click on the field itself and the **Pen** button ![Pen icon](images/penicon.png) appears allowing you to edit the field.
 
    ![Editing the user picker field](images/userpickeredit.png)
 
-5. To move the field, click on the Drag handle ![Move button](images/move.png)on the user picker field itself and drag it to where you want it to appear on the form, for example within a panel. 
+5. To move the field, click on the **Drag handle** ![Move button](images/move.png)on the user picker field itself and drag it to where you want it to appear on the form, for example within a panel. 
 
-3. To save your changes to the form, click on the Save button ![Save button](images/saveprocess.png).
+6. To save your changes to the form, click on the **Save** button ![Save button](images/saveprocess.png).
+
+3. To delete the field, click on the field itself and then click on the **Bin/Trash** button ![Bin or Trash icon](C:\Kianda\docs-dev\fields\input\user_picker.assets\binicon.png) and then click on **Ok** after you have reviewed the field name and are sure this is what you want to delete. Click on **Cancel** if you wish to cancel the deletion.
 
 
 
-## How to edit User picker properties
+## How to edit user picker properties
 
-To change the User picker field properties, click on the field itself and the properties pane appears on the right.
+To change the user picker field properties, click on the field itself and the properties pane appears on the right.
 
 ![User picker field properties](images/userpickerproperties.png)The options within properties are:
 
@@ -58,4 +62,4 @@ To change the User picker field properties, click on the field itself and the pr
 
 ![Changing text box width](images/textboxsize.png)
 
-- **Rules** - rules for input fields are covered in [link to document]
+- **Rules** - rules for input fields are covered in [Rules](rules/README.md).

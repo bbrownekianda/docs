@@ -2,14 +2,13 @@
 
 Kianda **Form** **Designer** provides an intuitive interface where you can quickly start building **forms** for any use case. Forms are an important component of any process, they might be used as stages of a process and could be made active individually or at the same time (parallel forms).
 
-The key rules for working with forms are:
+There are 3 key principles to consider when working with forms:
 
-1. Forms are assignable - means that only a form assignee can edit a particular form. This can be a combination of users and groups.
-2. Only form owners can edit a given form by default. Any other user with access to view the form will see it in read-only mode.
-3. Multi-step processes use the concept of  the "current form". Only the form matching the process status will be made editable. TO COME BACK TO
-4. In a multi-step process, other forms that are not "current form" can be configured to **activate with** the current form. Meaning they might also be editable and will form a form group. TO COME BACK TO
+1) Form design - what a form looks like, what elements it contains, for example controls and rules
+2) Form management - who can edit and access forms
+3) Form interaction - how users can use forms depending on certain sequences happening
 
-The rules above work together to determine if the form is in **edit mode** or **display mode**. Form designers have at their disposal [business rules](business-rules.md) such as *assign form*, *go to form* and *submit rule* to dynamically control the ability for end-users to edit a particular form or a section of a form.
+This page presents the information you need concerned with form design, that is what a form looks like, and what is contains. By default form designers can edit forms, but they can also set how other people interact with forms and potentially can only see forms as **read-only**. Go to [Form management](form_management.md) to find out more about how form ownership works, and [Form interaction](form_interaction.md) to find out how a complete process flow works once forms are designed and assigned. 
 
 
 
@@ -21,9 +20,14 @@ From the main process view, double-click on any process and the form designer wi
 
 The key components of the form designer are:
 
-1. Left-hand pane contains both **controls** and **rules** that can be added to forms. Go to [Controls](fields/README.md) and [Rules](rules/README.md) to find out more. The left-hand pane also houses the Exit button ![Exit process](images/exitdesign.png) to go back to the process list, the Save button ![Save button](images/save.png)to save your work, the Preview button ![Preview](images/preview.png)to preview what you have created and the **Publish** button ![Publish button](images/publish.png)to publish your work TO COME BACK TO
+1. Left-hand pane contains both **controls** and **rules** that can be added to forms. Go to [Controls](fields/README.md) and [Rules](rules/README.md) to find out more. The left-hand pane also houses the **Exit** button ![Exit process](images/exitdesign.png) to go back to the process list, the **Save** button ![Save button](images/save.png)to save your work, the **Preview** button ![Preview](images/preview.png)to preview what you have created and the **Publish** button ![Publish button](images/publish.png)to publish your work. 
+
+   Note that clicking on **Save** saves a **draft** which is not available to users until you click on **Publish**.
+
 2. The central area is where the current **form canvas** is displayed. The canvas also houses 3 buttons by default **Submit**, **Save** and **Close**. Go to [Adding form elements](#Adding form elements) to find out more about editing these buttons and adding elements to the canvas.
+
 3. The right-hand pane is where the **properties** and **rules** are displayed for the selected item, see [Settings and Properties](#Settings and properties) for more information.
+
 4. The name of the process you are working on is shown in the top menu bar, for example Training Request. 
 
 
@@ -40,7 +44,7 @@ The key components of the form designer are:
 
 2. Once your form is created, you are ready to start adding elements to your form, see [Adding form elements](#Adding form elements). 
 
-2. In addition there are a number of settings you can change, perform, see [Settings and Properties](#Settings and Properties). 
+2. In addition there are a number of settings you can change, see [Settings and Properties](#Settings and Properties). 
 
    
 
@@ -78,7 +82,7 @@ The key components of the form designer are:
 
       - Users - allows you to choose individual owners
       - Groups - allows you to choose from defined groups for example HR Team or Management Team
-      - Partners - TO COME BACK TO
+      - Partners - allows you to choose predefined partner organisations that you want to share with or provide permissions
 
    4. **Activate with** - will decide when the form will be active. If you leave the field blank, the new form will be activated sequentially after the first form is submitted. If there are several forms attached to the process, then select from a dropdown list the form you want to activate with the current form. 
 
@@ -90,7 +94,7 @@ The key components of the form designer are:
 
    7. **Form theme** - choose from Navy, Green, Blue, Amber, Red or White Colours for your form.
 
-   8. **Enable quick actions** - if you tick the box, you can select from the options a) Enable re-assign b) Enable edit and c) Enable custom action. Click on **Ellipsis** button ![Ellipsis button](images/ellipsis.png)to further modify the action settings. 
+   8. **Enable quick actions** - if you tick the checkbox, you can select from the options a) Enable re-assign b) Enable edit and c) Enable custom action. Click on **Ellipsis** button ![Ellipsis button](images/ellipsis.png)to further modify the action settings. 
 
       - If you click on **Enable re-assign**, you can reassign action settings to particular Users, Groups or Partners. Click on **Allow form owners** if you want form owners to be able to reassign actions.
 
@@ -98,17 +102,21 @@ The key components of the form designer are:
 
       - If you click on **Enable edit**, you can allow certain Users, Groups or Partners to edit the form, along with form owners by clicking on **Allow form owners**. 
 
-        Other options include a tick box **When editing auto hide form footer buttons** and **Trigger rules on save**. TO COME BACK TO. Click on the Save action field bar to choose from actions: **Submit**, **Save** or **Close**. 
+        Other options include a checkbox **When editing auto hide form footer buttons** and **Trigger rules on save**.
+
+         Click on the Save action field bar to choose from actions: **Submit**, **Save** or **Close**. 
 
         ![Edit action settings](images/editactions.png)
 
       - If you click on **Enable custom action**, you can allow certain Users, Groups or Partners to edit the form, along with form owners by clicking on **Allow form owners**. 
-
-        Other options include **Action label**, **Target action field** and **Action display mode**, for example **Read-only mode**, **Edit mode** or **Both**.  TO COME BACK TO
+      
+        Other options include **Action label**, **Target action field** and **Action display mode**, for example **Read-only mode**, **Edit mode** or **Both**.  
 
      ![Custom action settings](images/customsettings.png)
 
-3. Click on the **OK** button ![OK button](C:\Kianda\docs-dev\fields\input\images\ok.png) when you are finished editing or click on **Close** to exit the dialog box.
+   As a form designer you can set up actions dependent on certain conditions, for example an Action label that targets a certain button appearing for example Close button, only when a certain display mode is chosen, for example Read-only mode. If Edit mode is chosen, then the button will only appear when the form is being edited. In this way you can create dynamic forms that suit user interactions.
+
+3. Click on the **OK** button ![OK button](C:\Kianda\docs-dev\fields\input\images\ok.png) when you are finished editing to save your changes or click on **Close** to exit the dialog box without saving.
 
 4. To save your changes to the form, click on the **Save** button ![Save button](C:\Kianda\docs-dev\fields\input\images\saveprocess.png). 
 
@@ -128,7 +136,7 @@ The key components of the form designer are:
 
    In this way you can very quickly reuse some or all parts of an existing form. 
 
-4. Click on the **OK** button ![OK button](C:\Kianda\docs-dev\fields\input\images\ok.png) when you are finished editing or click on **Close** to exit the dialog box.
+4. Click on the **OK** button ![OK button](C:\Kianda\docs-dev\fields\input\images\ok.png) when you are finished editing to save your changes or click on **Close** to exit the dialog box without saving.
 
 
 
@@ -198,7 +206,7 @@ Choose from the settings:
 
 1. **Process id settings** - choose from a) Default or b) Custom and use a combination of [ProcessName]-[UniqueNumber]-[FieldName]
 
-2. **Enable process security** - if you tick the box, can allow certain Users, Groups or Partners to have certain privileges related to the radio button options to create, assign and view as shown below.
+2. **Enable process security** - if you tick the checkbox, can allow certain Users, Groups or Partners to have certain privileges related to the radio button options to create, assign and view as shown below.
 
    ![Process security](images/processsecurity.png)
 
@@ -216,7 +224,7 @@ Choose from the settings:
 
    ![Link for external users](images/anonlink.png)
 
-   - **Hide form topbar** - tickbox to COME BACK TO
+   - **Hide form topbar** - checkbox to COME BACK TO
    - **Force log out** - options are a) Yes or b) No to force user logout once the form is submitted
    - Click on **New link** to generate a new anonymous form link to share with users and click on **Edit** to change the link. TO COME BACK TO - Existing instance anonymous form URL
 
@@ -232,7 +240,7 @@ Choose from the settings:
 
 12. **Completed tab theme** - choose from Navy, Green, Blue, Amber, Red or White as a colour when a form is completed.
 
-13. Click on the **OK** button ![OK button](C:\Kianda\docs-dev\fields\input\images\ok.png) when you are finished or click on **Close** to exit the dialog box. 
+13. Click on the **OK** button ![OK button](C:\Kianda\docs-dev\fields\input\images\ok.png) when you are finished editing to save your changes or click on **Close** to exit the dialog box without saving.
 
 14. Click on the **Exit** button ![Exit process](images/exitdesign.png) to go back to the process list, the Save button ![Save button](images/save.png)to save your work, the **Preview** button ![Preview](images/preview.png)to preview what you have created and the **Publish** button ![Publish button](images/publish.png)to publish your work.
 
@@ -244,11 +252,11 @@ Choose from the settings:
 
 1. **Title** - the form title, for example Employee Request Form
 
-2. **Visible** - click on this tickbox if you want the form to be visible to users
+2. **Visible** - click on this checkbox if you want the form to be visible to users
 
-3. **Show info** - click on this tickbox if you want to show information???
+3. **Show info** - click on this checkbox if you want to show information???
 
-Go to [Rules](rules/README.md) to find out more about **rules**.
+Go to [Rules](rules/README.md) to find out more about **Form rules**.
 
 
 
@@ -278,7 +286,7 @@ To edit a button:
 
    7. **Enable button security** - options are a) Yes or b) No
 
-3. Click on the **OK** button ![OK button](C:\Kianda\docs-dev\fields\input\images\ok.png) when you are finished or click on **Close** to exit the dialog box. 
+3. Click on the **OK** button ![OK button](C:\Kianda\docs-dev\fields\input\images\ok.png) when you are finished editing to save your changes or click on **Close** to exit the dialog box without saving.
 
 3. You can change the button to a different field type by clicking on the button itself and the **Change field** button ![Change field](images/changefield.png)in the right-hand pane. Then choose from one of 18 field types and edit the field chosen. See [Controls](fields/README.md) for more information on field types.
 
@@ -315,7 +323,7 @@ To copy a button you can click on **Clone** button ![Clone button](C:\Kianda\doc
 
    ![Cloning](images/clonefield.png)
 
-   Click on the **OK** button ![OK button](C:\Kianda\docs-dev\fields\input\images\ok.png) when you are finished or click on **Close** to exit the dialog box. 
+Click on the **OK** button ![OK button](C:\Kianda\docs-dev\fields\input\images\ok.png) when you are finished editing to save your changes or click on **Close** to exit the dialog box without saving.
 
 
 

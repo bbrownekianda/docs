@@ -1,12 +1,16 @@
 # List fields
 
-**Lists** can be manually entered into a form or created from an external site like SharePoint, for example a list of Types of Training. There are different display options from dropdown lists to checklists and the ability to make lists mandatory for users to choose in a form amongst other options.
+**Lists** can be manually entered into a form or linked from an external site like SharePoint, for example a list of Types of Training. There are different display options from dropdown lists to checklists and the ability to make lists mandatory for users to choose in a form amongst other options.
 
 
 
 ## How to get started
 
-1. To add the List field to your form click on **Controls** > **Input** > **List**.
+1. To add the List field to your form click on **Controls** > **Input** > **List**. The text box can also be placed within an element for example a panel, by clicking on the panel itself and then add the list. Compare in the image below, the list Type of Training which is inside a panel versus Reason for the request which is outside the panel, both in the form Employee Request.
+
+   ![List inside and outside a panel](images/listinsideout.png)
+
+   
 
 2. The New field - List box appears, allowing you different editing options. The options are: 
 
@@ -22,7 +26,7 @@
 
      ![Manually entered list](images/manuallist.png)
 
-     If you choose b) Form data ?[What does this mean]? then you must choose a Display field and Value field???
+     If you choose b) Form data ?[TO COME BACK TO]? then you must choose a **Display field**, the field used to display values and **Value field** [TO COME BACK TO]?
 
      If you choose c) Data source then click on the **Datasource** button ![Data source button](images/datasource.png) to connect to different data sources for example SharePoint. For information on how to connect to a data source please see [Data connectors](connectors/ReadME.md). 
 
@@ -50,17 +54,17 @@
 
      - **List display position** - the choice is a) Horizontal and b) Vertical
 
-3. Click on the OK button ![OK button](images/ok.png) when you are finished editing the field. 
+3. Click on the **OK** button ![OK button](images/ok.png) when you are finished editing to save your changes or click on **Close** to exit the dialog box without saving.
 
-4. To move the list, click on the Drag handle ![Move button](images/move.png)on the list field itself and drag it to where you want it to appear on the form, for example within a panel. 
+4. To move the list, click on the **Drag handle** ![Move button](images/move.png)on the list field itself and drag it to where you want it to appear on the form, for example within a panel. 
 
-5. To save your changes to the form, click on the Save button ![Save button](images/saveprocess.png).
+5. To save your changes to the form, click on the **Save** button ![Save button](images/saveprocess.png).
 
-6. When your list is complete you should see the list displaying in the format chosen, for example a dropdown list as shown below.
+   When your list is complete you should see the list displaying in the format chosen, for example a dropdown list as shown below.
 
    ![Dropdown list example](images/dropdownlist.png)
 
-7. To delete the list, click on the field itself and then click on the Bin icon ![Bin or Trash icon](images/binicon.png).
+7. To delete the list, click on the field itself and then click on the **Bin/Trash** button ![Bin or Trash icon](images/binicon.png) and then click on **Ok** after you have reviewed the field name and are sure this is what you want to delete. Click on **Cancel** if you wish to cancel the deletion.
 
    
 
@@ -82,4 +86,4 @@ The options within properties are:
 
 ![Changing text box width](images/textboxsize.png)
 
-- **Rules** - rules for input fields are covered in [link to document]
+- **Rules** - rules for input fields are covered in [Rules](rules/README.md).
