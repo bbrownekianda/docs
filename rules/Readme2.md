@@ -4,7 +4,7 @@ Business rules are what makes Kianda forms come alive. They represent the actual
 
 ## Getting started with Rules ##
 
-If you go to **Administration** > **Designer** and click on a process or create a new process, the predefined rules are found in the left-hand pane.
+If you go to **Administration** > **Designer** and click on a process or create a new process, the predefined rules are found in the left-hand pane under **Add a rule**.
 
 ![Rules](images/rulesgeneral.png) 
 

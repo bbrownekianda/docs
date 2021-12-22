@@ -4,7 +4,7 @@ Communication rules is one category of [rules](rules/Readme.md) to enable automa
 
 ## Getting started with Communication rules ##
 
-If you go to **Administration** > **Designer** and click on a process or create a new process, then click on **Rules** the Communication rules are found in the left-hand pane when you click on **Communications**.
+If you go to **Administration** > **Designer** and click on a process or create a new process, then click on **Add a rule** the Communication rules are found in the left-hand pane when you click on **Communications**.
 
 ![Communication rules](images/communications.png)
 
