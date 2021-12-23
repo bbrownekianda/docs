@@ -52,7 +52,11 @@ The **user picker field** provides a way to associate a user to a particular tas
 
 To change the user picker field properties, click on the field itself and the properties pane appears on the right.
 
-![User picker field properties](images/userpickerproperties.png)The options within properties are:
+![User picker field properties](images/userpickerproperties.png)
+
+The **Field type**, User picker, is shown along with the **Title** of the field, in the example above Training Manager.
+
+The options within properties are as follows, check the checkbox to implement:
 
 - **Show Title** - show the title of the field
 - **Required** - make this field mandatory for users to use

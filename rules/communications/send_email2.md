@@ -16,23 +16,19 @@ You can add this rule:
 
 ## Before you get started ##
 
-In advance of using this rule, you need to have **created one or more forms, complete with control fields**. For example an employee's 'Name' may be part of a form 'Annual Leave Request'. Then this 'Name' (text box) field can be used as an **expression** in the email to send personalised emails, so these aspects must be set up in advance.
+In advance of using this rule, you need to have **created one or more forms, complete with control fields**. For example a text box control with an employee's 'Name' may be part of a form 'Annual Leave Request'. Then this 'Name' field can be used as an **expression** in the email to send personalised emails, so these aspects must be set up in advance.
 
-1. If you want to attach any files to an email, files must first be stored in a File field in one of the forms. TO COME BACK TO
-
-
-
-Files can be attached to the email.  First the file must be stored in a File field in one of the forms.  Open the Send Email rule and find the File icon in the Body field menu.  Click in the File field to find the field where the file is stored. Click on Insert attachment.  There is an option to attach a link to the file rather than the file itself.
-
-Before you set up a 'Send email' rule you need to decide who will the email be from, for example a no-reply type email, who the email will be to, TO COME BACK TO
-
-
+1. Decide how the rule will be implemented, for example will an email be sent once a form is saved or submitted. In the example of form submit, then click on that form in the process > **Submit** button > **Add a rule** > **Send email**.
+2. Decide who the automated email will be sent from, for example a no-reply type email. If you leave the From field empty, the email will be sent from noreply@kianda.com. If you want your email to come from a different sender, the go to [Email Connector](#Email connector) for more details. TO COME BACK TO
+3. Any email addresses to send To, From, CC or BCC must be set up in advance. This could be a textbox in a form called 'Email address' with a unique Name like 'emailAddress', or it could be a user picker field associated with particular users, groups or partners.
+4. If you want to track the emails, then you must set up a field in your form to store email tracking. TO COME BACK TO
+5. If you want to attach any files to an email, files must first be stored in a File field in one of the forms. TO COME BACK TO
 
 
 
 ## **How to get started**
 
-1. Click on an existing process by going to **Administration** > **Designer** and decide which form, or field you will apply the rule to, by clicking on that item so that it is in **edit mode** so you can see the Pen button,  **Pen** button ![Pen button](images/penicon.png) for example the form Training Approval and Submit button within a form are ready to edit and add rules to.
+1. Click on an existing process by going to **Administration** > **Designer** and decide which form, or field you will apply the rule to, by clicking on that item so that it is in **edit mode** so you can see the Pen button,  **Pen** button ![Pen button](images/penicon.png). For example if the form Training Approval has a Submit button within a form and you want to attach the rule to Send an email when the form is submitted, then you need to click on the form and the Submit button in that form.
 
    ![Form and button edit mode](images/formvsbutton.png)
 
@@ -44,67 +40,104 @@ Before you set up a 'Send email' rule you need to decide who will the email be f
 
    2. **Edit conditions** - click on the **Edit conditions** button ![Edit conditions button](C:\Kianda\docs-dev\rules\communications\send_email2.assets\editconditions.png) create conditions to send the email, for example based....TO COME BACK TO
 
-   3. **From** - who the email is from, click on **Person** button ![Person button](C:\Kianda\docs-dev\rules\communications\send_email2.assets\person.png)
+   3. **From** - who the email is from, click on **Person** button ![Person button](C:\Kianda\docs-dev\rules\communications\send_email2.assets\person.png)and choose from the appropriate Selection mode, see [Selection mode](#Selection mode) below.
 
-   4. **To** - who the email is to, click on the **Person** button ![Person button](C:\Kianda\docs-dev\rules\communications\send_email2.assets\person.png)and choose from the following options:
-
-      ![Any user or partner mode](C:\Kianda\docs-dev\rules\communications\send_email2.assets\anygroups.png)
-
-      - **Any user or partner** - if you choose this option, then click on **Users** and choose from Users, Groups or Partners and click into the field under **Select users** to see a dropdown list of users, predefined groups and partners and click onto your name of choice. You can add as many users, groups and partners as desired by clicking on a name in the list, or remove by clicking on the name within the field for example HR Team. 
-
-        ![Clear user field](C:\Kianda\docs-dev\rules\communications\send_email2.assets\clearfield.png)
-
-        In all modes you can clear a field by clicking on the field and click on **Clear field** ![Clear field](C:\Kianda\docs-dev\rules\communications\send_email2.assets\x.png).
-
-      - **User(s) defined in a user field** - if you choose this option, meaning the user name is already defined in a form? TO COME BACK TO, then click on **User picker** button ![User picker button](C:\Kianda\docs-dev\rules\communications\send_email2.assets\userpicker.png) and click into the field under **Select a user field** to see a user picker field from a form, for example 'Line Manager' is within the form Employee Request
-
-        ![Select a user field](C:\Kianda\docs-dev\rules\communications\send_email2.assets\userpickerfield.png)
-
-        Click on the field to add to the list. You can add as fields as desired by clicking on the **User picker** button ![User picker button](C:\Kianda\docs-dev\rules\communications\send_email2.assets\userpicker.png)or remove a field by clicking on the field or by clicking on the **Bin/Trash** button. 
-
-        ![User defined field](C:\Kianda\docs-dev\rules\communications\send_email2.assets\nameduserpicker.png)
-
-        
-
-      - **Form owner(s)** - if you choose this option, then click click into the field under **Form owner of selected form** and choose from the forms within that process.
-
-        ![Form owner of selected form](C:\Kianda\docs-dev\rules\communications\send_email2.assets\formowners.png)
-
-      - Email address in a field - if you choose this option, then click into the field under **Type the address or select from a field** and either type in an email address or choose from a field within a form within that process. TO COME BACK TO
-
-        ![select email users](C:\Kianda\docs-dev\rules\communications\send_email2.assets\selectemailusers.png)
-
-   In all cases when you have made your selection, click on **OK** button ![OK button](C:\Kianda\docs-dev\rules\communications\send_email2.assets\ok.png) when you are finished editing to save your changes or click on **Close** to exit the dialog box without saving.
-
-   5. **CC** - same options as with **To** field.
-
-   5. **BCC** - same options as with **To** field.
-
-   5. **Subject** - type in your email subject and click on the **Ellipsis** button ![Ellipsis button](C:\Kianda\docs-dev\rules\communications\send_email2.assets\ellipsis.png)to add an expression, see [Expressions](expressions.md) for more information. TO COME BACK TO
-
-   5. **Body** - choose from an array of styles and formats to create your email including **Style,** **Colour**, **Font  size**, **Remove font style**, **Font family**, **Unordered list**, **Ordered list**, **Paragraph**, **Table**, **Link**, **Picture**, **Attach a File** and **Code view**. For example if you click on **Code view** button ![Code view button](C:\Kianda\docs-dev\rules\communications\send_email2.assets\code.png)you can copy HTML code directly into the body text.
-
-      ![Send email](C:\Kianda\docs-dev\rules\communications\send_email2.assets\email.png)
-
+      > **Warning** 
+      >
+      > If you add an email address to the From field then you must specify an Email connector, see [Email connector](#Email connector).
       
-
-      To find out more about how to attach a file, see [Attachments]#Attachments for more details.
-
-      Click into body text to type in your text. If you want a useful way to personalise automated emails using fields from the forms you have created click on the **Ellipsis** button ![Ellipsis button](C:\Kianda\docs-dev\rules\communications\send_email2.assets\ellipsis-16401854043731.png)to add an expression, see [Expression builder](#Expression builder) for more details. 
-
-   5. **Send via connector** - options are a) No or b) Yes - if you choose **Yes** then it means you can send via a datasource which is entered into the From field TO COME BACK TO for example a generic for your business like no-reply@greenitr.com for the company GreenITR.
-
-   5. **Enable tracking** - options are a) No or b) Yes - if you choose **Yes** then you can track (read, receive) where? TO COME BACK TO
+   4. **To** - who the email is to, click on **Person** button ![Person button](C:\Kianda\docs-dev\rules\communications\send_email2.assets\person.png)and choose from the appropriate Selection mode, see [Selection mode](#Selection mode) below.
    
-   5. Click on **OK** button ![OK button](C:\Kianda\docs-dev\rules\communications\send_email2.assets\ok.png) when you are finished editing to save your changes or click on **Close** to exit the dialog box without saving.
+   5. **CC** - who will be copied on the email, as with **To** field.
+   
+   5. **BCC** - who will be blind copied on the email, as with **To** field.
+   
+   5. **Subject** - type in your email subject and click on the **Ellipsis** button ![Ellipsis button](C:\Kianda\docs-dev\rules\communications\send_email2.assets\ellipsis.png)to add an expression, go to [Expression builder](#Expression builder) for more information. The **Subject** cannot be left empty.
+   
+   5. **Body** - choose from an array of styles and formats to create your email including **Style,** **Colour**, **Font  size**, **Remove font style**, **Font family**, **Unordered list**, **Ordered list**, **Paragraph**, **Table**, **Link**, **Picture**, **Attach a File** and **Code view**. For example if you click on **Code view** button ![Code view button](C:\Kianda\docs-dev\rules\communications\send_email2.assets\code.png)you can copy HTML code directly into the body text.
+   
+      ![Send email](C:\Kianda\docs-dev\rules\communications\send_email2.assets\email.png)
+   
+      
+   
+      To find out more about how to attach a file, see [Attachments](#Attachments) for more details.
+   
+      Click into body text to type in your text. If you want a useful way to personalise automated emails using fields from the forms you have created click on the **Ellipsis** button ![Ellipsis button](C:\Kianda\docs-dev\rules\communications\send_email2.assets\ellipsis-16401854043731.png)to add an expression, see [Expression builder](#Expression builder) for more details. 
+   
+   9. **Send via connector** - options are a) No or b) Yes 
+   
+      - If you choose **Yes** then you must choose an **Email connector** and decide if you want to **Save Sent Items** (Yes or No) which means sent emails are saved in a sent items folder in your email account. TO COME BACK TO. For more information go to [Email connector](#Email connector)
+   
+        <img src="images/emailconnector.png" alt="Email connector options" style="zoom:80%;" />
+   
+   5. **Enable tracking** - options are a) No or b) Yes 
+   
+      - Note that this option is only available if **Send via connector** is set to **No** and the email is being sent from noreply@kianda.com. 
+      - If you choose **Yes** then you must click into the field under **Field to store tracking event (Open, Click, Bounce, Spam)** and choose a field from a form to store the event. 
+   
+      ![Enable tracking](images/enabletrackingyes.png)
+   
+      * This option allows you to track the email after it is sent. All of these events, Open, Click, Bounce and Spam will be tracked.
+   
+   11. Click on **OK** button ![OK button](C:\Kianda\docs-dev\rules\communications\send_email2.assets\ok.png) when you are finished editing to save your changes or click on **Close** to exit the dialog box without saving.
+   
+   12. Note when your rule is complete you may want to change the order of rules for the particular field or form that it has been applied to. Drag the new Send email rule to where you want, so the order of execution of rules is correct. 
+   
+       For example for a Submit button on a form I may want my **Send email rule** to be executed first before any other rule is executed. To do this click on the **Submit** button to make sure you are in **Edit** mode, and under **Rules** in the right-hand pane,  drag the **Send email** rule to the top of the list by clicking on the rule and dragging it to the top.
+   
+       <img src="images/ruleorder.png" alt="Rule order" style="zoom:70%;" />
+   
+       For more information on rules, see [Rules](rules/Readme.md).
 
 
 
-### Attachments ###
+### Email connector ###
 
-To attach a file to an automated email, click on the **Attach a file** button ![Attach a file button](images/attachfile.png) and the Attach file to email dialog box opens.
+The email connector must be set up in advance TO COME BACK TO. 
 
-**Attachments**: Files can be attached to the email.  First the file must be stored in a File field in one of the forms.  Open the Send Email rule and find the File icon in the Body field menu.  Click in the File field to find the field where the file is stored. Click on Insert attachment.  There is an option to attach a link to the file rather than the file itself.
+If you leave the From field empty, the email will be sent from noreply@kianda.com.  If you want your email to come from a different sender, follow these steps when you are editing the Send email rule:
+
+1. Set **Send via connector** to **Yes**.  
+2. Click into the field under **Email connector** and select a connector. 
+3. Click on **OK** button ![OK button](C:\Kianda\docs-dev\rules\communications\send_email2.assets\ok.png) when you are finished editing to save your changes or click on **Close** to exit the dialog box without saving.
+
+Note that this will override the global Email connector setting if one has been configured for your system.  Go to **Administration** > **Subscription** > **Subscription Details** to check for a global setting. TO COME BACK TO
+
+
+
+### Selection mode ###
+
+When you are filling out the **To**, **From**, **CC** or **BCC** fields and click on the **Person** button ![Person button](C:\Kianda\docs-dev\rules\communications\send_email2.assets\person.png)you have the following selection mode options to choose from: **Any user or partner**, **User(s) defined in a user field**, **Form owner(s)**, **Email address in a field**. Each option is explained below.
+
+![Any user or partner mode](images/anygroups2.png)
+
+Please note in all modes you can clear a field by clicking on the field and click on **Clear field** ![Clear field](C:\Kianda\docs-dev\rules\communications\send_email2.assets\x.png).
+
+1. **Any user or partner** - if you choose this option, then click on **Users** and choose from Users, Groups or Partners and click into the field under **Select users** to see a dropdown list of users, predefined groups and partners and click onto your name of choice. You can add as many users, groups and partners as desired by clicking on a name in the list, or remove by clicking on the name within the field for example HR Team. 
+
+![Clear user field](C:\Kianda\docs-dev\rules\communications\send_email2.assets\clearfield.png)
+
+​		Clear the field if needed clicking on the field and click on **Clear ** ![Clear field](C:\Kianda\docs-dev\rules\communications\send_email2.assets\x.png).
+
+2. **User(s) defined in a user field** - if you choose this option, it means the user name is already defined in a form. Click on **User picker** button ![User picker button](C:\Kianda\docs-dev\rules\communications\send_email2.assets\userpicker.png) and click into the field under **Select a user field** to see a user picker field or other field within a form, where the user (email address), for example 'Line Manager' is within the form Employee Request
+
+![Select a user field](images/userpickerfield.png)
+
+​		Click on the field to add to the list. You can add as many fields as desired by clicking on the **User 		picker** button ![User picker button](C:\Kianda\docs-dev\rules\communications\send_email2.assets\userpicker.png)or remove a field by clicking on the field or by clicking on the **Bin/Trash** button. 
+
+![User defined field](C:\Kianda\docs-dev\rules\communications\send_email2.assets\nameduserpicker.png)
+
+
+
+3. **Form owner(s)** - if you choose this option, then click click into the field under **Form owner of selected form** and choose from the forms within that process, where the form owner(s) email addresses will be selected.
+
+![Form owner of selected form](C:\Kianda\docs-dev\rules\communications\send_email2.assets\formowners.png)
+
+4. Email address in a field - if you choose this option, then click into the field under **Type the address or select from a field** and either type in an email address or choose from a field within a form within that process. 
+
+![select email users](C:\Kianda\docs-dev\rules\communications\send_email2.assets\selectemailusers.png)
+
+In all cases when you have made your selection, click on **OK** button ![OK button](C:\Kianda\docs-dev\rules\communications\send_email2.assets\ok.png) when you are finished editing to save your changes or click on **Close** to exit the dialog box without saving.
 
 
 
@@ -112,7 +145,7 @@ To attach a file to an automated email, click on the **Attach a file** button ![
 
 The expression builder is a useful and efficient way to use existing form fields as part of automated emails that you want to send out.
 
-For example if you have a form Annual Leave request that contains a text box field 'Employee Name' you can use this field in an automated email to let a set of managers know that an employee has submitted an a request. 
+For example if you have a form Annual Leave request that contains a text box field 'Employee Name' you can use this field in an automated email to let a manager know that an employee has submitted an a request. 
 
 1. Before you begin have your body text inserted into the **Body** of the email and position your cursor where you want to add an expression, for example an Employee Name after 'Your employee' as shown below.
 
@@ -148,55 +181,19 @@ For example if you have a form Annual Leave request that contains a text box fie
 
    ![Click here text](images/clickhere.png)
 
-   In this way you can build sophisticated automated emails that can ....TO COME BACK TO.
-
-7. sdfdsf
+   In this way you can build sophisticated automated emails that can ....TO COME BACK TO. For more information on References and Expressions see [Expressions](expressions.md) for more information.
 
 
 
-###### How to use
+### Attachments ###
 
-To send an email when the user submits a form:
-
-1. Before adding the rule: 
-   a. Add a name field to the current form: Click on Controls > Input > Text box and drag the field onto the form.  Edit the field by clicking on it and then clicking the pen icon. Change the Title to *Name*.  Change the Name(unique) to *name*.  
-   b. Add an email address field to the current form: Click on Controls > Input > Text box and drag the field onto the form.  As before, change the Title to *Email address* and change the Name(unique) to *emailAddress*.  
-2. Click on the Submit button.
-3. Select Add a rule > Communications  > Send email.
-4. Click on the person icon in the To: field.  Select Email address in a field and then you will be able to choose the text field with the email address which you added earlier.
-5. Add some text to the Subject field. This field cannot be empty.
-6. In the Body field, add some text: note that you can change the font size, add images etc.. 
-7. Open the Expression builder (using the button on the right with three dots). Under Add field to expression, find the Name field which you added earlier.  Click on Add to expression.  You will see your name field listed as [name] in the Expression window.  Click OK.
-8. Click OK to exit the rule. 
-
-> **Warning** 
->
-> If you add an email address to the From field then you must specify an Email connector.  See below.
-
-###### Notes
-
-**From:** If you leave this field empty (see example above), the email will be sent from noreply@kianda.com.  If you want your email to come from a different sender, follow these steps when you are editing the Send email rule:
-
-1. Set Send via connector to Yes.  
-2. Select an Email connector and click OK.
-
-Note that this will override the global Email connector setting if one has been configured for your system.  Go to Administration > Subscription > Subscription Details to check for a global setting. 
-
-**Filling in email addresses for the fields From: To: CC: and BCC: **
-When you click on the person icon on the right hand side of one of these fields, you need to choose the Selection mode from the following options:
-
-* Any user or partner: choose the user or partner (email address) from the Selected users list
-* User(s) defined in a user field: choose the field where the user (email address) is stored
-* Form owner(s): choose the form and the owner(s) (email address) will be selected
-* Email address in field: either choose the field where the email address is stored or type in the email directly.
-
-
+To attach a file to an automated email, click on the **Attach a file** button ![Attach a file button](images/attachfile.png) and the Attach file to email dialog box opens.
 
 **Attachments**: Files can be attached to the email.  First the file must be stored in a File field in one of the forms.  Open the Send Email rule and find the File icon in the Body field menu.  Click in the File field to find the field where the file is stored. Click on Insert attachment.  There is an option to attach a link to the file rather than the file itself.
 
-**Enable tracking:** 
 
-* This option allows you to track the email after it is sent. The following events are tracked: Open, Click, Bounce, or Spam.  
-* The option is only available if Send via connector is set to No and the email is being sent from noreply@kianda.com. 
-* If you click Yes to Enable tracking then you must have a field to store the event.  Select the field here.  
+
+
+
+
 

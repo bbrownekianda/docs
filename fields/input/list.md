@@ -75,7 +75,9 @@ To change the list properties, click on the field itself and the properties pane
 
 ![List properties](images/listproperties.png)
 
-The options within properties are:
+The **Field type**, List, is shown along with the **Title **of the field,** in the example above Type of Training.
+
+The options within properties are as follow, check the checkbox to implement:
 
 - **Show Title** - show the title of the field
 - **Required** - make this field mandatory for users to fill out

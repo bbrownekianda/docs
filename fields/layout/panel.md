@@ -30,7 +30,7 @@ A **panel** is section of a form. Panels hold other fields like lists and text b
 
       ![Panel fields](images/panelfields.png)
 
-4. Click on the **OK** button ![OK button](images/ok.png) when you are finished editing the panel.
+4. Click on the **OK** button ![OK button](images/ok.png) when you are finished editing the panel to save your changes or click on **Close** to exit the dialog box without saving.
 
 5. To move the panel, click on the **Drag handle** in the panel itself ![Move button](images/move.png) and drag the panel to where you want it to appear on the form.
 
@@ -49,7 +49,9 @@ To change the panel properties, click on the panel itself and the properties pan
 
 ![Panel properties](images/panelproperties.png)
 
-The options within properties are:
+The **Field type**, Panel, is shown along with the **Title** of the field, in the example above Section 2.
+
+The options within properties are as follows, check the checkbox to implement:
 
 - **Show Title** - show the title of the panel
 - **Visible** - the panel is visible to users

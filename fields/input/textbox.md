@@ -74,6 +74,8 @@ To change the text box properties, click on the field itself and the properties 
 
 ![Text box properties](images/textboxproperties.png)
 
+The **Field type**, Text box, is shown along with the **Title** of the field, in the example above Employee Name.
+
 The options within properties are:
 
 - **Show Title** - show the title of the field
