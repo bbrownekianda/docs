@@ -16,4 +16,4 @@ There are 3 categories of fields:
 2. **Layout** - Layout fields are the fields that serve the purpose of perfecting the layout of your form. They include responsive panels, dialog box, field groups and rich text fields, see [Layout](layout/Readme.md) for more information.
 3. **Action** - Action fields are fields that allow user interface actions like buttons, links or even signature components, see [Actions](actions/Readme.md) for more information.
 
-
+All fields will have edit options when you start creating the field, as well as field properties that you can edit. Each field can also have rules applied to it. 

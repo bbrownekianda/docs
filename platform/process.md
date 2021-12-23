@@ -1,4 +1,4 @@
-Getting started with Kianda processes
+## Getting started with Kianda processes ##
 
 The power of Kianda lies in giving anyone, even those without coding experience, the ability to design a **business application or process** quickly and efficiently, for example, this process could be a Quality Assurance checklist that installation engineers must follow on site using an app on their mobile phone or it could be a HR process to allow employees to submit annual leave requests and approve these online. Processes can connect to your data sources like Sharepoint or SalesForce allowing for the flexibility of your applications to grow as your business grows.
 
@@ -14,7 +14,7 @@ Before you begin, we at Kianda recommend doing some simple planning before you d
 
 2. To create processes you can:
 
-   - Use Kianda's pre-defined processes or Apps, see [Using the App Store](#Using the App Store)
+   - Use Kianda's pre-defined processes or Apps, see [Using the App Store](#Using the App Store). 
 
    - Create your own processes from scratch, see [Creating your own processes](#Creating your own processes) 
 
@@ -64,9 +64,7 @@ Before you begin, we at Kianda recommend doing some simple planning before you d
 
 1. To create your own process, click on the **Add new button** ![Add new process button](images/addnew.png) . Note that if you click on the arrow you have options to create a **Process**, a **Component** or **Create from datasource**.
 
-   ![Add new process options](C:\Kianda\docs-dev\platform\process.assets\newprocessoptions.png)
-
-   
+   ![Add new process options](images/newprocessoptions.png)
 
    - A **Process** is a complete set of forms that encapsulates a business process like Purchase Order Approval.
 

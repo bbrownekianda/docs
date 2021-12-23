@@ -15,8 +15,8 @@ If you go to **Administration** > **Designer** and click on a process or create 
 
 There are 10 categories of rules:
 
-1. Workflow
-2. Communications - business rules associated with user communication for example sending an email or triggering a user alert, see [Communications](communications/README.md) for more information. 
+1. **Workflow** - rules that represent the actions a user intends to perform, when they interact with form components. There are 6 workflow rules, see [Workflow](workflow.md) for more information.
+2. **Communications** - rules associated with user communication for example sending an email or triggering a user alert, see [Communications](communications/README.md) for more information. 
 3. Data - 
 4. Users
 5. File management

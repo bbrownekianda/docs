@@ -43,6 +43,7 @@
       - [Schedule a rule](/rules/workflow/schedule_a_rule.md)
     - [Communications rules](/rules/communications/)
       - [Send email](/rules/communications/send_email.md)
+      - [Send email2](/rules/communications/send_email2.md)
       - [Meeting request](/rules/communications/meeting_request.md)
       - [Anonymous form link](/rules/communications/anonymous_form_link.md)
       - [User alert](/rules/communications/user_alert.md)
