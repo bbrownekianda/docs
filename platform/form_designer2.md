@@ -1,6 +1,6 @@
 # Form Designer
 
-Kianda **Form** **Designer** provides an intuitive interface where you can quickly start building **forms** for any use case. Forms are an important component of any process, they might be used as stages of a process and could be made active individually or at the same time (parallel forms).
+Kianda **Form** **Designer** provides an intuitive interface where you can quickly start building **forms** for any business use case. Forms are an important component of any process. They might be used as a stage of a process and can be made active individually or at the same time (parallel forms).
 
 There are 3 key principles to consider when working with forms:
 
@@ -8,27 +8,32 @@ There are 3 key principles to consider when working with forms:
 2) Form management - who can edit and access forms
 3) Form interaction - how users can use forms depending on certain sequences happening
 
-This page presents the information you need concerned with form design, that is what a form looks like, and what is contains. By default form designers can edit forms, but they can also set how other people interact with forms and potentially can only see forms as **read-only**. Go to [Form management](form_management.md) to find out more about how form ownership works, and [Form interaction](form_interaction.md) to find out how a complete process flow works once forms are designed and assigned. 
+This page presents the information you need related to form design, that is what a form looks like, and what it contains. By default, form designers can edit forms, but they can also set how other people interact with forms, for example to make forms viewable as **read-only**. Go to [Form management](platform/form_management.md) to find out more about how form ownership works, and [Form interaction](platform/form_interaction.md) to find out how a complete process flow works once forms are designed and assigned. Read the steps below to find out more about Form design.
 
 
 
 ## Form Designer layout ##
 
-From the main process view, double-click on any process and the form designer window opens.
+To access processes, go to the left-hand pane and **Administration** > **Designer** and click on a process that you have created or imported, see [Getting started with Kianda processes](platform/process.md).
+
+From the main process view, click on any process to add forms.
+![Clicking on a process](images/clickonprocess.png)
+
+The form designer window opens and is made up of 3 main parts.
 
 ![Form Designer](images/formlayout.png)
 
 The key components of the form designer are:
 
-1. Left-hand pane contains both **controls** and **rules** that can be added to forms. Go to [Controls](fields/README.md) and [Rules](rules/README.md) to find out more. The left-hand pane also houses the **Exit** button ![Exit process](images/exitdesign.png) to go back to the process list, the **Save** button ![Save button](images/save.png)to save your work, the **Preview** button ![Preview](images/preview.png)to preview what you have created and the **Publish** button ![Publish button](images/publish.png)to publish your work. 
+1. Left-hand pane contains both **controls** and **rules** that can be added to forms. Go to [Controls](fields/README.md) and [Rules](rules/README.md) to find out more. The left-hand pane also houses the **Exit** button ![Exit process](images/exitdesign.png) to go back to the process list, the **Save** button ![Save button](images/save.png) to save your work, the **Preview** button ![Preview](images/preview.png) to preview what you have created and the **Publish** button ![Publish button](images/publish.png) to publish your work. 
 
    Note that clicking on **Save** saves a **draft** which is not available to users until you click on **Publish**.
 
-2. The central area is where the current **form canvas** is displayed. The canvas also houses 3 buttons by default **Submit**, **Save** and **Close**. Go to [Adding form elements](#Adding form elements) to find out more about editing these buttons and adding elements to the canvas.
+2. The central area is where the current **form canvas** is displayed. The canvas also houses 3 buttons by default: **Submit**, **Save** and **Close**. Go to [Adding form elements](#adding-form-elements) to find out more about editing these buttons and adding elements to the canvas.
 
-3. The right-hand pane is where the **properties** and **rules** are displayed for the selected item, see [Settings and Properties](#Settings and properties) for more information.
+3. The right-hand pane is where the **properties** and **rules** are displayed for the selected item, see [Settings and Properties](#settings-and-properties) for more information.
 
-4. The name of the process you are working on is shown in the top menu bar, for example Training Request. 
+Note the name of the process you are working on is shown in the top menu bar, for example Quarterly Training Request. 
 
 
 
@@ -36,15 +41,15 @@ The key components of the form designer are:
 
 1. How you get started with forms depends on:
 
-   - if you have created a process using the App Store, see [Predefined forms](#Predefined forms)
+   - if you have created a process using the App Store, see [Predefined forms](#predefined-forms)
 
-   - if you have created a process from scratch or want to create a form from scratch, see [New forms](#New forms)
+   - if you have created a process from scratch or want to create a form from scratch, see [New forms](#new-forms)
 
-   - if you import forms that have already been created, see [Import forms](#Import forms)
+   - if you import forms that have already been created, see [Import forms](#import-forms)
 
-2. Once your form is created, you are ready to start adding elements to your form, see [Adding form elements](#Adding form elements). 
+2. Once your form is created, you are ready to start adding elements to your form, see [Adding form elements](#adding-form-elements). 
 
-2. In addition there are a number of settings you can change, see [Settings and Properties](#Settings and Properties). 
+2. In addition there are a number of settings you can change, see [Settings and Properties](#settings-and-properties). 
 
    
 
@@ -52,13 +57,13 @@ The key components of the form designer are:
 
 1. If you have created a process using the App Store, then a number of forms will already be part of the process. For example the process Security Incident Management has 5 forms attached: Incident detail, Data breach, Malware outbreak, Root cause remedy and Caller review. Click on [Kianda Apps](platform/appstore.md) to find out more about other apps in the App Store. 
 
-2. You can simply click on a form and click on the **Pen** button ![Pen icon](images/penicon.png)to edit the form details. You can also click on the **Add form** button ![Add form](images/addform.png)to add a new form. Edit options are shown under [New forms](#New forms).
+2. To edit form details, simply click on a form and click on the **Pen** button ![Pen icon](images/penicon.png) to edit the form. You can also click on the **Add form** button to add a new form. Edit options are shown under [New forms](#new-forms).
 
    
 
 ### New forms ###
 
-***How to add new form*** - Button has changed TO COME BACK TO
+***How to add new form*** - Button has changed (layout of add form and Import) TO COME BACK TO - needs a new video
 
 <video width="100%" style="width:100%" controls>
     <source src="../videos/How to add new form 2.mp4">
@@ -68,25 +73,27 @@ The key components of the form designer are:
 
 
 
-1. If you have created a process from scratch, an empty form is added to your process by default. Click on this form and the **Pen** button ![Pen icon](images/penicon.png)to customise it. You can also click on the **Add form** button ![Add form](images/addform.png)to add a new form to any predefined processes. 
+1. If you have created a process from scratch, an empty form is added to your process by default, called "form 1". This is the first form. Click on this form and the **Pen** button ![Pen icon](images/penicon.png) to customise it. You can also click on the **Add form** button ![Add form](images/addform.png) to add a new form to any predefined processes. 
 
-   ![Edit form](images/editform.png)
+   ![Edit form](images/form1_resized.png)
 
-2. Choose from the edit options:
+2. There are a number of edit options below.
+
+   ![Edit form options](images/editingform.png)
+
+   Note: as you change any of the options in the dialog box, the impact will be shown in real-time on the form in the background, for example a title, or colour form theme.
 
    1. **Title** - the form title, for example Employee Request Form
 
    2. **Name** - this is a unique name for the form
 
-   3. **Default owner(s)** - by default the form creator is an owner. You can remove this user by clicking on ![x](images/x.png) and add other owners by clicking on the arrow and choose from **Users**, **Groups** or **Partners**. 
+   3. **Default owner(s)** - by default the form creator is an owner. You can remove this owner by clicking on ![x](images/x.png) and add other owners by clicking on the arrow and choose from **Users**, **Groups** or **Partners**. 
 
       - Users - allows you to choose individual owners
       - Groups - allows you to choose from defined groups for example HR Team or Management Team
       - Partners - allows you to choose predefined partner organisations that you want to share with or provide permissions
 
-   4. **Activate with** - will decide when the form will be active. If you leave the field blank, the new form will be activated sequentially after the first form is submitted. If there are several forms attached to the process, then select from a dropdown list the form you want to activate with the current form. 
-
-      ![Activate with another form](images/activatewith.png)
+   4. **Activate with** - will decide when the form will be active. If you have several forms attached to a process, then select from a dropdown list the form you want to activate with the current form. If you leave the field blank, the new form will be activated **sequentially** after the first form is submitted. 
 
    5. **Submit mode** - options are a) Only this form (the current form) or b) All forms in edit mode
 
@@ -94,33 +101,31 @@ The key components of the form designer are:
 
    7. **Form theme** - choose from Navy, Green, Blue, Amber, Red or White Colours for your form.
 
-   8. **Enable quick actions** - if you tick the checkbox, you can select from the options a) Enable re-assign b) Enable edit and c) Enable custom action. Click on **Ellipsis** button ![Ellipsis button](images/ellipsis.png)to further modify the action settings. 
+   8. **Enable quick actions** - if you tick the checkbox, you can select from the options a) Enable re-assign b) Enable edit and c) Enable custom action. Click on **Ellipsis** button ![Ellipsis button](images/ellipsis_frame.png) to further modify the action settings. 
 
       - If you click on **Enable re-assign**, you can reassign action settings to particular Users, Groups or Partners. Click on **Allow form owners** if you want form owners to be able to reassign actions.
 
-      ![Reassign action settings](images/reassignactions.png)
-
       - If you click on **Enable edit**, you can allow certain Users, Groups or Partners to edit the form, along with form owners by clicking on **Allow form owners**. 
 
-        Other options include a checkbox **When editing auto hide form footer buttons** and **Trigger rules on save**.
-
-         Click on the Save action field bar to choose from actions: **Submit**, **Save** or **Close**. 
-
-        ![Edit action settings](images/editactions.png)
-
+        Other options include a checkbox for **When editing auto hide form footer buttons** and **Trigger rules on save**.
+      
+        - If you check **Trigger rules on save** then click into the **Save action field** to choose from an action trigger as to when the form is saved, for example Submit, Save or Close. These can be other actions depending on what you have defined.
+      
+        ![Edit action settings](images/editactions_resized.png)
+      
       - If you click on **Enable custom action**, you can allow certain Users, Groups or Partners to edit the form, along with form owners by clicking on **Allow form owners**. 
       
         Other options include **Action label**, **Target action field** and **Action display mode**, for example **Read-only mode**, **Edit mode** or **Both**.  
 
-     ![Custom action settings](images/customsettings.png)
+        ![Custom action settings](images/customsetting_resized.png)
 
-   As a form designer you can set up actions dependent on certain conditions, for example an Action label that targets a certain button appearing for example Close button, only when a certain display mode is chosen, for example Read-only mode. If Edit mode is chosen, then the button will only appear when the form is being edited. In this way you can create dynamic forms that suit user interactions.
+   As a form designer you can set up actions dependent on certain conditions, for example an Action label that targets a certain button appearing for example Close button, only when a certain display mode is chosen, for example Read-only mode. If **Edit mode** is chosen, then the button will only appear when the form is being **edited**. In this way you can create dynamic forms that suit user interactions.
 
-3. Click on the **OK** button ![OK button](C:\Kianda\docs-dev\fields\input\images\ok.png) when you are finished editing to save your changes or click on **Close** to exit the dialog box without saving.
+3. Click on the **OK** button when you are finished editing to save your changes or click on **Close** to exit the dialog box without saving.
 
-4. To save your changes to the form, click on the **Save** button ![Save button](C:\Kianda\docs-dev\fields\input\images\saveprocess.png). 
+4. To save your changes to the form, click on the **Save** button ![Save button](images/save.png). 
 
-5. You are now ready to start adding [Controls](fields/README.md) and [Rules](rules/README.md) to your form. You can also implement additional settings see [Process Settings](#Process Settings).
+5. You are now ready to start adding [Controls](fields/README.md) and [Rules](rules/README.md) to your form. You can also implement additional settings see [Process Settings](#process-settings).
 
    
 
@@ -130,13 +135,11 @@ The key components of the form designer are:
 
 2. Click on the arrow to select from the drop down list to **Select a process design**. 
 
-3. Click on a process of interest and then click on the forms and fields to import. Forms are indicated by a + symbol and can be expanded to show elements within a form like a panel containing different fields like lists and text boxes. 
+3. Click on a process of interest and then click on the forms to import. Forms are indicated by a + symbol and can be expanded to show elements within a form for example a panel containing different fields such as lists and text boxes. This means you can import a whole form, or just elements of a form. In this way you can very quickly reuse some or all parts of an existing form. 
 
    ![Import from another process](images/importprocessdetails.png)
 
-   In this way you can very quickly reuse some or all parts of an existing form. 
-
-4. Click on the **OK** button ![OK button](C:\Kianda\docs-dev\fields\input\images\ok.png) when you are finished editing to save your changes or click on **Close** to exit the dialog box without saving.
+4. Click on the **OK** button when you are finished editing to save your changes or click on **Close** to exit the dialog box without saving.
 
 
 

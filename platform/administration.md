@@ -2,7 +2,7 @@
 
 The administration menu contains all the functions you need to maintain your Kianda workspace.
 
-[Administration](platform/administration.md) - contains 9 areas:
+[Administration](platform/administration.md) - contains 8 areas:
 
 - [Designer](platform/designer.md)
 - [App Store](platform/appstore.md)
@@ -11,7 +11,5 @@ The administration menu contains all the functions you need to maintain your Kia
 - [Scheduled tasks](platform/scheduledtasks.md)
 - [Recycle bin]([platform/recyclebin.md])
 - [Users](platform/users.md)
-- [Invite partner]([platform/invitepartner.md])
 - [Developer](platform/developer.md)
-
 - More - includes [Help](platform/help.md), [Support](platform/support.md) and [Feedback](platform/feedback.md) links
