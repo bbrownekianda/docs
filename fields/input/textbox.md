@@ -61,6 +61,12 @@ The **Text box field** is used to input text into a form for example a name or a
 
 4. To move the text box, click on the **Drag handle** ![Move button](images/move.png)on the text box field itself and drag it to where you want it to appear on the form, for example within a panel. 
 
+6. To change the text box properties, click on the field itself and the properties pane appears on the right.
+
+   ![Text box properties](C:\Kianda\docs-dev\fields\input\textbox.assets\textboxproperties.png)
+
+   Go to [Properties](field/properties.md) to find out more about options.
+
 5. To save your changes to the form, click on the **Save** button ![Save button](images/saveprocess.png). 
 
 7. To delete the text box, click on the field itself and then click on the **Bin/Trash** button ![Bin or Trash icon](images/binicon.png) and then click on **Ok** after you have reviewed the field name and are sure this is what you want to delete. Click on **Cancel** if you wish to cancel the deletion.
@@ -68,24 +74,4 @@ The **Text box field** is used to input text into a form for example a name or a
    
 
 
-## How to edit Text box properties
-
-To change the text box properties, click on the field itself and the properties pane appears on the right.
-
-![Text box properties](images/textboxproperties.png)
-
-The **Field type**, Text box, is shown along with the **Title** of the field, in the example above Employee Name.
-
-The options within properties are:
-
-- **Show Title** - show the title of the field
-- **Required** - make this field mandatory for users to fill out
-- **Enabled** - the field is enabled for users to fill out
-- **Visible** - the field is visible to users
-- **Max length** - the maximum number of characters for the field
-- **Layout** - change the width of the field by clicking on the bar in the Layout box until you see the desired size. Click on the arrow beside Layout to see the Mobile Layout and click on the bar to change the width of the text box for mobile use.
-
-![Changing text box width](images/textboxsize.png)
-
-- **Rules** - rules for input fields are covered in [Rules](rules/README.md).
 

@@ -58,6 +58,12 @@
 
 4. To move the list, click on the **Drag handle** ![Move button](images/move.png)on the list field itself and drag it to where you want it to appear on the form, for example within a panel. 
 
+5. To change list properties, click on the field itself and the properties pane appears on the right.
+
+  ![List properties](images/listproperties.png) 
+
+   Go to [Properties](field/properties.md) to find out more about options.
+
 5. To save your changes to the form, click on the **Save** button ![Save button](images/saveprocess.png).
 
    When your list is complete you should see the list displaying in the format chosen, for example a dropdown list as shown below.

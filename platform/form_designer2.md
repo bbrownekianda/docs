@@ -1,6 +1,6 @@
-# Form Designer
+# Designer # 
 
-Kianda **Form** **Designer** provides an intuitive interface where you can quickly start building **forms** for any business use case. Forms are an important component of any process. They might be used as a stage of a process and can be made active individually or at the same time (parallel forms).
+Kianda **Designer** provides an intuitive interface where you can quickly start building **forms** for any business use case. Forms are an important component of any process. They might be used as a stage of a process and can be made active individually or at the same time (parallel forms).
 
 There are 3 key principles to consider when working with forms:
 
@@ -12,18 +12,18 @@ This page presents the information you need related to form design, that is what
 
 
 
-## Form Designer layout ##
+## Designer layout ##
 
 To access processes, go to the left-hand pane and **Administration** > **Designer** and click on a process that you have created or imported, see [Getting started with Kianda processes](platform/process.md).
 
 From the main process view, click on any process to add forms.
 ![Clicking on a process](images/clickonprocess.png)
 
-The form designer window opens and is made up of 3 main parts.
+The designer window opens and is made up of 3 main parts.
 
 ![Form Designer](images/formlayout.png)
 
-The key components of the form designer are:
+The key components of the designer are:
 
 1. Left-hand pane contains both **controls** and **rules** that can be added to forms. Go to [Controls](fields/README.md) and [Rules](rules/README.md) to find out more. The left-hand pane also houses the **Exit** button ![Exit process](images/exitdesign.png) to go back to the process list, the **Save** button ![Save button](images/save.png) to save your work, the **Preview** button ![Preview](images/preview.png) to preview what you have created and the **Publish** button ![Publish button](images/publish.png) to publish your work. 
 
@@ -31,7 +31,7 @@ The key components of the form designer are:
 
 2. The central area is where the current **form canvas** is displayed. The canvas also houses 3 buttons by default: **Submit**, **Save** and **Close**. Go to [Adding form elements](#adding-form-elements) to find out more about editing these buttons and adding elements to the canvas.
 
-3. The right-hand pane is where the **properties** and **rules** are displayed for the selected item, see [Settings and Properties](#settings-and-properties) for more information.
+3. The right-hand pane is where the **properties** and **rules** are displayed for the selected item, see [Properties](platform/properties.md) for more information. From this pane you can also [Import forms](#import-forms), see the [Version history](platform/version_history.md) for a process and set process [Settings](platform/settings.md). Click on the links to find out more.
 
 Note the name of the process you are working on is shown in the top menu bar, for example Quarterly Training Request. 
 
@@ -73,7 +73,7 @@ Note the name of the process you are working on is shown in the top menu bar, fo
 
 
 
-1. If you have created a process from scratch, an empty form is added to your process by default, called "form 1". This is the first form. Click on this form and the **Pen** button ![Pen icon](images/penicon.png) to customise it. You can also click on the **Add form** button ![Add form](images/addform.png) to add a new form to any predefined processes. 
+1. If you have created a process from scratch, an empty form is added to your process by default, called "form 1". This is the first form. Click on this form and the **Pen** button ![Pen icon](images/penicon.png) to customise it. You can also click on the **Add form** button ![Add form](images/addform.png) to add a new form. 
 
    ![Edit form](images/form1_resized.png)
 
@@ -151,9 +151,9 @@ If you have added a new form during the form creation process, then a blank canv
 
 You can:
 
-1) Add elements to this canvas by clicking on [Controls](fields/README.md) and [Rules](rules/README.md) in the left-hand pane.
+1) Add elements to this canvas by clicking on [Controls](fields/README.md) and [Rules](rules/README.md) in the left-hand pane. Click on each link to find out more about the 16 Control fields and 
 2) Move elements by clicking on the **Drag Handle** ![Drag handle](images/move.png) beside the item and dragging it to where you want to place it. 
-3) Edit elements by clicking on each item and clicking on the **Pen** button ![Pen icon](images/penicon.png) for example if you click on the **Close button** there are a number of options to choose from when editing see [Form buttons](#Form buttons).
+3) Edit elements by clicking on each item and clicking on the **Pen** button ![Pen icon](images/penicon.png) for example if you click on the **Close button** there are a number of options to choose from when editing see [Form buttons](#form-buttons).
 
 
 
@@ -165,9 +165,9 @@ In addition to the edits above, there are a number other actions and settings th
 
 Settings are available from the right-hand pane and give you the ability to:
 
-- View [Design version history](#Design version history)
+- View [Design version history](#design-version-history)
 
-- Change [Process settings](#Process settings)
+- Change [Process settings](#process-settings)
 
 - Create a duplicate form by selecting a form, clicking on the **Clone** button ![Clone button](C:\Kianda\docs-dev\platform\form_designer2.assets\clone.png)and then click on **Ok**. A version called 'Form Name Copy' is created and available to edit on the canvas. The **Clone** button can also be used to clone form elements like controls or buttons. 
 
@@ -175,29 +175,11 @@ Settings are available from the right-hand pane and give you the ability to:
 
 - Delete a form by selecting a form, clicking on the **Bin/Trash** button ![Bin icon](C:\Kianda\docs-dev\platform\form_designer2.assets\binicon-16397581516591.png) and then click on **Ok** after you have reviewed the form title and you are sure this is what you want to delete. Click on **Cancel** if you wish to cancel the deletion.
 
-- View and edit [Form properties and rules](#Form properties and rules)
+- View and edit [Form properties and rules](#form-properties-and-rules)
 
-- Edit form buttons by clicking on a button of choice and then **Change field**, see [Form buttons](#Form buttons).
+- Edit form buttons by clicking on a button of choice and then **Change field**, see [Form buttons](#form-buttons).
 
   
-
-### Design version history ###
-
-The **current version** of a process is always visible in the right-hand pane, for example V0.1 as shown below.
-
-![Right-hand pane](images/processproperties.png)
-
-The **first version** of a process is **0.1** and will increment to 0.2 and so on, each time a process is saved. Once the process is **published** the version changes to **1.0** and increments with each publication. This makes it is easy to keep track of who and when changes were made and to restore an older version if needed. 
-
-1. To view the version history click on the **Design version history** button ![View design version history](images/version.png) .
-
-2. A pop-up shows the version history details including when the version was created and who created it. 
-
-   ![Version history details](images/versiondetails.png)
-
-3. Click on a particular version to see the version information, for example forms, fields and rules that were added,  modified or removed.
-
-4. Click on the **Restore** button ![Restore button](images/restore.png) beside a particular version and then click on **Ok** to confirm that you want to restore to that version. 
 
 
 
@@ -265,7 +247,7 @@ Go to [Rules](rules/README.md) to find out more about **Form rules**.
 
 ### Form buttons ###
 
-By default there are 3 buttons on all forms, **Submit**, **Save** and **Close**, but you can change these to buttons in a myriad of ways to customise your users' experience see sections [Editing a button](#Editing a button), [Copying a button](#Copying a button), [Changing button properties](#Changing button properties) and [Deleting a button](#Deleting a button) below.
+By default there are 3 buttons on all forms, **Submit**, **Save** and **Close**, but you can change these to buttons in a myriad of ways to customise your users' experience see sections [Editing a button](#editing-a-button), [Copying a button](#copying--a-button), [Changing button properties](#changing-button-properties) and [Deleting a button](#deleting-a-button) below.
 
 #### Editing a button
 

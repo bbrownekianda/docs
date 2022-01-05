@@ -13,18 +13,18 @@ If you go to **Administration** > **Designer** and click on a process or create 
 
 ![Rules](images/rulesgeneral.png) 
 
-There are 10 categories of rules:
+There are 10 categories of rules, and 59 rules in total:
 
 1. **Workflow** - rules that represent the actions a user intends to perform, when they interact with form components. There are 6 workflow rules, see [Workflow](workflow.md) for more information.
-2. **Communications** - rules associated with user communication for example sending an email or triggering a user alert, see [Communications](communications/README.md) for more information. 
-3. Data - 
-4. Users
-5. File management
-6. Tables
-7. Dates
-8. Form actions
-9. SharePoint
-10. KiandaAI
+2. **Communications** - rules associated with user communication for example sending an email or triggering a user alert. There are 4 communication rules, see [Communications](communications/README.md) for more information. 
+3. **Data** - rules associated with database operations like create, update and delete. There are 5 data rules, see [Data](data/README.md) for more information.
+4. **Users** - rules associated with user properties, allowing user lookup or update a user. There are 4 user rules, see [Users](users/README.md) for more information. 
+5. **File management** - rules concerned with generating documents such as Word, Excel or converting to PDF. There are 7 file management rules, see [File Management](files/README.md) for more information. 
+6. **Tables** - rules associated with table operations such as updating, adding and removing table rows. There are 12 table rules, see [Tables](tables/README.md) for more information. 
+7. **Dates** - date rules to calculate time and format dates. There are 4 date rules, see [Dates](dates/README.md) for more information. 
+8. **Form actions** - rules linked to actions that are part of forms, for example submit, close or save. There are 6 form rules, see [Form actions](form_actions/README.md) for more information. 
+9. **SharePoint** - SharePoint associated rules such as adding, finding or removing users. There are 10 SharePoint rules, see [SharePoint](sharepoint/README.md) for more information. 
+10. **KiandaAI** - there is 1 KiandaAI rule related to text analysis, see [KiandaAI](kianda/kianda_ai.md) for more information. 
 
 
 

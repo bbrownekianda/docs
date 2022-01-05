@@ -1,4 +1,4 @@
-## Getting started with Kianda processes ##
+# Getting started with Kianda processes #
 
 The power of Kianda lies in giving anyone, even those without coding experience, the ability to design a **business application or process** quickly and efficiently, for example, this process could be a Quality Assurance checklist that installation engineers must follow on site using a mobile app or it could be a HR process to allow employees to submit annual leave requests and approve these online. Processes can connect to your data sources like Sharepoint or SalesForce allowing for the flexibility of your applications to grow as your business grows.
 
@@ -56,7 +56,9 @@ Before you begin, we at Kianda recommend doing some simple planning before you d
 
 8. Imported processes are available to view and edit from the main process view.
 
-5. When you have created your process go to [Form Designer](platform/form_designer2.md) to find out more on how to add and change forms within your process(es).
+9. When you have created your process go to [Designer](platform/form_designer2.md) to find out more on how to add and change forms within your process(es).
+
+   
 
 
 ### Creating your own processes
@@ -93,7 +95,7 @@ Before you begin, we at Kianda recommend doing some simple planning before you d
 
 3. Click on the **OK** button when you are finished to save your work, or click on **Close** to exit the dialog box.
 
-3. When you have created your process go to [Form Designer](platform/form_designer2.md) to find out more on how to add forms to your process(es).
+3. When you have created your process go to [Designer](platform/form_designer2.md) to find out more on how to add forms to your process(es).
 
    
 
@@ -125,7 +127,7 @@ Before you begin, we at Kianda recommend doing some simple planning before you d
 
 8. Imported processes are available to view and edit from the main process view.
 
-8. When you have imported your process(es) go to [Form Designer](platform/form_designer.md) to find out more on how to edit or add forms to your process(es).
+8. When you have imported your process(es) go to [Designer](platform/form_designer2.md) to find out more on how to edit or add forms to your process(es).
 
 
 
@@ -136,7 +138,7 @@ Before you begin, we at Kianda recommend doing some simple planning before you d
 
    ![Process created](images/firstprocess_resized.png)
 
-   Information related to your processes, is found in this panel, for example who created the process, and when, the version of the process and a description. 
+   Information related to your processes, is found in this panel, for example who created the process, and when, the version of the process and a description if it exists. 
 
 2. The first version of a process is **0.1** and will increment to 0.2 and so on, each time a process is updated. Once the process is **published** the version changes to **1.0** and increments with each publication. This makes it is easy to keep track of who made changes and when, and to restore an older version if needed. You can also search for processes by typing your keywords into the search bar.
 
@@ -144,11 +146,11 @@ Before you begin, we at Kianda recommend doing some simple planning before you d
 
 4. At any time you can delete a process by clicking on the **Bin/Trash** button ![Bin icon](images/binicon.png) and then click on **Ok** after you have reviewed the process title and you are sure that this is what you want to delete. Click on **Cancel** if you wish to cancel the deletion.
 
-4. Once you have created your process, you are ready to add forms. Go to [Form Designer](platform/form_designer2.md) to find out more on how to add and change forms within your process(es).
+4. Once you have created your process, you are ready to add forms. Go to [Designer](platform/form_designer2.md) to find out more on how to add and change forms within your process(es).
 
 
 
-### Exporting processes
+## Exporting processes
 
 1. You can export any processes, by clicking on the **Export** button ![Export Process](images/export_frame.png) and select a process to export from the dropdown list.
 

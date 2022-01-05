@@ -1,4 +1,4 @@
-## Kianda Workspace
+# Kianda Workspace
 
 The Kianda user interface is designed to be responsive and intuitive, allowing you to easily create and control your business processes.  The Kianda **Workspace** gives you to ability to manage all your processes and view real-time data presented in dashboards, to guide your business decisions.
 
@@ -19,7 +19,7 @@ The layout of the user interface is as follows:
    
      <details>
    
-     - [Designer](platform/designer.md) - central point to create and manage processes
+     - [Designer](platform/form_designer2.md) - central point to create and manage processes
    
      - [App Store](platform/appstore.md) - pre-defined processes, for HR, Finance and Quality Assurance amongst others, that you can use and modify
    
@@ -47,7 +47,7 @@ The layout of the user interface is as follows:
    - **User notifications** ![Notifications button](images/notifications.png)
    - **User profile** ![User profile](images/userprofile.png) 
    
-   Click on [Quick Action menu](quickaction.md) to find out more about each button.
+   Click on [Quick Action menu](platform/quickaction.md) to find out more about each button.
 
 
 
