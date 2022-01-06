@@ -7,7 +7,7 @@ There are 2 key principles to consider when working with forms:
 1) Rule design - what type of rule you are going to apply and where, for example to a button, field or form
 2) Rule order - if there are several rules attached to an item like a button, then the order of execution is important and can be modified to suit your needs.
 
-## Getting started with Rules ##
+## How to get started ##
 
 If you go to **Administration** > **Designer** and click on a process or create a new process, the predefined rules are found in the left-hand pane under **Add a rule**.
 

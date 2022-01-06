@@ -21,13 +21,13 @@ The **Text box field** is used to input text into a form for example a name or a
 
 3. Choose from the edit options:
 
-   1. **Title** - of the field, for example Employee Name
+   - **Title** - of the field, for example Employee Name
 
-   2. **Name** - this is a unique name for the field
+   - **Name** - this is a unique name for the field
 
-   3. **Help text** - information to help the form user
+   - **Help text** - information to help the form user
 
-   4. **Mode** - options are a) Single line of text b) Multiple lines of text c) Rich text
+   - **Mode** - options are a) Single line of text b) Multiple lines of text c) Rich text
 
       If you choose a) Single line of text then the following additional options are visible:
 
@@ -47,13 +47,13 @@ The **Text box field** is used to input text into a form for example a name or a
 
       ​		**Rows** - the number of rows you would like for the text box
 
-   5. **Text style** - options are a) Normal b) Capitalise c) Uppercase d) Lowercase
+   - **Text style** - options are a) Normal b) Capitalise c) Uppercase d) Lowercase
 
-   6. **Max length** - the maximum number of characters for the field
+   - **Max length** - the maximum number of characters for the field
 
-   7. **Text style** - options are a) Normal b) Capitalise c) Uppercase d) Lowercase
+   - **Text style** - options are a) Normal b) Capitalise c) Uppercase d) Lowercase
 
-   8. **Expression** - this can be used to return a value for example Date() returns the current date and time. For a full explanation of expressions go to [Expressions](platform/expressions.md) 
+   - **Expression** - this can be used to return a value for example Date() returns the current date and time. For a full explanation of expressions go to [Expressions](platform/expressions.md) 
 
      ![Example of text box options](images/textboxfilled.png)
 
