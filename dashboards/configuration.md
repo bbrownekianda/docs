@@ -1,4 +1,4 @@
-# Editing a dashboard #
+# Editing a dashboard page #
 
 When using a predefined dashboard widget, there are many options to enabling filtering, match conditions, and only display certain fields from processes, so you can hone in on the data you need.
 
@@ -10,7 +10,7 @@ When using a predefined dashboard widget, there are many options to enabling fil
 
 ![Dashboard editing](images/dashboardconfig.png)
 
-2. A dialog box opens with filtering options in the left-hand pane and list view fields in the right-hand pane, go to [List view fields](#list-view-fields) to read more about the latter options.
+2. A dialog box opens with filter options in the left-hand pane and list view fields in the right-hand pane, go to [List view fields](#list-view-fields) to read more about the latter options.
 
    ![Editing options](images/listconfig.png)
 
@@ -53,7 +53,11 @@ If you choose data from a Data source, then the options below become available.
 
 ![Choosing data from a Process](images/dataprocess_resized.png)
 
-1. Click on **Select data source**
+1. Click on **Select data source**. You will be directed to different data sources where you can search in the **datasource tree** search box or drill down to the data source you want. 
+
+   ![Select data source](images/selectdatasource.png)
+
+   Click on the **OK** button when you are finished editing to save your changes or click on **Close** to exit the dialog box without saving.
 
 1. Click on **Data source filter**
 

@@ -24,24 +24,45 @@ Kianda offers a user-friendly interface to create dashboards in a few minutes. P
 
 1. Click on the **OK** button when you are finished editing the field to save your changes or click on **Close** to exit the dialog box without saving.
 
-1. The output is a menu with a number of widgets available that you can add to the dashboard. Go to [Dashboard widgets](#dashboard-widgets) to find out more about each widget type. 
+1. The output is a menu with a number of widgets available that you can add to the dashboard. Go to [Dashboard widgets](#dashboard-widgets) to find out more about each widget type.
 
-   ![Widget menu](images/widgetmenu_resized.png)
+   ![Widget menu](C:\Kianda\docs-dev\dashboards\README.assets\widgetmenu_resized.png)
+
+1. If you wish to change settings for the dashboard page, click on the **Settings** button ![Settings](images/settings.png)see [Dashboard page settings](#dashboard-page-settings) for more details.
+
+1. If you want to delete the dashboard page, click on the **Bin** icon ![Bin](images/bin.png) and then click on **Ok** to confirm you want to delete the dashboard page or click on **Cancel** if you wish to cancel the deletion.
+
+   
 
    
 
 
-### ## Dashboard widgets ## ###
+### ## Dashboard widgets ###
 
-Kianda offers real-time monitoring dashboards for use on mobile, tablet or desktop devices. Using Kianda dashboards, you could easily configure a process dashboard or home page in minutes with the help of widgets. Kianda comes with a pre-defined set of widgets as below:
+Kianda offers real-time monitoring dashboards for use on mobile, tablet or desktop devices. Using Kianda dashboards, you could easily configure a process dashboard or home page in minutes with the help of widgets. Kianda comes with 7 predefined widgets as listed below.
 
-1. **Rich text**: The Rich text is used to display some texts, links or images on the dashboards.
-2. **Tile**: A tile is used to display a count of instances with different colour schemes. You could also add conditions to display count, for example, you could add a condition “Status” equals “In-progress”, this will display the count of instances with status “In-progress”.
-3. **Chart:** Using a chart widget, you could create a pie chart, bar chart or a line chart. These charts could be used to represent various conditions on a process.
-4. **List:** The list widget displays the instances of the selected process. List widget could also be used to connect with any other widget to display the filtered items.
-5. **Filter:** The filter widget is used to filter the instances based on a field. For example, process instances could be filtered by status.
-6. **Link:** The link widget is used to add a link to a new process, dashboard or any external sources such as SharePoint.
-7. **Walk-through:** This widget allows you to create a walk-through quickly which could be made available to a user, group or an organisation.
+- **Rich text**: The Rich text is used to display some texts, links or images on the dashboards.
+- **Tile**: A tile is used to display a count of instances with different colour schemes. You could also add conditions to display count, for example, you could add a condition “Status” equals “In-progress”, this will display the count of instances with status “In-progress”.
+- **Chart:** Using a chart widget, you could create a pie chart, bar chart or a line chart. These charts could be used to represent various conditions on a process.
+- **List:** The list widget displays the instances of the selected process. List widget could also be used to connect with any other widget to display the filtered items, see [List widgets](dashboards/listwidgets.md) for more details.
+- **Filter:** The filter widget is used to filter the instances based on a field. For example, process instances could be filtered by status.
+- **Link:** The link widget is used to add a link to a new process, dashboard or any external sources such as SharePoint.
+- **Walk-through:** This widget allows you to create a walk-through quickly which could be made available to a user, group or an organisation.
+
+
+
+## Dashboard page settings ##
+
+When you click on the **Settings** button ![Settings](images/settings.png)a dialog box opens. The edit options are the same as the original edit options see [How to get started](#how-to-get-started) but also includes 2 additional checkboxes:
+
+- **Display in mobile footer** - tick this checkbox if you want to COME BACK TO
+- **Hide from navigation** - tick this checkbox if you want to hide the dashboard from navigation COME BACK TO
+
+![Dashboard settings](images/dashsettings.png)
+
+Click on the **OK** button when you are finished editing the field to save your changes or click on **Close** to exit the dialog box without saving.
+
+
 
 ## Enabling data export from dashboards ##
 
