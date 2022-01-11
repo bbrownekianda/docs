@@ -32,7 +32,7 @@ With the chart widget, you can create pie, bar or line charts. These charts can 
 
 4. You can then edit the widget to display certain fields from your form, that relates to the data you are interested in. Go to [Configure your widget](#configure-your-widget) to find out more.
 
-5. When you are finished making edits, click on the **Save** button ![Save button](images/save.png) in the top menu to ensure your dashboard changes are saved and you see a pop-up message **Page saved successfully**.
+5. When you are finished making edits, click on the **Save** button ![Save button](images/save.png) in the top menu to ensure your dashboard changes are saved and you will see a pop-up message **Page saved successfully**.
 
 6. To make further changes later on, click on the **Edit** button ![Edit button](images/edit.png) in the top menu and then click on the **Pen** button.
 

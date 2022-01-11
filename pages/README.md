@@ -2,17 +2,33 @@
 
 Kianda **dashboards** deliver a convenient way to provide insights into how your business processes are performing. Kianda dashboards offer easy reporting, permissions management, quick build, condition-based filtering and many more features.
 
-From lists to tiles, filter and charts, dashboards allow you to build full digital experiences to monitor your real-time processes in a few minutes.
+From lists to tiles, filter and charts, dashboards allow you to build full digital experiences to monitor your real-time processes in a few minutes. 
 
-When using dashboards there are 2 modes: **Edit mode** and **View mode**.
+There are 3 steps involved in creating a dashboard:
+
+1. Create a dashboard page.
+2. Add one or more widgets.
+3. Configure or edit the widgets to make the page look the way you want.
+
+If you are using Kianda predefined processes from the [App Store](#platform/appstore.md) then dashboards have already been created for you! These are  available by clicking on **Dashboard** from the main side menu or left-hand pane.
+
+Before you begin it is important to be aware that there are two modes involved in dashboard pages, an [Edit mode and View mode](#edit-mode-and-view-mode) as described below.
+
+
+
+## Edit mode and View mode ##
+
+When using dashboards there are two modes: **Edit mode** and **View mode**.
 
 When you are in **View mode**, the **Edit** button ![Edit button](images/edit.png) will be visible in the top menu bar.
 
 ![View mode](images/dashboardgeneral.png)
 
-When you click on the **Edit** button ![Edit button](images/edit.png) you will be in Edit mode, which means that the Widget menu is available at the top of the dashboard page, along with the **Update configuration** ![Pen button](images/pen.png), **Settings** ![Cog button](images/cog.png)and **Delete** ![Bin button](images/bin.png) buttons, on widgets that have already been added. 
+When you click on the **Edit** button ![Edit button](images/edit.png) you will be in **Edit mode**, which means that the **Widget menu** is available at the top of the dashboard page, along with the **Settings** button ![Settings](images/settings.png) to make changes to the page, and **Bin/Trash** button ![Bin button](images/binicon.png) to delete the page.
 
 ![Edit mode](images/editmode.png)
+
+In **Edit mode,** you can also make changes to widgets, for example Kianda predefined dashboards from the [App Store](#platform/appstore.md) as **Update configuration** ![Pen button](images/pen.png), **Settings** ![Cog button](images/cog.png)and **Delete** ![Bin button](images/bin.png) buttons, will be available. If you want to create a dashboard page from scratch go to [How to get started](#how-to-get-started) or if you want to learn more about dashboard widgets go to [Dashboard widgets](#dashboard-widgets).
 
 
 
@@ -52,6 +68,10 @@ Kianda offers a user-friendly interface to create dashboards in a few minutes. P
 
 1. If you want to delete the dashboard page, click on the **Bin** icon ![Bin](images/bin.png) and then click on **Ok** to confirm that you want to delete the dashboard page or click on **Cancel** if you wish to cancel the deletion.
 
+1. Save any changes you make by clicking on the **Save** button ![Save button](C:\Kianda\docs-dev\pages\README.assets\save.png) in the top menu to ensure your dashboard changes are saved and you will see a pop-up message **Page saved successfully**. 
+
+1. You are now in **View mode**. To make further changes to the dashboard page, return to **Edit mode ** by clicking on the lick on the **Edit** button ![Edit button](C:\Kianda\docs-dev\pages\README.assets\edit.png) in the top menu.
+
    
 
    
@@ -59,7 +79,7 @@ Kianda offers a user-friendly interface to create dashboards in a few minutes. P
 
 ### Dashboard widgets ###
 
-Kianda offers real-time monitoring dashboards for use on mobile, tablet or desktop devices. Using Kianda dashboards, you could easily configure a process dashboard or home page in minutes with the help of widgets. Kianda comes with 7 predefined widgets as listed below.
+Kianda comes with 7 predefined widgets as listed below. Using these widgets you can quickly and easily create a process dashboard in minutes. The widgets are:
 
 - **Rich text**: The Rich text is used to display some texts, links or images on the dashboards.
 
@@ -75,7 +95,7 @@ Kianda offers real-time monitoring dashboards for use on mobile, tablet or deskt
 
 - **Walk-through:** This widget allows you to create a walk-through quickly which could be made available to a user, group or an organisation, see [Walk through widget](pages/walkthrough.md) for more details.
 
-When you have added one or more widgets, you can move the widgets around the dashboard page using the **Drag handle** button.
+When you have added one or more widgets, you can move the widgets around the dashboard page using the **Drag handle** button. This is possible when you are in **Edit mode**, see [Edit mode and View mode](#edit-mode-and-view-mode).
 
 ![Drag handle button](images/draghandle.png)
 
