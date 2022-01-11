@@ -6,9 +6,13 @@ With the chart widget, you can create pie, bar or line charts. These charts can 
 
 ## How to get started ##
 
-1. After creating a dashboard, click on the Chart widget ![Chart widget](images/chart.png)
+1. After creating a dashboard page, make sure you are in Edit mode, by clicking on the **Edit** button ![Edit button](images/edit.png) at the top of the page, so the Widget menu with 7 widget types is available. Then click on the Chart widget ![Chart widget](images/chart.png).
 
-2. Choose from the edit options:
+2. The **Add widget** dialog box opens.
+
+   ![Add chart widget](images/addchartwidget.png)
+
+   Choose from the edit options:
 
    - **Title** - the dashboard title, for example Type of Training
 
@@ -28,26 +32,42 @@ With the chart widget, you can create pie, bar or line charts. These charts can 
 
 4. You can then edit the widget to display certain fields from your form, that relates to the data you are interested in. Go to [Configure your widget](#configure-your-widget) to find out more.
 
+5. When you are finished making edits, click on the **Save** button ![Save button](images/save.png) in the top menu to ensure your dashboard changes are saved and you see a pop-up message **Page saved successfully**.
 
+6. To make further changes later on, click on the **Edit** button ![Edit button](images/edit.png) in the top menu and then click on the **Pen** button.
+
+   ![Pen button in a widget](images/penbutton_frame.png) 
+
+   
+
+7. To re-edit the title, colour scheme or other options in Step 2, click on the **Settings** button ![Settings button](images/cog.png)and the **Edit widget** dialog box options, allowing you to make changes.
+
+7. To delete the widget at any stage, click on the **Bin** icon ![Bin button](images/bin.png) beside the cog button, and then click on **Ok** to confirm that you want to delete the dashboard page or click on **Cancel** if you wish to cancel the deletion.
+
+   
 
 
 ## Configure your widget ##
 
-1. Click on the **Pen** icon in a widget you have created.
+1. Click on the **Update configuration** or **Pen** button in a chart widget you have created.
 
-![Chart widget edit](images/chartpen.png)
+   ![Chart widget edit](images/chartpen.png)
 
-2. A dialog box opens with filter options in the left-hand pane, and chart edit fields in the right-hand pane, go to [Chart edit fields](#Charteditfields.md) to read more about the latter options.
+2. A dialog box opens with filter options in the left-hand pane, a **Conditions** button ![Conditions](C:\Kianda\docs-dev\pages\chart.assets\conditions.png)in the middle of the box, and chart edit fields in the right-hand pane. Go to [Conditions](pages/conditions.md) to read more about conditions you can apply to data and go to [Chart view fields](pages/chartviewfields.md) to read more about changing how a chart looks.
 
    ![Editing a chart widget](images/editchart.png)
 
-3. The first option on the left is to choose is where the data should originate from using the **Data from** radio buttons. Choose from a) Process b) Partner process c) Data source. Depending on which option you choose go to the relevant area to read more on [Choosing data from a Process](#choosing-data-from-a-process), [Choosing data from a Partner process](#choosing-data=from-a=partner-process) and [Choosing data from a Data source](#choosing-data-from-a-data-source).
+3. The first option on the left is to choose is where the data should originate from using the **Data from** radio buttons. Choose from a) Process b) Partner process c) Data source. Depending on which option you choose go to the relevant area to read more on [Choosing data from a Process](#choosing-data-from-a-process), [Choosing data from a Partner process](#choosing-data-from-a-partner-process) and [Choosing data from a Data source](#choosing-data-from-a-data-source).
+
+3. The second option **Show processes** has 3 radio buttons associated with it a) Matching condition b) Matching condition and assigned to current user c) Matching condition and created by current user. TO COME BACK TO.
 
 4. The third option **Connect to List Widget** allows you to choose if this widget should connect to List widgets you have created for this dashboard page. Choose from a) Yes or b) No if you want to connect the widgets. If you click on **Yes** then click into the List Widget field and choose from previously created list widgets.
 
    ![Connect to List widget](images/connecttolist.png)
 
-5. s
+6. Go to [Chart view fields](pages/chartviewfields.md) to read about options in the right-hand pane of this dialog box to make changes to your chart like size, labels and adding a chart legend.
+
+5. When you are finished choosing options, click on the **OK** button to save your changes or click on **Close** to exit the dialog box without saving.
 
 
 
@@ -55,7 +75,7 @@ With the chart widget, you can create pie, bar or line charts. These charts can 
 
 If you choose data from a Process, then the options below become available.
 
-![Choosing data from a Process](C:\Kianda\docs-dev\pages\chart.assets\processdata2.png)
+![Choosing data from a Process](images/processdata2.png)
 
 Choose from the following options:
 
@@ -68,7 +88,7 @@ Choose from the following options:
 
 If you choose data from a Partner Process, then the options below become available.
 
-![Choosing data from a Process](C:\Kianda\docs-dev\pages\chart.assets\partnerprocess_resized.png)
+![Choosing data from a Process](images/partnerprocess_resized.png)
 
 Choose from the following options:
 
@@ -86,7 +106,6 @@ If you choose data from a Data source, then click on the **Select data source** 
 
 You will be directed to different data sources where you can search in the **datasource tree** search box or drill down to the data source you want. 
 
-![Select data source](C:\Kianda\docs-dev\pages\chart.assets\selectdatasource.png)
+![Select data source](images/selectdatasource.png)
 
 Click on the **OK** button when you are finished editing to save your changes or click on **Close** to exit the dialog box without saving.
-

@@ -6,9 +6,13 @@ The list widget displays the instances of the selected process in a dashboard. T
 
 ## How to get started ##
 
-1. After creating a dashboard, click on the List widget ![List widget](C:\Kianda\docs-dev\pages\list.assets\listwidget.png)
+1. After creating a dashboard page, make sure you are in Edit mode, by clicking on the **Edit** button ![Edit button](images/edit.png) at the top of the page, so the Widget menu with 7 widget types is available. Then click on the List widget ![List widget](images/listwidget.png).
 
-2. Choose from the edit options:
+2. The **Add widget** dialog box opens.
+
+   ![Add list widget](images/addlistwidget.png)
+
+   Choose from the edit options:
 
    - **Title** - the dashboard title, for example Training Requests
 
@@ -22,34 +26,40 @@ The list widget displays the instances of the selected process in a dashboard. T
 
    - **Device visibility** - choose from icons for deshtop, tablet, mobile, wifi and flightmode as to when the device can view the dashboards.
 
-     ![Device visibility](C:\Kianda\docs-dev\pages\list.assets\devicevisibility.png)
+     ![Device visibility](images/devicevisibility.png)
 
 3. Click on the **OK** button when you are finished editing the dashboard to save your changes or click on **Close** to exit the dialog box without saving.
 
 4. You can then edit the widget to display certain fields from your form, that relates to the data you are interested in. Go to [Configure your widget](#configure-your-widget) to find out more.
 
-5. When you are finished making edits, click on the **Save** button ![Save button](C:\Kianda\docs-dev\pages\list.assets\save.png) in the top menu to ensure your dashboard changes are saved and you see a pop-up message **Page saved successfully**.
+5. When you are finished making edits, click on the **Save** button ![Save button](images/save.png) in the top menu to ensure your dashboard changes are saved and you see a pop-up message **Page saved successfully**.
 
-6. To make further changes later on, click on the **Edit** button ![Edit button](C:\Kianda\docs-dev\pages\images\edit.png) in the top menu and then click on the **Pen** button.
+6. To make further changes later on, click on the **Edit** button ![Edit button](images/edit.png) in the top menu and then click on the **Pen** button.
 
-   ![Pen button in a widget](C:\Kianda\docs-dev\pages\images\penbutton.png) 
+   ![Pen button in a widget](images/penbutton_frame.png) 
+
+7. To re-edit the title, colour scheme or other options in Step 2, click on the **Settings** button ![Settings button](images/cog.png)and the **Edit widget** dialog box options, allowing you to make changes.
+
+7. To delete the widget at any stage, click on the **Bin** icon ![Bin button](images/bin.png) beside the cog button, and then click on **Ok** to confirm that you want to delete the dashboard page or click on **Cancel** if you wish to cancel the deletion.
 
    
 
 
 ## Configure your widget ##
 
-1. Click on the **Pen** icon in a widget you have created.
+1. Click on the **Update configuration** or **Pen** button in a list widget you have created.
 
-![Chart widget edit](images/penbutton.png)
+   ![Chart widget edit](images/penbutton.png)
 
-2. A dialog box opens with filter options in the left-hand pane and list view fields in the right-hand pane, go to [List view fields](#listviewfields.md) to read more about the latter options.
+2. A dialog box opens with filter options in the left-hand pane, a **Conditions** button ![Conditions](images/conditions.png)in the middle of the box, and list view fields in the right-hand pane. Go to [Conditions](pages/conditions.md) to read more about conditions you can apply to data and go to [List view fields](pages/listviewfields.md) to read more about how to apply fields to your list view.
 
-   ![Editing options](C:\Kianda\docs-dev\pages\list.assets\listconfig.png)
+   ![Editing options](images/listconfig.png)
 
-3. The first option to choose is where the data should originate from using the **Data from** radio buttons. Choose from a) Process b) Partner process c) Data source. Depending on which option you choose go to the relevant area to read more on [Choosing data from a Process](#choosing-data-from-a-process), [Choosing data from a Partner process](#choosing-data=from-a=partner-process) and [Choosing data from a Data source](#choosing-data-from-a-data-source).
+3. The first option to choose is where the data should originate from using the **Data from** radio buttons. Choose from a) Process b) Partner process c) Data source. Depending on which option you choose go to the relevant area to read more on [Choosing data from a Process](#choosing-data-from-a-process), [Choosing data from a Partner process](#choosing-data-from-a-partner-process) and [Choosing data from a Data source](#choosing-data-from-a-data-source).
 
 4. Once a data source is chosen, then there are a number of other options available, see [Filter options](#filter-options).
+
+4. When you are finished choosing options, click on the **OK** button to save your changes or click on **Close** to exit the dialog box without saving.
 
    
 
@@ -57,7 +67,7 @@ The list widget displays the instances of the selected process in a dashboard. T
 
 If you choose data from a Process, then the options below become available.
 
-![Choosing data from a Process](C:\Kianda\docs-dev\pages\list.assets\processdata2.png)
+![Choosing data from a Process](images/processdata2.png)
 
 Choose from the following options:
 
@@ -71,7 +81,7 @@ Choose from the following options:
 
 If you choose data from a Partner Process, then the options below become available.
 
-![Choosing data from a Process](C:\Kianda\docs-dev\pages\list.assets\partnerprocess_resized.png)
+![Choosing data from a Process](images/partnerprocess_resized.png)
 
 Choose from the following options:
 
@@ -86,11 +96,11 @@ Choose from the following options:
 
 If you choose data from a Data source, then the options below become available.
 
-![Choosing data from a Process](C:\Kianda\docs-dev\pages\list.assets\dataprocess_resized.png)
+![Choosing data from a Process](images/dataprocess_resized.png)
 
 1. Click on **Select data source**. You will be directed to different data sources where you can search in the **datasource tree** search box or drill down to the data source you want. 
 
-   ![Select data source](C:\Kianda\docs-dev\pages\list.assets\selectdatasource.png)
+   ![Select data source](images/selectdatasource.png)
 
    Click on the **OK** button when you are finished editing to save your changes or click on **Close** to exit the dialog box without saving.
 
@@ -108,19 +118,19 @@ Once you have chosen where the dashboard data will come from then there are a nu
 
    - **Enable sorting** - choose from a) Yes or b) No if you wish to enable sorting in the dashboard
 
-   - Enable filtering - choose from a) Yes or b) No if you wish to enable filtering in the dashboard
+   - **Enable filtering** - choose from a) Yes or b) No if you wish to enable filtering in the dashboard
 
    - **Enable search** - choose from a) Yes or b) No if you wish to enable a search in the dashboard
 
-   - Enable "Load more" mode** - choose from a) Yes or b) No if you wish to enable more data records to be visible. If you click on **Yes**, then you can decide on what text should appear on screen, by typing the text in the **Load more button text** field.
+   - **Enable "Load more" mode** - choose from a) Yes or b) No if you wish to enable more data records to be visible. If you click on **Yes**, then you can decide on what text should appear on screen, by typing the text in the **Load more button text** field.
 
      Enter a number in **Items per page** for the number items you wish to load at a time. The default value is '20'.
 
    - **Show 'Add process' button** - choose from a) Yes or b) No if you wish to Add process to your dashboard. TO COME BACK TO If you click on **Yes**, then you can decide on what text should appear on screen, by typing the text in the **'Add process' button text** field. 
 
-   - By default, the process used to generate the data is added, click on **No** beside the Add 'Process 	Name' by default if you don't wish to add the input process.
+     By default, the process used to generate the data is added, click on **No** beside the Add 'Process 	Name' by default if you don't wish to add the input process.
 
-   - Show delete button** - choose from a) Yes or b) No if you wish to add a Delete button to your dashboard. If you choose **Yes**, then the option **Enable bulk delete** appears allowing you to choose a) Yes or b) No to enable bulk deletion of records.
+   - **Show delete button** - choose from a) Yes or b) No if you wish to add a Delete button to your dashboard. If you choose **Yes**, then the option **Enable bulk delete** appears allowing you to choose a) Yes or b) No to enable bulk deletion of records.
 
    - **Enable show history** - choose from a) Yes or b) No if you wish to show the history of the dashboard.
 
@@ -132,12 +142,10 @@ Once you have chosen where the dashboard data will come from then there are a nu
 
    - When a field is chosen then the options for **Sort Direction** appear as either a) Ascending or b) 	Descending.
 
-   - Then by - TO COME BACK TO
+   - **Then by** - TO COME BACK TO
 
-   - Enable empty list template** - click on a) Yes or b) No to enable TO COME BACK TO.
+   - **Enable empty list template** - click on a) Yes or b) No to enable TO COME BACK TO.
 
-     
+2. Go to [List view fields](pages/listviewfields.md) to read about options in the right-hand pane of this dialog box on how to choose fields to filter data.
 
-2. Click on the **OK** button when you are finished editing to save your changes or click on **Close** to exit the dialog box without saving.
-
-3. dfgdg
+3. Click on the **OK** button when you are finished editing to save your changes or click on **Close** to exit the dialog box without saving.
