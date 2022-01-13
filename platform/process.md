@@ -2,7 +2,7 @@
 
 The power of Kianda lies in giving anyone, even those without coding experience, the ability to design a **business application or process** quickly and efficiently, for example, this process could be a Quality Assurance checklist that installation engineers must follow on site using a mobile app or it could be a HR process to allow employees to submit annual leave requests and approve these online. Processes can connect to your data sources like Sharepoint or SalesForce allowing for the flexibility of your applications to grow as your business grows.
 
-Each process comes with **dashboards** so you can see at a glance, for example, how many leave requests were submitted, approved and so on. And you can customise all of these processes the way you want.
+Each process can be linked to **dashboards** so you can see at a glance, for example, how many leave requests were submitted, purchase orders approved and so on. And you can customise all of these processes the way you want.
 
 Before you begin, we at Kianda recommend doing some simple planning before you design your process. It could be something as simple as a quick flow chart or a spreadsheet where you quickly log the key components, fields or rules that should be needed in the process. 
 
@@ -63,7 +63,7 @@ Before you begin, we at Kianda recommend doing some simple planning before you d
 
 ### Creating your own processes
 
-1. To create your own process, click on the **Add new button** ![Add new process button](images/addnew.png) . Note that if you click on the arrow on the button, you have options to create a **Process**, a **Component** or **Create from datasource**.
+1. To create your own process, click on the **Add new** button ![Add new process button](images/addnew.png) . Note that if you click on the arrow on the button, you have options to create a **Process**, a **Component** or **Create from datasource**.
 
    ![Add new process options](images/newprocessoptions_resized.png)
 

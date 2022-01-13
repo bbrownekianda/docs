@@ -2,6 +2,11 @@
 
 - [Introduction](/README2.md)
 
+  - [Kianda Apps](/kiandaapps.md)
+  - [Design a process](processdesign.md)
+  - [Create a process](processcreate.md)
+  - [Test a process](processtest.md)
+
 - [Platform](/platform/)
 
   - [Getting started](/platform/first_steps.md)

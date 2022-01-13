@@ -37,7 +37,7 @@ Note the name of the process you are working on is shown in the top menu bar, fo
 
 
 
-## Getting started with forms
+## How to get started
 
 1. How you get started with forms depends on:
 

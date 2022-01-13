@@ -1,6 +1,6 @@
 # Welcome to Kianda
 
-The Kianda platform is a modern **low-code** and **no-code** **development platform** providing anyone, even those without coding experience, the structures to digitise business processes resulting in beautiful mobile-ready web applications. You can also use the platform to create **dashboards** to monitor how processes are performing and gain key insights to improve your business overall. And you can **customise** all of this the way you want - no developer needed. However if you have coding experience, you can use the platform to build your own widgets too. 
+The Kianda platform is a modern **low-code** and **no-code** **development platform** providing anyone, even those without coding experience, the structures to digitise business **processes** resulting in beautiful mobile-ready web applications. You can also use the platform to create **dashboards** to monitor how processes are performing and gain key insights to improve your business overall. And you can **customise** all of this the way you want - no developer needed. However if you have coding experience, you can use the platform to build your own widgets too. 
 
 In summary the Kianda platform provides an ideal interface for **rapid prototyping** and delivering outcomes quickly.
 
@@ -18,16 +18,21 @@ When you login you will have access to the Kianda **workspace** where you can bu
 
 The layout of the Kianda workspace is as follows:
 
-1. **Company logo** - the top left-hand corner is reserved uploading your company logos. If you click on the **Collapse navigation** button ![Collapse navigation button](images/navigation_frame.png) you will see the collapsed version of the company logo and collapsed side menu, giving you more real estate in the central view panel.
-2. **Side menu** - This left-hand pane contains all the key functions to create and manage your business processes.
-3. **Main view** - this central pane is the main view for any of the functions chosen on the right, for example dashboards, or processes created under Designer.
-4. **Quick Action menu** - the top right-hand menu bar contains shortcuts to keep you updated.
+1. **Company logo** - the top left-hand corner is reserved for uploading your company logos. If you click on the **Collapse navigation** button ![Collapse navigation button](images/navigation_frame.png) you will see the collapsed version of the company logo and collapsed side menu, giving you more real estate in the central view panel.
 
-> Now that you are familiar with the workspace layout there are **3 steps to creating your first business process** in Kianda:
-> 1. [**Design** your process workflow](Processdesign.md)
-> 2. [**Create** your process](processcreate.md)
-> 3. [**Create** a dashboard and test your workflow](processtest.md)
+2. **Side menu** - This left-hand pane contains all the key functions to create and manage your business processes. From this menu you will start **creating** **processes**.
+
+3. **Main view** - this central panel is the main view for any of the functions chosen from the side menu. Here you can **view and edit** processes and dashboards.
+
+4. **Quick Action menu** - the top right-hand menu bar contains shortcuts to keep you updated and allows you to **add dashboard pages**.
+
+   
+
+> Now that you are familiar with the workspace layout, there are **3 steps to producing your first business process** in Kianda:
+> 1. [**Plan** your process](processplan.md)
+> 2. [**Design** and build your process](processdesign.md)
+> 3. [**Test** your process](processtest.md)
 
 
 
-Before you begin consider **Kianda's predefined processes**, found in the [App Store](appstore2.md), where we in Kianda have done all the hard work for you. Click on the links to get started.
+Before you begin, consider **Kianda's predefined processes**, found in the [App Store](kiandaapps.md), where we in Kianda have done all the hard work for you. Click on the links to find out more.
