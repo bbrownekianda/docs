@@ -54,13 +54,13 @@ To build a dashboard:
 
      ![Configure list widget](images/configurelist.png)
 
-   - In the right-hand pane, click on **Common fields** and/or **Design fields** and select the fields that you want to show in your list widget. Click on **OK** when complete.
+   - In the right-hand pane, click on **Common fields** and/or **Design fields** and select the fields that you want to show in your list widget, in this example the fields **Employee Name**, **Type of Training** and **Management Decision** are chosen from the **Design fields**. Click on **OK** when complete.
 
 7. The result is a dashboard that shows records of Training Requests submitted, and that status of the process, or 'where they are at' in this case they all need to be approved as they have status 'Training Approval', so the dashboard in this case highlights bottlenecks in the organisation.
 
    ![Training dashboard](images/trainingdashboard.png)
 
-   There are endless possibilities with dashboards, the steps above are designed to highlight one particular scenario. When you are happy with your page click on the Save button ![Save changes](images/savepage.png) in the top menu bar.
+   There are endless possibilities with dashboards, the steps above are designed to highlight one particular scenario. When you are happy with your page, click on the Save button ![Save changes](images/savepage.png) in the top menu bar.
 
 
 

@@ -20,7 +20,7 @@ The layout of the Kianda workspace is as follows:
 
 1. **Company logo** - the top left-hand corner is reserved for uploading your company logos. If you click on the **Collapse navigation** button ![Collapse navigation button](images/navigation_frame.png) you will see the collapsed version of the company logo and collapsed side menu, giving you more real estate in the central view panel.
 
-2. **Side menu** - This left-hand pane contains all the key functions to create and manage your business processes. From this menu you will start **creating** **processes**.
+2. **Side menu** - This left-hand pane contains all the key functions to create and manage your business processes. From this menu you will start **creating** **processes**. In the side menu, under **More**, there are links to get **Help**, **Support**, and give **Feedback**.
 
 3. **Main view** - this central panel is the main view for any of the functions chosen from the side menu. Here you can **view and edit** processes and dashboards.
 
@@ -39,3 +39,10 @@ Go to [Personalise your workspace](workspacepersonalise.md) to find out to chang
 
 
 Before you begin, consider **Kianda's predefined processes**, found in the [App Store](kiandaapps.md), where we in Kianda have done all the hard work for you. 
+
+Remember, at any time if you need help, go to the **side menu** > **More** > **Help**. This will bring you to the Help section where there are a list of searchable FAQs with topics that contain instructions and short help videos.
+
+![Help section](images/help.png)
+
+
+

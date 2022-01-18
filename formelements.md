@@ -8,8 +8,6 @@ There are 3 categories of Controls, and 10 categories of Rules, see [Controls](/
 
 **Note:** By default there are 3 buttons automatically added to forms - Submit, Save and Close. To edit a button or other field, click on the item and then the **Pen** icon. To remove a button or other field, click on the item and then click on the **Bin/Trash** icon. Click on **OK** to confirm removal. To move a button, or other field, click on the **Drag handle** button.
 
-
-
 To start adding controls and rules, you need to reference your [process plan](processplan.md) and consider what fields and rules you need. 
 
 When building your design, consider:
@@ -86,7 +84,9 @@ In our example we will add a rule to send an automated email to a line manager t
 
    ![Select email users](images/emailusers.png)
 
-   There are various options to choose from when selecting email users. When you click on the **User** button ![User](images/user.png)choose a selection mode to choose a user, for example **User(s) defined in a user field** will allow you to use a field from a form. When you click in the field below **Select a user field** drill down to the field you want, in this case Line Manager. This means when the user submits a form and chooses their Line Manager, an automated email will go to that Line Manager.
+   **Note:** If you leave the **From** field blank, then the email will arrive from "noreply@kianda.com".
+
+   For user fields like **To** and **CC**, there are various options to choose from . When you click on the **User** button ![User](images/user.png)choose a selection mode to choose a user, for example **User(s) defined in a user field** will allow you to use a field from a form. When you click in the field below **Select a user field** drill down to the field you want, in this case Line Manager. This means when the user submits a form and chooses their Line Manager, an automated email will go to that Line Manager.
 
 5. Fill out the **Subject** and **Body** text. You can use the **Expression builder** ![Expression](images/ellipsis.png)to add expressions to the body to personalise the email. 
 
@@ -98,11 +98,11 @@ In our example we will add a rule to send an automated email to a line manager t
 
    - Click on **OK**.
 
-   - Other expressions can be added that use values or status of processes, for example to create a link to review a process, use the ProcessID() expression. Click on **Expression builder** ![Expression](images/ellipsis.png)and **Reference** to get a list of 16 expressions you can use.
+   - Other expressions can be added that use values or status of processes, for example to create a link to review a process, use the ProcessLink() expression. Click on **Expression builder** ![Expression](images/ellipsis.png)and **Reference** to get a list of 16 expressions you can use.
 
-     ![Expression Reference](images/expressionreference.png)
+     ![References](images/references.png)
 
-   Using the ProcessID() expression, text can be entered into the brackets to provide a link in the email as follows:
+   Using the ProcessLink() expression, text can be entered into the brackets to provide a clickable link in the email as follows:
 
    ![ProcessID expression](images/clickhere_frame.png)
 
