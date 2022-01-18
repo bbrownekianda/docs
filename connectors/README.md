@@ -1,8 +1,8 @@
-# Configuring data connectors
+# Data connectors
 
 Connecting to data in Kianda is a breeze. You can quickly connect to a data source, for example data in Salesforce, and use this in Kianda forms and dashboards, creating a **data connector**. 
 
-Kianda comes with a pre-defined set of data connectors, these include:
+Kianda comes with a predefined set of data connectors, these include:
 
 - [Active Directory](connectors/active_directory.md)
 - [DocuSign](connectors/docusign.md)

@@ -8,43 +8,57 @@ For example take the scenario of a Training Request. An employee may email a lin
 
 Rather than continuing the above, creating an email trail with no easy way to see the overall end-to-end process and status of each step, creating a solution in Kianda will save time, increase efficiencies and therefore reduce costs.
 
-To plan your solution you need to consider:
+To plan your solution, you need to consider:
 
-> 1. What **information** you need
-> 2. What is the **sequence** of events 
-> 3. Who will have **access** to this information
+> 1. [**Design**](#design) - what information do you need
+> 2. [**Interaction**](#interaction) - how users can use forms depending on certain sequences happening
+> 3. [**Management**](#management) - who can edit and access forms
 
-The steps above are covered in the section [How to get started](#how-to-get-started). If you already have a design for your business process, then you can go to [Design and build a process](/processdesign.md) to implement your design in Kianda. If you would like to use Kianda's predefined processes instead go to the [Kianda App Store](/kiandaapps.md) to find out more.
+If you have already mapped our your business process, then you can go to [Design and build a process](/processdesign.md) to implement your design in Kianda. If you would like to use Kianda's predefined processes instead of creating your own, go to the [Kianda App Store](/kiandaapps.md) to find out more.
+
+To plan a solution, you could use Microsoft Office Tools or other preferred program or method to chart out what you need. Each heading will guide through what you need to consider.
 
 
 
-## How to get started ##
+## Design ##
 
-To plan a solution, you could use Microsoft Office Tools or other preferred program or method to chart out what you need.
-
-1. Consider **what information you need** for your process, that is what forms, what kind of fields and other data you seek. What about information you need to provide? Using external **datasources** like information in SharePoint, Salesforce or SAP will make your processes dynamic and up to date.
+1. What **forms** do you need? What kind of **fields** will be used to get the data you seek. What about information you need to provide to form users? Connecting to **datasources** like information in SharePoint, Salesforce or SAP will make your processes dynamic and up to date.
 
    In the example of a Training Request process, information sought is in blue below, while information provided, for example a SharePoint list is in black, and everything is listed where it potentially will be displayed, that is forms and a dashboard.
 
    ![Information capture](images/infocapture.png)
 
-   
+2. It might help to know what kind of fields there are in Kianda and to keep this in mind when capturing requirements, see Kianda [Controls](/fields/readme.md).
 
-   It might help to know what kind of fields there are in Kianda and to keep this in mind when capturing requirements, see Kianda Controls and Rules when you start to [Create a process](/processcreate.md).
 
-2. Decide on the **sequence of events** for example what information will be sought at what point, what is the end point in each step. What is the trigger for the next event?
+
+## Interaction ##
+
+1. Decide on the sequence of events for example what information will be sought at what point, what is the end point in each step. What **rules** can be applied to create a trigger for the next event? 
 
    In the Training Request process, we've now introduced **Submit** buttons to trigger actions, and a **Rule** so that the form will appear differently based on different inputs.
 
    ![Process flow](images/flow.png)
 
-3. Finally you need to consider **who will have access** to the information. When designing forms you can enable elements within a form so that they appear as visible-only or editable. 
+2. It might help to know what kind of rules there are in Kianda and to keep this in mind when capturing requirements, see Kianda [Rules](/rules/readme2.md).
+
+
+
+## Management ##
+
+1. Finally you need to consider **who will have access** to the information. When designing forms you can enable elements within a form so that they appear as visible-only or editable. 
 
    ![Access to information](images/access.png)
 
-   You can also control who has editing access to the forms themselves.
+2. You also need to consider who has editing access to the forms themselves. This information is needed when you create a process and add forms. At this point you will need to decide what users, or groups will act as form and process administrators. 
 
 
+
+## Summary of requirements ##
+
+Finally we can summarise all the information we need in a table. Field types or controls and rules will become more familiar as you work with Kianda. For now use this example as a way to get to know what is possible in Kianda.
+
+![Training Process requirements](images/trainingreq_orig.png)
 
 Now that you know what you need and have a design in mind, you can start to [Design and build your process](/processdesign.md) in Kianda!
 

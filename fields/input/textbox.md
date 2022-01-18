@@ -65,7 +65,7 @@ The **Text box field** is used to input text into a form for example a name or a
 
    ![Text box properties](C:\Kianda\docs-dev\fields\input\textbox.assets\textboxproperties.png)
 
-   Go to [Properties](field/properties.md) to find out more about options.
+   Go to [Properties](fields/properties.md) to find out more about options.
 
 5. To save your changes to the form, click on the **Save** button ![Save button](images/saveprocess.png). 
 

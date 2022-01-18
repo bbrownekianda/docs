@@ -1,11 +1,14 @@
 # Rules #
 
-Business rules are what makes Kianda forms come alive. They represent the actual actions users intend to perform when they interact with form components.
+Business rules are what makes Kianda forms come alive. They represent the actual actions users intend to perform when they interact with form components. There are 59 rules you can apply to forms, see [Rules list](#rules-list).
 
-There are 2 key principles to consider when working with forms:
+There are two key principles to consider when working with forms:
 
-1) Rule design - what type of rule you are going to apply and where, for example to a button, field or form
-2) Rule order - if there are several rules attached to an item like a button, then the order of execution is important and can be modified to suit your needs.
+1. Rule design - what type of rule you are going to apply and where, for example to a button, field or form
+
+2. Rule order - if there are several rules attached to an item like a button, then the order of execution is important and can be modified to suit your needs.
+
+   
 
 ## How to get started ##
 
@@ -13,7 +16,7 @@ If you go to **Administration** > **Designer** and click on a process or create 
 
 ![Rules](images/rulesgeneral.png) 
 
-There are 10 categories of rules, and 59 rules in total:
+There are 10 categories of rules:
 
 1. **Workflow** - rules that represent the actions a user intends to perform, when they interact with form components. There are 6 workflow rules, see [Workflow](workflow.md) for more information.
 2. **Communications** - rules associated with user communication for example sending an email or triggering a user alert. There are 4 communication rules, see [Communications](communications/README.md) for more information. 
@@ -30,7 +33,7 @@ There are 10 categories of rules, and 59 rules in total:
 
 ## When to use rules
 
-You can rules:
+You can add rules:
 
 - [x] to a field
 - [x] to a form 
@@ -38,19 +41,17 @@ You can rules:
 
 
 
-## How to use rules ##
+### Rule design ###
 
-1. Click on an existing process by going to **Administration** > **Designer** and decide which form, or field you will apply the rule to, by clicking on that item so that it is in **edit mode** so you can see the Pen button,  **Pen** button ![Pen button](C:\Kianda\docs-dev\rules\Readme2.assets\penicon.png) for example a form Training Approval or Submit button.
+1. Click on an existing process by going to **Administration** > **Designer** and decide which form or field you will apply the rule to, by clicking on that item so that it is in **edit mode** so you can see the Pen button,  **Pen** button ![Pen button](C:\Kianda\docs-dev\rules\Readme2.assets\penicon.png) for example a form Training Approval or Submit button.
 
    ![Edit mode for forms and fields](images/formvsbutton.png) 
 
-2. gfdgdg
+2. Click on **Add a rule** in the right-hand pane and click on a category of choice, such as **Communications** and then a rule **User alert**.
 
  
 
-1. sdfdsf
 
-Rules can be applied to 
 
 ### Rule order ###
 
@@ -59,3 +60,11 @@ If there is more than 1 rule for an item like a field or button, then the order 
 For example for a Submit button on a form I may want my **Send email rule** to be executed first before any other rule is executed. To do this click on the **Submit** button to make sure you are in **Edit** mode, and under **Rules** in the right-hand pane,  drag the **Send email** rule to the top of the list by clicking on the rule and dragging it to the top.
 
 <img src="images/ruleorder.png" alt="Rule order" style="zoom:70%;" />
+
+
+
+## Rules list ##
+
+A full list of rules is available in the table below.
+
+![Rules list](images/rulestable_orig.png)

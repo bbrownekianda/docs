@@ -15,7 +15,7 @@ The Kianda App Store contains 26 beautifully designed apps covering 8 different 
 
 All of the Apps are available for free, and you can use them as a template to design your own business processes, modifying what you see as you go. 
 
-If you would like to try out an App, go to [How to get started](#how-to-get-started) to find out more. If you would like to build your own process from scratch go to [Plan your process](processplan.md), the first step in process creation in Kianda.
+If you would like to try out an App, go to [How to get started](#how-to-get-started) to find out how to import apps. If you would like to build your own process from scratch go to [Plan your process](processplan.md), the first step in building a Kianda solution.
 
 
 
@@ -61,27 +61,82 @@ If you would like to try out an App, go to [How to get started](#how-to-get-star
 
    ## What to do next ##
 
-   Remember there are 3 steps to producing business processes in Kianda:
+   There are 3 steps to producing business processes in Kianda:
 
-   > 1. **Design** your process
-   > 2. **Create** your process
-   > 3. **Test** your process
+   > 1. **Plan** your process
+   > 2. **Design** and build your process
+   > 3. **Publish** your process
 
-   By importing an app, you've already done all 3 steps! However you might like to check out the design, edit a predefined process, and test the workflow. Click on the links above to go to the relevant sections.
+   By importing an app, you've already done all 3 steps! However you might like to [check out the design](#app-process-design), preview the workflow and look at the results in a dashboard. When you are happy with the process then click on [Publish](#publishing-a-process).
 
-   If you are inspired by these processes to **create your own process from scratch** go to [Design your process workflow](processdesign.md) to get started.
+   
 
-   In the next screen, you will see the forms within the process, in this example there are two forms: Customer Query and Agent Review. If you click on the form itself you can edit
-
-### Design a process workflow ###
-
-When you click on a process from the Process design view 
-
-### Create a process workflow
-
-
-
-### Test your workflow ###
+   ### Process design introduction ###
+   
+   By clicking on the process from the main process view, you are brought into the **process design** page.
+   
+   ![Customer Query Process design](images/customerquerydesign.png)
+   
+   1. In the example above, there are two **forms** in this process: **Customer Query** and **Agent Review**. Clicking on the first form, Customer Query, allows you to view and edit the form and see all the fields within the form in the **form canvas**.
+   
+   2. Clicking on a field in the form, allows you to a) edit a field by clicking on the **Pen** button ![Pen button](images/penicon.png) as well as b) viewing the **field** **properties** as seen in the right-hand pane. 
+   
+      - For example the Date field is selected below. 
+   
+      ![Date field](images/datefield.png)
+   
+      - What we can see from the properties in the example above is that this field is **Visible** but not **Enabled** meaning a user can't change the value of this field when the form is presented to them. 
+   
+   3. There is also a **rule** attached to the date field in this example. Click on **Rules** in the right-hand pane to see the rule. Click on the rule to see what actions are applied and to edit the rule. 
+   
+      ![Example of a rule](images/ruleexample.png)
+   
+      In this example,  the current time will be added to the date field when the user views the form, so the user doesn't have to fill out those details.
+   
+   4. To test out a form design, click on the **Preview** button in the left-hand pane.
+   
+      ![Preview button](images/customerquerymain.png)
+   
+   5. You can choose from **desktop**, **tablet** or **mobile** **preview** mode by selecting one of the buttons in the top right-hand corner, and then fill out the form with some test information. 
+   
+      ![Previewing a form](images/previewmode.png)
+   
+      - Under Assignee Panel, remove the Demo User by clicking on this field.
+   
+      ![Remove demo user](images/demoremove.png)
+   
+      - Then click on the field again to see a dropdown list of administrators for this form, and choose yourself. This is so that you can get a test email sent to your account to see the process flow. 
+   
+      - Click on **Submit** when done.
+   
+      - You should then receive an email with a link to go to approve the request. 
+   
+        ![Email request](images/email.png)
+   
+      - Click on the link and fill out the resolution with test information. Click on **Resolved**. 
+   
+   6. Once you have submitted some data, you can look at the dashboard for this app by going to the **side menu** > **Home** > **Customer Queries**, the dashboard for this process. This gives you an idea of the kind of information that can be captured and presented.
+   
+      ![Customer Query dashboard](images/querydashboard.png)
+   
+   
+   
+   
+   
+   ### Publishing a process ###
+   
+   If you are happy with this process and want to implement it in your instance, then return to **Administration** > **Designer** > **Customer Queries**.
+   
+   1. Save the process to incorporate any changes you have made by clicking on the **Save** button ![Save button](images/save.png) in the left-hand pane.
+   
+   2. Click on the **Publish** button ![Publish button](images/publish.png) to publish the process for use.
+   
+      
+   
+   If you are inspired to create your own process from scratch go to [Plan your process](processplan.md) or go to [Design and build your process](processdesign.md) if you already have a process planned out.
+   
+   
+   
 
 
 

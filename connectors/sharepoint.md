@@ -19,7 +19,7 @@ You can add this data connector
 
 1. From the Kianda home page, click on **Administration** > **Data sources**.
 
-2. Click on **+ Add new** button ![Add new data connector button](images/addnew.png) and **SharePoint**.
+2. Click on **+ Add new** button ![Add new data connector button](images/addnew.png) and choose **SharePoint** from the list of datasources provided.
 
 3. Choose from the edit options:
 

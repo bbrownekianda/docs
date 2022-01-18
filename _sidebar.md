@@ -1,11 +1,14 @@
 - [Introduction_Old](/readme.md)
 
+- [Table of Contents](tableofcontents.md)
+
 - [Introduction](/README2.md)
 
+  - [Personalise your workspace](workspacepersonalise.md)
   - [Kianda Apps](/kiandaapps.md)
-  - [Design a process](processdesign.md)
-  - [Create a process](processcreate.md)
-  - [Test a process](processtest.md)
+  - [Plan your process](processplan.md)
+  - [Design and build your process](processdesign.md)
+  - [Publish your process](processpublish.md)
 
 - [Platform](/platform/)
 

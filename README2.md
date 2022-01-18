@@ -8,11 +8,11 @@ INSERT VIDEO SHOWING WHAT KIANDA IS
 
 
 
-## How to get started ##
+## Logging into your workspace ##
 
 If your organisation already has a login, go to your given Kianda login page. If not, sign up for a free trial by going to https://app.kianda.com/signup. You will be prompted to confirm your email address and you can then login. The Kianda platform runs in the cloud, so you only need a web browser and can use any mobile device to login. 
 
-When you login you will have access to the Kianda **workspace** where you can build end-to-end business processes, connect to datasources and view the results in real-time data dashboards. 
+When you login you will have access to the Kianda **workspace** where you can build end-to-end business processes, connect to datasources and view the results in real-time data dashboards.  
 
 ![User interface](images/workspace.png)
 
@@ -26,13 +26,16 @@ The layout of the Kianda workspace is as follows:
 
 4. **Quick Action menu** - the top right-hand menu bar contains shortcuts to keep you updated and allows you to **add dashboard pages**.
 
-   
+Go to [Personalise your workspace](workspacepersonalise.md) to find out to change the look and feel as well as regional settings for your workspace.
+
+
+
 
 > Now that you are familiar with the workspace layout, there are **3 steps to producing your first business process** in Kianda:
 > 1. [**Plan** your process](processplan.md)
 > 2. [**Design** and build your process](processdesign.md)
-> 3. [**Test** your process](processtest.md)
+> 3. [**Publish** your process](processpublish.md)
 
 
 
-Before you begin, consider **Kianda's predefined processes**, found in the [App Store](kiandaapps.md), where we in Kianda have done all the hard work for you. Click on the links to find out more.
+Before you begin, consider **Kianda's predefined processes**, found in the [App Store](kiandaapps.md), where we in Kianda have done all the hard work for you. 

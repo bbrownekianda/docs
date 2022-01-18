@@ -4,9 +4,9 @@ Kianda **Designer** provides an intuitive interface where you can quickly start 
 
 There are 3 key principles to consider when working with forms:
 
-1) Form design - what a form looks like, what elements it contains, for example controls and rules
-2) Form management - who can edit and access forms
-3) Form interaction - how users can use forms depending on certain sequences happening
+1) Form **design** - what a form looks like, what elements it contains, for example controls and rules
+2) Form **interaction** - how users can use forms depending on certain sequences happening
+3) Form **management** - who can edit and access forms
 
 This page presents the information you need related to form design, that is what a form looks like, and what it contains. By default, form designers can edit forms, but they can also set how other people interact with forms, for example to make forms viewable as **read-only**. Go to [Form management](platform/form_management.md) to find out more about how form ownership works, and [Form interaction](platform/form_interaction.md) to find out how a complete process flow works once forms are designed and assigned. Read the steps below to find out more about Form design.
 
