@@ -2,7 +2,7 @@
 
 - [Table of Contents](tableofcontents.md)
 
-- [Introduction](/README2.md)
+- [Introduction](/READMEV2.md)
 
   - [Personalise your workspace](workspacepersonalise.md)
   - [Kianda Apps](/kiandaapps.md)

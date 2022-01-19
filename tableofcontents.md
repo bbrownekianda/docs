@@ -1,14 +1,14 @@
 # Table of Contents #
 
-1. [Welcome to Kianda](README2.md)
-   - [Logging in to your workspace](Readme2.md#logging-in-to-your-workspace)
+1. [Welcome to Kianda](READMEV2.md)
+   - [What is no-code and low-code?](Readme2.md#what-is-no-code-and-low-code)
+   - [Logging into Kianda](Readme2.md#logging-into-kianda)
      - [Personalise your workspace](workspacepersonalise.md)
 
 
 2. [Kianda Apps](/kiandaapps.md)
-
      - [How to get started](kiandaapps.md#how-to-get-started)
-
+     
      - [What to do next](kiandaapps.md#what-to-do-next)
        - [Process design introduction](kiandaapps.md#process-design-introduction)
        - [Publishing a process](kiandaapps.md#publishing-a-process)
@@ -42,6 +42,8 @@
    - [Build a dashboard](processpublish.md#build-a-dashboard)
 
    - [Save and publish](processpublish.md#save-and-publish)
+
+6. [Developer](developer.md)
 
 
 
