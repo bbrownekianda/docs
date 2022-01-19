@@ -1,7 +1,7 @@
 # Table of Contents #
 
 1. [Welcome to Kianda](READMEV2.md)
-   - [What is no-code and low-code?](Readme2.md#what-is-no-code-and-low-code)
+   - [What is no-code and low-code?](ReadmeV2.md#what-is-no-code-and-low-code)
    - [Logging into Kianda](Readme2.md#logging-into-kianda)
      - [Personalise your workspace](workspacepersonalise.md)
 
