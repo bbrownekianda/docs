@@ -20,7 +20,7 @@ The layout of the Kianda workspace is as follows:
 
 Go to [Personalise your workspace](workspacepersonalise.md) to find out to change the look and feel as well as regional settings for your workspace.
 
-Now that you are familiar with the workspace layout, you are ready to get started with producing your first business process in Kianda! If you don't want to start from scratch, choose **Kianda's process templates**, found in the [App Store](kiandaapps.md), where we in Kianda have done all the hard work for you. 
+Now that you are familiar with the workspace layout, you are ready to get started with [producing your first business process](processplan.md) in Kianda! If you don't want to start from scratch, choose **Kianda's process templates**, found in the [App Store](kiandaapps.md), where we in Kianda have done all the hard work for you. 
 
 If you have coding experience and want to delve into how you can use Kianda to create your own widgets, go to [Developer](developer.md) to learn more.
 
