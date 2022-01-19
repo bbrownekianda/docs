@@ -2,7 +2,7 @@
 
 1. [Welcome to Kianda](READMEV2.md)
    - [What is no-code and low-code?](ReadmeV2.md#what-is-no-code-and-low-code)
-   - [Logging into Kianda](Readme2.md#logging-into-kianda)
+   - [Logging into Kianda](loggingin.md)
      - [Personalise your workspace](workspacepersonalise.md)
 
 
