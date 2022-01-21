@@ -14,7 +14,7 @@ Rather than continuing the above, creating an email trail with no easy way to se
 
 
 
-## Planning in an aigle way
+## Planning in an agile way
 
 Planning involves 3 considerations: [**Design**](#design) , [**Interaction**](#interaction)  and [**Management**](#management) explained below.
 

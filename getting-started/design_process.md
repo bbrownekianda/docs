@@ -6,7 +6,7 @@ Kianda processes are made up of **forms**. As we saw in [Plan your process](proc
 
 ## Designing in Kianda
 
-To turn your process plan into a Kianda design using the aigle approach, follow 3 simple steps: [**Create forms**](getting-started/create_form.md), [**Connect your data**](getting-started/dataconnect.md), [**Preview the design**](getting-started/preview_design.md).
+To turn your process plan into a Kianda design using the agile approach, follow 3 simple steps: [**Create forms**](getting-started/create_form.md), [**Connect your data**](getting-started/dataconnect.md), [**Preview the design**](getting-started/preview_design.md).
 
 ***Design process***
 

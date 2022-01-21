@@ -15,7 +15,7 @@ Mapping these phases to Kianda process creation, results in 3 main steps: **Plan
 
 
 
-## Creating your Kianda processes in an aigle way ##
+## Creating your Kianda processes in an agile way ##
 
 
 
@@ -68,3 +68,4 @@ If you have coding experience and want to delve straight into how you can use Ki
 
 - **[Logging in to Kianda](getting-started/logging_in.md)**
 - **[Personalise your workspace](getting-started/workspace_personalise.md)**
+
