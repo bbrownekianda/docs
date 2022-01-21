@@ -1,15 +1,14 @@
-- [Introduction_Old](/readme.md)
+- [Introduction_Old](readme.md)
 
-- [Table of Contents](tableofcontents.md)
-
-- [Introduction](/READMEV2.md)
-
-  - [Personalise your workspace](workspacepersonalise.md)
-  - [Kianda Apps](/kiandaapps.md)
-  - [Plan your process](processplan.md)
-  - [Design and build your process](processdesign.md)
-  - [Publish your process](processpublish.md)
-
+- [Getting Started Guide](getting-started/table_of_contents.md)
+  - [Welcome to Kianda](getting-started/README.md)
+  - [Logging into Kianda](getting-started/logging_in.md)
+    - [Personalise your workspace](getting-started/personalise_workspace.md)
+  - [Create your Kianda process](getting-started/create_process.md)
+    - [Plan your process](getting-started/plan_process.md)
+    - [Design and build your process](getting-started/design_process.md)
+    - [Publish your process](getting-started/publish_process.md)
+  
 - [Platform](/platform/)
 
   - [Getting started](/platform/first_steps.md)
