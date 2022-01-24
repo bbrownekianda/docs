@@ -26,7 +26,7 @@ Building processes involves 3 steps: creating the **process** itself, adding **f
 
 ![Create forms process](images/magnifycreateforms.png)
 
-Once you have previewed the design you may wish to go back and make changes to the form, adopting an iterative design approach. We will deal with each phase in turn starting with [creating a process](#create-a-process). 
+Once you have previewed the design you may wish to go back and make changes to the form, adopting an iterative design approach. We will deal with each step in turn starting with [creating a process](#create-a-process). 
 
 
 
