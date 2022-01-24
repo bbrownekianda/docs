@@ -7,6 +7,10 @@
   - [Create your Kianda process](getting-started/create_process.md)
     - [Plan your process](getting-started/plan_process.md)
     - [Design and build your process](getting-started/design_process.md)
+      - [Add forms](getting-started/create_form.md)
+      - [Add controls and rules](getting-started/add_form_elements.md)
+      - [Connect your data](getting-started/dataconnect.md)
+      - [Preview the design](getting-started/previewer.md)
     - [Publish your process](getting-started/publish_process.md)
   
 - [Platform](/platform/)

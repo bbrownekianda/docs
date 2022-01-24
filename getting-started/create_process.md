@@ -11,7 +11,7 @@ The main phases of an agile project are:
 2. Design - this involves construction of a draft of your product. Previewing the draft is included in this phase and there may be several rounds of revisions. 
 3. Launch - this phase includes piloting the product with a number of users, monitoring results, getting feedback and then releasing the product including all related documentation.
 
-Mapping these phases to Kianda process creation, results in 3 main steps: **Plan > Design > Publish**. Each step contains 3 substeps as outlined below.
+Mapping these phases to process creation in Kianda, results in 3 main steps: **Plan > Design > Publish**. Each step contains 3 substeps as outlined below.
 
 
 
@@ -30,21 +30,21 @@ Using Kianda allows you to leverage the agile development process to maximum eff
 
    ![B](images/greenb.png) What **rules** can be applied to create smart, automated processes?
 
-   ![C](images/greenc.png) Who needs **access** to the forms as a user and manager?
+   ![C](images/greenc.png) Who needs **access** to the forms as a user and form owner? Re-review these questions as you modify the process.
  </br>  
 
  2. **Design** - you can create drafts processes and restore to earlier versions allowing you complete control over production.
 
     ![A](images/a.png) Processes are made up of interactive **forms** which you can create at the click of a button.
 
-    ![B](images/b.png) Forms connect to your **datasources** so as your organisation changes, your process responds accordingly.
+    ![B](images/b.png) Forms connect to your **datasources** so as your organisation changes, your processes respond accordingly.
 
     ![C](images/c.png) Use the in-built **previewer** to preview and test your design, then save new versions as you modify design.
 </br>
 
-3. **Publish** - expand access to published process as you become comfortable with the design.
+3. **Publish** - expand access to published processes as you become comfortable with the design.
 
-   ![A](images/bluea.png) Allow individual user, group or partner access in order to deploy the solution in a controlled way.
+   ![A](images/bluea.png) Allow individual user, group or partner access in order to **deploy** the solution in a controlled way.
 
    ![B](images/blueb.png) View key metrics in process **dashboards** to get insights into how to improve the process and the organisation.
 
@@ -67,5 +67,5 @@ If you have coding experience and want to delve straight into how you can use Ki
 ### **To return to the previous pages click on the links below**  ![Idea icon](images/10.png) 
 
 - **[Logging in to Kianda](getting-started/logging_in.md)**
-- **[Personalise your workspace](getting-started/workspace_personalise.md)**
+- **[Personalise your workspace](getting-started/personalise_workspace.md)**
 

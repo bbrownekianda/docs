@@ -1,6 +1,6 @@
-# Add form elements #
+# Add controls and rules #
 
-Form elements are made up of **Controls** and **Rules** and are available from the left-hand pane when you click into a process.
+When you have created forms, then you are ready to add elements to those forms, that is **Controls** and **Rules**. These are available from the left-hand pane in when you click into a process.
 
 There are 3 categories of Controls, and 10 categories of Rules, see [Controls](/fields/readme.md) and see [Rules](/rules/readme2.md) for a full listing of what is available. 
 
@@ -8,13 +8,9 @@ There are 3 categories of Controls, and 10 categories of Rules, see [Controls](/
 
 **Note:** By default there are 3 buttons automatically added to forms - Submit, Save and Close. To edit a button or other field, click on the item and then the **Pen** icon. To remove a button or other field, click on the item and then click on the **Bin/Trash** icon. Click on **OK** to confirm removal. To move a button, or other field, click on the **Drag handle** button.
 
-To start adding controls and rules, you need to reference your [process plan](processplan.md) and consider what fields and rules you need. 
 
-When building your design, consider:
 
-> 1. Design - what [properties](#editing-field-properties) can be applied to impact how fields work
-> 2. Interaction - what kind of actions can be applied to fields, that is [rules](#applying-rules)
-> 3. Management - can I use data from external [datasources](#using-datasources)
+
 
 Let's use the example of our Training Request form in our Training Process [summary of requirements](processplan.md#summary-of-requirements) which will have 6 control fields to add: 2 text boxes, 1 user picker field, 2 buttons, 1 list field, and one rule to send an email. We will start with adding a textbox field below.
 
@@ -22,7 +18,7 @@ Let's use the example of our Training Request form in our Training Process [summ
 
 
 
-## Adding your first textbox field ##
+## Adding your first field ##
 
 The first field we are going to add is a textbox field to accept user input. 
 

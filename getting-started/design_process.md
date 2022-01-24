@@ -1,12 +1,12 @@
 # Design and build your process
 
-Kianda processes are made up of **forms**. As we saw in [Plan your process](processplan.md), you may have a paper forms or email flows that you want to turn into a dynamic, digital process. 
+Kianda processes are made up of **forms**. As we saw in [Plan your process](getting-started/plan_process.md), you may have a paper forms or email flows that you want to turn into a dynamic, digital process. 
 
 
 
 ## Designing in Kianda
 
-To turn your process plan into a Kianda design using the agile approach, follow 3 simple steps: [**Create forms**](getting-started/create_form.md), [**Connect your data**](getting-started/dataconnect.md), [**Preview the design**](getting-started/preview_design.md).
+To turn your process plan into a Kianda design using the agile approach, follow 3 simple steps: [**Build processes**](#build-processes), [**Connect your data**](getting-started/dataconnect.md), [**Preview the design**](getting-started/previewer.md).
 
 ***Design process***
 
@@ -14,21 +14,25 @@ To turn your process plan into a Kianda design using the agile approach, follow 
 
 
 
-The form creation process itself involves: creating the **process** for the forms, creating the **forms** themselves and then adding **controls and rules** to the form. Once you have previewed the design you may wish to go back and make changes to the form.
+We'll start with the first step below, [Build processes](#build-processes).
 
-***Creating forms: 3 steps***
+
+
+## Build processes
+
+Building processes involves 3 steps: creating the **process** itself, adding **forms** to the process and then adding **controls and rules** to the forms. 
+
+***Build process steps***
 
 ![Create forms process](images/magnifycreateforms.png)
 
-We will deal with each phase in turn starting with [creating a process](#create-a-process). 
+Once you have previewed the design you may wish to go back and make changes to the form, adopting an iterative design approach. We will deal with each phase in turn starting with [creating a process](#create-a-process). 
 
 
 
 ## Before you begin ![Process plan icon](images/11.png) 
 
-To start creating a process and forms, you need to reference your [process plan](getting-started/plan_process.md) and consider **what forms** you need and **who** will have access to these forms as an administrator. We will keep our Training Process [requirements](getting-started/plan_process.md#summary-of-requirements) in mind as we go.
-
-The very first thing to do to create forms is to **create a process** for the forms. 
+To start creating a process, reference your [process plan](getting-started/plan_process.md). In our example we will keep our Training Process [requirements](getting-started/plan_process.md#summary-of-requirements) in mind as we go. We will start by creating a first process called Training Process. 
 
 
 
@@ -50,7 +54,7 @@ The very first thing to do to create forms is to **create a process** for the fo
 
    ![Create a process](images/createprocess.png)
 
-4. You are now in the process design page. From here you can [Create a form](formcreate.md).
+4. You are now in the process design page. From here you can [Add forms](formcreate.md).
 
    ***Process design page***
 
@@ -67,7 +71,7 @@ The very first thing to do to create forms is to **create a process** for the fo
 
 The next steps are: 
 
-- [**Create a form**](getting-started/create_form.md)
+- [**Add forms**](getting-started/create_form.md)
 - **[Add controls and rules](getting-started/add_form_elements.md)**
 
 
@@ -75,6 +79,6 @@ The next steps are:
 
 ### **To return to the previous pages click on the links below**  ![Lighting icon](images/10.png) 
 
-- **[Create your process](getting-started/create_process.md)**
+- **[Create your Kianda process](getting-started/create_process.md)**
 - **[Plan your process](getting-started/plan_process.md)**
 

@@ -2,21 +2,19 @@
 
 Currently you may have paper forms or email flows that you want to formalise, digitise and most importantly, link to dashboards to see at a glance how processes are running and where organisational improvements are needed.
 
-For example take the scenario of a Training Request. An employee may email a line manager requesting to attend training. The line manager either approves or disapproves the request by returning an email or calling the employee. If the training request is approved then the training manager is informed that the employee will attend the next training event and schedule this. 
+For example take the scenario of a Training Request. An employee may email a line manager requesting to attend training. The line manager either approves or disapproves the request by returning an email or calling the employee. If the training request is approved then the training manager is informed by email that the employee will attend the next training event and to schedule this. 
 
-***Training Request flow by email***
-
-![Email request flow](images/emailflow.png)
+![Email trail](images/emails.png)
 
 
 
-Rather than continuing the above, creating an email trail with no easy way to see the overall end-to-end process and status of each step, creating a solution in Kianda will save time, increase efficiencies and therefore reduce costs.
+Rather than continuing with email trails with no easy way to see the status of each step and process overall, creating a solution in Kianda will save time, increase efficiencies and therefore reduce costs.
 
 
 
 ## Planning in an agile way
 
-Planning involves 3 considerations: [**Design**](#design) , [**Interaction**](#interaction)  and [**Management**](#management) explained below.
+Planning involves 3 considerations: [**Design**](#design) , [**Interaction**](#interaction)  and [**Management**](#management) explained below 
 
 ***Planning process***
 
@@ -28,13 +26,19 @@ To plan a solution, you could use Microsoft Office Tools or other preferred prog
 
 ## Design ##
 
-1. What **forms** do you need? What kind of **fields** will be used to get the data you seek? What about information do you need to provide to form users? Connecting to **datasources** like information in SharePoint, Salesforce or SAP will make your processes dynamic and up to date.
+1. What **forms** do you need? What kind of **fields** will be used to get the data you seek? What about information you need to provide to form users? Connecting to **datasources** like information in SharePoint, Salesforce or SAP will make your processes dynamic and always up to date.
 
-   In the example of a Training Request process, information sought is in blue below, while information provided, for example a SharePoint list, is in black, and everything is listed where it potentially will be displayed, that is forms and a dashboard.
+   In the example of a Training Request process, two forms are required: Training Request form and a Training Approval form. Information sought is listed below with potential field types in brackets. Information provided by each form, for example a SharePoint list is also listed.
 
-   ***Example of Training and Approval Form fields***
+   | Training Request Form    |                                      |                                  |                                        |
+   | ------------------------ | ------------------------------------ | -------------------------------- | -------------------------------------- |
+   | **Information provided** | Type of Training (a SharePoint list) |                                  |                                        |
+   | **Information needed**   | Employee Name (textbox)              | Reason for the Request (textbox) | Name of the Line Manager (user picker) |
 
-   ![Information capture](images/infocapture.png)
+   | Training Approval Form   |                                                              |                        |                          |
+   | ------------------------ | ------------------------------------------------------------ | ---------------------- | ------------------------ |
+   | **Information provided** | Employee Name (grouped information from Training Request form) | Reason for the Request | Name of the Line Manager |
+   | **Information needed**   | Decision (a Yes/No list)                                     |                        |                          |
 
 2. It might help to know what kind of fields there are in Kianda and to keep this in mind when capturing requirements, see Kianda [Controls](/fields/readme.md).
 
@@ -42,13 +46,19 @@ To plan a solution, you could use Microsoft Office Tools or other preferred prog
 
 ## Interaction ##
 
-1. Decide on the sequence of events for example what information will be sought at what point, what is the end point in each step. What **rules** can be applied to create a trigger for the next event? 
+1. Decide on the sequence of events and what **rules** can be applied to create a trigger for the next event? 
 
    In the Training Request process, we've now introduced **Submit** buttons to trigger actions, and a **Rule** so that the form will appear differently based on different inputs.
 
-   ***Example of Training and Approval Form fields and rules***
+   | Training Request Form |                                                              |                                                      |
+   | --------------------- | ------------------------------------------------------------ | ---------------------------------------------------- |
+   | **Actions**           | Submit (button) allows Employees to submit a completed form. | Save (button) allows Employees to save a draft form. |
+   | **Rule**              | Send email to a Line Manager when Submit is clicked by an employee. |                                                      |
 
-   ![Process flow](images/flow.png)
+   | Training Approval Form |                                                              |                                                          |
+   | ---------------------- | ------------------------------------------------------------ | -------------------------------------------------------- |
+   | **Actions**            | Submit (button) allows Line Managers to submit a completed form. The approval appears in a dashboard for the Training Manager. | Save (button) allows Line Managers to save a draft form. |
+   | **Rule**               | If Yes is chosen from a radio list, then input signature. If No is chosen, then hide the signature and show a Reason for disapproval text box. |                                                          |
 
 2. It might help to know what kind of rules there are in Kianda and to keep this in mind when capturing requirements, see Kianda [Rules](/rules/readme2.md).
 
@@ -58,11 +68,17 @@ To plan a solution, you could use Microsoft Office Tools or other preferred prog
 
 1. Finally you need to consider **who will have access** to the information. When designing forms you can enable elements within a form so that they appear as visible-only or editable. 
 
-   ***Example of Training and Approval Forms with access limits***
-
-   ![Access to information](images/access.png)
-
 2. You also need to consider who are the **form owners**, that is who will have editing access to the forms themselves. This information is needed when you create a process and add forms. At this point you will need to decide what users, or groups will act as form and process administrators. 
+
+   | Training Request Form |                                                       |
+   | --------------------- | ----------------------------------------------------- |
+   | **Access**            | All Employees can access the form.                    |
+   | **Owner**             | Only the Training Manager can edit the form template. |
+
+   | Training Approval Form |                                                       |
+   | ---------------------- | ----------------------------------------------------- |
+   | **Access**             | Only Line Managers can access the form.               |
+   | **Owner**              | Only the Training Manager can edit the form template. |
 
 
 
