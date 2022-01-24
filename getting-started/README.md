@@ -16,9 +16,9 @@ The Kianda platform can quickly deliver amazing results to any digital project, 
 
 ## Kianda is a no-code and low-code development platform
 
-Kianda saves your organisation time and resources. Following a short onboarding, you can assign any employee to build web applications for your business, without the need for any coding experience. **No-code** literally means just that, you don't need to know how to code to build digital processes. Anyone is empowered to create. Using Kianda you can create a prototype quickly and simply by clicking and scrolling in an easy-to-use interface. 
+Kianda saves your organisation time and resources. Following a short onboarding, you can assign any employee to build web applications for your business, without the need for any coding experience. **No-code** literally means just that, you don't need to know how to code to build digital processes. Anyone is empowered to create. Using Kianda you can create a prototype quickly and simply, by clicking and scrolling in an easy-to-use interface. 
 
-For those that have coding experience, Kianda's open, extensible architecture allows a **low-code** approach, meaning you can use the Kianda graphical user interface to extend the range of applications to create what you want using your own code. This type of reusability, leveraging existing templates to build applications, reduces the turnaround time, improving organisational productivity.
+For those that have coding experience, Kianda's open, extensible architecture allows a **low-code** approach, meaning you can use the Kianda graphical user interface to extend the range of applications to create what you want, using your own code. This type of reusability, leveraging existing templates to build applications, reduces the turnaround time, improving organisational productivity.
 
 The flexible nature of Kianda allowing custom-coding and no-coding development provides the optimum solution for your business.
 
@@ -38,7 +38,7 @@ To learn how to start using the Kianda environment, go to **[Logging in to Kiand
 
 
 
-### **To return to the previous page click on the link below** ![Lightning icon](C:\Kianda\docs-dev\getting-started\README.assets\10.png)
+### **To return to the previous page click on the link below** ![Lightning icon](images/10.png)
 
 - **[Getting started guide](getting-started/table_of_contents.md)**
 
