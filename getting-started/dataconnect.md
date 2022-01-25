@@ -4,13 +4,13 @@ Connecting your data to Kianda processes, allows real-time scalability, so as yo
 
 If you are a developer and want to connect to a datasource that is not included in the predefined set, you can use SOAP or REST to create your own API for data transfer.
 
-Connecting to data happens during the process design phase. You can set up data connectors first, before building your process if you wish, and then link those data connectors when [adding controls and rules](getting-started/add_form_elements.md).
+Connecting to data happens during the **process design** phase, see image below.
 
 ***Design process***
 
 ![Designing in Kianda](images/highlightdesign.png)
 
-
+You can set up data connectors first, before building your process if you wish, and then link those data connectors when [adding controls and rules](getting-started/add_form_elements.md).
 
 The video below highlights how to connect to a datasource, in this example, SharePoint and [How to get started](#how-to-get-started.md) runs through the process in steps including an example of how to use this datasource in a list field.
 
@@ -46,8 +46,9 @@ In this example, we will connect to a SharePoint list called 'Types of Training'
 
 6. Click on the **Datasource** button ![Datasource button](images/datasource.png) and choose the appropriate datasource, in this case a SharePoint list called Training Site. Choose the appropriate **Display field**, **Value field** and choose a field to **Sort by**.
 7. The result is a dropdown list called Types of training which is available for use in our Training Request Form. 
+7. When your form is complete, click on the **Save** button to save your work.
 
-
+The end result is a complete process that is ready for test and review. Make sure to click on the **Save** button ![Save button](images/save.png) to save your work. Go to [Preview the design](getting-started/previewer.md) to find out how to perform these steps.
 
 
 
@@ -55,8 +56,8 @@ In this example, we will connect to a SharePoint list called 'Types of Training'
 
 The next steps are: 
 
-- [**Connect your data**](getting-started/dataconnect.md)
 - [**Preview the design**](getting-started/previewer.md)
+- [**Publish your process**](getting-started/publish_process.md)
 
 
 

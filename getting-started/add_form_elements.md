@@ -154,7 +154,7 @@ In our example we will add a rule to send an automated email to a line manager t
 
 9. Make sure to save your work as you go by clicking on the **Save** button.
 
-10. In the Training Process example, there is a second form that is part of this process, called Training Approval. From the [summary of requirements](processplan.md#summary-of-requirements) this form will be a simple approval form where we will have 7 fields, and 1 rule, where 2 of the fields are already there by default, namely **Submit** and **Save** buttons. We will add a field group, a banner and a list. Details of these field types are available from [Controls](/fields/readme.md). The rule to add is a **Workflow** rule called **Hide and Disable**, information available from [Rules](/rules/readme2.md).
+10. In the Training Process example, there is a second form that is part of this process, called Training Approval. From the [summary of requirements](processplan.md#summary-of-requirements) this form will have 7 fields, and 1 rule. The fields include a field group, a banner and a list and the rule is added to a radio list called 'Management decision'. The added **Workflow** rule is called **Hide and Disable**, so based on user input, if someone clicks 'Yes' for the 'Management decision, then a Signature field is shown to sign off on the form, if 'No' is clicked then the Signature field is hidden and a text box called 'Reason' is shown. 
 
     ***Example of Training Approval form***
 
@@ -166,7 +166,7 @@ Depending on the fields you use, for example user picker or lists, you can [**co
 
 
 
-### What's next  ![Idea icon](C:\Kianda\docs-dev\getting-started\add_form_elements.assets\18.png) ###
+### What's next  ![Idea icon](images/18.png) ###
 
 The next steps are: 
 
@@ -176,7 +176,7 @@ The next steps are:
 
 
 
-### **To return to the previous pages click on the links below**  ![Lighting icon](C:\Kianda\docs-dev\getting-started\add_form_elements.assets\10.png) 
+### **To return to the previous pages click on the links below**  ![Lighting icon](images/10.png) 
 
 - [**Design and build your process**](getting-started/design_process.md) 
 
