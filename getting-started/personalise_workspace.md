@@ -12,7 +12,7 @@ When you login to Kianda for the first time, a wizard opens to allow you to chan
 
    ***Personalise your workspace look and feel***
 
-   ![Look and feel edit](images/lookandfeel.png)
+   ![Look and feel edit](images/lookandfeelPS_copy.png)
    
 3. Click on **Complete** when done.
 
@@ -25,7 +25,7 @@ When you login to Kianda for the first time, a wizard opens to allow you to chan
 
 ***Design your Login page***
 
-![Design login page](images/designlogin.png)
+![Design login page](images/designloginPS_copy.png)
 
 3. Click into the fields under **Tagline 1** and **Tagline 2** to type in the words or phrases that will appear on your login page, previewed on the right.
 4. Click on **Complete** when done.
@@ -39,7 +39,7 @@ When you login to Kianda for the first time, a wizard opens to allow you to chan
 
 ***Change Regional Settings***
 
-![Regional settings](images/regionalsettings.png)
+![Regional settings](images/regionalsettings_copy.png)
 
 3. Click on **Complete** when done.
 
@@ -52,15 +52,15 @@ When you login to Kianda for the first time, a wizard opens to allow you to chan
 
 ***Change Mobile App Settings***
 
-![Mobile App settings](images/mobileapp.png)
+![Mobile App settings](images/mobileapp_copy.png)
 
 3. Click on **Browse** to upload an icon for your mobile app.
-4. Click on on **Complete** when done.
-5. Click on **You are ready to go** to close the wizard. At any time you can change settings again by going to the **side menu > Subscription** and click on a particular area of interest or click on **Open Wizard**.
+4. Click on  **Complete** when done.
+5. Click on **You are ready to go** to close the wizard. At any time you can change settings again by going to the **Side menu > Subscription** and click on a particular area of interest or click on **Open Wizard**.
 
 ***Subscription page***
 
-![Subscription settings](images/subscription.png)
+![Subscription settings](images/subscription_copy.png)
 
 
 
