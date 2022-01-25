@@ -66,6 +66,7 @@ If you have coding experience and want to delve straight into how you can use Ki
 
 ### **To return to the previous pages click on the links below**  ![Idea icon](images/10.png) 
 
+- [**Getting started guide**](getting-started/table_of_contents.md)
 - **[Logging in to Kianda](getting-started/logging_in.md)**
 - **[Personalise your workspace](getting-started/personalise_workspace.md)**
 
