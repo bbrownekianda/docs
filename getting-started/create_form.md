@@ -24,36 +24,34 @@ When your process is created, you are automatically in **Kianda Designer**. This
 
 Kianda Designer has 3 key areas:
 
-1. Left-hand area is used to add form elements like **controls** and **rules**.
-
+1. Left-hand pane is used to add form elements like **controls** and **rules**. This pane also houses the **Exit** Designer ![Exit](images/exitdesign.png), **Save** ![Save](images/save.png), **Preview** ![Preview](images/preview.png) and **Publish** ![Publish](images/publish.png) buttons.
 2. Central **form canvas** displays the current form you are working on.
-
-3. Right-hand area is used to view and edit process, form and field **properties**.
+3. Right-hand pane is used to view and edit process, form and field **properties**.
 
 ***Kianda Designer***
 
-![Form designer](images/formdesigner.png)
+![Form designer](images/formdesigner_frame.png)
 
 **Note**: By default a first form, "form1", is added to your process. Click on the **Pen** button  ![Pen button](images/penicon.png) to start editing this form to make it your own.
 
 1. Click on the **Pen** button  ![Pen button](images/penicon.png) to edit 'form1'.
-2. Fill out the details in the **Edit form** dialog box - that is **Title**, **Name**, and **Default owner(s)**, people who will be able to administrate this form, choose from **Users** or **Groups**. There are other options like **Form theme** which are colours that you can apply to the form tab. These options are explained in further details in [Designer](platform/form_designer2.md). Click on **OK** button ![OK button](images/ok.png) when complete. 
+2. Fill out the details in the **Edit form** dialog box - that is **Title**, **Name**, and **Default owner(s)**, people who will be able to administrate this form, choose from **Users** or **Groups**. There are other options like **Form theme** which are colours that you can apply to the form tab. These options are explained in further details in [Designer](platform/form_designer2.md). Changes made are visible in real-time in the form canvas.
+***Edit a form***
 
-![Edit form](images/editform.png)
+![Edit form](images/editform.gif)
 
-​		The changes made are visible in the form canvas.
+3. Click on **OK** button ![OK button](images/ok.png) when complete. 
+4. Click on the **Add form** button to add a second form. Repeat to add as many forms as needed.
 
-3. Click on the **Add form** button to add a second form. Repeat to add as many forms as needed.
+![Add form](images/addform.gif)
 
-![Add form](images/addform.png)
+4. Once you have added one or more forms to your process, you are ready to [Add controls and rules](getting-started/add_form_elements.md) to your forms! In our example we have two forms: Training Request and Training Approval. 
 
-4. Once you have added one or more forms to your process, you are ready to [Add controls and rules](getting-started/add_form_elements.md) to your forms! 
-
-5. Make sure to save your work as you go by clicking on the **Save** button.
+5. Save your work as you go by clicking on the **Save** button.
 
    ***Save button in Kianda Designer***
 
-   ![Saving a process](images/form1complete.png)
+   ![Saving a process](images/saveprocess.gif)
 
 
 
@@ -64,6 +62,15 @@ The next steps are:
 - **[Add controls and rules](getting-started/add_form_elements.md)**
 - [**Connect your data**](getting-started/dataconnect.md)
 
+
+
+### User tips ![Target icon](images/05.png) ###
+
+By default, you will already have a number of processes imported to your Kianda to help get you started. You may have also chosen predefined processes from the App Store. It is worth taking the time to check out how these processes are built to give you an initial idea of what is possible in Kianda. 
+
+Use the **Exit** button ![Exit](images/exitdesign.png) to return to the main process view and then click on a process of choice to see details. 
+
+You can preview forms by clicking on the **Preview** button ![Preview](images/preview.png) see [Previewer](getting-started/previewer.md) for more details.
 
 
 

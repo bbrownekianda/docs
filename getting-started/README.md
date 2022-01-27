@@ -27,18 +27,18 @@ The flexible nature of Kianda allowing custom-coding and no-coding development p
 
 ### **If you are ready to discover more about Kianda, let's get started**  ![Idea icon](images/18.png) 
 
-- **[How does Kianda work](/platform/)**
+- **[How does Kianda work](/platform/readme2.md)**
 - **[What is low-code development](/lowcode/)**
 - **[What is no-code development](/nocode/)**
 - **[Short "how to" videos](/how-to/)**
 - **[Step-by-step application examples](/examples/)**
 - **[Security](/security/)**
 
-To learn how to start using the Kianda environment, go to **[Logging in to Kianda](getting-started/logging_in.md)**.
+To learn how to **start using the Kianda environment**, go to **[Logging in to Kianda](getting-started/logging_in.md)**.
 
 
 
-### **To return to the previous page click on the link below** ![Lightning icon](images/10.png)
+### **To return to the previous page, click on the link below** ![Lightning icon](images/10.png)
 
 - **[Getting started guide](getting-started/table_of_contents.md)**
 

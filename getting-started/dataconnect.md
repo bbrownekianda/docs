@@ -24,31 +24,35 @@ The video below highlights how to connect to a datasource, in this example, Shar
 
 ## How to get started ##
 
-In this example, we will connect to a SharePoint list called 'Types of Training'. We will then show how to add a list field to a form to use the information from the data connector.
+In this example, we will connect to a SharePoint list called 'Types of Training' to use a List field in a form called 'Training Request'. We will then show how to add the list field to a form to use the information from the data connector.
 
 1. To connect to a datasource, go to the **Side menu** > **Administration** > **Data sources**.
 
 1. Click on **+ Add new** button ![Add new data connector button](images/addnew.png) and **SharePoint**.
 
-1. Fill out Site URL and choose from options like SharePoint Online, if its a Site or Site Collection and Authentication mode.
+1. Fill out **Site URL** and choose from options like **SharePoint version**, **Scope** as in, if its a Site or Site Collection and **Authentication mode**. For example, if you choose **System User Credentials** as an authentication mode, you must provide your SharePoint system username and password.
 
    ***Connecting to SharePoint***
 
-   ![Sharepoint details](images/sharepoint.png)
+   ![Sharepoint details](images/sharepoint.gif)
 
 1. Click on **Test connection** and then **Save**.
 
 1. From here we can add a list field called Type of Training, and choose **Data source** as a List source.
 
-***Edit field dialog box***
-
-![SharePoint list example](images/traininglist.png)
-
 6. Click on the **Datasource** button ![Datasource button](images/datasource.png) and choose the appropriate datasource, in this case a SharePoint list called Training Site. Choose the appropriate **Display field**, **Value field** and choose a field to **Sort by**.
-7. The result is a dropdown list called Types of training which is available for use in our Training Request Form. 
-7. When your form is complete, click on the **Save** button to save your work.
 
-The end result is a complete process that is ready for test and review. Make sure to click on the **Save** button ![Save button](images/save.png) to save your work. Go to [Preview the design](getting-started/previewer.md) to find out how to perform these steps.
+	***Edit field dialog box***
+
+	![SharePoint list example](images/traininglist.gif)
+	
+7. The result is a dropdown list called Types of training which is available for use in our Training Request Form. 
+
+   ![Dropdown list example](images/dropdownlist.gif)
+
+7. When your form is complete, click on the **Save** button  ![Save button](images/save.png) to save your work.
+
+The end result is a complete process that is ready for test and review. Go to [Preview the design](getting-started/previewer.md) to find out how to perform these steps.
 
 
 
@@ -65,7 +69,6 @@ The next steps are:
 ### **To return to the previous pages click on the links below**  ![Lighting icon](images/10.png) 
 
 - [**Design and build your process**](getting-started/design_process.md) 
-
 - [**Add forms**](getting-started/create_form.md)
 
   

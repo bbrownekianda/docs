@@ -22,6 +22,8 @@ Planning involves 3 considerations: [**Design**](#design) , [**Interaction**](#i
 
 To plan a solution, you could use Microsoft Office Tools or other preferred program or method to chart out what you need. Each heading will guide through what you need to consider.
 
+If you already have a process workflow mapped out, you can go straight to [designing and building in Kianda. 
+
 
 
 ## Design ##

@@ -1,6 +1,6 @@
 # Personalise your workspace
 
-When you login to Kianda for the first time, a wizard opens to allow you to change the look and feel of your workspace, as well as managing regional and mobile app settings. There are 4 sections within the wizard, see details below.
+When you login to Kianda for the first time, a wizard opens to allow you to change the look and feel of your workspace, as well as managing regional and mobile app settings. There are 4 sections within the wizard. The sections below detail each section and use the example of a company called 'GreenITR'.
 
 
 
@@ -8,15 +8,17 @@ When you login to Kianda for the first time, a wizard opens to allow you to chan
 
 1. Click on **Browse** to upload your company logos, for both a full logo and collapsed size logo. 
 
-1. Click on a colour scheme under **Themes** and preview the results on the right.
+   **Note:** Recommended size for a **full-size logo** is **200 x 65px** and **45 x  45px** for a **collapsed logo**.
+
+1. Click on a colour scheme under **Themes** and preview the results under **Workspace preview ** on the right.
 
    ***Personalise your workspace look and feel***
 
-   ![Look and feel edit](images/lookandfeelPS_copy.png)
+   ![Look and feel](images/lookandfeel.gif)
    
-3. Click on **Complete** when done.
+3. ##### Click on **Complete** when done.
 
-   
+
 
 ## Design Login page 
 
@@ -25,7 +27,7 @@ When you login to Kianda for the first time, a wizard opens to allow you to chan
 
 ***Design your Login page***
 
-![Design login page](images/designloginPS_copy.png)
+![Design login page](images/designlogin110edge100.png)
 
 3. Click into the fields under **Tagline 1** and **Tagline 2** to type in the words or phrases that will appear on your login page, previewed on the right.
 4. Click on **Complete** when done.
@@ -52,16 +54,19 @@ When you login to Kianda for the first time, a wizard opens to allow you to chan
 
 ***Change Mobile App Settings***
 
-![Mobile App settings](images/mobileapp_copy.png)
+![Mobile App settings](images/mobileapp.png)
 
-3. Click on **Browse** to upload an icon for your mobile app.
+3. Click on **Browse** to upload an icon for your mobile app. 
+
+   **Note:** Mobile icon size is **512 x 512** **px**.
+
 4. Click on  **Complete** when done.
-5. Click on **You are ready to go** to close the wizard. At any time you can change settings again by going to the **Side menu > Subscription** and click on a particular area of interest or click on **Open Wizard**.
+
+5. Click on **You are ready to go** to close the wizard. At any time you can change settings again by going to the **Side menu > Subscription** and click on a particular area of interest or click on **Open Wizard**. 
 
 ***Subscription page***
 
-![Subscription settings](images/subscription_copy.png)
-
+![Subscription settings](images/subscription.gif)
 
 
 ### What's next  ![Idea icon](images/18.png) ###

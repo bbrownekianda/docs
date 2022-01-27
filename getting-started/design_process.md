@@ -52,18 +52,13 @@ To start creating a process, reference your [process plan](getting-started/plan_
 
    ***Add new process dialog box***
 
-   ![Create a process](images/createprocess.png)
+   ![Create a process](images/createprocess2.png)
 
-4. You are now in the process design page. From here you can [Add forms](formcreate.md).
+4. You are now in the process design page. From here you can [Add forms](getting-started/create_form.md).
 
    ***Process design page***
 
-   ![Form designer](images/formdesigner2.png)
-
-   
-   
-   
-
+   ![Form designer](images/formdesigner.gif)
 
 
 
@@ -73,8 +68,6 @@ The next steps are:
 
 - [**Add forms**](getting-started/create_form.md)
 - **[Add controls and rules](getting-started/add_form_elements.md)**
-
-
 
 
 ### **To return to the previous pages click on the links below**  ![Lighting icon](images/10.png) 

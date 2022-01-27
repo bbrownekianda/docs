@@ -20,9 +20,9 @@ We will start with:
 
 - [adding controls](#adding-controls) or fields to our form
 
-  - editing [field properties](#field-properties)
+- editing [field properties](#field-properties)
 
-- then [add rules](#adding-rules)
+- then [add rules](#adding-a-first-rule-called-send-email) where we will show two examples
 
   
 
@@ -34,11 +34,13 @@ Controls and rules are available from the left-hand pane in when you click into 
 
 ***Controls and Rules in left-hand pane***
 
-![Add form elements](images/addelements.png)
+![Add form elements](images/addelements.gif)
 
-**Note:** By default there are 3 buttons automatically added to forms - Submit, Save and Close. To edit a button or other field, click on the item and then the **Pen** button. To remove a button or other field, click on the item and then click on the **Bin/Trash** icon. Click on **OK** to confirm removal. To move a button, or other field, click on the **Drag handle** button.
+**Note:** By default there are 3 buttons automatically added to forms - **Submit,** **Save** and **Close**. 
 
-To start adding controls and rules to a form, click on a form of choice so the as the **Pen** button  ![Pen button](images/penicon.png) is visible.
+- To remove a button or other field, click on the item and then click on the **Bin/Trash** button ![Bin button](images/binicon.png) then click on **OK** to confirm removal. 
+- To move a button, or other field, click on the **Drag handle** button ![Drag handle](images/move.png).
+- To start [adding controls](#adding-controls) and rules to a form, click on a form of choice so the as the **Pen** button  ![Pen button](images/penicon.png) is visible.
 
 
 
@@ -50,25 +52,29 @@ The first field we are going to add in our example is a textbox field to accept 
 
 2. Click on **Controls** in the left-hand pane. Click on a particular category, for example **Input** and then click on a particular field type to add, for example **Text box**.
 
+   ![Add Text box](images/addtextbox.gif)
+
 3. The field is added to the form. To edit the field, click on the field so the **Pen** button  ![Pen button](images/penicon.png) is visible.
 
-   ***Edit field Pen button***
+   ***Edit field***
 
-   ![Edit a field](images/fieldedit.png)
+   ![Edit a field](images/fieldedit2.gif)
 
 4. Fill out the details in the **Edit field** dialog box - that is **Title**, **Name**, and choose options further options like **Mode** to have users input a **single line of text**, **multiple lines of text** or **rich text**. 
 
    ***Edit field dialog box***
 
-   ![Edit field](images/editfield.png)
+   ![Edit field](images/editfield.gif)
 
    There are other options like **Text style** where you can choose to Capitalise or have lowercase text only. Go to [Text box](fields/input/textbox.md) for more details. Click on **OK** button ![OK button](images/ok.png) when complete.
 
-5. Repeat the steps above to add another textbox, or other field. For example to add a User Picker field, click on **Controls** > **Input** > **User picker**. Choose from the options in the **New field - User picker** dialog box.  Click on **OK** button ![OK button](images/ok.png) when complete.
+5. Repeat the steps above to add another textbox, or other field. We can add another text box field called 'Reason' for our Request Form. We can also add a **User Picker** field.
+
+6. Click on **Controls** > **Input** > **User picker**. Choose from the options in the **New field - User picker** dialog box.  Click on **OK** button ![OK button](images/ok.png) when complete.
 
    ***New field - User picker dialog box***
 
-   ![New field - User picker](images/userpicker.png)
+   ![New field - User picker](images/userpicker.gif)
 
    The user picker field will be used in this example, to allow the form user to pick from a list of users. This could be a pre-defined group, or individual users. The user picker field could also be connected to an external datasource like a list of line managers from SalesForce. 
 
@@ -86,61 +92,75 @@ To edit field properties:
 
    ***Properties in the right-hand pane***
 
-   ![Field properties](images/fieldproperties.png)
+   ![Field properties](images/fieldproperties.gif)
 
-2. Tick checkboxes as appropriate, for example ticking **Enabled** which means users can use the field. **Layout** is used to set the width of the field for both desktop and mobile layouts. In the example above, **Required** is checked which means that the particular textbox field 'Employee Name' is mandatory for users to fill out. Go to [Properties](fields/properties.md) to find out more about properties.
+2. Tick checkboxes as appropriate, for example ticking **Enabled** which means users can use the field. **Layout** is used to set the width of the field for both desktop and mobile layouts. In the example above, **Required** is checked which means that the particular textbox field 'Employee Name' is mandatory for users to fill out. This is denoted by asterix * beside the field name. Go to [Properties](fields/properties.md) to find out more about properties.
 
-   Being aware of these options will help you to customise your form and impact the way it works.
+   Being aware of these options will help you to customise your form and impact the way it works. 
 
+   You are now ready to [add rules](#adding-a-first-rule-called-send-email) to create smart, interactive forms.
+   
    
 
-## Adding rules ##
+## Adding a first rule called Send email ##
 
 Rules allow actions to happen based upon conditions that result from user interaction with fields. This creates smart, dynamic forms that follow business logic, all without the need for coding. 
 
-In our example we will add a rule to send an automated email to a line manager to approve a request based on a user completing the Training Request form and clicking on Submit. 
+In our example we will add a rule to **send an automated email** to a Line manager to approve a request based on a user completing the Training Request form and clicking on **Submit**. 
 
 1. Click on the **Submit** button to edit the button.
 
-2. Click on **Rules** in the right-hand pane. By default there are 3 rules already applied to the Submit button, to submit, save and close the process when the Submit button is clicked.
+2. Click on **Rules** in the right-hand pane. By default there are 3 rules already applied to the Submit button, to **Submit**, **Save** and **Close** the process when the Submit button is clicked.
 
    ***Rules for the Submit button***
 
-   ![Submit button rules](images/submitrules.png)
+   ![Submit button rules](images/submitrules.gif)
 
 3. To create an automated email rule, click on **Add a rule** > **Communications** > **Send email** in the right-hand pane.
 
-4. In the **Edit rule - Send email** dialog box, fill out the **Title**, and decide who are the email users, that is who the email will be **From**, **To**, any **CC** or **BCC** that should be included.
+	***Add Send email rule***
+
+	![Add Send email rule](images/addsendemail.gif)
+
+4. In the **Edit rule - Send email** dialog box, fill out the **Title**, and decide who are the email users, that is who the email will be **From**, **To**, any **CC** or **BCC** that should be included. Click on the **User** button ![User](images/user.png) to add users to each field.
 
    ***Selecting a user field***
 
-   ![Select email users](images/emailusers.png)
+   ![Select email users](images/emailusers.gif)
 
    **Note:** If you leave the **From** field blank, then the email will arrive from "noreply@kianda.com".
 
-   For user fields like **To** and **CC**, there are various options to choose from . When you click on the **User** button ![User](images/user.png)choose a selection mode to choose a user, for example **User(s) defined in a user field** will allow you to use a field from a form. When you click in the field below **Select a user field** drill down to the field you want, in this case Line Manager. This means when the user submits a form and chooses their Line Manager, an automated email will go to that Line Manager.
+   For user fields like **To** and **CC**, there are various options to choose from . When you click on the **User** button ![User](images/user.png) choose a selection mode to choose a user, for example **User(s) defined in a user field** will allow you to use a field from a form. When you click in the field below **Select a user field** drill down to the field you want, in this case Line Manager. This means when the user submits a form and chooses their Line Manager, an automated email will go to that Line Manager.
 
 5. Fill out the **Subject** and **Body** text. You can use the **Expression builder** ![Expression](images/ellipsis.png)to add expressions to the body to personalise the email. 
 
-   ***Expression builder***
+   - Click on the field **Add field to expression** to drill down to the field you want, in this example Employee Name. .
 
-   ![Expression builder](images/expressionbuilder.png)
+     ***Expression builder***
 
-   - Click on the field **Add field to expression** to drill down to the field you want, in this example Employee Name.
+   	![Expression builder](images/expressionbuilder.gif)
 
-   - Click on **Add to expression**.
+   - Click on **Add to expression**. **Note:** Make sure you position your cursor in the correct place in the body of the email before you Add field to expression.
 
    - Click on **OK**.
 
-   - Other expressions can be added that use values or status of processes, for example to create a link to review a process, use the ProcessLink() expression. Click on **Expression builder** ![Expression](images/ellipsis.png)and **Reference** to get a list of 16 expressions you can use.
+     ***Expression added to an email body***
+
+     ![Expression in an email body](images/expressionin.gif)
+
+   - Other expressions can be added that use values or status of processes, for example to create a link to review a process, use the ProcessLink() expression. Click on **Expression builder** ![Expression](images/ellipsis.png)and **Reference** to get a list of 16 expressions you can use. **Note:** Click on the field under **Add field to expression** to clear the field so that you can add a reference.
 
      ***Expression references***
      
-     ![References](images/references.png)
-
-   Using the ProcessLink() expression, text can be entered into the brackets to provide a clickable link in the email as follows:
-
-   ![ProcessID expression](images/clickhere_frame.png)
+     ![References](images/references.gif)
+     
+     Copy and paste an Expression reference, for example ProcessLink() into the box under **Expression**. This will create a link to a process. 
+     
+     Using the ProcessLink() expression, text can be entered into the brackets to provide a clickable link in the email as follows:
+     
+     ![ProcessID expression](images/clickhere_frame.png)
+     
+     In our example the email will contain a link, linked to this process, that the Line Manager can click on, so they can approve the request.
 
 6. Use font and styling options in the body text to set the format of the email. Click on **OK** when complete.
 
@@ -148,19 +168,53 @@ In our example we will add a rule to send an automated email to a line manager t
 
    ***Changing the order of rule execution***
 
-   ![Rule order](images/ruleorder.png)
+   ![Rule order](images/ruleorder.gif)
 
-8. For more information on other rules that can be applied, go to [Rules](/rules/readme2.md) for a full listing of what is available.
+​		For more information on other rules that can be applied, go to [Rules](/rules/readme2.md) for a full listing of what is available.
 
-9. Make sure to save your work as you go by clicking on the **Save** button.
+8. Make sure to save your work as you go by clicking on the **Save** button.
 
-10. In the Training Process example, there is a second form that is part of this process, called Training Approval. From the [summary of requirements](processplan.md#summary-of-requirements) this form will have 7 fields, and 1 rule. The fields include a field group, a banner and a list and the rule is added to a radio list called 'Management decision'. The added **Workflow** rule is called **Hide and Disable**, so based on user input, if someone clicks 'Yes' for the 'Management decision, then a Signature field is shown to sign off on the form, if 'No' is clicked then the Signature field is hidden and a text box called 'Reason' is shown. 
+9. Repeat the steps above to add another email rule to another field, or try other rule, for example a [Workflow rule](#adding-a-second-rule-called-Hide-and-Disable) as shown below.
 
-    ***Example of Training Approval form***
+   
 
-    ![Training Approval form](images/trainingapproval.png) 
+### Adding a second rule called Hide and Disable
 
-    
+In the Training Process example, there is a second form that is part of this process, called Training Approval. From the [summary of requirements](processplan.md#summary-of-requirements) this form will have 7 fields, and 1 rule. The fields include a field group, a banner and a list and a **Workflow**  added to a radio list called 'Management decision'. The added **Workflow** rule is called **Hide and Disable**, so based on user input, if someone clicks 'Yes' for the 'Management decision, then a Signature field is shown to sign off on the form, if 'No' is clicked then the Signature field is hidden and a text box called 'Reason' is shown. 
+
+1. Select a field in a form to apply the rule to, in this example a field called 'Management Decision' in a Training Approval field.
+
+2. To use a Workflow rule, click on **Add a rule** > **Workflow** > **Hide and Disable** in the right-hand pane.
+
+   ***Add Hide and Disable rule***
+
+   ![Add Hide and Disable rule](images/addinghideanddisable.gif)
+
+3. In the **Edit rule - Hide or Disable** dialog box, fill out the **Title**, in this example 'Hide or Show', then click on **Edit conditions**.
+
+4. Click on **Add a conditions group**. First we need to a) **create a condition**, click into the first field and drill down to the field in the form you want to base an action on, in this example, 'Management decision', then click on the operator field, in this case we choose **Equals** and in the third value field type in one of the **possible values** for this field, in this example 'Yes'. Then click on **OK**.
+
+   ![Add condition](images/addcondition1.gif)
+
+   **Note:** There are 13 possible operators to choose from: **Equals**, **Not equals**, **Contains**, **Greater than**, **Greater or equal**, **Less than**, **Less or equal**, **Is blank**, **Not blank**, **Matches pattern**, **Does not match pattern**, **Is Visible**, **Is Enabled**.
+
+5. In the **Edit rule** dialog box, that the first part of the condition appears see blue text 'Management Decision Equals Yes'. We then need to b) **create an action** for the condition. Click on the field under **Action** and drill down to a field within a form, in this example the Signature field in the form Training Approval. Then click on the arrow beside the action to choose, in this example **Show**. 
+
+   ![Add action to a condition](images/addactiontorule.gif)
+
+   **Note**: there are 7 possible actions in this list: **Hide**, **Show**, **Disable**, **Enable**, **Toggle visible**, **Toggle enable**, **Hide and clear**.
+
+6. Click on **Add** to add a second part to the action, in this example to hide the feedback field upon a Management Decision of 'Yes'. Click on the first field and drill down to the field of interest, in this example 'Feedback' which we will then 'Hide'.
+
+   ![Add Hide or Show actions](images/addhideorshow2.gif)
+
+7. Click on **Add otherwise action**, in this example to add the actions based on a 'Management Decision' of 'No'.
+
+  Drill down to the fields of choice, and click on the actions to add the reverse of the first action group.
+
+  ![Add otherwise action](images/completecondition.gif)
+
+8. Click on **OK** when complete.
 
 Depending on the fields you use, for example user picker or lists, you can [**connect to a datasource**](getting-started/dataconnect.md) to ensure information used in forms is always up to date. Click on the link to find out how to add a datasource and use it in a form field, for example a list.
 
@@ -175,11 +229,18 @@ The next steps are:
 
 
 
+### User tips ![Target icon](images/05.png) ###
+
+1. Make sure that you change the field properties to make fields **Required**, **Enabled** and so on, to ensure that the form appears the way you want, see [Properties](fields/properties.md) to find out more about properties. For example unchecking **Enabled** makes the field visible but not possible to edit. 
+1. By default there are 3 buttons with every form, Submit, Save and Close. To remove a button, simply click on it and then click on the **Bin/Trash** button ![Bin](images/binicon.png) or to add a new button of choice, go to **Controls** > **Actions** > **Button** see [Controls](/fields/readme.md) for a full list of controls.
+2. There are additional form settings that can be used, available in the right-hand pane of **Designer**. Click on a form in the process, then click on the **Settings** button ![Settings](images/settings.png) to set additional settings such as **Enable process security**. This value can be checked and a group selected, so that only these users can access the form. Groups are added from **Side menu** > **Administration** > **Users**, click on **Create new group** to add users to a group, for example HR Team.
+
+
+
 
 ### **To return to the previous pages click on the links below**  ![Lighting icon](images/10.png) 
 
 - [**Design and build your process**](getting-started/design_process.md) 
-
 - [**Add forms**](getting-started/create_form.md)
 
   
