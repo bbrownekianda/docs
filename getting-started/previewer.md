@@ -6,7 +6,7 @@ The Kianda **Previewer** allows you to preview your process and interact with it
 
 ![Designing in Kianda](images/highlightdesign.png)
 
-The Previewer allows true iterative development, by providing a testing mechanism to give insights that lead to further developments. Each process version can be saved as a **draft**, with options to restore to earlier versions if needed, see [Version History](platform/version_history.md) for more information.
+The Previewer allows true iterative development, by providing a testing mechanism to give insights that lead to further developments. Each process version can be saved as a **draft**, with options to restore to earlier versions if needed, see [Version History](getting-started/version_history.md) for more information.
 
 
 
@@ -45,3 +45,4 @@ The next step is:
 
 - [**Design and build your process**](getting-started/design_process.md) 
 - [**Add forms**](getting-started/create_forms.md)
+- [**Connect your data**](getting-started/dataconnect.md)

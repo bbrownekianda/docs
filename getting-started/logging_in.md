@@ -11,7 +11,7 @@ When you login you will have access to the Kianda **workspace** where you can bu
 The layout of the Kianda workspace is as follows:
 
 1. **Company logo** - the top left-hand corner is reserved for uploading your company logos. If you click on the **Collapse navigation** button ![Collapse navigation button](images/navigation_frame_copy.png) you will see the collapsed version of the company logo and collapsed side menu, giving you more real estate in the central view panel.
-2. **Side menu** - Beneath the logo is the left-hand pane, the side menu, containing all the key functions to create and manage your business processes. From this menu you will start **creating** **processes**. In the side menu, under **More**, there are links to get **Help**, **Support**, and give **Feedback**. From this menu you can also develop your own widgets, see [Developer](getting-started/developer.md) for more details.
+2. **Side menu** - Beneath the logo is the left-hand pane, the side menu, containing all the key functions to create and manage your business processes. From this menu you will start **creating** **processes**. In the side menu, under **More**, there are links to get **Help**, **Support**, and give **Feedback**. From this menu you can also develop your own widgets, see [Developer](getting-started/low_code.md#how-to-get-started-with-developer) for more details.
 3. **Quick Action menu** - the top right-hand menu bar contains shortcuts to keep you updated and allows you to **add dashboard pages**.
 4. **Main view** - the central panel is the main view for any of the functions chosen from the side menu. Here you can **view and edit** processes and dashboards.
 
@@ -21,9 +21,15 @@ Go to [Personalise your workspace](getting-started/personalise_workspace.md) to 
 
 ### What's next  ![Idea icon](images/18.png) ###
 
-Now that you are familiar with the workspace layout, you are ready to get started with [**creating your process**](getting-started/create_process.md) in Kianda! 
+Learn how to [**create your Kianda process**](getting-started/create_process.md), then follow the steps below:
 
-If you have coding experience and want to delve straight into how you can use Kianda to create your own widgets, go to **[Developer](getting-started/developer.md)** to learn more.
+![1](images/one.png)  [**Plan your process**](getting-started/plan_process.md) 
+
+![2](images/two.png)  [**Design and build your process**](getting-started/design_process.md)
+
+![3](images/three.png)  [**Publish your process**](getting-started/publish_process.md)
+
+If you have coding experience and want to delve straight into how you can use Kianda to create your own widgets, go to [**Developer**](getting-started/low_code.md#how-to-get-started-with-developer) to learn more.
 
 
 
@@ -33,7 +39,7 @@ If you need **help** at any stage, go to the **Side menu** > **More** > **Help**
 
 ***Help pages***
 
-![Help section](images/helpPP_copy.png) 
+![Help section](images/help.gif) 
 
 
 

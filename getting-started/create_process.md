@@ -55,11 +55,15 @@ Using Kianda allows you to leverage the agile development process to maximum eff
 
 ### What's next  ![Idea icon](images/18.png) ###
 
-Now that you are familiar with the development cycle, you can start to [**plan your process**](getting-started/plan_process.md) in Kianda.
+Now that you are familiar with the development cycle, you can start to develop your Kianda process following the steps below:
 
-If you already have your requirements mapped out, go straight to [**design your process**](getting-started/design_process.md) to get started in the Kianda **Designer**.
+![1](images/one.png)  [**Plan your process**](getting-started/plan_process.md) 
 
-If you have coding experience and want to delve straight into how you can use Kianda to create your own widgets, go to **[Developer](getting-started/developer.md)** to learn more.
+![2](images/two.png)  [**Design and build your process**](getting-started/design_process.md) - start here if you already have your requirements mapped out
+
+![3](images/three.png)  [**Publish your process**](getting-started/publish_process.md)
+
+If you have coding experience and want to delve straight into how you can use Kianda to create your own widgets, go to [**Developer**](getting-started/low_code.md#how-to-get-started-with-developer) to learn more.
 
 
 

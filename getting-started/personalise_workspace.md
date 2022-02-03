@@ -10,13 +10,13 @@ When you login to Kianda for the first time, a wizard opens to allow you to chan
 
    **Note:** Recommended size for a **full-size logo** is **200 x 65px** and **45 x  45px** for a **collapsed logo**.
 
-1. Click on a colour scheme under **Themes** and preview the results under **Workspace preview ** on the right.
+2. Click on a colour scheme under **Themes** and preview the results under **Workspace preview** on the right.
 
    ***Personalise your workspace look and feel***
 
    ![Look and feel](images/lookandfeel.gif)
    
-3. ##### Click on **Complete** when done.
+3. Click on **Complete** when done.
 
 
 

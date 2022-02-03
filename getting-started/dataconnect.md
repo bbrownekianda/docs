@@ -1,6 +1,6 @@
 # Connect your data #
 
-Connecting your data to Kianda processes, allows real-time scalability, so as your organisation grows, the processes you have created continue to perform, providing sustainable, flexible growth. Your data may be held in **datasources** like SharePoint, Salesforce or SAP. Kianda comes with 19 predefined [**data connectors**](connectors/readme.md), allowing you to connect to these datasources.  
+Connecting your data to Kianda processes, allows real-time scalability, so as your organisation grows, the processes you have created continue to perform, providing sustainable, flexible growth. Your data may be held in **datasources** like SharePoint, Salesforce or SAP. Kianda comes with 19 predefined **data connectors** allowing you to connect to these datasources, see [data connector list](#data-connector-list) for a full listing.
 
 If you are a developer and want to connect to a datasource that is not included in the predefined set, you can use SOAP or REST to create your own API for data transfer.
 
@@ -48,11 +48,42 @@ In this example, we will connect to a SharePoint list called 'Types of Training'
 	
 7. The result is a dropdown list called Types of training which is available for use in our Training Request Form. 
 
+   ***Dropdown list from SharePoint***
+
    ![Dropdown list example](images/dropdownlist.gif)
 
 7. When your form is complete, click on the **Save** button  ![Save button](images/save.png) to save your work.
 
 The end result is a complete process that is ready for test and review. Go to [Preview the design](getting-started/previewer.md) to find out how to perform these steps.
+
+
+
+## Data connector list ##
+
+A full list of data connectors is available in the table below.
+
+***Data connector table***
+
+| Active Directory   |
+| ------------------ |
+| **DocuSign**       |
+| **Dropbox**        |
+| **Dynamics CRM**   |
+| **Email**          |
+| **File system**    |
+| **FTP**            |
+| **GlobalPayments** |
+| **Google Drive**   |
+| **MySQL**          |
+| **Office 365**     |
+| **Oracle**         |
+| **Powershell**     |
+| **REST Service**   |
+| **Salesforce**     |
+| **SAP**            |
+| **SharePoint**     |
+| **SQL**            |
+| **SOAP Service**   |
 
 
 

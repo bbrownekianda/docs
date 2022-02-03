@@ -57,7 +57,7 @@ To build a dashboard:
 
    ![Create dashboard page](images/createdashboard.gif)
 
-3. The result is a menu of 7 widgets that you can add to your dashboard page. Go to [Dashboards](pages/readme.md) to find out more. For the moment we are going to add 1 widget, a list widget. Click on **List** widget.
+3. The result is a menu of 7 widgets that you can add to your dashboard page. Go to [Dashboards](getting-started/dashboards.md) to find out more. For the moment we are going to add 1 widget, a list widget. Click on **List** widget.
 
    ***Dashboard widgets***
 
@@ -77,7 +77,7 @@ To build a dashboard:
 
    **Note:** It it possible to add more widgets or edit/configure widgets when you are in Edit mode. Once you click on the **Save ** button in the Quick Action menu, then you return to **View** mode, To return to Edit mode again, click on the **Edit current page** button ![Edit current page](images/editpage.png) in the Quick Action Menu.
 
-6. There are a number of options to choose from in the **Edit List** dialog box, see [List](pages/list.md) for more details. For now we are going to concentrate on two things: a) connecting to a business process b) choosing certain fields to view in our list.
+6. There are a number of options to choose from in the **Edit List** dialog box, For now we are going to concentrate on two things: a) connecting to a business process b) choosing certain fields to view in our list.
 
    - Click on **Business Process** in the left-hand pane and select the process you want to link to, in this case Training Process.
 
@@ -100,7 +100,7 @@ To build a dashboard:
 
 7. When you are happy with your changes, click on the **Save** button ![Save changes](images/savepage.png) in the top menu bar.
 
-7. When you are in view mode, you can kick off processes from the dashboard widget. Click on the **Start new process** button and select the process you want to use, in this example Training Process.
+7. When you are in view mode, you can kick off processes from the dashboard widget. Click on the **Start new process** button ![New process](images/newprocess.png) and select the process you want to use, in this example Training Process.
 
    ***Start new process***
 
@@ -113,7 +113,7 @@ There are endless possibilities with dashboards, the steps above are designed to
 
 ***Example of a dashboard page with different widgets***
 
-![Dashboard page example](images/dashboardexample.png)
+![Dashboard page example](images/dashboardexamples.png)
 
 Configured dashboard pages can be shared with your selected users. Allow time for **review** and get feedback to incorporate into the iterative design process.
 
@@ -134,7 +134,6 @@ It is also important to make sure you **document** the development process so th
 If you would like to see examples of 'how to' perform particular tasks in Kianda or see application examples, click on the links below:
 
 - **[Short "how to" videos](/how-to/)**
-- **[Step-by-step application examples](/examples/)**
 
 
 

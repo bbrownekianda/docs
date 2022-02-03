@@ -2,9 +2,7 @@
 
 - [Getting Started Guide](getting-started/table_of_contents.md)
   
-- [TEMP Image view](getting-started/image_view.md)
-  
-  - [Welcome to Kianda](getting-started/README.md)
+  - [Welcome to Kianda](getting-started/welcome.md)
   - [Logging into Kianda](getting-started/logging_in.md)
     - [Personalise your workspace](getting-started/personalise_workspace.md)
   - [Create your Kianda process](getting-started/create_process.md)

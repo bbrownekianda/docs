@@ -6,7 +6,7 @@ After you have created a process, you are ready to add **forms**. This is the se
 
 ![Create forms process](images/magnifycreateforms2.png)
 
-As you work on your process, you can save **drafts**. This allows you make changes and restore to earlier versions if needed, see [Version History](platform/version_history.md) for more information.
+As you work on your process, you can save **drafts**. This allows you make changes and restore to earlier versions if needed, see [Version History](getting-started/version_history.md) for more information.
 
 
 
@@ -24,7 +24,7 @@ When your process is created, you are automatically in **Kianda Designer**. This
 
 Kianda Designer has 3 key areas:
 
-1. Left-hand pane is used to add form elements like **controls** and **rules**. This pane also houses the **Exit** Designer ![Exit](images/exitdesign.png), **Save** ![Save](images/save.png), **Preview** ![Preview](images/preview.png) and **Publish** ![Publish](images/publish.png) buttons.
+1. Left-hand pane is used to add form elements like **controls** and **rules**. This pane also houses the **Exit** Designer ![Exit](images/exitdesign.png) **Save** ![Save](images/save.png)  **Preview** ![Preview](images/preview.png) and **Publish** ![Publish](images/publish.png) buttons.
 2. Central **form canvas** displays the current form you are working on.
 3. Right-hand pane is used to view and edit process, form and field **properties**.
 
@@ -35,7 +35,7 @@ Kianda Designer has 3 key areas:
 **Note**: By default a first form, "form1", is added to your process. Click on the **Pen** button  ![Pen button](images/penicon.png) to start editing this form to make it your own.
 
 1. Click on the **Pen** button  ![Pen button](images/penicon.png) to edit 'form1'.
-2. Fill out the details in the **Edit form** dialog box - that is **Title**, **Name**, and **Default owner(s)**, people who will be able to administrate this form, choose from **Users** or **Groups**. There are other options like **Form theme** which are colours that you can apply to the form tab. These options are explained in further details in [Designer](platform/form_designer2.md). Changes made are visible in real-time in the form canvas.
+2. Fill out the details in the **Edit form** dialog box - that is **Title**, **Name**, and **Default owner(s)**, people who will be able to administrate this form, choose from **Users** or **Groups**. There are other options like **Form theme** which are colours that you can apply to the form tab. These options are explained in further details in [Designer](getting-started/designer.md). Changes made are visible in real-time in the form canvas.
 ***Edit a form***
 
 ![Edit form](images/editform.gif)

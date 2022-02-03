@@ -28,7 +28,7 @@ We will start with:
 
 ## How to get started
 
-There are 3 categories of Controls, and 10 categories of Rules, see [Controls](/fields/readme.md) and see [Rules](/rules/readme2.md) for a full listing of what is available. 
+There are 3 categories of Controls, and 10 categories of Rules, see [Controls](/getting-started/controls.md) and see [Rules](/getting-started/rules.md) for a full listing of what is available. 
 
 Controls and rules are available from the left-hand pane in when you click into a process.
 
@@ -66,7 +66,7 @@ The first field we are going to add in our example is a textbox field to accept 
 
    ![Edit field](images/editfield.gif)
 
-   There are other options like **Text style** where you can choose to Capitalise or have lowercase text only. Go to [Text box](fields/input/textbox.md) for more details. Click on **OK** button ![OK button](images/ok.png) when complete.
+   There are other options like **Text style** where you can choose to Capitalise or have lowercase text only. Click on **OK** button ![OK button](images/ok.png) when complete.
 
 5. Repeat the steps above to add another textbox, or other field. We can add another text box field called 'Reason' for our Request Form. We can also add a **User Picker** field.
 
@@ -94,7 +94,7 @@ To edit field properties:
 
    ![Field properties](images/fieldproperties.gif)
 
-2. Tick checkboxes as appropriate, for example ticking **Enabled** which means users can use the field. **Layout** is used to set the width of the field for both desktop and mobile layouts. In the example above, **Required** is checked which means that the particular textbox field 'Employee Name' is mandatory for users to fill out. This is denoted by asterix * beside the field name. Go to [Properties](fields/properties.md) to find out more about properties.
+2. Tick checkboxes as appropriate, for example ticking **Enabled** which means users can use the field. **Layout** is used to set the width of the field for both desktop and mobile layouts. In the example above, **Required** is checked which means that the particular textbox field 'Employee Name' is mandatory for users to fill out. This is denoted by asterix * beside the field name. Go to [Properties](getting-started/properties.md) to find out more about properties.
 
    Being aware of these options will help you to customise your form and impact the way it works. 
 
@@ -231,7 +231,7 @@ The next steps are:
 
 ### User tips ![Target icon](images/05.png) ###
 
-1. Make sure that you change the field properties to make fields **Required**, **Enabled** and so on, to ensure that the form appears the way you want, see [Properties](fields/properties.md) to find out more about properties. For example unchecking **Enabled** makes the field visible but not possible to edit. 
+1. Make sure that you change the field properties to make fields **Required**, **Enabled** and so on, to ensure that the form appears the way you want, see [Properties](images/properties.md) to find out more about properties. For example unchecking **Enabled** makes the field visible but not possible to edit. 
 1. By default there are 3 buttons with every form, Submit, Save and Close. To remove a button, simply click on it and then click on the **Bin/Trash** button ![Bin](images/binicon.png) or to add a new button of choice, go to **Controls** > **Actions** > **Button** see [Controls](/fields/readme.md) for a full list of controls.
 2. There are additional form settings that can be used, available in the right-hand pane of **Designer**. Click on a form in the process, then click on the **Settings** button ![Settings](images/settings.png) to set additional settings such as **Enable process security**. This value can be checked and a group selected, so that only these users can access the form. Groups are added from **Side menu** > **Administration** > **Users**, click on **Create new group** to add users to a group, for example HR Team.
 
