@@ -1,6 +1,8 @@
  # Properties # 
 
-Every process, form and control, such as text boxes and lists, will have properties visible in the right-hand pane of the [Designer](platform/form_designer2.md) view. 
+Every process, form and control, such as text boxes and lists, will have properties visible in the right-hand pane of the [Designer](getting-started/Designer.md) view. 
+
+
 
 ## Process properties ##
 
@@ -37,7 +39,7 @@ The following properties are visible:
 
 - Show info - click on this checkbox if you want to show information, for example who are the form owners, the design version and when the form was started and completed. This information will pop up at the bottom of the form.
 
-  Underneath form properties you will see **Form submit rules**, go to [Rules](http://localhost:3000/#/rules/README) to find out more about Form rules.
+  Underneath form properties you will see **Form submit rules**, go to [Rules](getting-started/rules.md) to find out more about Form rules.
 
 Click on a control field, for example a text box, in the form to see [Field properties](#field-properties). 
 
@@ -69,7 +71,7 @@ The options within properties are:
 
 ### What's next  ![Idea icon](images/18.png) ###
 
-Underneath field properties you will see **Rules**, go to [Rules](getting-started/rules.md) to find out more about Field rules.
+To read more about form rules, go to [**Rules**](getting-started/rules.md).
 
 
 
@@ -78,6 +80,8 @@ Underneath field properties you will see **Rules**, go to [Rules](getting-starte
 - [**Design and build your process**](getting-started/design_process.md) 
 - [**Add forms**](getting-started/create_form.md)
 - **[Add controls and rules](getting-started/add_form_elements.md)**
+- [**Controls**](getting-started/controls.md)
+- [**Designer**](getting-started/designer.md)
 
 
 

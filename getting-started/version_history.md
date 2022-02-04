@@ -5,12 +5,22 @@ The **current or active version** of a process is always visible in the right-ha
 ***Process version***
 ![Process version history](images/versionhistory.png)
 
-The **first version** of a process is **0.1** and will increment to 0.2 and so on, each time a process is saved. Once the process is **published** the version changes to **1.0** and increments with each publication. This makes it is easy to keep track of who and when changes were made and to restore an older version if needed. 
+The **first version** of a process is **0.1** and will increment to 0.2 and so on, each time a process is saved. Once the process is **published** the version changes to **1.0** and increments with each publication. This makes it is easy to keep track of who made changes and when, and to restore an older version if needed. 
+
+The video below introduces version control and the section [How to get started](#how-to-get-started) runs through how to view process versions and restore an older version.
+
+***Version control***
+
+<video width="100%" style="width:100%" controls>
+    <source src="../videos/versioncontrol.mp4">
+    Your browser does not support the video tag.
+    </source>
+</video>
 
 
 ## How to get started ##
 
-1. To view the version history click on the **Design version history** button which may look like V0.1 or whatever is the current version for your process, for example ![View design version history](images/version1.png) or ![Version 0.8](images/version8.png)
+1. To view the version history click on the **Design version history** button which may look like V0.1 or whatever the current version is for your process, for example ![View design version history](images/version1.png) or ![Version 0.8](images/version8.png)
 
 2. A pop-up shows the version history details including when the version was created and who created it. 
 
@@ -26,7 +36,7 @@ The **first version** of a process is **0.1** and will increment to 0.2 and so o
 
    ![Version details](images/versiondetails.png)
 
-4. Click on the **Restore** button ![Restore button](images/restore.png) beside a particular version and then click on **Ok** to confirm that you want to restore to that version. 
+4. To restore an earlier version, click on the **Restore** button ![Restore button](images/restore.png) beside a particular version and then click on **Ok** to confirm that you want to restore to that version. 
 
    
 
@@ -40,4 +50,6 @@ To learn more about adding different elements to your form go to **[Add controls
 
 - [**Design and build your process**](getting-started/design_process.md) 
 - [**Add forms**](getting-started/create_form.md)
+- [**Designer**](getting-started/designer.md)
+- [**Add controls and rules**](getting-started/add_form_elements.md)
 - [**Preview the design**](getting-started/previewer.md)

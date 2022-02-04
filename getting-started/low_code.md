@@ -1,10 +1,10 @@
 # What is Low-Code Development?
 
-Low-code development offers **software developers** a shortcut to creating something new and beneficial for their organisation. Rather than thinking about every single line of code, as a developer you can take advantage of Kianda's **Developer** to create your own custom widgets from predefined field, rule and dashboard code.
+Low-code development offers **software developers** a shortcut to create something new and beneficial for their organisation. Rather than thinking about every single line of code, as a developer you can take advantage of Kianda's **Developer** to create your own custom widgets from predefined field, rule and dashboard code.
 
 You can also quickly use Kianda **Developer** to add [webhooks](#webhooks) providing an efficient way to push GET requests to other applications in real-time as the Kianda process runs, avoiding the need to poll for data. 
 
-Kianda uses EmberJS to build widgets, and in particular the Handlebars templating library to power the application's user interface, see [templating basics](#templating-basics) below to get started.
+Kianda uses EmberJS to build widgets, and in particular the Handlebars templating library to power the application's user interface, see [templating basics](#emberjs-templating-basics) below to get started.
 
 
 
@@ -24,7 +24,7 @@ Ember gives the ability to write your helpers, to bring a minimum of logic into 
 
 #### Conditionals
 
-Statements like **if** and **unless** are implemented as built-in helpers. Helpers can be invoked three ways; inline invocation, nested invocation and block invocation. For more details, click on the following link https://guides.emberjs.com/v2.18.0/templates/conditionals/.
+Statements like **if** and **unless** are implemented as built-in helpers. Helpers can be invoked three ways; inline invocation, nested invocation and block invocation. For more details, click on the following link: https://guides.emberjs.com/v2.18.0/templates/conditionals/.
 
 
 
@@ -78,7 +78,7 @@ The 'Widget Code' defines the logic and functions.
 
 ![Widget code](images/widgetcodefield.png)
 
-Created field widgets will be available for use in Kianda Designer by going to **Side menu** > **Administration** > **Designer** > **click on an existing process** or **Add new **to add a new process then click on a form to edit it, and see the Custom fields added under **Controls**.
+Created field widgets will be available for use in Kianda Designer by going to **Side menu** > **Administration** > **Designer** > **click on an existing process** or **Add new** to add a new process then click on a form to edit it, and see the Custom fields added under **Controls**.
 
 ![Custom fields](images/customcontrol.png)
 
@@ -149,7 +149,10 @@ If you want to use Kianda for no-code development, then follow the steps below:
 ### **To return to the previous pages click on the links below**  ![Idea icon](images/10.png) 
 
 - **[Getting started guide](getting-started/table_of_contents.md)**
-- **[Welcome to Kianda](getting-started/readme.md)**
+- **[Welcome to Kianda](getting-started/welcome.md)**
+- [**What is no-code development**](getting-started/no_code.md)
 - [**Logging in to Kianda**](getting-started/logging_in.md)
 - [**Create your process**](getting-started/create_process.md)
+- [**Controls**](getting-started/controls.md)
+- [**Rules**](getting-started/rules.md)
 

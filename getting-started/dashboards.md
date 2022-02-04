@@ -22,10 +22,12 @@ When using dashboards there are two modes: **Edit mode** and **View mode**.
 
 When you are in **View mode**, the **Edit** button ![Edit button](images/edit2.png) will be visible in the top menu bar.
 
+***Clicking on the Edit button to go into Edit mode***
 ![View mode](images/dashboardgeneral.png)
 
 When you click on the **Edit** button ![Edit button](images/edit2.png) you will be in **Edit mode**, which means that the **Widget menu** is available at the top of the dashboard page, along with the **Settings** button ![Settings](images/settings2.png) to make changes to the page, and **Bin/Trash** button ![Bin button](images/binicon.png) to delete the page.
 
+***Edit mode***
 ![Edit mode](images/editmode.png)
 
 In **Edit mode,** you can also make changes to widgets s **Update configuration** ![Pen button](images/pen.png), **Settings** ![Cog button](images/cog.png)and **Delete** ![Bin button](images/bin.png) buttons, will be available. If you want to create a dashboard page from scratch go to [How to get started](#how-to-get-started) or if you want to learn more about dashboard widgets go to [Dashboard widgets](#dashboard-widgets).
@@ -34,10 +36,11 @@ In **Edit mode,** you can also make changes to widgets s **Update configuration*
 
 ## How to get started ##
 
-Kianda offers a user-friendly interface to create dashboards in a few minutes. Please follow the below video to create dashboards.
+Kianda offers a user-friendly interface to create dashboards in a few minutes. Please follow the below video to learn how to create dashboards.
 
+***Dashboards introduction***
 <video width="100%" style="width:100%" controls>
-    <source src="videos/updated_introduction_dashboard.mp4">
+    <source src="../videos/dashboards.mp4">
     Your browser does not support the video tag.
     </source>
 </video>
@@ -46,6 +49,8 @@ Kianda offers a user-friendly interface to create dashboards in a few minutes. P
 1. To create a dashboard, go to **Home** ![Home button](images/home2.png)in the left-hand pane and click on **Create a new page** icon ![Create a new page](images/newpages.png).
 
 1. A **Create dashboard page** dialog box opens.
+
+   ***Create dashboard page dialog box***
 
    ![Create dashboard page](images/createdashboard.png)
 
@@ -62,6 +67,8 @@ Kianda offers a user-friendly interface to create dashboards in a few minutes. P
 1. Click on the **OK** button when you are finished editing the field to save your changes or click on **Close** to exit the dialog box without saving.
 
 1. The output is a menu with a number of widgets available that you can add to the dashboard. Go to [Dashboard widgets](#dashboard-widgets) to find out more about each widget type.
+
+   ***Widget menu***
 
    ![Widget menu](images/trainingdashboard.png)
 
@@ -106,7 +113,10 @@ When you have added one or more widgets, you can move the widgets around the das
 When you click on the **Settings** button ![Settings](images/settings2.png) a **Page settings** dialog box opens. The edit options are the same as **Create dashboard page** dialog box that appears during page creation, see [How to get started](#how-to-get-started) but also includes **two** additional checkboxes:
 
 - **Display in mobile footer** - tick this checkbox if you want to display dashboard in the mobile footer
+
 - **Hide from navigation** - tick this checkbox if you want to hide the dashboard from navigation
+
+  ***Page settings***
 
 ![Dashboard settings](images/dashsettings.png)
 
@@ -117,6 +127,8 @@ Click on the **OK** button when you are finished editing the field to save your 
 ### Enabling data export from dashboards ###
 
 Kianda allows the users to export the data from the dashboards on a simple click. To set up the configuration to export the data from the dashboards, please follow the below.
+
+***Enabling data export from dashboards***
 
 <video width="100%" style="width:100%" controls>
     <source src="videos/Enabling data export from the dashboards.mp4">
@@ -130,7 +142,7 @@ Kianda allows the users to export the data from the dashboards on a simple click
 
 Kianda is a progressive web application. This enables Kianda dashboards to provide insights to the business processes even in offline mode.
 
-For example, this can benefit businesses where users can carry out inspections or maintenance even at a remote location with no access to the internet. The user can create a new instance or carry out actions on an existing instance
+For example, this can benefit businesses where users can carry out inspections or maintenance even at a remote location with no access to the internet. 
 
 
 
@@ -138,15 +150,15 @@ For example, this can benefit businesses where users can carry out inspections o
 
 If you would like to see examples of 'how to' perform particular tasks in Kianda or see application examples, click on the links below:
 
-- **[Short "how to" videos](/how-to/)**
+- **[Short "how to" videos](getting-started/how_to.md)**
 
   
 
 
 ### **To return to the previous pages click on the links below**  ![Lighting icon](images/10.png) 
 
+- [**How Kianda works**](getting-started/how_kianda_works.md)
 - [**Preview the design**](getting-started/previewer.md)
-
 - [**Publish your process**](getting-started/publish_process.md)
 
   

@@ -4,7 +4,7 @@ Kianda **Designer** provides an intuitive interface where you can quickly start 
 
 There are 3 key principles to consider when working with forms:
 
-1) Form [**design**](#designer-layout) - what a form looks like, what elements it contains, for example controls and rules
+1) Form **design** - what a form looks like, what elements it contains, for example controls and rules, see [**Designer layout**](#designer-layout)
 2) Form **interaction**- how users can use forms depending on certain sequences happening, see [**Rules**](getting-started/rules.md) 
 3) Form **management** - who can edit and access forms is set when creating a new form, see [**New forms**](#new-forms)
 
@@ -12,7 +12,7 @@ There are 3 key principles to consider when working with forms:
 
 ## Designer layout ##
 
-To access processes, go to the left-hand pane and **Administration** > **Designer** and click on a process that you have created or imported, see [Design and build your process](getting-started/first_process.md).
+To access processes, go to the left-hand pane and **Administration** > **Designer** and click on a process that you have created or imported, see [Design and build your process](getting-started/design_process.md).
 
 From the main process view, click on any process to add forms, for example Training process as seen below.
 
@@ -32,6 +32,16 @@ The key components of the designer are:
 3. Right-hand pane is used to view and edit process, form and field **properties**.
 
 Note the name of the process you are working on is shown in the top menu bar, for example Training Process.
+
+The video below demonstrates how to get started using Kianda Designer, and go to [How to get started](#how-to-get-started) to follow through on different ways to import forms or start from scratch. 
+
+***Introduction to Kianda Designer***
+
+<video width="100%" style="width:100%" controls>
+    <source src="../videos/designerintro.mp4">
+    Your browser does not support the video tag.
+    </source>
+</video>
 
 
 
@@ -53,7 +63,7 @@ Note the name of the process you are working on is shown in the top menu bar, fo
 
 ### Predefined forms ###
 
-1. If you have created a process using the App Store, then a number of forms will already be part of the process. For example the process Security Incident Management has 5 forms attached: Incident detail, Data breach, Malware outbreak, Root cause remedy and Caller review. Click on [Kianda Apps](platform/appstore.md) to find out more about other apps in the App Store. 
+1. If you have created a process using the **App Store,** then a number of forms will already be part of the process. For example the process Security Incident Management has 5 forms attached: Incident detail, Data breach, Malware outbreak, Root cause remedy and Caller review. 
 
 2. To edit form details, simply click on a form and click on the **Pen** button ![Pen icon](images/penicon.png) to edit the form. You can also click on the **Add form** button to add a new form. Edit options are shown under [New forms](#new-forms).
 
@@ -167,7 +177,7 @@ Settings are available from the right-hand pane and give you the ability to:
 
 - [Import processes](#import-forms)
 
-- View [Version history](#getting-started/version_history.md)
+- View [Version history](getting-started/version_history.md)
 
 - Change [Process settings](#process-settings) ![Settings button](images/settings.png)
 
@@ -179,7 +189,7 @@ Settings are available from the right-hand pane and give you the ability to:
 
 - Delete a form by selecting a form, clicking on the **Bin/Trash** button ![Bin icon](images/binicon.png) and then click on **Ok** after you have reviewed the form title and you are sure this is what you want to delete. Click on **Cancel** if you wish to cancel the deletion.
 
-- View and edit [Form properties](images/properties.md) and [rules](images/rules.md).
+- View and edit [Form properties](getting-started/properties.md) and [rules](getting-started/rules).
 
   
 
@@ -238,15 +248,24 @@ Choose from the settings:
 
 ### What's next  ![Idea icon](images/18.png) ###
 
-- To learn more about rules and controls that can be applied to forms go to [**Controls**](getting-started/controls.md) [**Rules**](getting-started/rules.md). 
+- To learn more about rules and controls that can be applied to forms go to [**Controls**](getting-started/controls.md) and [**Rules**](getting-started/rules.md). 
 - To learn more about properties, go to [**Field properties**](getting-started/properties.md#field-properties).
 
 
+
+### User tips ![Target icon](images/05.png) ###
+
+1. There are many ways to then reuse elements within forms, see the video [**Reusability**](getting-started/how_to.md#how-to-reuse-forms).
+2. There are many ways to manage who has access to a process, or form, see the video [**User management**](getting-started/how_to.md#how-to-manage-user-access).
 
 
 
 ### **To return to the previous pages click on the links below**  ![Idea icon](images/10.png) 
 
+- [**How Kianda works**](getting-started/how_kianda_works.md)
+- [**What is low-code development**](getting-started/low_code.md)
+- [**What is no-code development**](getting-started/no_code.md)
 - [**Design and build your process**](getting-started/design_process.md) 
 - [**Add forms**](getting-started/create_form.md)
 - **[Add controls and rules](getting-started/add_form_elements.md)**
+- [**Properties**](getting-started/properties.md)

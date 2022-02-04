@@ -14,8 +14,10 @@ You can set up data connectors first, before building your process if you wish, 
 
 The video below highlights how to connect to a datasource, in this example, SharePoint and [How to get started](#how-to-get-started.md) runs through the process in steps including an example of how to use this datasource in a list field.
 
+***Connecting to a datasource using SharePoint***
+
 <video width="100%" style="width:100%" controls>
-    <source src="../videos/SharePoint connection.mp4">
+    <source src="../videos/dataconnectsharepoint.mp4">
     Your browser does not support the video tag.
     </source>
 </video>
@@ -99,7 +101,9 @@ The next steps are:
 
 ### **To return to the previous pages click on the links below**  ![Lighting icon](images/10.png) 
 
+- [**How Kianda works**](getting-started/how_kianda_works.md)
 - [**Design and build your process**](getting-started/design_process.md) 
 - [**Add forms**](getting-started/create_form.md)
+- [**Add controls and rules**](getting-started/add_form_elements.md)
 
   

@@ -2,13 +2,13 @@
 
 Currently you may have paper forms or email flows that you want to formalise, digitise and most importantly, link to dashboards to see at a glance how processes are running and where organisational improvements are needed.
 
-For example take the scenario of a Training Request. An employee may email a line manager requesting to attend training. The line manager either approves or disapproves the request by returning an email or calling the employee. If the training request is approved then the line manager emails the training manager that the employee will attend the next training event and to schedule this. 
+For example take the scenario of a Training Request. An employee may email a line manager requesting to attend training. The line manager either approves or disapproves the request by returning an email or calling the employee. If the training request is approved then the line manager emails the training manager stating that the employee will attend training and to schedule this.
 
 ![Email trail](images/emails.png)
 
 
 
-Rather than continuing with email trails with no easy way to see the status of each step and process overall, creating a solution in Kianda will save time, increase efficiencies and therefore reduce costs. In this way you are becoming a **citizen developer**, a business professional who uses low-code/no-code tools to solve business needs. 
+Rather than continuing with email trails, with no easy way to see the status of each step and process overall, creating a solution in Kianda will save time, increase efficiencies and therefore reduce costs. In this way you are becoming a **citizen developer**, a business professional who uses low-code/no-code tools to solve business needs. 
 
 
 
@@ -30,9 +30,9 @@ If you already have a process workflow mapped out, you can go straight to [desig
 
 Design considers what a process needs to do and how it might look. Information can be gathered through various methods like Really Round Robin, hackathons and surveys, and captured in product vision boards. Using the 5W's of who, what, when, where and why, along with how, can help in project initiation phases to get the necessary information. 
 
-In particular consider what **forms** do you need in your process? What kind of **fields** will be used to get the data you seek? What about information you need to provide to form users? Connecting to **datasources** like information in SharePoint, Salesforce or SAP will make your processes dynamic and always up to date.
+In particular consider what **forms** do you need in your process. What kind of **fields** will be used to get the data you seek? What about information you need to provide to form users? Connecting to **datasources** like information in SharePoint, Salesforce or SAP will make your processes dynamic and always up to date.
 
-In the example of a Training Request process, two forms are required: 1) Training Request form and 2) Training Approval form. Information sought is listed below with potential field types in brackets. Information provided by each form, for example a SharePoint list is also listed.
+In the example of a Training Request process, two forms are required: 1) Training Request form and 2) Training Approval form. Information sought is listed below with potential field types in brackets. Information provided by each form, for example a SharePoint list for users to scroll through, is also listed.
 
 | 1) Training Request Form  |                                      |                                  |                            |
 | ------------------------- | ------------------------------------ | -------------------------------- | -------------------------- |
@@ -40,10 +40,10 @@ In the example of a Training Request process, two forms are required: 1) Trainin
 | **Information needed**:   | Employee Name (textbox)              | Reason for the Request (textbox) | Line Manager (user picker) |
 
 
-| 2) Training Approval Form |                                              |                        |                        |
-| ------------------------- | -------------------------------------------- | ---------------------- | ---------------------- |
-| **Information provided**: | Name, Reason, Type (group from Request form) | Reason for the Request | Line Manager signature |
-| **Information needed**:   | Decision (a Yes/No  radio list)              |                        |                        |
+| 2) Training Approval Form |                                              |                          |
+| ------------------------- | -------------------------------------------- | ------------------------ |
+| **Information provided**: | Name, Reason, Type (group from Request form) | Line Manager (signature) |
+| **Information needed**:   | Decision (a Yes/No  radio list)              | Feedback (text box)      |
 
 It might help to know what kind of fields there are in Kianda and to keep this in mind when capturing requirements, see Kianda [Controls](/getting-started/controls.md).
 
@@ -53,7 +53,7 @@ It might help to know what kind of fields there are in Kianda and to keep this i
 
 Interaction considers how users will use the process and what series of events might happen to create different desired outputs. Decide on the sequence of events and what **rules** can be applied to create a trigger for the next event.
 
-In the Training Request process, we'll introduce **Submit** buttons to trigger actions, and a **Rule** so that the form will appear differently based on different inputs.
+In the Training Request process, we'll introduce **Submit** buttons to trigger actions, and a **Rule** so that the form will appear differently based on different user inputs.
 
 | 1) Training Request Form |                                                      |                                     |
 | ------------------------ | ---------------------------------------------------- | ----------------------------------- |
@@ -66,7 +66,7 @@ In the Training Request process, we'll introduce **Submit** buttons to trigger a
 | **Actions**:              | Submit (button) allows Line Managers to submit an approval.  | Save (button)  to save a draft. |
 |                           | The approval appears in a dashboard for the Training Manager. |                                 |
 | **Rule**:                 | If Yes is chosen from a radio list, then input signature.    |                                 |
-|                           | If No is chosen, then hide the signature and show a Reason text box |                                 |
+|                           | If No is chosen, then hide the signature and show a Reason text box. |                                 |
 
 It might help to know what kind of rules there are in Kianda and to keep this in mind when capturing requirements, see Kianda [Rules](/getting-started/rules.md).
 
@@ -111,8 +111,12 @@ If you would like to learn more about citizen development, have a look at Kianda
 
 ### **To return to the previous pages click on the links below**  ![Idea icon](images/10.png) 
 
+- [**What is low-code development**](getting-started/low_code.md)
+- [**What is no-code development**](getting-started/no_code.md)
 - **[Logging in to Kianda](getting-started/logging_in.md)**
 - **[Create your Kianda process](getting-started/create_process.md)**
+- [**Add forms**](getting-started/create_form.md)
+- [**Add controls and rules**](getting-started/add_form_elements.md)
 
 
 

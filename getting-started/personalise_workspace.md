@@ -1,6 +1,6 @@
 # Personalise your workspace
 
-When you login to Kianda for the first time, a wizard opens to allow you to change the look and feel of your workspace, as well as managing regional and mobile app settings. There are 4 sections within the wizard. The sections below detail each section and use the example of a company called 'GreenITR'.
+When you login to Kianda for the first time, a wizard opens allowing you to change the look and feel of your workspace, as well as managing regional and mobile app settings. There are four sections within the wizard. The sections below detail each section and use the example of a company called 'GreenITR'.
 
 
 
@@ -62,7 +62,9 @@ When you login to Kianda for the first time, a wizard opens to allow you to chan
 
 4. Click on  **Complete** when done.
 
-5. Click on **You are ready to go** to close the wizard. At any time you can change settings again by going to the **Side menu > Subscription** and click on a particular area of interest or click on **Open Wizard**. 
+5. Click on **You are ready to go** to close the wizard. 
+
+   At any time you can change settings again by going to the **Side menu > Subscription** and click on a particular area of interest or click on **Open Wizard**. 
 
 ***Subscription page***
 
@@ -77,6 +79,6 @@ Go to **[Create your Kianda process](getting-started/create_process.md)** to sta
 
 ### **To return to the previous pages click on the links below** ![Lightning icon](images/10.png)
 
-- **[Welcome to Kianda](getting-started/readme.md)**
+- **[Welcome to Kianda](getting-started/welcome.md)**
 - **[Logging in to Kianda](getting-started/logging_in.md)**
 

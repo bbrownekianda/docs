@@ -1,4 +1,4 @@
-# Previewer
+# Preview the design
 
 The Kianda **Previewer** allows you to preview your process and interact with it as a user. Following this step is an essential part of the **design phase**.
 
@@ -44,5 +44,6 @@ The next step is:
 ### **To return to the previous pages click on the links below**  ![Lighting icon](images/10.png) 
 
 - [**Design and build your process**](getting-started/design_process.md) 
-- [**Add forms**](getting-started/create_forms.md)
+- [**Add forms**](getting-started/create_form.md)
+- [**Add controls and rules**](getting-started/add_form_elements.md)
 - [**Connect your data**](getting-started/dataconnect.md)

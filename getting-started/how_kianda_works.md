@@ -1,8 +1,8 @@
-#  How does Kianda work
+#  How Kianda works
 
 The Kianda platform no-code / low-code (NCLC) platform is created with the ultimate flexibility and agility in mind, allowing simple user interactions to build complex processes.
 
-Kianda has been constructed using an **Model, View, Controller (MVC) approach** (Model, View, Controller). This approach allows designers to build mobile-responsive applications via **rapid User Interface (UI) prototyping**. The UI provides an easy way to build an application by clicking, scrolling, and drag and drop of fields. The layout both provides a way to both build the application or process schema, and to capture and monitor data at run-time.
+Kianda has been constructed using an **Model, View, Controller (MVC) approach**. This approach allows designers to build mobile-responsive applications via **rapid User Interface (UI) prototyping**. The UI provides an easy way to build an application by clicking, scrolling, and drag and drop of fields. The layout both provides a way to both build the application or process schema, and to capture and monitor data at run-time.
 
 
 
@@ -34,8 +34,8 @@ In summary the Kianda platform provides an ideal interface for rapid prototyping
 
 The next steps are: 
 
-- [**Logging in to Kianda**](getting-started/previewer.md)
-- [**Create your Kianda process**](getting-started/publish_process.md)
+- [**Logging in to Kianda**](getting-started/logging_in.md)
+- [**Create your Kianda process**](getting-started/create_process.md)
 
 
 
@@ -43,15 +43,13 @@ The next steps are:
 
 You can familiarise yourself with the key components of Kianda by going to the following links:
 
-- [Application desiger (Rapid UI prototyping)](/platform/form-designer.md)
-- [Controls](/fields/)
-- [Rules Engine](/rules/)
-- [Dashboards system](/dashboards/)
-- [Connectors ecosystem](/connectors/)
-- [Automation of tasks](/automation/)
-- [Document generation](/platform/document_generation.md)
+- [**Application designer**](getting-started/designer.md)
+- [**Controls**](getting-started/controls.md)
+- [**Rules Engine**](getting-started/rules.md)
+- [**Dashboards system**](getting-started/dashboards.md)
+- [**Connectors ecosystem**](getting-started/dataconnect.md)
 
-
+  
 
 
 ### **To return to the previous pages click on the links below**  ![Lighting icon](images/10.png) 

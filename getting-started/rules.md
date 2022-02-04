@@ -4,7 +4,7 @@ Business rules are what makes Kianda forms come alive. They represent the actual
 
 There are two key principles to consider when working with forms:
 
-1. [Rule design](#rule-design) - what type of rule you are going to apply and where, for example to a button, field or form
+1. [Rule design](#rule-design) - what type of rule you are going to apply and where, for example to a button, field or form.
 
 2. [Rule order](#rule-order) - if there are several rules attached to an item like a button, then the order of execution is important and can be modified to suit your needs.
 
@@ -12,9 +12,9 @@ There are two key principles to consider when working with forms:
 
 ## How to get started ##
 
-If you go to **Administration** > **Designer** and click on a process or create a new process, the predefined rules are found in the left-hand pane under **Add a rule**.
+If you go to **Side menu** > **Administration** > **Designer** and click on a process or create a new process, the predefined rules are found in the left-hand pane under **Add a rule**.
 
-***Rules list***
+***Rule categories***
 
 ![Rules list](images/ruleslist80.png)
 
@@ -89,7 +89,14 @@ To learn more about control fields go to [**Controls**](getting-started/controls
 
 ### **To return to the previous pages click on the links below**  ![Idea icon](images/10.png) 
 
+- [**How Kianda works**](getting-started/how_kianda_works.md)
 - [**Plan your process**](getting-started/plan_process.md) 
 - [**Design and build your process**](getting-started/design_process.md) 
 - [**Add forms**](getting-started/create_form.md)
+- [**Designer**](getting-started/designer.md)
+- [**Properties**](getting-started/properties.md)
 - **[Add controls and rules](getting-started/add_form_elements.md)**
+
+  
+
+  

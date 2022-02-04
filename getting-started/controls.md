@@ -8,7 +8,7 @@ If you have developer skills,  you can create your own custom field widget, see 
 
 ## Getting started with Controls ##
 
-If you go to **Administration** > **Designer** and click on a process or create a new process, the predefined fields are found in the left-hand pane.
+If you go to **Side menu** >**Administration** > **Designer** and click on a process or create a new process, the predefined fields are found in the left-hand pane.
 
 ***Control Categories***
 
@@ -32,7 +32,7 @@ A full list of controls is available in the table below.
 
 ***Control categories, with field names and purpose***
 
-![Form controls](images/controlstableps.png)
+![Form controls](images/controlslist.gif)
 
 
 
@@ -47,7 +47,10 @@ To learn more about properties, go to [**Field properties**](getting-started/pro
 
 ### **To return to the previous pages click on the links below**  ![Idea icon](images/10.png) 
 
+- [**How Kianda works**](getting-started/how_kianda_works.md)
+- [**What is no-code development**](getting-started/no_code.md)
 - [**Plan your process**](getting-started/plan_process.md) 
 - [**Design and build your process**](getting-started/design_process.md) 
 - [**Add forms**](getting-started/create_form.md)
+-  [**Designer**](getting-started/designer.md)
 - **[Add controls and rules](getting-started/add_form_elements.md)**

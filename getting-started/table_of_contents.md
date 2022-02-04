@@ -6,7 +6,19 @@
 
 ### Get started using Kianda to build business processes for your organisation ![Idea icon](images/18.png) 
 
+***Using this Getting started guide***
+
+<video width="100%" style="width:100%" controls>
+    <source src="../videos/gettingstartedguide.mp4">
+    Your browser does not support the video tag.
+    </source>
+</video>
+
+
+
 [Welcome to Kianda](getting-started/welcome.md)
+
+[Logging in to Kianda](getting-started/logging_in.md) 
 
 [Create your Kianda process in 3 steps](getting-started/create_process.md)
 

@@ -1,12 +1,12 @@
 # Add controls and rules #
 
-When you have created forms, then you are ready to add elements to those forms, that is **Controls** and **Rules**. This is the third step in building a process.
+When you have created forms, then you are ready to add elements to those forms, that is **controls** and **rules**. This is the third step in building a process.
 
 ***Build process steps***
 
 ![Create forms process](images/magnifycreateforms3.png)
 
-As you add elements to your form, you can save **drafts**. This allows you make changes and restore to earlier versions if needed, see [Version History](platform/version_history.md) for more information.
+As you add elements to your form, you can save **drafts**. This allows you make changes and restore to earlier versions if needed, see [Version History](getting-started/version_history.md) for more information.
 
 
 
@@ -18,11 +18,11 @@ In our example, in the Training Request Form we have 6 control fields to add: 2 
 
 We will start with:
 
-- [adding controls](#adding-controls) or fields to our form
+- [adding controls](#adding-a-first-control-text-box) or fields to our form, starting with an example of a text box
 
 - editing [field properties](#field-properties)
 
-- then [add rules](#adding-a-first-rule-called-send-email) where we will show two examples
+- then [add rules](#adding-rules) where we will show two examples
 
   
 
@@ -36,15 +36,15 @@ Controls and rules are available from the left-hand pane in when you click into 
 
 ![Add form elements](images/addelements.gif)
 
-**Note:** By default there are 3 buttons automatically added to forms - **Submit,** **Save** and **Close**. 
+**Note:** By default there are 3 buttons automatically added to forms - **Submit,** **Save** and **Close**, see form canvas in the image above.
 
 - To remove a button or other field, click on the item and then click on the **Bin/Trash** button ![Bin button](images/binicon.png) then click on **OK** to confirm removal. 
 - To move a button, or other field, click on the **Drag handle** button ![Drag handle](images/move.png).
-- To start [adding controls](#adding-controls) and rules to a form, click on a form of choice so the as the **Pen** button  ![Pen button](images/penicon.png) is visible.
+- To start adding controls or rules to a form, click on a form of choice so the as the **Pen** button  ![Pen button](images/penicon.png) is visible.
 
 
 
-## Adding Controls ##
+## Adding a first control text box ##
 
 The first field we are going to add in our example is a textbox field to accept user input. 
 
@@ -78,13 +78,25 @@ The first field we are going to add in our example is a textbox field to accept 
 
    The user picker field will be used in this example, to allow the form user to pick from a list of users. This could be a pre-defined group, or individual users. The user picker field could also be connected to an external datasource like a list of line managers from SalesForce. 
 
-6. Edit field properties as necessary to control how fields appear, see [Field properties](#field-properties).  
+6. Edit field properties as necessary to control how fields appear, see the next section Field properties.  
+
+The video below highlights how to edit forms, and the section [Field properties](#field-properties.md) runs through the the editing process in steps.
+
+***Editing forms***
+
+<video width="100%" style="width:100%" controls>
+    <source src="../videos/editfields.mp4">
+    Your browser does not support the video tag.
+    </source>
+</video>
 
 
 
 ### Field properties
 
 In addition to editing options when you add a field, you can also change field properties to impact form design.
+
+***Kianda Designer introduction***
 
 To edit field properties:
 
@@ -94,7 +106,7 @@ To edit field properties:
 
    ![Field properties](images/fieldproperties.gif)
 
-2. Tick checkboxes as appropriate, for example ticking **Enabled** which means users can use the field. **Layout** is used to set the width of the field for both desktop and mobile layouts. In the example above, **Required** is checked which means that the particular textbox field 'Employee Name' is mandatory for users to fill out. This is denoted by asterix * beside the field name. Go to [Properties](getting-started/properties.md) to find out more about properties.
+2. Tick checkboxes as appropriate, for example ticking **Enabled** means users can fill out the field. **Layout** is used to set the width of the field for both desktop and mobile layouts. In the example above, **Required** is checked which means that the particular textbox field 'Employee Name' is mandatory for users to fill out. This is denoted by asterix * beside the field name. Go to [Properties](getting-started/properties.md) to find out more about properties.
 
    Being aware of these options will help you to customise your form and impact the way it works. 
 
@@ -102,15 +114,27 @@ To edit field properties:
    
    
 
-## Adding a first rule called Send email ##
+### Adding rules ###
 
-Rules allow actions to happen based upon conditions that result from user interaction with fields. This creates smart, dynamic forms that follow business logic, all without the need for coding. 
+Rules allow actions based upon conditions resulting  from user interaction with fields. This creates smart, dynamic forms that follow business logic, all without the need for coding. 
+
+The video below highlights how to get started with rules, and the section [Using a Communication rule](#using-a-communication-rule-send-email) runs through an example of how to add a communications rule to a form.
+
+***Getting started with rules***
+
+<video width="100%" style="width:100%" controls>
+    <source src="../videos/rules.mp4">
+    Your browser does not support the video tag.
+    </source>
+</video>
+
+### Using a Communication rule Send email ###
 
 In our example we will add a rule to **send an automated email** to a Line manager to approve a request based on a user completing the Training Request form and clicking on **Submit**. 
 
 1. Click on the **Submit** button to edit the button.
 
-2. Click on **Rules** in the right-hand pane. By default there are 3 rules already applied to the Submit button, to **Submit**, **Save** and **Close** the process when the Submit button is clicked.
+2. Click on **Rules** in the right-hand pane. By default there are three rules already applied to the **Submit** button, to **Submit**, **Save** and **Close** the process when the Submit button is clicked.
 
    ***Rules for the Submit button***
 
@@ -130,17 +154,17 @@ In our example we will add a rule to **send an automated email** to a Line manag
 
    **Note:** If you leave the **From** field blank, then the email will arrive from "noreply@kianda.com".
 
-   For user fields like **To** and **CC**, there are various options to choose from . When you click on the **User** button ![User](images/user.png) choose a selection mode to choose a user, for example **User(s) defined in a user field** will allow you to use a field from a form. When you click in the field below **Select a user field** drill down to the field you want, in this case Line Manager. This means when the user submits a form and chooses their Line Manager, an automated email will go to that Line Manager.
+   For user fields like **To** and **CC**, there are various options to choose from . When you click on the **User** button ![User](images/user.png) choose a selection mode to choose a user, for example **User(s) defined in a user field** will allow you to use a field from a form. When you click in the field below **Select a user field** drill down to the field you want, in this example Line Manager. This means when the user submits a form and chooses their Line Manager, an automated email will go to that Line Manager.
 
 5. Fill out the **Subject** and **Body** text. You can use the **Expression builder** ![Expression](images/ellipsis.png)to add expressions to the body to personalise the email. 
 
-   - Click on the field **Add field to expression** to drill down to the field you want, in this example Employee Name. .
+   - Click on the field **Add field to expression** to drill down to the field you want, in this example Employee Name.
 
      ***Expression builder***
 
    	![Expression builder](images/expressionbuilder.gif)
 
-   - Click on **Add to expression**. **Note:** Make sure you position your cursor in the correct place in the body of the email before you Add field to expression.
+   - Click on **Add to expression**. **Note:** Make sure you position your cursor in the correct place in the body of the email before you **Add field to expression** so that the expression is added in the correct place.
 
    - Click on **OK**.
 
@@ -170,17 +194,17 @@ In our example we will add a rule to **send an automated email** to a Line manag
 
    ![Rule order](images/ruleorder.gif)
 
-​		For more information on other rules that can be applied, go to [Rules](/rules/readme2.md) for a full listing of what is available.
+​		For more information on other rules that can be applied, go to [Rules](getting-started/rules.md) for a full listing of what is available.
 
 8. Make sure to save your work as you go by clicking on the **Save** button.
 
-9. Repeat the steps above to add another email rule to another field, or try other rule, for example a [Workflow rule](#adding-a-second-rule-called-Hide-and-Disable) as shown below.
+9. Repeat the steps above to add another email rule to another field, or try other rule, for example a [Workflow rule](#adding-a-second-workflow-rule-called-Hide-and-Disable) as shown below.
 
    
 
-### Adding a second rule called Hide and Disable
+### Adding a second Workflow rule called Hide and Disable
 
-In the Training Process example, there is a second form that is part of this process, called Training Approval. From the [summary of requirements](processplan.md#summary-of-requirements) this form will have 7 fields, and 1 rule. The fields include a field group, a banner and a list and a **Workflow**  added to a radio list called 'Management decision'. The added **Workflow** rule is called **Hide and Disable**, so based on user input, if someone clicks 'Yes' for the 'Management decision, then a Signature field is shown to sign off on the form, if 'No' is clicked then the Signature field is hidden and a text box called 'Reason' is shown. 
+In the Training Process example, there is a second form that is part of this process, called Training Approval. From our Training Process [requirements](getting-started/plan_process.md#summary-of-requirements) the Approval form will have 7 fields, and 1 rule. The fields include a field group, a banner and a list and a **Workflow**  added to a radio list called 'Management decision'. The added **Workflow** rule is called **Hide and Disable**, so based on user input, if someone clicks 'Yes' for the 'Management decision, then a Signature field is shown to sign off on the form, if 'No' is clicked then the Signature field is hidden and a text box called 'Reason' is shown. 
 
 1. Select a field in a form to apply the rule to, in this example a field called 'Management Decision' in a Training Approval field.
 
@@ -231,9 +255,12 @@ The next steps are:
 
 ### User tips ![Target icon](images/05.png) ###
 
-1. Make sure that you change the field properties to make fields **Required**, **Enabled** and so on, to ensure that the form appears the way you want, see [Properties](images/properties.md) to find out more about properties. For example unchecking **Enabled** makes the field visible but not possible to edit. 
-1. By default there are 3 buttons with every form, Submit, Save and Close. To remove a button, simply click on it and then click on the **Bin/Trash** button ![Bin](images/binicon.png) or to add a new button of choice, go to **Controls** > **Actions** > **Button** see [Controls](/fields/readme.md) for a full list of controls.
-2. There are additional form settings that can be used, available in the right-hand pane of **Designer**. Click on a form in the process, then click on the **Settings** button ![Settings](images/settings.png) to set additional settings such as **Enable process security**. This value can be checked and a group selected, so that only these users can access the form. Groups are added from **Side menu** > **Administration** > **Users**, click on **Create new group** to add users to a group, for example HR Team.
+1. Make sure that you change the field properties to make fields **Required**, **Enabled** and so on, to ensure that the form appears the way you want, see [Properties](getting-started/properties.md) to find out more about properties. For example unchecking **Enabled** makes the field visible but not possible to edit. 
+2. By default there are 3 buttons with every form, Submit, Save and Close. To remove a button, simply click on it and then click on the **Bin/Trash** button ![Bin](images/binicon.png) or to add a new button of choice, go to **Controls** > **Actions** > **Button** see [Controls](/getting-started/controls.md) for a full list of controls.
+3. There are additional form settings that can be used, available in the right-hand pane of **Designer**. Click on a form in the process, then click on the **Settings** button ![Settings](images/settings.png) to set additional settings such as **Enable process security**. This value can be checked and a group selected, so that only these users can access the form. Groups are added from **Side menu** > **Administration** > **Users**, click on **Create new group** to add users to a group, for example HR Team.
+4. There are many ways to reuse elements within forms, see the video [**Reusability**](getting-started/how_to.md#how-to-reuse-forms).
+5. To consider different ways of user inputs, see the video  [**Possibilities for user input with Kianda**](getting-started/how_to.md#possibilities-for-user-input-with-kianda).
+6. There are many ways to manage who has access to a process, or form, see the video [**User management**](getting-started/how_to.md#how-to-manage-user-access).
 
 
 
@@ -241,6 +268,7 @@ The next steps are:
 ### **To return to the previous pages click on the links below**  ![Lighting icon](images/10.png) 
 
 - [**Design and build your process**](getting-started/design_process.md) 
+- [**Designer**](getting-started/designer.md)
 - [**Add forms**](getting-started/create_form.md)
 
   

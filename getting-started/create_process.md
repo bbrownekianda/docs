@@ -11,26 +11,27 @@ The main phases of an agile project are:
 2. Design - this involves construction of a draft of your product. Previewing the draft is included in this phase and there may be several rounds of revisions. 
 3. Launch - this phase includes piloting the product with a number of users, monitoring results, getting feedback and then releasing the product including all related documentation.
 
-Mapping these phases to process creation in Kianda, results in 3 main steps: **Plan > Design > Publish**. Each step contains 3 substeps as outlined below.
+Mapping these phases to process creation in Kianda, results in three main steps: **Plan > Design > Publish**. Each step contains three substeps as outlined below.
 
 
 
 ## Creating your Kianda processes in an agile way ##
 
-
+***Three steps to create a process***
 
 ![Kianda process creation](images/flowchart.png)
+
 
 
 Using Kianda allows you to leverage the agile development process to maximum effect:
 
 1. **Plan** - our documentation will guide you when it's time for you to capture your requirements.
 
-   ![A](images/greena.png) What **forms** and **fields** will you need in your process based on what you want to do?
+   ![A](images/greena.png) What **forms** and **fields** do you need in your process based on what you want to do?
 
    ![B](images/greenb.png) What **rules** can be applied to create smart, automated processes?
 
-   ![C](images/greenc.png) Who needs **access** to the forms as a user and form owner? Re-review these questions as you modify the process.
+   ![C](images/greenc.png) Who needs **access** to the forms as a user and form owner? Review these questions as you modify the process.
  </br>  
 
  2. **Design** - you can create drafts processes and restore to earlier versions allowing you complete control over production.

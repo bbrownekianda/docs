@@ -16,11 +16,19 @@ When adding forms reference your [process plan](getting-started/plan_process.md)
 
 In our example we will create two forms: Training Request Form and a Training Approval Form.
 
+The video below highlights how Kianda Designer works and [How to get started](#how-to-get-started) runs through how to create forms for a sample Training Process.
 
+***Kianda Designer introduction***
+
+<video width="100%" style="width:100%" controls>
+    <source src="../videos/designerintro.mp4">
+    Your browser does not support the video tag.
+    </source>
+</video>
 
 ## How to get started
 
-When your process is created, you are automatically in **Kianda Designer**. This page allows you to add and edit forms, add elements to those forms like Controls and Rules, to save, publish and preview forms and view and edit form and field properties.
+When your process is created, you are automatically in **Kianda Designer**. This page allows you to add and edit forms, add elements to those forms like controls and rules, to save, publish and preview forms and view and edit form and field properties.
 
 Kianda Designer has 3 key areas:
 
@@ -45,13 +53,12 @@ Kianda Designer has 3 key areas:
 
 ![Add form](images/addform.gif)
 
-4. Once you have added one or more forms to your process, you are ready to [Add controls and rules](getting-started/add_form_elements.md) to your forms! In our example we have two forms: Training Request and Training Approval. 
+5. Once you have added one or more forms to your process, you are ready to [Add controls and rules](getting-started/add_form_elements.md) to your forms! In our example we have two forms: Training Request and Training Approval. 
+6. Save your work as you go by clicking on the **Save** button.
 
-5. Save your work as you go by clicking on the **Save** button.
+***Save button in Kianda Designer***
 
-   ***Save button in Kianda Designer***
-
-   ![Saving a process](images/saveprocess.gif)
+![Saving a process](images/saveprocess.gif)
 
 
 
@@ -66,13 +73,26 @@ The next steps are:
 
 ### User tips ![Target icon](images/05.png) ###
 
-By default, you will already have a number of processes imported to your Kianda to help get you started. You may have also chosen predefined processes from the App Store. It is worth taking the time to check out how these processes are built to give you an initial idea of what is possible in Kianda. 
+1. You may have also chosen predefined processes from the App Store. It is worth taking the time to check out how these processes are built to give you an initial idea of what is possible in Kianda. 
 
-Use the **Exit** button ![Exit](images/exitdesign.png) to return to the main process view and then click on a process of choice to see details. 
+   Use the **Exit** button ![Exit](images/exitdesign.png) to return to the main process view and then click on a process of choice to see details. 
 
-You can preview forms by clicking on the **Preview** button ![Preview](images/preview.png) see [Previewer](getting-started/previewer.md) for more details.
+   You can preview forms by clicking on the **Preview** button ![Preview](images/preview.png) see [**Previewer**](getting-started/previewer.md) for more details.
 
+   There are many ways to then reuse elements within forms, see the video [**Reusability**](getting-started/how_to.md#how-to-reuse-forms).
 
+2. There are many ways to manage who has access to a process, or form, see the video [**User management**](getting-started/how_to.md#how-to-manage-user-access).
+
+3. The key rules for working with forms are:
+
+   - Forms are assignable - means that only a form assignee can edit a particular form. This can be a combination of users and groups.
+   - Only form owners can edit a given form by default. Any other user with access to view the form will see it in read-only mode.
+   - Multi-step processes use the concept of "current form". Only the form matching the process status will be made editable.
+   - In a multi-step process, other forms that are not "current form" can be configured to **activate with** the current form. Meaning they might also be editable and will form a form group.
+
+   The rules above work together to determine if the form is in edit mode or display mode. Form designers have at their disposal [business rules](business-rules.md) such as *assign form*, *go to form* and *submit rule* to dynamically control the ability for end-users to edit a particular form or a section of a form.
+
+   
 
 ### **To return to the previous pages click on the links below**  ![Lighting icon](images/10.png) 
 
