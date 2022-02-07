@@ -4,45 +4,39 @@
 
 You will find a series of short 'how to' videos below that will guide you through common procedures on Kianda.
 
-1. [How to use Kianda on a smartphone](#example-of-how-to-use-kianda-on-a-smartphone)
+## Contents ##
 
-2. [How Kianda Designer works](#how-kianda-designer-works)
+1. [How Kianda Designer works](#how-kianda-designer-works)
 
-3. [How to add new forms](#how-to-add-new-forms)
+2. [How to add new forms](#how-to-add-new-forms)
 
-4. [How to create a modal dialog](#how-to-create-a-modal-dialog)
+3. [How to create a modal dialog](#how-to-create-a-modal-dialog)
 
-5. [How to connect a datasource](#how-to-connect-a-datasource-example-sharepoint)
+4. [How to connect a datasource](#how-to-connect-a-datasource-example-sharepoint)
 
-6. [How to edit forms](#how-to-edit-forms)
+5. [How to edit forms](#how-to-edit-forms)
 
-7. [How to add rules](#how-to-add-rules)
+6. [How to add rules](#how-to-add-rules)
 
-8. [How to manage user access](#how-to-manage-user-access)
+7. [How to manage user access](#how-to-manage-user-access)
 
-9. [How to manage version control of forms](#how-to-manage-version-control-of-forms)
+8. [How to manage version control of forms](#how-to-manage-version-control-of-forms)
 
-10. [How to reuse forms](#how-to-reuse-forms)
+9. [How to reuse forms](#how-to-reuse-forms)
 
-11. [Possibilities for user input with Kianda](#possibilities-for-user-input-with-kianda)
+10. [Possibilities for user input with Kianda](#possibilities-for-user-input-with-kianda)
 
-12. [How to create a dashboard](#how-to-create-a-dashboard)
+11. [How to create a dashboard](#how-to-create-a-dashboard)
 
-13. [How to schedule tasks](#how-to-schedule-tasks)
+12. [How to schedule tasks](#how-to-schedule-tasks)
 
     
 
 
-### Example of how to use Kianda on a smartphone ###
-
-<video width="30%" style="width:30%" controls>
-    <source src="../videos/offline.mp4">
-    Your browser does not support the video tag.
-    </source>
-</video>
-
 
 ### How Kianda Designer works ### 
+
+This video introduces Kianda Designer and demonstrates how to start creating a form and add fields.
 
 <video width="100%" style="width:100%" controls>
     <source src="../videos/designerintro.mp4">
@@ -50,8 +44,13 @@ You will find a series of short 'how to' videos below that will guide you throug
     </source>
 </video>
 
+Back to [Top](#contents)
+
+
 
 ### How to add new forms ### 
+
+This video demonstrates how to add a new form and edit the form to enable quick actions like reassigning or enabling editing.
 
 <video width="100%" style="width:100%" controls>
     <source src="../videos/How to add new form 2.mp4">
@@ -59,8 +58,13 @@ You will find a series of short 'how to' videos below that will guide you throug
     </source>
 </video>
 
+Back to [Top](#contents)
+
+
 
 ### How to create a modal dialog ### 
+
+This video demonstrates how to create a simple modal dialog.
 
 <video width="100%" style="width:100%" controls>
     <source src="../videos/modaldialog.mp4">
@@ -68,8 +72,13 @@ You will find a series of short 'how to' videos below that will guide you throug
     </source>
 </video>
 
+Back to [Top](#contents)
+
+
 
 ### How to connect to a datasource example SharePoint ### 
+
+This video demonstrates how to connect to a datasource in SharePoint and use that information in a form list.
 
 <video width="100%" style="width:100%" controls>
   <source src="../videos/dataconnectsharepoint.mp4">
@@ -77,8 +86,13 @@ You will find a series of short 'how to' videos below that will guide you throug
     </source>
 </video>
 
+Back to [Top](#contents)
+
+
 
 ### How to edit forms ### 
+
+This video demonstrates how to change form properties and edit form fields.
 
 <video width="100%" style="width:100%" controls>
   <source src="../videos/editfields.mp4">
@@ -86,8 +100,13 @@ You will find a series of short 'how to' videos below that will guide you throug
     </source>
 </video>
 
+Back to [Top](#contents)
+
+
 
 ### How to add rules ### 
+
+This video introduces Kianda rules and demonstrates how to add a Send email Communications rule to a form.
 
 <video width="100%" style="width:100%" controls>
   <source src="../videos/rules.mp4">
@@ -95,8 +114,13 @@ You will find a series of short 'how to' videos below that will guide you throug
     </source>
 </video>
 
+Back to [Top](#contents)
+
+
 
 ### How to manage user access ### 
+
+This video demonstrates ways of setting default owners for a form, levels of process user access and where to leave comments for process users.
 
 <video width="100%" style="width:100%" controls>
   <source src="../videos/usermanagement.mp4">
@@ -104,8 +128,13 @@ You will find a series of short 'how to' videos below that will guide you throug
     </source>
 </video>
 
+Back to [Top](#contents)
+
+
 
 ### How to manage version control of forms ### 
+
+This video highlights where different versions of forms can be viewed and how to restore to an older version.
 
 <video width="100%" style="width:100%" controls>
   <source src="../videos/versioncontrol.mp4">
@@ -113,8 +142,13 @@ You will find a series of short 'how to' videos below that will guide you throug
     </source>
 </video>
 
+Back to [Top](#contents)
+
+
 
 ### How to reuse forms ### 
+
+This video demonstrates where you can find existing templates and how to reuse forms and form elements using **Import**, **Clone** and the **Group** field.
 
 <video width="100%" style="width:100%" controls>
     <source src="../videos/reusability.mp4">
@@ -122,8 +156,13 @@ You will find a series of short 'how to' videos below that will guide you throug
     </source>
 </video>
 
+Back to [Top](#contents)
+
+
 
 ### Possibilities for user input with Kianda ### 
+
+This video demonstrates how Kianda forms can be used to receive different user inputs such as QR codes, file uploads, video and images to name a few examples. The video also introduces Kianda Designer as a place to create your own widgets. 
 
 <video width="100%" style="width:100%" controls>
     <source src="../videos/possibilities.mp4">
@@ -131,8 +170,13 @@ You will find a series of short 'how to' videos below that will guide you throug
     </source>
 </video>
 
+Back to [Top](#contents)
+
+
 
 ### How to create a dashboard ### 
+
+The video demonstrates how to create a dashboard page and add a widget in this example a list. 
 
 <video width="100%" style="width:100%" controls>
     <source src="../videos/dashboards.mp4">
@@ -140,14 +184,23 @@ You will find a series of short 'how to' videos below that will guide you throug
     </source>
 </video>
 
+Back to [Top](#contents)
+
+
 
 ### How to schedule tasks ### 
+
+The video introduces how to schedule tasks and show options for regular or on-demand scheduling. 
 
 <video width="100%" style="width:100%" controls>
     <source src="../videos/schedulingtasks.mp4">
     Your browser does not support the video tag.
     </source>
 </video>
+
+Back to [Top](#contents)
+
+
 
 
 ### What's next  ![Idea icon](images/18.png) ###

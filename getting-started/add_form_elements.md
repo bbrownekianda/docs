@@ -258,9 +258,9 @@ The next steps are:
 1. Make sure that you change the field properties to make fields **Required**, **Enabled** and so on, to ensure that the form appears the way you want, see [Properties](getting-started/properties.md) to find out more about properties. For example unchecking **Enabled** makes the field visible but not possible to edit. 
 2. By default there are 3 buttons with every form, Submit, Save and Close. To remove a button, simply click on it and then click on the **Bin/Trash** button ![Bin](images/binicon.png) or to add a new button of choice, go to **Controls** > **Actions** > **Button** see [Controls](/getting-started/controls.md) for a full list of controls.
 3. There are additional form settings that can be used, available in the right-hand pane of **Designer**. Click on a form in the process, then click on the **Settings** button ![Settings](images/settings.png) to set additional settings such as **Enable process security**. This value can be checked and a group selected, so that only these users can access the form. Groups are added from **Side menu** > **Administration** > **Users**, click on **Create new group** to add users to a group, for example HR Team.
-4. There are many ways to reuse elements within forms, see the video [**Reusability**](getting-started/how_to.md#how-to-reuse-forms).
-5. To consider different ways of user inputs, see the video  [**Possibilities for user input with Kianda**](getting-started/how_to.md#possibilities-for-user-input-with-kianda).
-6. There are many ways to manage who has access to a process, or form, see the video [**User management**](getting-started/how_to.md#how-to-manage-user-access).
+4. There are many ways to then reuse elements within forms, for example using the Group field and cloning, see the video [**How to reuse forms**](getting-started/how_to.md#how-to-reuse-forms).
+5. To consider different ways of user inputs, see the video [**Possibilities for user input with Kianda**](getting-started/how_to.md#possibilities-for-user-input-with-kianda).
+6. There are many ways to manage who has access to a process, or form, see the video [**How to manage user access**](getting-started/how_to.md#how-to-manage-user-access).
 
 
 

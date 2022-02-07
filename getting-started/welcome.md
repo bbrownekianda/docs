@@ -40,6 +40,7 @@ If you would like to find out more about the Kianda platform, click on the links
 - **[What is low-code development](/getting-started/low_code.md)**
 - **[What is no-code development](/getting-started/no_code.md)**
 - **[Short "how to" videos](/getting-started/how_to.md)**
+- [**Security**](getting-started/security.md)
 
 
 

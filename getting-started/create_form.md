@@ -79,9 +79,9 @@ The next steps are:
 
    You can preview forms by clicking on the **Preview** button ![Preview](images/preview.png) see [**Previewer**](getting-started/previewer.md) for more details.
 
-   There are many ways to then reuse elements within forms, see the video [**Reusability**](getting-started/how_to.md#how-to-reuse-forms).
+   There are many ways to then reuse elements within forms, for example using the Group field and cloning, see the video [**How to reuse forms**](getting-started/how_to.md#how-to-reuse-forms).
 
-2. There are many ways to manage who has access to a process, or form, see the video [**User management**](getting-started/how_to.md#how-to-manage-user-access).
+2. There are many ways to manage who has access to a process, or form, see the video [**How to manage user access**](getting-started/how_to.md#how-to-manage-user-access).
 
 3. The key rules for working with forms are:
 

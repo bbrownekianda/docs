@@ -75,7 +75,7 @@ The next steps are:
 
 ### User tip ![Target icon](images/05.png) ###
 
-There are many ways to manage who has access to a process, or form, see the video [**User management**](getting-started/how_to.md#how-to-manage-user-access).
+There are many ways to manage who has access to a process, or form, see the video [**How to manage user access**](getting-started/how_to.md#how-to-manage-user-access).
 
 
 
