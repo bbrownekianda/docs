@@ -86,7 +86,7 @@ The video below introduces dashboards, and the steps in [How to build a dashboar
 
    ![Configuring the list widget](images/widget.gif)
 
-   **Note:** It it possible to add more widgets or edit/configure widgets when you are in **Edit mode**. Once you click on the **Save** button in the Quick Action menu, then you return to **View** **mode**. To return to **Edit mode** again, click on the **Edit current page** button ![Edit current page](images/editpage.png) in the Quick Action Menu.
+   **Note:** It it possible to add more widgets or edit/configure widgets when you are in **Edit mode**. To return to **View mode**, click on the **Save** button ![Save button](images/savedashboard.png) in the Quick Action menu. To return to **Edit mode** again, click on the **Edit current page** button ![Edit current page](images/editpage.png) in the Quick Action Menu.
 
 6. There are a number of options to choose from in the **Edit List** dialog box. For now we are going to concentrate on two things: a) connecting to a business process b) choosing certain fields to view in our list.
 
@@ -106,7 +106,7 @@ The video below introduces dashboards, and the steps in [How to build a dashboar
 
    In this example if the entire process has been completed, the status is 'Completed' or if status says 'Training Approval' this means this form still needs to be completed. A dashboard like this can highlight bottlenecks in the organisation. 
 
-8. You can change the layout of the widget by clicking on the **Settings** (cog) button.
+8. You can change the layout of the widget by clicking on the **Settings** (cog) button ![Cog button](images/bluecog.png).
 
    For example if you click on the bar for **Layout columns** you can increase the width of the widget and see the change in size in real-time in the background.
 
@@ -157,13 +157,9 @@ If you would like to see examples of 'how to' perform particular tasks in Kianda
 ### **To return to the previous pages click on the links below**  ![Lighting icon](images/10.png) 
 
 - [**What is low-code development**](getting-started/low_code.md)
-
 - [**What is no-code development**](getting-started/no_code.md)
-
 - **[Create your Kianda process](getting-started/create_process.md)**
-
 - [**Connect your data**](getting-started/dataconnect.md)
-
 - [**Preview the design**](getting-started/previewer.md)
 
   

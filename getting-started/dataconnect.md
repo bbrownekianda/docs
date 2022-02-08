@@ -66,28 +66,7 @@ A full list of data connectors is available in the table below.
 
 ***Data connector table***
 
-| Active Directory   |
-| ------------------ |
-| **DocuSign**       |
-| **Dropbox**        |
-| **Dynamics CRM**   |
-| **Email**          |
-| **File system**    |
-| **FTP**            |
-| **GlobalPayments** |
-| **Google Drive**   |
-| **MySQL**          |
-| **Office 365**     |
-| **Oracle**         |
-| **Powershell**     |
-| **REST Service**   |
-| **Salesforce**     |
-| **SAP**            |
-| **SharePoint**     |
-| **SQL**            |
-| **SOAP Service**   |
-
-
+![Data connector list](images/connectlistPS.gif)
 
 ### What's next  ![Idea icon](images/18.png) ###
 
