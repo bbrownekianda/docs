@@ -1,3 +1,4 @@
+- [Getting started](/getting-started/)
 - [Platform](/platform/)
 - [Low Code Development](/LowCode/)
   - [Best practices](/LowCode/best_practices.md)

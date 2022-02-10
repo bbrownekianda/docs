@@ -12,6 +12,7 @@ The Kianda platform provides an ideal interface for **rapid prototyping** and de
     </source>
 </video>
 
+
 The Kianda platform can quickly deliver amazing results to any digital project, from task automation to document generation, following industry best practices. So grab a cup of coffee and learn more about Kianda.
 
 ## Kianda is a no-code and low-code development platform
@@ -25,34 +26,32 @@ The flexible nature of Kianda allowing custom-coding and no-coding development, 
 
 
 
-### **If you are ready to discover more about Kianda, let's get started**  ![Idea icon](images/18.png) 
+### **If you are ready to discover more about Kianda, let's get started**  ![Idea icon](../images/18.png) 
 
 #### To learn how to start using the Kianda environment go to:
-- [**Logging in**](getting-started/logging_in.md)
+
+- [**Logging in**](getting-started/logging_in/readme.md)
 
 
 
 
-
-### User tip ![Target icon](images/05.png) ###
+### User tip ![Target icon](../images/05.png) ###
 
 If you would like to **find out more** about the Kianda platform, click on the links below:
 
-- **[How does Kianda work](/getting-started/how_kianda_works.md)**
-- **[What is low-code development](/getting-started/low_code.md)**
-- **[What is no-code development](/getting-started/no_code.md)**
-- **[Short "how to" videos](/getting-started/how_to.md)**
-- [**Security**](getting-started/security.md)
+- **[How does Kianda work](/getting-started/welcome/how_kianda_works.md)**
+- **[What is low-code development](/getting-started/welcome/low_code.md)**
+- **[What is no-code development](/getting-started/welcome/no_code.md)**
+- **[Short "how to" videos](/getting-started/welcome/how_to.md)**
+- [**Security**](getting-started/welcome/security.md)
 
 
 
-### **To return to the previous page, click on the link below** ![Lightning icon](images/10.png)
+### **To return to the previous page, click on the link below** ![Lightning icon](C:\Kianda\docs-dev\getting-started\welcome\README.assets\10.png)
 
-- **[Getting started guide](getting-started/table_of_contents.md)**
+- **[Getting started guide](/getting-started/)**
 
   
-
-
 
 
 

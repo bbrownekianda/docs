@@ -21,7 +21,7 @@ Go to [Personalise your workspace](getting-started/personalise_workspace.md) to 
 
 ### What's next  ![Idea icon](images/18.png) ###
 
-Learn how to [**create your Kianda process**](getting-started/create_process.md), then follow the steps below:
+Learn how to [**create your first Kianda process**](getting-started/create_process.md), then follow the steps below:
 
 ![1](images/one.png)  [**Plan your process**](getting-started/plan_process.md) 
 
