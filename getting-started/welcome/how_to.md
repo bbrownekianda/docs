@@ -14,6 +14,8 @@ You will find a series of short 'how to' videos below that will guide you throug
 
 4. [How to connect a datasource](#how-to-connect-a-datasource-example-sharepoint)
 
+4. [How to create cascading dropdown lists](#how-to-create-cascading-dropdown-lists)
+
 5. [How to edit forms](#how-to-edit-forms)
 
 6. [How to add rules](#how-to-add-rules)
@@ -82,6 +84,18 @@ This video demonstrates how to connect to a datasource in SharePoint and use tha
 
 <video width="100%" style="width:100%" controls>
   <source src="../videos/dataconnectsharepoint.mp4">
+    Your browser does not support the video tag.
+    </source>
+</video>
+
+Back to [Top](#contents)
+
+
+
+### How to create cascading dropdown lists ### 
+
+<video width="100%" style="width:100%" controls>
+    <source src="../videos/cascadinglists.mp4">
     Your browser does not support the video tag.
     </source>
 </video>
