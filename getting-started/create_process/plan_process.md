@@ -101,12 +101,11 @@ Finally we can summarise all the information we need in a spreadsheet. Field typ
 
 ### What's next  ![Idea icon](../images/18.png) ###
 
-Now that you know what to consider and have a design in mind, you can go to [**design your process**](getting-started/create_process/design_process.md) to learn how to get started in the Kianda **Designer**.
+Now that you know what to consider and have a design in mind, you can go to [**design your process**](getting-started/create_process/design_process.md) to learn how to get started in the Kianda **Designer**. You can use the template below, populated for a sample Training Process, to help get you started:
 
-Use the template below to get you started. 
-
-<iframe src="https://docs.google.com/viewer?srcid=1ngql7ZehZok8HeFF69en4oJyQFq0uUWp&pid=explorer&efh=false&a=v&chrome=false&embedded=true" width="700px" height="300px"></iframe>
-
+<a href="getting-started/create_process/files/template.xlsx" Requirements template>
+Requirements template
+</a>
 
 If you would like to learn more about citizen development, have a look at Kianda's articles on the Project Management Institute (PMI) blog: https://www.projectmanagement.com/blog-post/69464/citizen-development-part-2--getting-started
 

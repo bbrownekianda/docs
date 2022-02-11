@@ -35,7 +35,7 @@ Kianda **Developer** is user-friendly interface to create custom widgets in a fe
 ***Creating a custom field widget***
 
 <video width="100%" style="width:100%" controls>
-    <source src="../../videos/Creating a widget.mp4">
+    <source src="../../videos/createwidget.mp4">
     Your browser does not support the video tag.
     </source>
 </video>

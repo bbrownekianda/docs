@@ -46,7 +46,7 @@ If you would like to **find out more** about the Kianda platform, click on the l
 
 
 
-### **To return to the previous page, click on the link below** ![Lightning icon](images/10.png)
+### **To return to the previous page, click on the link below** ![Light icon](images/18.png)
 
 - **[Getting started guide](getting-started/table_of_contents.md)**
 

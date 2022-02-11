@@ -47,7 +47,7 @@ If you would like to **find out more** about the Kianda platform, click on the l
 
 
 
-### **To return to the previous page, click on the link below** ![Lightning icon](C:\Kianda\docs-dev\getting-started\welcome\README.assets\10.png)
+### **To return to the previous page, click on the link below** ![Lightning icon](../images/10.png)
 
 - **[Getting started guide](/getting-started/)**
 

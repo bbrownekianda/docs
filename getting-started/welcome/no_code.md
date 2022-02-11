@@ -24,15 +24,10 @@ Click on the links above to find out more.
 
 ## Multibrowser and multidevice access
 
-Kianda is a **Progressive Web Application** **(PWA**) Kianda which means it can be used across a range of up-to-date browsers, on any platform - Windows, MacOS or Linux - and on any device. As a PWA, this means you can browse Kianda when not online, increasing engagement and availability. This is particularly useful when operating in remote areas, for example performing a maintenance check of a wind turbine or other equipment in the field, and capturing information in draft form for submission later on back at the office. 
+Kianda is a **Progressive Web Application** **(PWA**) Kianda which means it can be used across a range of up-to-date browsers, on any platform - Windows, MacOS or Linux - and on any device. As a PWA, this means you can browse Kianda when not online, increasing engagement and availability. 
 
-***Example of using Kianda offline on a smartphone***
+This is particularly useful when operating in remote areas, for example performing a maintenance check of a wind turbine or other equipment in the field, and capturing information in draft form for submission later on back at the office. 
 
-<video width="20%" style="width:20%" controls>
-    <source src="../../videos/offline.mp4">
-    Your browser does not support the video tag.
-    </source>
-</video>
 
 
 ## Intuitive Designer
@@ -95,7 +90,7 @@ This allows you to specify a layout made of 1 to 12 columns and is based on boot
 ***Editing forms***
 
 <video width="100%" style="width:100%" controls>
-  <source src="../videos/editfields.mp4">
+  <source src="../videos/editfields_inuse.mp4">
     Your browser does not support the video tag.
     </source>
 </video>
