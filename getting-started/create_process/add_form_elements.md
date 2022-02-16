@@ -239,6 +239,7 @@ In the Training Process example, there is a second form that is part of this pro
   ![Add otherwise action](../images/completecondition.gif)
 
 8. Click on **OK** when complete.
+8. Make sure to save your work as you go by clicking on the **Save** button.
 
 Depending on the fields you use, for example user picker or lists, you can [**connect to a datasource**](getting-started/dataconnect.md) to ensure information used in forms is always up to date. Click on the link to find out how to add a datasource and use it in a form field, for example a list.
 

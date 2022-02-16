@@ -26,7 +26,9 @@ The Previewer allows true iterative development, by providing a testing mechanis
 
    As part of this prototyping, if you choose yourself as the Line Manager, then you will receive the automated email with a link to approve the process so the workflow can be tried and tested.
 
-3. Return to the design and modify as necessary following each review. Once you are happy with the process flow and performance, you are ready to [**publish**](getting-started/create_process/publish_process.md).
+3. Return to the design and modify as necessary following each review. Make sure to save your work as you go by clicking on the **Save** button.
+
+3. Once you are happy with the process flow and performance, you are ready to [**publish**](getting-started/create_process/publish_process.md).
 
    
 
