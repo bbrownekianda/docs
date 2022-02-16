@@ -85,7 +85,7 @@ The video below highlights how to edit forms, and the section [Field properties]
 ***Editing forms***
 
 <video width="100%" style="width:100%" controls>
-    <source src="../videos/editfields.mp4">
+    <source src="../videos/editfields_inuse.mp4">
     Your browser does not support the video tag.
     </source>
 </video>

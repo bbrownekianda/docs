@@ -36,7 +36,7 @@ The video below introduces version control and the section [How to get started](
 
    ![Version details](../images/versiondetails.png)
 
-4. To restore an earlier version, click on the **Restore** button ![Restore button](images/restore.png) beside a particular version and then click on **Ok** to confirm that you want to restore to that version. 
+4. To restore an earlier version, click on the **Restore** button ![Restore button](../images/restore.png) beside a particular version and then click on **Ok** to confirm that you want to restore to that version. 
 
    
 
