@@ -95,12 +95,12 @@ The video below introduces dashboards, and the steps in [How to build a dashboar
      ***Connecting to a business process and fields***
 
      ![Configure list widget](../images/configurelist2.gif)
-
+    
    - In the right-hand pane, click on **Common fields** and/or **Design fields** and select the fields that you want to show in your list widget, in this example the fields **Employee Name**, **Type of Training** and **Management Decision** are chosen from the **Design fields**. Click on **OK** when complete.
 
 7. The result is a dashboard that shows instances of Training Requests submitted, and that **status** of each instance.
 
-   ***Widget settings***
+   ***List widget example***
 
    ![Widget settings](../images/dashboardsettings.png)
 
@@ -109,10 +109,6 @@ The video below introduces dashboards, and the steps in [How to build a dashboar
 8. You can change the layout of the widget by clicking on the **Settings** (cog) button ![Cog button](../images/bluecog.png).
 
    For example if you click on the bar for **Layout columns** you can increase the width of the widget and see the change in size in real-time in the background.
-
-   ***Changing widget settings***
-
-   ![Changing widget layout](../images/changingwidth.png)
 
 7. When you are happy with your changes, click on the **Save** button ![Save changes](../images/savepage.png) in the top menu bar.
 
