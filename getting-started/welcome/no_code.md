@@ -159,7 +159,7 @@ When creating forms, there are options to capture capture user input in a variet
 
 ## Rules
 
-Rules are an important component of any process as they can be used to trigger automated actions, requiring minimal user management once created. There are 59 predefined rules in Kianda, covering workflow applications, communications and file management to name a few.
+Rules are an important component of any process as they can be used to trigger automated actions, requiring minimal user management once created. There are 60 predefined rules in Kianda, covering workflow applications, communications and file management to name a few.
 
 The video below shows an example of a rule that send an automated email, once a Submit button is pressed on a form.
 

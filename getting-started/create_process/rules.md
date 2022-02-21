@@ -1,6 +1,6 @@
 # Rules #
 
-Business rules are what makes Kianda forms come alive. They represent the actual actions users intend to perform when they interact with form components. There are 59 predefined rules you can apply to forms, see [Rules list](#rules-list).
+Business rules are what makes Kianda forms come alive. They represent the actual actions users intend to perform when they interact with form components. There are 60 predefined rules you can apply to forms, see [Rules list](#rules-list).
 
 There are two key principles to consider when working with forms:
 
@@ -20,7 +20,7 @@ If you go to **Side menu** > **Administration** > **Designer** and click on a pr
 
 By default there are 10 categories of rules, see [Rules list](#rules-list) for rule names :
 
-1. **Workflow** - There are 6 workflow rules that represent the actions a user intends to perform, when they interact with form components. 
+1. **Workflow** - There are 7 workflow rules that represent the actions a user intends to perform, when they interact with form components. 
 2. **Communications** - There are 4 communication rules associated with user communication for example sending an email or triggering a user alert. 
 3. **Data** - There are 5 data rules associated with database operations like create, update and delete. 
 4. **Users** - There are 4 user rules associated with user properties, allowing user lookup or to update a user. 
@@ -77,7 +77,7 @@ A full list of rules is available in the table below.
 
 ***Rules by category and title***
 
-![Rules list](../images/rulestable_orig.png)
+![Rules list](../images/rulestablecal12.gif)
 
 
 
