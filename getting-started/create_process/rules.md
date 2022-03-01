@@ -4,7 +4,7 @@ Business rules are what makes Kianda forms come alive. They represent the actual
 
 There are two key principles to consider when working with forms:
 
-1. [Rule design](#rule-design) - what type of rule you are going to apply and where, for example to a button, field or form.
+1. [Rule design](#rule-design) - what type of rule you are going to apply and where, for example to a button, field or form. As part of design considerations it is important to know what you can do to rules, in particular the use of [conditions](getting-started/create_process/conditions.md) and [expressions](getting-started/create_process/expressions.md). 
 
 2. [Rule order](#rule-order) - if there are several rules attached to an item like a button, then the order of execution is important and can be modified to suit your needs.
 
@@ -84,6 +84,8 @@ A full list of rules is available in the table below.
 ### What's next  ![Idea icon](../images/18.png) ###
 
 To learn more about control fields go to [**Controls**](getting-started/create_process/controls.md). 
+
+To learn how to get the most out of rules, go to the links on [**Conditions**](getting-started/create_process/conditions.md) and [**Expressions**](getting-started/create_process/expressions.md). 
 
 
 
