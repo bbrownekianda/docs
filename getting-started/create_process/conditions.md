@@ -20,7 +20,7 @@ A condition is created based on the **Manager Decision radio list**:
 2. **Action**: Then the Signature button appears
 3. **Otherwise action:** Else the decision is 'No' and the Feedback text box appears
 
-As one of the most commonly used rules that uses conditions is the **Workflow** rule, **Hide or Disable**, we will use this as an example in the steps and video below.
+As one of the most commonly used rules that uses conditions is the **Workflow** rule, **Hide or Disable**, we will use this as an example in the video and [Getting started](#getting-started-with-conditions) section below.
 
 ***Using conditions in rules: Example of Hide or disable***
 
@@ -44,7 +44,13 @@ To create a condition:
 
 ***Condition elements***
 
-![Condition elements](../images/conditions2.gif)
+![Condition elements](../images/conditions3.gif)
+
+In the case of **multiple conditions**, you can use **And** or **Or** to create compound conditions.
+
+***Compound conditions***
+
+![Compound conditions](../images/editconditions.gif)
 
 5. Click on **OK**.
 6. Create the **actions** and where applicable, otherwise actions. The action will depend on the rule that is chosen. For example for the **Workflow rule**, **Hide or Disable**, click on the field under **Action** and choose the form(s) or field(s) where you want an action applied.

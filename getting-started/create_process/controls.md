@@ -45,7 +45,7 @@ To learn more about properties, go to [**Field properties**](getting-started/cre
 
 
 
-### **To return to the previous pages click on the links below**  ![Idea icon].(../images/10.png) 
+### **To return to the previous pages click on the links below**  ![Idea icon](../images/10.png) 
 
 - [**How Kianda works**](getting-started/welcome/how_kianda_works.md)
 - [**What is no-code development**](getting-started/welcome/no_code.md)

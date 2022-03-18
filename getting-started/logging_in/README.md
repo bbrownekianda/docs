@@ -35,13 +35,7 @@ If you have coding experience and want to delve straight into how you can use Ki
 
 ### User tip ![Target icon](../images/05.png) ###
 
-If you need **help** at any stage, go to the **Side menu** > **More** > **Help**. This will bring you to the Help section where there are a list of searchable FAQs with topics that contain instructions and short help videos.
-
-***Help pages***
-
-![Help section](../images/help.gif) 
-
-There are also a series of short '[**How to videos**](getting-started/welcome/how_to.md)' designed to help you.
+Take a look at our series of short '[**How to videos**](getting-started/welcome/how_to.md)' designed to help you.
 
 
 

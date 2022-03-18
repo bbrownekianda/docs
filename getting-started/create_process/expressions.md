@@ -1,95 +1,77 @@
 # Expressions #
 
-Conditions add an important level of interactivity, creating pathways within a process based on user interaction. 
+Expressions allow you to put together form identifiers and constants with operators and functions to return a **dynamic value** that can be used in a rule to automate processes. 
 
-Conditions work on the 'if...then...else' principle, 'if' the condition exists 'then' an action happens, 'else' another action happens and so are applied in three parts:
+For example, expressions could be used in the body of an automated email sent using the **Send email** rule, see below.
 
-1. Create the **condition(s)**
-2. Create the **action(s)** that will be applied as a result of the first condition being in place
-3. Create the **otherwise action(s)** based on other conditions being in place
+***Expression examples***
 
-Take a simple Training Request and Approval Process for example, whereby an employee fills out a **request form**, the details of which are sent to a manager for review in an **approval form**. In this form the manager can either a) approve the request with a signature or b) not approve the request and provide feedback on why. 
+![Expression examples](../images/expressioneg.gif)
 
-***Training Process flowchart***
+In the example above, **[RequesterName]** and **[form1.f10]** are identifiers, that is unique IDs for form fields. **ProcessLink()** is a function that will return a link to that process instance. Using the expressions above in an email will mean that every time an instance of the process runs, the values will be presented in an automated email, creating greater efficiencies and personalising the email for the recipient. 
 
-![Training Process flowchart](C:\Kianda\docs-dev\getting-started\create_process\expressions.assets\trainingflow.gif)
+As one of the most commonly used rules that uses expressions is the **Communications** rule, **Send email**, we will use this as an example in the video and [Getting started](#getting-started-with-expressions) section below.
 
-A condition is created based on the **Manager Decision radio list**:
-
-1. **Condition**: If the decision is 'Yes'
-2. **Action**: Then the Signature button appears
-3. **Otherwise action:** Else the decision is 'No' and the Feedback text box appears
-
-As one of the most commonly used rules that uses conditions is the **Workflow** rule, **Hide or Disable**, we will use this as an example in the steps and video below.
-
-***Using conditions in rules: Example of Hide or disable***
+***Using expressions: Example of Sending email***
 
 <video width="100%" style="width:100%" controls>
-    <source src="../videos/conditions.mp4">
+    <source src="../videos/expressions.mp4">
     Your browser does not support the video tag.
     </source>
 </video>
 
 
 
-## Getting started with conditions ##
+## Getting started with expressions ##
 
-Conditions are recognisable in Kianda from the **Conditions** button ![Conditions button](C:\Kianda\docs-dev\getting-started\create_process\expressions.assets\condition.png) found in rules and dashboards. 
+Expressions are recognisable in Kianda from the **Expressions** button ![Expressions button](../images/ellipsis.png) found in edit rule dialog boxes and other menu items, such as enabling quick actions for processes. 
 
-To create a condition:
+Within rules, expressions can be created using the **Expression builder** where you can **Add field to an expression** or use the handy **Reference** guide to get a list of commonly used functions. 
 
-1. Select a form or forms, field or fields and then, a rule, for example Hide or disable, as found in the **left side pane** > **Add a rule** > **Workflow** > **Hide or Disable**. 
-2. Click on **Edit conditions**.
-3. Click on **Add a conditions group**.
-4. In the **Edit conditions dialog box**, choose from the elements below, by drilling down to the form(s) or field(s) that you want to apply the rule to.
+***Expression builder***
 
-***Condition elements***
-
-![Condition elements](C:\Kianda\docs-dev\getting-started\create_process\expressions.assets\conditions2.gif)
-
-5. Click on **OK**.
-6. Creating the **actions** and where applicable, otherwise actions, the action will depend on the rule that is chosen. For example for the **Workflow rule**, **Hide or Disable**, click on the field under **Action** and choose the form(s) or field(s) where you want an action applied.![Edit rule ]
-
-
-***Action elements for Hide and Disable***
-
-![7 actions for Hide or Disable](C:\Kianda\docs-dev\getting-started\create_process\expressions.assets\hideoptions.gif)
-
-7. Then click on the field for **actions** and choose one of  7 possible actions to apply.
-
-   The actions within **Hide or disable** are: 
-
-   a) **Hide** will hide a process element (forms or fields) from view
-
-   b) **Show** will show the element
-
-   c) **Disable** blocks a user from editing an element
-
-   d) **Enable** allows a user to add a value to an element
-
-   e) **Toggle visible** will toggle between showing an element or not, based on subsequent clicks of a field that the rule is applied to
-
-   f) **Toggle enable** will toggle between allowing an element to be edited or not, based on subsequent clicks of a field that the rule is applied to
-
-   g) **Hide and clear** will allow you to hide a process element and clear the details. For example if a toggle button has this rule applied, with an **otherwise action** of **show** as actions on a textbox, then if one value is chosen on the toggle button, the user is allowed enter details into the textbox, otherwise the field is hidden and cleared of data so that no data can be retrieved, which might be useful for sensitive information like a social security number on a form.
-
-8. Click on **+ Add** to add more actions. 
-
-9. Click on **Add otherwise action** to add more actions based on other values for the condition.
-
-The video demonstrates how a condition works within the **Hide and Disable** rule and highlights that multiple groups of conditions can be used to impact multiple actions to create highly sophisticated form interactions. 
+![Expression builder](../images/expressionbuilder2.gif)
 
 
 
-### What's next  ![Idea icon](C:\Kianda\docs-dev\getting-started\create_process\expressions.assets\18.png)
+We will use an example of expressions in the **Send email** rule, in particular the **Body** of an email. To create an expression:
+
+1. Select a form or forms, field or fields and then, a rule, for example Send email, as found in the **left side pane** > **Add a rule** > **Communications**> **Send email**. 
+2. Under **Action**, click on the **Expressions** button ![Expressions button](../images/ellipsis.png) beside **Body**.
+3. Click on the field under **Add field to expression** and drill down to the desired field, for example a text box **EmployeeName**.
+3. Click on **Add to expression**.
+3. Click on **OK**.
+4. To add additional field expressions, click on the click on the **Expressions** button ![Expressions button](../images/ellipsis.png)again, under **Add field to expression**, click on **X** beside the field name to clear the expression box and then search for the desired field from a form. 
+7. To add a function, click on **Reference** and copy the function into the body of the email. A list of references are available below.
+   - **(+, -, /, \*) operations** - Perform basic math operations
+   - **Sum(arg1, arg2, ...)** - Returns the sum of the provided arguments
+   - **Date(arg1)** - Converts the argument into a date
+   - **DateAdd(dateArg, day, month, year, hour, min)** - Adds time to a date. The arguments day, month, year, hour and min represent the number to add for each respective argument
+   - **Status()** - Returns the process status
+   - **ProcessID()** - Returns the process ID
+   - **FormOwner('formName')** - Returns form owners for a given form
+   - **FormCompleted('formName')** - Returns form completed date a given form
+   - **Pad(value, size, symbol)** - Adds left padding to the value with the symbol provided
+   - **QueryString('parameter')** - Returns the URL query parameter or empty string if undefined
+   - **IsOnline()** - Returns "yes" or "no" if the current has connectivity or not
+   - **ProcessLink()** - Returns the html link to the current process. For use in emails or rich text fields
+   - **Digest()** - Returns the summary of field changes of a process
+   - **Digest('\*fieldName1\*','\*fieldName2\*')** - Returns the summary of field changes for the selected fields
+   - **GetFieldText('\*fieldName\*')** - Returns the field text
+   - **GetFieldValue('\*fieldName\*')** - Returns the field value
+4. Click on **OK** when complete.
+
+
+
+### What's next  ![Idea icon](../images/18.png)
 
 To learn more about control fields go to [**Controls**](getting-started/create_process/controls.md). 
 
-To learn more about how expressions are used in rules go to [**Expressions**](getting-started/create_process/expressions.md). 
+To learn more about how conditions are used in rules go to [**Conditions**](getting-started/create_process/conditions.md). 
 
 
 
-### **To return to the previous pages click on the links below**  ![Idea icon](C:\Kianda\docs-dev\getting-started\create_process\expressions.assets\10.png)
+### **To return to the previous pages click on the links below**  ![Idea icon](../images/10.png)
 
 - [**Plan your process**](getting-started/create_process/plan_process.md) 
 
