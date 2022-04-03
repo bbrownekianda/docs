@@ -41,24 +41,17 @@ The flexible nature of Kianda allowing custom-coding and no-coding development, 
 
 
 
+### What's next  ![Idea icon](/images/18.png) ###
 
-### User tip ![Target icon](/images/05.png) ###
+If you want to use Kianda for no-code development, then follow the steps below:
 
-If you would like to **find out more** about the Kianda platform, click on the links below:
+![1](/images/one.png)  [**Plan your process**](/docs/getting-started/create-first-process/plan-your-process/) 
 
-- **[How does Kianda work](/docs/getting-started/welcome/how-kianda-works/)**
-- **[What is low-code development](low-code.md)**
-- **[What is no-code development](no-code.md)**
-- **[Short "how to" videos](how-to.md)**
-- [**Security**](security.md)
+![2](/images/two.png)  [**Design and build your process**](/docs/getting-started/create-first-process/design-and-build/)
 
+![3](/images/three.png)  [**Publish your process**](/docs/getting-started/create-first-process/publish-your-process/)
 
 
-### **To return to the previous page, click on the link below** ![Lightning icon](/images/10.png)
-
-- **[Getting started guide](../)**
-
-  
 
 
 

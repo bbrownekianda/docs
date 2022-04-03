@@ -166,7 +166,7 @@ If you have added a new form during the form creation process, then a blank canv
 ![Form button edit](/images/defaultbuttons.png)
 
 1. Go to [Add controls and rules](getting-started/create-first-process/add_form_elements.md) to find out more about adding form elements. 
-1. Move elements by clicking on the **Drag Handle** ![Drag handle](./images/move.png) beside the item and dragging it to where you want to place it. 
+1. Move elements by clicking on the **Drag Handle** ![Drag handle](/images/move.png) beside the item and dragging it to where you want to place it. 
 1. Edit elements by clicking on each item and clicking on the **Pen** button ![Pen icon](/images/penicon.png) see [Settings and properties](#settings-and-properties)
 
 

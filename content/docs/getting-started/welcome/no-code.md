@@ -224,19 +224,9 @@ Check-out the [development](getting-started/welcome/low_code.md) section for mor
 
 If you are ready to start your no-code development journey, then follow the steps below:
 
-![1](/images/one.png)  [**Plan your process**](getting-started/create-first-process/plan_process.md) 
+![1](/images/one.png)  [**Plan your process**](/docs/getting-started/create-first-process/plan-your-process/) 
 
 ![2](/images/two.png)  [**Design and build your process**](/docs/getting-started/create-first-process/design-and-build/)
 
 ![3](/images/three.png)  [**Publish your process**](/docs/getting-started/create-first-process/publish-your-process/)
-
-
-
-### **To return to the previous pages click on the links below**  ![Idea icon](/images/10.png) 
-
-- **[Getting started guide](getting-started/)**
-- **[Welcome to Kianda](getting-started/welcome/)**
-- [**What is low-code development**](getting-started/welcome/low_code.md)
-- [**Logging in to Kianda**](getting-started/logging_in/)
-- [**Create your first Kianda process**](getting-started/create-first-process/)
 

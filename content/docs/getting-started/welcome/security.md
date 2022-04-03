@@ -113,13 +113,14 @@ Our services are available 24 hours a day, 7 days a week, excluding planned down
 
 
 
-### **What's next**  ![Idea icon](/images/18.png) 
+### What's next  ![Idea icon](/images/18.png) ###
 
-To learn how to start using the Kianda environment, go to [**Logging in to Kianda**](/docs/getting-started/logging-in/).
+If you want to use Kianda for no-code development, then follow the steps below:
 
+![1](/images/one.png)  [**Plan your process**](/docs/getting-started/create-first-process/plan-your-process/) 
 
+![2](/images/two.png)  [**Design and build your process**](/docs/getting-started/create-first-process/design-and-build/)
 
-### **To return to the previous page, click on the link below** ![Lightning icon](/images/10.png)
+![3](/images/three.png)  [**Publish your process**](/docs/getting-started/create-first-process/publish-your-process/)
 
-- **[Welcome](/docs/getting-started/welcome/)**
 

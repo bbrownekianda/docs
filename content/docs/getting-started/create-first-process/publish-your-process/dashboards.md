@@ -134,10 +134,11 @@ Kianda allows the users to export the data from the dashboards on a simple click
 ***Enabling data export from dashboards***
 
 <video width="100%" style="width:100%" controls>
-    <source src="videos/Enabling data export from the dashboards.mp4">
+    <source src="/videos/Enabling data export from the dashboards.mp4">
     Your browser does not support the video tag.
     </source>
 </video>
+
 
 
 

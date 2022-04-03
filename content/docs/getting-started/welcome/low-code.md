@@ -33,7 +33,7 @@ Statements like **if** and **unless** are implemented as built-in helpers. Helpe
 
 
 
-## How to get started with Developer
+## How to get started as a Kianda low-code developer
 
 Kianda **Developer** is user-friendly interface to create custom widgets in a few minutes. A custom widget could be a 'Field', 'Rule' or Dashboard widget', see example of how to create a field widget below.
 
@@ -150,15 +150,4 @@ If you want to use Kianda for no-code development, then follow the steps below:
 
 ![3](/images/three.png)  [**Publish your process**](/docs/getting-started/create-first-process/publish-your-process/)
 
-
-
-### **To return to the previous pages click on the links below**  ![Idea icon](/images/10.png) 
-
-- **[Getting started guide](/docs/getting-started/)**
-- **[Welcome to Kianda](/docs/getting-started/welcome/)**
-- [**What is no-code development**](/docs/getting-started/welcome/no-code/)
-- [**Logging in to Kianda**](/docs/getting-started/logging-in/)
-- [**Create your first Kianda process**](/docs/getting-started/create-first-process/)
-- [**Controls**](/docs/getting-started/create-first-process/design-and-build/add-controls-and-rules/)
-- [**Rules**](getting-started/create-first-process/rules.md)
 

@@ -3,6 +3,6 @@ title: "Scheduled tasks"
 typora-root-url: ..\..\..\..\static
 ---
 
-# Scheduled tasks #
-
+{{% pageinfo color="primary" %}}
 Page under construction
+{{% /pageinfo %}}

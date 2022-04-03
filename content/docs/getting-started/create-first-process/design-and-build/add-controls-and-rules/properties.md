@@ -54,7 +54,7 @@ When you click on any field, such as User picker, list or text box, the field pr
 
 ***Field properties***
 
-![Field properties](../images/fieldproperties.png)
+![Field properties](/images/fieldproperties.png)
 
 The **Field type**, in the example above, **Text box**, is shown along with the **Title** of the field, in the example above, this is Employee Name.
 

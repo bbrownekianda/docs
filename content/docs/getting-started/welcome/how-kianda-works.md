@@ -26,20 +26,12 @@ The rules engine, combined with conditional logic enables designers to build amb
 
 In addition to the rules engine, CSS3, HTML5, EmberJS, WebApi and NodeJS are some of the underlying technologies used within the platform.
 
-> ### What makes Kianda great is the simplicity and unbounded flexibility it gives citizen developers and low-code developers alike
-
+{{% alert title="" color="warning" %}}
+### What makes Kianda great is the simplicity and unbounded flexibility it gives citizen developers and low-code developers alike
+{{% /alert %}}
 ![Chart of Kianda benefits](/images/chartgraphic.png)
 
 In summary the Kianda platform provides an ideal interface for rapid prototyping and delivering outcomes quickly.
-
-
-
-### What's next  ![Idea icon](/images/18.png) ###
-
-The next steps are: 
-
-- [**Logging in to Kianda**](getting-started/logging_in/)
-- [**Create your first Kianda process**](../create-first-process/)
 
 
 
@@ -53,13 +45,17 @@ You can familiarise yourself with the key components of Kianda by going to the f
 - [**Dashboards system**](/docs/getting-started/create-first-process/publish-your-process/)
 - [**Connectors ecosystem**](/docs/getting-started/create-first-process/design-and-build/connect-your-data/)
 
-  
 
 
-### **To return to the previous pages click on the links below**  ![Lighting icon](/images/10.png) 
+### What's next  ![Idea icon](/images/18.png) ###
 
-- [**Getting Started Guide**](../) 
-- [**Welcome to Kianda**](/docs/getting-started/welcome/) 
+If you want to use Kianda for no-code development, then follow the steps below:
+
+![1](/images/one.png)  [**Plan your process**](/docs/getting-started/create-first-process/plan-your-process/) 
+
+![2](/images/two.png)  [**Design and build your process**](/docs/getting-started/create-first-process/design-and-build/)
+
+![3](/images/three.png)  [**Publish your process**](/docs/getting-started/create-first-process/publish-your-process/)
 
 
 

@@ -31,11 +31,11 @@ typora-root-url: ..\..\..\static
 
 [**Create your first Kianda process in 3 steps**](/docs/getting-started/create-first-process/)
 
-![1](images/one.png)  [**Plan your process**](/docs/getting-started/create-first-process/plan-your-process/) 
+![plan your your process](/images/one.png)  [**Plan your process**](/docs/getting-started/create-first-process/plan-your-process/) 
 
-![2](images/two.png)  [**Design and build your process**](/docs/getting-started/create-first-process/build-and-design/)
+![2](/images/two.png)  [**Design and build your process**](/docs/getting-started/create-first-process/build-and-design/)
 
-![3](images/three.png)  [**Publish your process**](/docs/getting-started/create-first-process/publish-your-process/)
+![3](/images/three.png)  [**Publish your process**](/docs/getting-started/create-first-process/publish-your-process/)
 
 
 

@@ -1,0 +1,11 @@
+<script type="text/javascript" language="javascript">
+
+    $(document).ready(function () {
+        // This doesn't work. 
+        var activeMenuItem = $("#td-sidebar-menu a.active");
+        if(activeMenuItem && activeMenuItem.length > 0){
+            activeMenuItem[0].scrollIntoView({behavior:"auto", block:"center", inline:"nearest"});
+        }           
+    });
+
+</script>

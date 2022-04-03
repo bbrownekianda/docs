@@ -19,7 +19,7 @@ Dynamic content inside a Handlebars expression is rendered with data-binding. Th
 
 Ember gives the ability to write your helpers, to bring a minimum of logic into Ember templating. For example, let's say you would like the ability to add a few numbers together, without needing to define a computed property everywhere you would like to do so.
 
-***Helper example***![Helpers](/images/write-our-own-helpers.PNG)
+***Helper example***![Helpers](/images/write-our-own-helpers.png)
 
 #### Conditionals
 
@@ -45,11 +45,11 @@ The two images below display the default code for 'Widget UI' and 'Widget Code'.
 
 The 'Widget UI' defines the HTML, handlers, expressions and more.
 
-![Widget-UI](/images\widget-ui.PNG)
+![Widget-UI](/images/widget-ui.PNG)
 
 The 'Widget Code' defines the logics and functions.
 
-![Widget-code](/images\widget-code.PNG)
+![Widget-code](/images/widget-code.PNG)
 
 
 
@@ -57,7 +57,7 @@ The 'Widget Code' defines the logics and functions.
 
 The two images below display the default code for 'Widget UI' and 'Widget Code'.
 
-![Rule widget UI](images/rulewidgetui150.png)
+![Rule widget UI](/images/rulewidgetui150.png)
 
 
 

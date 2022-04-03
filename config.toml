@@ -1,5 +1,5 @@
 baseURL = "/"
-title = "Goldydocs"
+title = "Kianda no-code platform for business process automation"
 
 # Language settings
 contentDir = "content"
@@ -64,17 +64,17 @@ anchor = "smart"
 [services]
 [services.googleAnalytics]
 # Comment out the next line to disable GA tracking. Also disables the feature described in [params.ui.feedback].
-id = "UA-00000000-0"
+id = "UA-101778157-1"
 
 # Language configuration
 
-[languages]
-[languages.en]
-title = "Kianda"
-description = "Kianda No-Code Documentation"
-languageName ="English"
+# [languages]
+# [languages.en]
+# title = "Kianda documentation"
+# description = "Kianda No-Code Documentation"
+# languageName ="English"
 # Weight used for sorting.
-weight = 1
+# weight = 1
 # [languages.no]
 # title = "Goldydocs"
 # description = "Docsy er operativsystem for skyen"
@@ -108,7 +108,7 @@ weight = 1
 section = ["HTML", "print", "RSS"]
 
 [params]
-copyright = "Kianda"
+copyright = "Kianda Technologies"
 privacy_policy = "https://www.kianda.com/privacy"
 
 # First one is picked as the Twitter card image if not set on page.
@@ -196,27 +196,27 @@ enable = false
   desc = "Discussion and help from your fellow users"
 [[params.links.user]]
   name ="Twitter"
-  url = "https://example.org/twitter"
+  url = "https://twitter.com/kiandaBPM"
   icon = "fab fa-twitter"
   desc = "Follow us on Twitter to get the latest news!"
-[[params.links.user]]
-  name = "Stack Overflow"
-  url = "https://example.org/stack"
-  icon = "fab fa-stack-overflow"
-  desc = "Practical questions and curated answers"
+# [[params.links.user]]
+#   name = "Stack Overflow"
+#   url = "https://example.org/stack"
+#   icon = "fab fa-stack-overflow"
+#   desc = "Practical questions and curated answers"
 # Developer relevant links. These will show up on right side of footer and in the community page if you have one.
 [[params.links.developer]]
   name = "GitHub"
-  url = "https://github.com/google/docsy"
+  url = "https://github.com/kiandaBPM"
   icon = "fab fa-github"
   desc = "Development takes place here!"
 [[params.links.developer]]
-  name = "Slack"
-  url = "https://example.org/slack"
-  icon = "fab fa-slack"
-  desc = "Chat with other project developers"
-[[params.links.developer]]
-  name = "Developer mailing list"
-  url = "https://example.org/mail"
-  icon = "fa fa-envelope"
-  desc = "Discuss development issues around the project"
+  name = "Discord"
+  url = "https://discord.gg/uDSW6qcYub"
+  icon = "fab fa-discord"
+  desc = "Chat with other developers"
+# [[params.links.developer]]
+#   name = "Developer mailing list"
+#   url = "https://example.org/mail"
+#   icon = "fa fa-envelope"
+#   desc = "Discuss development issues around the project"

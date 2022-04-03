@@ -5,6 +5,18 @@ typora-root-url: ..\..\..\..\..\static
 
 Kianda **Designer** provides an intuitive interface where you can quickly start building **forms** for any business use case. Forms are an important component of any process. They might be used as a stage of a process and can be made active individually or at the same time (parallel forms).
 
+### How the designer works ### 
+
+This video introduces Kianda Designer and demonstrates how to start creating a form and add fields.
+
+<video width="100%" style="width:100%" controls>
+    <source src="/videos/designerintro.mp4">
+    Your browser does not support the video tag.
+    </source>
+</video>
+
+
+
 There are 3 key principles to consider when working with forms:
 
 1) Form **design** - what a form looks like, what elements it contains, for example controls and rules
@@ -28,13 +40,13 @@ The designer window opens and is made up of 3 main parts.
 
 The key components of the designer are:
 
-1. Left-hand pane contains both **controls** and **rules** that can be added to forms. Go to [Controls](fields/README.md) and [Rules](rules/README.md) to find out more. The left-hand pane also houses the **Exit** button ![Exit process](/images/exitdesign.png) to go back to the process list, the **Save** button ![Save button](/images/save.png) to save your work, the **Preview** button ![Preview](images/preview.png) to preview what you have created and the **Publish** button ![Publish button](/images/publish.png) to publish your work. 
+1. Left-hand pane contains both **controls** and **rules** that can be added to forms. Go to [Controls](/docs/controls/) and [Rules](/docs/rules/) to find out more. The left-hand pane also houses the **Exit** button ![Exit process](/images/exitdesign.png) to go back to the process list, the **Save** button ![Save button](/images/save.png) to save your work, the **Preview** button ![Preview](/images/preview.png) to preview what you have created and the **Publish** button ![Publish button](/images/publish.png) to publish your work. 
 
    Note that clicking on **Save** saves a **draft** which is not available to users until you click on **Publish**.
 
 2. The central area is where the current **form canvas** is displayed. The canvas also houses 3 buttons by default: **Submit**, **Save** and **Close**. Go to [Adding form elements](#adding-form-elements) to find out more about editing these buttons and adding elements to the canvas.
 
-3. The right-hand pane is where the **properties** and **rules** are displayed for the selected item, see [Properties](platform/properties.md) for more information. From this pane you can also [Import forms](#import-forms), see the [Version history](platform/version_history.md) for a process and set process [Settings](platform/settings.md). Click on the links to find out more.
+3. The right-hand pane is where the **properties** and **rules** are displayed for the selected item, see [Properties](/docs/platform/controls/properties/) for more information. From this pane you can also [Import forms](#import-forms), see the [Version history](/docs/platform/application-designer/designer/version-history/) for a process and set process [Settings](/docs/platform/application-designer/process/settings/). Click on the links to find out more.
 
 Note the name of the process you are working on is shown in the top menu bar, for example Quarterly Training Request. 
 
@@ -60,7 +72,7 @@ Note the name of the process you are working on is shown in the top menu bar, fo
 
 1. If you have created a process using the App Store, then a number of forms will already be part of the process. For example the process Security Incident Management has 5 forms attached: Incident detail, Data breach, Malware outbreak, Root cause remedy and Caller review. Click on [Kianda Apps](platform/appstore.md) to find out more about other apps in the App Store. 
 
-2. To edit form details, simply click on a form and click on the **Pen** button ![Pen icon](images/penicon.png) to edit the form. You can also click on the **Add form** button to add a new form. Edit options are shown under [New forms](#new-forms).
+2. To edit form details, simply click on a form and click on the **Pen** button ![Pen icon](/images/penicon.png) to edit the form. You can also click on the **Add form** button to add a new form. Edit options are shown under [New forms](#new-forms).
 
    
 
@@ -77,7 +89,7 @@ Note the name of the process you are working on is shown in the top menu bar, fo
 
 
 
-1. If you have created a process from scratch, an empty form is added to your process by default, called "form 1". This is the first form. Click on this form and the **Pen** button ![Pen icon](images/penicon.png) to customise it. You can also click on the **Add form** button ![Add form](images/addform.png) to add a new form. 
+1. If you have created a process from scratch, an empty form is added to your process by default, called "form 1". This is the first form. Click on this form and the **Pen** button ![Pen icon](/images/penicon.png) to customise it. You can also click on the **Add form** button ![Add form](/images/addform.png) to add a new form. 
 
    ![Edit form](/images/form1_resized.png)
 
@@ -91,7 +103,7 @@ Note the name of the process you are working on is shown in the top menu bar, fo
 
    2. **Name** - this is a unique name for the form
 
-   3. **Default owner(s)** - by default the form creator is an owner. You can remove this owner by clicking on ![x](images/x.png) and add other owners by clicking on the arrow and choose from **Users**, **Groups** or **Partners**. 
+   3. **Default owner(s)** - by default the form creator is an owner. You can remove this owner by clicking on ![x](/images/x.png) and add other owners by clicking on the arrow and choose from **Users**, **Groups** or **Partners**. 
 
       - Users - allows you to choose individual owners
       - Groups - allows you to choose from defined groups for example HR Team or Management Team
@@ -127,7 +139,7 @@ Note the name of the process you are working on is shown in the top menu bar, fo
 
 3. Click on the **OK** button when you are finished editing to save your changes or click on **Close** to exit the dialog box without saving.
 
-4. To save your changes to the form, click on the **Save** button ![Save button](images/save.png). 
+4. To save your changes to the form, click on the **Save** button ![Save button](/images/save.png). 
 
 5. You are now ready to start adding [Controls](fields/README.md) and [Rules](rules/README.md) to your form. You can also implement additional settings see [Process Settings](#process-settings).
 
@@ -135,7 +147,7 @@ Note the name of the process you are working on is shown in the top menu bar, fo
 
 ### Import forms ###
 
-1. You can import a previously designed form by clicking on the **Import** button ![Import button](images/importform.png).
+1. You can import a previously designed form by clicking on the **Import** button ![Import button](/images/importform.png).
 
 2. Click on the arrow to select from the drop down list to **Select a process design**. 
 
@@ -156,8 +168,8 @@ If you have added a new form during the form creation process, then a blank canv
 You can:
 
 1) Add elements to this canvas by clicking on [Controls](fields/README.md) and [Rules](rules/README.md) in the left-hand pane. Click on each link to find out more about the 16 Control fields and 
-2) Move elements by clicking on the **Drag Handle** ![Drag handle](images/move.png) beside the item and dragging it to where you want to place it. 
-3) Edit elements by clicking on each item and clicking on the **Pen** button ![Pen icon](images/penicon.png) for example if you click on the **Close button** there are a number of options to choose from when editing see [Form buttons](#form-buttons).
+2) Move elements by clicking on the **Drag Handle** ![Drag handle](/images/move.png) beside the item and dragging it to where you want to place it. 
+3) Edit elements by clicking on each item and clicking on the **Pen** button ![Pen icon](/images/penicon.png) for example if you click on the **Close button** there are a number of options to choose from when editing see [Form buttons](#form-buttons).
 
 
 
@@ -175,7 +187,7 @@ Settings are available from the right-hand pane and give you the ability to:
 
 - Create a duplicate form by selecting a form, clicking on the **Clone** button ![Clone button](/images/clone.png)and then click on **Ok**. A version called 'Form Name Copy' is created and available to edit on the canvas. The **Clone** button can also be used to clone form elements like controls or buttons. 
 
-- Edit form information by selecting a form and clicking on the **Pen** button ![Pen icon](images/penicon.png).
+- Edit form information by selecting a form and clicking on the **Pen** button ![Pen icon](/images/penicon.png).
 
 - Delete a form by selecting a form, clicking on the **Bin/Trash** button ![Bin icon](/images/binicon-16397581516591.png) and then click on **Ok** after you have reviewed the form title and you are sure this is what you want to delete. Click on **Cancel** if you wish to cancel the deletion.
 
@@ -189,7 +201,7 @@ Settings are available from the right-hand pane and give you the ability to:
 
 ### Process settings
 
-You can edit process settings by clicking on the **Settings** button ![Settings button](images/settings.png)in the right-hand pane. 
+You can edit process settings by clicking on the **Settings** button ![Settings button](/images/settings.png)in the right-hand pane. 
 
 Choose from the settings:
 
@@ -211,7 +223,7 @@ Choose from the settings:
 
    - **Message to display after anonymous submission** - to add a display message
 
-   ![Link for external users](images/anonlink.png)
+   ![Link for external users](/images/anonlink.png)
 
    - **Hide form topbar** - checkbox to COME BACK TO
    - **Force log out** - options are a) Yes or b) No to force user logout once the form is submitted
@@ -231,7 +243,7 @@ Choose from the settings:
 
 13. Click on the **OK** button ![OK button](/images/ok.png) when you are finished editing to save your changes or click on **Close** to exit the dialog box without saving.
 
-14. Click on the **Exit** button ![Exit process](images/exitdesign.png) to go back to the process list, the Save button ![Save button](images/save.png)to save your work, the **Preview** button ![Preview](images/preview.png)to preview what you have created and the **Publish** button ![Publish button](images/publish.png)to publish your work.
+14. Click on the **Exit** button ![Exit process](/images/exitdesign.png) to go back to the process list, the Save button ![Save button](/images/save.png)to save your work, the **Preview** button ![Preview](/images/preview.png)to preview what you have created and the **Publish** button ![Publish button](/images/publish.png)to publish your work.
 
 
 
@@ -257,7 +269,7 @@ By default there are 3 buttons on all forms, **Submit**, **Save** and **Close**,
 
 To edit a button:
 
-1. Click on the button and then the **Pen** button ![Pen icon](images/penicon.png).
+1. Click on the button and then the **Pen** button ![Pen icon](/images/penicon.png).
 
 2. Choose from the edit options:
 
@@ -277,7 +289,7 @@ To edit a button:
 
 3. Click on the **OK** button ![OK button](/images/ok.png) when you are finished editing to save your changes or click on **Close** to exit the dialog box without saving.
 
-3. You can change the button to a different field type by clicking on the button itself and the **Change field** button ![Change field](images/changefield.png)in the right-hand pane. Then choose from one of 18 field types and edit the field chosen. See [Controls](fields/README.md) for more information on field types.
+3. You can change the button to a different field type by clicking on the button itself and the **Change field** button ![Change field](/images/changefield.png)in the right-hand pane. Then choose from one of 18 field types and edit the field chosen. See [Controls](fields/README.md) for more information on field types.
 
    
 
@@ -299,11 +311,11 @@ The options within properties are:
 
 ![Changing text box width](/images/textboxsize.png)
 
-- **Rules** - rules for input fields. These are covered in details in [Rules](rules/README.md). 
+- **Rules** - rules for input fields. These are covered in details in [Rules](/platform/rules/). 
 
 
 
-#### Copying a button ####
+#### Copying a button or field ####
 
 To copy a button you can click on **Clone** button ![Clone button](/images/clone.png)in the right-hand pane and choose from the options:
 
@@ -316,6 +328,6 @@ Click on the **OK** button ![OK button](/images/ok.png) when you are finished ed
 
 
 
-#### Deleting a button ####
+#### Deleting a button or field ####
 
 Click on the on the **Bin/Trash** button ![Bin icon](/images/binicon-16397581516591.png) and then click on **Ok** after you have reviewed the form title and you are sure this is what you want to delete. Click on **Cancel** if you wish to cancel the deletion.
