@@ -34,8 +34,7 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-node-
 
-       
-      - name: Build
+             
         run: npm ci
         run: hugo --minify
 
