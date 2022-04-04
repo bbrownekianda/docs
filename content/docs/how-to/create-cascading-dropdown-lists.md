@@ -1,6 +1,7 @@
 ---
 title: "How to create cascading dropdown lists"
 description: "How to create cascading dropdown lists without coding using SharePoint as a datasource"
+weight: 2.1
 typora-root-url: ..\..\..\static
 ---
 

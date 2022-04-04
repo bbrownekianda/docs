@@ -1,5 +1,6 @@
 ---
 title: "How to manage version control of a process"
+description: "Learn how to manage process versions"
 typora-root-url: ..\..\..\static
 ---
 

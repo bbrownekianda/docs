@@ -1,6 +1,7 @@
 ---
 title: "How to create a modal dialog"
 description: "How to create a modal dialog using Kianda no-code platform"
+weight: 4
 typora-root-url: ..\..\..\static
 ---
 

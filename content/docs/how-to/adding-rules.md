@@ -2,6 +2,7 @@
 title: "Adding rules to a process"
 description: "Learn how to add a rule into a process in Kianda"
 typora-root-url: ..\..\..\static
+weight: 1
 ---
 
 This video introduces Kianda rules and demonstrates how to add a Send email Communications rule to a form.

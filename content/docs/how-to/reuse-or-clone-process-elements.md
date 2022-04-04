@@ -1,5 +1,6 @@
 ---
 title: "Reusability of process and form components"
+description: "Learn how to import, clone or reuse process elements"
 typora-root-url: ..\..\..\static
 ---
 

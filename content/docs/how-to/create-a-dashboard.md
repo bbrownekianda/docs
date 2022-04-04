@@ -1,5 +1,6 @@
 ---
 title: "How to create a dashboard"
+description: "How to publish processes into user dashboards "
 typora-root-url: ..\..\..\static
 ---
 

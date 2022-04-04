@@ -3,8 +3,8 @@ title = "Kianda no-code platform for business process automation"
 
 # Language settings
 contentDir = "content"
-# defaultContentLanguage = "en"
-# defaultContentLanguageInSubdir = false
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
 # Useful when translating.
 # enableMissingTranslationPlaceholders = true
 
@@ -73,23 +73,9 @@ id = "UA-101778157-1"
 # title = "Kianda documentation"
 # description = "Kianda No-Code Documentation"
 # languageName ="English"
-# Weight used for sorting.
+# contentDir = "content"
+# #Weight used for sorting.
 # weight = 1
-# [languages.no]
-# title = "Goldydocs"
-# description = "Docsy er operativsystem for skyen"
-# languageName ="Norsk"
-# contentDir = "content/no"
-# time_format_default = "02.01.2006"
-# time_format_blog = "02.01.2006"
-
-# [languages.fa]
-# title = "اسناد گلدی"
-# description = "یک نمونه برای پوسته داکسی"
-# languageName ="فارسی"
-# contentDir = "content/fa"
-# time_format_default = "2006.01.02"
-# time_format_blog = "2006.01.02"
 
 [markup]
   [markup.goldmark]
@@ -116,7 +102,7 @@ privacy_policy = "https://www.kianda.com/privacy"
 
 # Menu title if your navbar has a versions selector to access old versions of your site.
 # This menu appears only if you have at least one [params.versions] set.
-version_menu = "Releases"
+# version_menu = "Releases"
 
 # Flag used in the "version-banner" partial to decide whether to display a 
 # banner on every page indicating that this is an archived version of the docs.
@@ -138,11 +124,11 @@ github_repo = "https://github.com/KiandaBPM/docs-dev"
 # github_project_repo = "https://github.com/google/docsy"
 
 # Specify a value here if your content directory is not in your repo's root directory
-# github_subdir = ""
+github_subdir = ""
 
 # Uncomment this if you have a newer GitHub repo with "main" as the default branch,
 # or specify a new value if you want to reference another branch in your GitHub links
-# github_branch= "main"
+github_branch= "main"
 
 # Google Custom Search Engine ID. Remove or comment out to disable search.
 gcs_engine_id = "d72aa9b2712488cc3"
@@ -167,7 +153,7 @@ navbar_logo = true
 # Set to true if you don't want the top navbar to be translucent when over a `block/cover`, like on the homepage.
 navbar_translucent_over_cover_disable = false
 # Enable to show the side bar menu in its compact state.
-sidebar_menu_compact = false
+sidebar_menu_compact = true
 # Set to true to hide the sidebar search box (the top nav search box will still be displayed if search is enabled)
 sidebar_search_disable = false
 

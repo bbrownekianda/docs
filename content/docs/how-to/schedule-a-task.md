@@ -1,5 +1,7 @@
 ---
 title: "How to schedule a task"
+description: "Learn how to automate process tasks with the Kianda platform"
+weight: 5
 typora-root-url: ..\..\..\static
 ---
 
