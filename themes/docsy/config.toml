@@ -2,7 +2,7 @@
 # Allowed configuration in a theme is (currently):
 # params (global and per language)
 # menu (global and per language)
-# outputformats and mediatypes
+# outputformats and mediatypes 
 
 [params]
 time_format_blog = "Monday, January 02, 2006"
