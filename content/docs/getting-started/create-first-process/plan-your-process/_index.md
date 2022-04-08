@@ -118,12 +118,12 @@ If you would like to learn more about citizen development, have a look at Kianda
 
 ### **To return to the previous pages click on the links below**  ![Idea icon](/images/10.png) 
 
-- [**What is low-code development**](getting-started/welcome/low_code.md)
-- [**What is no-code development**](getting-started/welcome/no_code.md)
-- **[Logging in to Kianda](getting-started/logging_in/)**
-- **[Create your first Kianda process](getting-started/create-first-process/)**
-- [**Add forms**](getting-started/create-first-process/create_form.md)
-- [**Add controls and rules**](getting-started/create-first-process/add_form_elements.md)
+- [**What is low-code development**](/docs/getting-started/welcome/low-code/)
+- [**What is no-code development**](/docs/getting-started/welcome/no-code/)
+- **[Logging in to Kianda](/docs/getting-started/logging-in/)**
+- **[Create your first Kianda process](/docs/getting-started/create-first-process/)**
+- [**Add forms**](/docs/getting-started/create-first-process/design-and-build/add-forms/)
+- [**Add controls and rules**](/docs/getting-started/create-first-process/design-and-build/add-controls-and-rules/)
 
 
 

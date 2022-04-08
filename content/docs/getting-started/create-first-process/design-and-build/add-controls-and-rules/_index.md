@@ -5,7 +5,7 @@ weight: 2
 typora-root-url: ..\..\..\..\..\..\static
 ---
 
-# Add controls and rules #
+
 
 When you have created forms, then you are ready to add elements to those forms, that is **controls** and **rules**. This is the third step in building a process.
 
