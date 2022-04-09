@@ -171,7 +171,7 @@ no = 'Sorry to hear that. Please <a href="https://github.com/KiandaBPM/docs-dev/
 
 # Adds a reading time to the top of each doc.
 # If you want this feature, but occasionally need to remove the Reading time from a single page, 
-# add "hide_readingtime: true" to the page's front matter
+# add "hide_readingtime: true" to the page's front matter 
 [params.ui.readingtime]
 enable = false
 
