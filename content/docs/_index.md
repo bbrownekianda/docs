@@ -8,7 +8,9 @@ type: "docs"
 typora-root-url: ..\..\static
 ---
 
-The Kianda platform is a modern **low-code** and **no-code** **development platform** providing anyone, even those without coding experience, the structures to digitise business **processes** resulting in beautiful mobile-ready web applications. You can also use the platform to create **dashboards** to monitor how processes are performing and gain key insights to improve your business overall. And you can **customise** all of this the way you want - no developer needed. However if you have coding experience, you can use the platform to build your own widgets too. 
+The Kianda platform is a modern **low-code** and **no-code** **development platform** providing citizen developers a modern way to digitise business **processes** and build no-code or low-code elegant mobile-ready web applications. You can also use the platform to create simple forms that can quickly evolve into an end-to-end process complete with multiple integrations task automation and real-time process monitoring. 
+
+**Dashboards** enable an easy way to monitor how processes are performing and gain key insights to improve your business overall. As a citizen developer you can **customise** any components provided by the platform to best suit your needs. However if you have coding experience, you can use the platform to build your own widgets too. 
 
 In summary the Kianda platform provides an ideal interface for **rapid prototyping** and delivering outcomes quickly.
 
@@ -16,7 +18,7 @@ In summary the Kianda platform provides an ideal interface for **rapid prototypi
 
 ## Possibilities with Kianda ## 
 
-This video demonstrates how Kianda forms can be used to receive a wide variety of user inputs such as QR codes, file uploads, video and images to name a few examples. The video also introduces Kianda Designer as a place to create your own widgets. 
+This video demonstrates how Kianda platform can be used in a wide variety of ways and receive user input such as QR codes, file uploads, video and images to name a few examples. The video also introduces Kianda Designer as a place to create your own widgets. 
 
 <video width="100%" style="width:100%" controls>
     <source src="/videos/possibilities.mp4">
