@@ -1,0 +1,44 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kianda no-code platform for business process automation – Form basics</title><link>https://docs.kianda.com/docs/platform/application-designer/forms/</link><description>Recent content in Form basics on Kianda no-code platform for business process automation</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://docs.kianda.com/docs/platform/application-designer/forms/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Form display modes</title><link>https://docs.kianda.com/docs/platform/application-designer/forms/form-display-modes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/application-designer/forms/form-display-modes/</guid><description/></item><item><title>Docs: Form owners</title><link>https://docs.kianda.com/docs/platform/application-designer/forms/form-owners/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/application-designer/forms/form-owners/</guid><description/></item><item><title>Docs: Form quick actions menu</title><link>https://docs.kianda.com/docs/platform/application-designer/forms/form-quick-action/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/application-designer/forms/form-quick-action/</guid><description>
+&lt;p>The Quick action menu contains all the shortcuts that you need to manage your pages efficiently. The menu is found in the top right-hand corner of your Kianda workspace.&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/quickaction.png" alt="Quick action menu">&lt;/p>
+&lt;p>The buttons include:&lt;/p>
+&lt;ul>
+&lt;li>[Online session refresh](#Online session refresh) &lt;img src="https://docs.kianda.com/images/refresh.png" alt="Refresh button">&lt;/li>
+&lt;li>[User notifications](#User notifications) &lt;img src="https://docs.kianda.com/images/notifications.png" alt="Notifications button">&lt;/li>
+&lt;li>[User profile](#User profile) &lt;img src="https://docs.kianda.com/images/userprofile.png" alt="User profile">&lt;/li>
+&lt;/ul>
+&lt;p>Click on each link above to find out more about each button.&lt;/p>
+&lt;h2 id="online-session-refresh">Online session refresh&lt;/h2>
+&lt;h2 id="user-notifications">User notifications&lt;/h2>
+&lt;p>This icon alerts you when actions happen associated with processes, for example a form is completed by a user. You will receive a configured message indicating in this case, what form has been completed and by whom.&lt;/p>
+&lt;h2 id="user-profile">User profile&lt;/h2>
+&lt;p>The information found under User profile includes your name, email, role for example Administrator and options to update your information.&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/myaccount.png" alt="My account information">&lt;/p>
+&lt;p>To update your information, you can:&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>Add your photo by clicking on the &lt;strong>Update profile picture&lt;/strong> button &lt;img src="images/profilepic.png" alt="Update profile picture button">&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Change your password by clicking on &lt;strong>Change Password&lt;/strong>. You need to type in your current password and then your new password twice and click on &lt;strong>Change Password&lt;/strong> or click on &lt;strong>Close&lt;/strong> to exit the dialog box.&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/changepassword.png" alt="Change password">&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Update your profile by clicking on &lt;strong>Update My Profile&lt;/strong>. Type in your &lt;strong>Job title,&lt;/strong> &lt;strong>Department&lt;/strong> and &lt;strong>Phone number&lt;/strong> and click on &lt;strong>Update Profile&lt;/strong> or click on **Close **to exit the dialog box.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Logout of Kianda by clicking on &lt;strong>Sign-Out&lt;/strong>. Then click on &lt;strong>Ok&lt;/strong> to confirm that you want to logout or click on **Cancel **to exit the dialog box.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Work offline by clicking moving the slider button across. When you do this you will get a message to say&lt;/p>
+&lt;p>Offline mode is enabled. TO COME BACK TO&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/workoffline.png" alt="Work offline">&lt;/p>
+&lt;p>If you move the slider back then Offline mode is disabled.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>View the system version of Kianda, for example System version 2.11.3&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Collapse account information by clicking on the &lt;strong>User profile&lt;/strong> button &lt;img src="https://docs.kianda.com/images/userprofile.png" alt="User profile"> again.&lt;/p>
+&lt;/li>
+&lt;/ol></description></item><item><title>Docs: Form responsive layout</title><link>https://docs.kianda.com/docs/platform/application-designer/forms/responsive-layout/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/application-designer/forms/responsive-layout/</guid><description/></item></channel></rss>

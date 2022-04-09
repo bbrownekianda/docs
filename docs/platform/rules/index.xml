@@ -1,0 +1,251 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kianda no-code platform for business process automation – Rules</title><link>https://docs.kianda.com/docs/platform/rules/</link><description>Recent content in Rules on Kianda no-code platform for business process automation</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://docs.kianda.com/docs/platform/rules/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: General</title><link>https://docs.kianda.com/docs/platform/rules/general/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/general/</guid><description>
+&lt;h1 id="business-process-rules">Business Process Rules&lt;/h1>
+&lt;p>Business rules are what makes Kianda forms come alive. They represent the actual actions users intend to perform when they interact with form components.??&lt;/p>
+&lt;h4 id="categories">Categories&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Workflow&lt;/strong> - Enables you to execute actions that might change the flow of the information within a process.&lt;/li>
+&lt;li>&lt;strong>Communications&lt;/strong> - Enables sending emails or meeting requests or even user (push) notifications.&lt;/li>
+&lt;li>&lt;strong>Data&lt;/strong> - This is an important and flexible rule group because it allows you to configure CRUD (Create, Read, Update and Delete) actions to configured data sources.&lt;/li>
+&lt;li>&lt;strong>Users&lt;/strong> - This enables you to retrieve a user property, updating user properties or lookup for a user based on a user attribute.&lt;/li>
+&lt;li>&lt;strong>File management&lt;/strong> - Allows operations such as the generation of a word document and conversion to PDF and more.&lt;/li>
+&lt;li>&lt;strong>Tables&lt;/strong> - Provides specialised rules to enable working with tables like sorting, copying table rows to another table and more.&lt;/li>
+&lt;li>&lt;strong>Dates&lt;/strong> - Enables convenient date calculation with advanced options like ignoring weekends or special dates.&lt;/li>
+&lt;li>&lt;strong>Form actions&lt;/strong> - Allows operations like submit, save, close and delete forms.&lt;/li>
+&lt;li>&lt;strong>SharePoint&lt;/strong> - Provides a variety of operations to be performed on the SharePoint connection. These rules include operations like create a list, find a user, define permission to an item, check-in / out an item or adding a user to a SharePoint group.&lt;/li>
+&lt;/ul>
+&lt;h4 id="working-with-rules">Working with rules&lt;/h4>
+&lt;h5 id="where-to-add-a-rule">Where to Add a rule&lt;/h5>
+&lt;ol>
+&lt;li>To a field so that it is triggered when ??&lt;/li>
+&lt;li>To a form - will be triggered on load&lt;/li>
+&lt;li>To a process - will be triggered on load
+Do all rules apply to each of these? Ask SS??&lt;/li>
+&lt;/ol>
+&lt;p>You can add this rule: Add to every rule??&lt;/p>
+&lt;ul>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> to a field&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> to a form&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> to a process (the rule will run on load)&lt;/li>
+&lt;/ul>
+&lt;p>???explain on load&lt;/p>
+&lt;h5 id="how-to-add-a-rule">How to Add a rule&lt;/h5>
+&lt;p>HELP FORM??
+To add a rule to a specific component:&lt;/p>
+&lt;p>Select the field you want.
+Under Add a rule, select the rule you want.
+Edit the rule and click &amp;lsquo;OK&amp;rsquo; - the rule will be displayed on the right-hand side of the page
+VIDEO??&lt;/p>
+&lt;h5 id="how-to-copy-a-rule">How to Copy a rule&lt;/h5>
+&lt;p>FROM HELP??
+Duplicating rules can be very useful in case you have similar rules that are in different fields. To duplicate a rule:&lt;/p>
+&lt;p>Select the field with the desired rule
+Click on the Clone rule button, next to the rule name
+Optionally, modify the rule settings
+VIDEO??
+Can I duplicate a rule and apply it to another form?:
+FROM HELP??
+Kianda forms allow you to do that! On this example, we are replicating a rule from a submit button in one form, to a submit button in another:&lt;/p>
+&lt;p>Select the field which contains the rule.
+Click on the clone icon, next to the rules title.
+Click on the Copy to another field checkbox - leaving it unchecked will clone the rule to the same field.
+A list field will appear and you can select any field from any existing form in the current process.
+Click &amp;lsquo;OK&amp;rsquo;.
+VIDEO&lt;/p>
+&lt;h5 id="how-to-view-a-rule">How to View a rule&lt;/h5>
+&lt;h5 id="how-to-edit-a-rule">How to Edit a rule&lt;/h5>
+&lt;h5 id="how-to-disable-a-rule">How to Disable a rule&lt;/h5>
+&lt;h5 id="where-to-place-a-rule-in-a-list-of-rules">Where to place a rule in a list of rules&lt;/h5>
+&lt;p>Yes, and it is more straightforward than you might think:&lt;/p>
+&lt;p>Select the field with the rules.
+On the Rules section, drag and drop the rules in the order you want them.
+Submit, save, close
+If there is a Condition, then the fields must be set before it is run
+Example: Set Status, Send Email, Submit, Save, Close&lt;/p>
+&lt;h4 id="conditions">Conditions&lt;/h4>
+&lt;p>Flexible and dynamic conditions form an important component to make forms fully dynamic. It enables you to create natural language conditions when rules should be triggered.&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/condition-editor.png" alt="Condition Editor">???find image&lt;/p>
+&lt;p>Link to edit a condition help??? blue button &amp;lsquo;Edit conditions&amp;rsquo;, then &amp;lsquo;Add a conditions group&amp;rsquo; or &amp;lsquo;add condition&amp;rsquo; or &amp;lsquo;Remove group&amp;rsquo; Delete button &amp;lsquo;And&amp;rsquo; or &amp;lsquo;or&amp;rsquo;&lt;/p>
+&lt;p>FROM HELP??
+To configure a rule to conditionally execute an action:&lt;/p>
+&lt;p>Click on Edit conditions button within the rule.
+Add the conditions that satisfy your scenario.
+Multiple conditions can be grouped with condition groups.
+VIDEO??&lt;/p>
+&lt;h4 id="custom-rules">Custom rules&lt;/h4>
+&lt;p>Under custom rules, you will find any custom-developed rules available under your developer section. Custom rules provide access to rules that are built for extensibility of Kianda capabilities. This is particularly used in situations when existing rules do not provide the required functionality.&lt;/p>
+&lt;p>Custom rules have the purpose of providing a user interface for the end-users. If you need to build &amp;ldquo;a rule&amp;rdquo; then you should use a custom rule widget.&lt;/p>
+&lt;p>It allows a developer to quickly build a reusable component that would then be used by process designers in real processes.&lt;/p>
+&lt;p>Check-out the &lt;a href="development.md">development&lt;/a> section for more details on how to build custom widgets in Kianda.&lt;/p>
+&lt;p>&lt;a href="../workflow/">Workflow&lt;/a>&lt;/p>
+&lt;p>&lt;a href="rules_communications.md">Communications&lt;/a>&lt;/p>
+&lt;p>&lt;a href="rules_data.md">Data&lt;/a>&lt;/p>
+&lt;p>&lt;a href="rules_users.md">Users&lt;/a>&lt;/p>
+&lt;p>&lt;a href="rules_file_management.md">File management&lt;/a>&lt;/p>
+&lt;p>&lt;a href="rules_tables.md">Tables&lt;/a>&lt;/p>
+&lt;p>&lt;a href="rules_dates.md">Dates&lt;/a>&lt;/p>
+&lt;p>&lt;a href="rules_form_actions.md">Form actions&lt;/a>&lt;/p>
+&lt;p>&lt;a href="rules_sharepoint.md">Sharepoint&lt;/a>&lt;/p>
+&lt;p>&lt;a href="rules_kianda_ai.md">Kianda_AI&lt;/a>&lt;/p></description></item><item><title>Docs: Workflow rules</title><link>https://docs.kianda.com/docs/platform/rules/workflow/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/workflow/</guid><description/></item><item><title>Docs: Communication rules</title><link>https://docs.kianda.com/docs/platform/rules/communications/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/communications/</guid><description>
+&lt;p>Communication rules is one category of &lt;a href="rules/Readme.md">rules&lt;/a> to enable automated communications with process users, for example sending meeting requests or even user push notifications.&lt;/p>
+&lt;h2 id="getting-started-with-communication-rules">Getting started with Communication rules&lt;/h2>
+&lt;p>If you go to &lt;strong>Administration&lt;/strong> &amp;gt; &lt;strong>Designer&lt;/strong> and click on a process or create a new process, then click on &lt;strong>Add a rule&lt;/strong> the Communication rules are found in the left-hand pane when you click on &lt;strong>Communications&lt;/strong>.&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/communications.png" alt="Communication rules">&lt;/p>
+&lt;p>There are 4 types of Communication rules as follows:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>Send email - triggers an email which can be sent on behalf&amp;hellip;see &lt;a href="send_email.md">Send email&lt;/a> for more information.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Meeting request&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Anonymous form link&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>User alert&lt;/p>
+&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Data rules</title><link>https://docs.kianda.com/docs/platform/rules/data/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/data/</guid><description>
+&lt;p>Data rules is the category of rules that enables that flow between data connectors and form elements, for example reading or writing data from a database table or performing data manipulation with the &lt;a href="set_form_field.md">Set form field rule&lt;/a> expressions.&lt;/p>
+&lt;h2 id="getting-started-with-data-rules">Getting started with Data rules&lt;/h2>
+&lt;p>If you go to &lt;strong>Administration&lt;/strong> &amp;gt; &lt;strong>Designer&lt;/strong> and click on a process or create a new process, then click on &lt;strong>Add a rule&lt;/strong> the Data rules are found in the left-hand pane when you click on &lt;strong>Data&lt;/strong>.&lt;/p>
+&lt;p>There are 5 types of Data rules as follows:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>Create item&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Delete item&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Update item&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Find Items&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Set form field&lt;/p>
+&lt;/li>
+&lt;/ul></description></item><item><title>Docs: User rules</title><link>https://docs.kianda.com/docs/platform/rules/users/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/users/</guid><description/></item><item><title>Docs: File management rules</title><link>https://docs.kianda.com/docs/platform/rules/files/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/files/</guid><description/></item><item><title>Docs: Table rules</title><link>https://docs.kianda.com/docs/platform/rules/tables/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/tables/</guid><description/></item><item><title>Docs: Date rules</title><link>https://docs.kianda.com/docs/platform/rules/dates/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/dates/</guid><description/></item><item><title>Docs: Form action rules</title><link>https://docs.kianda.com/docs/platform/rules/form-actions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/form-actions/</guid><description>
+&lt;p>Rules within the form action rules allow to perform form specific actions such as saving a form / process, submiting a form, closing a form, deleting a process and validating form input.&lt;/p>
+&lt;p>To find out more about each action go to the pages below:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="close_form.md">Close a form&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="save_form.md">Save a form&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="submit_form.md">Submit a form&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Validate input&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Delete form / process&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Field display mode&lt;/p>
+&lt;/li>
+&lt;/ul></description></item><item><title>Docs: AI rules</title><link>https://docs.kianda.com/docs/platform/rules/kianda-ai/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/kianda-ai/</guid><description>
+&lt;p>Artificial Intelligence powered text analysis performs sentiment analysis to text content&lt;/p></description></item><item><title>Docs: SharePoint rules</title><link>https://docs.kianda.com/docs/platform/rules/sharepoint/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/sharepoint/</guid><description>
+&lt;p>These rules describe SharePoint specific functionality. These rules are typically used to perform actions with SharePoint connectors that are not related with data like reseting permissions or adding a user into a group.&lt;/p>
+&lt;h5 id="create-a-list">Create a list&lt;/h5>
+&lt;p>Creates a new list on SharePoint
+SharePoint specific rule. Allows the creation of a new list in a SharePoint site&lt;/p>
+&lt;h5 id="create-a-site">Create a site&lt;/h5>
+&lt;p>Creates a new site on SharePoint
+Used to create a new web in SharePoint. Enables the use of a site template&lt;/p>
+&lt;h5 id="create-a-group">Create a group&lt;/h5>
+&lt;p>Creates a new group on SharePoint
+Enables the creation of SharePoint group&lt;/p>
+&lt;h5 id="find-a-user">Find a user&lt;/h5>
+&lt;p>Finds a user on SharePoint Finds or searches for a user within SharePoint&lt;/p>
+&lt;h5 id="add-a-user-to-a-group">Add a user to a group&lt;/h5>
+&lt;p>This rule adds a SharePoint user to a SharePoint group&lt;/p>
+&lt;p>It is important to note the difference between Sharepoint users and Kianda users. Sharepoint users are users of the Sharepoint system. Kianda users are users of the Kianda system.&lt;/p>
+&lt;p>If there is a user group assigned to a SharePoint url then you can select a Kianda user to be added to that group.&lt;/p>
+&lt;p>To add a new SharePoint user&lt;/p>
+&lt;ol>
+&lt;li>Select the Submit button, for example.&lt;/li>
+&lt;li>Click on Add a rule-&amp;gt;SharePoint -&amp;gt;Add a user to a group&lt;/li>
+&lt;li>Select a SharePoint data source from the drop-down list. Two new fields will appear:
+For Group title field, select the field where the group title is stored e.g. a list field.
+For Username or User Id, select the field where the Username or User id is stored.&lt;/li>
+&lt;li>The final two sections are optional:
+Under On success mapping, click on Add mapping.
+For Form Field, select a field to store the text.
+For Data source field or text, either enter the text or
+select a field where the text is stored.
+Under On error mapping, click on Add mapping.
+For Form Field, select a field to store the text.
+For Error message or text, either enter the text or
+select a field where the text is stored.&lt;/li>
+&lt;li>Move the rule&amp;hellip;&lt;/li>
+&lt;/ol>
+&lt;h5 id="remove-a-user-from-a-group">Remove a user from a group&lt;/h5>
+&lt;p>This rule removes a SharePoint user from a SharePoint group&lt;/p>
+&lt;p>It is important to note the difference between Sharepoint users and Kianda users. Sharepoint users are users of the Sharepoint system. Kianda users are users of the Kianda system.&lt;/p>
+&lt;p>To remove a user from a group&lt;/p>
+&lt;ol>
+&lt;li>Select the Submit button, for example.&lt;/li>
+&lt;li>Click on Add a rule-&amp;gt;SharePoint -&amp;gt;Remove a user from a group&lt;/li>
+&lt;li>Select a SharePoint data source from the drop-down list. Two new fields will appear:
+For Group title field, select the field where the group title is stored e.g. a list field.
+For Username or User Id, select the field where the Username or User id is stored.&lt;/li>
+&lt;li>The final two sections are optional:
+Under On success mapping, click on Add mapping.
+For Form Field, select a field to store the text.
+For Data source field or text, either enter the text or
+select a field where the text is stored.
+Under On error mapping, click on Add mapping.
+For Form Field, select a field to store the text.
+For Error message or text, either enter the text or
+select a field where the text is stored.&lt;/li>
+&lt;li>Move the rule&amp;hellip;&lt;/li>
+&lt;/ol>
+&lt;h5 id="reset-an-item-permissions-now">Reset an item permissions NOW&lt;/h5>
+&lt;p>This rule changes the SharePoint permissions for a given list, document or folder.&lt;/p>
+&lt;p>To reset the permissions of an item&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>Select the Submit button, for example.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Click on Add a rule-&amp;gt;SharePoint -&amp;gt;Reset an item permissions&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Select a SharePoint data source from the drop-down list. Three new fields will appear:&lt;/p>
+&lt;p>For Item Type, choose from the options: Site, List or other Item
+For Site relative URL field, copy in the URL of the Sharepoint item. [You can also store the URL in a field and select the field from the drop-down list.]
+For Existing permissions, choose either Add to existing or Replace existing&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Under Input mapping section, click on Add mapping.
+For User or Group id, select the field where the user is stored. This could be either a User Picker field or a text field.
+Select the Permission level from the drop-down list. Examples are Edit or View only.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>The final two sections are optional:
+Under On success mapping, click on Add mapping.
+For Form Field, select a field to store the text.
+For Data source field or text, either enter the text or
+select a field where the text is stored.
+Under On error mapping, click on Add mapping.
+For Form Field, select a field to store the text.
+For Error message or text, either enter the text or
+select a field where the text is stored.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Move the rule&amp;hellip;&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h5 id="check-in--out-an-item">Check in / out an item&lt;/h5>
+&lt;p>Checks in or out a SharePoint item
+Checks in or out a file in SharePoint&lt;/p>
+&lt;h5 id="get-attachments">Get attachments&lt;/h5>
+&lt;p>Loads item(s) attachments into a file input
+Reads the attachments from a SharePoint list&lt;/p>
+&lt;h5 id="create-anonymous-link">Create anonymous link&lt;/h5>
+&lt;p>Create SharePoint anonymous link(s) from a SharePoint file input
+Creates anonymous links for a SharePoint held file&lt;/p></description></item></channel></rss>

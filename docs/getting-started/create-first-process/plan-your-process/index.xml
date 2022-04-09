@@ -1,0 +1,236 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kianda no-code platform for business process automation – Plan your process</title><link>https://docs.kianda.com/docs/getting-started/create-first-process/plan-your-process/</link><description>Recent content in Plan your process on Kianda no-code platform for business process automation</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://docs.kianda.com/docs/getting-started/create-first-process/plan-your-process/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Controls</title><link>https://docs.kianda.com/docs/getting-started/create-first-process/plan-your-process/controls/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/getting-started/create-first-process/plan-your-process/controls/</guid><description>
+&lt;p>&lt;strong>Controls&lt;/strong> are predefined field widgets that allow you to add specific elements to your forms and processes such as lists, text boxes and tables. There are 16 controls you can add to a form, see &lt;a href="#controls-list">Controls list&lt;/a>.&lt;/p>
+&lt;p>If you have developer skills, you can create your own custom field widget, see &lt;a href="https://docs.kianda.com/docs/getting-started/welcome//low-code/#how-to-get-started-with-developer">Developer&lt;/a> for more information.&lt;/p>
+&lt;h2 id="getting-started-with-controls">Getting started with Controls&lt;/h2>
+&lt;p>If you go to &lt;strong>Side menu&lt;/strong> &amp;gt;&lt;strong>Administration&lt;/strong> &amp;gt; &lt;strong>Designer&lt;/strong> and click on a process or create a new process, the predefined fields are found in the left-hand pane.&lt;/p>
+&lt;p>&lt;em>&lt;strong>Control Categories&lt;/strong>&lt;/em>&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/controls.png" alt="Controls">&lt;/p>
+&lt;p>By default, there are 3 categories of fields:&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>Input&lt;/strong> - There are 8 Input fields and they include the most common data fields such as textbox, user picker, date field, table, checkbox, drop-down and number fields.&lt;/li>
+&lt;li>&lt;strong>Layout&lt;/strong> - There are 4 Layout fields that serve the purpose of perfecting the layout of your form. They include responsive panels, dialog box, field groups and rich text fields.&lt;/li>
+&lt;li>&lt;strong>Action&lt;/strong> - There are 4 Action fields that allow user interface actions like buttons, links or even signature components,&lt;/li>
+&lt;/ol>
+&lt;p>A fourth category &lt;strong>Custom&lt;/strong> fields exists if Kianda &lt;strong>Developer&lt;/strong> has been used to create custom field widgets see &lt;a href="https://docs.kianda.com/docs/getting-started/welcome/low-code/#how-to-get-started-with-developer">Developer&lt;/a> for more details.&lt;/p>
+&lt;p>All fields will have edit options when you start creating the field, as well as &lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/design-and-build/add-controls-and-rules/properties/#field-properties">field properties&lt;/a> that you can edit. Each field can also have &lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/plan-your-process/rules/">rules&lt;/a> applied to it.&lt;/p>
+&lt;h2 id="controls-list">Controls list&lt;/h2>
+&lt;p>A full list of controls is available in the table below.&lt;/p>
+&lt;p>&lt;em>&lt;strong>Control categories, with field names and purpose&lt;/strong>&lt;/em>&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/controlslist.gif" alt="Form controls">&lt;/p>
+&lt;h3 id="whats-next--idea-iconimages18png">What&amp;rsquo;s next &lt;img src="https://docs.kianda.com/images/18.png" alt="Idea icon">&lt;/h3>
+&lt;p>To learn more about rules that can be applied to fields go to &lt;a href="getting-started/create-first-process/rules.md">&lt;strong>Rules&lt;/strong>&lt;/a>.&lt;/p>
+&lt;p>To learn more about properties, go to &lt;a href="getting-started/create-first-process/properties.md#field-properties">&lt;strong>Field properties&lt;/strong>&lt;/a>.&lt;/p>
+&lt;h3 id="to-return-to-the-previous-pages-click-on-the-links-below--idea-iconimages10png">&lt;strong>To return to the previous pages click on the links below&lt;/strong> &lt;img src="https://docs.kianda.com/images/10.png" alt="Idea icon">&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="getting-started/welcome/how_kianda_works.md">&lt;strong>How Kianda works&lt;/strong>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="getting-started/welcome/no_code.md">&lt;strong>What is no-code development&lt;/strong>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="getting-started/create-first-process/plan_process.md">&lt;strong>Plan your process&lt;/strong>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="getting-started/create-first-process/design_process.md">&lt;strong>Design and build your process&lt;/strong>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="getting-started/create-first-process/create_form.md">&lt;strong>Add forms&lt;/strong>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="getting-started/create-first-process/designer.md">&lt;strong>Designer&lt;/strong>&lt;/a>&lt;/li>
+&lt;li>&lt;strong>&lt;a href="getting-started/create-first-process/add_form_elements.md">Add controls and rules&lt;/a>&lt;/strong>&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Business rules</title><link>https://docs.kianda.com/docs/getting-started/create-first-process/plan-your-process/rules/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/getting-started/create-first-process/plan-your-process/rules/</guid><description>
+&lt;p>Business rules are what makes Kianda forms come alive. They represent the actual actions users intend to perform when they interact with form components. There are 60 predefined rules you can apply to forms, see &lt;a href="#rules-list">Rules list&lt;/a>.&lt;/p>
+&lt;p>There are two key principles to consider when working with forms:&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>&lt;a href="#rule-design">Rule design&lt;/a> - what type of rule you are going to apply and where, for example to a button, field or form. As part of design considerations it is important to know what you can do to rules, in particular the use of &lt;a href="getting-started/create-first-process/conditions.md">conditions&lt;/a> and &lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/plan-your-process/expressions/">expressions&lt;/a>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="#rule-order">Rule order&lt;/a> - if there are several rules attached to an item like a button, then the order of execution is important and can be modified to suit your needs.&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h2 id="how-to-get-started">How to get started&lt;/h2>
+&lt;p>If you go to &lt;strong>Side menu&lt;/strong> &amp;gt; &lt;strong>Administration&lt;/strong> &amp;gt; &lt;strong>Designer&lt;/strong> and click on a process or create a new process, the predefined rules are found in the left-hand pane under &lt;strong>Add a rule&lt;/strong>.&lt;/p>
+&lt;p>&lt;em>&lt;strong>Rule categories&lt;/strong>&lt;/em>&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/ruleslist80.png" alt="Rules list">&lt;/p>
+&lt;p>By default there are 10 categories of rules, see &lt;a href="#rules-list">Rules list&lt;/a> for rule names :&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>Workflow&lt;/strong> - There are 7 workflow rules that represent the actions a user intends to perform, when they interact with form components.&lt;/li>
+&lt;li>&lt;strong>Communications&lt;/strong> - There are 4 communication rules associated with user communication for example sending an email or triggering a user alert.&lt;/li>
+&lt;li>&lt;strong>Data&lt;/strong> - There are 5 data rules associated with database operations like create, update and delete.&lt;/li>
+&lt;li>&lt;strong>Users&lt;/strong> - There are 4 user rules associated with user properties, allowing user lookup or to update a user.&lt;/li>
+&lt;li>&lt;strong>File management&lt;/strong> - There are 7 file management rules concerned with generating documents such as Word, Excel or converting to PDF.&lt;/li>
+&lt;li>&lt;strong>Tables&lt;/strong> - There are 12 table rules associated with table operations such as updating, adding and removing table rows.&lt;/li>
+&lt;li>&lt;strong>Dates&lt;/strong> - There are 4 date rules to calculate time and format dates.&lt;/li>
+&lt;li>&lt;strong>Form actions&lt;/strong> - There are 6 form rules linked to actions that are part of forms, for example submit, close or save.&lt;/li>
+&lt;li>&lt;strong>SharePoint&lt;/strong> - There are 10 SharePoint associated rules such as adding, finding or removing users.&lt;/li>
+&lt;li>&lt;strong>KiandaAI&lt;/strong> - there is 1 KiandaAI rule related to text analysis.&lt;/li>
+&lt;/ol>
+&lt;p>An additional &lt;strong>Custom&lt;/strong> category exists if Kianda &lt;strong>Developer&lt;/strong> has been used to create custom rule widgets see &lt;a href="getting-started/welcome/low_code.md#how-to-get-started-with-developer">Developer&lt;/a> for more details.&lt;/p>
+&lt;h2 id="when-to-use-rules">When to use rules&lt;/h2>
+&lt;p>You can add rules:&lt;/p>
+&lt;ul>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> to a field&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> to a form&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> to a process (the rule will run on load)&lt;/li>
+&lt;/ul>
+&lt;h3 id="rule-design">Rule design&lt;/h3>
+&lt;ol>
+&lt;li>
+&lt;p>Click on an existing process by going to &lt;strong>Administration&lt;/strong> &amp;gt; &lt;strong>Designer&lt;/strong> and decide which form or field you will apply the rule to, by clicking on that item so that it is in &lt;strong>edit mode&lt;/strong> so you can see the Pen button, &lt;strong>Pen&lt;/strong> button &lt;img src="https://docs.kianda.com/images/penicon.png" alt="Pen button"> for example a form Training Approval or Submit button.&lt;/p>
+&lt;p>&lt;em>&lt;strong>Field editing&lt;/strong>&lt;/em>&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/submitedit.png" alt="Edit mode for forms and fields">&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Click on &lt;strong>Add a rule&lt;/strong> in the right-hand pane and click on a category of choice, such as &lt;strong>Communications&lt;/strong> and then a rule &lt;strong>User alert&lt;/strong>.&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h3 id="rule-order">Rule order&lt;/h3>
+&lt;p>If there is more than 1 rule for an item like a field or button, then the order of execution must be considered.&lt;/p>
+&lt;p>For example for a Submit button on a form you may want a &lt;strong>Send email rule&lt;/strong> to be executed first before any other rule is executed. To do this click on the &lt;strong>Submit&lt;/strong> button to make sure you are in &lt;strong>Edit&lt;/strong> mode, and under &lt;strong>Rules&lt;/strong> in the right-hand pane, drag the &lt;strong>Send email&lt;/strong> rule to the top of the list by clicking on the rule and dragging it to the top.&lt;/p>
+&lt;p>&lt;em>&lt;strong>Rule order&lt;/strong>&lt;/em>&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/ruleorder.png" alt="Rule order">&lt;/p>
+&lt;h2 id="rules-list">Rules list&lt;/h2>
+&lt;p>A full list of rules is available in the table below.&lt;/p>
+&lt;p>&lt;em>&lt;strong>Rules by category and title&lt;/strong>&lt;/em>&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/rulestablecal12.gif" alt="Rules list">&lt;/p>
+&lt;h3 id="whats-next--idea-iconimages18png">What&amp;rsquo;s next &lt;img src="https://docs.kianda.com/images/18.png" alt="Idea icon">&lt;/h3>
+&lt;p>To learn more about control fields go to &lt;a href="../controls/">&lt;strong>Controls&lt;/strong>&lt;/a>.&lt;/p>
+&lt;p>To learn how to get the most out of rules, go to the links on &lt;a href="../conditions/">&lt;strong>Conditions&lt;/strong>&lt;/a> and &lt;a href="../expressions/">&lt;strong>Expressions&lt;/strong>&lt;/a>.&lt;/p>
+&lt;h3 id="to-return-to-the-previous-pages-click-on-the-links-below--idea-iconimages10png">&lt;strong>To return to the previous pages click on the links below&lt;/strong> &lt;img src="https://docs.kianda.com/images/10.png" alt="Idea icon">&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="getting-started/welcome/how_kianda_works.md">&lt;strong>How Kianda works&lt;/strong>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="getting-started/create-first-process/plan_process.md">&lt;strong>Plan your process&lt;/strong>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="getting-started/create-first-process/design_process.md">&lt;strong>Design and build your process&lt;/strong>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="getting-started/create-first-process/create_form.md">&lt;strong>Add forms&lt;/strong>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="getting-started/create-first-process/designer.md">&lt;strong>Designer&lt;/strong>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="getting-started/create-first-process/properties.md">&lt;strong>Properties&lt;/strong>&lt;/a>&lt;/li>
+&lt;li>&lt;strong>&lt;a href="getting-started/create-first-process/add_form_elements.md">Add controls and rules&lt;/a>&lt;/strong>&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Conditional logic</title><link>https://docs.kianda.com/docs/getting-started/create-first-process/plan-your-process/conditions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/getting-started/create-first-process/plan-your-process/conditions/</guid><description>
+&lt;p>Conditions add an important level of interactivity when used with &lt;strong>rules&lt;/strong>, creating pathways within a process based on user interaction.&lt;/p>
+&lt;p>Conditions work on the &amp;lsquo;if&amp;hellip;then&amp;hellip;else&amp;rsquo; principle, &amp;lsquo;if&amp;rsquo; the condition exists &amp;rsquo;then&amp;rsquo; an action happens, &amp;rsquo;else&amp;rsquo; another action happens and so are applied in three parts, depending on the rule that is used:&lt;/p>
+&lt;ol>
+&lt;li>Create the &lt;strong>condition(s)&lt;/strong>&lt;/li>
+&lt;li>Create the &lt;strong>action(s)&lt;/strong> that will be applied as a result of the first condition being in place&lt;/li>
+&lt;li>Create the &lt;strong>otherwise action(s)&lt;/strong> based on other conditions being in place&lt;/li>
+&lt;/ol>
+&lt;p>Take a simple Training Request and Approval Process for example, whereby an employee fills out a &lt;strong>request form&lt;/strong>, the details of which are sent to a manager for review in an &lt;strong>approval form&lt;/strong>. In this form the manager can either a) approve the request with a signature or b) not approve the request and provide feedback on why.&lt;/p>
+&lt;p>&lt;em>&lt;strong>Training Process flowchart&lt;/strong>&lt;/em>&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/trainingflow.gif" alt="Training Process flowchart">&lt;/p>
+&lt;p>A condition is created based on the &lt;strong>Manager Decision radio list&lt;/strong>:&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>Condition&lt;/strong>: If the decision is &amp;lsquo;Yes&amp;rsquo;&lt;/li>
+&lt;li>&lt;strong>Action&lt;/strong>: Then the Signature button appears&lt;/li>
+&lt;li>&lt;strong>Otherwise action:&lt;/strong> Else the decision is &amp;lsquo;No&amp;rsquo; and the Feedback text box appears&lt;/li>
+&lt;/ol>
+&lt;p>As one of the most commonly used rules that uses conditions is the &lt;strong>Workflow&lt;/strong> rule, &lt;strong>Hide or Disable&lt;/strong>, we will use this as an example in the video and &lt;a href="#getting-started-with-conditions">Getting started&lt;/a> section below.&lt;/p>
+&lt;p>&lt;em>&lt;strong>Using conditions in rules: Example of Hide or disable&lt;/strong>&lt;/em>&lt;/p>
+&lt;video width="100%" style="width:100%" controls>
+&lt;source src="https://docs.kianda.com/videos/conditions.mp4">
+Your browser does not support the video tag.
+&lt;/source>
+&lt;/video>
+&lt;h2 id="getting-started-with-conditions">Getting started with conditions&lt;/h2>
+&lt;p>Conditions are recognisable in Kianda from the &lt;strong>Conditions&lt;/strong> button &lt;img src="https://docs.kianda.com/images/condition.png" alt="Conditions button"> found in rules and dashboards.&lt;/p>
+&lt;p>To create a condition:&lt;/p>
+&lt;ol>
+&lt;li>Select a form or forms, field or fields and then, a rule, for example Hide or disable, as found in the &lt;strong>left side pane&lt;/strong> &amp;gt; &lt;strong>Add a rule&lt;/strong> &amp;gt; &lt;strong>Workflow&lt;/strong> &amp;gt; &lt;strong>Hide or Disable&lt;/strong>.&lt;/li>
+&lt;li>Click on &lt;strong>Edit conditions&lt;/strong>.&lt;/li>
+&lt;li>Click on &lt;strong>Add a conditions group&lt;/strong>.&lt;/li>
+&lt;li>In the &lt;strong>Edit conditions dialog box&lt;/strong>, choose from the elements below, by drilling down to the form(s) or field(s) that you want to apply the rule to.&lt;/li>
+&lt;/ol>
+&lt;p>&lt;em>&lt;strong>Condition elements&lt;/strong>&lt;/em>&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/conditions3.gif" alt="Condition elements">&lt;/p>
+&lt;p>In the case of &lt;strong>multiple conditions&lt;/strong>, you can use &lt;strong>And&lt;/strong> or &lt;strong>Or&lt;/strong> to create compound conditions.&lt;/p>
+&lt;p>&lt;em>&lt;strong>Compound conditions&lt;/strong>&lt;/em>&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/editconditions.gif" alt="Compound conditions">&lt;/p>
+&lt;ol start="5">
+&lt;li>Click on &lt;strong>OK&lt;/strong>.&lt;/li>
+&lt;li>Create the &lt;strong>actions&lt;/strong> and where applicable, otherwise actions. The action will depend on the rule that is chosen. For example for the &lt;strong>Workflow rule&lt;/strong>, &lt;strong>Hide or Disable&lt;/strong>, click on the field under &lt;strong>Action&lt;/strong> and choose the form(s) or field(s) where you want an action applied.&lt;/li>
+&lt;/ol>
+&lt;p>&lt;em>&lt;strong>Action elements for Hide and Disable&lt;/strong>&lt;/em>&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/hideoptions.gif" alt="7 actions for Hide or Disable">&lt;/p>
+&lt;ol start="7">
+&lt;li>
+&lt;p>Then click on the field for &lt;strong>actions&lt;/strong> and choose one of 7 possible actions to apply.&lt;/p>
+&lt;p>The actions within &lt;strong>Hide or disable&lt;/strong> are:&lt;/p>
+&lt;p>a) &lt;strong>Hide&lt;/strong> will hide a process element (forms or fields) from view&lt;/p>
+&lt;p>b) &lt;strong>Show&lt;/strong> will show the element&lt;/p>
+&lt;p>c) &lt;strong>Disable&lt;/strong> blocks a user from editing an element&lt;/p>
+&lt;p>d) &lt;strong>Enable&lt;/strong> allows a user to add a value to an element&lt;/p>
+&lt;p>e) &lt;strong>Toggle visible&lt;/strong> will toggle between showing an element or not, based on subsequent clicks of a field that the rule is applied to&lt;/p>
+&lt;p>f) &lt;strong>Toggle enable&lt;/strong> will toggle between allowing an element to be edited or not, based on subsequent clicks of a field that the rule is applied to&lt;/p>
+&lt;p>g) &lt;strong>Hide and clear&lt;/strong> will allow you to hide a process element and clear the details. For example if a toggle button has this rule applied, with an &lt;strong>otherwise action&lt;/strong> of &lt;strong>show&lt;/strong> as actions on a textbox, then if one value is chosen on the toggle button, the user is allowed enter details into the textbox, otherwise the field is hidden and cleared of data so that no data can be retrieved, which might be useful for sensitive information like a social security number on a form.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Click on &lt;strong>+ Add&lt;/strong> to add more actions.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Click on &lt;strong>Add otherwise action&lt;/strong> to add more actions based on other values for the condition.&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;p>The video demonstrates how a condition works within the &lt;strong>Hide and Disable&lt;/strong> rule and highlights that multiple groups of conditions can be used to impact multiple actions to create highly sophisticated form interactions.&lt;/p>
+&lt;h3 id="user-tip--target-iconimages05png">User tip &lt;img src="https://docs.kianda.com/images/05.png" alt="Target icon">&lt;/h3>
+&lt;p>You can create &lt;strong>actions&lt;/strong> &lt;strong>without conditions too&lt;/strong>. In this case the rule will simply execute when the form or field is clicked on.&lt;/p>
+&lt;h3 id="whats-next--idea-iconimages18png">What&amp;rsquo;s next &lt;img src="https://docs.kianda.com/images/18.png" alt="Idea icon">&lt;/h3>
+&lt;p>To learn more about control fields go to &lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/plan-your-process/controls/">&lt;strong>Controls&lt;/strong>&lt;/a>.&lt;/p>
+&lt;p>To learn more about how expressions are used in rules go to &lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/plan-your-process/expressions/">&lt;strong>Expressions&lt;/strong>&lt;/a>.&lt;/p>
+&lt;h3 id="to-return-to-the-previous-pages-click-on-the-links-below--idea-iconimages10png">&lt;strong>To return to the previous pages click on the links below&lt;/strong> &lt;img src="https://docs.kianda.com/images/10.png" alt="Idea icon">&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/plan-your-process/">&lt;strong>Plan your process&lt;/strong>&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/plan-your-process/rules/">&lt;strong>Rules&lt;/strong>&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Expressions</title><link>https://docs.kianda.com/docs/getting-started/create-first-process/plan-your-process/expressions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/getting-started/create-first-process/plan-your-process/expressions/</guid><description>
+&lt;p>Expressions allow you to put together form identifiers and constants with operators and functions to return a &lt;strong>dynamic value&lt;/strong> that can be used in a rule to automate processes.&lt;/p>
+&lt;p>For example, expressions could be used in the body of an automated email sent using the &lt;strong>Send email&lt;/strong> rule, see below.&lt;/p>
+&lt;p>&lt;em>&lt;strong>Expression examples&lt;/strong>&lt;/em>&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/expressioneg.gif" alt="Expression examples">&lt;/p>
+&lt;p>In the example above, &lt;strong>[RequesterName]&lt;/strong> and &lt;strong>[form1.f10]&lt;/strong> are identifiers, that is unique IDs for form fields. &lt;strong>ProcessLink()&lt;/strong> is a function that will return a link to that process instance. Using the expressions above in an email will mean that every time an instance of the process runs, the values will be presented in an automated email, creating greater efficiencies and personalising the email for the recipient.&lt;/p>
+&lt;p>As one of the most commonly used rules that uses expressions is the &lt;strong>Communications&lt;/strong> rule, &lt;strong>Send email&lt;/strong>, we will use this as an example in the video and &lt;a href="#getting-started-with-expressions">Getting started&lt;/a> section below.&lt;/p>
+&lt;p>&lt;em>&lt;strong>Using expressions: Example of Sending email&lt;/strong>&lt;/em>&lt;/p>
+&lt;video width="100%" style="width:100%" controls>
+&lt;source src="https://docs.kianda.com/videos/expressions.mp4">
+Your browser does not support the video tag.
+&lt;/source>
+&lt;/video>
+&lt;h2 id="getting-started-with-expressions">Getting started with expressions&lt;/h2>
+&lt;p>Expressions are recognisable in Kianda from the &lt;strong>Expressions&lt;/strong> button &lt;img src="https://docs.kianda.com/images/ellipsis.png" alt="Expressions button"> found in edit rule dialog boxes and other menu items, such as enabling quick actions for processes.&lt;/p>
+&lt;p>Within rules, expressions can be created using the &lt;strong>Expression builder&lt;/strong> where you can &lt;strong>Add field to an expression&lt;/strong> or use the handy &lt;strong>Reference&lt;/strong> guide to get a list of commonly used functions.&lt;/p>
+&lt;p>&lt;em>&lt;strong>Expression builder&lt;/strong>&lt;/em>&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/expressionbuilder2.gif" alt="Expression builder">&lt;/p>
+&lt;p>We will use an example of expressions in the &lt;strong>Send email&lt;/strong> rule, in particular the &lt;strong>Body&lt;/strong> of an email. To create an expression:&lt;/p>
+&lt;ol>
+&lt;li>Select a form or forms, field or fields and then, a rule, for example Send email, as found in the &lt;strong>left side pane&lt;/strong> &amp;gt; &lt;strong>Add a rule&lt;/strong> &amp;gt; &lt;strong>Communications&lt;/strong>&amp;gt; &lt;strong>Send email&lt;/strong>.&lt;/li>
+&lt;li>Under &lt;strong>Action&lt;/strong>, click on the &lt;strong>Expressions&lt;/strong> button &lt;img src="https://docs.kianda.com/images/ellipsis.png" alt="Expressions button"> beside &lt;strong>Body&lt;/strong>.&lt;/li>
+&lt;li>Click on the field under &lt;strong>Add field to expression&lt;/strong> and drill down to the desired field, for example a text box &lt;strong>EmployeeName&lt;/strong>.&lt;/li>
+&lt;li>Click on &lt;strong>Add to expression&lt;/strong>.&lt;/li>
+&lt;li>Click on &lt;strong>OK&lt;/strong>.&lt;/li>
+&lt;li>To add additional field expressions, click on the click on the &lt;strong>Expressions&lt;/strong> button &lt;img src="https://docs.kianda.com/images/ellipsis.png" alt="Expressions button">again, under &lt;strong>Add field to expression&lt;/strong>, click on &lt;strong>X&lt;/strong> beside the field name to clear the expression box and then search for the desired field from a form.&lt;/li>
+&lt;li>To add a function, click on &lt;strong>Reference&lt;/strong> and copy the function into the body of the email. A list of references are available below.
+&lt;ul>
+&lt;li>&lt;strong>(+, -, /, *) operations&lt;/strong> - Perform basic math operations&lt;/li>
+&lt;li>&lt;strong>Sum(arg1, arg2, &amp;hellip;)&lt;/strong> - Returns the sum of the provided arguments&lt;/li>
+&lt;li>&lt;strong>Date(arg1)&lt;/strong> - Converts the argument into a date&lt;/li>
+&lt;li>&lt;strong>DateAdd(dateArg, day, month, year, hour, min)&lt;/strong> - Adds time to a date. The arguments day, month, year, hour and min represent the number to add for each respective argument&lt;/li>
+&lt;li>&lt;strong>Status()&lt;/strong> - Returns the process status&lt;/li>
+&lt;li>&lt;strong>ProcessID()&lt;/strong> - Returns the process ID&lt;/li>
+&lt;li>&lt;strong>FormOwner(&amp;lsquo;formName&amp;rsquo;)&lt;/strong> - Returns form owners for a given form&lt;/li>
+&lt;li>&lt;strong>FormCompleted(&amp;lsquo;formName&amp;rsquo;)&lt;/strong> - Returns form completed date a given form&lt;/li>
+&lt;li>&lt;strong>Pad(value, size, symbol)&lt;/strong> - Adds left padding to the value with the symbol provided&lt;/li>
+&lt;li>&lt;strong>QueryString(&amp;lsquo;parameter&amp;rsquo;)&lt;/strong> - Returns the URL query parameter or empty string if undefined&lt;/li>
+&lt;li>&lt;strong>IsOnline()&lt;/strong> - Returns &amp;ldquo;yes&amp;rdquo; or &amp;ldquo;no&amp;rdquo; if the current has connectivity or not&lt;/li>
+&lt;li>&lt;strong>ProcessLink()&lt;/strong> - Returns the html link to the current process. For use in emails or rich text fields&lt;/li>
+&lt;li>&lt;strong>Digest()&lt;/strong> - Returns the summary of field changes of a process&lt;/li>
+&lt;li>&lt;strong>Digest(&amp;rsquo;*fieldName1*&amp;rsquo;,&amp;rsquo;*fieldName2*&amp;rsquo;)&lt;/strong> - Returns the summary of field changes for the selected fields&lt;/li>
+&lt;li>&lt;strong>GetFieldText(&amp;rsquo;*fieldName*&amp;rsquo;)&lt;/strong> - Returns the field text&lt;/li>
+&lt;li>&lt;strong>GetFieldValue(&amp;rsquo;*fieldName*&amp;rsquo;)&lt;/strong> - Returns the field value&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Click on &lt;strong>OK&lt;/strong> when complete.&lt;/li>
+&lt;/ol>
+&lt;h3 id="whats-next--idea-iconimages18png">What&amp;rsquo;s next &lt;img src="https://docs.kianda.com/images/18.png" alt="Idea icon">&lt;/h3>
+&lt;p>To learn more about control fields go to &lt;a href="getting-started/create_process/controls.md">&lt;strong>Controls&lt;/strong>&lt;/a>.&lt;/p>
+&lt;p>To learn more about how conditions are used in rules go to &lt;a href="getting-started/create_process/conditions.md">&lt;strong>Conditions&lt;/strong>&lt;/a>.&lt;/p>
+&lt;h3 id="to-return-to-the-previous-pages-click-on-the-links-below--idea-iconimages10png">&lt;strong>To return to the previous pages click on the links below&lt;/strong> &lt;img src="https://docs.kianda.com/images/10.png" alt="Idea icon">&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/plan-your-process/">&lt;strong>Plan your process&lt;/strong>&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/plan-your-process/rules/">&lt;strong>Rules&lt;/strong>&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ul></description></item></channel></rss>

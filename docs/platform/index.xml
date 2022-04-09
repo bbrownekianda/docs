@@ -1,0 +1,379 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kianda no-code platform for business process automation – Platform</title><link>https://docs.kianda.com/docs/platform/</link><description>Recent content in Platform on Kianda no-code platform for business process automation</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://docs.kianda.com/docs/platform/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Administration</title><link>https://docs.kianda.com/docs/platform/administration/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/administration/</guid><description>
+&lt;p>The administration menu contains all the functions you need to maintain your Kianda workspace.&lt;/p></description></item><item><title>Docs: Application designer</title><link>https://docs.kianda.com/docs/platform/application-designer/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/application-designer/</guid><description>
+&lt;p>Kianda process designer provides an intuitive interface where you can quickly start building forms for any use case.&lt;/p>
+&lt;p>The key components of the form designer are:&lt;/p>
+&lt;ol>
+&lt;li>Left side panel containing both &lt;strong>controls&lt;/strong> and &lt;strong>rules&lt;/strong> that can be added to forms.&lt;/li>
+&lt;li>The central area is where the current &lt;strong>form canvas&lt;/strong> is displayed.&lt;/li>
+&lt;li>The right panel is where the currently selected component &lt;strong>properties&lt;/strong> and &lt;strong>rules&lt;/strong> are displayed.&lt;/li>
+&lt;/ol>
+&lt;p>&lt;em>&lt;strong>Form designer key components&lt;/strong>&lt;/em>&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/form-designer.png" alt="Form designer components">&lt;/p>
+&lt;h2 id="responsive-form-layout">Responsive form layout&lt;/h2>
+&lt;p>Form fields are made to with a mobile-first approach giving you design once and deploy everywhere opportunity.&lt;/p>
+&lt;p>By using the &lt;strong>Layout&lt;/strong> option under the property panel you will be able to simply define the layout of your fields or panels within a form. Clicking on the &lt;strong>^&lt;/strong> quickly uncovers the layout mode for desktop and mobile.&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/layout-mode.png" alt="Layout mode">&lt;/p>
+&lt;p>This allows you to specify a layout made of 1 to 12 columns and is based on bootstrap, a popular CSS framework that allows designing web interfaces with a mobile-first approach.&lt;/p>
+&lt;h2 id="forms--layout-fields">Forms &amp;amp; layout fields&lt;/h2>
+&lt;p>Kianda comes with several pre-defined field widgets. In case none of these satisfies your specific needs and if you have some level of &lt;a href="development.md">development&lt;/a> skills you can always create your custom field widget.&lt;/p>
+&lt;p>At the time of writing, the default fields fall into four main categories of fields:&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>Input&lt;/strong> - Input fields include the most common data fields such as textbox, user picker, date field, table, checkbox, drop-down and number fields.&lt;/li>
+&lt;li>&lt;strong>Layout&lt;/strong> - Layout fields are the fields that serve the purpose of perfecting the layout of your form. They include responsive panels, dialog box, field groups and rich text fields.&lt;/li>
+&lt;li>&lt;strong>Action&lt;/strong> - Action fields are fields that allow user interface actions like buttons, links or even signature components.&lt;/li>
+&lt;li>&lt;strong>Custom&lt;/strong> - Under custom fields, you will find any custom-developed fields available under your developer section.&lt;/li>
+&lt;/ol>
+&lt;p>Layout fields take an important role when building a modern user interface and allow you to achieve the pixel perfect layout you want.&lt;/p>
+&lt;h3 id="model-dialogs">Model dialogs&lt;/h3>
+&lt;p>Model dialogs are a special form of layout fields. It allows a form designer to define an interface with the key intention of grabbing users attention to something important.&lt;/p>
+&lt;p>Typically we use dialogs for things like requiring user confirmation or to let them make a final decision.&lt;/p>
+&lt;p>&lt;em>&lt;strong>How to use a model dialog&lt;/strong>&lt;/em>&lt;/p>
+&lt;video width="100%" style="width:100%" controls>
+&lt;source src="https://docs.kianda.com/videos/How to use a model dialog.mp4">
+Your browser does not support the video tag.
+&lt;/source>
+&lt;/video>
+&lt;p>On the example above, we use a modal dialog to display a simple &lt;em>warning to the user&lt;/em>. The following are the steps:&lt;/p>
+&lt;ol>
+&lt;li>On the Layout components, select the &lt;em>Dialog&lt;/em>.&lt;/li>
+&lt;li>Click on the dialog component to insert other fields within it.&lt;/li>
+&lt;li>You can add any field to your dialog, in this case, we are adding a Rich text.&lt;/li>
+&lt;li>To preview how your dialog box will be displayed, you can use the &lt;strong>Preview&lt;/strong> button, on the dialog component.&lt;/li>
+&lt;/ol>
+&lt;h3 id="forms">Forms&lt;/h3>
+&lt;p>Forms are an important component of any process, they might be used as stages of a process and could be made active individually or at the same time (parallel forms).&lt;/p>
+&lt;p>The key rules for working with forms are:&lt;/p>
+&lt;ol>
+&lt;li>Forms are assignable - means that only a form assignee can edit a particular form. This can be a combination of users and groups.&lt;/li>
+&lt;li>Only form owners can edit a given form by default. Any other user with access to view the form will see it in read-only mode.&lt;/li>
+&lt;li>Multi-step processes use the concept of &amp;ldquo;current form&amp;rdquo;. Only the form matching the process status will be made editable.&lt;/li>
+&lt;li>In a multi-step process, other forms that are not &amp;ldquo;current form&amp;rdquo; can be configured to &lt;strong>activate with&lt;/strong> the current form. Meaning they might also be editable and will form a form group.&lt;/li>
+&lt;/ol>
+&lt;p>The rules above work together to determine if the form is in edit mode or display mode. Form designers have at their disposal &lt;a href="business-rules.md">business rules&lt;/a> such as &lt;em>assign form&lt;/em>, &lt;em>go to form&lt;/em> and &lt;em>submit rule&lt;/em> to dynamically control the ability for end-users to edit a particular form or a section of a form.&lt;/p>
+&lt;p>&lt;em>&lt;strong>How to add new form&lt;/strong>&lt;/em>&lt;/p>
+&lt;video width="100%" style="width:100%" controls>
+&lt;source src="https://docs.kianda.com/videos/How to add new form 2.mp4">
+Your browser does not support the video tag.
+&lt;/source>
+&lt;/video>
+&lt;ol>
+&lt;li>Click on &lt;em>Add form&lt;/em>, on the top right side of the page.&lt;/li>
+&lt;li>Give your form a title.&lt;/li>
+&lt;li>The &lt;em>name&lt;/em> is a unique identifier - you can leave it as it is.&lt;/li>
+&lt;li>You can define an owner to the form.&lt;/li>
+&lt;li>Activate with will decide when the form will be active - if you leave it blank, the new form will be activated &lt;em>sequentially&lt;/em> after the first form is submitted.&lt;/li>
+&lt;li>Select &lt;em>Submit mode&lt;/em> - you can submit just the current form or all forms that are in edit mode.&lt;/li>
+&lt;li>Check &lt;em>Enable quick actions&lt;/em> if you want the form to be edited or re-assigned.&lt;/li>
+&lt;li>Provide a user or group in the &lt;em>Quick action user (s)&lt;/em> to whom you would like to permit to re-assign or edit the form.&lt;/li>
+&lt;/ol>
+&lt;h2 id="anonymous-forms">Anonymous Forms&lt;/h2>
+&lt;p>Anonymous forms are a great way of allowing people outside of your organisation to interact with your processes.&lt;/p>
+&lt;p>It could be something as simple as a contact form or a feedback form but as we all know a contact form never ends with the contact submission. There is always a process or a series of steps behind each public/anonymous form that might culminate with an actionable result back to the person that started the submission.&lt;/p>
+&lt;p>We have seen a few examples of how people use anonymous forms in Kianda. From simple feedback forms to GDPR data requests that hope between multi divisions before sending back a response to the requester with the level of information held by the organization.&lt;/p>
+&lt;p>Anonymous forms can be embedded in iframes and safely displayed within other web-based applications.&lt;/p>
+&lt;p>In Kianda there are effectively 2 types of anonymous forms&lt;/p>
+&lt;ul>
+&lt;li>New process anonymous form&lt;/li>
+&lt;li>Existing process anonymous form&lt;/li>
+&lt;/ul>
+&lt;h3 id="new-instance-anonymous-form-url">New instance anonymous form URL&lt;/h3>
+&lt;p>To set up a globally available link for allowing external users to create a new instance, perform the following steps within the form designer:&lt;/p>
+&lt;ol>
+&lt;li>On the top right corner of the designer click on the settings button.&lt;/li>
+&lt;li>Then click the option &amp;ldquo;Enable anonymous sharing of forms&amp;rdquo; to Yes.&lt;/li>
+&lt;li>Click the button &amp;ldquo;New Link&amp;rdquo; to generate a new anonymous link.&lt;/li>
+&lt;/ol>
+&lt;p>&lt;img src="https://docs.kianda.com/images/anonymous-forms.png" alt="Anonymous Form Settings">&lt;/p>
+&lt;h3 id="existing-instance-anonymous-form-url">Existing instance anonymous form URL&lt;/h3>
+&lt;p>To setup existing instance anonymous form one needs to use the anonymous form rule to generate a new anonymous link at the runtime that will point to an existing process record that can then be shared with external users.&lt;/p>
+&lt;p>Note that for this to work steps 1 and 2 of New Instance Anonymous form is still required.&lt;/p>
+&lt;p>The following are some of the key options of the anonymous link rule:&lt;/p>
+&lt;ul>
+&lt;li>Form to share (any form within an existing process).&lt;/li>
+&lt;li>Link expires settings: Number of uses, time-based or never expire.&lt;/li>
+&lt;li>Message to display on submission.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Important&lt;/strong>: There can be only one active link of each type for a given process. Once a new anonymous link is created for a process it will automatically expire the previous of the same type if a link existed.&lt;/p>
+&lt;h2 id="input-fields">Input fields&lt;/h2>
+&lt;p>Kianda forms usability is brought to life with the help of the various input fields available that are specifically adapted to work in mobile, tablet or desktop modes.&lt;/p>
+&lt;p>From the textbox, date picker, numeric input, file upload and table, Kianda offers a flexible array of controls that can be adjusted to work with a myriad of scenarios.&lt;/p>
+&lt;p>Key properties of fields:&lt;/p>
+&lt;p>Each field comes with its own set of settings like autofill for textbox and currency format for numeric input.&lt;/p>
+&lt;p>The following are some of the common settings of input fields:&lt;/p>
+&lt;ul>
+&lt;li>Title - Every field comes with a title property that is usually displayed on top of the field and can serve as a prompt to a user.&lt;/li>
+&lt;li>Required - This Boolean property allows making a field mandatory or not.&lt;/li>
+&lt;li>Visible - Displays the field in the form or not.&lt;/li>
+&lt;li>Layout - Defines both desktop or mobile layout.&lt;/li>
+&lt;/ul>
+&lt;h3 id="cascading-dropdown">Cascading dropdown&lt;/h3>
+&lt;p>The List field provides the opportunity to define an unlimited level cascading dropdown hierarchy very easily.&lt;/p>
+&lt;p>To achieve that you might connect your list to a data source table or SharePoint list then use the list data source conditions options to filter its content based on a parent list.&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/cascading-dropdown.png" alt="Cascading dropdown">&lt;/p>
+&lt;p>&lt;em>&lt;strong>How to create cascading dropdowns&lt;/strong>&lt;/em>&lt;/p>
+&lt;video width="100%" style="width:100%" controls>
+&lt;source src="https://docs.kianda.com/videos/How to create cascading dropdowns.mp4">
+Your browser does not support the video tag.
+&lt;/source>
+&lt;/video>
+&lt;h2 id="input-validation">Input validation&lt;/h2>
+&lt;p>Validating input in forms is quick and easy. Simply enable the &lt;strong>required&lt;/strong> flag of an input field and it will automatically prevent users from submitting it empty.&lt;/p>
+&lt;p>The required flag will conveniently be ignored in case the field is not visible, this will allow you to configure conditionally mandatory fields.&lt;/p>
+&lt;p>Another way of validating input is to use the &lt;strong>validate input rule&lt;/strong> this allows greater flexibility in terms of when or what to validate.&lt;/p>
+&lt;h2 id="cloning">Cloning&lt;/h2>
+&lt;p>In the form designer, almost any of the components can be cloned. This will increase your productivity considerably and will make creating multi-step processes a breeze.&lt;/p>
+&lt;p>To clone either a field a panel or even a form simple select the component then click the clone button in the properties panel in the right-hand side of the panel.&lt;/p>
+&lt;p>If cloning a field the cloning dialog will prompt for the destination of the new cloned field, once your choice is made, simply click ok.&lt;/p>
+&lt;p>&lt;em>&lt;strong>Cloning a form&lt;/strong>&lt;/em>&lt;/p>
+&lt;video width="100%" style="width:100%" controls>
+&lt;source src="https://docs.kianda.com/videos/Cloning a form updated.mp4">
+Your browser does not support the video tag.
+&lt;/source>
+&lt;/video>
+&lt;h2 id="custom-fields">Custom fields&lt;/h2>
+&lt;p>Custom fields section provides access to fields that are built for extensibility of Kianda capabilities. It is particularly useful in those situations where existing fields or rules will not provide the required functionality.&lt;/p>
+&lt;p>Custom fields have the purpose of providing a user interface for end-users. If you need to build &amp;ldquo;an action&amp;rdquo; then you should use a custom rule widget.&lt;/p>
+&lt;p>It allows a developer to build a reusable component that would then be used by process designers in real processes.&lt;/p>
+&lt;p>Check-out the &lt;a href="development.md">development&lt;/a> section for more details on how to build custom widgets in Kianda.&lt;/p>
+&lt;h2 id="advanced-techniques">Advanced techniques&lt;/h2>
+&lt;p>Like the cascading dropdown discussed above, several other advanced scenarios can be easily configured in Kianda. Here is a short-list:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Repeating section&lt;/strong> - A repeating section can be created by adding a &lt;strong>panel&lt;/strong> to a table field. This table can be configured to include a single column made of the panel that itself will include the repeating fields of your repeating section.&lt;/li>
+&lt;li>&lt;strong>The capture of media&lt;/strong> - Kianda enables mobile users to directly capture pictures, video or audio just like a native application.&lt;/li>
+&lt;li>&lt;strong>Background save&lt;/strong> - By making use of PWA principles (Progressive Web Application) Kianda allows the ability to perform background operations. This is useful when, for example, a mobile user picks-up their phone to perform a quick action and places it back in his pocket. Operations will continue in the background allowing all data to be captured.&lt;/li>
+&lt;li>&lt;strong>Image annotation&lt;/strong> - Kianda allows for image annotation online or offline.&lt;/li>
+&lt;li>&lt;strong>Multi-column / row layout&lt;/strong> - Making multi-column responsive interfaces is quite easy. Simply add two panels into a form that only use half of the screen (6 columns) then add fields inside panels and you have multiple column layouts. Adding a panel using 12 columns gives you a row.&lt;/li>
+&lt;li>&lt;strong>Form tab colour and icon&lt;/strong> - Form tabs can be quickly customised to display their icons or tab colours, it is also possible to define custom colours for selected and completed form tabs.&lt;/li>
+&lt;li>&lt;strong>Hide form tab and left nav&lt;/strong> - This is self-explanatory, yes you can hide the default navigation elements.&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Controls</title><link>https://docs.kianda.com/docs/platform/controls/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/controls/</guid><description>
+&lt;p>&lt;strong>Controls&lt;/strong> are predefined field widgets that allow you to add specific elements to your forms and processes such as lists, text boxes and tables. There are 16 controls you can add to a form, see &lt;a href="#controls-list">Controls list&lt;/a>.&lt;/p>
+&lt;p>If you have developer skills, you can create your own custom field widget, see &lt;a href="development/Readme.md">Development&lt;/a> for more information.&lt;/p>
+&lt;h2 id="getting-started-with-controls">Getting started with Controls&lt;/h2>
+&lt;p>If you go to &lt;strong>Administration&lt;/strong> &amp;gt; &lt;strong>Designer&lt;/strong> and click on a process or create a new process, the predefined fields are found in the left-hand pane.&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/controls.png" alt="Controls">&lt;/p>
+&lt;p>There are 3 categories of fields:&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>Input&lt;/strong> - There are 8 Input fields and they include the most common data fields such as textbox, user picker, date field, table, checkbox, drop-down and number fields, see &lt;a href="input/ReadMe.md">Input&lt;/a> for more information.&lt;/li>
+&lt;li>&lt;strong>Layout&lt;/strong> - There are 4 Layout fields that serve the purpose of perfecting the layout of your form. They include responsive panels, dialog box, field groups and rich text fields, see &lt;a href="layout/Readme.md">Layout&lt;/a> for more information.&lt;/li>
+&lt;li>&lt;strong>Action&lt;/strong> - There are 4 Action fields that allow user interface actions like buttons, links or even signature components, see &lt;a href="actions/Readme.md">Actions&lt;/a> for more information.&lt;/li>
+&lt;/ol>
+&lt;p>All fields will have edit options when you start creating the field, as well as field properties that you can edit. Each field can also have rules applied to it.&lt;/p>
+&lt;h2 id="controls-list">Controls list&lt;/h2>
+&lt;p>A full list of controls is available in the table below.&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/controlstable_orig.png" alt="Form controls">&lt;/p></description></item><item><title>Docs: Rules</title><link>https://docs.kianda.com/docs/platform/rules/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/</guid><description>
+&lt;p>Business rules are what makes Kianda forms come alive. They represent the actual actions users intend to perform when they interact with form components. There are 59 rules you can apply to forms, see &lt;a href="#rules-list">Rules list&lt;/a>.&lt;/p>
+&lt;p>There are two key principles to consider when working with forms:&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>Rule design - what type of rule you are going to apply and where, for example to a button, field or form&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Rule order - if there are several rules attached to an item like a button, then the order of execution is important and can be modified to suit your needs.&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h2 id="how-to-get-started">How to get started&lt;/h2>
+&lt;p>If you go to &lt;strong>Administration&lt;/strong> &amp;gt; &lt;strong>Designer&lt;/strong> and click on a process or create a new process, the predefined rules are found in the left-hand pane under &lt;strong>Add a rule&lt;/strong>.&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/rulesgeneral.png" alt="Rules">&lt;/p>
+&lt;p>There are 10 categories of rules:&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>Workflow&lt;/strong> - rules that represent the actions a user intends to perform, when they interact with form components. There are 6 workflow rules, see &lt;a href="workflow/">Workflow&lt;/a> for more information.&lt;/li>
+&lt;li>&lt;strong>Communications&lt;/strong> - rules associated with user communication for example sending an email or triggering a user alert. There are 4 communication rules, see &lt;a href="communications/">Communications&lt;/a> for more information.&lt;/li>
+&lt;li>&lt;strong>Data&lt;/strong> - rules associated with database operations like create, update and delete. There are 5 data rules, see &lt;a href="data/">Data&lt;/a> for more information.&lt;/li>
+&lt;li>&lt;strong>Users&lt;/strong> - rules associated with user properties, allowing user lookup or update a user. There are 4 user rules, see &lt;a href="users/">Users&lt;/a> for more information.&lt;/li>
+&lt;li>&lt;strong>File management&lt;/strong> - rules concerned with generating documents such as Word, Excel or converting to PDF. There are 7 file management rules, see &lt;a href="files/">File Management&lt;/a> for more information.&lt;/li>
+&lt;li>&lt;strong>Tables&lt;/strong> - rules associated with table operations such as updating, adding and removing table rows. There are 12 table rules, see &lt;a href="tables/">Tables&lt;/a> for more information.&lt;/li>
+&lt;li>&lt;strong>Dates&lt;/strong> - date rules to calculate time and format dates. There are 4 date rules, see &lt;a href="dates/">Dates&lt;/a> for more information.&lt;/li>
+&lt;li>&lt;strong>Form actions&lt;/strong> - rules linked to actions that are part of forms, for example submit, close or save. There are 6 form rules, see &lt;a href="form-actions/">Form actions&lt;/a> for more information.&lt;/li>
+&lt;li>&lt;strong>SharePoint&lt;/strong> - SharePoint associated rules such as adding, finding or removing users. There are 10 SharePoint rules, see &lt;a href="sharepoint/">SharePoint&lt;/a> for more information.&lt;/li>
+&lt;li>&lt;strong>KiandaAI&lt;/strong> - there is 1 KiandaAI rule related to text analysis, see &lt;a href="kianda-AI/">KiandaAI&lt;/a> for more information.&lt;/li>
+&lt;/ol>
+&lt;h3 id="rule-design">Rule design&lt;/h3>
+&lt;ol>
+&lt;li>
+&lt;p>Click on an existing process by going to &lt;strong>Administration&lt;/strong> &amp;gt; &lt;strong>Designer&lt;/strong> and decide which form or field you will apply the rule to, by clicking on that item so that it is in &lt;strong>edit mode&lt;/strong> so you can see the Pen button, &lt;strong>Pen&lt;/strong> button &lt;img src="https://docs.kianda.com/images/penicon.png" alt="Pen button"> for example a form Training Approval or Submit button.&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/formvsbutton.png" alt="Edit mode for forms and fields">&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Click on &lt;strong>Add a rule&lt;/strong> in the right-hand pane and click on a category of choice, such as &lt;strong>Communications&lt;/strong> and then a rule &lt;strong>User alert&lt;/strong>.&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h3 id="rule-order">Rule order&lt;/h3>
+&lt;p>If there is more than 1 rule for an item like a field or button, then the order of execution must be considered.&lt;/p>
+&lt;p>For example for a Submit button on a form I may want my &lt;strong>Send email rule&lt;/strong> to be executed first before any other rule is executed. To do this click on the &lt;strong>Submit&lt;/strong> button to make sure you are in &lt;strong>Edit&lt;/strong> mode, and under &lt;strong>Rules&lt;/strong> in the right-hand pane, drag the &lt;strong>Send email&lt;/strong> rule to the top of the list by clicking on the rule and dragging it to the top.&lt;/p>
+&lt;img src="https://docs.kianda.com/images/ruleorder.png" alt="Rule order" style="zoom:70%;" />
+&lt;h2 id="rules-list">Rules list&lt;/h2>
+&lt;p>A full list of rules is available in the table below.&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/rulestable_orig.png" alt="Rules list">&lt;/p></description></item><item><title>Docs: B2B Portals</title><link>https://docs.kianda.com/docs/platform/b2b-portals/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/b2b-portals/</guid><description/></item><item><title>Docs: Dashboard pages</title><link>https://docs.kianda.com/docs/platform/pages/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/pages/</guid><description>
+&lt;p>Kianda &lt;strong>dashboards&lt;/strong> deliver a convenient way to provide insights into how your business processes are performing. Kianda dashboards offer easy reporting, permissions management, quick build, condition-based filtering and many more features.&lt;/p>
+&lt;p>From lists to tiles, filter and charts, dashboards allow you to build full digital experiences to monitor your real-time processes in a few minutes.&lt;/p>
+&lt;p>There are 3 steps involved in creating a dashboard:&lt;/p>
+&lt;ol>
+&lt;li>Create a dashboard page.&lt;/li>
+&lt;li>Add one or more widgets.&lt;/li>
+&lt;li>Configure or edit the widgets to make the page look the way you want.&lt;/li>
+&lt;/ol>
+&lt;p>If you are using Kianda predefined processes from the &lt;a href="#platform/appstore.md">App Store&lt;/a> then dashboards have already been created for you! These are available by clicking on &lt;strong>Dashboard&lt;/strong> from the main side menu or left-hand pane.&lt;/p>
+&lt;p>Before you begin it is important to be aware that there are two modes involved in dashboard pages, an &lt;a href="#edit-mode-and-view-mode">Edit mode and View mode&lt;/a> as described below.&lt;/p>
+&lt;h2 id="edit-mode-and-view-mode">Edit mode and View mode&lt;/h2>
+&lt;p>When using dashboards there are two modes: &lt;strong>Edit mode&lt;/strong> and &lt;strong>View mode&lt;/strong>.&lt;/p>
+&lt;p>When you are in &lt;strong>View mode&lt;/strong>, the &lt;strong>Edit&lt;/strong> button &lt;img src="https://docs.kianda.com/images/edit.png" alt="Edit button"> will be visible in the top menu bar.&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/dashboardgeneral.png" alt="View mode">&lt;/p>
+&lt;p>When you click on the &lt;strong>Edit&lt;/strong> button &lt;img src="https://docs.kianda.com/images/edit.png" alt="Edit button"> you will be in &lt;strong>Edit mode&lt;/strong>, which means that the &lt;strong>Widget menu&lt;/strong> is available at the top of the dashboard page, along with the &lt;strong>Settings&lt;/strong> button &lt;img src="images/settings.png" alt="Settings"> to make changes to the page, and &lt;strong>Bin/Trash&lt;/strong> button &lt;img src="https://docs.kianda.com/images/binicon.png" alt="Bin button"> to delete the page.&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/editmode.png" alt="Page edit mode">&lt;/p>
+&lt;p>In &lt;strong>Edit mode,&lt;/strong> you can also make changes to widgets, for example Kianda predefined dashboards from the &lt;a href="#platform/appstore.md">App Store&lt;/a> as &lt;strong>Update configuration&lt;/strong> &lt;img src="https://docs.kianda.com/images/pen.png" alt="Pen button">, &lt;strong>Settings&lt;/strong> &lt;img src="images/cog.png" alt="Cog button">and &lt;strong>Delete&lt;/strong> &lt;img src="https://docs.kianda.com/images/bin.png" alt="Bin button"> buttons, will be available. If you want to create a dashboard page from scratch go to &lt;a href="#how-to-get-started">How to get started&lt;/a> or if you want to learn more about dashboard widgets go to &lt;a href="#dashboard-widgets">Dashboard widgets&lt;/a>.&lt;/p>
+&lt;h2 id="how-to-get-started">How to get started&lt;/h2>
+&lt;p>Kianda offers a user-friendly interface to create dashboards in a few minutes. Please follow the below video to create dashboards.&lt;/p>
+&lt;video width="100%" style="width:100%" controls>
+&lt;source src="https://docs.kianda.com/videos/updated_introduction_dashboard.mp4">
+Your browser does not support the video tag.
+&lt;/source>
+&lt;/video>
+&lt;ol>
+&lt;li>
+&lt;p>To create a dashboard, go to &lt;strong>Home&lt;/strong> &lt;img src="images/home.png" alt="Home button"> in the left-hand pane and click on &lt;strong>Create a new page&lt;/strong> icon &lt;img src="https://docs.kianda.com/images/createnew.png" alt="Create a new page">.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>A &lt;strong>Create dashboard page&lt;/strong> dialog box opens.&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/createdashboard.png" alt="Create dashboard page">&lt;/p>
+&lt;p>Choose from the edit options:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Title&lt;/strong> - dashboard title for example Training Requests&lt;/li>
+&lt;li>&lt;strong>Name&lt;/strong> - this is a unique name for the dashboard&lt;/li>
+&lt;li>&lt;strong>Visible to&lt;/strong> - determine who will see the dashboard, choose from a) Users b) Groups&lt;/li>
+&lt;li>&lt;strong>Icon&lt;/strong> - click on the arrow to choose from hundreds of icons to attach to your dashboard&lt;/li>
+&lt;li>&lt;strong>Sort order&lt;/strong> - choose a numeric value to sort on by click&lt;/li>
+&lt;li>&lt;strong>Group&lt;/strong> - define a group who will use this dashboard, for example HR managers&lt;/li>
+&lt;li>&lt;strong>Enable favourites&lt;/strong> checkbox - tick this checkbox if you want to enable this dashboard as a &amp;lsquo;favourite&amp;rsquo;&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Click on the &lt;strong>OK&lt;/strong> button when you are finished editing the field to save your changes or click on &lt;strong>Close&lt;/strong> to exit the dialog box without saving.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>The output is a menu with a number of widgets available that you can add to the dashboard. Go to &lt;a href="#dashboard-widgets">Dashboard widgets&lt;/a> to find out more about each widget type.&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/widgetmenu_resized.png" alt="Widget menu">&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>If you wish to change settings for the dashboard page, click on the &lt;strong>Settings&lt;/strong> button &lt;img src="images/settings.png" alt="Settings"> see &lt;a href="#dashboard-page-settings">Dashboard page settings&lt;/a> for more details.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>If you want to delete the dashboard page, click on the &lt;strong>Bin&lt;/strong> icon &lt;img src="images/bin.png" alt="Bin"> and then click on &lt;strong>Ok&lt;/strong> to confirm that you want to delete the dashboard page or click on &lt;strong>Cancel&lt;/strong> if you wish to cancel the deletion.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Save any changes you make by clicking on the &lt;strong>Save&lt;/strong> button &lt;img src="https://docs.kianda.com/images/save.png" alt="Save button"> in the top menu to ensure your dashboard changes are saved and you will see a pop-up message &lt;strong>Page saved successfully&lt;/strong>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>You are now in &lt;strong>View mode&lt;/strong>. To make further changes to the dashboard page, return to **Edit mode ** by clicking on the lick on the &lt;strong>Edit&lt;/strong> button &lt;img src="https://docs.kianda.com/images/edit.png" alt="Edit button"> in the top menu.&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h3 id="dashboard-widgets">Dashboard widgets&lt;/h3>
+&lt;p>Kianda comes with 7 predefined widgets as listed below. Using these widgets you can quickly and easily create a process dashboard in minutes. The widgets are:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>Rich text&lt;/strong>: The Rich text is used to display some texts, links or images on the dashboards.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Tile&lt;/strong>: A tile is used to display a count of instances with different colour schemes. You could also add conditions to display count, for example, you could add a condition “Status” equals “In-progress”, this will display the count of instances with status “In-progress”, see &lt;a href="pages/tile.md">Tile widget&lt;/a> for more details.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Chart:&lt;/strong> Using a chart widget, you could create a pie chart, bar chart or a line chart. These charts could be used to represent various conditions on a process, see &lt;a href="pages/chart.md">Chart widget&lt;/a> for more details.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>List:&lt;/strong> The list widget displays the instances of the selected process. List widget could also be used to connect with any other widget to display the filtered items, see &lt;a href="pages/list.md">List widget&lt;/a> for more details.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Filter:&lt;/strong> The filter widget is used to filter the instances based on a field. For example, process instances could be filtered by status, see &lt;a href="pages/filter.md">Filter widget&lt;/a> for more details.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Link:&lt;/strong> The link widget is used to add a link to a new process, dashboard or any external sources such as SharePoint, see &lt;a href="pages/link.md">Link widget&lt;/a> for more details.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Walk-through:&lt;/strong> This widget allows you to create a walk-through quickly which could be made available to a user, group or an organisation, see &lt;a href="pages/walkthrough.md">Walk through widget&lt;/a> for more details.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>When you have added one or more widgets, you can move the widgets around the dashboard page using the &lt;strong>Drag handle&lt;/strong> button. This is possible when you are in &lt;strong>Edit mode&lt;/strong>, see &lt;a href="#edit-mode-and-view-mode">Edit mode and View mode&lt;/a>.&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/draghandle.png" alt="Drag handle button">&lt;/p>
+&lt;h3 id="dashboard-page-settings">Dashboard page settings&lt;/h3>
+&lt;p>When you click on the &lt;strong>Settings&lt;/strong> button &lt;img src="images/settings.png" alt="Settings"> a &lt;strong>Page settings&lt;/strong> dialog box opens. The edit options are the same as &lt;strong>Create dashboard page&lt;/strong> dialog box that appears during page creation, see &lt;a href="#how-to-get-started">How to get started&lt;/a> but also includes &lt;strong>two&lt;/strong> additional checkboxes:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Display in mobile footer&lt;/strong> - tick this checkbox if you want to COME BACK TO&lt;/li>
+&lt;li>&lt;strong>Hide from navigation&lt;/strong> - tick this checkbox if you want to hide the dashboard from navigation COME BACK TO&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://docs.kianda.com/images/dashsettings.png" alt="Dashboard settings">&lt;/p>
+&lt;p>Click on the &lt;strong>OK&lt;/strong> button when you are finished editing the field to save your changes or click on &lt;strong>Close&lt;/strong> to exit the dialog box without saving.&lt;/p>
+&lt;h3 id="enabling-data-export-from-dashboards">Enabling data export from dashboards&lt;/h3>
+&lt;p>Kianda allows the users to export the data from the dashboards on a simple click. To set up the configuration to export the data from the dashboards, please follow the below.&lt;/p>
+&lt;video width="100%" style="width:100%" controls>
+&lt;source src="https://docs.kianda.com/videos/Enabling data export from the dashboards.mp4">
+Your browser does not support the video tag.
+&lt;/source>
+&lt;/video>
+&lt;h3 id="offline-availability">Offline availability&lt;/h3>
+&lt;p>Kianda is a progressive web application. This enables Kianda dashboards to provide insights to the business processes even in offline mode.&lt;/p>
+&lt;p>For example, this can benefit businesses where users can carry out inspections or maintenance even at a remote location with no access to the internet. The user can create a new instance or carry out actions on an existing instance&lt;/p></description></item><item><title>Docs: Dashboard system</title><link>https://docs.kianda.com/docs/platform/dashboards/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/dashboards/</guid><description/></item><item><title>Docs: Data connectors</title><link>https://docs.kianda.com/docs/platform/connectors/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/connectors/</guid><description>
+&lt;h1 id="data-connectors">Data connectors&lt;/h1>
+&lt;p>Connecting to data in Kianda is a breeze. You can quickly connect to a data source, for example data in Salesforce, and use this in Kianda forms and dashboards, creating a &lt;strong>data connector&lt;/strong>.&lt;/p>
+&lt;p>Kianda comes with a predefined set of data connectors, these include:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="connectors/active_directory.md">Active Directory&lt;/a>&lt;/li>
+&lt;li>&lt;a href="connectors/docusign.md">DocuSign&lt;/a>&lt;/li>
+&lt;li>&lt;a href="connectors/dropbox.md">Dropbox&lt;/a>&lt;/li>
+&lt;li>&lt;a href="connectors/email.md">Email&lt;/a>&lt;/li>
+&lt;li>&lt;a href="connectors/file_system.md">File system&lt;/a>&lt;/li>
+&lt;li>&lt;a href="connectors/ftp.md">FTP&lt;/a>&lt;/li>
+&lt;li>&lt;a href="connectors/google_drive.md">Google Drive&lt;/a>&lt;/li>
+&lt;li>&lt;a href="connectors/mysql.md">MySQL&lt;/a>&lt;/li>
+&lt;li>&lt;a href="connectors/office_365.md">Office 365&lt;/a>&lt;/li>
+&lt;li>&lt;a href="connectors/oracle_database.md">Oracle&lt;/a>&lt;/li>
+&lt;li>&lt;a href="connectors/powershell.md">Powershell&lt;/a>&lt;/li>
+&lt;li>&lt;a href="connectors/Salesforce.md">Salesforce&lt;/a>&lt;/li>
+&lt;li>&lt;a href="connectors/SAP.md">SAP&lt;/a>&lt;/li>
+&lt;li>&lt;a href="connectors/sharepoint.md">SharePoint&lt;/a>&lt;/li>
+&lt;li>&lt;a href="connectors/sql_server.md">SQL&lt;/a>&lt;/li>
+&lt;li>&lt;a href="connectors/webservices.md">Web services&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>Click on each of the links above to find out more about each data connector.&lt;/p>
+&lt;p>If you have a data source that is not on the list above, you can use SOAP or REST to easily connect to your data source, go to [link to SOAP and REST] for more information.&lt;/p>
+&lt;p>&lt;strong>Connecting to SharePoint Data (On-premises or Online):&lt;/strong>&lt;/p>
+&lt;video width="100%" style="width:100%" controls>
+&lt;source src="https://docs.kianda.com/videos/SharePoint connection.mp4">
+Your browser does not support the video tag.
+&lt;/source>
+&lt;/video>
+&lt;h2 id="on-premises-data">On-premises data&lt;/h2>
+&lt;p>&lt;img src="https://app.kianda.com/Content/6ceb0eeb-bfb7-44a8-ad57-3df169286224/2929bafd-a863-48f8-985e-644bb48b7596.gif" alt="Connecting to on-premises SQL">&lt;/p>
+&lt;h2 id="offline-availability">Offline availability&lt;/h2>
+&lt;h2 id="database-connectors">Database connectors&lt;/h2>
+&lt;h2 id="cloud-connectors">Cloud connectors&lt;/h2>
+&lt;h2 id="powershell-connector">PowerShell connector&lt;/h2></description></item><item><title>Docs: Document generation</title><link>https://docs.kianda.com/docs/platform/document-generation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/document-generation/</guid><description/></item><item><title>Docs: Task Automation with Kianda</title><link>https://docs.kianda.com/docs/platform/automation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/automation/</guid><description>
+&lt;p>Kianda could automate any tasks in few simple steps. Tasks could be something like sending reminder emails, having a background check, action with respect data source or scheduling a sub-process.&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/kianda-schedule-tasks.JPG" alt="Scheduled tasks list">&lt;/p>
+&lt;p>Scheduling a task from the left navigation panel in a few simple steps:&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>Click on &amp;lsquo;Scheduled tasks&amp;rsquo; and click &amp;lsquo;Schedule a task&amp;rsquo; to create a new task.&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/kianda-schedule-new-task.JPG" alt="Scheduled task settings">&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Type in a task name.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Schedule: This field defines when does the schedule run.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Time mode: Choose an Absolute time or define a Relative time from now.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Process design: The process we are looking to automate.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Process ID: If we want to restrict the scheduled task on one particular instance of the process, then we could define the unique process ID of the instance in the Process ID field.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Select the field or rule: Selecting which rule or field to automate.&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h2 id="re-occurrence">Re-occurrence&lt;/h2>
+&lt;p>The Kianda schedule tasks can be triggered for re-occurrence. The re-occurrence could be by minutes, hours, days, weeks or months. Further, the schedule tasks could be configured easily to run at a specific minute of the hour, weekdays only, specific day of the week or specific day of the month.&lt;/p>
+&lt;h2 id="offline-availability">Offline availability&lt;/h2>
+&lt;h2 id="server-vs-client-side">Server vs client side&lt;/h2></description></item></channel></rss>

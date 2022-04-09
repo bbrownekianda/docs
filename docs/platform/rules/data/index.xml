@@ -1,0 +1,254 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kianda no-code platform for business process automation – Data rules</title><link>https://docs.kianda.com/docs/platform/rules/data/</link><description>Recent content in Data rules on Kianda no-code platform for business process automation</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://docs.kianda.com/docs/platform/rules/data/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Create data item rule</title><link>https://docs.kianda.com/docs/platform/rules/data/create-item/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/data/create-item/</guid><description>
+&lt;p>This rule is used to create an item on your data-connection. This is a straight forward rule which allows you to connect to your data source and map inputs. Also, you could map a data source field or text back to Kianda on success or store an error message on failure.&lt;/p>
+&lt;p>Sharepoint or SQL Server&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/createitem.png" alt="Create item dialog box">&lt;/p>
+&lt;h6 id="when-to-use">When to use&lt;/h6>
+&lt;p>You can add this rule:&lt;/p>
+&lt;ul>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> to a field&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> to a form&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> to a process (the rule will run on load)&lt;/li>
+&lt;/ul>
+&lt;h6 id="how-to-use">How to use&lt;/h6>
+&lt;p>To ..SharePoint list:???&lt;/p>
+&lt;ol>
+&lt;li>Click on a button e.g. the Submit button.???&lt;/li>
+&lt;li>Select Add a rule &amp;gt; Data &amp;gt;Create item.&lt;/li>
+&lt;li>Under Action, click on Select data source.&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>Select a SharePoint??&lt;/li>
+&lt;/ul>
+&lt;ol start="4">
+&lt;li>Under Input mapping&amp;hellip;&lt;/li>
+&lt;li>Under On success mapping&amp;hellip;&lt;/li>
+&lt;li>Under On error mapping&amp;hellip;&lt;/li>
+&lt;/ol>
+&lt;h6 id="notes">Notes&lt;/h6>
+&lt;p>Explain other advanced scenarios of the rule&lt;/p>
+&lt;p>Create an item in a data source &amp;ldquo;Datasource query rule - Use this rule together with a datasource to perform a create / insert query and return data identifiers for use with the form. Employ the transactional nature of the rule with input fields, results and error nodes to build retry logic&amp;rdquo;
+FROM HELP??
+It&amp;rsquo;s easy! First, make sure you have Kianda Cloud Connect installed on your computer (refer to How to download Kianda Cloud Connect, in the help section), and you have successfully configured a connection to your on-premises SQL database (refer to Can I connect to an on-premises data source?).&lt;/p>
+&lt;p>On the example, we already have these set, and also, we have a SQL database with a table called Products, as well as a form with the same name and fields.&lt;/p>
+&lt;p>To save the data into the SQL database, you use the same method as in any other data source:&lt;/p>
+&lt;p>Add the Create Item rule (under Data) on the button of your choice
+Click on Select Data Source, and select your Connection
+Map your input according to the database&lt;/p></description></item><item><title>Docs: Delete data item rule</title><link>https://docs.kianda.com/docs/platform/rules/data/delete-item/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/data/delete-item/</guid><description>
+&lt;p>This rule works exactly like Update item rule. To delete an item from your data connection, you could use a data source filter and map data source field or text from a data connection to Kianda form field.
+Delete an item in a data source &amp;ldquo;Datasource query rule - Use this rule together with a datasource to perform a delete query and return data identifiers for use with the form. Employ the transactional nature of the rule fields, results and error nodes to build retry logic&amp;rdquo;&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/deleteitem.png" alt="Delete item dialog box">&lt;/p>
+&lt;h6 id="when-to-use">When to use&lt;/h6>
+&lt;p>You can add this rule:&lt;/p>
+&lt;ul>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> to a field&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> to a form&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> to a process (the rule will run on load)&lt;/li>
+&lt;/ul>
+&lt;h6 id="how-to-use">How to use&lt;/h6>
+&lt;p>To ..SharePoint list:???&lt;/p>
+&lt;ol>
+&lt;li>Click on a button e.g. the Submit button.???&lt;/li>
+&lt;li>Select Add a rule &amp;gt; Data &amp;gt;Delete item.&lt;/li>
+&lt;li>Under Action, click on Select data source.&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>Select a SharePoint??&lt;/li>
+&lt;/ul>
+&lt;ol start="4">
+&lt;li>Data source filter&lt;/li>
+&lt;li>Under On success mapping&amp;hellip;&lt;/li>
+&lt;li>Under On error mapping&amp;hellip;&lt;/li>
+&lt;/ol>
+&lt;h6 id="notes">Notes&lt;/h6></description></item><item><title>Docs: Find items data rule</title><link>https://docs.kianda.com/docs/platform/rules/data/find-items/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/data/find-items/</guid><description>
+&lt;p>This rule implements the Read function which is one of the four CRUD functions. The rule will read one or more items of data from a chosen data source (see notes below on the types of data source that can be used).&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align:left">Rule&lt;/th>
+&lt;th style="text-align:left">CRUD function&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align:left">Find items&lt;/td>
+&lt;td style="text-align:left">Read&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">Create item&lt;/td>
+&lt;td style="text-align:left">Create&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">Update item&lt;/td>
+&lt;td style="text-align:left">Update&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">Delete item&lt;/td>
+&lt;td style="text-align:left">Delete&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>This rule is used to find an item from your data-connections. To find an item, you could use a data source filter which acts as a conditional bridge between Kianda and data-connections. If the condition is true, you could map the data source field or text to the Kianda form field.???&lt;/p>
+&lt;p>This rule is used to perform a query and return data for use in the form. The data may be stored locally or in one of the data sources.???&lt;/p>
+&lt;p>Datasource query rule - Use this rule together with a datasource to perform a query and return data for use with the form. Employ the datasource filter when using databases and the transactional nature of the rule to build retry logic ???
+FROM HELP???
+The Data source filter is excellent when you want to query data from a specific user using a unique identifier like an Id, name or email, for example.???&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/finditems.png" alt="Find items dialog box">&lt;/p>
+&lt;h6 id="when-to-use">When to use&lt;/h6>
+&lt;p>You can add this rule:&lt;/p>
+&lt;ul>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> to a field&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> to a form&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> to a process (the rule will run on load)&lt;/li>
+&lt;/ul>
+&lt;h6 id="how-to-use">How to use&lt;/h6>
+&lt;p>To read in data from a SharePoint list:&lt;/p>
+&lt;ol>
+&lt;li>Click on a button e.g. the Submit button.&lt;/li>
+&lt;li>Select Add a rule &amp;gt; Data &amp;gt; Find items.&lt;/li>
+&lt;li>Under Action, click on Select data source.&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>Select a SharePoint list e.g. Cities.&lt;/li>
+&lt;/ul>
+&lt;ol start="4">
+&lt;li>Under Results Mapping&amp;hellip;&lt;/li>
+&lt;/ol>
+&lt;p>To filter data in a SharePoint list:???see 5:34 mins&lt;/p>
+&lt;ol>
+&lt;li>Button?&lt;/li>
+&lt;li>Select Add a rule &amp;gt; Data &amp;gt; Find items.&lt;/li>
+&lt;li>Click on the rule that has the data you want to filter.&lt;/li>
+&lt;li>Click on the Data source filter button.&lt;/li>
+&lt;li>Choose the appropriate condition - in this case, we used the Id.&lt;/li>
+&lt;li>Click &amp;lsquo;OK&amp;rsquo;.&lt;/li>
+&lt;/ol>
+&lt;p>To make a remote procedure call&lt;/p>
+&lt;ol>
+&lt;li>Click on a button e.g. the Submit button.&lt;/li>
+&lt;li>Select Add a rule &amp;gt; Data &amp;gt; Find items.&lt;/li>
+&lt;li>Under Action, click on Select data source.&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>Select a REST Service e.g. Cities.&lt;/li>
+&lt;/ul>
+&lt;ol start="4">
+&lt;li>??where of SQL??? Data source filter&lt;/li>
+&lt;li>Under Input Mapping, specify the columns that will be retrieved.
+SQL statement: SELECT top 100 [name], [MatDesc] From Materials where PlatCode = 100 order by asc&lt;/li>
+&lt;/ol>
+&lt;h6 id="notes">Notes&lt;/h6>
+&lt;ol>
+&lt;li>Data sources that can be used:&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>SQL databases&lt;/li>
+&lt;li>SharePoint lists&lt;/li>
+&lt;li>etc.&lt;/li>
+&lt;/ul>
+&lt;ol start="2">
+&lt;li>Remote procedure data&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>SAP BAPIs&lt;/li>
+&lt;li>REST Endpoints&lt;/li>
+&lt;/ul>
+&lt;p>Key difference between 1 and 2 is input mapping parameters versus data source filtering&lt;/p>
+&lt;p>On error mapping:&lt;/p>
+&lt;ul>
+&lt;li>Max rows: allows you to further limit the amount of data that you are retrieving from the data source. Set the maximum number of rows.&lt;/li>
+&lt;li>Sort By and Direction enable sorting of the data.&lt;/li>
+&lt;li>Enable offline cache: If set to Yes, the data will be available when the user is offline. It should be used for small data sets (less than 500 rows).&lt;/li>
+&lt;/ul>
+&lt;p>These data rules are transactional rules - e.g. find items
+success
+failure
+You can build in re-try logic
+If you cannot connect to a database and that throws an error, that error can be trapped inside a variable or field and that same transaction can be run again later or even notify the user that the data is not available
+text from error message is from the data source that you are using&lt;/p></description></item><item><title>Docs: Set form field rule</title><link>https://docs.kianda.com/docs/platform/rules/data/set-form-field/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/data/set-form-field/</guid><description>
+&lt;p>This rule is used to set the value of a field (or fields) in a form. You can also use this rule to copy content between fields or to apply an expression to a given field.&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/setformfield.png" alt="Set form field dialog box">&lt;/p>
+&lt;h2 id="when-to-use">When to use&lt;/h2>
+&lt;p>You can add this rule:&lt;/p>
+&lt;ul>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> to a field&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> to a form&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> to a process (the rule will run on load)&lt;/li>
+&lt;/ul>
+&lt;h2 id="how-to-use">How to use&lt;/h2>
+&lt;p>Some examples of the usage of this rule are given below.&lt;/p>
+&lt;p>&lt;strong>To set the value of a field:&lt;/strong>&lt;/p>
+&lt;ol>
+&lt;li>Before adding the rule, add a text field: Click on Controls &amp;gt; Input &amp;gt; Text and drag the field onto the form. Edit the field by clicking on it and then clicking the pen icon. Change the Title to Status.&lt;/li>
+&lt;li>Select the Submit button.&lt;/li>
+&lt;li>Add a rule &amp;gt; Data &amp;gt; Set form field.&lt;/li>
+&lt;li>Under Form field to set, select the new field called Status.&lt;/li>
+&lt;li>Under Value or expression, enter the status e.g. Complete.&lt;/li>
+&lt;li>Click on OK.&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>To empty a field:&lt;/strong>&lt;/p>
+&lt;ol>
+&lt;li>Select the Submit button.&lt;/li>
+&lt;li>Add a rule &amp;gt; Data &amp;gt; Set form field.&lt;/li>
+&lt;li>Under Form field to set, select the field to be emptied.&lt;/li>
+&lt;li>Under Value or expression, add a few characters and then delete them all. If you skip this step, then you will get an error message because this is a mandatory field.&lt;/li>
+&lt;li>Click on OK.&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>To copy content between fields:&lt;/strong>&lt;/p>
+&lt;ol>
+&lt;li>Find two fields on the current form where one field is the source of the content and the other field is the destination for the content.&lt;/li>
+&lt;li>Select the Submit button.&lt;/li>
+&lt;li>Add a rule &amp;gt; Data &amp;gt; Set form field&lt;/li>
+&lt;li>Under Form field to set, select the destination field.&lt;/li>
+&lt;li>Under Value or expression, select the source field.&lt;/li>
+&lt;li>Click on OK.&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>To add two values together (using an expression):&lt;/strong>&lt;/p>
+&lt;ol>
+&lt;li>Before adding the rule, add three number fields: Click on Controls &amp;gt; Input &amp;gt; Number and drag a number field onto the form. Edit the field by clicking on it and then clicking the pen icon. Change the Title of the field to First Number. Change the Name(unique) to firstNumber. Repeat for Second Number and Result.&lt;/li>
+&lt;li>Select the Second Number field.&lt;/li>
+&lt;li>Add a rule &amp;gt; Data &amp;gt; Set form field.&lt;/li>
+&lt;li>Under Form field to set, select the Result field.&lt;/li>
+&lt;li>Under Value or expression, open the Expression builder by clicking on the button with 3 black dots.&lt;/li>
+&lt;li>In the Expression builder:
+&lt;ul>
+&lt;li>Click on Reference to view all of the options. Mathematical operations such as &amp;lsquo;+&amp;rsquo; are available.&lt;/li>
+&lt;li>Under Add field to expression, select the First Number field. Click on Add to Expression.&lt;/li>
+&lt;li>In the Expression window, enter the &amp;lsquo;+&amp;rsquo; symbol.&lt;/li>
+&lt;li>Under Add field to expression, select the Second Number field. Click on Add to Expression.&lt;/li>
+&lt;li>Click on OK.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Under Value or expression, check the expression is [firstNumber] + [secondNumber].&lt;/li>
+&lt;li>Click on OK.&lt;/li>
+&lt;/ol>
+&lt;p>See Advanced Features below for more information.&lt;/p>
+&lt;h6 id="notes">Notes&lt;/h6>
+&lt;p>None.&lt;/p></description></item><item><title>Docs: Update data item rule</title><link>https://docs.kianda.com/docs/platform/rules/data/update-item/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/data/update-item/</guid><description>
+&lt;p>At any point, if you would like to update any item on your data connection, this rule does it. To find an item to update, you could use a data source filter and map the input fields or text.&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/updateitem.png" alt="Update item dialog box">&lt;/p>
+&lt;h6 id="when-to-use">When to use&lt;/h6>
+&lt;p>You can add this rule:&lt;/p>
+&lt;ul>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> to a field&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> to a form&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> to a process (the rule will run on load)&lt;/li>
+&lt;/ul>
+&lt;h6 id="how-to-use">How to use&lt;/h6>
+&lt;p>To ..SharePoint list:???&lt;/p>
+&lt;ol>
+&lt;li>Click on a button e.g. the Submit button.???&lt;/li>
+&lt;li>Select Add a rule &amp;gt; Data &amp;gt;Update item.&lt;/li>
+&lt;li>Under Action, click on Select data source.&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>Select a SharePoint??&lt;/li>
+&lt;/ul>
+&lt;ol start="4">
+&lt;li>Data source filter&lt;/li>
+&lt;li>Under Input mapping&amp;hellip;&lt;/li>
+&lt;li>Under On success mapping&amp;hellip;&lt;/li>
+&lt;li>Under On error mapping&amp;hellip;&lt;/li>
+&lt;/ol>
+&lt;h6 id="notes">Notes&lt;/h6>
+&lt;p>Update an item in a data source &amp;ldquo;Datasource query rule - Use this rule together with a datasource to perform an update query and return data identifiers for use with the form. Employ the transactional nature of the rule with input fields, results and error nodes to build retry logic&amp;rdquo;&lt;/p>
+&lt;p>Ignore mapping for blank fields: then if this flag is set, ??? for example, if there are two fields to be updated and the user wants to update only one, and leaves the other blank, then the filled out field is updated and the other field is left unchanged.&lt;/p></description></item></channel></rss>

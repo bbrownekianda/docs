@@ -1,0 +1,48 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kianda no-code platform for business process automation – Platform security</title><link>https://docs.kianda.com/docs/security/</link><description>Recent content in Platform security on Kianda no-code platform for business process automation</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://docs.kianda.com/docs/security/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Workspace security</title><link>https://docs.kianda.com/docs/security/workspace-security/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/security/workspace-security/</guid><description/></item><item><title>Docs: Field level security</title><link>https://docs.kianda.com/docs/security/form-and-field-security/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/security/form-and-field-security/</guid><description/></item><item><title>Docs: Instance or record level security</title><link>https://docs.kianda.com/docs/security/record-security/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/security/record-security/</guid><description/></item><item><title>Docs: Single Sign On (SSO)</title><link>https://docs.kianda.com/docs/security/sso/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/security/sso/</guid><description>
+&lt;p>&lt;em>Note: If the Single-Sign-On is already enabled and if you wish to disable it. Try to clear the cache memory and&lt;/em> &lt;em>login to&lt;/em> Kianda by entering &lt;em>your password first and then the username.&lt;/em>&lt;/p>
+&lt;p>Enabling Single-Sign-On allows the user to login via Single-Sign-On connector. This connector could be SharePoint, Office365 or anything else. To enable Single-Sign-On, please follow the below steps:&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>Login to Kianda (the user must be of Admin role).&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Under the left navigation click on Administration =&amp;gt; Subscription =&amp;gt; Details.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&amp;lsquo;Enable Single-Sign-On’ to Yes. As shown below.&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/kianda-sso.jpg" alt="Single Sign On configuration">&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Select an SSO Provider from the list below.&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h2 id="integrate-with-office-365">Integrate with Office 365&lt;/h2>
+&lt;p>&lt;img src="https://docs.kianda.com/images/IntegrateOffice365.PNG" alt="Office 365 connector settings">&lt;/p>
+&lt;p>Kianda offers easy integration with Office 365. To set-up the office 365 data connector, please follow the steps below:&lt;/p>
+&lt;ol>
+&lt;li>Login to Kianda (the user must be of Admin role).&lt;/li>
+&lt;li>Under the left navigation click on Administration =&amp;gt; Data sources =&amp;gt; Add new.&lt;/li>
+&lt;li>Select &lt;em>Office 365&lt;/em> datasource.&lt;/li>
+&lt;li>Click on &lt;em>Authorize&lt;/em> and login to the Office 365 account.&lt;/li>
+&lt;li>Now, select the options using the checkboxes.&lt;/li>
+&lt;li>Click on &lt;em>Save&lt;/em> and then &lt;em>Test connection&lt;/em>.&lt;/li>
+&lt;/ol>
+&lt;h2 id="sync-with-active-directory">Sync with Active Directory&lt;/h2>
+&lt;h2 id="user-management">User Management&lt;/h2>
+&lt;p>Kianda provides an easy to create users and groups interface which could be synchronised with a data source of your choice. To create users or groups, please follow the steps below:&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>Login to Kianda (the user must be of Admin role).&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Click on &amp;lsquo;Users&amp;rsquo; in the left navigation.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Click on &amp;lsquo;Add User&amp;rsquo;, a pop-up window appears as shown below to provide the details of the user.&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/kianda-create-user.JPG" alt="Add user dialog">&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Click on &amp;lsquo;Add group&amp;rsquo;, a pop-up window appears as shown below to provide the details of the group.&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/kianda-create-group.JPG" alt="Add group dialog">&lt;/p>
+&lt;/li>
+&lt;/ol></description></item><item><title>Docs: Data residency</title><link>https://docs.kianda.com/docs/security/data-residency/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/security/data-residency/</guid><description/></item></channel></rss>

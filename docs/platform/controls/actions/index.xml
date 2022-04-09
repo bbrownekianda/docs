@@ -1,0 +1,101 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kianda no-code platform for business process automation – Actions</title><link>https://docs.kianda.com/docs/platform/controls/actions/</link><description>Recent content in Actions on Kianda no-code platform for business process automation</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://docs.kianda.com/docs/platform/controls/actions/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Button control</title><link>https://docs.kianda.com/docs/platform/controls/actions/button/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/controls/actions/button/</guid><description/></item><item><title>Docs: Image control</title><link>https://docs.kianda.com/docs/platform/controls/actions/image/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/controls/actions/image/</guid><description/></item><item><title>Docs: Link control</title><link>https://docs.kianda.com/docs/platform/controls/actions/link/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/controls/actions/link/</guid><description/></item><item><title>Docs: Richtext control</title><link>https://docs.kianda.com/docs/platform/controls/actions/richtext/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/controls/actions/richtext/</guid><description/></item><item><title>Docs: Signature control</title><link>https://docs.kianda.com/docs/platform/controls/actions/signature/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/controls/actions/signature/</guid><description>
+&lt;p>A &lt;strong>signature&lt;/strong> is section of a form. Panels hold other fields like lists and text boxes. It is a good idea when first creating a form to insert a panel and from there to insert other control fields.&lt;/p>
+&lt;h2 id="how-to-get-started">How to get started&lt;/h2>
+&lt;ol>
+&lt;li>
+&lt;p>To add a Signature to your form click on &lt;strong>Controls&lt;/strong> &amp;gt; &lt;strong>Actions&lt;/strong> &amp;gt; &lt;strong>Signature&lt;/strong>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Choose from the edit options:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>Title&lt;/strong> - of the Signature for example HR Manager Signature&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Name&lt;/strong> - this is a unique name for the field&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Help text&lt;/strong> - information to help the form user&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Signature pad height (pixels)&lt;/strong> - the height of the signature in pixels&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Signature color&lt;/strong> - click on the field and use the slider to move between colours and click on the palette to choose a particular hue or type in the R G B value if you know the colour you are looking for.&lt;/p>
+&lt;img src="https://docs.kianda.com/images/sigcolor.png" alt="Signature colour" style="zoom:67%;" />
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Signature tickness&lt;/strong> - number value&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Start signing button text&lt;/strong> - default text is &amp;lsquo;Start Signing&amp;rsquo;, type in the field to change the text that will appear on your Signature button&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Re-sign button text&lt;/strong> - default text is &amp;lsquo;Re-sign&amp;rsquo;&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Show username and signing time&lt;/strong> - options are a) Yes or b) No&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Require user authentication&lt;/strong> - options are a) Yes or b) No&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Hide sign by textbox&lt;/strong> - options are a) Yes or b) No&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Allow override sign by&lt;/strong> - options are a) Yes or b) No&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Hide default signature tab&lt;/strong> - options are a) Yes or b) No&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Auto save signature&lt;/strong> - options are a) Yes or b) No&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Button icon&lt;/strong> - click on the arrow in the dropdown list to select from several hundred icons for your signature button.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Button color&lt;/strong> - choose from Navy, Green, Blue, Amber, Red or White colours for your signature button.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Sign dialog button text&lt;/strong>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Click on the &lt;strong>OK&lt;/strong> button &lt;img src="https://docs.kianda.com/images/ok.png" alt="OK button"> when you are finished editing the panel to save your changes or click on &lt;strong>Close&lt;/strong> to exit the dialog box without saving.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>To move the signature, click on the &lt;strong>Drag handle&lt;/strong> beside the signature button &lt;img src="https://docs.kianda.com/images/move.png" alt="Move button"> and drag the signature to where you want it to appear on the form.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>To save your changes, click on the &lt;strong>Save&lt;/strong> button &lt;img src="https://docs.kianda.com/images/saveprocess.png" alt="Save button">.&lt;/p>
+&lt;p>When your signature is complete, you can click on it within the form and a dialog box appears giving you and option to choose from a system created &lt;strong>Signature&lt;/strong> or to &lt;strong>Draw or Upload&lt;/strong> your own version.&lt;/p>
+&lt;img src="https://docs.kianda.com/images/sigdecision.png" alt="Signature format" style="zoom:50%;" />
+&lt;p>If you click on &lt;strong>Draw or Upload&lt;/strong> then you can sign on the dotted line and click on &lt;strong>Clear&lt;/strong> at any stage to erase your work, or click on &lt;strong>Upload handwritten signature&lt;/strong> and browse for a file.&lt;/p>
+&lt;img src="https://docs.kianda.com/images/sigupload.png" alt="Signature upload" style="zoom:60%;" />
+&lt;p>Click on the &lt;strong>OK&lt;/strong> button to save your work.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>To delete the signature, click on the signature itself and then click on the &lt;strong>Bin/Trash&lt;/strong> button &lt;img src="images%5Cbinicon.png" alt="Bin or Trash icon"> and then click on &lt;strong>Ok&lt;/strong> after you have reviewed the field name and are sure this is what you want to delete. Click on &lt;strong>Cancel&lt;/strong> if you wish to cancel the deletion.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>You are now ready to add elements to your panel, for example a textbox, table or other fields, as well as rules. Go to &lt;a href="fields/README.md">Controls&lt;/a> to see the full list of fields available and &lt;a href="rules/README.md">Rules&lt;/a> to read about different categories of rules that can be applied.&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h2 id="how-to-edit-signature-properties">How to edit signature properties&lt;/h2>
+&lt;p>To change the signature properties, click on the signature itself and the properties pane appears on the right.&lt;/p>
+&lt;img src="https://docs.kianda.com/images/sigproperties.png" alt="Signature properties" style="zoom:60%;" />
+&lt;p>The &lt;strong>Field type&lt;/strong>, Signature is shown along with the &lt;strong>Title&lt;/strong> of the field, in the example above Signature 1.&lt;/p>
+&lt;p>The options within properties are as follows, check the checkbox to implement:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Show Title&lt;/strong> - show the title of the field&lt;/li>
+&lt;li>&lt;strong>Required&lt;/strong> - make this field mandatory for users to fill out&lt;/li>
+&lt;li>&lt;strong>Enabled&lt;/strong> - the field is enabled for users to use&lt;/li>
+&lt;li>&lt;strong>Visible&lt;/strong> - the field is visible to users&lt;/li>
+&lt;li>&lt;strong>Layout&lt;/strong> - change the width of the Signature button by clicking on the Layout box until you see the desired size. Click on the arrow beside Layout to see the Mobile Layout and click on box to change the width of the panel for mobile use.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://docs.kianda.com/images/textboxsize.png" alt="Changing text box width">&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Rules&lt;/strong> - rules for fields are covered in &lt;a href="https://docs.kianda.com/docs/platform/rules/">Rules&lt;/a>.&lt;/li>
+&lt;/ul></description></item></channel></rss>

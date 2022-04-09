@@ -1,0 +1,96 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kianda no-code platform for business process automation – Controls</title><link>https://docs.kianda.com/docs/platform/controls/</link><description>Recent content in Controls on Kianda no-code platform for business process automation</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://docs.kianda.com/docs/platform/controls/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Control properties</title><link>https://docs.kianda.com/docs/platform/controls/properties/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/controls/properties/</guid><description>
+&lt;p>Every process, form and control, such as text boxes and lists, will have properties visible in the right-hand pane of the &lt;a href="platform/form_designer2.md">Designer&lt;/a> view.&lt;/p>
+&lt;h2 id="process-properties">Process properties&lt;/h2>
+&lt;p>When you go to &lt;strong>Administration&lt;/strong> &amp;gt; &lt;strong>Designer&lt;/strong> &amp;gt; click on a process &amp;gt; &lt;strong>Process properties&lt;/strong> in the right-hand pane, you will see the properties for the chosen process.&lt;/p>
+&lt;p>The following properties are visible:&lt;/p>
+&lt;ul>
+&lt;li>Title - the title of process for example Quarterly Training Request&lt;/li>
+&lt;li>Page layout - you can click on &lt;strong>Wide&lt;/strong> &lt;img src="https://docs.kianda.com/images/wide_resized.png" alt="Wide button">or &lt;strong>Narrow&lt;/strong> &lt;img src="images/narrow_resized.png" alt="Narrow button"> to change the layout.
+&lt;img src="https://docs.kianda.com/images/formlayout_resized.png" alt="Process and form properties">&lt;/li>
+&lt;/ul>
+&lt;p>In the image above, the process &amp;lsquo;Quarterly Training Request&amp;rsquo; has 2 forms &amp;lsquo;Training Request&amp;rsquo; and &amp;lsquo;Training Approval&amp;rsquo;. Clicking on one of these forms will show the &lt;a href="#form-properties">Form properties&lt;/a>.&lt;/p>
+&lt;h2 id="form-properties">Form properties&lt;/h2>
+&lt;p>When you click on a form, the &lt;strong>Form properties&lt;/strong> appear in the right-hand pane.&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/formproperties_resized.png" alt="Form properties">&lt;/p>
+&lt;p>The following properties are visible:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>Title - the form title, for example Training Request&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Visible - click on this checkbox if you want the form to be visible to users&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Show info - click on this checkbox if you want to show information, for example who are the form owners, the design version and when the form was started and completed. This information will pop up at the bottom of the form.&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/forminfo_resized.png" alt="Form information">&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>Underneath form properties you will see &lt;strong>Form submit rules&lt;/strong>, go to &lt;a href="http://localhost:3000/#/rules/README">Rules&lt;/a> to find out more about Form rules.&lt;/p>
+&lt;p>Click on a control field, for example a text box, in the form to see &lt;a href="#field-properties">Field properties&lt;/a>.&lt;/p>
+&lt;h2 id="field-properties">Field properties&lt;/h2>
+&lt;p>When you click on any field, such as User picker, list or text box, the field properties appear in the right-hand pane.
+&lt;img src="https://docs.kianda.com/images/fieldproperties_resized.png" alt="Field properties">&lt;/p>
+&lt;p>The &lt;strong>Field type&lt;/strong>, in the example above, &lt;strong>Text box&lt;/strong>, is shown along with the &lt;strong>Title&lt;/strong> of the field, in the example above, this is Employee Name.&lt;/p>
+&lt;p>The options within properties are:&lt;/p>
+&lt;ul>
+&lt;li>Show Title - show the title of the field&lt;/li>
+&lt;li>Required - tick this checkbox to make this field mandatory for users to fill out&lt;/li>
+&lt;li>Enabled - tick this checkbox to make the field enabled for users to fill out&lt;/li>
+&lt;li>Visible - tick this checkbox to make the field visible to users&lt;/li>
+&lt;li>Layout - change the width of the field by clicking on the bar in the Layout box until you see the desired size. Click on the arrow beside Layout to see the Mobile Layout and click on the bar to change the width of the text box for mobile use.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://docs.kianda.com/images/textboxsize_frame.png" alt="Changing text box width">&lt;/p>
+&lt;p>Underneath field properties you will see &lt;strong>Rules&lt;/strong>, go to &lt;a href="http://localhost:3000/#/rules/README">Rules&lt;/a> to find out more about Field rules.&lt;/p></description></item><item><title>Docs: Input controls</title><link>https://docs.kianda.com/docs/platform/controls/input/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/controls/input/</guid><description>
+&lt;p>Input fields are one category of &lt;a href="../">controls&lt;/a> and include the most common data fields such as used to obtain user input, for example textbox, table and checkbox.&lt;/p>
+&lt;h2 id="getting-started-with-input-controls">Getting started with Input controls&lt;/h2>
+&lt;p>If you go to &lt;strong>Administration&lt;/strong> &amp;gt; &lt;strong>Designer&lt;/strong> and click on a process or create a new process, then click on &lt;strong>Controls&lt;/strong> the input fields are found in the left-hand pane when you click on &lt;strong>Input&lt;/strong>.&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/input.png" alt="Input fields">&lt;/p>
+&lt;p>There are 8 types of input fields as follows:&lt;/p>
+&lt;ul>
+&lt;li>Text box - this is a section on a page that allows a user to enter text, for example an Address field, see &lt;a href="textbox.md">Text box&lt;/a> for more information.&lt;/li>
+&lt;li>List - lists of information, for example from a SharePoint data source. This is particular useful for dropdown menus when you want a user to fill out a form and choose an item from a list, see &lt;a href="list.md">List&lt;/a> for more information.&lt;/li>
+&lt;li>Number&lt;/li>
+&lt;li>Date&lt;/li>
+&lt;li>File&lt;/li>
+&lt;li>Table&lt;/li>
+&lt;li>User picker - allows you to choose from a list of users, this can be a preconfigured group like HR Managers or a list of users, see &lt;a href="userpicker.md">User picker&lt;/a> for more information.&lt;/li>
+&lt;li>Toggle&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Layout controls</title><link>https://docs.kianda.com/docs/platform/controls/layout/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/controls/layout/</guid><description>
+&lt;p>Layout fields are one category of &lt;a href="fields/Readme.md">controls&lt;/a> and include the fields used to enhance form layout for example using responsive panels, dialog box and rich text fields.&lt;/p>
+&lt;h2 id="getting-started-with-layout-fields">Getting started with Layout fields&lt;/h2>
+&lt;p>If you go to &lt;strong>Administration&lt;/strong> &amp;gt; &lt;strong>Designer&lt;/strong> and click on a process or create a new process, then click on &lt;strong>Controls&lt;/strong> the layout fields are found in the left-hand pane when you click on &lt;strong>Layout&lt;/strong>.&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/layouttypes.png" alt="Layout fields">&lt;/p>
+&lt;p>There are 4 types of layout fields as follows:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>Panel&lt;/strong> - responsive panels hold elements of your form like text boxes and lists, see &lt;a href="panel.md">Panel&lt;/a> for more information.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Dialog&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Richtext&lt;/strong> - richtext is used to create rich content in forms, for example an attractive banner, and provides optimum formatting options, see &lt;a href="richtext.md">Richtext&lt;/a> for more information.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Field group&lt;/strong> - is a convenient way to mirror a group of fields that are already created in a form, and reference those fields in your new form, making process design sleeker, see &lt;a href="field_group.md">Field group&lt;/a> for more details.&lt;/p>
+&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Actions</title><link>https://docs.kianda.com/docs/platform/controls/actions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/controls/actions/</guid><description>
+&lt;p>Action fields are one category of &lt;a href="fields/Readme.md">controls&lt;/a> and include the fields that allow user interface actions like buttons or links.&lt;/p>
+&lt;h2 id="getting-started-with-action-fields">Getting started with Action fields&lt;/h2>
+&lt;p>If you go to &lt;strong>Administration&lt;/strong> &amp;gt; &lt;strong>Designer&lt;/strong> and click on a process or create a new process, then click on &lt;strong>Controls&lt;/strong> the action fields are found in the left-hand pane when you click on &lt;strong>Action&lt;/strong>.&lt;/p>
+&lt;img src="https://docs.kianda.com/images/actions.png" alt="Action fields" style="zoom:67%;" />
+&lt;p>There are 4 types of action fields as follows:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>Button&lt;/strong> - buttons can be applied to forms to allow user interaction, see &lt;a href="button.md">Button&lt;/a> for more information.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Link&lt;/strong> -&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Image&lt;/strong> - see &lt;a href="richtext.md">Richtext&lt;/a> for more information.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Signature&lt;/strong> - applying this field provides a very neat way to electronically sign-off on a form or process, see &lt;a href="signature.md">Signature&lt;/a> for more information.&lt;/p>
+&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Custom controls</title><link>https://docs.kianda.com/docs/platform/controls/custom/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/controls/custom/</guid><description/></item></channel></rss>
