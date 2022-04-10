@@ -8,7 +8,7 @@ defaultContentLanguageInSubdir = false
 # Useful when translating.
 # enableMissingTranslationPlaceholders = true
 
-disqusShortname = "kianda"
+# disqusShortname = "kianda"
 
 enableRobotsTXT = true
 
