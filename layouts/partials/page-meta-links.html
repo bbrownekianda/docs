@@ -49,7 +49,7 @@
   <!-- <a href="{{ $editURL }}" class="td-page-meta--edit" target="_blank" rel="noopener"><i class="fa fa-edit fa-fw"></i> {{ T "post_edit_this" }}</a> -->
   <!-- <a href="{{ $newPageURL }}" class="td-page-meta--child" target="_blank" rel="noopener"><i class="fa fa-edit fa-fw"></i> {{ T "post_create_child_page" }}</a> -->
   <a href="{{ $issuesURL }}" class="btn btn-default" title="Create a new documentation issue" target="_blank" rel="noopener">
-    <i class="fab fa-comment-dots fa-lg"></i> 
+    <i class="fa fa-comment-dots fa-lg"></i> 
   </a>
   {{ with $gh_project_repo -}}
     {{ $project_issueURL := printf "%s/issues/new" . -}}
