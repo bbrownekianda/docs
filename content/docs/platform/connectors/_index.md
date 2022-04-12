@@ -4,28 +4,26 @@ linkTitle: "Data connectors"
 typora-root-url: ..\..\..\..\static
 ---
 
-# Data connectors
-
 Connecting to data in Kianda is a breeze. You can quickly connect to a data source, for example data in Salesforce, and use this in Kianda forms and dashboards, creating a **data connector**. 
 
 Kianda comes with a predefined set of data connectors, these include:
 
-- [Active Directory](connectors/active_directory.md)
-- [DocuSign](connectors/docusign.md)
-- [Dropbox](connectors/dropbox.md)
-- [Email](connectors/email.md)
-- [File system](connectors/file_system.md) 
-- [FTP](connectors/ftp.md) 
-- [Google Drive](connectors/google_drive.md) 
-- [MySQL](connectors/mysql.md) 
-- [Office 365](connectors/office_365.md) 
-- [Oracle](connectors/oracle_database.md) 
-- [Powershell](connectors/powershell.md) 
-- [Salesforce](connectors/Salesforce.md)
-- [SAP](connectors/SAP.md)
-- [SharePoint](connectors/sharepoint.md)
-- [SQL](connectors/sql_server.md) 
-- [Web services](connectors/webservices.md) 
+- [Active Directory](active-directory/)
+- [DocuSign](docusign/)
+- [Dropbox](dropbox/)
+- [Email](email/)
+- [File system](file-system/) 
+- [FTP](ftp/) 
+- [Google Drive](google-drive/) 
+- [MySQL](mysql/) 
+- [Office 365](office-365/) 
+- [Oracle](oracle-database/) 
+- [Powershell](powershell/) 
+- [Salesforce](Salesforce/)
+- [SAP](sap/)
+- [SharePoint](sharepoint/)
+- [SQL Server](sql-server/) 
+- [Web services](webservices/) 
 
 Click on each of the links above to find out more about each data connector. 
 

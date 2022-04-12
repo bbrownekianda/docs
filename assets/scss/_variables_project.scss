@@ -10,3 +10,20 @@ $primary : #063680;
     display: none;
 }
 
+#td-sidebar-menu li.td-sidebar-nav__section.with-child > a > span::before{
+    content: "\f0da";
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    margin-right: 5px;
+}
+
+#td-sidebar-menu li.td-sidebar-nav__section.with-child.active-path>a>span::before {
+    content: "\f0d7";
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    margin-right: 5px;
+}
+
+#m-docs>span::before{
+    content:"" !important;
+}
