@@ -311,26 +311,25 @@ Your browser does not support the video tag.
 &lt;h3 id="offline-availability">Offline availability&lt;/h3>
 &lt;p>Kianda is a progressive web application. This enables Kianda dashboards to provide insights to the business processes even in offline mode.&lt;/p>
 &lt;p>For example, this can benefit businesses where users can carry out inspections or maintenance even at a remote location with no access to the internet. The user can create a new instance or carry out actions on an existing instance&lt;/p></description></item><item><title>Docs: Dashboard system</title><link>https://docs.kianda.com/docs/platform/dashboards/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/dashboards/</guid><description/></item><item><title>Docs: Data connectors</title><link>https://docs.kianda.com/docs/platform/connectors/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/connectors/</guid><description>
-&lt;h1 id="data-connectors">Data connectors&lt;/h1>
 &lt;p>Connecting to data in Kianda is a breeze. You can quickly connect to a data source, for example data in Salesforce, and use this in Kianda forms and dashboards, creating a &lt;strong>data connector&lt;/strong>.&lt;/p>
 &lt;p>Kianda comes with a predefined set of data connectors, these include:&lt;/p>
 &lt;ul>
-&lt;li>&lt;a href="connectors/active_directory.md">Active Directory&lt;/a>&lt;/li>
-&lt;li>&lt;a href="connectors/docusign.md">DocuSign&lt;/a>&lt;/li>
-&lt;li>&lt;a href="connectors/dropbox.md">Dropbox&lt;/a>&lt;/li>
-&lt;li>&lt;a href="connectors/email.md">Email&lt;/a>&lt;/li>
-&lt;li>&lt;a href="connectors/file_system.md">File system&lt;/a>&lt;/li>
-&lt;li>&lt;a href="connectors/ftp.md">FTP&lt;/a>&lt;/li>
-&lt;li>&lt;a href="connectors/google_drive.md">Google Drive&lt;/a>&lt;/li>
-&lt;li>&lt;a href="connectors/mysql.md">MySQL&lt;/a>&lt;/li>
-&lt;li>&lt;a href="connectors/office_365.md">Office 365&lt;/a>&lt;/li>
-&lt;li>&lt;a href="connectors/oracle_database.md">Oracle&lt;/a>&lt;/li>
-&lt;li>&lt;a href="connectors/powershell.md">Powershell&lt;/a>&lt;/li>
-&lt;li>&lt;a href="connectors/Salesforce.md">Salesforce&lt;/a>&lt;/li>
-&lt;li>&lt;a href="connectors/SAP.md">SAP&lt;/a>&lt;/li>
-&lt;li>&lt;a href="connectors/sharepoint.md">SharePoint&lt;/a>&lt;/li>
-&lt;li>&lt;a href="connectors/sql_server.md">SQL&lt;/a>&lt;/li>
-&lt;li>&lt;a href="connectors/webservices.md">Web services&lt;/a>&lt;/li>
+&lt;li>&lt;a href="active-directory/">Active Directory&lt;/a>&lt;/li>
+&lt;li>&lt;a href="docusign/">DocuSign&lt;/a>&lt;/li>
+&lt;li>&lt;a href="dropbox/">Dropbox&lt;/a>&lt;/li>
+&lt;li>&lt;a href="email/">Email&lt;/a>&lt;/li>
+&lt;li>&lt;a href="file-system/">File system&lt;/a>&lt;/li>
+&lt;li>&lt;a href="ftp/">FTP&lt;/a>&lt;/li>
+&lt;li>&lt;a href="google-drive/">Google Drive&lt;/a>&lt;/li>
+&lt;li>&lt;a href="mysql/">MySQL&lt;/a>&lt;/li>
+&lt;li>&lt;a href="office-365/">Office 365&lt;/a>&lt;/li>
+&lt;li>&lt;a href="oracle-database/">Oracle&lt;/a>&lt;/li>
+&lt;li>&lt;a href="powershell/">Powershell&lt;/a>&lt;/li>
+&lt;li>&lt;a href="Salesforce/">Salesforce&lt;/a>&lt;/li>
+&lt;li>&lt;a href="sap/">SAP&lt;/a>&lt;/li>
+&lt;li>&lt;a href="sharepoint/">SharePoint&lt;/a>&lt;/li>
+&lt;li>&lt;a href="sql-server/">SQL Server&lt;/a>&lt;/li>
+&lt;li>&lt;a href="webservices/">Web services&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;p>Click on each of the links above to find out more about each data connector.&lt;/p>
 &lt;p>If you have a data source that is not on the list above, you can use SOAP or REST to easily connect to your data source, go to [link to SOAP and REST] for more information.&lt;/p>
