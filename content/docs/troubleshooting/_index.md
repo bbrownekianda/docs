@@ -1,5 +1,5 @@
 ---
-title: "Toubleshooting"
+title: "Troubleshooting"
 weight: 8
 ---
 
