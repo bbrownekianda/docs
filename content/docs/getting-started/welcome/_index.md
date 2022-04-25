@@ -28,7 +28,7 @@ Kianda saves your organisation time and resources. Following a short onboarding,
 
 For those that have coding experience, Kianda's open, extensible architecture allows a **low-code** approach, meaning you can use the Kianda graphical user interface to extend the range of applications to create what you want, using your own code. This type of reusability, leveraging existing templates to build applications, reduces the turnaround time, improving organisational productivity.
 
-The flexible nature of Kianda allowing custom-coding and no-coding development, provides the optimum solution for your business.
+The flexible nature of Kianda allows custom-coding and no-coding development, providing the optimum solution for your business.
 
 
 
