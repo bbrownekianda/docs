@@ -4,7 +4,7 @@ weight: 5
 typora-root-url: ..\..\..\..\static
 ---
 
-# Security #
+
 
 ![Security](/images/security.png)
 
@@ -122,5 +122,4 @@ If you want to use Kianda for no-code development, then follow the steps below:
 ![2](/images/two.png)  [**Design and build your process**](/docs/getting-started/create-first-process/design-and-build/)
 
 ![3](/images/three.png)  [**Publish your process**](/docs/getting-started/create-first-process/publish-your-process/)
-
 
