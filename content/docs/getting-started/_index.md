@@ -33,7 +33,7 @@ typora-root-url: ..\..\..\static
 
 ![plan your your process](/images/one.png)  [**Plan your process**](/docs/getting-started/create-first-process/plan-your-process/) 
 
-![2](/images/two.png)  [**Design and build your process**](/docs/content/docs/getting-started/create-first-process/design-and-build/)
+![2](/images/two.png)  [**Design and build your process**](/docs/getting-started/create-first-process/design-and-build/)
 
 ![3](/images/three.png)  [**Publish your process**](/docs/getting-started/create-first-process/publish-your-process/)
 
