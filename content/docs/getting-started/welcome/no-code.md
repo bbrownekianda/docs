@@ -49,7 +49,7 @@ The key components of the form designer are:
 
 ![Form designer](/images/formdesigner_frame.png)
 
-For more information on how to use [Designer](/docs/getting-started/create-first-process/add-forms/designer), click on the link and view the video below. 
+For more information on how to use [Designer](/docs/getting-started/create-first-process/design-and-build/add-forms/designer/), click on the link and view the video below. 
 
 ***How Kianda Designer works***
 
