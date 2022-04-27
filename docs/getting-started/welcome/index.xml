@@ -87,7 +87,7 @@ Your browser does not support the video tag.
 &lt;/video>
 &lt;h2 id="responsive-form-layout">Responsive form layout&lt;/h2>
 &lt;p>Form fields are made to with a mobile-first approach giving you design once and deploy everywhere opportunity.&lt;/p>
-&lt;p>By using the &lt;strong>Layout&lt;/strong> option under the property panel you will be able to simply define the layout of your fields or panels within a form. Clicking on the &lt;strong>Collapse or Expand&lt;/strong> button &lt;img src="https://docs.kianda.com/images/collapse.png" alt="Collapse or expand button">quickly uncovers the layout mode for desktop and mobile.&lt;/p>
+&lt;p>By using the &lt;strong>Layout&lt;/strong> option under the property panel you will be able to simply define the layout of your fields or panels within a form. Clicking on the &lt;strong>Collapse or expand&lt;/strong> &lt;img src="https://docs.kianda.com/images/collapse.png" alt="Collapse or expand"> button quickly uncovers the layout mode for desktop and mobile.&lt;/p>
 &lt;p>&lt;img src="https://docs.kianda.com/images/layout.png" alt="Layout mode">&lt;/p>
 &lt;p>This allows you to specify a layout made of 1 to 12 columns and is based on bootstrap, a popular CSS framework that allows designing web interfaces with a mobile-first approach. You can see this layout in action in the video below.&lt;/p>
 &lt;p>&lt;em>&lt;strong>Editing forms&lt;/strong>&lt;/em>&lt;/p>
