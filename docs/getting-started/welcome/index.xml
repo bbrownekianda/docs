@@ -1,6 +1,6 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kianda no-code platform for business process automation – Welcome to Kianda</title><link>https://docs.kianda.com/docs/getting-started/welcome/</link><description>Recent content in Welcome to Kianda on Kianda no-code platform for business process automation</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://docs.kianda.com/docs/getting-started/welcome/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: How does Kianda work</title><link>https://docs.kianda.com/docs/getting-started/welcome/how-kianda-works/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/getting-started/welcome/how-kianda-works/</guid><description>
-&lt;p>The Kianda platform no-code / low-code (NCLC) platform is created with the ultimate flexibility and agility in mind, allowing simple user interactions to build complex processes.&lt;/p>
-&lt;p>Kianda has been constructed using an &lt;strong>Model, View, Controller (MVC) approach&lt;/strong>. This approach allows designers to build mobile-responsive applications via &lt;strong>rapid User Interface (UI) prototyping&lt;/strong>. The UI provides an easy way to build an application by clicking, scrolling, and drag and drop of fields. The layout both provides a way to both build the application or process schema, and to capture and monitor data at run-time.&lt;/p>
+&lt;p>The Kianda no-code / low-code (NCLC) platform has been created with the ultimate flexibility and agility in mind, allowing simple user interactions to build complex processes.&lt;/p>
+&lt;p>Kianda has been constructed using an &lt;strong>Model, View, Controller (MVC) approach&lt;/strong>. This approach allows designers to build mobile-responsive applications via &lt;strong>rapid User Interface (UI) prototyping&lt;/strong>. The UI provides an easy way to build an application by clicking, scrolling, and dragging and dropping fields. The layout both provides a way to build the application or process schema, and to capture and monitor data at run-time.&lt;/p>
 &lt;h2 id="whats-under-the-hood">What&amp;rsquo;s under the &amp;lsquo;hood&amp;rsquo;?&lt;/h2>
 &lt;p>&lt;img src="https://docs.kianda.com/images/carhood.png" alt="Man peering under the hood or bonnet of a car">&lt;/p>
 &lt;p>The MVC approach enables user or system-supplied data captured through fields within forms, to react or trigger defined rules associated with fields, forms or processes, via the &lt;strong>rules engine&lt;/strong>.&lt;/p>
@@ -9,26 +9,26 @@
 &lt;li>Rule blocks - these are blocks that unlock specific functionality using a toolkit approach&lt;/li>
 &lt;li>Flexible and declarative conditional logic&lt;/li>
 &lt;/ol>
-&lt;p>These two components (rule blocks and conditional logic) are used extensively and recursively by designers to build the required orchestration of actions or rules that interact with data to provide the required functionality for your apps or processes.&lt;/p>
-&lt;p>The rules engine, combined with conditional logic enables designers to build ambitious, progressive web applications or end-to-end digital business processes that offer both a great UI and high performance.&lt;/p>
+&lt;p>You can use these two key components - rule blocks and conditional logic - extensively and recursively to build the required orchestration of actions or rules that interact with data to provide the functionality you need in your apps or processes.&lt;/p>
+&lt;p>The rules engine, combined with conditional logic, enables designers to build ambitious, progressive web applications or end-to-end digital business processes that offer both a great UI and high performance.&lt;/p>
 &lt;p>In addition to the rules engine, CSS3, HTML5, EmberJS, WebApi and NodeJS are some of the underlying technologies used within the platform.&lt;/p>
 &lt;p>
 &lt;div class="alert alert-warning" role="alert">
 &lt;h3 id="what-makes-kianda-great-is-the-simplicity-and-unbounded-flexibility-it-gives-citizen-developers-and-low-code-developers-alike">What makes Kianda great is the simplicity and unbounded flexibility it gives citizen developers and low-code developers alike&lt;/h3>
 &lt;/div>
 &lt;img src="https://docs.kianda.com/images/chartgraphic.png" alt="Chart of Kianda benefits">&lt;/p>
-&lt;p>In summary the Kianda platform provides an ideal interface for rapid prototyping and delivering outcomes quickly.&lt;/p>
+&lt;p>In summary, the Kianda platform is an ideal interface for rapid prototyping and delivering outcomes quickly.&lt;/p>
 &lt;h3 id="user-tip-target-iconimages05png">User tip &lt;img src="https://docs.kianda.com/images/05.png" alt="Target icon">&lt;/h3>
 &lt;p>You can familiarise yourself with the key components of Kianda by going to the following links:&lt;/p>
 &lt;ul>
-&lt;li>&lt;a href="../create-first-process/design-and-build/add-forms/designer.md">&lt;strong>Application designer&lt;/strong>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/design-and-build/add-forms/designer/">&lt;strong>Application designer&lt;/strong>&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/design-and-build/add-controls-and-rules/">&lt;strong>Controls&lt;/strong>&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/plan-your-process/rules/">&lt;strong>Rules Engine&lt;/strong>&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/publish-your-process/">&lt;strong>Dashboards system&lt;/strong>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/publish-your-process/dashboards/">&lt;strong>Dashboards system&lt;/strong>&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/design-and-build/connect-your-data/">&lt;strong>Connectors ecosystem&lt;/strong>&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h3 id="whats-next--idea-iconimages18png">What&amp;rsquo;s next &lt;img src="https://docs.kianda.com/images/18.png" alt="Idea icon">&lt;/h3>
-&lt;p>If you want to use Kianda for no-code development, then follow the steps below:&lt;/p>
+&lt;p>If you want to use Kianda for no-code development, then follow these simple steps:&lt;/p>
 &lt;p>&lt;img src="https://docs.kianda.com/images/one.png" alt="1"> &lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/plan-your-process/">&lt;strong>Plan your process&lt;/strong>&lt;/a>&lt;/p>
 &lt;p>&lt;img src="https://docs.kianda.com/images/two.png" alt="2"> &lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/design-and-build/">&lt;strong>Design and build your process&lt;/strong>&lt;/a>&lt;/p>
 &lt;p>&lt;img src="https://docs.kianda.com/images/three.png" alt="3"> &lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/publish-your-process/">&lt;strong>Publish your process&lt;/strong>&lt;/a>&lt;/p></description></item><item><title>Docs: What is No-Code Development?</title><link>https://docs.kianda.com/docs/getting-started/welcome/no-code/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/getting-started/welcome/no-code/</guid><description>
