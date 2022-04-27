@@ -23,7 +23,7 @@ typora-root-url: ..\..\..\static
 
 
 
-#### To find out more about Kianda see 'Welcome' and to get started 'Logging in' click on the links below.  ![Idea icon](images/18.png) 
+#### To find out more about Kianda, go to 'Welcome to Kianda' and to get started logging in visit 'Logging in to Kianda' and the other links below.  ![Idea icon](images/18.png) 
 
 [**Welcome to Kianda**](/docs/getting-started/welcome/)
 
@@ -33,7 +33,7 @@ typora-root-url: ..\..\..\static
 
 ![plan your your process](/images/one.png)  [**Plan your process**](/docs/getting-started/create-first-process/plan-your-process/) 
 
-![2](/images/two.png)  [**Design and build your process**](/docs/getting-started/create-first-process/build-and-design/)
+![2](/images/two.png)  [**Design and build your process**](/docs/content/docs/getting-started/create-first-process/design-and-build/)
 
 ![3](/images/three.png)  [**Publish your process**](/docs/getting-started/create-first-process/publish-your-process/)
 
