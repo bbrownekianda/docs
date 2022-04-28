@@ -1,6 +1,6 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kianda no-code platform for business process automation – Rules</title><link>https://docs.kianda.com/docs/platform/rules/</link><description>Recent content in Rules on Kianda no-code platform for business process automation</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://docs.kianda.com/docs/platform/rules/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: General</title><link>https://docs.kianda.com/docs/platform/rules/general/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/general/</guid><description>
 &lt;h1 id="business-process-rules">Business Process Rules&lt;/h1>
-&lt;p>Business rules are what makes Kianda forms come alive. They represent the actual actions users intend to perform when they interact with form components.??&lt;/p>
+&lt;p>Business rules are what makes Kianda forms come alive. They represent the actual actions users intend to perform when they interact with form components.&lt;/p>
 &lt;h4 id="categories">Categories&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Workflow&lt;/strong> - Enables you to execute actions that might change the flow of the information within a process.&lt;/li>
@@ -15,47 +15,25 @@
 &lt;/ul>
 &lt;h4 id="working-with-rules">Working with rules&lt;/h4>
 &lt;h5 id="where-to-add-a-rule">Where to Add a rule&lt;/h5>
-&lt;ol>
-&lt;li>To a field so that it is triggered when ??&lt;/li>
-&lt;li>To a form - will be triggered on load&lt;/li>
-&lt;li>To a process - will be triggered on load
-Do all rules apply to each of these? Ask SS??&lt;/li>
-&lt;/ol>
-&lt;p>You can add this rule: Add to every rule??&lt;/p>
 &lt;ul>
 &lt;li>&lt;input checked="" disabled="" type="checkbox"> to a field&lt;/li>
 &lt;li>&lt;input checked="" disabled="" type="checkbox"> to a form&lt;/li>
 &lt;li>&lt;input checked="" disabled="" type="checkbox"> to a process (the rule will run on load)&lt;/li>
 &lt;/ul>
-&lt;p>???explain on load&lt;/p>
 &lt;h5 id="how-to-add-a-rule">How to Add a rule&lt;/h5>
-&lt;p>HELP FORM??
-To add a rule to a specific component:&lt;/p>
+&lt;p>To add a rule to a specific component:&lt;/p>
 &lt;p>Select the field you want.
 Under Add a rule, select the rule you want.
-Edit the rule and click &amp;lsquo;OK&amp;rsquo; - the rule will be displayed on the right-hand side of the page
-VIDEO??&lt;/p>
+Edit the rule and click &amp;lsquo;OK&amp;rsquo; - the rule will be displayed on the right-hand side of the page&lt;/p>
 &lt;h5 id="how-to-copy-a-rule">How to Copy a rule&lt;/h5>
-&lt;p>FROM HELP??
-Duplicating rules can be very useful in case you have similar rules that are in different fields. To duplicate a rule:&lt;/p>
+&lt;p>Duplicating rules can be very useful in case you have similar rules that are in different fields. To duplicate a rule:&lt;/p>
 &lt;p>Select the field with the desired rule
 Click on the Clone rule button, next to the rule name
-Optionally, modify the rule settings
-VIDEO??
-Can I duplicate a rule and apply it to another form?:
-FROM HELP??
-Kianda forms allow you to do that! On this example, we are replicating a rule from a submit button in one form, to a submit button in another:&lt;/p>
-&lt;p>Select the field which contains the rule.
-Click on the clone icon, next to the rules title.
-Click on the Copy to another field checkbox - leaving it unchecked will clone the rule to the same field.
-A list field will appear and you can select any field from any existing form in the current process.
-Click &amp;lsquo;OK&amp;rsquo;.
-VIDEO&lt;/p>
+Optionally, modify the rule settings&lt;/p>
 &lt;h5 id="how-to-view-a-rule">How to View a rule&lt;/h5>
 &lt;h5 id="how-to-edit-a-rule">How to Edit a rule&lt;/h5>
 &lt;h5 id="how-to-disable-a-rule">How to Disable a rule&lt;/h5>
 &lt;h5 id="where-to-place-a-rule-in-a-list-of-rules">Where to place a rule in a list of rules&lt;/h5>
-&lt;p>Yes, and it is more straightforward than you might think:&lt;/p>
 &lt;p>Select the field with the rules.
 On the Rules section, drag and drop the rules in the order you want them.
 Submit, save, close
@@ -63,14 +41,11 @@ If there is a Condition, then the fields must be set before it is run
 Example: Set Status, Send Email, Submit, Save, Close&lt;/p>
 &lt;h4 id="conditions">Conditions&lt;/h4>
 &lt;p>Flexible and dynamic conditions form an important component to make forms fully dynamic. It enables you to create natural language conditions when rules should be triggered.&lt;/p>
-&lt;p>&lt;img src="https://docs.kianda.com/images/condition-editor.png" alt="Condition Editor">???find image&lt;/p>
-&lt;p>Link to edit a condition help??? blue button &amp;lsquo;Edit conditions&amp;rsquo;, then &amp;lsquo;Add a conditions group&amp;rsquo; or &amp;lsquo;add condition&amp;rsquo; or &amp;lsquo;Remove group&amp;rsquo; Delete button &amp;lsquo;And&amp;rsquo; or &amp;lsquo;or&amp;rsquo;&lt;/p>
-&lt;p>FROM HELP??
-To configure a rule to conditionally execute an action:&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/condition-editor.png" alt="Condition Editor">&lt;/p>
+&lt;p>To configure a rule to conditionally execute an action:&lt;/p>
 &lt;p>Click on Edit conditions button within the rule.
 Add the conditions that satisfy your scenario.
-Multiple conditions can be grouped with condition groups.
-VIDEO??&lt;/p>
+Multiple conditions can be grouped with condition groups.&lt;/p>
 &lt;h4 id="custom-rules">Custom rules&lt;/h4>
 &lt;p>Under custom rules, you will find any custom-developed rules available under your developer section. Custom rules provide access to rules that are built for extensibility of Kianda capabilities. This is particularly used in situations when existing rules do not provide the required functionality.&lt;/p>
 &lt;p>Custom rules have the purpose of providing a user interface for the end-users. If you need to build &amp;ldquo;a rule&amp;rdquo; then you should use a custom rule widget.&lt;/p>
