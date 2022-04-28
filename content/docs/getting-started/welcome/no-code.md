@@ -70,7 +70,7 @@ The default fields fall into four main categories of fields:
 1. **Input** - Input fields include the most common data fields such as textbox, user picker, date field, table, checkbox, drop-down and number fields.
 2. **Layout** - Layout fields are the fields that serve the purpose of perfecting the layout of your form. They include responsive panels, dialog box, field groups and rich text fields.
 3. **Action** - Action fields are fields that allow user interface actions like buttons, links or even signature components.
-4. **Custom**  - Under custom fields, you will find any custom-developed fields developed using Kianda [Developer](low_code.md).
+4. **Custom**  - Under custom fields, you will find any custom-developed fields developed using [Kianda Developer](/docs/getting-started/welcome/low-code/).
 
 For example, layout fields play an important role when building a modern user interface, allowing you to add **Richtext** and **Dialog boxes**. You can use these fields together to create a modal dialog, allowing you a form designer to create an alert for a form user, for example when requiring user confirmation or making a final decision or check. 
 
@@ -216,7 +216,7 @@ Custom fields have the purpose of providing a user interface for end-users. If y
 
 It allows a developer to build a reusable component that would then be used by process designers in real processes.
 
-Check-out the [development](getting-started/welcome/low_code.md) section for more details on how to build custom widgets in Kianda.
+Check-out the [development](/docs/getting-started/welcome/low-code/) section for more details on how to build custom widgets in Kianda.
 
 
 
