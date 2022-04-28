@@ -7,7 +7,7 @@ typora-root-url: ..\..\..\..\static
 
 The Kianda platform is a modern [**low-code** and **no-code** **development platform**](#kianda-is-a-no-code-and-low-code-development-platform) providing anyone, including those without coding experience, the ability to digitise business **processes** and create beautiful, mobile-ready web applications. You can also use Kianda to make **dashboards** to monitor how your processes are performing and gain key insights to improve your business. And you can **customise** all of this the way you want to - no developer needed. However, if you are a developer, you can use the platform to build ambitious web-based business applications of any kind. 
 
-The Kianda platform provides an ideal interface for **rapid prototyping** and delivering outcomes quickly. But don't just take our word for it, see what our customers have to say.
+The Kianda platform provides an ideal interface for **rapid prototyping** and delivering outcomes quickly. But don't just take our word for it, see what our customers have to say. In this video, one of our customers outlines how Kianda has benefited their organisation due to it being user friendly and how the platform's flexibility means their use of Kianda has expanded into more areas.
 
 ***What is possible with Kianda: DEME example***
 
