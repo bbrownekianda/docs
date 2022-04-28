@@ -88,7 +88,7 @@ For example, layout fields play an important role when building a modern user in
 
 Form fields are made to with a mobile-first approach giving you design once and deploy everywhere opportunity.
 
-By using the **Layout** option under the property panel you will be able to simply define the layout of your fields or panels within a form. Clicking on the **Collapse or expand** ![Collapse or expand](/images/collapse.png) button quickly uncovers the layout mode for desktop and mobile.
+By using the **Layout** option under the property panel you will be able to simply define the layout of your fields or panels within a form. Clicking on the **Collapse or expand** ![Collapse or expand](/images/collapse.PNG) button quickly uncovers the layout mode for desktop and mobile.
 
 ![Layout mode](/images/layout.png)
 
