@@ -6,7 +6,7 @@ typora-root-url: ..\..\..\..\..\static
 
 # Business Process Rules
 
-Business rules are what makes Kianda forms come alive. They represent the actual actions users intend to perform when they interact with form components.??
+Business rules are what makes Kianda forms come alive. They represent the actual actions users intend to perform when they interact with form components.
 
 #### Categories
 
@@ -24,49 +24,24 @@ Business rules are what makes Kianda forms come alive. They represent the actual
 
 ##### Where to Add a rule
 
-1. To a field so that it is triggered when ??
-2. To a form - will be triggered on load
-3. To a process - will be triggered on load
-   Do all rules apply to each of these? Ask SS??
-
-You can add this rule: Add to every rule??
-
 - [x] to a field
 - [x] to a form 
 - [x] to a process (the rule will run on load)
 
-???explain on load
-
 
 ##### How to Add a rule
-
-HELP FORM??
 To add a rule to a specific component:
 
 Select the field you want.
 Under Add a rule, select the rule you want.
 Edit the rule and click 'OK' - the rule will be displayed on the right-hand side of the page
-VIDEO??
 
 ##### How to Copy a rule
-
-FROM HELP??
 Duplicating rules can be very useful in case you have similar rules that are in different fields. To duplicate a rule:
 
 Select the field with the desired rule
 Click on the Clone rule button, next to the rule name
 Optionally, modify the rule settings
-VIDEO??
-Can I duplicate a rule and apply it to another form?:
-FROM HELP??
-Kianda forms allow you to do that! On this example, we are replicating a rule from a submit button in one form, to a submit button in another:
-
-Select the field which contains the rule.
-Click on the clone icon, next to the rules title.
-Click on the Copy to another field checkbox - leaving it unchecked will clone the rule to the same field.
-A list field will appear and you can select any field from any existing form in the current process.
-Click 'OK'.
-VIDEO
 
 ##### How to View a rule
 
@@ -75,8 +50,6 @@ VIDEO
 ##### How to Disable a rule
 
 ##### Where to place a rule in a list of rules
-
-Yes, and it is more straightforward than you might think:
 
 Select the field with the rules.
 On the Rules section, drag and drop the rules in the order you want them.
@@ -88,17 +61,15 @@ Example: Set Status, Send Email, Submit, Save, Close
 
 Flexible and dynamic conditions form an important component to make forms fully dynamic. It enables you  to create natural language conditions when rules should be triggered.
 
-![Condition Editor](/images/condition-editor.png)???find image
+![Condition Editor](/images/condition-editor.png)
 
-Link to edit a condition help??? blue button 'Edit conditions', then 'Add a conditions group' or 'add condition' or 'Remove group' Delete button 'And' or 'or'
 
-FROM HELP??
+
 To configure a rule to conditionally execute an action:
 
 Click on Edit conditions button within the rule.
 Add the conditions that satisfy your scenario.
 Multiple conditions can be grouped with condition groups.
-VIDEO??
 
 #### Custom rules
 
