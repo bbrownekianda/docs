@@ -311,7 +311,7 @@ Your browser does not support the video tag.
 &lt;li>&lt;strong>Input&lt;/strong> - Input fields include the most common data fields such as textbox, user picker, date field, table, checkbox, drop-down and number fields.&lt;/li>
 &lt;li>&lt;strong>Layout&lt;/strong> - Layout fields are the fields that serve the purpose of perfecting the layout of your form. They include responsive panels, dialog box, field groups and rich text fields.&lt;/li>
 &lt;li>&lt;strong>Action&lt;/strong> - Action fields are fields that allow user interface actions like buttons, links or even signature components.&lt;/li>
-&lt;li>&lt;strong>Custom&lt;/strong> - Under custom fields, you will find any custom-developed fields developed using Kianda &lt;a href="low_code.md">Developer&lt;/a>.&lt;/li>
+&lt;li>&lt;strong>Custom&lt;/strong> - Under custom fields, you will find any custom-developed fields developed using &lt;a href="https://docs.kianda.com/docs/getting-started/welcome/low-code/">Kianda Developer&lt;/a>.&lt;/li>
 &lt;/ol>
 &lt;p>For example, layout fields play an important role when building a modern user interface, allowing you to add &lt;strong>Richtext&lt;/strong> and &lt;strong>Dialog boxes&lt;/strong>. You can use these fields together to create a modal dialog, allowing you a form designer to create an alert for a form user, for example when requiring user confirmation or making a final decision or check.&lt;/p>
 &lt;p>&lt;em>&lt;strong>Example of fields in action - creating a modal dialog&lt;/strong>&lt;/em>&lt;/p>
@@ -396,7 +396,7 @@ Your browser does not support the video tag.
 &lt;p>The Custom fields section of Kianda, called &lt;strong>Developer&lt;/strong> provides access to fields that are built for extensibility of Kianda capabilities. It is particularly useful in those situations where existing fields or rules will not provide the required functionality.&lt;/p>
 &lt;p>Custom fields have the purpose of providing a user interface for end-users. If you need to build &amp;ldquo;an action&amp;rdquo; then you should use a custom rule widget.&lt;/p>
 &lt;p>It allows a developer to build a reusable component that would then be used by process designers in real processes.&lt;/p>
-&lt;p>Check-out the &lt;a href="getting-started/welcome/low_code.md">development&lt;/a> section for more details on how to build custom widgets in Kianda.&lt;/p>
+&lt;p>Check-out the &lt;a href="https://docs.kianda.com/docs/getting-started/welcome/low-code/">development&lt;/a> section for more details on how to build custom widgets in Kianda.&lt;/p>
 &lt;h3 id="whats-next--idea-iconimages18png">What&amp;rsquo;s next &lt;img src="https://docs.kianda.com/images/18.png" alt="Idea icon">&lt;/h3>
 &lt;p>If you are ready to start your no-code development journey, then follow the steps below:&lt;/p>
 &lt;p>&lt;img src="https://docs.kianda.com/images/one.png" alt="1"> &lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/plan-your-process/">&lt;strong>Plan your process&lt;/strong>&lt;/a>&lt;/p>
