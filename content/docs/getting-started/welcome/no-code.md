@@ -5,9 +5,11 @@ weight: 2
 typora-root-url: ..\..\..\..\static
 ---
 
-No-Code development involves the creation of applications or business process without the need to code. A no-code platform provides a Graphical User Interface (GUI) to easily provide **citizen developers** or non-IT business professionals the ability to create and deploy digital solutions to meet business needs. Regardless of how the solution is created the output must meet all the requirements of a modern web application, being accessible through all major browsers and platforms, responsive in design so that it can be used on a variety of devices.
+No-Code development involves the creation of applications or business processes without the need to code. A no-code platform provides a Graphical User Interface (GUI) so that **citizen developers** or non-IT business professionals can easily create and deploy digital solutions to meet business needs. 
 
-Kianda form **Designer** provides an intuitive interface where both technical and non-technical users can quickly start building forms for any use case for use on any type of device.
+Regardless of how the solution is created, the output must meet all the requirements of a modern web application - being accessible through all major browsers and platforms and responsive in design so that it can be used on a variety of devices.
+
+Kianda form **Designer** provides an intuitive interface where both technical and non-technical users can quickly start building digital processes, forms and apps for use on any type of device.
 
 You don't need to know how to code to take advantage of Kianda's key features to create modern web application design. These features include:
 
@@ -16,22 +18,22 @@ You don't need to know how to code to take advantage of Kianda's key features to
 3. Wide array of [**predefined fields**](#predefined-fields) to choose from.
 4. [**Responsive** **form layout**](#responsive-form-layout).
 5. Vast selection of [**properties and settings**](#properties-and-settings) to customise your design.
-6. [**Connection to external datasources**](#connecting-to-datasources) to create highly dynamic forms, for example lists with cascading dropdown options.
+6. [**Connection to external datasources**](#connecting-to-datasources) to create up-to-date, scalable processes such as highly dynamic forms. For example, lists with cascading dropdown options.
 7. Ability to allow **[multimedia capture](#multimedia-capture)** and image annotation through forms.
 8. [**Rules**](#rules) to make forms reactive and interactive.
-9. [**Anonymous forms**](#anonymous-forms) that can be shared externally.
+9. [**Anonymous forms**](#anonymous-forms) so that processes can be shared externally.
 10. [**Dashboards**](#dashboards) to monitor processes in detail.
 11. Options to [**create custom**](#creating-custom-fields) fields, rules and dashboard widgets
 
-Click on the links above to find out more. 
+Click on each of these links to find out more. 
 
 
 
 ## Multibrowser and multidevice access
 
-Kianda is a **Progressive Web Application** **(PWA**) Kianda which means it can be used across a range of up-to-date browsers, on any platform - Windows, MacOS or Linux - and on any device. As a PWA, this means you can browse Kianda when not online, increasing engagement and availability. 
+Kianda is a **Progressive Web Application** **(PWA**) which means it can be used across a range of up-to-date browsers, on any platform - Windows, MacOS or Linux - and on any device. As a PWA, this means you can browse Kianda when not online, increasing engagement and availability. 
 
-This is particularly useful when operating in remote areas, for example performing a maintenance check of a wind turbine or other equipment in the field, and capturing information in draft form for submission later on back at the office. 
+This is particularly useful when operating in remote areas - for example, performing a maintenance check of a wind turbine or other equipment in the field, and capturing information in draft form for submission later on back at the office. 
 
 
 
@@ -42,14 +44,14 @@ Kianda form **Designer** provides an easy way to build forms and process compone
 The key components of the form designer are:
 
 1. **Left-hand pane** is used to add form elements like **controls** and **rules**. This pane also houses the **Exit** Designer ![Exit](/images/exitdesign.png) **Save** ![Save](/images/save.png)  **Preview** ![Preview](/images/preview.png) and **Publish** ![Publish](/images/publish.png) buttons.
-2. Central **form canvas** displays the current form you are working on and changes in real time.
+2. Central **form canvas** displays the current form you are working on and show the changes you are making in real time.
 3. **Right-hand pane** is used to view and edit process, form and field **properties** and **rules**.
 
 ***Kianda Designer***
 
 ![Form designer](/images/formdesigner_frame.png)
 
-For more information on how to use [Designer](/docs/getting-started/create-first-process/design-and-build/add-forms/designer/), click on the link and view the video below. 
+For more information, go to [Designer](/docs/getting-started/create-first-process/design-and-build/add-forms/designer/) and view the following video. 
 
 ***How Kianda Designer works***
 
@@ -63,16 +65,16 @@ For more information on how to use [Designer](/docs/getting-started/create-first
 
 ## Predefined fields ##
 
-Kianda comes with 16 predefined field widgets, see [Controls](/docs/getting-started/create-first-process/design-and-build/add-controls-and-rules/) for a full list. You can also use [Kianda Developer](/docs/getting-started/welcome/low-code/) to create custom fields in case none of these satisfy your specific needs and if you have some level of development skills.
+Kianda comes with 16 predefined field widgets, see [Controls](/docs/getting-started/create-first-process/design-and-build/add-controls-and-rules/) for a full list. You can also use [Kianda Developer](/docs/getting-started/welcome/low-code/) to create custom fields if you have some development experience and none of the predefined field widgets satisfy your specific needs.
 
-The default fields fall into four main categories of fields:
+The default fields fall into four main categories:
 
 1. **Input** - Input fields include the most common data fields such as textbox, user picker, date field, table, checkbox, drop-down and number fields.
 2. **Layout** - Layout fields are the fields that serve the purpose of perfecting the layout of your form. They include responsive panels, dialog box, field groups and rich text fields.
 3. **Action** - Action fields are fields that allow user interface actions like buttons, links or even signature components.
 4. **Custom**  - Under custom fields, you will find any custom-developed fields developed using [Kianda Developer](/docs/getting-started/welcome/low-code/).
 
-For example, layout fields play an important role when building a modern user interface, allowing you to add **Richtext** and **Dialog boxes**. You can use these fields together to create a modal dialog, allowing you a form designer to create an alert for a form user, for example when requiring user confirmation or making a final decision or check. 
+For example, layout fields play an important role when building a modern user interface as they allow you to add **Richtext** and **Dialog boxes**. You can use these fields together to create a modal dialog, allowing you as the form designer to create an alert for a form user - for example, when requiring user confirmation or making a final decision or check. 
 
 ***Example of fields in action - creating a modal dialog***
 
@@ -86,13 +88,13 @@ For example, layout fields play an important role when building a modern user in
 
 ## Responsive form layout
 
-Form fields are made to with a mobile-first approach giving you design once and deploy everywhere opportunity.
+Form fields are made to with a mobile-first approach, giving you design once and deploy everywhere opportunity.
 
-By using the **Layout** option under the property panel you will be able to simply define the layout of your fields or panels within a form. Clicking on the **Collapse or expand** ![Collapse or expand](/images/collapse.PNG) button quickly uncovers the layout mode for desktop and mobile.
+By using the **Layout** option in the property panel, you will be able to simply define the layout of your fields or panels within a form. Clicking on the **Collapse or expand** ![Collapse or expand](/images/collapse.PNG) button quickly uncovers the layout mode for desktop and mobile.
 
 ![Layout mode](/images/layout.png)
 
-This allows you to specify a layout made of 1 to 12 columns and is based on bootstrap, a popular CSS  framework that allows designing web interfaces with a mobile-first approach. You can see this layout in action in the video below.
+This allows you to specify a layout made of 1 to 12 columns and is based on bootstrap, a popular CSS  framework that allows you to design web interfaces with a mobile-first approach. You can see this layout in action in this video.
 
 ***Editing forms***
 
@@ -108,24 +110,24 @@ This allows you to specify a layout made of 1 to 12 columns and is based on boot
 
 Kianda form usability is brought to life with the help of the various input fields that are specifically adapted to work in mobile, tablet or desktop modes.
 
-From the textbox, date picker, numeric input, file upload and table, Kianda offers a flexible array of controls that can be **adjusted** through properties and settings to work with a myriad of scenarios.
+For each type of input field - such as textbox, date picker, numeric input, file upload and table - Kianda offers a flexible array of controls that can be **adjusted** through properties and settings to work with a myriad of scenarios.
 
-Each field comes with its own set of settings like autofill for textbox and currency format for numeric input. 
+Each field comes with its own range of settings like autofill for textbox and currency format for numeric input. 
 
-The following are some of the common properties of input fields:
+These are some of the common properties of input fields:
 
-- Title - Every field comes with a title property that is usually displayed on top of the field and can serve as a prompt to a user.
+- Title - Each field comes with a title property that is usually displayed on top of the field and can serve as a prompt to a user.
 - Required - Using this checkbox makes a field mandatory for form users to fill in.
 - Visible - Displays the field in the form if checked.
 - Layout - Defines both desktop or mobile layout.
 
-In addition to the above, each field has it's own set of settings, for example a **list** can have data entered manually, via a form, or from a data source such as SharePoint or Salesforce and that list can be displayed as a dropdown, radio, multiselect or checkbox list. 
+In addition to these common properties, each field also has its own range of settings. For example, a **list** can have data entered manually, via a form, or from an external data source such as SharePoint or Salesforce and that list can be displayed as a dropdown, radio, multiselect or checkbox list. 
 
 ## Connecting to datasources ##
 
-By connecting Kianda forms to existing datasources like lists in SharePoint, Google Drive or SQL tables to name a few examples, your processes will always stay relevant, up-to-date and perform as your data grows, creating a scalable solution. 
+By connecting Kianda forms to existing external datasources such as lists in SharePoint, Google Drive or SQL tables, your processes will always stay relevant, up-to-date and perform as your data grows, creating a scalable solution. 
 
-There are currently 19 different predefined data connectors that allow you to connect to Kianda processes, see the video below for the full list.
+There are currently 19 different predefined data connectors that allow you to connect external data sources to Kianda processes, as outlined in this video.
 
 ***Example connecting to a SharePoint datasource***
 
@@ -135,15 +137,15 @@ There are currently 19 different predefined data connectors that allow you to co
     </source>
 </video>
 
-The example above shows how a list field can be used in a form connected to SharePoint information, so as that list grows on SharePoint, then the process will information more information dynamically.
+The example in the video shows how a list field that is connected to SharePoint information can be used in a form, so that as the list grows on SharePoint, the information in the Kianda process will update dynamically.
 
-The list field in conjunction with datasources, provides the opportunity to define an unlimited level cascading dropdown hierarchy very easily. 
+The list field, in conjunction with datasources, allows you to define an unlimited level cascading dropdown hierarchy very easily. 
 
 ### Cascading dropdown example
 
-For example if you have SharePoint or Salesforce lists of customers in different countries and different cities, then you can use the list data source conditions options to filter content based on a parent list.
+Let's say, for example, that you have SharePoint or Salesforce lists of customers in different countries and different cities. You can then use the list data source conditions options to filter content based on that parent list.
 
-The video below shows how cascading lists connected to data sources works in practice.
+This video shows how cascading lists connected to data sources works in practice.
 
 ***How to create cascading dropdowns***
 
@@ -156,7 +158,7 @@ The video below shows how cascading lists connected to data sources works in pra
 
 
 ## Multimedia capture
-When creating forms, there are options to capture capture user input in a variety of ways, by clicking on radio buttons, selecting options from dropdown lists, entering text, uploading files, capturing images, videos, QR codes and voice input to name a few. See the video below to see examples of possiblities with forms.
+When creating forms, there are options to capture user input in a variety of ways - for example, by clicking on radio buttons, selecting options from dropdown lists, entering text, uploading files, capturing images, videos, QR codes and voice input. This video goes through some of the possiblities you have when building forms with Kianda.
 
 ***Examples of possibilities with Kianda forms***
 
@@ -170,9 +172,9 @@ When creating forms, there are options to capture capture user input in a variet
 
 ## Rules
 
-Rules are an important component of any process as they can be used to trigger automated actions, requiring minimal user management once created. There are 60 predefined rules in Kianda, covering workflow applications, communications and file management to name a few.
+Rules are an important component of any process as they can be used to trigger automated actions, requiring minimal user management once created. There are 60 predefined rules in Kianda, covering areas such as workflow applications, communications and file management.
 
-The video below shows an example of a rule that send an automated email, once a Submit button is pressed on a form.
+This video goes through an example of a rule that sends an automated email once a Submit button is clicked on a form.
 
 ***Examples of possibilities with Kianda forms***
 
@@ -187,16 +189,16 @@ The video below shows an example of a rule that send an automated email, once a 
 
 ## Anonymous Forms
 
-Anonymous forms are a great way of allowing people outside of your organisation to interact with your processes, for example simple feedback forms to GDPR data requests that hop between multi divisions before sending back a response to the requester with the level of information held by the organization.
+Anonymous forms are a great way of allowing people outside of your organisation to interact with your processes - for example, simple feedback forms to GDPR data requests that hop between multi divisions before sending back a response to the requester with the level of information held by the organisation.
 
-It could be something as simple as a contact form or a feedback form but as we all know a contact form never ends with the contact submission. There is always a process or a series of steps behind each public/anonymous form that might culminate with an actionable result back to the person that started the submission.
+Even with a simple contact form or feedback form, the process rarely ends when the form is submitted. There is always a process or a series of steps behind each public/anonymous form that might culminate with an actionable result that goes back to the person who started the submission.
 
 Anonymous forms can be embedded in iframes and safely displayed within other web-based applications.
 
 
 ## Dashboards ##
 
-Use Kianda's predefined widgets to create charts in a dashboard page for your process. There are 7 different widgets that allow you to create a visualisation, where you can zone in on key data that you want to highlight.
+Use Kianda's predefined widgets to create charts in a dashboard page for your process. There are seven different widgets that allow you to visualise different aspects of your process, allowing you to zone in on key data you want to highlight.
 
 ***Creating a dashboard***
 
@@ -210,11 +212,11 @@ Use Kianda's predefined widgets to create charts in a dashboard page for your pr
 
 ## Creating custom fields
 
-The Custom fields section of Kianda, called **Developer** provides access to fields that are built for extensibility of Kianda capabilities. It is particularly useful in those situations where existing fields or rules will not provide the required functionality.
+The Custom fields section of Kianda, called **Developer**, provides access to fields that are built for extensibility of Kianda capabilities. It is particularly useful in situations where existing fields or rules will not provide the required functionality.
 
-Custom fields have the purpose of providing a user interface for end-users. If you need to build "an action" then you should use a custom rule widget.
+Custom fields have the purpose of providing a user interface for end-users. If you need to build "an action", then you should use a custom rule widget.
 
-It allows a developer to build a reusable component that would then be used by process designers in real processes.
+Custom fields allow developers to build a reusable component that can then be used by process designers in real processes.
 
 Check-out the [development](/docs/getting-started/welcome/low-code/) section for more details on how to build custom widgets in Kianda.
 
@@ -222,7 +224,7 @@ Check-out the [development](/docs/getting-started/welcome/low-code/) section for
 
 ### What's next  ![Idea icon](/images/18.png) ###
 
-If you are ready to start your no-code development journey, then follow the steps below:
+To start your no-code development journey, follow these simple steps:
 
 ![1](/images/one.png)  [**Plan your process**](/docs/getting-started/create-first-process/plan-your-process/) 
 
