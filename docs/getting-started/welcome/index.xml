@@ -168,9 +168,9 @@ Your browser does not support the video tag.
 &lt;p>&lt;img src="https://docs.kianda.com/images/one.png" alt="1"> &lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/plan-your-process/">&lt;strong>Plan your process&lt;/strong>&lt;/a>&lt;/p>
 &lt;p>&lt;img src="https://docs.kianda.com/images/two.png" alt="2"> &lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/design-and-build/">&lt;strong>Design and build your process&lt;/strong>&lt;/a>&lt;/p>
 &lt;p>&lt;img src="https://docs.kianda.com/images/three.png" alt="3"> &lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/publish-your-process/">&lt;strong>Publish your process&lt;/strong>&lt;/a>&lt;/p></description></item><item><title>Docs: What is Low-Code Development?</title><link>https://docs.kianda.com/docs/getting-started/welcome/low-code/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/getting-started/welcome/low-code/</guid><description>
-&lt;p>Low-code development offers &lt;strong>software developers&lt;/strong> a shortcut to create something new and beneficial for their organisation. Rather than thinking about every single line of code, as a developer you can take advantage of Kianda&amp;rsquo;s &lt;strong>Developer&lt;/strong> to create your own custom widgets from predefined field, rule and dashboard code.&lt;/p>
-&lt;p>You can also quickly use Kianda &lt;strong>Developer&lt;/strong> to add &lt;a href="#webhooks">webhooks&lt;/a> providing an efficient way to push GET requests to other applications in real-time as the Kianda process runs, avoiding the need to poll for data.&lt;/p>
-&lt;p>Kianda uses EmberJS to build widgets, and in particular the Handlebars templating library to power the application&amp;rsquo;s user interface, see &lt;a href="#emberjs-templating-basics">templating basics&lt;/a> below to get started.&lt;/p>
+&lt;p>Low-code development offers &lt;strong>software developers&lt;/strong> a shortcut to create something new and beneficial for their organisation. Rather than having to think about every single line of code, as a developer you can take advantage of Kianda&amp;rsquo;s &lt;strong>Developer&lt;/strong> section to create your own custom widgets from predefined field, rule and dashboard code.&lt;/p>
+&lt;p>You can also quickly use Kianda &lt;strong>Developer&lt;/strong> to add &lt;a href="#webhooks">webhooks&lt;/a>, providing an efficient way to push GET requests to other applications in real-time as the Kianda process runs and avoiding the need to poll for data.&lt;/p>
+&lt;p>Kianda uses EmberJS to build widgets, and in particular the Handlebars templating library, to power the application&amp;rsquo;s user interface. See &lt;a href="#emberjs-templating-basics">templating basics&lt;/a> to get started.&lt;/p>
 &lt;h2 id="emberjs-templating-basics">EmberJS templating basics&lt;/h2>
 &lt;p>With Handlebars you can quickly build web applications that are made up of different components. Handlebar templates contain static HTML and dynamic content inside Handlebars expressions, which are summoned with double curly braces: {{ }}&lt;/p>
 &lt;p>Dynamic content inside a Handlebars expression is rendered with data-binding. This means if you update a property, your usage of that property in a template will be automatically updated to the latest value.&lt;/p>
@@ -179,9 +179,9 @@ Your browser does not support the video tag.
 &lt;p>&lt;em>&lt;strong>Helper example&lt;/strong>&lt;/em>&lt;/p>
 &lt;p>&lt;img src="https://docs.kianda.com/images/write-our-own-helpers.png" alt="Helpers">&lt;/p>
 &lt;h4 id="conditionals">Conditionals&lt;/h4>
-&lt;p>Statements like &lt;strong>if&lt;/strong> and &lt;strong>unless&lt;/strong> are implemented as built-in helpers. Helpers can be invoked three ways; inline invocation, nested invocation and block invocation. For more details, click on the following link: &lt;a href="https://guides.emberjs.com/v2.18.0/templates/conditionals/">https://guides.emberjs.com/v2.18.0/templates/conditionals/&lt;/a>.&lt;/p>
+&lt;p>Statements like &lt;strong>if&lt;/strong> and &lt;strong>unless&lt;/strong> are implemented as built-in helpers. Helpers can be invoked three ways; inline invocation, nested invocation and block invocation. For more details, go to: &lt;a href="https://guides.emberjs.com/v2.18.0/templates/conditionals/">https://guides.emberjs.com/v2.18.0/templates/conditionals/&lt;/a>.&lt;/p>
 &lt;h2 id="how-to-get-started-as-a-kianda-low-code-developer">How to get started as a Kianda low-code developer&lt;/h2>
-&lt;p>Kianda &lt;strong>Developer&lt;/strong> is user-friendly interface to create custom widgets in a few minutes. A custom widget could be a &amp;lsquo;Field&amp;rsquo;, &amp;lsquo;Rule&amp;rsquo; or Dashboard widget&amp;rsquo;, see example of how to create a field widget below.&lt;/p>
+&lt;p>Kianda &lt;strong>Developer&lt;/strong> is a user-friendly interface that allows you to create custom widgets in a few minutes. A custom widget could be a &amp;lsquo;Field&amp;rsquo;, &amp;lsquo;Rule&amp;rsquo; or Dashboard widget&amp;rsquo;. This video goes through an example of how to create a custom field widget.&lt;/p>
 &lt;p>&lt;em>&lt;strong>Creating a custom field widget&lt;/strong>&lt;/em>&lt;/p>
 &lt;video width="100%" style="width:100%" controls>
 &lt;source src="https://docs.kianda.com/videos/createwidget.mp4">
@@ -197,33 +197,33 @@ Your browser does not support the video tag.
 &lt;p>Click on &lt;strong>New widget&lt;/strong>.&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>Fill out the &lt;strong>Edit widget&lt;/strong> dialog box, that is &lt;strong>Title&lt;/strong>, &lt;strong>Unique Id&lt;/strong> (which is autofilled from the title), &lt;strong>Widget Icon&lt;/strong>, where you can select from hundreds of icons, and then &lt;strong>Widget type&lt;/strong>. There are 3 options: &lt;strong>&lt;a href="#field-widget">Field&lt;/a>&lt;/strong>, &lt;strong>&lt;a href="#rule-widget">Rule&lt;/a>&lt;/strong> or &lt;strong>&lt;a href="#dashboard-widget">Dashboard widget&lt;/a>&lt;/strong> click on each link for details.&lt;/p>
+&lt;p>Fill out the &lt;strong>Edit widget&lt;/strong> dialog box - that is &lt;strong>Title&lt;/strong>, &lt;strong>Unique Id&lt;/strong> (which is autofilled from the title), &lt;strong>Widget Icon&lt;/strong>, where you can select from hundreds of icons, and then &lt;strong>Widget type&lt;/strong>. There are 3 options: &lt;strong>&lt;a href="#field-widget">Field&lt;/a>&lt;/strong>, &lt;strong>&lt;a href="#rule-widget">Rule&lt;/a>&lt;/strong> or &lt;strong>&lt;a href="#dashboard-widget">Dashboard widget&lt;/a>&lt;/strong> - click on each link for more details.&lt;/p>
 &lt;p>&lt;img src="https://docs.kianda.com/images/editwidget.gif" alt="Edit widget">&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>Click on &lt;strong>OK&lt;/strong> when complete.&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>Widgets created are visible in the main widget view. From here a widget can be edited by clicking on the &lt;strong>Pen&lt;/strong> button &lt;img src="https://docs.kianda.com/images/bluepen.png" alt="Pen button"> deleted by clicking on the &lt;strong>Bin/Trash&lt;/strong> button &lt;img src="https://docs.kianda.com/images/binicon.png" alt="Bin button"> and earlier versions restored by clicking on the &lt;strong>Version restore&lt;/strong> button &lt;img src="https://docs.kianda.com/images/bluerestore.png" alt="Restore">.&lt;/p>
+&lt;p>Widgets created are visible in the main widget view. From here, you can edit a widget by clicking on the &lt;strong>Edit&lt;/strong> button &lt;img src="https://docs.kianda.com/images/bluepen.png" alt="Pen button"> (Pen icon), delete a widget by clicking on the &lt;strong>Bin/Trash&lt;/strong> button &lt;img src="https://docs.kianda.com/images/binicon.png" alt="Bin button"> and restore earlier versions of a widget by clicking on the &lt;strong>Version restore&lt;/strong> button &lt;img src="https://docs.kianda.com/images/bluerestore.png" alt="Restore">.&lt;/p>
 &lt;p>&lt;em>&lt;strong>Widget view&lt;/strong>&lt;/em>&lt;/p>
 &lt;p>&lt;img src="https://docs.kianda.com/images/widgetview.gif" alt="Widget view">&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;a href="#webhooks">Webhooks&lt;/a> can be created to send a message to a specific URL, by clicking on the &lt;strong>Webhooks&lt;/strong> button, click on the link for more information.&lt;/p>
+&lt;p>&lt;a href="#webhooks">Webhooks&lt;/a> can be created to send a message to a specific URL by clicking on the &lt;strong>Webhooks&lt;/strong> button. Click the link for more information.&lt;/p>
 &lt;/li>
 &lt;/ol>
 &lt;h3 id="field-widget">Field widget&lt;/h3>
-&lt;p>When you create a custom field widget, the widget UI and widget code are available. The two images below display the default code for &amp;lsquo;Widget UI&amp;rsquo; and &amp;lsquo;Widget Code&amp;rsquo;.&lt;/p>
+&lt;p>When you create a custom field widget, the &lt;strong>Widget UI&lt;/strong> and &lt;strong>Widget Code&lt;/strong> tabs are displayed. These two screenshots show the default code for &amp;lsquo;Widget UI&amp;rsquo; and &amp;lsquo;Widget Code&amp;rsquo;.&lt;/p>
 &lt;p>The &amp;lsquo;Widget UI&amp;rsquo; defines the HTML, handlers, expressions and more.&lt;/p>
 &lt;p>&lt;em>&lt;strong>Field widget UI&lt;/strong>&lt;/em>
 &lt;img src="https://docs.kianda.com/images/widgetfieldui.gif" alt="Widget UI">&lt;/p>
 &lt;p>The &amp;lsquo;Widget Code&amp;rsquo; defines the logic and functions.&lt;/p>
 &lt;p>&lt;em>&lt;strong>Field widget code&lt;/strong>&lt;/em>&lt;/p>
 &lt;p>&lt;img src="https://docs.kianda.com/images/widgetcodefield.png" alt="Widget code">&lt;/p>
-&lt;p>Created field widgets will be available for use in Kianda Designer by going to &lt;strong>Side menu&lt;/strong> &amp;gt; &lt;strong>Administration&lt;/strong> &amp;gt; &lt;strong>Designer&lt;/strong> &amp;gt; &lt;strong>click on an existing process&lt;/strong> or &lt;strong>Add new&lt;/strong> to add a new process then click on a form to edit it, and see the Custom fields added under &lt;strong>Controls&lt;/strong>.&lt;/p>
+&lt;p>Custom field widgets you create will be available for use in Kianda Designer by going to &lt;strong>Side menu&lt;/strong> &amp;gt; &lt;strong>Administration&lt;/strong> &amp;gt; &lt;strong>Designer&lt;/strong> &amp;gt; &lt;strong>click on an existing process&lt;/strong> or &lt;strong>Add new&lt;/strong> to add a new process (then click on a form to edit it), and see the Custom fields added under &lt;strong>Controls&lt;/strong>.&lt;/p>
 &lt;p>&lt;img src="https://docs.kianda.com/images/customcontrol.png" alt="Custom fields">&lt;/p>
 &lt;h3 id="rule-widget">Rule widget&lt;/h3>
-&lt;p>The two images below display the default code for &amp;lsquo;Widget UI&amp;rsquo; and &amp;lsquo;Widget Code&amp;rsquo;.
+&lt;p>When you create a custom rule widget, the &lt;strong>Widget UI&lt;/strong> and &lt;strong>Widget Code&lt;/strong> tabs are displayed. These two screenshots show the default code for &amp;lsquo;Widget UI&amp;rsquo; and &amp;lsquo;Widget Code&amp;rsquo;.
 The &amp;lsquo;Widget UI&amp;rsquo; defines the HTML, handlers, expressions and values for rules.&lt;/p>
 &lt;p>&lt;em>&lt;strong>Rule widget UI&lt;/strong>&lt;/em>
 &lt;img src="https://docs.kianda.com/images/rulewidgetcode.gif" alt="Widget rule UI ">&lt;/p>
@@ -231,7 +231,7 @@ The &amp;lsquo;Widget UI&amp;rsquo; defines the HTML, handlers, expressions and 
 &lt;p>The &amp;lsquo;Widget Code&amp;rsquo; defines the logic, functions and variable routines.&lt;/p>
 &lt;p>&lt;img src="https://docs.kianda.com/images/rulewidget.gif" alt="Widget rule ">&lt;/p>
 &lt;h3 id="dashboard-widget">Dashboard widget&lt;/h3>
-&lt;p>The two images below display the default code for &amp;lsquo;Widget UI&amp;rsquo; and &amp;lsquo;Widget Code&amp;rsquo;.&lt;/p>
+&lt;p>When you create a custom dashboard widget, the &lt;strong>Widget UI&lt;/strong> and &lt;strong>Widget Code&lt;/strong> tabs are displayed. These two screenshots show the default code for &amp;lsquo;Widget UI&amp;rsquo; and &amp;lsquo;Widget Code&amp;rsquo;.&lt;/p>
 &lt;p>The &amp;lsquo;Widget UI&amp;rsquo; defines the widget configuration view, used for editing and the widget runtime view, or view mode.&lt;/p>
 &lt;p>&lt;em>&lt;strong>Dashboard widget UI&lt;/strong>&lt;/em>&lt;/p>
 &lt;p>&lt;img src="https://docs.kianda.com/images/dashboardui.gif" alt="Dashboard widget UI">&lt;/p>
@@ -246,18 +246,18 @@ The &amp;lsquo;Widget UI&amp;rsquo; defines the HTML, handlers, expressions and 
 &lt;ol start="2">
 &lt;li>
 &lt;p>Use the slider to turn on &lt;strong>Enable Created Callback&lt;/strong>, &lt;strong>Enable Updated Callback&lt;/strong>, &lt;strong>Enable Deleted Callback&lt;/strong> and &lt;strong>type in the URL&lt;/strong> in each case to respond to process instance create, update and deleted events.&lt;/p>
-&lt;p>For example choosing &lt;strong>Enable Created Callback&lt;/strong> will enable a URL callback everything a process instance is updated. This results in a HTTP GET request with parameters instanceID={instanceID}, processName={processName} and eventType=created being issued to the give URL&lt;/p>
+&lt;p>For example, choosing &lt;strong>Enable Created Callback&lt;/strong> will enable a URL callback every time a process instance is updated. This results in a HTTP GET request with parameters instanceID={instanceID}, processName={processName} and eventType=created being issued to the give URL.&lt;/p>
 &lt;p>&lt;strong>Note:&lt;/strong> Callback has a timeout of 10 seconds.&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>Click on the &lt;strong>Help&lt;/strong> button &lt;img src="https://docs.kianda.com/images/webhookhelp.png" alt="Help button"> for clarification.&lt;/p>
+&lt;p>Click on the &lt;strong>Help&lt;/strong> button &lt;img src="https://docs.kianda.com/images/webhookhelp.PNG" alt="Help button"> for clarification.&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>Click on &lt;strong>OK&lt;/strong> when done.&lt;/p>
 &lt;/li>
 &lt;/ol>
 &lt;h3 id="whats-next--idea-iconimages18png">What&amp;rsquo;s next &lt;img src="https://docs.kianda.com/images/18.png" alt="Idea icon">&lt;/h3>
-&lt;p>If you want to use Kianda for no-code development, then follow the steps below:&lt;/p>
+&lt;p>If you want to use Kianda for no-code development, follow these simple steps:&lt;/p>
 &lt;p>&lt;img src="https://docs.kianda.com/images/one.png" alt="1"> &lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/plan-your-process/">&lt;strong>Plan your process&lt;/strong>&lt;/a>&lt;/p>
 &lt;p>&lt;img src="https://docs.kianda.com/images/two.png" alt="2"> &lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/design-and-build/">&lt;strong>Design and build your process&lt;/strong>&lt;/a>&lt;/p>
 &lt;p>&lt;img src="https://docs.kianda.com/images/three.png" alt="3"> &lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/publish-your-process/">&lt;strong>Publish your process&lt;/strong>&lt;/a>&lt;/p></description></item><item><title>Docs: Security</title><link>https://docs.kianda.com/docs/getting-started/welcome/security/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/getting-started/welcome/security/</guid><description>
