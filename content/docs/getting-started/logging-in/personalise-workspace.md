@@ -4,7 +4,9 @@ linkTitle: "Your workspace"
 typora-root-url: ..\..\..\..\static
 ---
 
-When you login to Kianda for the first time, a wizard opens allowing you to change the look and feel of your workspace, as well as managing regional and mobile app settings. There are four sections within the wizard. The sections below detail each section and use the example of a company called 'GreenITR'.
+When you log in to Kianda for the first time, a wizard opens allowing you to change the look and feel of your workspace, and to manage regional and mobile app settings. There are four sections within the wizard. 
+
+We will now go through each of these four sections of the wizard for a sample company called 'GreenITR'.
 
 
 
@@ -27,7 +29,7 @@ When you login to Kianda for the first time, a wizard opens allowing you to chan
 ## Design Login page 
 
 1. Click on **Browse** to upload a logo or check the checkbox above the Logo URL to use the same one as used in the **Look and Feel** section.
-2. Under **Background** and **Font**, type in your hex value for your chosen colour, or click on the colour box and use the eyedropper or slider to choose your chosen colour, or type in RGB values.
+2. Under **Background** and **Font**, type in the hex value for your chosen colour, or click on the colour box and use the eyedropper or slider to choose your chosen colour, or type in RGB values.
 
 ***Design your Login page***
 
@@ -53,8 +55,8 @@ When you login to Kianda for the first time, a wizard opens allowing you to chan
 
 ## Mobile App settings 
 
-1. In the **Mobile App Settings** section, you can customize how the Kianda workspace will appear as a mobile app. Type in a name under **App name** and **App short name**
-2. Under **Splash Screen** and **Theme**, type in your hex value for your chosen colour, or click on the colour box and use the eyedropper or slider to choose your chosen colour, or type in RGB values.
+1. In the **Mobile App Settings** section, you can customise how the Kianda workspace will appear as a mobile app. Type in a name under **App name** and **App short name**
+2. Under **Splash Screen** and **Theme**, type in the hex value for your chosen colour or click on the colour box and use the eyedropper or slider to choose your chosen colour, or type in RGB values.
 
 ***Change Mobile App Settings***
 
@@ -68,7 +70,7 @@ When you login to Kianda for the first time, a wizard opens allowing you to chan
 
 5. Click on **You are ready to go** to close the wizard. 
 
-   At any time you can change settings again by going to the **Side menu > Subscription** and click on a particular area of interest or click on **Open Wizard**. 
+   You can change your settings again at any time by going to the **Left side menu > Subscription** and clicking on a particular area of interest or click on **Open Wizard**. 
 
 ***Subscription page***
 
