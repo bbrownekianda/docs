@@ -9,7 +9,7 @@ Business rules are what makes Kianda forms come alive. They represent the actual
 
 There are two key principles to consider when working with forms:
 
-1. [Rule design](#rule-design) - what type of rule you are going to apply and where, for example to a button, field or form. As part of design considerations it is important to know what you can do to rules, in particular the use of [conditions](getting-started/create-first-process/conditions.md) and [expressions](/docs/getting-started/create-first-process/plan-your-process/expressions/). 
+1. [Rule design](#rule-design) - what type of rule you are going to apply and where, for example to a button, field or form. As part of design considerations it is important to know what you can do to rules, in particular the use of [conditions](/docs/getting-started/create-first-process/plan-your-process/conditions/) and [expressions](/docs/getting-started/create-first-process/plan-your-process/expressions/). 
 
 2. [Rule order](#rule-order) - if there are several rules attached to an item like a button, then the order of execution is important and can be modified to suit your needs.
 
@@ -36,7 +36,7 @@ By default there are 10 categories of rules, see [Rules list](#rules-list) for r
 9. **SharePoint** - There are 10 SharePoint associated rules such as adding, finding or removing users. 
 10. **KiandaAI** - there is 1 KiandaAI rule related to text analysis.
 
-An additional  **Custom** category exists if Kianda **Developer** has been used to create custom rule widgets  see [Developer](getting-started/welcome/low_code.md#how-to-get-started-with-developer) for more details. 
+An additional  **Custom** category exists if Kianda **Developer** has been used to create custom rule widgets  see [Developer](/docs/getting-started/welcome/low-code/) for more details. 
 
 
 
@@ -96,13 +96,13 @@ To learn how to get the most out of rules, go to the links on [**Conditions**](.
 
 ### **To return to the previous pages click on the links below**  ![Idea icon](/images/10.png) 
 
-- [**How Kianda works**](getting-started/welcome/how_kianda_works.md)
-- [**Plan your process**](getting-started/create-first-process/plan_process.md) 
-- [**Design and build your process**](getting-started/create-first-process/design_process.md) 
-- [**Add forms**](getting-started/create-first-process/create_form.md)
-- [**Designer**](getting-started/create-first-process/designer.md)
-- [**Properties**](getting-started/create-first-process/properties.md)
-- **[Add controls and rules](getting-started/create-first-process/add_form_elements.md)**
+- [**How Kianda works**](/docs/getting-started/welcome/how-kianda-works/)
+- [**Plan your process**](/docs/getting-started/create-first-process/plan-your-process/) 
+- [**Design and build your process**](/docs/getting-started/create-first-process/design-and-build/) 
+- [**Add forms**](/docs/getting-started/create-first-process/design-and-build/add-forms/)
+- [**Designer**](/docs/getting-started/create-first-process/design-and-build/add-forms/designer/)
+- [**Properties**](/docs/getting-started/create-first-process/design-and-build/add-controls-and-rules/properties/)
+- **[Add controls and rules](/docs/getting-started/create-first-process/design-and-build/add-controls-and-rules/)**
 
   
 
