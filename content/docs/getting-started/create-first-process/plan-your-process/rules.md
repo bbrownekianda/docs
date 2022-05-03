@@ -5,38 +5,40 @@ linkTitle: "Rules"
 typora-root-url: ..\..\..\..\..\static
 ---
 
-Business rules are what makes Kianda forms come alive. They represent the actual actions users intend to perform when they interact with form components. There are 60 predefined rules you can apply to forms, see [Rules list](#rules-list).
+Business rules are what make Kianda forms come alive. They represent the actual actions users intend to perform when they interact with form components - for example, sending automated emails, revealing certain parts of a form based on user interactions and automatically generating Word and PDF documents from completed forms. 
 
-There are two key principles to consider when working with forms:
+There are 60 predefined rules across 10 categories and they can be applied to fields (controls), forms, groups of forms or even to a whole process - see [Rules list](#rules-list) for more details.
 
-1. [Rule design](#rule-design) - what type of rule you are going to apply and where, for example to a button, field or form. As part of design considerations it is important to know what you can do to rules, in particular the use of [conditions](/docs/getting-started/create-first-process/plan-your-process/conditions/) and [expressions](/docs/getting-started/create-first-process/plan-your-process/expressions/). 
+There are two key principles to consider when working with rules:
 
-2. [Rule order](#rule-order) - if there are several rules attached to an item like a button, then the order of execution is important and can be modified to suit your needs.
+1. [Rule design](#rule-design) - Consider the type of rule you are going to apply and what you are going to apply it to - for example, to a button, field or form. As part of your design considerations it is important to know what you can do with rules, in particular, the use of [conditions](/docs/getting-started/create-first-process/plan-your-process/conditions/) and [expressions](/docs/getting-started/create-first-process/plan-your-process/expressions/). 
+
+2. [Rule order](#rule-order) - If there are several rules attached to an item like a button, then the order the rules are going to be executed in becomes important. You can change the rule execution order to suit your needs.
 
    
 
 ## How to get started ##
 
-If you go to **Side menu** > **Administration** > **Designer** and click on a process or create a new process, the predefined rules are found in the left-hand pane under **Add a rule**.
+If you go to **Side menu** > **Administration** > **Designer**, click on a process or create a new process, and then select a form within the process so that the **Edit form** button (**Pen** icon ![Pen button](/images/penicon.png)) appears. The predefined rules will can then be found in the left-hand pane under **Add a rule**.
 
 ***Rule categories***
 
 ![Rules list](/images/ruleslist80.png)
 
-By default there are 10 categories of rules, see [Rules list](#rules-list) for rule names :
+There are 10 categories of rules available (see [Rules list](#rules-list) for the full list of names of the 60 predefined rules):
 
-1. **Workflow** - There are 7 workflow rules that represent the actions a user intends to perform, when they interact with form components. 
-2. **Communications** - There are 4 communication rules associated with user communication for example sending an email or triggering a user alert. 
-3. **Data** - There are 5 data rules associated with database operations like create, update and delete. 
-4. **Users** - There are 4 user rules associated with user properties, allowing user lookup or to update a user. 
-5. **File management** - There are 7 file management rules concerned with generating documents such as Word, Excel or converting to PDF. 
+1. **Workflow** - There are seven workflow rules that represent the actions a user intends to perform when they interact with form components. 
+2. **Communications** - There are four communication rules associated with user communication - for example, sending an email or triggering a user alert. 
+3. **Data** - There are five data rules associated with database operations like create, update and delete. 
+4. **Users** - There are four user rules associated with user properties, allowing user lookup or to update a user. 
+5. **File management** - There are seven file management rules concerned with generating documents such as Word, Excel or converting to PDF. 
 6. **Tables** - There are 12 table rules associated with table operations such as updating, adding and removing table rows. 
-7. **Dates** - There are 4 date rules to calculate time and format dates.
-8. **Form actions** - There are 6 form rules linked to actions that are part of forms, for example submit, close or save.
+7. **Dates** - There are four date rules to calculate time and format dates.
+8. **Form actions** - There are six form rules linked to actions that are part of forms - for example, submit, close or save.
 9. **SharePoint** - There are 10 SharePoint associated rules such as adding, finding or removing users. 
-10. **KiandaAI** - there is 1 KiandaAI rule related to text analysis.
+10. **KiandaAI** - there is one KiandaAI rule related to text analysis.
 
-An additional  **Custom** category exists if Kianda **Developer** has been used to create custom rule widgets  see [Developer](/docs/getting-started/welcome/low-code/) for more details. 
+An additional **Custom** category exists if Kianda **Developer** has been used to create custom rule widgets - see [Developer](/docs/getting-started/welcome/low-code/) for more details.
 
 
 
@@ -52,13 +54,13 @@ You can add rules:
 
 ### Rule design ###
 
-1. Click on an existing process by going to **Administration** > **Designer** and decide which form or field you will apply the rule to, by clicking on that item so that it is in **edit mode** so you can see the Pen button,  **Pen** button ![Pen button](/images/penicon.png) for example a form Training Approval or Submit button.
+1. Click on an existing process by going to **Administration** > **Designer** and decide which form or field you want to apply the rule to by clicking on that item so that you're viewing it in **edit mode** (so the **Pen** icon ![Pen button](/images/penicon.png) appears) - for example, you could select a form called Training Approval or could select a button like Submit to apply a rule or rules to.
 
    ***Field editing***
 
    ![Edit mode for forms and fields](/images/submitedit.png)
 
-2. Click on **Add a rule** in the right-hand pane and click on a category of choice, such as **Communications** and then a rule **User alert**.
+2. Click on **Add a rule** in the left-hand pane and select the category of rule you want, such as **Communications**, and then click the particular rule you want to insert within that category, for example **User alert**.
 
  
 
@@ -66,9 +68,9 @@ You can add rules:
 
 ### Rule order ###
 
-If there is more than 1 rule for an item like a field or button, then the order of execution must be considered. 
+If there is more than one rule for an item like a field or button, then you need to consider the order of execution. 
 
-For example for a Submit button on a form you may want a **Send email rule** to be executed first before any other rule is executed. To do this click on the **Submit** button to make sure you are in **Edit** mode, and under **Rules** in the right-hand pane,  drag the **Send email** rule to the top of the list by clicking on the rule and dragging it to the top.
+For example, for a Submit button on a form you may want a **Send email rule** to be executed first before any other rule is executed. To do this, click on the **Submit** button to make sure you are in **Edit** mode, and under **Rules** in the right-hand pane, drag the **Send email** rule to the top of the list of rules by clicking on the rule and dragging it to the top.
 
 ***Rule order***
 
@@ -78,7 +80,7 @@ For example for a Submit button on a form you may want a **Send email rule** to 
 
 ## Rules list ##
 
-A full list of rules is available in the table below.
+This table contains a full list of the available predefined rules.
 
 ***Rules by category and title***
 
@@ -88,9 +90,9 @@ A full list of rules is available in the table below.
 
 ### What's next  ![Idea icon](/images/18.png) ###
 
-To learn more about control fields go to [**Controls**](../controls/). 
+To learn more about control fields, go to [**Controls**](../controls/). 
 
-To learn how to get the most out of rules, go to the links on [**Conditions**](../conditions/) and [**Expressions**](../expressions/). 
+To find out how to get the most out of rules, see [**Conditions**](../conditions/) and [**Expressions**](../expressions/).
 
 
 
