@@ -30,34 +30,35 @@
 &lt;li>&lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/design-and-build/add-forms/designer/">&lt;strong>Designer&lt;/strong>&lt;/a>&lt;/li>
 &lt;li>&lt;strong>&lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/design-and-build/add-controls-and-rules/">Add controls and rules&lt;/a>&lt;/strong>&lt;/li>
 &lt;/ul></description></item><item><title>Docs: Business rules</title><link>https://docs.kianda.com/docs/getting-started/create-first-process/plan-your-process/rules/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/getting-started/create-first-process/plan-your-process/rules/</guid><description>
-&lt;p>Business rules are what makes Kianda forms come alive. They represent the actual actions users intend to perform when they interact with form components. There are 60 predefined rules you can apply to forms, see &lt;a href="#rules-list">Rules list&lt;/a>.&lt;/p>
-&lt;p>There are two key principles to consider when working with forms:&lt;/p>
+&lt;p>Business rules are what make Kianda forms come alive. They represent the actual actions users intend to perform when they interact with form components - for example, sending automated emails, revealing certain parts of a form based on user interactions and automatically generating Word and PDF documents from completed forms.&lt;/p>
+&lt;p>There are 60 predefined rules across 10 categories and they can be applied to fields (controls), forms, groups of forms or even to a whole process - see &lt;a href="#rules-list">Rules list&lt;/a> for more details.&lt;/p>
+&lt;p>There are two key principles to consider when working with rules:&lt;/p>
 &lt;ol>
 &lt;li>
-&lt;p>&lt;a href="#rule-design">Rule design&lt;/a> - what type of rule you are going to apply and where, for example to a button, field or form. As part of design considerations it is important to know what you can do to rules, in particular the use of &lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/plan-your-process/conditions/">conditions&lt;/a> and &lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/plan-your-process/expressions/">expressions&lt;/a>.&lt;/p>
+&lt;p>&lt;a href="#rule-design">Rule design&lt;/a> - Consider the type of rule you are going to apply and what you are going to apply it to - for example, to a button, field or form. As part of your design considerations it is important to know what you can do with rules, in particular, the use of &lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/plan-your-process/conditions/">conditions&lt;/a> and &lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/plan-your-process/expressions/">expressions&lt;/a>.&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;a href="#rule-order">Rule order&lt;/a> - if there are several rules attached to an item like a button, then the order of execution is important and can be modified to suit your needs.&lt;/p>
+&lt;p>&lt;a href="#rule-order">Rule order&lt;/a> - If there are several rules attached to an item like a button, then the order the rules are going to be executed in becomes important. You can change the rule execution order to suit your needs.&lt;/p>
 &lt;/li>
 &lt;/ol>
 &lt;h2 id="how-to-get-started">How to get started&lt;/h2>
-&lt;p>If you go to &lt;strong>Side menu&lt;/strong> &amp;gt; &lt;strong>Administration&lt;/strong> &amp;gt; &lt;strong>Designer&lt;/strong> and click on a process or create a new process, the predefined rules are found in the left-hand pane under &lt;strong>Add a rule&lt;/strong>.&lt;/p>
+&lt;p>If you go to &lt;strong>Side menu&lt;/strong> &amp;gt; &lt;strong>Administration&lt;/strong> &amp;gt; &lt;strong>Designer&lt;/strong>, click on a process or create a new process, and then select a form within the process so that the &lt;strong>Edit form&lt;/strong> button (&lt;strong>Pen&lt;/strong> icon &lt;img src="https://docs.kianda.com/images/penicon.png" alt="Pen button">) appears. The predefined rules will can then be found in the left-hand pane under &lt;strong>Add a rule&lt;/strong>.&lt;/p>
 &lt;p>&lt;em>&lt;strong>Rule categories&lt;/strong>&lt;/em>&lt;/p>
 &lt;p>&lt;img src="https://docs.kianda.com/images/ruleslist80.png" alt="Rules list">&lt;/p>
-&lt;p>By default there are 10 categories of rules, see &lt;a href="#rules-list">Rules list&lt;/a> for rule names :&lt;/p>
+&lt;p>There are 10 categories of rules available (see &lt;a href="#rules-list">Rules list&lt;/a> for the full list of names of the 60 predefined rules):&lt;/p>
 &lt;ol>
-&lt;li>&lt;strong>Workflow&lt;/strong> - There are 7 workflow rules that represent the actions a user intends to perform, when they interact with form components.&lt;/li>
-&lt;li>&lt;strong>Communications&lt;/strong> - There are 4 communication rules associated with user communication for example sending an email or triggering a user alert.&lt;/li>
-&lt;li>&lt;strong>Data&lt;/strong> - There are 5 data rules associated with database operations like create, update and delete.&lt;/li>
-&lt;li>&lt;strong>Users&lt;/strong> - There are 4 user rules associated with user properties, allowing user lookup or to update a user.&lt;/li>
-&lt;li>&lt;strong>File management&lt;/strong> - There are 7 file management rules concerned with generating documents such as Word, Excel or converting to PDF.&lt;/li>
+&lt;li>&lt;strong>Workflow&lt;/strong> - There are seven workflow rules that represent the actions a user intends to perform when they interact with form components.&lt;/li>
+&lt;li>&lt;strong>Communications&lt;/strong> - There are four communication rules associated with user communication - for example, sending an email or triggering a user alert.&lt;/li>
+&lt;li>&lt;strong>Data&lt;/strong> - There are five data rules associated with database operations like create, update and delete.&lt;/li>
+&lt;li>&lt;strong>Users&lt;/strong> - There are four user rules associated with user properties, allowing user lookup or to update a user.&lt;/li>
+&lt;li>&lt;strong>File management&lt;/strong> - There are seven file management rules concerned with generating documents such as Word, Excel or converting to PDF.&lt;/li>
 &lt;li>&lt;strong>Tables&lt;/strong> - There are 12 table rules associated with table operations such as updating, adding and removing table rows.&lt;/li>
-&lt;li>&lt;strong>Dates&lt;/strong> - There are 4 date rules to calculate time and format dates.&lt;/li>
-&lt;li>&lt;strong>Form actions&lt;/strong> - There are 6 form rules linked to actions that are part of forms, for example submit, close or save.&lt;/li>
+&lt;li>&lt;strong>Dates&lt;/strong> - There are four date rules to calculate time and format dates.&lt;/li>
+&lt;li>&lt;strong>Form actions&lt;/strong> - There are six form rules linked to actions that are part of forms - for example, submit, close or save.&lt;/li>
 &lt;li>&lt;strong>SharePoint&lt;/strong> - There are 10 SharePoint associated rules such as adding, finding or removing users.&lt;/li>
-&lt;li>&lt;strong>KiandaAI&lt;/strong> - there is 1 KiandaAI rule related to text analysis.&lt;/li>
+&lt;li>&lt;strong>KiandaAI&lt;/strong> - there is one KiandaAI rule related to text analysis.&lt;/li>
 &lt;/ol>
-&lt;p>An additional &lt;strong>Custom&lt;/strong> category exists if Kianda &lt;strong>Developer&lt;/strong> has been used to create custom rule widgets see &lt;a href="https://docs.kianda.com/docs/getting-started/welcome/low-code/">Developer&lt;/a> for more details.&lt;/p>
+&lt;p>An additional &lt;strong>Custom&lt;/strong> category exists if Kianda &lt;strong>Developer&lt;/strong> has been used to create custom rule widgets - see &lt;a href="https://docs.kianda.com/docs/getting-started/welcome/low-code/">Developer&lt;/a> for more details.&lt;/p>
 &lt;h2 id="when-to-use-rules">When to use rules&lt;/h2>
 &lt;p>You can add rules:&lt;/p>
 &lt;ul>
@@ -68,26 +69,26 @@
 &lt;h3 id="rule-design">Rule design&lt;/h3>
 &lt;ol>
 &lt;li>
-&lt;p>Click on an existing process by going to &lt;strong>Administration&lt;/strong> &amp;gt; &lt;strong>Designer&lt;/strong> and decide which form or field you will apply the rule to, by clicking on that item so that it is in &lt;strong>edit mode&lt;/strong> so you can see the Pen button, &lt;strong>Pen&lt;/strong> button &lt;img src="https://docs.kianda.com/images/penicon.png" alt="Pen button"> for example a form Training Approval or Submit button.&lt;/p>
+&lt;p>Click on an existing process by going to &lt;strong>Administration&lt;/strong> &amp;gt; &lt;strong>Designer&lt;/strong> and decide which form or field you want to apply the rule to by clicking on that item so that you&amp;rsquo;re viewing it in &lt;strong>edit mode&lt;/strong> (so the &lt;strong>Pen&lt;/strong> icon &lt;img src="https://docs.kianda.com/images/penicon.png" alt="Pen button"> appears) - for example, you could select a form called Training Approval or could select a button like Submit to apply a rule or rules to.&lt;/p>
 &lt;p>&lt;em>&lt;strong>Field editing&lt;/strong>&lt;/em>&lt;/p>
 &lt;p>&lt;img src="https://docs.kianda.com/images/submitedit.png" alt="Edit mode for forms and fields">&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>Click on &lt;strong>Add a rule&lt;/strong> in the right-hand pane and click on a category of choice, such as &lt;strong>Communications&lt;/strong> and then a rule &lt;strong>User alert&lt;/strong>.&lt;/p>
+&lt;p>Click on &lt;strong>Add a rule&lt;/strong> in the left-hand pane and select the category of rule you want, such as &lt;strong>Communications&lt;/strong>, and then click the particular rule you want to insert within that category, for example &lt;strong>User alert&lt;/strong>.&lt;/p>
 &lt;/li>
 &lt;/ol>
 &lt;h3 id="rule-order">Rule order&lt;/h3>
-&lt;p>If there is more than 1 rule for an item like a field or button, then the order of execution must be considered.&lt;/p>
-&lt;p>For example for a Submit button on a form you may want a &lt;strong>Send email rule&lt;/strong> to be executed first before any other rule is executed. To do this click on the &lt;strong>Submit&lt;/strong> button to make sure you are in &lt;strong>Edit&lt;/strong> mode, and under &lt;strong>Rules&lt;/strong> in the right-hand pane, drag the &lt;strong>Send email&lt;/strong> rule to the top of the list by clicking on the rule and dragging it to the top.&lt;/p>
+&lt;p>If there is more than one rule for an item like a field or button, then you need to consider the order of execution.&lt;/p>
+&lt;p>For example, for a Submit button on a form you may want a &lt;strong>Send email rule&lt;/strong> to be executed first before any other rule is executed. To do this, click on the &lt;strong>Submit&lt;/strong> button to make sure you are in &lt;strong>Edit&lt;/strong> mode, and under &lt;strong>Rules&lt;/strong> in the right-hand pane, drag the &lt;strong>Send email&lt;/strong> rule to the top of the list of rules by clicking on the rule and dragging it to the top.&lt;/p>
 &lt;p>&lt;em>&lt;strong>Rule order&lt;/strong>&lt;/em>&lt;/p>
 &lt;p>&lt;img src="https://docs.kianda.com/images/ruleorder.png" alt="Rule order">&lt;/p>
 &lt;h2 id="rules-list">Rules list&lt;/h2>
-&lt;p>A full list of rules is available in the table below.&lt;/p>
+&lt;p>This table contains a full list of the available predefined rules.&lt;/p>
 &lt;p>&lt;em>&lt;strong>Rules by category and title&lt;/strong>&lt;/em>&lt;/p>
 &lt;p>&lt;img src="https://docs.kianda.com/images/rulestablecal12.gif" alt="Rules list">&lt;/p>
 &lt;h3 id="whats-next--idea-iconimages18png">What&amp;rsquo;s next &lt;img src="https://docs.kianda.com/images/18.png" alt="Idea icon">&lt;/h3>
-&lt;p>To learn more about control fields go to &lt;a href="../controls/">&lt;strong>Controls&lt;/strong>&lt;/a>.&lt;/p>
-&lt;p>To learn how to get the most out of rules, go to the links on &lt;a href="../conditions/">&lt;strong>Conditions&lt;/strong>&lt;/a> and &lt;a href="../expressions/">&lt;strong>Expressions&lt;/strong>&lt;/a>.&lt;/p>
+&lt;p>To learn more about control fields, go to &lt;a href="../controls/">&lt;strong>Controls&lt;/strong>&lt;/a>.&lt;/p>
+&lt;p>To find out how to get the most out of rules, see &lt;a href="../conditions/">&lt;strong>Conditions&lt;/strong>&lt;/a> and &lt;a href="../expressions/">&lt;strong>Expressions&lt;/strong>&lt;/a>.&lt;/p>
 &lt;h3 id="to-return-to-the-previous-pages-click-on-the-links-below--idea-iconimages10png">&lt;strong>To return to the previous pages click on the links below&lt;/strong> &lt;img src="https://docs.kianda.com/images/10.png" alt="Idea icon">&lt;/h3>
 &lt;ul>
 &lt;li>&lt;a href="https://docs.kianda.com/docs/getting-started/welcome/how-kianda-works/">&lt;strong>How Kianda works&lt;/strong>&lt;/a>&lt;/li>
