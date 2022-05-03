@@ -158,7 +158,7 @@ Your browser does not support the video tag.
 &lt;p>There are two key principles to consider when working with forms:&lt;/p>
 &lt;ol>
 &lt;li>
-&lt;p>&lt;a href="#rule-design">Rule design&lt;/a> - what type of rule you are going to apply and where, for example to a button, field or form. As part of design considerations it is important to know what you can do to rules, in particular the use of &lt;a href="getting-started/create-first-process/conditions.md">conditions&lt;/a> and &lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/plan-your-process/expressions/">expressions&lt;/a>.&lt;/p>
+&lt;p>&lt;a href="#rule-design">Rule design&lt;/a> - what type of rule you are going to apply and where, for example to a button, field or form. As part of design considerations it is important to know what you can do to rules, in particular the use of &lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/plan-your-process/conditions/">conditions&lt;/a> and &lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/plan-your-process/expressions/">expressions&lt;/a>.&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>&lt;a href="#rule-order">Rule order&lt;/a> - if there are several rules attached to an item like a button, then the order of execution is important and can be modified to suit your needs.&lt;/p>
@@ -181,7 +181,7 @@ Your browser does not support the video tag.
 &lt;li>&lt;strong>SharePoint&lt;/strong> - There are 10 SharePoint associated rules such as adding, finding or removing users.&lt;/li>
 &lt;li>&lt;strong>KiandaAI&lt;/strong> - there is 1 KiandaAI rule related to text analysis.&lt;/li>
 &lt;/ol>
-&lt;p>An additional &lt;strong>Custom&lt;/strong> category exists if Kianda &lt;strong>Developer&lt;/strong> has been used to create custom rule widgets see &lt;a href="getting-started/welcome/low_code.md#how-to-get-started-with-developer">Developer&lt;/a> for more details.&lt;/p>
+&lt;p>An additional &lt;strong>Custom&lt;/strong> category exists if Kianda &lt;strong>Developer&lt;/strong> has been used to create custom rule widgets see &lt;a href="https://docs.kianda.com/docs/getting-started/welcome/low-code/">Developer&lt;/a> for more details.&lt;/p>
 &lt;h2 id="when-to-use-rules">When to use rules&lt;/h2>
 &lt;p>You can add rules:&lt;/p>
 &lt;ul>
@@ -214,13 +214,13 @@ Your browser does not support the video tag.
 &lt;p>To learn how to get the most out of rules, go to the links on &lt;a href="../conditions/">&lt;strong>Conditions&lt;/strong>&lt;/a> and &lt;a href="../expressions/">&lt;strong>Expressions&lt;/strong>&lt;/a>.&lt;/p>
 &lt;h3 id="to-return-to-the-previous-pages-click-on-the-links-below--idea-iconimages10png">&lt;strong>To return to the previous pages click on the links below&lt;/strong> &lt;img src="https://docs.kianda.com/images/10.png" alt="Idea icon">&lt;/h3>
 &lt;ul>
-&lt;li>&lt;a href="getting-started/welcome/how_kianda_works.md">&lt;strong>How Kianda works&lt;/strong>&lt;/a>&lt;/li>
-&lt;li>&lt;a href="getting-started/create-first-process/plan_process.md">&lt;strong>Plan your process&lt;/strong>&lt;/a>&lt;/li>
-&lt;li>&lt;a href="getting-started/create-first-process/design_process.md">&lt;strong>Design and build your process&lt;/strong>&lt;/a>&lt;/li>
-&lt;li>&lt;a href="getting-started/create-first-process/create_form.md">&lt;strong>Add forms&lt;/strong>&lt;/a>&lt;/li>
-&lt;li>&lt;a href="getting-started/create-first-process/designer.md">&lt;strong>Designer&lt;/strong>&lt;/a>&lt;/li>
-&lt;li>&lt;a href="getting-started/create-first-process/properties.md">&lt;strong>Properties&lt;/strong>&lt;/a>&lt;/li>
-&lt;li>&lt;strong>&lt;a href="getting-started/create-first-process/add_form_elements.md">Add controls and rules&lt;/a>&lt;/strong>&lt;/li>
+&lt;li>&lt;a href="https://docs.kianda.com/docs/getting-started/welcome/how-kianda-works/">&lt;strong>How Kianda works&lt;/strong>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/plan-your-process/">&lt;strong>Plan your process&lt;/strong>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/design-and-build/">&lt;strong>Design and build your process&lt;/strong>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/design-and-build/add-forms/">&lt;strong>Add forms&lt;/strong>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/design-and-build/add-forms/designer/">&lt;strong>Designer&lt;/strong>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/design-and-build/add-controls-and-rules/properties/">&lt;strong>Properties&lt;/strong>&lt;/a>&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/design-and-build/add-controls-and-rules/">Add controls and rules&lt;/a>&lt;/strong>&lt;/li>
 &lt;/ul></description></item><item><title>Docs: Version history</title><link>https://docs.kianda.com/docs/getting-started/create-first-process/design-and-build/add-forms/version-history/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/getting-started/create-first-process/design-and-build/add-forms/version-history/</guid><description>
 &lt;p>The &lt;strong>current or active version&lt;/strong> of a process is always visible in the right-hand pane, for example V0.8 for the process as shown below.&lt;/p>
 &lt;p>&lt;em>&lt;strong>Process version&lt;/strong>&lt;/em>&lt;img src="https://docs.kianda.com/images/versionhistory.png" alt="Process version history">&lt;/p>
