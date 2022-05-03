@@ -48,36 +48,36 @@ Your browser does not support the video tag.
 &lt;/ul>
 &lt;p>&lt;img src="https://docs.kianda.com/images/textboxsize_frame.png" alt="Changing text box width">&lt;/p>
 &lt;p>Underneath field properties you will see &lt;strong>Rules&lt;/strong>, go to &lt;a href="http://localhost:3000/#/rules/README">Rules&lt;/a> to find out more about Field rules.&lt;/p></description></item><item><title>Docs: Controls</title><link>https://docs.kianda.com/docs/getting-started/create-first-process/plan-your-process/controls/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/getting-started/create-first-process/plan-your-process/controls/</guid><description>
-&lt;p>&lt;strong>Controls&lt;/strong> are predefined field widgets that allow you to add specific elements to your forms and processes such as lists, text boxes and tables. There are 16 controls you can add to a form, see &lt;a href="#controls-list">Controls list&lt;/a>.&lt;/p>
-&lt;p>If you have developer skills, you can create your own custom field widget, see &lt;a href="https://docs.kianda.com/docs/getting-started/welcome//low-code/#how-to-get-started-with-developer">Developer&lt;/a> for more information.&lt;/p>
+&lt;p>&lt;strong>Controls&lt;/strong> are predefined field widgets that allow you to add specific elements to your forms and processes, such as buttons, lists, text boxes and tables. There are 16 different types of controls (fields) to choose from - see &lt;a href="#controls-list">Controls list&lt;/a>.&lt;/p>
+&lt;p>If you have developer skills, you can create your own custom field widget - see &lt;a href="https://docs.kianda.com/docs/getting-started/welcome//low-code/#how-to-get-started-with-developer">Developer&lt;/a> for more information.&lt;/p>
 &lt;h2 id="getting-started-with-controls">Getting started with Controls&lt;/h2>
-&lt;p>If you go to &lt;strong>Side menu&lt;/strong> &amp;gt;&lt;strong>Administration&lt;/strong> &amp;gt; &lt;strong>Designer&lt;/strong> and click on a process or create a new process, the predefined fields are found in the left-hand pane.&lt;/p>
+&lt;p>If you go to &lt;strong>Side menu&lt;/strong> &amp;gt;&lt;strong>Administration&lt;/strong> &amp;gt; &lt;strong>Designer&lt;/strong> and click on an existing process or create a new process and then select a form within that process, you will see the pre-defined &lt;strong>Controls&lt;/strong> options in the left-hand pane. If the Controls menu is collapsed, click on it to expand it.&lt;/p>
 &lt;p>&lt;em>&lt;strong>Control Categories&lt;/strong>&lt;/em>&lt;/p>
 &lt;p>&lt;img src="https://docs.kianda.com/images/controls.png" alt="Controls">&lt;/p>
-&lt;p>By default, there are 3 categories of fields:&lt;/p>
+&lt;p>By default, there are three categories of fields:&lt;/p>
 &lt;ol>
-&lt;li>&lt;strong>Input&lt;/strong> - There are 8 Input fields and they include the most common data fields such as textbox, user picker, date field, table, checkbox, drop-down and number fields.&lt;/li>
-&lt;li>&lt;strong>Layout&lt;/strong> - There are 4 Layout fields that serve the purpose of perfecting the layout of your form. They include responsive panels, dialog box, field groups and rich text fields.&lt;/li>
-&lt;li>&lt;strong>Action&lt;/strong> - There are 4 Action fields that allow user interface actions like buttons, links or even signature components,&lt;/li>
+&lt;li>&lt;strong>Input&lt;/strong> - There are eight types of Input fields. They include the most common data fields such as textbox, user picker, date field, table, checkbox, drop-down and number fields.&lt;/li>
+&lt;li>&lt;strong>Layout&lt;/strong> - There are four Layout fields that serve the purpose of perfecting the layout of your form. They include responsive panels, dialog box, field groups and rich text fields.&lt;/li>
+&lt;li>&lt;strong>Action&lt;/strong> - There are four Action fields that allow you to insert user interface actions like buttons, links or even signature components. By default, three buttons are automatically added to each new form created - Submit, Save and Close.&lt;/li>
 &lt;/ol>
-&lt;p>A fourth category &lt;strong>Custom&lt;/strong> fields exists if Kianda &lt;strong>Developer&lt;/strong> has been used to create custom field widgets see &lt;a href="https://docs.kianda.com/docs/getting-started/welcome/low-code/#how-to-get-started-with-developer">Developer&lt;/a> for more details.&lt;/p>
+&lt;p>A fourth category, &lt;strong>Custom&lt;/strong> fields, exists if Kianda &lt;strong>Developer&lt;/strong> has been used to create custom field widgets - see &lt;a href="https://docs.kianda.com/docs/getting-started/welcome/low-code/#how-to-get-started-with-developer">Developer&lt;/a> for more details.&lt;/p>
 &lt;p>All fields will have edit options when you start creating the field, as well as &lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/design-and-build/add-controls-and-rules/properties/#field-properties">field properties&lt;/a> that you can edit. Each field can also have &lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/plan-your-process/rules/">rules&lt;/a> applied to it.&lt;/p>
 &lt;h2 id="controls-list">Controls list&lt;/h2>
-&lt;p>A full list of controls is available in the table below.&lt;/p>
+&lt;p>A full list of controls (fields) is shown here.&lt;/p>
 &lt;p>&lt;em>&lt;strong>Control categories, with field names and purpose&lt;/strong>&lt;/em>&lt;/p>
 &lt;p>&lt;img src="https://docs.kianda.com/images/controlslist.gif" alt="Form controls">&lt;/p>
 &lt;h3 id="whats-next--idea-iconimages18png">What&amp;rsquo;s next &lt;img src="https://docs.kianda.com/images/18.png" alt="Idea icon">&lt;/h3>
-&lt;p>To learn more about rules that can be applied to fields go to &lt;a href="getting-started/create-first-process/rules.md">&lt;strong>Rules&lt;/strong>&lt;/a>.&lt;/p>
-&lt;p>To learn more about properties, go to &lt;a href="getting-started/create-first-process/properties.md#field-properties">&lt;strong>Field properties&lt;/strong>&lt;/a>.&lt;/p>
+&lt;p>To learn more about rules that can be applied to fields go to &lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/plan-your-process/rules/">&lt;strong>Rules&lt;/strong>&lt;/a>.&lt;/p>
+&lt;p>To learn more about field properties, go to &lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/design-and-build/add-controls-and-rules/properties/">&lt;strong>Field properties&lt;/strong>&lt;/a>.&lt;/p>
 &lt;h3 id="to-return-to-the-previous-pages-click-on-the-links-below--idea-iconimages10png">&lt;strong>To return to the previous pages click on the links below&lt;/strong> &lt;img src="https://docs.kianda.com/images/10.png" alt="Idea icon">&lt;/h3>
 &lt;ul>
-&lt;li>&lt;a href="getting-started/welcome/how_kianda_works.md">&lt;strong>How Kianda works&lt;/strong>&lt;/a>&lt;/li>
-&lt;li>&lt;a href="getting-started/welcome/no_code.md">&lt;strong>What is no-code development&lt;/strong>&lt;/a>&lt;/li>
-&lt;li>&lt;a href="getting-started/create-first-process/plan_process.md">&lt;strong>Plan your process&lt;/strong>&lt;/a>&lt;/li>
-&lt;li>&lt;a href="getting-started/create-first-process/design_process.md">&lt;strong>Design and build your process&lt;/strong>&lt;/a>&lt;/li>
-&lt;li>&lt;a href="getting-started/create-first-process/create_form.md">&lt;strong>Add forms&lt;/strong>&lt;/a>&lt;/li>
-&lt;li>&lt;a href="getting-started/create-first-process/designer.md">&lt;strong>Designer&lt;/strong>&lt;/a>&lt;/li>
-&lt;li>&lt;strong>&lt;a href="getting-started/create-first-process/add_form_elements.md">Add controls and rules&lt;/a>&lt;/strong>&lt;/li>
+&lt;li>&lt;a href="https://docs.kianda.com/docs/getting-started/welcome/how-kianda-works">&lt;strong>How Kianda works&lt;/strong>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.kianda.com/docs/getting-started/welcome/no-code">&lt;strong>What is no-code development&lt;/strong>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/plan-your-process/">&lt;strong>Plan your process&lt;/strong>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/design-and-build/">&lt;strong>Design and build your process&lt;/strong>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/design-and-build/add-forms/">&lt;strong>Add forms&lt;/strong>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/design-and-build/add-forms/designer/">&lt;strong>Designer&lt;/strong>&lt;/a>&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/design-and-build/add-controls-and-rules/">Add controls and rules&lt;/a>&lt;/strong>&lt;/li>
 &lt;/ul></description></item><item><title>Docs: How does Kianda work</title><link>https://docs.kianda.com/docs/getting-started/welcome/how-kianda-works/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/getting-started/welcome/how-kianda-works/</guid><description>
 &lt;p>The Kianda no-code / low-code (NCLC) platform has been created with the ultimate flexibility and agility in mind, allowing simple user interactions to build complex processes.&lt;/p>
 &lt;p>Kianda has been constructed using an &lt;strong>Model, View, Controller (MVC) approach&lt;/strong>. This approach allows designers to build mobile-responsive applications via &lt;strong>rapid User Interface (UI) prototyping&lt;/strong>. The UI provides an easy way to build an application by clicking, scrolling, and dragging and dropping fields. The layout both provides a way to build the application or process schema, and to capture and monitor data at run-time.&lt;/p>
