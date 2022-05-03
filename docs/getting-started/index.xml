@@ -48,16 +48,16 @@ Your browser does not support the video tag.
 &lt;li>&lt;strong>&lt;a href="https://docs.kianda.com/docs/getting-started/">Getting started guide&lt;/a>&lt;/strong>&lt;/li>
 &lt;li>&lt;strong>&lt;a href="https://docs.kianda.com/docs/getting-started/welcome/">Welcome to Kianda&lt;/a>&lt;/strong>&lt;/li>
 &lt;/ul></description></item><item><title>Docs: Create your first Kianda process</title><link>https://docs.kianda.com/docs/getting-started/create-first-process/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/getting-started/create-first-process/</guid><description>
-&lt;p>You can create an end-to-end process quickly and simply in Kianda and use this prototype to develop your ideas through an iterative process. This &lt;strong>agile approach&lt;/strong> results in significantly faster development time, that is cost effective and reduces risk.&lt;/p>
+&lt;p>You can create an end-to-end process quickly and simply in Kianda and then use this prototype to develop your ideas through an iterative process. This &lt;strong>agile approach&lt;/strong> results in significantly faster development time which is cost effective and reduces risk.&lt;/p>
 &lt;p>&lt;em>&lt;strong>Agile development cycle&lt;/strong>&lt;/em>&lt;/p>
 &lt;p>&lt;img src="https://docs.kianda.com/images/agile.png" alt="No-code agile approach">&lt;/p>
 &lt;p>The main phases of an agile project are:&lt;/p>
 &lt;ol>
-&lt;li>Planning - this involves determining the scope of the project, what is it you want to achieve and what end-users will be supported and how. The outcome will be a list of requirements that can be adjusted as the process is developed.&lt;/li>
-&lt;li>Design - this involves construction of a draft of your product. Previewing the draft is included in this phase and there may be several rounds of revisions.&lt;/li>
-&lt;li>Launch - this phase includes piloting the product with a number of users, monitoring results, getting feedback and then releasing the product including all related documentation.&lt;/li>
+&lt;li>&lt;strong>Planning&lt;/strong> - this involves determining the scope of the project, namely what is it you want to achieve, what end-users will be supported and how. The outcome will be a list of requirements that can be adjusted as the process is developed.&lt;/li>
+&lt;li>&lt;strong>Design&lt;/strong> - this involves constructing one ore more draft processes. Previewing the draft is included in this phase and there may be several rounds of revisions.&lt;/li>
+&lt;li>&lt;strong>Launch&lt;/strong> - this phase includes piloting the process with a number of users, monitoring results, getting feedback and then releasing the process including all related documentation.&lt;/li>
 &lt;/ol>
-&lt;p>Mapping these phases to process creation in Kianda, results in three main steps: &lt;strong>Plan &amp;gt; Design &amp;gt; Publish&lt;/strong>. Each step contains three substeps as outlined below.&lt;/p>
+&lt;p>Mapping these phases to process creation in Kianda, results in three main steps: &lt;strong>Plan &amp;gt; Design &amp;gt; Publish&lt;/strong>. Each step contains three substeps.&lt;/p>
 &lt;h2 id="creating-your-kianda-processes-in-an-agile-way">Creating your Kianda processes in an agile way&lt;/h2>
 &lt;p>&lt;em>&lt;strong>Three steps to create a process&lt;/strong>&lt;/em>&lt;/p>
 &lt;p>&lt;img src="https://docs.kianda.com/images/flowchart.png" alt="Kianda process creation">&lt;/p>
@@ -71,28 +71,28 @@ Your browser does not support the video tag.
 &lt;/br>&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;strong>Design&lt;/strong> - you can create drafts processes and restore to earlier versions allowing you complete control over production.&lt;/p>
+&lt;p>&lt;strong>Design&lt;/strong> - you can create draft processes and restore to earlier versions, allowing you complete control over production.&lt;/p>
 &lt;p>&lt;img src="https://docs.kianda.com/images/a.png" alt="A"> Processes are made up of interactive &lt;strong>forms&lt;/strong> which you can create at the click of a button.&lt;/p>
-&lt;p>&lt;img src="https://docs.kianda.com/images/b.png" alt="B"> Forms connect to your &lt;strong>datasources&lt;/strong> so as your organisation changes, your processes respond accordingly.&lt;/p>
-&lt;p>&lt;img src="https://docs.kianda.com/images/c.png" alt="C"> Use the in-built &lt;strong>previewer&lt;/strong> to preview and test your design, then save new versions as you modify design.
+&lt;p>&lt;img src="https://docs.kianda.com/images/b.png" alt="B"> Forms connect to your &lt;strong>datasources&lt;/strong> so, as your organisation changes, your processes respond accordingly.&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/c.png" alt="C"> Use the in-built &lt;strong>previewer&lt;/strong> to preview and test your design, then save new versions as you modify your process design.
 &lt;/br>&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>&lt;strong>Publish&lt;/strong> - expand access to published processes as you become comfortable with the design.&lt;/p>
-&lt;p>&lt;img src="https://docs.kianda.com/images/bluea.png" alt="A"> Allow individual user, group or partner access in order to &lt;strong>deploy&lt;/strong> the solution in a controlled way.&lt;/p>
-&lt;p>&lt;img src="https://docs.kianda.com/images/blueb.png" alt="B"> View key metrics in process &lt;strong>dashboards&lt;/strong> to get insights into how to improve the process and the organisation.&lt;/p>
-&lt;p>&lt;img src="https://docs.kianda.com/images/bluec.png" alt="C"> &lt;strong>Launch&lt;/strong> and release the process, including documentation which can feed into future development projects.&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/bluea.png" alt="A"> Allow individual user, group or partner access in order to &lt;strong>deploy&lt;/strong> your solution in a controlled way.&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/blueb.png" alt="B"> View key metrics in process &lt;strong>dashboards&lt;/strong> to get insights into how to improve your process and organisation.&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/bluec.png" alt="C"> &lt;strong>Launch&lt;/strong> and release your process, including documentation which can feed into future development projects.&lt;/p>
 &lt;/li>
 &lt;/ol>
 &lt;h3 id="whats-next--idea-iconimages18png">What&amp;rsquo;s next &lt;img src="https://docs.kianda.com/images/18.png" alt="Idea icon">&lt;/h3>
-&lt;p>Now that you are familiar with the development cycle, you can start to develop your Kianda process following the steps below:&lt;/p>
-&lt;p>&lt;img src="https://docs.kianda.com/images/one.png" alt="1"> &lt;a href="getting-started/create-first-process/plan_process.md">&lt;strong>Plan your process&lt;/strong>&lt;/a>&lt;/p>
+&lt;p>Now that you are familiar with the development cycle, you can start to develop your Kianda process following these simple steps:&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/one.png" alt="1"> &lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/plan-your-process/">&lt;strong>Plan your process&lt;/strong>&lt;/a>&lt;/p>
 &lt;p>&lt;img src="https://docs.kianda.com/images/two.png" alt="2"> &lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/design-and-build/">&lt;strong>Design and build your process&lt;/strong>&lt;/a>&lt;/p>
 &lt;p>&lt;img src="https://docs.kianda.com/images/three.png" alt="3"> &lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/publish-your-process/">&lt;strong>Publish your process&lt;/strong>&lt;/a>&lt;/p>
-&lt;p>If you have coding experience and want to delve straight into how you can use Kianda to create your own widgets, go to &lt;a href="getting-started/welcome/low_code.md#how-to-get-started-with-developer">&lt;strong>Developer&lt;/strong>&lt;/a> to learn more.&lt;/p>
+&lt;p>If you have coding experience and want to delve straight into how you can use Kianda to create your own widgets, go to &lt;a href="https://docs.kianda.com/docs/getting-started/welcome/low-code/">&lt;strong>Developer&lt;/strong>&lt;/a> to learn more.&lt;/p>
 &lt;h3 id="to-return-to-the-previous-pages-click-on-the-links-below--idea-iconimages10png">&lt;strong>To return to the previous pages click on the links below&lt;/strong> &lt;img src="https://docs.kianda.com/images/10.png" alt="Idea icon">&lt;/h3>
 &lt;ul>
-&lt;li>&lt;a href="getting-started/">&lt;strong>Getting started guide&lt;/strong>&lt;/a>&lt;/li>
-&lt;li>&lt;strong>&lt;a href="getting-started/logging_in/">Logging in to Kianda&lt;/a>&lt;/strong>&lt;/li>
-&lt;li>&lt;strong>&lt;a href="getting-started/logging_in/personalise_workspace.md">Personalise your workspace&lt;/a>&lt;/strong>&lt;/li>
+&lt;li>&lt;a href="https://docs.kianda.com/docs/getting-started/">&lt;strong>Getting started guide&lt;/strong>&lt;/a>&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://docs.kianda.com/docs/getting-started/logging-in/">Logging in to Kianda&lt;/a>&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://docs.kianda.com/docs/getting-started/logging-in/personalise-workspace/">Personalise your workspace&lt;/a>&lt;/strong>&lt;/li>
 &lt;/ul></description></item></channel></rss>
