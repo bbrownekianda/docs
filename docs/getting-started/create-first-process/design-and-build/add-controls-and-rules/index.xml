@@ -1,5 +1,5 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kianda no-code platform for business process automation – Add controls and rules</title><link>https://docs.kianda.com/docs/getting-started/create-first-process/design-and-build/add-controls-and-rules/</link><description>Recent content in Add controls and rules on Kianda no-code platform for business process automation</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://docs.kianda.com/docs/getting-started/create-first-process/design-and-build/add-controls-and-rules/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Properties</title><link>https://docs.kianda.com/docs/getting-started/create-first-process/design-and-build/add-controls-and-rules/properties/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/getting-started/create-first-process/design-and-build/add-controls-and-rules/properties/</guid><description>
-&lt;p>Every process, form and control, such as text boxes and lists, will have properties visible in the right-hand pane of the &lt;a href="getting-started/create-first-process/Designer.md">Designer&lt;/a> view.&lt;/p>
+&lt;p>Every process, form and control, such as text boxes and lists, will have properties visible in the right-hand pane of the &lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/design-and-build/add-forms/designer/">Designer&lt;/a> view.&lt;/p>
 &lt;h2 id="process-properties">Process properties&lt;/h2>
 &lt;p>When you go to &lt;strong>Administration&lt;/strong> &amp;gt; &lt;strong>Designer&lt;/strong> &amp;gt; click on a process &amp;gt; &lt;strong>Process properties&lt;/strong> in the right-hand pane, you will see the properties for the chosen process.&lt;/p>
 &lt;p>The following properties are visible:&lt;/p>
@@ -28,7 +28,7 @@
 &lt;/li>
 &lt;li>
 &lt;p>Show info - click on this checkbox if you want to show information, for example who are the form owners, the design version and when the form was started and completed. This information will pop up at the bottom of the form.&lt;/p>
-&lt;p>Underneath form properties you will see &lt;strong>Form submit rules&lt;/strong>, go to &lt;a href="getting-started/create-first-process/rules.md">Rules&lt;/a> to find out more about Form rules.&lt;/p>
+&lt;p>Underneath form properties you will see &lt;strong>Form submit rules&lt;/strong>, go to &lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/plan-your-process/rules/">Rules&lt;/a> to find out more about Form rules.&lt;/p>
 &lt;/li>
 &lt;/ul>
 &lt;p>Click on a control field, for example a text box, in the form to see &lt;a href="#field-properties">Field properties&lt;/a>.&lt;/p>
@@ -58,12 +58,12 @@
 &lt;/ul>
 &lt;p>&lt;img src="https://docs.kianda.com/images/changingwidth.png" alt="Changing text box width">&lt;/p>
 &lt;h3 id="whats-next--idea-iconimages18png">What&amp;rsquo;s next &lt;img src="https://docs.kianda.com/images/18.png" alt="Idea icon">&lt;/h3>
-&lt;p>To read more about form rules, go to &lt;a href="getting-started/create-first-process/rules.md">&lt;strong>Rules&lt;/strong>&lt;/a>.&lt;/p>
+&lt;p>To read more about form rules, go to &lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/plan-your-process/rules/">&lt;strong>Rules&lt;/strong>&lt;/a>.&lt;/p>
 &lt;h3 id="to-return-to-the-previous-pages-click-on-the-links-below--idea-iconimages10png">&lt;strong>To return to the previous pages click on the links below&lt;/strong> &lt;img src="https://docs.kianda.com/images/10.png" alt="Idea icon">&lt;/h3>
 &lt;ul>
-&lt;li>&lt;a href="getting-started/create-first-process/design_process.md">&lt;strong>Design and build your process&lt;/strong>&lt;/a>&lt;/li>
-&lt;li>&lt;a href="getting-started/create-first-process/create_form.md">&lt;strong>Add forms&lt;/strong>&lt;/a>&lt;/li>
-&lt;li>&lt;strong>&lt;a href="getting-started/create-first-process/add_form_elements.md">Add controls and rules&lt;/a>&lt;/strong>&lt;/li>
-&lt;li>&lt;a href="getting-started/create-first-process/controls.md">&lt;strong>Controls&lt;/strong>&lt;/a>&lt;/li>
-&lt;li>&lt;a href="getting-started/create-first-process/designer.md">&lt;strong>Designer&lt;/strong>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/design-and-build/">&lt;strong>Design and build your process&lt;/strong>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/design-and-build/add-forms/">&lt;strong>Add forms&lt;/strong>&lt;/a>&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/design-and-build/add-controls-and-rules/">Add controls and rules&lt;/a>&lt;/strong>&lt;/li>
+&lt;li>&lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/plan-your-process/controls/">&lt;strong>Controls&lt;/strong>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/design-and-build/add-forms/designer/">&lt;strong>Designer&lt;/strong>&lt;/a>&lt;/li>
 &lt;/ul></description></item></channel></rss>
