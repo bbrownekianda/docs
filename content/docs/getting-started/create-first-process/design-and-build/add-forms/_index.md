@@ -11,13 +11,13 @@ After you have created a process, you are ready to add **forms**. This is the se
 
 ![Create forms process](/images/magnifycreateforms2.png)
 
-As you work on your process, you can save **drafts**. This allows you make changes and restore to earlier versions if needed, see [Version History](getting-started/create-first-process/version_history.md) for more information.
+As you work on your process, you can save **drafts**. This allows you make changes and restore to earlier versions if needed, see [Version History](/docs/getting-started/create-first-process/design-and-build/add-forms/version-history/) for more information.
 
 
 
 ## Before you begin ![Process plan icon](/images/11.png) 
 
-When adding forms reference your [process plan](getting-started/create-first-process/plan_process.md) and to know **what forms** you need and **who** will have access to these forms as an administrator. As an example, we will keep our Training Process [requirements](getting-started/create-first-process/plan_process.md#summary-of-requirements) in mind as we go.
+When adding forms reference your [process plan](/docs/getting-started/create-first-process/plan-your-process/) and to know **what forms** you need and **who** will have access to these forms as an administrator. As an example, we will keep our Training Process [requirements](/docs/getting-started/create-first-process/plan-your-process#summary-of-requirements) in mind as we go.
 
 In our example we will create two forms: Training Request Form and a Training Approval Form.
 
@@ -50,7 +50,7 @@ Kianda Designer has 3 key areas:
 **Note**: By default a first form, "form1", is added to your process. Click on the **Pen** button  ![Pen button](/images/penicon.png) to start editing this form to make it your own.
 
 1. Click on the **Pen** button  ![Pen button](/images/penicon.png) to edit 'form1'.
-2. Fill out the details in the **Edit form** dialog box - that is **Title**, **Name**, and **Default owner(s)**, people who will be able to administrate this form, choose from **Users** or **Groups**. There are other options like **Form theme** which are colours that you can apply to the form tab. These options are explained in further details in [Designer](getting-started/create-first-process/designer.md). Changes made are visible in real-time in the form canvas.
+2. Fill out the details in the **Edit form** dialog box - that is **Title**, **Name**, and **Default owner(s)**, people who will be able to administrate this form, choose from **Users** or **Groups**. There are other options like **Form theme** which are colours that you can apply to the form tab. These options are explained in further details in [Designer](/docs/getting-started/create-first-process/design-and-build/add-forms/designer/). Changes made are visible in real-time in the form canvas.
 ***Edit a form***
 
 ![Edit form](/images/editform.gif)
@@ -60,7 +60,7 @@ Kianda Designer has 3 key areas:
 
 ![Add form](/images/addform.gif)
 
-5. Once you have added one or more forms to your process, you are ready to [Add controls and rules](getting-started/create-first-process/add_form_elements.md) to your forms! In our example we have two forms: Training Request and Training Approval. 
+5. Once you have added one or more forms to your process, you are ready to [Add controls and rules](/docs/getting-started/create-first-process/design-and-build/add-controls-and-rules/) to your forms! In our example we have two forms: Training Request and Training Approval. 
 6. Save your work as you go by clicking on the **Save** button.
 
 ***Save button in Kianda Designer***
@@ -73,8 +73,8 @@ Kianda Designer has 3 key areas:
 
 The next steps are: 
 
-- **[Add controls and rules](getting-started/create-first-process/add_form_elements.md)**
-- [**Connect your data**](getting-started/dataconnect.md)
+- **[Add controls and rules](/docs/getting-started/create-first-process/design-and-build/add-controls-and-rules/)**
+- [**Connect your data**](/docs/getting-started/create-first-process/design-and-build/connect-your-data/)
 
 
 
@@ -84,11 +84,11 @@ The next steps are:
 
    Use the **Exit** button ![Exit](/images/exitdesign.png) to return to the main process view and then click on a process of choice to see details. 
 
-   You can preview forms by clicking on the **Preview** button ![Preview](/images/preview.png) see [**Previewer**](getting-started/create-first-process/previewer.md) for more details.
+   You can preview forms by clicking on the **Preview** button ![Preview](/images/preview.png) see [**Previewer**](/docs/getting-started/create-first-process/design-and-build/preview-your-process/) for more details.
 
-   There are many ways to then reuse elements within forms, for example using the Group field and cloning, see the video [**How to reuse forms**](getting-started/welcome/how_to.md#how-to-reuse-forms).
+   There are many ways to then reuse elements within forms, for example using the Group field and cloning, see the video [**How to reuse forms**](/docs/how-to/reuse-or-clone-process-elements/).
 
-2. There are many ways to manage who has access to a process, or form, see the video [**How to manage user access**](getting-started/welcome/how_to.md#how-to-manage-user-access).
+2. There are many ways to manage who has access to a process, or form, see the video [**How to manage user access**](/docs/how-to/control-form-user-security/).
 
 3. The key rules for working with forms are:
 
@@ -97,12 +97,12 @@ The next steps are:
    - Multi-step processes use the concept of "current form". Only the form matching the process status will be made editable.
    - In a multi-step process, other forms that are not "current form" can be configured to **activate with** the current form. Meaning they might also be editable and will form a form group.
 
-   The rules above work together to determine if the form is in edit mode or display mode. Form designers have at their disposal [business rules](getting-started/create-first-process/rules.md) such as *assign form*, *go to form* and *submit rule* to dynamically control the ability for end-users to edit a particular form or a section of a form.
+   The rules above work together to determine if the form is in edit mode or display mode. Form designers have at their disposal [business rules](/docs/getting-started/create-first-process/plan-your-process/rules/) such as *assign form*, *go to form* and *submit rule* to dynamically control the ability for end-users to edit a particular form or a section of a form.
 
    
 
 ### **To return to the previous pages click on the links below**  ![Lighting icon](/images/10.png) 
 
-- **[Plan your process](getting-started/create-first-process/plan_process.md)**
-- [**Design and build your process**](getting-started/create-first-process/design_process.md) 
+- **[Plan your process](/docs/getting-started/create-first-process/plan-your-process/)**
+- [**Design and build your process**](/docs/getting-started/create-first-process/design-and-build/) 
 
