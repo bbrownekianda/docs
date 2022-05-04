@@ -9,14 +9,14 @@ Kianda **Designer** provides an intuitive interface where you can quickly start 
 There are 3 key principles to consider when working with forms:
 
 1) Form **design** - what a form looks like, what elements it contains, for example controls and rules, see [**Designer layout**](#designer-layout)
-2) Form **interaction**- how users can use forms depending on certain sequences happening, see [**Rules**](getting-started/create-first-process/rules.md) 
+2) Form **interaction**- how users can use forms depending on certain sequences happening, see [**Rules**](/docs/getting-started/create-first-process/plan-your-process/rules/) 
 3) Form **management** - who can edit and access forms is set when creating a new form, see [**New forms**](#new-forms)
 
 
 
 ## Designer layout ##
 
-To access processes, go to the left-hand pane and **Administration** > **Designer** and click on a process that you have created or imported, see [Design and build your process](getting-started/create-first-process/design_process.md).
+To access processes, go to the left-hand pane and **Administration** > **Designer** and click on a process that you have created or imported, see [Design and build your process](/docs/getting-started/create-first-process/design-and-build/).
 
 From the main process view, click on any process to add forms, for example Training process as seen below.
 
@@ -61,7 +61,7 @@ The video below demonstrates how to get started using Kianda Designer, and go to
 
    - if you import forms that have already been created, see [Import forms](#import-forms)
 
-2. Once your form is created, you are ready to start adding elements to your form, see [Add controls and rules](getting-started/create-first-process/add_form_elements.md). 
+2. Once your form is created, you are ready to start adding elements to your form, see [Add controls and rules](/docs/getting-started/create-first-process/design-and-build/add-controls-and-rules/). 
 
 3. In addition there are a number of settings you can change, see [Settings and Properties](#settings-and-properties). 
 
@@ -137,7 +137,7 @@ The video below demonstrates how to get started using Kianda Designer, and go to
 
 4. To save your changes to the form, click on the **Save** button ![Save button](/images/save.png). 
 
-5. You are now ready to start adding [Controls and rules](getting-started/create-first-process/add_form_elements.md) to your form. You can also implement additional settings see [Process Settings](#process-settings).
+5. You are now ready to start adding [Controls and rules](/docs/getting-started/create-first-process/design-and-build/add-controls-and-rules/) to your form. You can also implement additional settings see [Process Settings](#process-settings).
 
    
 
@@ -165,7 +165,7 @@ If you have added a new form during the form creation process, then a blank canv
 
 ![Form button edit](/images/defaultbuttons.png)
 
-1. Go to [Add controls and rules](getting-started/create-first-process/add_form_elements.md) to find out more about adding form elements. 
+1. Go to [Add controls and rules](/docs/getting-started/create-first-process/design-and-build/add-controls-and-rules/) to find out more about adding form elements.
 1. Move elements by clicking on the **Drag Handle** ![Drag handle](/images/move.png) beside the item and dragging it to where you want to place it. 
 1. Edit elements by clicking on each item and clicking on the **Pen** button ![Pen icon](/images/penicon.png) see [Settings and properties](#settings-and-properties)
 
@@ -183,7 +183,7 @@ Settings are available from the right-hand pane and give you the ability to:
 
 - [Import processes](#import-forms)
 
-- View [Version history](getting-started/create-first-process/version_history.md)
+- View [Version history](/docs/getting-started/create-first-process/design-and-build/add-forms/version-history/)
 
 - Change [Process settings](#process-settings) ![Settings button](/images/settings.png)
 
@@ -195,7 +195,7 @@ Settings are available from the right-hand pane and give you the ability to:
 
 - Delete a form by selecting a form, clicking on the **Bin/Trash** button ![Bin icon](/images/binicon.png) and then click on **Ok** after you have reviewed the form title and you are sure this is what you want to delete. Click on **Cancel** if you wish to cancel the deletion.
 
-- View and edit [Form properties](getting-started/create-first-process/properties.md) and [rules](getting-started/rcreate-first-process/rules).
+- View and edit [Form properties](/docs/getting-started/create-first-process/design-and-build/add-controls-and-rules/properties#form-properties) and [rules](/docs/getting-started/create-first-process/plan-your-process/rules/).
 
   
 
@@ -254,24 +254,24 @@ Choose from the settings:
 
 ### What's next  ![Idea icon](/images/18.png) ###
 
-- To learn more about rules and controls that can be applied to forms go to [**Controls**](getting-started/create-first-process/controls.md) and [**Rules**](getting-started/create-first-process/rules.md). 
-- To learn more about properties, go to [**Field properties**](getting-started/create-first-process/properties.md#field-properties).
+- To learn more about rules and controls that can be applied to forms go to [**Controls**](/docs/getting-started/create-first-process/plan-your-process/controls/) and [**Rules**](/docs/getting-started/create-first-process/plan-your-process/rules/).
+- To learn more about properties, go to [**Field properties**](/docs/getting-started/create-first-process/design-and-build/add-controls-and-rules/properties#field-properties).
 
 
 
 ### User tips ![Target icon](/images/05.png) ###
 
-1. There are many ways to then reuse elements within forms, see the video [**Reusability**](getting-started/welcome/how_to.md#how-to-reuse-forms).
-2. There are many ways to manage who has access to a process, or form, see the video [**User management**](getting-started/welcome/how_to.md#how-to-manage-user-access).
+1. There are many ways to then reuse elements within forms, see the video [**Reusability**](/docs/how-to/reuse-or-clone-process-elements/).
+2. There are many ways to manage who has access to a process, or form, see the video [**User management**](/docs/how-to/control-form-user-security/).
 
 
 
 ### **To return to the previous pages click on the links below**  ![Idea icon](/images/10.png) 
 
-- [**How Kianda works**](getting-started/welcome/how_kianda_works.md)
-- [**What is low-code development**](getting-started/welcome/low_code.md)
-- [**What is no-code development**](getting-started/welcome/no_code.md)
-- [**Design and build your process**](getting-started/create-first-process/design_process.md) 
-- [**Add forms**](getting-started/create-first-process/create_form.md)
-- **[Add controls and rules](getting-started/create-first-process/add_form_elements.md)**
-- [**Properties**](getting-started/create-first-process/properties.md)
+- [**How Kianda works**](/docs/getting-started/welcome/how-kianda-works/)
+- [**What is low-code development**](/docs/getting-started/welcome/low-code/)
+- [**What is no-code development**](/docs/getting-started/welcome/no-code/)
+- [**Design and build your process**](/docs/getting-started/create-first-process/design-and-build/) 
+- [**Add forms**](/docs/getting-started/create-first-process/design-and-build/add-forms/)
+- **[Add controls and rules](/docs/getting-started/create-first-process/design-and-build/add-controls-and-rules/)**
+- [**Properties**](/docs/getting-started/create-first-process/design-and-build/add-controls-and-rules/properties/)
