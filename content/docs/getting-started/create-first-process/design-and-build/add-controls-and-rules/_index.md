@@ -13,13 +13,13 @@ When you have created forms, then you are ready to add elements to those forms, 
 
 ![Create forms process](/images/magnifycreateforms3.png)
 
-As you add elements to your form, you can save **drafts**. This allows you make changes and restore to earlier versions if needed, see [Version History](getting-started/create-first-process/version_history.md) for more information.
+As you add elements to your form, you can save **drafts**. This allows you make changes and restore to earlier versions if needed, see [Version History](/docs/getting-started/create-first-process/design-and-build/add-forms/version-history/) for more information.
 
 
 
 ## Before you begin ![Process plan icon](/images/11.png) 
 
-To add elements to your form, you need to reference your [process plan](getting-started/create-first-process/plan_process.md) and consider **what fields** you need and any **rules** that need to be applied to these fields. We will keep our Training Process [requirements](getting-started/create-first-process/plan_process.md#summary-of-requirements) in mind as we go.
+To add elements to your form, you need to reference your [process plan](/docs/getting-started/create-first-process/plan-your-process/) and consider **what fields** you need and any **rules** that need to be applied to these fields. We will keep our Training Process [requirements](/docs/getting-started/create-first-process/plan-your-process#summary-of-requirements) in mind as we go.
 
 In our example, in the Training Request Form we have 6 control fields to add: 2 text boxes, 1 user picker field, 2 buttons, 1 list field, and one rule to send an email. 
 
@@ -35,7 +35,7 @@ We will start with:
 
 ## How to get started
 
-There are 3 categories of Controls, and 10 categories of Rules, see [Controls](/getting-started/create-first-process/controls.md) and see [Rules](/getting-started/create-first-process/rules.md) for a full listing of what is available. 
+There are 3 categories of Controls, and 10 categories of Rules, see [Controls](/docs/getting-started/create-first-process/plan-your-process/controls/) and see [Rules](/docs/getting-started/create-first-process/plan-your-process/rules/) for a full listing of what is available.
 
 Controls and rules are available from the left-hand pane in when you click into a process.
 
@@ -87,7 +87,7 @@ The first field we are going to add in our example is a textbox field to accept 
 
 6. Edit field properties as necessary to control how fields appear, see the next section Field properties.  
 
-The video below highlights how to edit forms, and the section [Field properties](#field-properties.md) runs through the the editing process in steps.
+The video below highlights how to edit forms, and the section [Field properties](/docs/getting-started/create-first-process/design-and-build/add-controls-and-rules#field-properties) runs through the the editing process in steps.
 
 ***Editing forms***
 
@@ -113,11 +113,11 @@ To edit field properties:
 
    ![Field properties](/images/fieldproperties.gif)
 
-2. Tick checkboxes as appropriate, for example ticking **Enabled** means users can fill out the field. **Layout** is used to set the width of the field for both desktop and mobile layouts. In the example above, **Required** is checked which means that the particular textbox field 'Employee Name' is mandatory for users to fill out. This is denoted by asterix * beside the field name. Go to [Properties](getting-started/create-first-process/properties.md) to find out more about properties.
+2. Tick checkboxes as appropriate, for example ticking **Enabled** means users can fill out the field. **Layout** is used to set the width of the field for both desktop and mobile layouts. In the example above, **Required** is checked which means that the particular textbox field 'Employee Name' is mandatory for users to fill out. This is denoted by asterix * beside the field name. Go to [Properties](/docs/getting-started/create-first-process/design-and-build/add-controls-and-rules/properties/) to find out more about properties.
 
    Being aware of these options will help you to customise your form and impact the way it works. 
 
-   You are now ready to [add rules](#add-rules) to create smart, interactive forms.
+   You are now ready to [add rules](/docs/getting-started/create-first-process/design-and-build/add-controls-and-rules#adding-rules) to create smart, interactive forms.
    
    
 
@@ -201,17 +201,17 @@ In our example we will add a rule to **send an automated email** to a Line manag
 
    ![Rule order](/images/ruleorder.gif)
 
-​		For more information on other rules that can be applied, go to [Rules](getting-started/create-first-process/rules.md) for a full listing of what is available.
+​		For more information on other rules that can be applied, go to [Rules](/docs/getting-started/create-first-process/plan-your-process/rules/) for a full listing of what is available.
 
 8. Make sure to save your work as you go by clicking on the **Save** button.
 
-9. Repeat the steps above to add another email rule to another field, or try other rule, for example a [Workflow rule](#adding-a-second-workflow-rule-called-Hide-and-Disable) as shown below.
+9. Repeat the steps above to add another email rule to another field, or try other rule, for example a [Workflow rule](/docs/getting-started/create-first-process/design-and-build/add-controls-and-rules#adding-a-second-workflow-rule-called-hide-and-disable) as shown below.
 
    
 
 ### Adding a second Workflow rule called Hide and Disable
 
-In the Training Process example, there is a second form that is part of this process, called Training Approval. From our Training Process [requirements](getting-started/create-first-process/plan_process.md#summary-of-requirements) the Approval form will have 7 fields, and 1 rule. The fields include a field group, a banner and a list and a **Workflow**  added to a radio list called 'Management decision'. The added **Workflow** rule is called **Hide and Disable**, so based on user input, if someone clicks 'Yes' for the 'Management decision, then a Signature field is shown to sign off on the form, if 'No' is clicked then the Signature field is hidden and a text box called 'Reason' is shown. 
+In the Training Process example, there is a second form that is part of this process, called Training Approval. From our Training Process [requirements](/docs/getting-started/create-first-process/plan-your-process#summary-of-requirements) the Approval form will have 7 fields, and 1 rule. The fields include a field group, a banner and a list and a **Workflow**  added to a radio list called 'Management decision'. The added **Workflow** rule is called **Hide and Disable**, so based on user input, if someone clicks 'Yes' for the 'Management decision, then a Signature field is shown to sign off on the form, if 'No' is clicked then the Signature field is hidden and a text box called 'Reason' is shown. 
 
 1. Select a field in a form to apply the rule to, in this example a field called 'Management Decision' in a Training Approval field.
 
@@ -263,12 +263,12 @@ The next steps are:
 
 ### User tips ![Target icon](/images/05.png) ###
 
-1. Make sure that you change the field properties to make fields **Required**, **Enabled** and so on, to ensure that the form appears the way you want, see [Properties](getting-started/create-first-process/properties.md) to find out more about properties. For example unchecking **Enabled** makes the field visible but not possible to edit. 
+1. Make sure that you change the field properties to make fields **Required**, **Enabled** and so on, to ensure that the form appears the way you want, see [Properties](/docs/getting-started/create-first-process/design-and-build/add-controls-and-rules/properties/) to find out more about properties. For example unchecking **Enabled** makes the field visible but not possible to edit. 
 2. By default there are 3 buttons with every form, Submit, Save and Close. To remove a button, simply click on it and then click on the **Bin/Trash** button ![Bin](/images/binicon.png) or to add a new button of choice, go to **Controls** > **Actions** > **Button** see [Controls](/docs/getting-started/create-first-process/design-and-build/add-controls-and-rules/) for a full list of controls.
 3. There are additional form settings that can be used, available in the right-hand pane of **Designer**. Click on a form in the process, then click on the **Settings** button ![Settings](/images/settings.png) to set additional settings such as **Enable process security**. This value can be checked and a group selected, so that only these users can access the form. Groups are added from **Side menu** > **Administration** > **Users**, click on **Create new group** to add users to a group, for example HR Team.
-4. There are many ways to then reuse elements within forms, for example using the Group field and cloning, see the video [**How to reuse forms**](getting-started/welcome/how_to.md#how-to-reuse-forms).
+4. There are many ways to then reuse elements within forms, for example using the Group field and cloning, see the video [**How to reuse forms**](/docs/how-to/reuse-or-clone-process-elements/).
 5. To consider different ways of user inputs, see the video [**Possibilities for user input with Kianda**](/docs/getting-started/welcome/how-to/#possibilities-for-user-input-with-kianda).
-6. There are many ways to manage who has access to a process, or form, see the video [**How to manage user access**](/docs/getting-started/welcome/how-to/#how-to-manage-user-access).
+6. There are many ways to manage who has access to a process, or form, see the video [**How to manage user access**](/docs/how-to/control-form-user-security/).
 
 
 
@@ -276,8 +276,8 @@ The next steps are:
 ### **To return to the previous pages click on the links below**  ![Lighting icon](/images/10.png) 
 
 - [**Design and build your process**](/docs/getting-started/create-first-process/design-and-build/) 
-- [**Designer**](/docs/getting-started/create-first-process/designer.md)
-- [**Add forms**](getting-started/create-first-process/create_form.md)
+- [**Designer**](/docs/getting-started/create-first-process/design-and-build/add-forms/designer/)
+- [**Add forms**](/docs/getting-started/create-first-process/design-and-build/add-forms/)
 
   
 
