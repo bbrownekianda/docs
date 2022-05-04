@@ -14,9 +14,9 @@ Connecting to data happens during the **process design** phase, see image below.
 
 ![Designing in Kianda](/images/highlightdesign.png)
 
-You can set up data connectors first, before building your process if you wish, and then link those data connectors when [adding controls and rules](getting-started/add_form_elements.md).
+You can set up data connectors first, before building your process if you wish, and then link those data connectors when [adding controls and rules](/docs/getting-started/create-first-process/design-and-build/add-controls-and-rules/).
 
-The video below highlights how to connect to a datasource, in this example, SharePoint and [How to get started](#how-to-get-started.md) runs through the process in steps including an example of how to use this datasource in a list field.
+The video below highlights how to connect to a datasource, in this example, SharePoint and [How to get started](/docs/getting-started/create-first-process/design-and-build/connect-your-data#how-to-get-started) runs through the process in steps including an example of how to use this datasource in a list field.
 
 ***Connecting to a datasource using SharePoint***
 
@@ -61,7 +61,7 @@ In this example, we will connect to a SharePoint list called 'Types of Training'
 
 7. When your form is complete, click on the **Save** button  ![Save button](/images/save.png) to save your work.
 
-The end result is a complete process that is ready for test and review. Go to [Preview the design](getting-started/previewer.md) to find out how to perform these steps.
+The end result is a complete process that is ready for test and review. Go to [Preview the design](/docs/getting-started/create-first-process/design-and-build/preview-your-process/) to find out how to perform these steps.
 
 
 
@@ -78,16 +78,16 @@ A full list of data connectors is available in the table below.
 The next steps are: 
 
 - [**Preview the design**](/docs/getting-started/create-first-process/design-and-build/preview-your-process/)
-- [**Publish your process**](getting-started/publish_process.md)
+- [**Publish your process**](/docs/getting-started/create-first-process/publish-your-process/)
 
 
 
 
 ### **To return to the previous pages click on the links below**  ![Lighting icon](/images/10.png) 
 
-- [**How Kianda works**](getting-started/how_kianda_works.md)
-- [**Design and build your process**](getting-started/design_process.md) 
-- [**Add forms**](getting-started/create_form.md)
-- [**Add controls and rules**](getting-started/add_form_elements.md)
+- [**How Kianda works**](/docs/getting-started/welcome/how-kianda-works/)
+- [**Design and build your process**](/docs/getting-started/create-first-process/design-and-build/) 
+- [**Add forms**](/docs/getting-started/create-first-process/design-and-build/add-forms/)
+- [**Add controls and rules**](/docs/getting-started/create-first-process/design-and-build/add-controls-and-rules/)
 
   
