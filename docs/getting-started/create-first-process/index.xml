@@ -175,7 +175,7 @@ Requirements template
 &lt;/ul></description></item><item><title>Docs: Design and build your process</title><link>https://docs.kianda.com/docs/getting-started/create-first-process/design-and-build/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/getting-started/create-first-process/design-and-build/</guid><description>
 &lt;p>Kianda processes are made up of &lt;strong>forms&lt;/strong>. As we saw in &lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/plan-your-process/">Plan your process&lt;/a>, you may have a paper forms or email flows that you want to turn into a dynamic, digital process.&lt;/p>
 &lt;h2 id="designing-in-kianda">Designing in Kianda&lt;/h2>
-&lt;p>To turn your process plan into a Kianda design using the agile approach, follow three simple steps: &lt;a href="#build-processes">&lt;strong>Build processes&lt;/strong>&lt;/a>, &lt;a href="getting-started/dataconnect.md">&lt;strong>Connect your data&lt;/strong>&lt;/a>, &lt;a href="getting-started/previewer.md">&lt;strong>Preview the design&lt;/strong>&lt;/a>.&lt;/p>
+&lt;p>To turn your process plan into a Kianda design using the agile approach, follow three simple steps: &lt;a href="#build-processes">&lt;strong>Build processes&lt;/strong>&lt;/a>, &lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/design-and-build/connect-your-data/">&lt;strong>Connect your data&lt;/strong>&lt;/a>, &lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/design-and-build/preview-your-process/">&lt;strong>Preview the design&lt;/strong>&lt;/a>.&lt;/p>
 &lt;p>&lt;em>&lt;strong>Design process&lt;/strong>&lt;/em>&lt;/p>
 &lt;p>&lt;img src="https://docs.kianda.com/images/highlightdesign.png" alt="Designing in Kianda">&lt;/p>
 &lt;p>We&amp;rsquo;ll start with the first step below, &lt;a href="#build-processes">Build processes&lt;/a>.&lt;/p>
@@ -185,7 +185,7 @@ Requirements template
 &lt;p>&lt;img src="https://docs.kianda.com/images/magnifycreateforms.png" alt="Create forms process">&lt;/p>
 &lt;p>Once you have previewed the design you may wish to go back and make changes to the form, adopting an iterative design approach. We will deal with each step in turn starting with &lt;a href="#create-a-process">creating a process&lt;/a>.&lt;/p>
 &lt;h2 id="before-you-begin-process-plan-iconimages11png">Before you begin &lt;img src="https://docs.kianda.com/images/11.png" alt="Process plan icon">&lt;/h2>
-&lt;p>To start creating a process, reference your &lt;a href="getting-started/create-first-process/plan_process.md">process plan&lt;/a>. In our example we will keep our Training Process &lt;a href="getting-started/create-first-process/plan_process.md#summary-of-requirements">requirements&lt;/a> in mind as we go. We will start by creating a first process called Training Process.&lt;/p>
+&lt;p>To start creating a process, reference your &lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/plan-your-process/">process plan&lt;/a>. In our example we will keep our Training Process &lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/plan-your-process#summary-of-requirements">requirements&lt;/a> in mind as we go. We will start by creating a first process called Training Process.&lt;/p>
 &lt;h2 id="create-a-process">Create a process&lt;/h2>
 &lt;ol>
 &lt;li>
@@ -204,7 +204,7 @@ Requirements template
 &lt;p>Click on &lt;strong>OK&lt;/strong> &lt;img src="https://docs.kianda.com/images/ok.png" alt="OK button"> when complete.&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>You are now in the process design page. From here you can &lt;a href="getting-started/create-first-process/create_form.md">Add forms&lt;/a>.&lt;/p>
+&lt;p>You are now in the process design page. From here you can &lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/design-and-build/add-forms/">Add forms&lt;/a>.&lt;/p>
 &lt;p>&lt;em>&lt;strong>Process design page&lt;/strong>&lt;/em>&lt;/p>
 &lt;p>&lt;img src="https://docs.kianda.com/images/formdesigner.gif" alt="Form designer">&lt;/p>
 &lt;/li>
@@ -212,18 +212,18 @@ Requirements template
 &lt;h3 id="whats-next--idea-iconimages18png">What&amp;rsquo;s next &lt;img src="https://docs.kianda.com/images/18.png" alt="Idea icon">&lt;/h3>
 &lt;p>The next steps are:&lt;/p>
 &lt;ul>
-&lt;li>&lt;a href="getting-started/create-first-process/create_form.md">&lt;strong>Add forms&lt;/strong>&lt;/a>&lt;/li>
-&lt;li>&lt;strong>&lt;a href="getting-started/create-first-process/add_form_elements.md">Add controls and rules&lt;/a>&lt;/strong>&lt;/li>
+&lt;li>&lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/design-and-build/add-forms/">&lt;strong>Add forms&lt;/strong>&lt;/a>&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/design-and-build/add-controls-and-rules/">Add controls and rules&lt;/a>&lt;/strong>&lt;/li>
 &lt;/ul>
 &lt;h3 id="user-tip-target-iconimages05png">User tip &lt;img src="https://docs.kianda.com/images/05.png" alt="Target icon">&lt;/h3>
-&lt;p>There are many ways to manage who has access to a process, or form, see the video &lt;a href="getting-started/welcome/how_to.md#how-to-manage-user-access">&lt;strong>How to manage user access&lt;/strong>&lt;/a>.&lt;/p>
+&lt;p>There are many ways to manage who has access to a process, or form, see the video &lt;a href="https://docs.kianda.com/docs/how-to/control-form-user-security/">&lt;strong>How to manage user access&lt;/strong>&lt;/a>.&lt;/p>
 &lt;h3 id="to-return-to-the-previous-pages-click-on-the-links-below--lighting-iconimages10png">&lt;strong>To return to the previous pages click on the links below&lt;/strong> &lt;img src="https://docs.kianda.com/images/10.png" alt="Lighting icon">&lt;/h3>
 &lt;ul>
-&lt;li>&lt;a href="getting-started/welcome/low_code.md">&lt;strong>What is low-code development&lt;/strong>&lt;/a>&lt;/li>
-&lt;li>&lt;a href="getting-started/welcome/no_code.md">&lt;strong>What is no-code development&lt;/strong>&lt;/a>&lt;/li>
-&lt;li>&lt;strong>&lt;a href="getting-started/create-first-process/">Create your first Kianda process&lt;/a>&lt;/strong>&lt;/li>
-&lt;li>&lt;strong>&lt;a href="getting-started/create-first-process/plan_process.md">Plan your process&lt;/a>&lt;/strong>&lt;/li>
-&lt;li>&lt;a href="getting-started/create-first-process/designer.md">&lt;strong>Designer&lt;/strong>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.kianda.com/docs/getting-started/welcome/low-code/">&lt;strong>What is low-code development&lt;/strong>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.kianda.com/docs/getting-started/welcome/no-code/">&lt;strong>What is no-code development&lt;/strong>&lt;/a>&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/">Create your first Kianda process&lt;/a>&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/plan-your-process/">Plan your process&lt;/a>&lt;/strong>&lt;/li>
+&lt;li>&lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/design-and-build/add-forms/designer/">&lt;strong>Designer&lt;/strong>&lt;/a>&lt;/li>
 &lt;/ul></description></item><item><title>Docs: Publish your process</title><link>https://docs.kianda.com/docs/getting-started/create-first-process/publish-your-process/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/getting-started/create-first-process/publish-your-process/</guid><description>
 &lt;p>When you have designed and built your process(es), you are ready to publish. Publishing involves three main steps: &lt;a href="#deploy-the-process">&lt;strong>Deploying the process&lt;/strong>&lt;/a>, &lt;a href="#track-dashboards">&lt;strong>Tracking dashboards&lt;/strong>&lt;/a> and &lt;a href="#launch">&lt;strong>Launch&lt;/strong>&lt;/a>.&lt;/p>
 &lt;p>&lt;em>&lt;strong>Publish process&lt;/strong>&lt;/em>&lt;/p>
