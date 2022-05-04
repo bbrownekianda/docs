@@ -46,14 +46,14 @@ The video below introduces version control and the section [How to get started](
 
 ### What's next  ![Idea icon](/images/18.png) ###
 
-To learn more about adding different elements to your form go to **[Add controls and rules](getting-started/create-first-process/add_form_elements.md)**.
+To learn more about adding different elements to your form go to **[Add controls and rules](/docs/getting-started/create-first-process/design-and-build/add-controls-and-rules/)**.
 
 
 
 ### **To return to the previous pages click on the links below**  ![Idea icon](/images/10.png) 
 
-- [**Design and build your process**](getting-started/create-first-process/design_process.md) 
-- [**Add forms**](getting-started/create-first-process/create_form.md)
-- [**Designer**](getting-started/create-first-process/designer.md)
-- [**Add controls and rules**](getting-started/create-first-process/add_form_elements.md)
-- [**Preview the design**](getting-started/create-first-process/previewer.md)
+- [**Design and build your process**](/docs/getting-started/create-first-process/design-and-build/) 
+- [**Add forms**](/docs/getting-started/create-first-process/design-and-build/add-forms/)
+- [**Designer**](/docs/getting-started/create-first-process/design-and-build/add-forms/designer/)
+- [**Add controls and rules**](/docs/getting-started/create-first-process/design-and-build/add-controls-and-rules/)
+- [**Preview the design**](/docs/getting-started/create-first-process/design-and-build/preview-your-process/)
