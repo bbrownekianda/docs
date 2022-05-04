@@ -43,11 +43,11 @@ Your browser does not support the video tag.
 &lt;p>There are 3 key principles to consider when working with forms:&lt;/p>
 &lt;ol>
 &lt;li>Form &lt;strong>design&lt;/strong> - what a form looks like, what elements it contains, for example controls and rules, see &lt;a href="#designer-layout">&lt;strong>Designer layout&lt;/strong>&lt;/a>&lt;/li>
-&lt;li>Form &lt;strong>interaction&lt;/strong>- how users can use forms depending on certain sequences happening, see &lt;a href="getting-started/create-first-process/rules.md">&lt;strong>Rules&lt;/strong>&lt;/a>&lt;/li>
+&lt;li>Form &lt;strong>interaction&lt;/strong>- how users can use forms depending on certain sequences happening, see &lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/plan-your-process/rules/">&lt;strong>Rules&lt;/strong>&lt;/a>&lt;/li>
 &lt;li>Form &lt;strong>management&lt;/strong> - who can edit and access forms is set when creating a new form, see &lt;a href="#new-forms">&lt;strong>New forms&lt;/strong>&lt;/a>&lt;/li>
 &lt;/ol>
 &lt;h2 id="designer-layout">Designer layout&lt;/h2>
-&lt;p>To access processes, go to the left-hand pane and &lt;strong>Administration&lt;/strong> &amp;gt; &lt;strong>Designer&lt;/strong> and click on a process that you have created or imported, see &lt;a href="getting-started/create-first-process/design_process.md">Design and build your process&lt;/a>.&lt;/p>
+&lt;p>To access processes, go to the left-hand pane and &lt;strong>Administration&lt;/strong> &amp;gt; &lt;strong>Designer&lt;/strong> and click on a process that you have created or imported, see &lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/design-and-build/">Design and build your process&lt;/a>.&lt;/p>
 &lt;p>From the main process view, click on any process to add forms, for example Training process as seen below.&lt;/p>
 &lt;p>&lt;em>&lt;strong>Main process view&lt;/strong>&lt;/em>
 &lt;img src="https://docs.kianda.com/images/clickonprocess.png" alt="Clicking on a process">&lt;/p>
@@ -85,7 +85,7 @@ Your browser does not support the video tag.
 &lt;/ul>
 &lt;/li>
 &lt;li>
-&lt;p>Once your form is created, you are ready to start adding elements to your form, see &lt;a href="getting-started/create-first-process/add_form_elements.md">Add controls and rules&lt;/a>.&lt;/p>
+&lt;p>Once your form is created, you are ready to start adding elements to your form, see &lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/design-and-build/add-controls-and-rules/">Add controls and rules&lt;/a>.&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>In addition there are a number of settings you can change, see &lt;a href="#settings-and-properties">Settings and Properties&lt;/a>.&lt;/p>
@@ -174,7 +174,7 @@ Your browser does not support the video tag.
 &lt;p>To save your changes to the form, click on the &lt;strong>Save&lt;/strong> button &lt;img src="https://docs.kianda.com/images/save.png" alt="Save button">.&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>You are now ready to start adding &lt;a href="getting-started/create-first-process/add_form_elements.md">Controls and rules&lt;/a> to your form. You can also implement additional settings see &lt;a href="#process-settings">Process Settings&lt;/a>.&lt;/p>
+&lt;p>You are now ready to start adding &lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/design-and-build/add-controls-and-rules/">Controls and rules&lt;/a> to your form. You can also implement additional settings see &lt;a href="#process-settings">Process Settings&lt;/a>.&lt;/p>
 &lt;/li>
 &lt;/ol>
 &lt;h3 id="import-forms">Import forms&lt;/h3>
@@ -199,7 +199,7 @@ Your browser does not support the video tag.
 &lt;p>&lt;em>&lt;strong>Default form buttons&lt;/strong>&lt;/em>&lt;/p>
 &lt;p>&lt;img src="https://docs.kianda.com/images/defaultbuttons.png" alt="Form button edit">&lt;/p>
 &lt;ol>
-&lt;li>Go to &lt;a href="getting-started/create-first-process/add_form_elements.md">Add controls and rules&lt;/a> to find out more about adding form elements.&lt;/li>
+&lt;li>Go to &lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/design-and-build/add-controls-and-rules/">Add controls and rules&lt;/a> to find out more about adding form elements.&lt;/li>
 &lt;li>Move elements by clicking on the &lt;strong>Drag Handle&lt;/strong> &lt;img src="https://docs.kianda.com/images/move.png" alt="Drag handle"> beside the item and dragging it to where you want to place it.&lt;/li>
 &lt;li>Edit elements by clicking on each item and clicking on the &lt;strong>Pen&lt;/strong> button &lt;img src="https://docs.kianda.com/images/penicon.png" alt="Pen icon"> see &lt;a href="#settings-and-properties">Settings and properties&lt;/a>&lt;/li>
 &lt;/ol>
@@ -213,7 +213,7 @@ Your browser does not support the video tag.
 &lt;p>&lt;a href="#import-forms">Import processes&lt;/a>&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>View &lt;a href="getting-started/create-first-process/version_history.md">Version history&lt;/a>&lt;/p>
+&lt;p>View &lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/design-and-build/add-forms/version-history/">Version history&lt;/a>&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>Change &lt;a href="#process-settings">Process settings&lt;/a> &lt;img src="https://docs.kianda.com/images/settings.png" alt="Settings button">&lt;/p>
@@ -231,7 +231,7 @@ Your browser does not support the video tag.
 &lt;p>Delete a form by selecting a form, clicking on the &lt;strong>Bin/Trash&lt;/strong> button &lt;img src="https://docs.kianda.com/images/binicon.png" alt="Bin icon"> and then click on &lt;strong>Ok&lt;/strong> after you have reviewed the form title and you are sure this is what you want to delete. Click on &lt;strong>Cancel&lt;/strong> if you wish to cancel the deletion.&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>View and edit &lt;a href="getting-started/create-first-process/properties.md">Form properties&lt;/a> and &lt;a href="getting-started/rcreate-first-process/rules">rules&lt;/a>.&lt;/p>
+&lt;p>View and edit &lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/design-and-build/add-controls-and-rules/properties#form-properties">Form properties&lt;/a> and &lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/plan-your-process/rules/">rules&lt;/a>.&lt;/p>
 &lt;/li>
 &lt;/ul>
 &lt;h3 id="process-settings">Process settings&lt;/h3>
@@ -298,21 +298,21 @@ Your browser does not support the video tag.
 &lt;/ol>
 &lt;h3 id="whats-next--idea-iconimages18png">What&amp;rsquo;s next &lt;img src="https://docs.kianda.com/images/18.png" alt="Idea icon">&lt;/h3>
 &lt;ul>
-&lt;li>To learn more about rules and controls that can be applied to forms go to &lt;a href="getting-started/create-first-process/controls.md">&lt;strong>Controls&lt;/strong>&lt;/a> and &lt;a href="getting-started/create-first-process/rules.md">&lt;strong>Rules&lt;/strong>&lt;/a>.&lt;/li>
-&lt;li>To learn more about properties, go to &lt;a href="getting-started/create-first-process/properties.md#field-properties">&lt;strong>Field properties&lt;/strong>&lt;/a>.&lt;/li>
+&lt;li>To learn more about rules and controls that can be applied to forms go to &lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/plan-your-process/controls/">&lt;strong>Controls&lt;/strong>&lt;/a> and &lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/plan-your-process/rules/">&lt;strong>Rules&lt;/strong>&lt;/a>.&lt;/li>
+&lt;li>To learn more about properties, go to &lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/design-and-build/add-controls-and-rules/properties#field-properties">&lt;strong>Field properties&lt;/strong>&lt;/a>.&lt;/li>
 &lt;/ul>
 &lt;h3 id="user-tips-target-iconimages05png">User tips &lt;img src="https://docs.kianda.com/images/05.png" alt="Target icon">&lt;/h3>
 &lt;ol>
-&lt;li>There are many ways to then reuse elements within forms, see the video &lt;a href="getting-started/welcome/how_to.md#how-to-reuse-forms">&lt;strong>Reusability&lt;/strong>&lt;/a>.&lt;/li>
-&lt;li>There are many ways to manage who has access to a process, or form, see the video &lt;a href="getting-started/welcome/how_to.md#how-to-manage-user-access">&lt;strong>User management&lt;/strong>&lt;/a>.&lt;/li>
+&lt;li>There are many ways to then reuse elements within forms, see the video &lt;a href="https://docs.kianda.com/docs/how-to/reuse-or-clone-process-elements/">&lt;strong>Reusability&lt;/strong>&lt;/a>.&lt;/li>
+&lt;li>There are many ways to manage who has access to a process, or form, see the video &lt;a href="https://docs.kianda.com/docs/how-to/control-form-user-security/">&lt;strong>User management&lt;/strong>&lt;/a>.&lt;/li>
 &lt;/ol>
 &lt;h3 id="to-return-to-the-previous-pages-click-on-the-links-below--idea-iconimages10png">&lt;strong>To return to the previous pages click on the links below&lt;/strong> &lt;img src="https://docs.kianda.com/images/10.png" alt="Idea icon">&lt;/h3>
 &lt;ul>
-&lt;li>&lt;a href="getting-started/welcome/how_kianda_works.md">&lt;strong>How Kianda works&lt;/strong>&lt;/a>&lt;/li>
-&lt;li>&lt;a href="getting-started/welcome/low_code.md">&lt;strong>What is low-code development&lt;/strong>&lt;/a>&lt;/li>
-&lt;li>&lt;a href="getting-started/welcome/no_code.md">&lt;strong>What is no-code development&lt;/strong>&lt;/a>&lt;/li>
-&lt;li>&lt;a href="getting-started/create-first-process/design_process.md">&lt;strong>Design and build your process&lt;/strong>&lt;/a>&lt;/li>
-&lt;li>&lt;a href="getting-started/create-first-process/create_form.md">&lt;strong>Add forms&lt;/strong>&lt;/a>&lt;/li>
-&lt;li>&lt;strong>&lt;a href="getting-started/create-first-process/add_form_elements.md">Add controls and rules&lt;/a>&lt;/strong>&lt;/li>
-&lt;li>&lt;a href="getting-started/create-first-process/properties.md">&lt;strong>Properties&lt;/strong>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.kianda.com/docs/getting-started/welcome/how-kianda-works/">&lt;strong>How Kianda works&lt;/strong>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.kianda.com/docs/getting-started/welcome/low-code/">&lt;strong>What is low-code development&lt;/strong>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.kianda.com/docs/getting-started/welcome/no-code/">&lt;strong>What is no-code development&lt;/strong>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/design-and-build/">&lt;strong>Design and build your process&lt;/strong>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/design-and-build/add-forms/">&lt;strong>Add forms&lt;/strong>&lt;/a>&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/design-and-build/add-controls-and-rules/">Add controls and rules&lt;/a>&lt;/strong>&lt;/li>
+&lt;li>&lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/design-and-build/add-controls-and-rules/properties/">&lt;strong>Properties&lt;/strong>&lt;/a>&lt;/li>
 &lt;/ul></description></item></channel></rss>
