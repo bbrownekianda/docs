@@ -3,7 +3,7 @@ title: "Properties"
 typora-root-url: ..\..\..\..\..\..\static
 ---
 
-Every process, form and control, such as text boxes and lists, will have properties visible in the right-hand pane of the [Designer](getting-started/create-first-process/Designer.md) view. 
+Every process, form and control, such as text boxes and lists, will have properties visible in the right-hand pane of the [Designer](/docs/getting-started/create-first-process/design-and-build/add-forms/designer/) view. 
 
 
 
@@ -42,7 +42,7 @@ The following properties are visible:
 
 - Show info - click on this checkbox if you want to show information, for example who are the form owners, the design version and when the form was started and completed. This information will pop up at the bottom of the form.
 
-  Underneath form properties you will see **Form submit rules**, go to [Rules](getting-started/create-first-process/rules.md) to find out more about Form rules.
+  Underneath form properties you will see **Form submit rules**, go to [Rules](/docs/getting-started/create-first-process/plan-your-process/rules/) to find out more about Form rules.
 
 Click on a control field, for example a text box, in the form to see [Field properties](#field-properties). 
 
@@ -74,17 +74,17 @@ The options within properties are:
 
 ### What's next  ![Idea icon](/images/18.png) ###
 
-To read more about form rules, go to [**Rules**](getting-started/create-first-process/rules.md).
+To read more about form rules, go to [**Rules**](/docs/getting-started/create-first-process/plan-your-process/rules/).
 
 
 
 ### **To return to the previous pages click on the links below**  ![Idea icon](/images/10.png) 
 
-- [**Design and build your process**](getting-started/create-first-process/design_process.md) 
-- [**Add forms**](getting-started/create-first-process/create_form.md)
-- **[Add controls and rules](getting-started/create-first-process/add_form_elements.md)**
-- [**Controls**](getting-started/create-first-process/controls.md)
-- [**Designer**](getting-started/create-first-process/designer.md)
+- [**Design and build your process**](/docs/getting-started/create-first-process/design-and-build/) 
+- [**Add forms**](/docs/getting-started/create-first-process/design-and-build/add-forms/)
+- **[Add controls and rules](/docs/getting-started/create-first-process/design-and-build/add-controls-and-rules/)**
+- [**Controls**](/docs/getting-started/create-first-process/plan-your-process/controls/)
+- [**Designer**](/docs/getting-started/create-first-process/design-and-build/add-forms/designer/)
 
 
 
