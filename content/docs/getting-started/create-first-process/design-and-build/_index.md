@@ -10,7 +10,7 @@ Kianda processes are made up of **forms**. As we saw in [Plan your process](/doc
 
 ## Designing in Kianda
 
-To turn your process plan into a Kianda design using the agile approach, follow three simple steps: [**Build processes**](#build-processes), [**Connect your data**](getting-started/dataconnect.md), [**Preview the design**](getting-started/previewer.md).
+To turn your process plan into a Kianda design using the agile approach, follow three simple steps: [**Build processes**](#build-processes), [**Connect your data**](/docs/getting-started/create-first-process/design-and-build/connect-your-data/), [**Preview the design**](/docs/getting-started/create-first-process/design-and-build/preview-your-process/).
 
 ***Design process***
 
@@ -36,7 +36,7 @@ Once you have previewed the design you may wish to go back and make changes to t
 
 ## Before you begin ![Process plan icon](/images/11.png) 
 
-To start creating a process, reference your [process plan](getting-started/create-first-process/plan_process.md). In our example we will keep our Training Process [requirements](getting-started/create-first-process/plan_process.md#summary-of-requirements) in mind as we go. We will start by creating a first process called Training Process. 
+To start creating a process, reference your [process plan](/docs/getting-started/create-first-process/plan-your-process/). In our example we will keep our Training Process [requirements](/docs/getting-started/create-first-process/plan-your-process#summary-of-requirements) in mind as we go. We will start by creating a first process called Training Process. 
 
 
 
@@ -60,7 +60,7 @@ To start creating a process, reference your [process plan](getting-started/creat
 
     Click on **OK** ![OK button](/images/ok.png) when complete.
 
-4. You are now in the process design page. From here you can [Add forms](getting-started/create-first-process/create_form.md).
+4. You are now in the process design page. From here you can [Add forms](/docs/getting-started/create-first-process/design-and-build/add-forms/).
 
    ***Process design page***
 
@@ -72,22 +72,22 @@ To start creating a process, reference your [process plan](getting-started/creat
 
 The next steps are: 
 
-- [**Add forms**](getting-started/create-first-process/create_form.md)
-- **[Add controls and rules](getting-started/create-first-process/add_form_elements.md)**
+- [**Add forms**](/docs/getting-started/create-first-process/design-and-build/add-forms/)
+- **[Add controls and rules](/docs/getting-started/create-first-process/design-and-build/add-controls-and-rules/)**
 
 
 
 ### User tip ![Target icon](/images/05.png) ###
 
-There are many ways to manage who has access to a process, or form, see the video [**How to manage user access**](getting-started/welcome/how_to.md#how-to-manage-user-access).
+There are many ways to manage who has access to a process, or form, see the video [**How to manage user access**](/docs/how-to/control-form-user-security/).
 
 
 
 ### **To return to the previous pages click on the links below**  ![Lighting icon](/images/10.png) 
 
-- [**What is low-code development**](getting-started/welcome/low_code.md)
-- [**What is no-code development**](getting-started/welcome/no_code.md)
-- **[Create your first Kianda process](getting-started/create-first-process/)**
-- **[Plan your process](getting-started/create-first-process/plan_process.md)**
-- [**Designer**](getting-started/create-first-process/designer.md)
+- [**What is low-code development**](/docs/getting-started/welcome/low-code/)
+- [**What is no-code development**](/docs/getting-started/welcome/no-code/)
+- **[Create your first Kianda process](/docs/getting-started/create-first-process/)**
+- **[Plan your process](/docs/getting-started/create-first-process/plan-your-process/)**
+- [**Designer**](/docs/getting-started/create-first-process/design-and-build/add-forms/designer/)
 
