@@ -305,8 +305,8 @@ Your browser does not support the video tag.
 &lt;p>Connecting to data happens during the &lt;strong>process design&lt;/strong> phase, see image below.&lt;/p>
 &lt;p>&lt;em>&lt;strong>Design process&lt;/strong>&lt;/em>&lt;/p>
 &lt;p>&lt;img src="https://docs.kianda.com/images/highlightdesign.png" alt="Designing in Kianda">&lt;/p>
-&lt;p>You can set up data connectors first, before building your process if you wish, and then link those data connectors when &lt;a href="getting-started/add_form_elements.md">adding controls and rules&lt;/a>.&lt;/p>
-&lt;p>The video below highlights how to connect to a datasource, in this example, SharePoint and &lt;a href="#how-to-get-started.md">How to get started&lt;/a> runs through the process in steps including an example of how to use this datasource in a list field.&lt;/p>
+&lt;p>You can set up data connectors first, before building your process if you wish, and then link those data connectors when &lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/design-and-build/add-controls-and-rules/">adding controls and rules&lt;/a>.&lt;/p>
+&lt;p>The video below highlights how to connect to a datasource, in this example, SharePoint and &lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/design-and-build/connect-your-data#how-to-get-started">How to get started&lt;/a> runs through the process in steps including an example of how to use this datasource in a list field.&lt;/p>
 &lt;p>&lt;em>&lt;strong>Connecting to a datasource using SharePoint&lt;/strong>&lt;/em>&lt;/p>
 &lt;video width="100%" style="width:100%" controls>
 &lt;source src="https://docs.kianda.com/videos/dataconnectsharepoint.mp4">
@@ -347,7 +347,7 @@ Your browser does not support the video tag.
 &lt;p>When your form is complete, click on the &lt;strong>Save&lt;/strong> button &lt;img src="https://docs.kianda.com/images/save.png" alt="Save button"> to save your work.&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;p>The end result is a complete process that is ready for test and review. Go to &lt;a href="getting-started/previewer.md">Preview the design&lt;/a> to find out how to perform these steps.&lt;/p>
+&lt;p>The end result is a complete process that is ready for test and review. Go to &lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/design-and-build/preview-your-process/">Preview the design&lt;/a> to find out how to perform these steps.&lt;/p>
 &lt;h2 id="data-connector-list">Data connector list&lt;/h2>
 &lt;p>A full list of data connectors is available in the table below.&lt;/p>
 &lt;p>&lt;em>&lt;strong>Data connector table&lt;/strong>&lt;/em>&lt;/p>
@@ -356,14 +356,14 @@ Your browser does not support the video tag.
 &lt;p>The next steps are:&lt;/p>
 &lt;ul>
 &lt;li>&lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/design-and-build/preview-your-process/">&lt;strong>Preview the design&lt;/strong>&lt;/a>&lt;/li>
-&lt;li>&lt;a href="getting-started/publish_process.md">&lt;strong>Publish your process&lt;/strong>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/publish-your-process/">&lt;strong>Publish your process&lt;/strong>&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h3 id="to-return-to-the-previous-pages-click-on-the-links-below--lighting-iconimages10png">&lt;strong>To return to the previous pages click on the links below&lt;/strong> &lt;img src="https://docs.kianda.com/images/10.png" alt="Lighting icon">&lt;/h3>
 &lt;ul>
-&lt;li>&lt;a href="getting-started/how_kianda_works.md">&lt;strong>How Kianda works&lt;/strong>&lt;/a>&lt;/li>
-&lt;li>&lt;a href="getting-started/design_process.md">&lt;strong>Design and build your process&lt;/strong>&lt;/a>&lt;/li>
-&lt;li>&lt;a href="getting-started/create_form.md">&lt;strong>Add forms&lt;/strong>&lt;/a>&lt;/li>
-&lt;li>&lt;a href="getting-started/add_form_elements.md">&lt;strong>Add controls and rules&lt;/strong>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.kianda.com/docs/getting-started/welcome/how-kianda-works/">&lt;strong>How Kianda works&lt;/strong>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/design-and-build/">&lt;strong>Design and build your process&lt;/strong>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/design-and-build/add-forms/">&lt;strong>Add forms&lt;/strong>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/design-and-build/add-controls-and-rules/">&lt;strong>Add controls and rules&lt;/strong>&lt;/a>&lt;/li>
 &lt;/ul></description></item><item><title>Docs: Preview the design</title><link>https://docs.kianda.com/docs/getting-started/create-first-process/design-and-build/preview-your-process/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/getting-started/create-first-process/design-and-build/preview-your-process/</guid><description>
 &lt;p>The Kianda &lt;strong>Previewer&lt;/strong> allows you to preview your process and interact with it as a user. Following this step is an essential part of the &lt;strong>design phase&lt;/strong>.&lt;/p>
 &lt;p>&lt;em>&lt;strong>Design process&lt;/strong>&lt;/em>&lt;/p>
