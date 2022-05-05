@@ -368,7 +368,7 @@ Your browser does not support the video tag.
 &lt;p>The Kianda &lt;strong>Previewer&lt;/strong> allows you to preview your process and interact with it as a user. Following this step is an essential part of the &lt;strong>design phase&lt;/strong>.&lt;/p>
 &lt;p>&lt;em>&lt;strong>Design process&lt;/strong>&lt;/em>&lt;/p>
 &lt;p>&lt;img src="https://docs.kianda.com/images/highlightdesign.png" alt="Designing in Kianda">&lt;/p>
-&lt;p>The Previewer allows true iterative development, by providing a testing mechanism to give insights that lead to further developments. Each process version can be saved as a &lt;strong>draft&lt;/strong>, with options to restore to earlier versions if needed, see &lt;a href="getting-started/create-first-process/version_history.md">Version History&lt;/a> for more information.&lt;/p>
+&lt;p>The Previewer allows true iterative development, by providing a testing mechanism to give insights that lead to further developments. Each process version can be saved as a &lt;strong>draft&lt;/strong>, with options to restore to earlier versions if needed, see &lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/design-and-build/add-forms/version-history/">Version History&lt;/a> for more information.&lt;/p>
 &lt;h2 id="how-to-get-started">How to get started&lt;/h2>
 &lt;ol>
 &lt;li>
@@ -386,18 +386,18 @@ Your browser does not support the video tag.
 &lt;p>Return to the design and modify as necessary following each review. Make sure to save your work as you go by clicking on the &lt;strong>Save&lt;/strong> button.&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>Once you are happy with the process flow and performance, you are ready to &lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/design-and-build/publish-your-process/">&lt;strong>publish&lt;/strong>&lt;/a>.&lt;/p>
+&lt;p>Once you are happy with the process flow and performance, you are ready to &lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/publish-your-process/">&lt;strong>publish&lt;/strong>&lt;/a>.&lt;/p>
 &lt;/li>
 &lt;/ol>
 &lt;h3 id="whats-next--idea-iconimages18png">What&amp;rsquo;s next &lt;img src="https://docs.kianda.com/images/18.png" alt="Idea icon">&lt;/h3>
 &lt;p>The next step is:&lt;/p>
 &lt;ul>
-&lt;li>&lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/design-and-build/publish-your-process/">&lt;strong>Publish your process&lt;/strong>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/publish-your-process/">&lt;strong>Publish your process&lt;/strong>&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h3 id="to-return-to-the-previous-pages-click-on-the-links-below--lighting-iconimages10png">&lt;strong>To return to the previous pages click on the links below&lt;/strong> &lt;img src="https://docs.kianda.com/images/10.png" alt="Lighting icon">&lt;/h3>
 &lt;ul>
-&lt;li>&lt;a href="getting-started/create-first-process/design_process.md">&lt;strong>Design and build your process&lt;/strong>&lt;/a>&lt;/li>
-&lt;li>&lt;a href="getting-started/create-first-process/create_form.md">&lt;strong>Add forms&lt;/strong>&lt;/a>&lt;/li>
-&lt;li>&lt;a href="getting-started/create-first-process/add_form_elements.md">&lt;strong>Add controls and rules&lt;/strong>&lt;/a>&lt;/li>
-&lt;li>&lt;a href="getting-started/create-first-process/dataconnect.md">&lt;strong>Connect your data&lt;/strong>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/design-and-build/">&lt;strong>Design and build your process&lt;/strong>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/design-and-build/add-forms/">&lt;strong>Add forms&lt;/strong>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/design-and-build/add-controls-and-rules/">&lt;strong>Add controls and rules&lt;/strong>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/design-and-build/connect-your-data/">&lt;strong>Connect your data&lt;/strong>&lt;/a>&lt;/li>
 &lt;/ul></description></item></channel></rss>
