@@ -159,7 +159,7 @@ In our example we will add a rule to **send an automated email** to a Line manag
 
    ![Select email users](/images/emailusers.gif)
 
-   **Note:** If you leave the **From** field blank, then the email will arrive from "noreply@kianda.com".
+   **Note:** If you leave the **From** field blank, then the email will arrive from "noreply" @kianda.com.
 
    For user fields like **To** and **CC**, there are various options to choose from . When you click on the **User** button ![User](/images/user.png) choose a selection mode to choose a user, for example **User(s) defined in a user field** will allow you to use a field from a form. When you click in the field below **Select a user field** drill down to the field you want, in this example Line Manager. This means when the user submits a form and chooses their Line Manager, an automated email will go to that Line Manager.
 
