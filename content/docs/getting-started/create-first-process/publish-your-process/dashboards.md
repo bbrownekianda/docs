@@ -154,15 +154,15 @@ For example, this can benefit businesses where users can carry out inspections o
 
 If you would like to see examples of 'how to' perform particular tasks in Kianda, click on the link below:
 
-- **[Short "how to" videos](getting-started/welcome/how_to.md)**
+- **[Short "how to" videos](/docs/how-to/)**
 
   
 
 
 ### **To return to the previous pages click on the links below**  ![Lighting icon](/images/10.png) 
 
-- [**How Kianda works**](getting-started/welcome/how_kianda_works.md)
-- [**Preview the design**](getting-started/create-first-process/previewer.md)
-- [**Publish your process**](getting-started/create-first-process/publish_process.md)
+- [**How Kianda works**](/docs/getting-started/welcome/how-kianda-works/)
+- [**Preview the design**](/docs/getting-started/create-first-process/design-and-build/preview-your-process/)
+- [**Publish your process**](/docs/getting-started/create-first-process/publish-your-process/)
 
   
