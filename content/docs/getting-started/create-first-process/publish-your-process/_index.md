@@ -71,7 +71,7 @@ The video below introduces dashboards, and the steps in [How to build a dashboar
 
    ![Create dashboard page](/images/createdashboard.gif)
 
-3. The result is a menu of 7 widgets that you can add to your dashboard page. Go to [Dashboards](getting-started/create-first-process/dashboards.md) to find out more. For the moment we are going to add one widget, a list widget. Click on **List** widget.
+3. The result is a menu of 7 widgets that you can add to your dashboard page. Go to [Dashboards](/docs/getting-started/create-first-process/publish-your-process/dashboards/) to find out more. For the moment we are going to add one widget, a list widget. Click on **List** widget.
 
    ***Dashboard widgets***
 
@@ -151,7 +151,7 @@ It is also important to make sure you **document** the development process so th
 
 If you would like to see examples of 'how to' perform particular tasks in Kianda, click on the link below:
 
-- **[Short "how to" videos](/docs/getting-started/welcome/how-to/)**
+- **[Short "how to" videos](/docs/how-to/)**
 
 
 
