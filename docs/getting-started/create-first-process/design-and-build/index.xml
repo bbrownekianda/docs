@@ -190,7 +190,7 @@ Your browser does not support the video tag.
 &lt;p>In the &lt;strong>Edit rule - Send email&lt;/strong> dialog box, fill out the &lt;strong>Title&lt;/strong>, and decide who are the email users, that is who the email will be &lt;strong>From&lt;/strong>, &lt;strong>To&lt;/strong>, any &lt;strong>CC&lt;/strong> or &lt;strong>BCC&lt;/strong> that should be included. Click on the &lt;strong>User&lt;/strong> button &lt;img src="https://docs.kianda.com/images/user.png" alt="User"> to add users to each field.&lt;/p>
 &lt;p>&lt;em>&lt;strong>Selecting a user field&lt;/strong>&lt;/em>&lt;/p>
 &lt;p>&lt;img src="https://docs.kianda.com/images/emailusers.gif" alt="Select email users">&lt;/p>
-&lt;p>&lt;strong>Note:&lt;/strong> If you leave the &lt;strong>From&lt;/strong> field blank, then the email will arrive from &amp;ldquo;&lt;a href="mailto:noreply@kianda.com">noreply@kianda.com&lt;/a>&amp;rdquo;.&lt;/p>
+&lt;p>&lt;strong>Note:&lt;/strong> If you leave the &lt;strong>From&lt;/strong> field blank, then the email will arrive from &amp;ldquo;noreply&amp;rdquo; @kianda.com.&lt;/p>
 &lt;p>For user fields like &lt;strong>To&lt;/strong> and &lt;strong>CC&lt;/strong>, there are various options to choose from . When you click on the &lt;strong>User&lt;/strong> button &lt;img src="https://docs.kianda.com/images/user.png" alt="User"> choose a selection mode to choose a user, for example &lt;strong>User(s) defined in a user field&lt;/strong> will allow you to use a field from a form. When you click in the field below &lt;strong>Select a user field&lt;/strong> drill down to the field you want, in this example Line Manager. This means when the user submits a form and chooses their Line Manager, an automated email will go to that Line Manager.&lt;/p>
 &lt;/li>
 &lt;li>
