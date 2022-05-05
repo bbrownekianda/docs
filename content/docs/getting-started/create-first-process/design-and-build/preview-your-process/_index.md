@@ -9,7 +9,7 @@ The Kianda **Previewer** allows you to preview your process and interact with it
 
 ![Designing in Kianda](/images/highlightdesign.png)
 
-The Previewer allows true iterative development, by providing a testing mechanism to give insights that lead to further developments. Each process version can be saved as a **draft**, with options to restore to earlier versions if needed, see [Version History](getting-started/create-first-process/version_history.md) for more information.
+The Previewer allows true iterative development, by providing a testing mechanism to give insights that lead to further developments. Each process version can be saved as a **draft**, with options to restore to earlier versions if needed, see [Version History](/docs/getting-started/create-first-process/design-and-build/add-forms/version-history/) for more information.
 
 
 
@@ -31,7 +31,7 @@ The Previewer allows true iterative development, by providing a testing mechanis
 
 3. Return to the design and modify as necessary following each review. Make sure to save your work as you go by clicking on the **Save** button.
 
-3. Once you are happy with the process flow and performance, you are ready to [**publish**](/docs/getting-started/create-first-process/design-and-build/publish-your-process/).
+3. Once you are happy with the process flow and performance, you are ready to [**publish**](/docs/getting-started/create-first-process/publish-your-process/).
 
    
 
@@ -39,7 +39,7 @@ The Previewer allows true iterative development, by providing a testing mechanis
 
 The next step is:
 
-- [**Publish your process**](/docs/getting-started/create-first-process/design-and-build/publish-your-process/)
+- [**Publish your process**](/docs/getting-started/create-first-process/publish-your-process/)
 
   
 
@@ -48,7 +48,7 @@ The next step is:
 
 ### **To return to the previous pages click on the links below**  ![Lighting icon](/images/10.png) 
 
-- [**Design and build your process**](getting-started/create-first-process/design_process.md) 
-- [**Add forms**](getting-started/create-first-process/create_form.md)
-- [**Add controls and rules**](getting-started/create-first-process/add_form_elements.md)
-- [**Connect your data**](getting-started/create-first-process/dataconnect.md)
+- [**Design and build your process**](/docs/getting-started/create-first-process/design-and-build/) 
+- [**Add forms**](/docs/getting-started/create-first-process/design-and-build/add-forms/)
+- [**Add controls and rules**](/docs/getting-started/create-first-process/design-and-build/add-controls-and-rules/)
+- [**Connect your data**](/docs/getting-started/create-first-process/design-and-build/connect-your-data/)
