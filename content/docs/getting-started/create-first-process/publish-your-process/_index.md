@@ -92,7 +92,7 @@ The video below introduces dashboards, and the steps in [How to build a dashboar
    ![Configuring the list widget](/images/widget.gif)
 
    **Note:** It it possible to add more widgets or edit/configure widgets when you are in **Edit mode**. To return to **View mode**, click on the **Save** button ![Save button](/images/savedashboard.png) in the Quick Action menu. 
-   To return to **Edit mode** again, click on the **Edit current page** button ![Edit button](/images/edit2.png) in the Quick Action Menu.
+   To return to **Edit mode** again, click on the **Edit current page** button ![Edit button](/images/edit2.PNG) in the Quick Action Menu.
 
 6. There are a number of options to choose from in the **Edit List** dialog box. For now we are going to concentrate on two things: a) connecting to a business process b) choosing certain fields to view in our list.
 
@@ -118,7 +118,7 @@ The video below introduces dashboards, and the steps in [How to build a dashboar
 
 7. When you are happy with your changes, click on the **Save** button ![Save changes](/images/savepage.png) in the top menu bar.
 
-7. When you are in **view mode**, you can kick off processes from the dashboard widget. Click on the **Start new process** button ![New process](/images/newprocess.png) and select the process you want to use, in this example the Training Process.
+7. When you are in **view mode**, you can kick off processes from the dashboard widget. Click on the **Start new process** button ![New process](/images/newprocess.PNG) and select the process you want to use, in this example the Training Process.
 
    ***Start new process***
 
