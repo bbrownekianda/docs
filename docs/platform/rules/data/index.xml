@@ -224,31 +224,26 @@ text from error message is from the data source that you are using&lt;/p></descr
 &lt;p>See Advanced Features below for more information.&lt;/p>
 &lt;h6 id="notes">Notes&lt;/h6>
 &lt;p>None.&lt;/p></description></item><item><title>Docs: Update data item rule</title><link>https://docs.kianda.com/docs/platform/rules/data/update-item/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/data/update-item/</guid><description>
-&lt;p>At any point, if you would like to update any item on your data connection, this rule does it. To find an item to update, you could use a data source filter and map the input fields or text.&lt;/p>
+&lt;p>At any point, if you would like to update any item on your data connection, this rule does it. To find an item to update, you could use a data source filter and map the input controls or text.&lt;/p>
 &lt;p>&lt;img src="https://docs.kianda.com/images/updateitem.png" alt="Update item dialog box">&lt;/p>
-&lt;h6 id="when-to-use">When to use&lt;/h6>
+&lt;h2 id="when-to-use">When to use&lt;/h2>
 &lt;p>You can add this rule:&lt;/p>
 &lt;ul>
 &lt;li>&lt;input checked="" disabled="" type="checkbox"> to a field&lt;/li>
 &lt;li>&lt;input checked="" disabled="" type="checkbox"> to a form&lt;/li>
 &lt;li>&lt;input checked="" disabled="" type="checkbox"> to a process (the rule will run on load)&lt;/li>
 &lt;/ul>
-&lt;h6 id="how-to-use">How to use&lt;/h6>
-&lt;p>To ..SharePoint list:???&lt;/p>
+&lt;h3 id="how-to-use">How to use&lt;/h3>
+&lt;p>To ..SharePoint list&lt;/p>
 &lt;ol>
-&lt;li>Click on a button e.g. the Submit button.???&lt;/li>
+&lt;li>Click on a button e.g. the Submit button.&lt;/li>
 &lt;li>Select Add a rule &amp;gt; Data &amp;gt;Update item.&lt;/li>
 &lt;li>Under Action, click on Select data source.&lt;/li>
-&lt;/ol>
-&lt;ul>
-&lt;li>Select a SharePoint??&lt;/li>
-&lt;/ul>
-&lt;ol start="4">
 &lt;li>Data source filter&lt;/li>
-&lt;li>Under Input mapping&amp;hellip;&lt;/li>
-&lt;li>Under On success mapping&amp;hellip;&lt;/li>
-&lt;li>Under On error mapping&amp;hellip;&lt;/li>
+&lt;li>Under Input mapping&lt;/li>
+&lt;li>Under On success mapping&lt;/li>
+&lt;li>Under On error mapping&lt;/li>
 &lt;/ol>
-&lt;h6 id="notes">Notes&lt;/h6>
+&lt;h3 id="notes">Notes&lt;/h3>
 &lt;p>Update an item in a data source &amp;ldquo;Datasource query rule - Use this rule together with a datasource to perform an update query and return data identifiers for use with the form. Employ the transactional nature of the rule with input fields, results and error nodes to build retry logic&amp;rdquo;&lt;/p>
-&lt;p>Ignore mapping for blank fields: then if this flag is set, ??? for example, if there are two fields to be updated and the user wants to update only one, and leaves the other blank, then the filled out field is updated and the other field is left unchanged.&lt;/p></description></item></channel></rss>
+&lt;p>Ignore mapping for blank fields: then if this flag is set, for example, if there are two fields to be updated and the user wants to update only one, and leaves the other blank, then the filled out field is updated and the other field is left unchanged.&lt;/p></description></item></channel></rss>
