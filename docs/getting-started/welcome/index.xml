@@ -303,7 +303,7 @@ The &amp;lsquo;Widget UI&amp;rsquo; defines the HTML, handlers, expressions and 
 &lt;p>The Kianda platform allows admin users to personalise dashboards based on the unique needs of users or user groups based on hierarchy - for example, only project managers see their forms status and admin users may see the full picture.&lt;/p>
 &lt;p>Multiple dashboards can be created and customised as required per project, per department or other configurations. &lt;strong>Access to the dashboards can be set at a high level for the entire dashboard or certain links&lt;/strong>, lists or widgets in a dashboard and can be made accessible to certain user groups defined in the system.&lt;/p>
 &lt;p>&lt;em>&lt;strong>Dashboard page&lt;/strong>&lt;/em>&lt;/p>
-&lt;p>&lt;img src="https://docs.kianda.com/images/dashboardexample2.png" alt="Dashboard page">&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/IT_dashboard2.jpg" alt="Dashboard page">&lt;/p>
 &lt;p>Examples of some of our dashboard features include:&lt;/p>
 &lt;ul>
 &lt;li>Number of forms awaiting approval&lt;/li>
