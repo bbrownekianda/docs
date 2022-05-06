@@ -894,7 +894,7 @@ Your browser does not support the video tag.
 &lt;li>
 &lt;p>Widgets created are visible in the main widget view. From here, you can edit a widget by clicking on the &lt;strong>Edit&lt;/strong> button &lt;img src="https://docs.kianda.com/images/bluepen.png" alt="Pen button"> (Pen icon), delete a widget by clicking on the &lt;strong>Bin/Trash&lt;/strong> button &lt;img src="https://docs.kianda.com/images/binicon.png" alt="Bin button"> and restore earlier versions of a widget by clicking on the &lt;strong>Version restore&lt;/strong> button &lt;img src="https://docs.kianda.com/images/bluerestore.png" alt="Restore">.&lt;/p>
 &lt;p>&lt;em>&lt;strong>Widget view&lt;/strong>&lt;/em>&lt;/p>
-&lt;p>&lt;img src="https://docs.kianda.com/images/widgetview.gif" alt="Widget view">&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/widgetview2.jpg" alt="Widget view">&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>&lt;a href="#webhooks">Webhooks&lt;/a> can be created to send a message to a specific URL by clicking on the &lt;strong>Webhooks&lt;/strong> button. Click the link for more information.&lt;/p>
