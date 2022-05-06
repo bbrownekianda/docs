@@ -20,7 +20,7 @@ We will now go through each of these four sections of the wizard for a sample co
 
    ***Personalise your workspace look and feel***
 
-   ![Look and feel](/images/lookandfeel.gif)
+   ![Look and feel](/images/personalise_workspace_lookandfeel.jpg)
    
 3. Click on **Complete** when done.
 
@@ -33,7 +33,7 @@ We will now go through each of these four sections of the wizard for a sample co
 
 ***Design your Login page***
 
-![Design login page](/images/designlogin110edge100.png)
+![Design login page](/images/setup_wizard_design_login_page.jpg)
 
 3. Click into the fields under **Tagline 1** and **Tagline 2** to type in the words or phrases that will appear on your login page, previewed on the right.
 4. Click on **Complete** when done.
@@ -47,7 +47,7 @@ We will now go through each of these four sections of the wizard for a sample co
 
 ***Change Regional Settings***
 
-![Regional settings](/images/regionalsettings_copy.png)
+![Regional settings](/images/setup_wizard_design_regional_settings.jpg)
 
 3. Click on **Complete** when done.
 
@@ -60,7 +60,7 @@ We will now go through each of these four sections of the wizard for a sample co
 
 ***Change Mobile App Settings***
 
-![Mobile App settings](/images/mobileapp.png)
+![Mobile App settings](/images/setup_wizard_design_mobile_app_settings.jpg)
 
 3. Click on **Browse** to upload an icon for your mobile app. 
 
@@ -74,7 +74,7 @@ We will now go through each of these four sections of the wizard for a sample co
 
 ***Subscription page***
 
-![Subscription settings](/images/subscription.gif)
+![Subscription settings](/images/setup_wizard_subscription_page.jpg)
 
 
 ### What's next  ![Idea icon](/images/18.png) ###
