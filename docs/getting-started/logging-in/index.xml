@@ -10,7 +10,7 @@
 &lt;li>
 &lt;p>Click on a colour scheme under &lt;strong>Themes&lt;/strong> and preview the results under &lt;strong>Workspace preview&lt;/strong> on the right.&lt;/p>
 &lt;p>&lt;em>&lt;strong>Personalise your workspace look and feel&lt;/strong>&lt;/em>&lt;/p>
-&lt;p>&lt;img src="https://docs.kianda.com/images/lookandfeel.gif" alt="Look and feel">&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/personalise_workspace_lookandfeel.jpg" alt="Look and feel">&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>Click on &lt;strong>Complete&lt;/strong> when done.&lt;/p>
@@ -22,7 +22,7 @@
 &lt;li>Under &lt;strong>Background&lt;/strong> and &lt;strong>Font&lt;/strong>, type in the hex value for your chosen colour, or click on the colour box and use the eyedropper or slider to choose your chosen colour, or type in RGB values.&lt;/li>
 &lt;/ol>
 &lt;p>&lt;em>&lt;strong>Design your Login page&lt;/strong>&lt;/em>&lt;/p>
-&lt;p>&lt;img src="https://docs.kianda.com/images/designlogin110edge100.png" alt="Design login page">&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/setup_wizard_design_login_page.jpg" alt="Design login page">&lt;/p>
 &lt;ol start="3">
 &lt;li>Click into the fields under &lt;strong>Tagline 1&lt;/strong> and &lt;strong>Tagline 2&lt;/strong> to type in the words or phrases that will appear on your login page, previewed on the right.&lt;/li>
 &lt;li>Click on &lt;strong>Complete&lt;/strong> when done.&lt;/li>
@@ -33,7 +33,7 @@
 &lt;li>Click on &lt;strong>Time zone&lt;/strong> and choose an appropriate time zone from the dropdown list.&lt;/li>
 &lt;/ol>
 &lt;p>&lt;em>&lt;strong>Change Regional Settings&lt;/strong>&lt;/em>&lt;/p>
-&lt;p>&lt;img src="https://docs.kianda.com/images/regionalsettings_copy.png" alt="Regional settings">&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/setup_wizard_design_regional_settings.jpg" alt="Regional settings">&lt;/p>
 &lt;ol start="3">
 &lt;li>Click on &lt;strong>Complete&lt;/strong> when done.&lt;/li>
 &lt;/ol>
@@ -43,7 +43,7 @@
 &lt;li>Under &lt;strong>Splash Screen&lt;/strong> and &lt;strong>Theme&lt;/strong>, type in the hex value for your chosen colour or click on the colour box and use the eyedropper or slider to choose your chosen colour, or type in RGB values.&lt;/li>
 &lt;/ol>
 &lt;p>&lt;em>&lt;strong>Change Mobile App Settings&lt;/strong>&lt;/em>&lt;/p>
-&lt;p>&lt;img src="https://docs.kianda.com/images/mobileapp.png" alt="Mobile App settings">&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/setup_wizard_design_mobile_app_settings.jpg" alt="Mobile App settings">&lt;/p>
 &lt;ol start="3">
 &lt;li>
 &lt;p>Click on &lt;strong>Browse&lt;/strong> to upload an icon for your mobile app.&lt;/p>
@@ -58,7 +58,7 @@
 &lt;/li>
 &lt;/ol>
 &lt;p>&lt;em>&lt;strong>Subscription page&lt;/strong>&lt;/em>&lt;/p>
-&lt;p>&lt;img src="https://docs.kianda.com/images/subscription.gif" alt="Subscription settings">&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/setup_wizard_subscription_page.jpg" alt="Subscription settings">&lt;/p>
 &lt;h3 id="whats-next--idea-iconimages18png">What&amp;rsquo;s next &lt;img src="https://docs.kianda.com/images/18.png" alt="Idea icon">&lt;/h3>
 &lt;p>Go to &lt;strong>&lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/">Create your first Kianda process&lt;/a>&lt;/strong> to start creating your first process.&lt;/p>
 &lt;h3 id="to-return-to-the-previous-pages-click-on-the-links-below-lightning-iconimages10png">&lt;strong>To return to the previous pages click on the links below&lt;/strong> &lt;img src="https://docs.kianda.com/images/10.png" alt="Lightning icon">&lt;/h3>
