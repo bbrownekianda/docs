@@ -63,7 +63,7 @@ To create custom widgets:
 
    ***Widget view***
 
-   ![Widget view](/images/widgetview.gif)
+   ![Widget view](/images/widgetview2.jpg)
 
 6. [Webhooks](#webhooks) can be created to send a message to a specific URL by clicking on the **Webhooks** button. Click the link for more information.
 
