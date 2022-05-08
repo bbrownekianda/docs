@@ -84,7 +84,7 @@ This table contains a full list of the available predefined rules.
 
 ***Rules by category and title***
 
-![Rules list](/images/rulestablecal12.gif)
+![Rules list](/images/Rules_Categories_List_Table.jpg)
 
 
 
