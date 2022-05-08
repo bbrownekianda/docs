@@ -97,7 +97,7 @@ Your browser does not support the video tag.
 &lt;p>There are 3 categories of Controls, and 10 categories of Rules, see &lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/plan-your-process/controls/">Controls&lt;/a> and see &lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/plan-your-process/rules/">Rules&lt;/a> for a full listing of what is available.&lt;/p>
 &lt;p>Controls and rules are available from the left-hand pane in when you click into a process.&lt;/p>
 &lt;p>&lt;em>&lt;strong>Controls and Rules in left-hand pane&lt;/strong>&lt;/em>&lt;/p>
-&lt;p>&lt;img src="https://docs.kianda.com/images/addelements.gif" alt="Add form elements">&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/Controls_Rules_leftpane.jpg" alt="Add form elements">&lt;/p>
 &lt;p>&lt;strong>Note:&lt;/strong> By default there are 3 buttons automatically added to forms - &lt;strong>Submit,&lt;/strong> &lt;strong>Save&lt;/strong> and &lt;strong>Close&lt;/strong>, see form canvas in the image above.&lt;/p>
 &lt;ul>
 &lt;li>To remove a button or other field, click on the item and then click on the &lt;strong>Bin/Trash&lt;/strong> button &lt;img src="https://docs.kianda.com/images/binicon.png" alt="Bin button"> then click on &lt;strong>OK&lt;/strong> to confirm removal.&lt;/li>
