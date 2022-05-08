@@ -41,7 +41,7 @@ Controls and rules are available from the left-hand pane in when you click into 
 
 ***Controls and Rules in left-hand pane***
 
-![Add form elements](/images/addelements.gif)
+![Add form elements](/images/Controls_Rules_leftpane.jpg)
 
 **Note:** By default there are 3 buttons automatically added to forms - **Submit,** **Save** and **Close**, see form canvas in the image above.
 
