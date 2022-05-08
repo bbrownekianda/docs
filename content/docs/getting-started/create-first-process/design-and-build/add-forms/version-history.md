@@ -6,7 +6,7 @@ typora-root-url: ..\..\..\..\..\..\static
 
 The **current or active version** of a process is always visible in the right-hand pane, for example V0.8 for the process as shown below.
 
-***Process version***![Process version history](/images/versionhistory.png)
+***Process version***![Process version history](/images/Process_Version.jpg)
 
 The **first version** of a process is **0.1** and will increment to 0.2 and so on, each time a process is saved. Once the process is **published** the version changes to **1.0** and increments with each publication. This makes it is easy to keep track of who made changes and when, and to restore an older version if needed. 
 
@@ -38,7 +38,7 @@ The video below introduces version control and the section [How to get started](
 
    ***Version details***
 
-   ![Version details](/images/versiondetails.png)
+   ![Version details](/images/Version_History_Details.jpg)
 
 4. To restore an earlier version, click on the **Restore** button ![Restore button](/images/restore.png) beside a particular version and then click on **Ok** to confirm that you want to restore to that version. 
 
