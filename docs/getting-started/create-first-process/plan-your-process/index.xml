@@ -2,9 +2,9 @@
 &lt;p>&lt;strong>Controls&lt;/strong> are predefined field widgets that allow you to add specific elements to your forms and processes, such as buttons, lists, text boxes and tables. There are 16 different types of controls (fields) to choose from - see &lt;a href="#controls-list">Controls list&lt;/a>.&lt;/p>
 &lt;p>If you have developer skills, you can create your own custom field widget - see &lt;a href="https://docs.kianda.com/docs/getting-started/welcome//low-code/#how-to-get-started-with-developer">Developer&lt;/a> for more information.&lt;/p>
 &lt;h2 id="getting-started-with-controls">Getting started with Controls&lt;/h2>
-&lt;p>If you go to &lt;strong>Side menu&lt;/strong> &amp;gt;&lt;strong>Administration&lt;/strong> &amp;gt; &lt;strong>Designer&lt;/strong> and click on an existing process or create a new process and then select a form within that process, you will see the pre-defined &lt;strong>Controls&lt;/strong> options in the left-hand pane. If the Controls menu is collapsed, click on it to expand it.&lt;/p>
+&lt;p>If you go to &lt;strong>Side menu&lt;/strong> &amp;gt;&lt;strong>Administration&lt;/strong> &amp;gt; &lt;strong>Designer&lt;/strong> and click on an existing process or create a new process and then select a form within that process (so that the Edit form buttton - Pen icon - is visible), you will see the pre-defined &lt;strong>Controls&lt;/strong> options in the left-hand pane. If the Controls menu is collapsed, click on it to expand it.&lt;/p>
 &lt;p>&lt;em>&lt;strong>Control Categories&lt;/strong>&lt;/em>&lt;/p>
-&lt;p>&lt;img src="https://docs.kianda.com/images/controls.png" alt="Controls">&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/Access_ControlsMenu_Select_Form.jpg" alt="Controls">&lt;/p>
 &lt;p>By default, there are three categories of fields:&lt;/p>
 &lt;ol>
 &lt;li>&lt;strong>Input&lt;/strong> - There are eight types of Input fields. They include the most common data fields such as textbox, user picker, date field, table, checkbox, drop-down and number fields.&lt;/li>
@@ -16,7 +16,7 @@
 &lt;h2 id="controls-list">Controls list&lt;/h2>
 &lt;p>A full list of controls (fields) is shown here.&lt;/p>
 &lt;p>&lt;em>&lt;strong>Control categories, with field names and purpose&lt;/strong>&lt;/em>&lt;/p>
-&lt;p>&lt;img src="https://docs.kianda.com/images/controlslist.gif" alt="Form controls">&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/Fields_Controls_List_Table.jpg" alt="Form controls">&lt;/p>
 &lt;h3 id="whats-next--idea-iconimages18png">What&amp;rsquo;s next &lt;img src="https://docs.kianda.com/images/18.png" alt="Idea icon">&lt;/h3>
 &lt;p>To learn more about rules that can be applied to fields go to &lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/plan-your-process/rules/">&lt;strong>Rules&lt;/strong>&lt;/a>.&lt;/p>
 &lt;p>To learn more about field properties, go to &lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/design-and-build/add-controls-and-rules/properties/">&lt;strong>Field properties&lt;/strong>&lt;/a>.&lt;/p>
