@@ -86,9 +86,9 @@ The next steps are:
 
    You can preview forms by clicking on the **Preview** button ![Preview](/images/preview.png) see [**Previewer**](/docs/getting-started/create-first-process/design-and-build/preview-your-process/) for more details.
 
-   There are many ways to then reuse elements within forms, for example using the Group field and cloning, see the video [**How to reuse forms**](/docs/how-to/reuse-or-clone-process-elements/).
+   There are many ways to then reuse elements within forms, for example using the Group field and cloning, see the video [**Reusability of process and form components**](/docs/how-to/reuse-or-clone-process-elements/).
 
-2. There are many ways to manage who has access to a process, or form, see the video [**How to manage user access**](/docs/how-to/control-form-user-security/).
+2. There are many ways to manage who has access to a process, or form, see the video [**How to control user security access to forms and process**](/docs/how-to/control-form-user-security/).
 
 3. The key rules for working with forms are:
 
