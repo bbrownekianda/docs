@@ -57,7 +57,7 @@ In this example, we will connect to a SharePoint list called 'Types of Training'
 
    ***Dropdown list from SharePoint***
 
-   ![Dropdown list example](/images/dropdownlist.gif)
+   ![Dropdown list example](/images/Sharepoint_Dropdown_List.jpg)
 
 7. When your form is complete, click on the **Save** button  ![Save button](/images/save.png) to save your work.
 
