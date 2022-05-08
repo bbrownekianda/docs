@@ -12,11 +12,11 @@ If you have developer skills, you can create your own custom field widget - see 
 
 ## Getting started with Controls ##
 
-If you go to **Side menu** >**Administration** > **Designer** and click on an existing process or create a new process and then select a form within that process, you will see the pre-defined **Controls** options in the left-hand pane. If the Controls menu is collapsed, click on it to expand it.
+If you go to **Side menu** >**Administration** > **Designer** and click on an existing process or create a new process and then select a form within that process (so that the Edit form buttton - Pen icon - is visible), you will see the pre-defined **Controls** options in the left-hand pane. If the Controls menu is collapsed, click on it to expand it.
 
 ***Control Categories***
 
-![Controls](/images/controls.png)
+![Controls](/images/Access_ControlsMenu_Select_Form.jpg)
 
 By default, there are three categories of fields:
 
@@ -36,7 +36,7 @@ A full list of controls (fields) is shown here.
 
 ***Control categories, with field names and purpose***
 
-![Form controls](/images/controlslist.gif)
+![Form controls](/images/Fields_Controls_List_Table.jpg)
 
 
 
