@@ -22,7 +22,7 @@ When you have tested your process prototype using the previewer then you are rea
 
 ***Saving a process***
 
-![Training process](/images/trainingsave.gif)
+![Training process](/images/Saving_A_Process.jpg)
 
 4. When you are ready to Publish, click on the **Publish** button.
 
@@ -63,7 +63,7 @@ The video below introduces dashboards, and the steps in [How to build a dashboar
 
    ***Create new page button in the Quick Action menu***
 
-   ![Create a new page](/images/createnewpage.gif)
+   ![Create a new page](/images/Create_New_Page_QuickActionMenu.jpg)
 
 2. Fill out the **Create dashboard page** dialog box. Fill out the **Title**, the **Name** that is a Unique ID that autofills from the Title, decide on other parameters like groups that you would like to share to. Click on **OK** when complete.
 
@@ -75,7 +75,7 @@ The video below introduces dashboards, and the steps in [How to build a dashboar
 
    ***Dashboard widgets***
 
-   ![List widget](/images/listwidget.gif)
+   ![List widget](/images/Dashboard_Widgets.jpg)
 
 4. Fill out the **Add widget** dialog box. Choose a **Title**, **layout** size, **colour scheme**, and decide who the widget is **visible to** along with **device visibility**, that is when dashboards will be visible, for example during flight mode.
 
@@ -89,7 +89,7 @@ The video below introduces dashboards, and the steps in [How to build a dashboar
 
    ***Editing a widget***
 
-   ![Configuring the list widget](/images/widget.gif)
+   ![Configuring the list widget](/images/Editing_A_Widget.jpg)
 
    **Note:** It it possible to add more widgets or edit/configure widgets when you are in **Edit mode**. To return to **View mode**, click on the **Save** button ![Save button](/images/savedashboard.png) in the Quick Action menu. 
    To return to **Edit mode** again, click on the **Edit current page** button ![Edit button](/images/edit2.PNG) in the Quick Action Menu.
