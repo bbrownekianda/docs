@@ -2,7 +2,7 @@
 &lt;p>Every process, form and control, such as text boxes and lists, will have properties visible in the right-hand pane of the &lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/design-and-build/add-forms/designer/">Designer&lt;/a> view.&lt;/p>
 &lt;h2 id="process-properties">Process properties&lt;/h2>
 &lt;p>When you go to &lt;strong>Administration&lt;/strong> &amp;gt; &lt;strong>Designer&lt;/strong> &amp;gt; click on a process &amp;gt; &lt;strong>Process properties&lt;/strong> in the right-hand pane, you will see the properties for the chosen process.&lt;/p>
-&lt;p>The following properties are visible:&lt;/p>
+&lt;p>These process properties are visible:&lt;/p>
 &lt;ul>
 &lt;li>
 &lt;p>Title - the title of process for example Training Request.&lt;/p>
@@ -10,15 +10,15 @@
 &lt;li>
 &lt;p>Page layout - you can click on &lt;strong>Wide&lt;/strong> &lt;img src="https://docs.kianda.com/images/wide_resized.png" alt="Wide button">or &lt;strong>Narrow&lt;/strong> &lt;img src="https://docs.kianda.com/images/narrow_resized.png" alt="Narrow button"> to change the layout.&lt;/p>
 &lt;p>&lt;em>&lt;strong>Process properties&lt;/strong>&lt;/em>&lt;/p>
-&lt;p>&lt;img src="https://docs.kianda.com/images/processproperties.png" alt="Process and form properties">&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/Process_Properties.jpg" alt="Process and form properties">&lt;/p>
 &lt;/li>
 &lt;/ul>
-&lt;p>In the image above, the process &amp;lsquo;Quarterly Training Request&amp;rsquo; has 2 forms &amp;lsquo;Training Request&amp;rsquo; and &amp;lsquo;Training Approval&amp;rsquo;. Clicking on one of these forms will show the &lt;a href="#form-properties">Form properties&lt;/a>.&lt;/p>
+&lt;p>Within a process, clicking on a particular form will display the &lt;a href="#form-properties">Form properties&lt;/a>.&lt;/p>
 &lt;h2 id="form-properties">Form properties&lt;/h2>
 &lt;p>When you click on a form, the &lt;strong>Form properties&lt;/strong> appear in the right-hand pane.&lt;/p>
-&lt;p>&lt;em>&lt;strong>Process properties&lt;/strong>&lt;/em>&lt;/p>
-&lt;p>&lt;img src="https://docs.kianda.com/images/formproperties.png" alt="Form properties">&lt;/p>
-&lt;p>The following properties are visible:&lt;/p>
+&lt;p>&lt;em>&lt;strong>Form properties&lt;/strong>&lt;/em>&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/Form_Properties.jpg" alt="Form properties">&lt;/p>
+&lt;p>These form properties are visible:&lt;/p>
 &lt;ul>
 &lt;li>
 &lt;p>Title - the form title, for example Training Request&lt;/p>
