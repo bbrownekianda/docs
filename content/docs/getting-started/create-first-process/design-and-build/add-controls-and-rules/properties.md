@@ -11,7 +11,7 @@ Every process, form and control, such as text boxes and lists, will have propert
 
 When you go to **Administration** > **Designer** > click on a process > **Process properties** in the right-hand pane, you will see the properties for the chosen process.
 
-The following properties are visible:
+These process properties are visible:
 
 - Title - the title of process for example Training Request.
 
@@ -20,9 +20,9 @@ The following properties are visible:
   ***Process properties***
 
 
-  ![Process and form properties](/images/processproperties.png) 
+  ![Process and form properties](/images/Process_Properties.jpg)
 
-In the image above, the process 'Quarterly Training Request' has 2 forms 'Training Request' and 'Training Approval'. Clicking on one of these forms will show the [Form properties](#form-properties). 
+Within a process, clicking on a particular form will display the [Form properties](#form-properties). 
 
 
 
@@ -30,11 +30,11 @@ In the image above, the process 'Quarterly Training Request' has 2 forms 'Traini
 
 When you click on a form, the **Form properties** appear in the right-hand pane.
 
-***Process properties***
+***Form properties***
 
-![Form properties](/images/formproperties.png)
+![Form properties](/images/Form_Properties.jpg)
 
-The following properties are visible:
+These form properties are visible:
 
 - Title - the form title, for example Training Request
 
