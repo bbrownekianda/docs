@@ -490,7 +490,7 @@ Your browser does not support the video tag.
 &lt;img src="https://docs.kianda.com/images/clickonprocess.png" alt="Clicking on a process">&lt;/p>
 &lt;p>The designer window opens and is made up of 3 main parts.&lt;/p>
 &lt;p>&lt;em>&lt;strong>Kianda Designer&lt;/strong>&lt;/em>&lt;/p>
-&lt;p>&lt;img src="https://docs.kianda.com/images/formdesigner_frame.png" alt="Form designer">&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/Kianda_Designer_frames.jpg" alt="Form designer">&lt;/p>
 &lt;p>The key components of the designer are:&lt;/p>
 &lt;ol>
 &lt;li>Left-hand pane is used to add form elements like &lt;strong>controls&lt;/strong> and &lt;strong>rules&lt;/strong>. This pane also houses the &lt;strong>Exit&lt;/strong> Designer &lt;img src="https://docs.kianda.com/images/exitdesign.png" alt="Exit"> &lt;strong>Save&lt;/strong> &lt;img src="https://docs.kianda.com/images/save.png" alt="Save"> &lt;strong>Preview&lt;/strong> &lt;img src="https://docs.kianda.com/images/preview.png" alt="Preview"> and &lt;strong>Publish&lt;/strong> &lt;img src="https://docs.kianda.com/images/publish.png" alt="Publish"> buttons.&lt;/li>
@@ -701,7 +701,7 @@ Your browser does not support the video tag.
 &lt;p>&lt;em>&lt;strong>Enabling anonymous sharing&lt;/strong>&lt;/em>&lt;/p>
 &lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="https://docs.kianda.com/images/anonlink.png" alt="Link for external users">&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/Enable_Anonymous_Sharing.jpg" alt="Link for external users">&lt;/p>
 &lt;ul>
 &lt;li>&lt;strong>Hide form topbar&lt;/strong> - checkbox to hide the form topbar.&lt;/li>
 &lt;li>&lt;strong>Force log out&lt;/strong> - options are a) Yes or b) No to force user logout once the form is submitted&lt;/li>
