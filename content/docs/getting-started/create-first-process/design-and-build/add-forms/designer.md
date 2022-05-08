@@ -27,7 +27,7 @@ The designer window opens and is made up of 3 main parts.
 
 ***Kianda Designer***
 
-![Form designer](/images/formdesigner_frame.png)
+![Form designer](/images/Kianda_Designer_frames.jpg)
 
 The key components of the designer are:
 
@@ -228,7 +228,7 @@ Choose from the settings:
 
      ***Enabling anonymous sharing***
 
-   ![Link for external users](/images/anonlink.png)
+   ![Link for external users](/images/Enable_Anonymous_Sharing.jpg)
 
    - **Hide form topbar** - checkbox to hide the form topbar.
    - **Force log out** - options are a) Yes or b) No to force user logout once the form is submitted
