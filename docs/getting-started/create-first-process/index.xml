@@ -239,7 +239,7 @@ Requirements template
 &lt;/li>
 &lt;/ol>
 &lt;p>&lt;em>&lt;strong>Saving a process&lt;/strong>&lt;/em>&lt;/p>
-&lt;p>&lt;img src="https://docs.kianda.com/images/trainingsave.gif" alt="Training process">&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/Saving_A_Process.jpg" alt="Training process">&lt;/p>
 &lt;ol start="4">
 &lt;li>
 &lt;p>When you are ready to Publish, click on the &lt;strong>Publish&lt;/strong> button.&lt;/p>
@@ -273,7 +273,7 @@ Your browser does not support the video tag.
 &lt;li>
 &lt;p>Go to the &lt;strong>Side bar&lt;/strong> &amp;gt; &lt;strong>Home&lt;/strong> and then click on &lt;strong>Create a new page&lt;/strong> button in the Quick Action menu.&lt;/p>
 &lt;p>&lt;em>&lt;strong>Create new page button in the Quick Action menu&lt;/strong>&lt;/em>&lt;/p>
-&lt;p>&lt;img src="https://docs.kianda.com/images/createnewpage.gif" alt="Create a new page">&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/Create_New_Page_QuickActionMenu.jpg" alt="Create a new page">&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>Fill out the &lt;strong>Create dashboard page&lt;/strong> dialog box. Fill out the &lt;strong>Title&lt;/strong>, the &lt;strong>Name&lt;/strong> that is a Unique ID that autofills from the Title, decide on other parameters like groups that you would like to share to. Click on &lt;strong>OK&lt;/strong> when complete.&lt;/p>
@@ -283,7 +283,7 @@ Your browser does not support the video tag.
 &lt;li>
 &lt;p>The result is a menu of 7 widgets that you can add to your dashboard page. Go to &lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/publish-your-process/dashboards/">Dashboards&lt;/a> to find out more. For the moment we are going to add one widget, a list widget. Click on &lt;strong>List&lt;/strong> widget.&lt;/p>
 &lt;p>&lt;em>&lt;strong>Dashboard widgets&lt;/strong>&lt;/em>&lt;/p>
-&lt;p>&lt;img src="https://docs.kianda.com/images/listwidget.gif" alt="List widget">&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/Dashboard_Widgets.jpg" alt="List widget">&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>Fill out the &lt;strong>Add widget&lt;/strong> dialog box. Choose a &lt;strong>Title&lt;/strong>, &lt;strong>layout&lt;/strong> size, &lt;strong>colour scheme&lt;/strong>, and decide who the widget is &lt;strong>visible to&lt;/strong> along with &lt;strong>device visibility&lt;/strong>, that is when dashboards will be visible, for example during flight mode.&lt;/p>
@@ -294,7 +294,7 @@ Your browser does not support the video tag.
 &lt;li>
 &lt;p>Configure or edit the widget by clicking on the &lt;strong>Pen&lt;/strong> icon for the widget.&lt;/p>
 &lt;p>&lt;em>&lt;strong>Editing a widget&lt;/strong>&lt;/em>&lt;/p>
-&lt;p>&lt;img src="https://docs.kianda.com/images/widget.gif" alt="Configuring the list widget">&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/Editing_A_Widget.jpg" alt="Configuring the list widget">&lt;/p>
 &lt;p>&lt;strong>Note:&lt;/strong> It it possible to add more widgets or edit/configure widgets when you are in &lt;strong>Edit mode&lt;/strong>. To return to &lt;strong>View mode&lt;/strong>, click on the &lt;strong>Save&lt;/strong> button &lt;img src="https://docs.kianda.com/images/savedashboard.png" alt="Save button"> in the Quick Action menu.
 To return to &lt;strong>Edit mode&lt;/strong> again, click on the &lt;strong>Edit current page&lt;/strong> button &lt;img src="https://docs.kianda.com/images/edit2.PNG" alt="Edit button"> in the Quick Action Menu.&lt;/p>
 &lt;/li>
