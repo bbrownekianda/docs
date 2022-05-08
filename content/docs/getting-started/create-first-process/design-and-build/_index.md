@@ -64,7 +64,7 @@ To start creating a process, reference your [process plan](/docs/getting-started
 
    ***Process design page***
 
-   ![Form designer](/images/formdesigner.gif)
+   ![Form designer](/images/Process_Design_Page.jpg)
 
 
 
@@ -79,7 +79,7 @@ The next steps are:
 
 ### User tip ![Target icon](/images/05.png) ###
 
-There are many ways to manage who has access to a process, or form, see the video [**How to manage user access**](/docs/how-to/control-form-user-security/).
+There are many ways to manage who has access to a process, or form, see the video [**How to control user security access to forms and process**](/docs/how-to/control-form-user-security/).
 
 
 
