@@ -146,21 +146,25 @@ Your browser does not support the video tag.
 &lt;li>&lt;strong>Form tab colour and icon&lt;/strong> - Form tabs can be quickly customised to display their icons or tab colours, it is also possible to define custom colours for selected and completed form tabs.&lt;/li>
 &lt;li>&lt;strong>Hide form tab and left nav&lt;/strong> - This is self-explanatory, yes you can hide the default navigation elements.&lt;/li>
 &lt;/ul></description></item><item><title>Docs: Controls</title><link>https://docs.kianda.com/docs/platform/controls/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/controls/</guid><description>
-&lt;p>&lt;strong>Controls&lt;/strong> are predefined field widgets that allow you to add specific elements to your forms and processes such as lists, text boxes and tables. There are 16 controls you can add to a form, see &lt;a href="#controls-list">Controls list&lt;/a>.&lt;/p>
-&lt;p>If you have developer skills, you can create your own custom field widget, see &lt;a href="development/Readme.md">Development&lt;/a> for more information.&lt;/p>
+&lt;p>&lt;strong>Controls&lt;/strong> - also referred to as fields - are predefined field widgets that allow you to add specific elements to your forms and processes, such as lists, text boxes, buttons and tables. There are 16 types of controls (fields) you can add to a form - see &lt;a href="#controls-list">Controls list&lt;/a> for details.&lt;/p>
+&lt;p>If you have developer skills, you can create your own custom field widget - see &lt;a href="development/Readme.md">Development&lt;/a> for more information.&lt;/p>
 &lt;h2 id="getting-started-with-controls">Getting started with Controls&lt;/h2>
-&lt;p>If you go to &lt;strong>Administration&lt;/strong> &amp;gt; &lt;strong>Designer&lt;/strong> and click on a process or create a new process, the predefined fields are found in the left-hand pane.&lt;/p>
-&lt;p>&lt;img src="https://docs.kianda.com/images/controls.png" alt="Controls">&lt;/p>
-&lt;p>There are 3 categories of fields:&lt;/p>
+&lt;p>If you go to &lt;strong>Administration&lt;/strong> &amp;gt; &lt;strong>Designer&lt;/strong> and click on an existing process or create a new process and then select a form within that process so that the &lt;strong>Edit Form&lt;/strong> button (Pen icon &lt;img src="https://docs.kianda.com/images/penicon.png" alt="Pen button">) is visible, the predefined fields you can add to forms are found in the left-hand pane.&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/Access_ControlsMenu_Select_Form.jpg" alt="Controls">&lt;/p>
+&lt;p>&lt;strong>Note:&lt;/strong> By default, three buttons are automatically added to any new form created - &lt;strong>Submit&lt;/strong>, &lt;strong>Save&lt;/strong> and &lt;strong>Close&lt;/strong> (as shown in this form canvas image).&lt;/p>
+&lt;p>There are three categories of controls (fields):&lt;/p>
 &lt;ol>
-&lt;li>&lt;strong>Input&lt;/strong> - There are 8 Input fields and they include the most common data fields such as textbox, user picker, date field, table, checkbox, drop-down and number fields, see &lt;a href="input/ReadMe.md">Input&lt;/a> for more information.&lt;/li>
-&lt;li>&lt;strong>Layout&lt;/strong> - There are 4 Layout fields that serve the purpose of perfecting the layout of your form. They include responsive panels, dialog box, field groups and rich text fields, see &lt;a href="layout/Readme.md">Layout&lt;/a> for more information.&lt;/li>
-&lt;li>&lt;strong>Action&lt;/strong> - There are 4 Action fields that allow user interface actions like buttons, links or even signature components, see &lt;a href="actions/Readme.md">Actions&lt;/a> for more information.&lt;/li>
+&lt;li>&lt;strong>Input&lt;/strong> - There are eight types of Input fields. These include the most commonly used data fields such as textbox, user picker, date field, table, checkbox, drop-down and number field. See &lt;a href="https://docs.kianda.com/docs/platform/controls/input/">Input&lt;/a> for more information.&lt;/li>
+&lt;li>&lt;strong>Layout&lt;/strong> - There are four Layout fields that serve the purpose of perfecting the layout of your form. They include responsive panels, dialog box, field groups and rich text fields - see &lt;a href="https://docs.kianda.com/docs/platform/controls/layout/">Layout&lt;/a> for more information.&lt;/li>
+&lt;li>&lt;strong>Action&lt;/strong> - There are four Action fields that allow user interface actions like buttons, links or even signature components - see &lt;a href="https://docs.kianda.com/docs/platform/controls/actions/">Actions&lt;/a> for more information.&lt;/li>
 &lt;/ol>
-&lt;p>All fields will have edit options when you start creating the field, as well as field properties that you can edit. Each field can also have rules applied to it.&lt;/p>
+&lt;p>To start adding fields to a form, select the form you want to work on so that the &lt;strong>Edit Form&lt;/strong> button (Pen icon &lt;img src="https://docs.kianda.com/images/penicon.png" alt="Pen button">) appears. Then click on a Controls category and control type in the left-hand pane. For example, you could choose the &lt;strong>Input&lt;/strong> category and select &lt;strong>Text box&lt;/strong> to insert a text box into your form.&lt;/p>
+&lt;p>To move a field, click on the &lt;strong>Drag handle&lt;/strong> button &lt;img src="https://docs.kianda.com/images/draghandlewhite_frame.png" alt="Drag handle button">.&lt;/p>
+&lt;p>To remove a field from your form, select the field you want to remove, then click on the &lt;strong>Bin/Trash&lt;/strong> button &lt;img src="https://docs.kianda.com/images/binicon.png" alt="Bin icon"> and then click &lt;strong>OK&lt;/strong> to confirm removal.&lt;/p>
+&lt;p>All fields will have edit options when you start creating the field, as well as field properties that you can edit to tailor the field (control) to make it work the way you want. Each field can also have rules applied to it to make your process dynamic.&lt;/p>
 &lt;h2 id="controls-list">Controls list&lt;/h2>
-&lt;p>A full list of controls is available in the table below.&lt;/p>
-&lt;p>&lt;img src="https://docs.kianda.com/images/controlstable_orig.png" alt="Form controls">&lt;/p></description></item><item><title>Docs: Rules</title><link>https://docs.kianda.com/docs/platform/rules/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/</guid><description>
+&lt;p>This table lists out the full range of available field types.&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/Fields_Controls_List_Table.jpg" alt="Form controls">&lt;/p></description></item><item><title>Docs: Rules</title><link>https://docs.kianda.com/docs/platform/rules/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/</guid><description>
 &lt;p>Business rules are what makes Kianda forms come alive. They represent the actual actions users intend to perform when they interact with form components. There are 59 rules you can apply to forms, see &lt;a href="#rules-list">Rules list&lt;/a>.&lt;/p>
 &lt;p>There are two key principles to consider when working with forms:&lt;/p>
 &lt;ol>
