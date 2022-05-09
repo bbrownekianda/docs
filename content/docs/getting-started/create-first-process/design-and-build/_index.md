@@ -4,7 +4,7 @@ weight: 2
 typora-root-url: ..\..\..\..\..\static
 ---
 
-Kianda processes are made up of **forms**. As we saw in [Plan your process](/docs/getting-started/create-first-process/plan-your-process/), you may have a paper forms or email flows that you want to turn into a dynamic, digital process. 
+Kianda processes are made up of **forms**. As we saw in [Plan your process](/docs/getting-started/create-first-process/plan-your-process/), you may have paper forms or email flows that you want to turn into dynamic, digital processes. 
 
 
 
@@ -18,7 +18,7 @@ To turn your process plan into a Kianda design using the agile approach, follow 
 
 
 
-We'll start with the first step below, [Build processes](#build-processes).
+We'll start with the first step - [Build processes](#build-processes).
 
 
 
@@ -30,21 +30,21 @@ Building processes involves three steps: creating the **process** itself, adding
 
 ![Create forms process](/images/magnifycreateforms.png)
 
-Once you have previewed the design you may wish to go back and make changes to the form, adopting an iterative design approach. We will deal with each step in turn starting with [creating a process](#create-a-process). 
+Once you have previewed the design, you may wish to go back and make changes to the form, adopting an iterative design approach. We will deal with each step in turn, starting with [creating a process](#create-a-process). 
 
 
 
 ## Before you begin ![Process plan icon](/images/11.png) 
 
-To start creating a process, reference your [process plan](/docs/getting-started/create-first-process/plan-your-process/). In our example we will keep our Training Process [requirements](/docs/getting-started/create-first-process/plan-your-process#summary-of-requirements) in mind as we go. We will start by creating a first process called Training Process. 
+To start creating a process, reference your [process plan](/docs/getting-started/create-first-process/plan-your-process/). As we go through the steps involved, we will keep in mind the [requirements](/docs/getting-started/create-first-process/plan-your-process#summary-of-requirements) associated with a Training Request and Approval Process. We will start by creating a first process called Training Process. 
 
 
 
 ## Create a process ##
 
-1. To create a process, go to the **Side menu** and click on **Administration** > **Designer**.
+1. To create a process, go to the **Left side menu** and click on **Administration** > **Designer**.
 
-2. You are now in the main process view. From here you can click on **Import** or **Export** to import or export processes when created. There is also an option to use Kianda's predefined processes available in the **App Store.** 
+2. You are now in the main process view. From here, you can click on **Import** or **Export** to import or export processes once created. There is also an option to use Kianda's predefined processes available in the **App Store.** 
 
    ***Adding a new process***
 
@@ -60,7 +60,7 @@ To start creating a process, reference your [process plan](/docs/getting-started
 
     Click on **OK** ![OK button](/images/ok.png) when complete.
 
-4. You are now in the process design page. From here you can [Add forms](/docs/getting-started/create-first-process/design-and-build/add-forms/).
+4. You are now in the process design page. From here, you can [Add forms](/docs/getting-started/create-first-process/design-and-build/add-forms/).
 
    ***Process design page***
 
@@ -79,7 +79,7 @@ The next steps are:
 
 ### User tip ![Target icon](/images/05.png) ###
 
-There are many ways to manage who has access to a process, or form, see the video [**How to control user security access to forms and process**](/docs/how-to/control-form-user-security/).
+There are many ways to manage who has access to a process or form - see the video [**How to control user security access to forms and process**](/docs/how-to/control-form-user-security/).
 
 
 
