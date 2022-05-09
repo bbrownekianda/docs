@@ -80,7 +80,7 @@ Your browser does not support the video tag.
 &lt;p>As you add elements to your form, you can save &lt;strong>drafts&lt;/strong>. This allows you make changes and restore to earlier versions if needed, see &lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/design-and-build/add-forms/version-history/">Version History&lt;/a> for more information.&lt;/p>
 &lt;h2 id="before-you-begin-process-plan-iconimages11png">Before you begin &lt;img src="https://docs.kianda.com/images/11.png" alt="Process plan icon">&lt;/h2>
 &lt;p>To add elements to your form, you need to reference your &lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/plan-your-process/">process plan&lt;/a> and consider &lt;strong>what fields&lt;/strong> you need and any &lt;strong>rules&lt;/strong> that need to be applied to these fields. We will keep our Training Process &lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/plan-your-process#summary-of-requirements">requirements&lt;/a> in mind as we go.&lt;/p>
-&lt;p>In our example, in the Training Request Form we have 6 control fields to add: 2 text boxes, 1 user picker field, 2 buttons, 1 list field, and one rule to send an email.&lt;/p>
+&lt;p>In our example, in the Training Request Form we have six control fields to add: two text boxes, one user picker field, two buttons, one list field, and one rule to send an email.&lt;/p>
 &lt;p>We will start with:&lt;/p>
 &lt;ul>
 &lt;li>
@@ -94,7 +94,7 @@ Your browser does not support the video tag.
 &lt;/li>
 &lt;/ul>
 &lt;h2 id="how-to-get-started">How to get started&lt;/h2>
-&lt;p>There are 3 categories of Controls, and 10 categories of Rules, see &lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/plan-your-process/controls/">Controls&lt;/a> and see &lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/plan-your-process/rules/">Rules&lt;/a> for a full listing of what is available.&lt;/p>
+&lt;p>There are three categories of Controls, and 10 categories of Rules, see &lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/plan-your-process/controls/">Controls&lt;/a> and see &lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/plan-your-process/rules/">Rules&lt;/a> for a full listing of what is available.&lt;/p>
 &lt;p>Controls and rules are available from the left-hand pane in when you click into a process.&lt;/p>
 &lt;p>&lt;em>&lt;strong>Controls and Rules in left-hand pane&lt;/strong>&lt;/em>&lt;/p>
 &lt;p>&lt;img src="https://docs.kianda.com/images/Controls_Rules_leftpane.jpg" alt="Add form elements">&lt;/p>
@@ -108,14 +108,14 @@ Your browser does not support the video tag.
 &lt;p>The first field we are going to add in our example is a textbox field to accept user input.&lt;/p>
 &lt;ol>
 &lt;li>
-&lt;p>Click on a form that you want to edit, for example by clicking on the Training Request Form, the &lt;strong>Pen&lt;/strong> button &lt;img src="https://docs.kianda.com/images/penicon.png" alt="Pen button"> is visible, meaning this form is in edit mode.&lt;/p>
+&lt;p>Click on a form that you want to edit, for example by clicking on the Training Request Form, the &lt;strong>Edit Form&lt;/strong> button (Pen icon &lt;img src="https://docs.kianda.com/images/penicon.png" alt="Pen button">) is visible, meaning this form is in edit mode.&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>Click on &lt;strong>Controls&lt;/strong> in the left-hand pane. Click on a particular category, for example &lt;strong>Input&lt;/strong> and then click on a particular field type to add, for example &lt;strong>Text box&lt;/strong>.&lt;/p>
 &lt;p>&lt;img src="https://docs.kianda.com/images/addtextbox.gif" alt="Add Text box">&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>The field is added to the form. To edit the field, click on the field so the &lt;strong>Pen&lt;/strong> button &lt;img src="https://docs.kianda.com/images/penicon.png" alt="Pen button"> is visible.&lt;/p>
+&lt;p>The field is added to the form. To edit the field, click on the field so the &lt;strong>Edit field&lt;/strong> button (Pen icon &lt;img src="https://docs.kianda.com/images/penicon.png" alt="Pen button">) is visible.&lt;/p>
 &lt;p>&lt;em>&lt;strong>Edit field&lt;/strong>&lt;/em>&lt;/p>
 &lt;p>&lt;img src="https://docs.kianda.com/images/fieldedit2.gif" alt="Edit a field">&lt;/p>
 &lt;/li>
@@ -151,7 +151,7 @@ Your browser does not support the video tag.
 &lt;p>To edit field properties:&lt;/p>
 &lt;ol>
 &lt;li>
-&lt;p>Click on a field so the &lt;strong>Pen&lt;/strong> button &lt;img src="https://docs.kianda.com/images/penicon.png" alt="Pen button"> is visible. Field properties are available in the right-hand pane.&lt;/p>
+&lt;p>Click on a field so the &lt;strong>Edit field&lt;/strong> button (Pen icon &lt;img src="https://docs.kianda.com/images/penicon.png" alt="Pen button">) is visible. Field properties are available in the right-hand pane.&lt;/p>
 &lt;p>&lt;em>&lt;strong>Properties in the right-hand pane&lt;/strong>&lt;/em>&lt;/p>
 &lt;p>&lt;img src="https://docs.kianda.com/images/fieldproperties.gif" alt="Field properties">&lt;/p>
 &lt;/li>
