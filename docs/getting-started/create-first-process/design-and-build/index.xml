@@ -1,11 +1,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kianda no-code platform for business process automation – Design and build your process</title><link>https://docs.kianda.com/docs/getting-started/create-first-process/design-and-build/</link><description>Recent content in Design and build your process on Kianda no-code platform for business process automation</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://docs.kianda.com/docs/getting-started/create-first-process/design-and-build/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Add forms</title><link>https://docs.kianda.com/docs/getting-started/create-first-process/design-and-build/add-forms/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/getting-started/create-first-process/design-and-build/add-forms/</guid><description>
-&lt;p>After you have created a process, you are ready to add &lt;strong>forms&lt;/strong>. This is the second step in building a process.&lt;/p>
+&lt;p>After you have created a process, you are then ready to add &lt;strong>forms&lt;/strong>. This is the second step in building a process.&lt;/p>
 &lt;p>&lt;em>&lt;strong>Build process steps&lt;/strong>&lt;/em>&lt;/p>
 &lt;p>&lt;img src="https://docs.kianda.com/images/magnifycreateforms2.png" alt="Create forms process">&lt;/p>
-&lt;p>As you work on your process, you can save &lt;strong>drafts&lt;/strong>. This allows you make changes and restore to earlier versions if needed, see &lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/design-and-build/add-forms/version-history/">Version History&lt;/a> for more information.&lt;/p>
+&lt;p>As you work on your process, you can save &lt;strong>drafts&lt;/strong>. This allows you make changes and restore to earlier versions if needed - see &lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/design-and-build/add-forms/version-history/">Version History&lt;/a> for more information.&lt;/p>
 &lt;h2 id="before-you-begin-process-plan-iconimages11png">Before you begin &lt;img src="https://docs.kianda.com/images/11.png" alt="Process plan icon">&lt;/h2>
-&lt;p>When adding forms reference your &lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/plan-your-process/">process plan&lt;/a> and to know &lt;strong>what forms&lt;/strong> you need and &lt;strong>who&lt;/strong> will have access to these forms as an administrator. As an example, we will keep our Training Process &lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/plan-your-process#summary-of-requirements">requirements&lt;/a> in mind as we go.&lt;/p>
-&lt;p>In our example we will create two forms: Training Request Form and a Training Approval Form.&lt;/p>
+&lt;p>When adding forms, refer back to your &lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/plan-your-process/">process plan&lt;/a> to determine &lt;strong>what forms&lt;/strong> you need and &lt;strong>who&lt;/strong> will have access to these forms as an administrator. As an example, we will keep our Training Process &lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/plan-your-process#summary-of-requirements">requirements&lt;/a> in mind as we go.&lt;/p>
+&lt;p>In this Training Process example, we will create two forms: Training Request Form and a Training Approval Form.&lt;/p>
 &lt;p>The video below highlights how Kianda Designer works and &lt;a href="#how-to-get-started">How to get started&lt;/a> runs through how to create forms for a sample Training Process.&lt;/p>
 &lt;p>&lt;em>&lt;strong>Kianda Designer introduction&lt;/strong>&lt;/em>&lt;/p>
 &lt;video width="100%" style="width:100%" controls>
@@ -14,7 +14,7 @@ Your browser does not support the video tag.
 &lt;/source>
 &lt;/video>
 &lt;h2 id="how-to-get-started">How to get started&lt;/h2>
-&lt;p>When your process is created, you are automatically in &lt;strong>Kianda Designer&lt;/strong>. This page allows you to add and edit forms, add elements to those forms like controls and rules, to save, publish and preview forms and view and edit form and field properties.&lt;/p>
+&lt;p>Once you have created a new process, you are automatically in &lt;strong>Kianda Designer&lt;/strong>. This page allows you to: add and edit forms, add elements to those forms (like controls and rules), save, publish and preview forms, and view and edit form and field properties.&lt;/p>
 &lt;p>Kianda Designer has 3 key areas:&lt;/p>
 &lt;ol>
 &lt;li>Left-hand pane is used to add form elements like &lt;strong>controls&lt;/strong> and &lt;strong>rules&lt;/strong>. This pane also houses the &lt;strong>Exit&lt;/strong> Designer &lt;img src="https://docs.kianda.com/images/exitdesign.png" alt="Exit"> &lt;strong>Save&lt;/strong> &lt;img src="https://docs.kianda.com/images/save.png" alt="Save"> &lt;strong>Preview&lt;/strong> &lt;img src="https://docs.kianda.com/images/preview.png" alt="Preview"> and &lt;strong>Publish&lt;/strong> &lt;img src="https://docs.kianda.com/images/publish.png" alt="Publish"> buttons.&lt;/li>
@@ -22,11 +22,11 @@ Your browser does not support the video tag.
 &lt;li>Right-hand pane is used to view and edit process, form and field &lt;strong>properties&lt;/strong>.&lt;/li>
 &lt;/ol>
 &lt;p>&lt;em>&lt;strong>Kianda Designer&lt;/strong>&lt;/em>&lt;/p>
-&lt;p>&lt;img src="https://docs.kianda.com/images/formdesigner_frame.png" alt="Form designer">&lt;/p>
-&lt;p>&lt;strong>Note&lt;/strong>: By default a first form, &amp;ldquo;form1&amp;rdquo;, is added to your process. Click on the &lt;strong>Pen&lt;/strong> button &lt;img src="https://docs.kianda.com/images/penicon.png" alt="Pen button"> to start editing this form to make it your own.&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/Kianda_Designer_frames.jpg" alt="Form designer">&lt;/p>
+&lt;p>&lt;strong>Note&lt;/strong>: By default, a first form, &amp;ldquo;form1&amp;rdquo;, is added to any new process you create. Click on the &lt;strong>Edit form&lt;/strong> button (Pen icon &lt;img src="https://docs.kianda.com/images/penicon.png" alt="Pen button">) to start editing this form to make it your own.&lt;/p>
 &lt;ol>
-&lt;li>Click on the &lt;strong>Pen&lt;/strong> button &lt;img src="https://docs.kianda.com/images/penicon.png" alt="Pen button"> to edit &amp;lsquo;form1&amp;rsquo;.&lt;/li>
-&lt;li>Fill out the details in the &lt;strong>Edit form&lt;/strong> dialog box - that is &lt;strong>Title&lt;/strong>, &lt;strong>Name&lt;/strong>, and &lt;strong>Default owner(s)&lt;/strong>, people who will be able to administrate this form, choose from &lt;strong>Users&lt;/strong> or &lt;strong>Groups&lt;/strong>. There are other options like &lt;strong>Form theme&lt;/strong> which are colours that you can apply to the form tab. These options are explained in further details in &lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/design-and-build/add-forms/designer/">Designer&lt;/a>. Changes made are visible in real-time in the form canvas.
+&lt;li>Click on the &lt;strong>Edit form&lt;/strong> button (Pen icon &lt;img src="https://docs.kianda.com/images/penicon.png" alt="Pen button">) to edit &amp;lsquo;form1&amp;rsquo;.&lt;/li>
+&lt;li>Complete the details in the &lt;strong>Edit form&lt;/strong> dialog box - that is &lt;strong>Title&lt;/strong>, &lt;strong>Name&lt;/strong>, and &lt;strong>Default owner(s)&lt;/strong> (people who will be able to administrate this form - choose from &lt;strong>Users&lt;/strong> or &lt;strong>Groups&lt;/strong>). There are other options like &lt;strong>Form theme&lt;/strong> which are colours that you can apply to the form tab. These options are explained in further details in &lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/design-and-build/add-forms/designer/">Designer&lt;/a>. Changes made are visible in real-time in the form canvas.
 &lt;em>&lt;strong>Edit a form&lt;/strong>&lt;/em>&lt;/li>
 &lt;/ol>
 &lt;p>&lt;img src="https://docs.kianda.com/images/editform.gif" alt="Edit form">&lt;/p>
@@ -50,13 +50,13 @@ Your browser does not support the video tag.
 &lt;h3 id="user-tips-target-iconimages05png">User tips &lt;img src="https://docs.kianda.com/images/05.png" alt="Target icon">&lt;/h3>
 &lt;ol>
 &lt;li>
-&lt;p>You may have also chosen predefined processes from the App Store. It is worth taking the time to check out how these processes are built to give you an initial idea of what is possible in Kianda.&lt;/p>
+&lt;p>You may have chosen to use predefined processes from the Kianda App Store. It is worth taking the time to check out how these processes are built to give you an initial idea of what is possible in Kianda.&lt;/p>
 &lt;p>Use the &lt;strong>Exit&lt;/strong> button &lt;img src="https://docs.kianda.com/images/exitdesign.png" alt="Exit"> to return to the main process view and then click on a process of choice to see details.&lt;/p>
-&lt;p>You can preview forms by clicking on the &lt;strong>Preview&lt;/strong> button &lt;img src="https://docs.kianda.com/images/preview.png" alt="Preview"> see &lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/design-and-build/preview-your-process/">&lt;strong>Previewer&lt;/strong>&lt;/a> for more details.&lt;/p>
-&lt;p>There are many ways to then reuse elements within forms, for example using the Group field and cloning, see the video &lt;a href="https://docs.kianda.com/docs/how-to/reuse-or-clone-process-elements/">&lt;strong>Reusability of process and form components&lt;/strong>&lt;/a>.&lt;/p>
+&lt;p>You can preview forms by clicking on the &lt;strong>Preview&lt;/strong> button &lt;img src="https://docs.kianda.com/images/preview.png" alt="Preview"> - see &lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/design-and-build/preview-your-process/">&lt;strong>Previewer&lt;/strong>&lt;/a> for more details.&lt;/p>
+&lt;p>There are many ways to then reuse elements within forms - for example, using the Group field and cloning. For more information, see the video &lt;a href="https://docs.kianda.com/docs/how-to/reuse-or-clone-process-elements/">&lt;strong>Reusability of process and form components&lt;/strong>&lt;/a>.&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>There are many ways to manage who has access to a process, or form, see the video &lt;a href="https://docs.kianda.com/docs/how-to/control-form-user-security/">&lt;strong>How to control user security access to forms and process&lt;/strong>&lt;/a>.&lt;/p>
+&lt;p>There are many ways to manage who has access to a process, or form - see the video &lt;a href="https://docs.kianda.com/docs/how-to/control-form-user-security/">&lt;strong>How to control user security access to forms and process&lt;/strong>&lt;/a>.&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>The key rules for working with forms are:&lt;/p>
@@ -64,9 +64,9 @@ Your browser does not support the video tag.
 &lt;li>Forms are assignable - means that only a form assignee can edit a particular form. This can be a combination of users and groups.&lt;/li>
 &lt;li>Only form owners can edit a given form by default. Any other user with access to view the form will see it in read-only mode.&lt;/li>
 &lt;li>Multi-step processes use the concept of &amp;ldquo;current form&amp;rdquo;. Only the form matching the process status will be made editable.&lt;/li>
-&lt;li>In a multi-step process, other forms that are not &amp;ldquo;current form&amp;rdquo; can be configured to &lt;strong>activate with&lt;/strong> the current form. Meaning they might also be editable and will form a form group.&lt;/li>
+&lt;li>In a multi-step process, other forms that are not &amp;ldquo;current form&amp;rdquo; can be configured to &lt;strong>activate with&lt;/strong> the current form, meaning they might also be editable and will form a form group.&lt;/li>
 &lt;/ul>
-&lt;p>The rules above work together to determine if the form is in edit mode or display mode. Form designers have at their disposal &lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/plan-your-process/rules/">business rules&lt;/a> such as &lt;em>assign form&lt;/em>, &lt;em>go to form&lt;/em> and &lt;em>submit rule&lt;/em> to dynamically control the ability for end-users to edit a particular form or a section of a form.&lt;/p>
+&lt;p>These rules work together to determine if the form is in edit mode or display mode. Form designers have at their disposal &lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/plan-your-process/rules/">business rules&lt;/a>, such as &lt;em>assign form&lt;/em>, &lt;em>go to form&lt;/em> and &lt;em>submit rule&lt;/em>, to dynamically control the ability of end-users to edit a particular form or a section of a form.&lt;/p>
 &lt;/li>
 &lt;/ol>
 &lt;h3 id="to-return-to-the-previous-pages-click-on-the-links-below--lighting-iconimages10png">&lt;strong>To return to the previous pages click on the links below&lt;/strong> &lt;img src="https://docs.kianda.com/images/10.png" alt="Lighting icon">&lt;/h3>
