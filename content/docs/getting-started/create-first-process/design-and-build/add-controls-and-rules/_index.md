@@ -47,7 +47,7 @@ Controls and rules are available from the left-hand pane in when you click into 
 
 - To remove a button or other field, click on the item and then click on the **Bin/Trash** button ![Bin button](/images/binicon.png) then click on **OK** to confirm removal. 
 - To move a button, or other field, click on the **Drag handle** button ![Drag handle](/images/move.png).
-- To start adding controls or rules to a form, click on a form of choice so the as the **Pen** button  ![Pen button](/images/penicon.png) is visible.
+- To start adding controls or rules to a form, click on a form of choice so the as the **Edit Form** button (Pen icon ![Pen button](/images/penicon.png)) is visible.
 
 
 
