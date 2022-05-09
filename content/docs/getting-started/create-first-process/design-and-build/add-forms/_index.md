@@ -5,21 +5,21 @@ weight: 1
 typora-root-url: ..\..\..\..\..\..\static
 ---
 
-After you have created a process, you are ready to add **forms**. This is the second step in building a process.
+After you have created a process, you are then ready to add **forms**. This is the second step in building a process.
 
 ***Build process steps***
 
 ![Create forms process](/images/magnifycreateforms2.png)
 
-As you work on your process, you can save **drafts**. This allows you make changes and restore to earlier versions if needed, see [Version History](/docs/getting-started/create-first-process/design-and-build/add-forms/version-history/) for more information.
+As you work on your process, you can save **drafts**. This allows you make changes and restore to earlier versions if needed - see [Version History](/docs/getting-started/create-first-process/design-and-build/add-forms/version-history/) for more information.
 
 
 
 ## Before you begin ![Process plan icon](/images/11.png) 
 
-When adding forms reference your [process plan](/docs/getting-started/create-first-process/plan-your-process/) and to know **what forms** you need and **who** will have access to these forms as an administrator. As an example, we will keep our Training Process [requirements](/docs/getting-started/create-first-process/plan-your-process#summary-of-requirements) in mind as we go.
+When adding forms, refer back to your [process plan](/docs/getting-started/create-first-process/plan-your-process/) to determine **what forms** you need and **who** will have access to these forms as an administrator. As an example, we will keep our Training Process [requirements](/docs/getting-started/create-first-process/plan-your-process#summary-of-requirements) in mind as we go.
 
-In our example we will create two forms: Training Request Form and a Training Approval Form.
+In this Training Process example, we will create two forms: Training Request Form and a Training Approval Form.
 
 The video below highlights how Kianda Designer works and [How to get started](#how-to-get-started) runs through how to create forms for a sample Training Process.
 
@@ -35,7 +35,7 @@ The video below highlights how Kianda Designer works and [How to get started](#h
 
 ## How to get started
 
-When your process is created, you are automatically in **Kianda Designer**. This page allows you to add and edit forms, add elements to those forms like controls and rules, to save, publish and preview forms and view and edit form and field properties.
+Once you have created a new process, you are automatically in **Kianda Designer**. This page allows you to: add and edit forms, add elements to those forms (like controls and rules), save, publish and preview forms, and view and edit form and field properties.
 
 Kianda Designer has 3 key areas:
 
@@ -45,12 +45,12 @@ Kianda Designer has 3 key areas:
 
 ***Kianda Designer***
 
-![Form designer](/images/formdesigner_frame.png)
+![Form designer](/images/Kianda_Designer_frames.jpg)
 
-**Note**: By default a first form, "form1", is added to your process. Click on the **Pen** button  ![Pen button](/images/penicon.png) to start editing this form to make it your own.
+**Note**: By default, a first form, "form1", is added to any new process you create. Click on the **Edit form** button (Pen icon ![Pen button](/images/penicon.png)) to start editing this form to make it your own.
 
-1. Click on the **Pen** button  ![Pen button](/images/penicon.png) to edit 'form1'.
-2. Fill out the details in the **Edit form** dialog box - that is **Title**, **Name**, and **Default owner(s)**, people who will be able to administrate this form, choose from **Users** or **Groups**. There are other options like **Form theme** which are colours that you can apply to the form tab. These options are explained in further details in [Designer](/docs/getting-started/create-first-process/design-and-build/add-forms/designer/). Changes made are visible in real-time in the form canvas.
+1. Click on the **Edit form** button (Pen icon ![Pen button](/images/penicon.png)) to edit 'form1'.
+2. Complete the details in the **Edit form** dialog box - that is **Title**, **Name**, and **Default owner(s)** (people who will be able to administrate this form - choose from **Users** or **Groups**). There are other options like **Form theme** which are colours that you can apply to the form tab. These options are explained in further details in [Designer](/docs/getting-started/create-first-process/design-and-build/add-forms/designer/). Changes made are visible in real-time in the form canvas.
 ***Edit a form***
 
 ![Edit form](/images/editform.gif)
@@ -80,24 +80,24 @@ The next steps are:
 
 ### User tips ![Target icon](/images/05.png) ###
 
-1. You may have also chosen predefined processes from the App Store. It is worth taking the time to check out how these processes are built to give you an initial idea of what is possible in Kianda. 
+1. You may have chosen to use predefined processes from the Kianda App Store. It is worth taking the time to check out how these processes are built to give you an initial idea of what is possible in Kianda. 
 
    Use the **Exit** button ![Exit](/images/exitdesign.png) to return to the main process view and then click on a process of choice to see details. 
 
-   You can preview forms by clicking on the **Preview** button ![Preview](/images/preview.png) see [**Previewer**](/docs/getting-started/create-first-process/design-and-build/preview-your-process/) for more details.
+   You can preview forms by clicking on the **Preview** button ![Preview](/images/preview.png) - see [**Previewer**](/docs/getting-started/create-first-process/design-and-build/preview-your-process/) for more details.
 
-   There are many ways to then reuse elements within forms, for example using the Group field and cloning, see the video [**Reusability of process and form components**](/docs/how-to/reuse-or-clone-process-elements/).
+   There are many ways to then reuse elements within forms - for example, using the Group field and cloning. For more information, see the video [**Reusability of process and form components**](/docs/how-to/reuse-or-clone-process-elements/).
 
-2. There are many ways to manage who has access to a process, or form, see the video [**How to control user security access to forms and process**](/docs/how-to/control-form-user-security/).
+2. There are many ways to manage who has access to a process, or form - see the video [**How to control user security access to forms and process**](/docs/how-to/control-form-user-security/).
 
 3. The key rules for working with forms are:
 
    - Forms are assignable - means that only a form assignee can edit a particular form. This can be a combination of users and groups.
    - Only form owners can edit a given form by default. Any other user with access to view the form will see it in read-only mode.
    - Multi-step processes use the concept of "current form". Only the form matching the process status will be made editable.
-   - In a multi-step process, other forms that are not "current form" can be configured to **activate with** the current form. Meaning they might also be editable and will form a form group.
+   - In a multi-step process, other forms that are not "current form" can be configured to **activate with** the current form, meaning they might also be editable and will form a form group.
 
-   The rules above work together to determine if the form is in edit mode or display mode. Form designers have at their disposal [business rules](/docs/getting-started/create-first-process/plan-your-process/rules/) such as *assign form*, *go to form* and *submit rule* to dynamically control the ability for end-users to edit a particular form or a section of a form.
+   These rules work together to determine if the form is in edit mode or display mode. Form designers have at their disposal [business rules](/docs/getting-started/create-first-process/plan-your-process/rules/), such as *assign form*, *go to form* and *submit rule*, to dynamically control the ability of end-users to edit a particular form or a section of a form.
 
    
 
