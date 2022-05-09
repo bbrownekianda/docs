@@ -102,7 +102,7 @@ Your browser does not support the video tag.
 &lt;ul>
 &lt;li>To remove a button or other field, click on the item and then click on the &lt;strong>Bin/Trash&lt;/strong> button &lt;img src="https://docs.kianda.com/images/binicon.png" alt="Bin button"> then click on &lt;strong>OK&lt;/strong> to confirm removal.&lt;/li>
 &lt;li>To move a button, or other field, click on the &lt;strong>Drag handle&lt;/strong> button &lt;img src="https://docs.kianda.com/images/move.png" alt="Drag handle">.&lt;/li>
-&lt;li>To start adding controls or rules to a form, click on a form of choice so the as the &lt;strong>Pen&lt;/strong> button &lt;img src="https://docs.kianda.com/images/penicon.png" alt="Pen button"> is visible.&lt;/li>
+&lt;li>To start adding controls or rules to a form, click on a form of choice so the as the &lt;strong>Edit Form&lt;/strong> button (Pen icon &lt;img src="https://docs.kianda.com/images/penicon.png" alt="Pen button">) is visible.&lt;/li>
 &lt;/ul>
 &lt;h2 id="adding-a-first-control-text-box">Adding a first control text box&lt;/h2>
 &lt;p>The first field we are going to add in our example is a textbox field to accept user input.&lt;/p>
