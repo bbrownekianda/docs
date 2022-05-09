@@ -21,7 +21,7 @@ As you add elements to your form, you can save **drafts**. This allows you make 
 
 To add elements to your form, you need to reference your [process plan](/docs/getting-started/create-first-process/plan-your-process/) and consider **what fields** you need and any **rules** that need to be applied to these fields. We will keep our Training Process [requirements](/docs/getting-started/create-first-process/plan-your-process#summary-of-requirements) in mind as we go.
 
-In our example, in the Training Request Form we have 6 control fields to add: 2 text boxes, 1 user picker field, 2 buttons, 1 list field, and one rule to send an email. 
+In our example, in the Training Request Form we have six control fields to add: two text boxes, one user picker field, two buttons, one list field, and one rule to send an email. 
 
 We will start with:
 
@@ -35,7 +35,7 @@ We will start with:
 
 ## How to get started
 
-There are 3 categories of Controls, and 10 categories of Rules, see [Controls](/docs/getting-started/create-first-process/plan-your-process/controls/) and see [Rules](/docs/getting-started/create-first-process/plan-your-process/rules/) for a full listing of what is available.
+There are three categories of Controls, and 10 categories of Rules, see [Controls](/docs/getting-started/create-first-process/plan-your-process/controls/) and see [Rules](/docs/getting-started/create-first-process/plan-your-process/rules/) for a full listing of what is available.
 
 Controls and rules are available from the left-hand pane in when you click into a process.
 
@@ -55,13 +55,13 @@ Controls and rules are available from the left-hand pane in when you click into 
 
 The first field we are going to add in our example is a textbox field to accept user input. 
 
-1. Click on a form that you want to edit, for example by clicking on the Training Request Form, the **Pen** button  ![Pen button](/images/penicon.png) is visible, meaning this form is in edit mode.
+1. Click on a form that you want to edit, for example by clicking on the Training Request Form, the **Edit Form** button (Pen icon ![Pen button](/images/penicon.png)) is visible, meaning this form is in edit mode.
 
 2. Click on **Controls** in the left-hand pane. Click on a particular category, for example **Input** and then click on a particular field type to add, for example **Text box**.
 
    ![Add Text box](/images/addtextbox.gif)
 
-3. The field is added to the form. To edit the field, click on the field so the **Pen** button  ![Pen button](/images/penicon.png) is visible.
+3. The field is added to the form. To edit the field, click on the field so the **Edit field** button (Pen icon ![Pen button](/images/penicon.png)) is visible.
 
    ***Edit field***
 
@@ -107,7 +107,7 @@ In addition to editing options when you add a field, you can also change field p
 
 To edit field properties:
 
-1. Click on a field so the **Pen** button  ![Pen button](/images/penicon.png) is visible. Field properties are available in the right-hand pane.
+1. Click on a field so the **Edit field** button (Pen icon ![Pen button](/images/penicon.png)) is visible. Field properties are available in the right-hand pane.
 
    ***Properties in the right-hand pane***
 
