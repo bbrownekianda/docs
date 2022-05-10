@@ -7,7 +7,7 @@ typora-root-url: ..\..\..\..\static
 
 **Controls** - also referred to as fields - are predefined field widgets that allow you to add specific elements to your forms and processes, such as lists, text boxes, buttons and tables. There are 16 types of controls (fields) you can add to a form - see [Controls list](#controls-list) for details.
 
-If you have developer skills,  you can create your own custom field widget - see [Development](development/Readme.md) for more information.
+If you have developer skills,  you can create your own custom field widget - see [Development](/docs/low-code/) for more information.
 
 
 
@@ -41,3 +41,8 @@ This table lists out the full range of available field types.
 
 ![Form controls](/images/Fields_Controls_List_Table.jpg)
 
+
+
+### What's next  ![Idea icon](/images/18.png) ###
+
+Now that you know what **Controls** are, the different types of Controls (fields) and how to add them to a form, find out more about the properties associated with Controls and more about each of the three categories of Controls, as well as Custom controls:
