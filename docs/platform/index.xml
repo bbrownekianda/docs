@@ -147,7 +147,7 @@ Your browser does not support the video tag.
 &lt;li>&lt;strong>Hide form tab and left nav&lt;/strong> - This is self-explanatory, yes you can hide the default navigation elements.&lt;/li>
 &lt;/ul></description></item><item><title>Docs: Controls</title><link>https://docs.kianda.com/docs/platform/controls/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/controls/</guid><description>
 &lt;p>&lt;strong>Controls&lt;/strong> - also referred to as fields - are predefined field widgets that allow you to add specific elements to your forms and processes, such as lists, text boxes, buttons and tables. There are 16 types of controls (fields) you can add to a form - see &lt;a href="#controls-list">Controls list&lt;/a> for details.&lt;/p>
-&lt;p>If you have developer skills, you can create your own custom field widget - see &lt;a href="development/Readme.md">Development&lt;/a> for more information.&lt;/p>
+&lt;p>If you have developer skills, you can create your own custom field widget - see &lt;a href="https://docs.kianda.com/docs/low-code/">Development&lt;/a> for more information.&lt;/p>
 &lt;h2 id="getting-started-with-controls">Getting started with Controls&lt;/h2>
 &lt;p>If you go to &lt;strong>Administration&lt;/strong> &amp;gt; &lt;strong>Designer&lt;/strong> and click on an existing process or create a new process and then select a form within that process so that the &lt;strong>Edit Form&lt;/strong> button (Pen icon &lt;img src="https://docs.kianda.com/images/penicon.png" alt="Pen button">) is visible, the predefined fields you can add to forms are found in the left-hand pane.&lt;/p>
 &lt;p>&lt;img src="https://docs.kianda.com/images/Access_ControlsMenu_Select_Form.jpg" alt="Controls">&lt;/p>
@@ -164,7 +164,9 @@ Your browser does not support the video tag.
 &lt;p>All fields will have edit options when you start creating the field, as well as field properties that you can edit to tailor the field (control) to make it work the way you want. Each field can also have rules applied to it to make your process dynamic.&lt;/p>
 &lt;h2 id="controls-list">Controls list&lt;/h2>
 &lt;p>This table lists out the full range of available field types.&lt;/p>
-&lt;p>&lt;img src="https://docs.kianda.com/images/Fields_Controls_List_Table.jpg" alt="Form controls">&lt;/p></description></item><item><title>Docs: Rules</title><link>https://docs.kianda.com/docs/platform/rules/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/</guid><description>
+&lt;p>&lt;img src="https://docs.kianda.com/images/Fields_Controls_List_Table.jpg" alt="Form controls">&lt;/p>
+&lt;h3 id="whats-next--idea-iconimages18png">What&amp;rsquo;s next &lt;img src="https://docs.kianda.com/images/18.png" alt="Idea icon">&lt;/h3>
+&lt;p>Now that you know what &lt;strong>Controls&lt;/strong> are, the different types of Controls (fields) and how to add them to a form, find out more about the properties associated with Controls and more about each of the three categories of Controls, as well as Custom controls:&lt;/p></description></item><item><title>Docs: Rules</title><link>https://docs.kianda.com/docs/platform/rules/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/</guid><description>
 &lt;p>Business rules are what makes Kianda forms come alive. They represent the actual actions users intend to perform when they interact with form components. There are 59 rules you can apply to forms, see &lt;a href="#rules-list">Rules list&lt;/a>.&lt;/p>
 &lt;p>There are two key principles to consider when working with forms:&lt;/p>
 &lt;ol>
