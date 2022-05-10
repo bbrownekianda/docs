@@ -64,7 +64,9 @@
 &lt;li>Table&lt;/li>
 &lt;li>User picker - allows you to choose from a list of users, this can be a preconfigured group like HR Managers or a list of users, see &lt;a href="https://docs.kianda.com/docs/platform/controls/input/user-picker/">User picker&lt;/a> for more information.&lt;/li>
 &lt;li>Toggle&lt;/li>
-&lt;/ul></description></item><item><title>Docs: Layout controls</title><link>https://docs.kianda.com/docs/platform/controls/layout/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/controls/layout/</guid><description>
+&lt;/ul>
+&lt;h3 id="whats-next--idea-iconimages18png">What&amp;rsquo;s next &lt;img src="https://docs.kianda.com/images/18.png" alt="Idea icon">&lt;/h3>
+&lt;p>We have briefly introduced each of the eight types of &lt;strong>Input controls&lt;/strong>. Now let&amp;rsquo;s look at each of these types of input fields in more detail:&lt;/p></description></item><item><title>Docs: Layout controls</title><link>https://docs.kianda.com/docs/platform/controls/layout/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/controls/layout/</guid><description>
 &lt;p>Layout fields are one category of &lt;a href="fields/Readme.md">controls&lt;/a> and include the fields used to enhance form layout for example using responsive panels, dialog box and rich text fields.&lt;/p>
 &lt;h2 id="getting-started-with-layout-fields">Getting started with Layout fields&lt;/h2>
 &lt;p>If you go to &lt;strong>Administration&lt;/strong> &amp;gt; &lt;strong>Designer&lt;/strong> and click on a process or create a new process, then click on &lt;strong>Controls&lt;/strong> the layout fields are found in the left-hand pane when you click on &lt;strong>Layout&lt;/strong>.&lt;/p>
