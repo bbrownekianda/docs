@@ -13,6 +13,7 @@ The following properties are visible:
 
 - Title - the title of process for example Quarterly Training Request
 - Page layout - you can click on **Wide** ![Wide button](/images/wide_resized.png)or **Narrow**  ![Narrow button](/images/narrow_resized.png) to change the layout.
+
 ![Process and form properties](/images/Process_Properties_TrainingProcess.jpg)
 
 In the image above, the process 'Quarterly Training Request' has 2 forms 'Training Request' and 'Training Approval'. Clicking on one of these forms will show the [Form properties](#form-properties). 
@@ -32,7 +33,7 @@ The following properties are visible:
 
 - Show info - click on this checkbox if you want to show information, for example who are the form owners, the design version and when the form was started and completed. This information will pop up at the bottom of the form.
 
-  ![Form information](/images/Form_Properties_Show_Info_Version.jpg)
+![Form information](/images/Form_Properties_Show_Info_Version.jpg)
 
 Underneath form properties you will see **Form submit rules**, go to [Rules](/docs/platform/rules/) to find out more about Form rules.
 
@@ -42,6 +43,7 @@ Click on a control field, for example a text box, in the form to see [Field prop
 
 ## Field properties ##
 When you click on any field, such as User picker, list or text box, the field properties appear in the right-hand pane.
+
 ![Field properties](/images/Field_Properties_TrainingProcess.jpg)
 
 The **Field type**, in the example above, **Text box**, is shown along with the **Title** of the field, in the example above, this is Employee Name.
@@ -58,6 +60,16 @@ The options within properties are:
 
 Underneath field properties you will see **Rules**, go to [Rules](/docs/platform/rules/) to find out more about Field rules.
 
+
+
+### What's next  ![Idea icon](/images/18.png) ###
+
+Now that you've learned about the **Properties** associated with processes, forms and fields, find out more about the different categories and types of fields (controls):
+
+- [Input controls](/docs/platform/controls/input/)
+- [Layout controls](/docs/platform/controls/layout/)
+- [Actions](/docs/platform/controls/actions/)
+- [Custom controls](/docs/platform/controls/custom/)
 
 
 
