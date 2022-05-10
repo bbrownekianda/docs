@@ -58,7 +58,7 @@ The options within the Field properties menu are:
 
 ![Changing text box width](/images/textboxsize_frame.png) 
 
-Make sure to save any changes you make by clicking on the **Save** button ![Save](/images/saveprocess.png). You will always have the option to revert back to previous versions of your form by clicking the **Design Version History** ![Version button](/images/version8.png/)button in the top right corner.
+Make sure to save any changes you make by clicking on the **Save** button ![Save](/images/saveprocess.png). You will always have the option to revert back to previous versions of your form by clicking the **Design Version History** ![Version button](/images/version8.png/) button in the top right corner.
 
 Underneath the Field properties menu, you will see **Rules** - go to [Rules](/docs/platform/rules/) to find out more about the rules that can be applied to fields.
 
