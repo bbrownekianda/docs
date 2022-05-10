@@ -25,6 +25,8 @@ There are three categories of controls (fields):
 2. **Layout** - There are four Layout fields that serve the purpose of perfecting the layout of your form. They include responsive panels, dialog box, field groups and rich text fields - see [Layout](/docs/platform/controls/layout/) for more information.
 3. **Action** - There are four Action fields that allow user interface actions like buttons, links or even signature components - see [Actions](/docs/platform/controls/actions/) for more information.
 
+If you develop custom fields, they will be available to form designers under a fourth category of controls called **Custom**.
+
 To start adding fields to a form, select the form you want to work on so that the **Edit Form** button (Pen icon ![Pen button](/images/penicon.png)) appears. Then click on a Controls category and control type in the left-hand pane. For example, you could choose the **Input** category and select **Text box** to insert a text box into your form. 
 
 To move a field, click on the **Drag handle** button ![Drag handle button](/images/draghandlewhite_frame.png).
