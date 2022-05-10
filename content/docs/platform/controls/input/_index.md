@@ -24,3 +24,9 @@ There are 8 types of input fields as follows:
 - Table
 - User picker - allows you to choose from a list of users, this can be a preconfigured group like HR Managers or a list of users, see [User picker](/docs/platform/controls/input/user-picker/) for more information.
 - Toggle 
+
+
+
+### What's next  ![Idea icon](/images/18.png) ###
+
+We have briefly introduced each of the eight types of **Input controls**. Now let's look at each of these types of input fields in more detail:
