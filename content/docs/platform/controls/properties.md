@@ -4,7 +4,7 @@ weight: 1
 typora-root-url: ..\..\..\..\static
 ---
 
-Every process, form and control, such as text boxes and lists, will have properties visible in the right-hand pane of the [Designer](platform/form_designer2.md) view. 
+Every process, form and control, such as text boxes and lists, will have properties visible in the right-hand pane of the [Designer](/docs/platform/application-designer/designer/) view. 
 
 ## Process properties ##
 When you go to **Administration** > **Designer** > click on a process > **Process properties** in the right-hand pane, you will see the properties for the chosen process.
@@ -12,8 +12,8 @@ When you go to **Administration** > **Designer** > click on a process > **Proces
 The following properties are visible:
 
 - Title - the title of process for example Quarterly Training Request
-- Page layout - you can click on **Wide** ![Wide button](/images/wide_resized.png)or **Narrow**  ![Narrow button](images/narrow_resized.png) to change the layout.
-![Process and form properties](/images/formlayout_resized.png) 
+- Page layout - you can click on **Wide** ![Wide button](/images/wide_resized.png)or **Narrow**  ![Narrow button](/images/narrow_resized.png) to change the layout.
+![Process and form properties](/images/Process_Properties_TrainingProcess.jpg)
 
 In the image above, the process 'Quarterly Training Request' has 2 forms 'Training Request' and 'Training Approval'. Clicking on one of these forms will show the [Form properties](#form-properties). 
 
@@ -22,7 +22,7 @@ In the image above, the process 'Quarterly Training Request' has 2 forms 'Traini
 ## Form properties ##
 When you click on a form, the **Form properties** appear in the right-hand pane.
 
-![Form properties](/images/formproperties_resized.png)
+![Form properties](/images/Form_Properties_TrainingProcess.jpg)
 
 The following properties are visible:
 
@@ -32,9 +32,9 @@ The following properties are visible:
 
 - Show info - click on this checkbox if you want to show information, for example who are the form owners, the design version and when the form was started and completed. This information will pop up at the bottom of the form.
 
-  ![Form information](/images/forminfo_resized.png)
+  ![Form information](/images/Form_Properties_Show_Info_Version.jpg)
 
-Underneath form properties you will see **Form submit rules**, go to [Rules](http://localhost:3000/#/rules/README) to find out more about Form rules.
+Underneath form properties you will see **Form submit rules**, go to [Rules](/docs/platform/rules/) to find out more about Form rules.
 
 Click on a control field, for example a text box, in the form to see [Field properties](#field-properties). 
 
@@ -42,7 +42,7 @@ Click on a control field, for example a text box, in the form to see [Field prop
 
 ## Field properties ##
 When you click on any field, such as User picker, list or text box, the field properties appear in the right-hand pane.
-![Field properties](/images/fieldproperties_resized.png)
+![Field properties](/images/Field_Properties_TrainingProcess.jpg)
 
 The **Field type**, in the example above, **Text box**, is shown along with the **Title** of the field, in the example above, this is Employee Name.
 
@@ -56,7 +56,7 @@ The options within properties are:
 
 ![Changing text box width](/images/textboxsize_frame.png) 
 
-Underneath field properties you will see **Rules**, go to [Rules](http://localhost:3000/#/rules/README) to find out more about Field rules.
+Underneath field properties you will see **Rules**, go to [Rules](/docs/platform/rules/) to find out more about Field rules.
 
 
 
