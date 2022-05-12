@@ -53,6 +53,9 @@ To delete an input field from your form, select the field (by either clicking on
 
 You can also view and edit an input field's **Field Properties** by selecting the field - for more details, see [Field Properties](/docs/platform/controls/properties/#field-properties/).
 
+## Saving changes and version history ##
+Make sure to save any changes you make by clicking on the **Save** button ![Save](/images/saveprocess.png). You will always have the option to revert back to previous versions of your form by clicking the **Design Version History** ![Version button](/images/version8.png) button in the top right corner.
+
 ### What's next  ![Idea icon](/images/18.png) ###
 
 We have briefly introduced each of the eight types of **Input controls**. Now let's look at each of these types of input fields in more detail:
