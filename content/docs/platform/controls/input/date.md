@@ -35,8 +35,8 @@ The options within the **Edit date field dialog box** include:
 - **Display format** - you can choose whether the date field shows the date only or the date and time
 - **Adjust to user timezone** - you can select this if you want the date field to adjust to the time zone of the form user
 - **Set default date onload** - if you choose 'Yes', this means that a value will automatically be put in the date field (like a date stamp) when a user fills out the form and two additional options will appear in the dialog box: 
-  - 1. the option to choose the default date that will be automatically inserted in the form ('**Default date**') - you can choose from '**Now**', '**Today**' (which inserts today's date and a time of 00:00 midnight) or '**Relative from now'** (you can insert the date you want to use, in terms of the number of days, hours and minutes from now;
-  - 2. the option to '**Always set date even if not empty**'.
+  - 1. **Default date** - the option to choose the default date that will be automatically inserted in the form. You can choose from '**Now**', '**Today**' (which inserts today's date and a time of 00:00 midnight) or '**Relative from now'** (you can insert the date you want to use, in terms of the number of days, hours and minutes from now.
+  - 2. **Always set date even if not empty** - the option to have the default date you choose inserted in the date field, even if the field is not empty.
 
 - **Enable native picker on mobile** - you can choose to allow users who are completing the date field on a mobile phone to use the default pop-up date picker associated with their mobile phone
 
