@@ -21,12 +21,36 @@
 &lt;p>&lt;img src="https://docs.kianda.com/images/Edit_Date_Field_dialog_box.jpg" alt="Edit date field dialog box">&lt;/p>
 &lt;p>The options within the &lt;strong>Edit date field dialog box&lt;/strong> include:&lt;/p>
 &lt;ul>
-&lt;li>&lt;strong>Title&lt;/strong> - you can change the title of the date field&lt;/li>
-&lt;li>&lt;strong>Help text&lt;/strong> - you can insert help text a user can view when completing the date field&lt;/li>
-&lt;li>&lt;strong>Display format&lt;/strong> - you can choose whether the date field shows the date only or the date and time&lt;/li>
-&lt;li>&lt;strong>Adjust to user timezone&lt;/strong> - you can select this if you want the date field to adjust to the time zone of the form user&lt;/li>
-&lt;li>&lt;strong>Default date&lt;/strong> - you can choose to set a default date for the date field (now, today, or a time relative to now)&lt;/li>
-&lt;li>&lt;strong>Enable native picker on mobile&lt;/strong> - you can choose to allow users who are completing the date field on a mobile phone to use the default pop-up date picker associated with their mobile phone&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Title&lt;/strong> - you can change the title of the date field&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Help text&lt;/strong> - you can insert help text a user can view when completing the date field&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Display format&lt;/strong> - you can choose whether the date field shows the date only or the date and time&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Adjust to user timezone&lt;/strong> - you can select this if you want the date field to adjust to the time zone of the form user&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Set default date onload&lt;/strong> - if you choose &amp;lsquo;Yes&amp;rsquo;, this means that a value will automatically be put in the date field (like a date stamp) when a user fills out the form and two additional options will appear in the dialog box:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;ol>
+&lt;li>the option to choose the default date that will be automatically inserted in the form (&amp;rsquo;&lt;strong>Default date&lt;/strong>&amp;rsquo;) - you can choose from &amp;lsquo;&lt;strong>Now&lt;/strong>&amp;rsquo;, &amp;lsquo;&lt;strong>Today&lt;/strong>&amp;rsquo; (which inserts today&amp;rsquo;s date and a time of 00:00 midnight) or &amp;lsquo;&lt;strong>Relative from now&amp;rsquo;&lt;/strong> (you can insert the date you want to use, in terms of the number of days, hours and minutes from now;&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>
+&lt;ol start="2">
+&lt;li>the option to &amp;lsquo;&lt;strong>Always set date even if not empty&lt;/strong>&amp;rsquo;.&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Enable native picker on mobile&lt;/strong> - you can choose to allow users who are completing the date field on a mobile phone to use the default pop-up date picker associated with their mobile phone&lt;/p>
+&lt;/li>
 &lt;/ul>
 &lt;p>To move a &lt;strong>Date field&lt;/strong>, simply select the field&amp;rsquo;s &lt;strong>Drag handle&lt;/strong> button &lt;img src="https://docs.kianda.com/images/draghandlewhite_frame.png" alt="Drag handle button"> and drag and drop the field wherever you want to move it to within your form.&lt;/p>
 &lt;p>&lt;img src="https://docs.kianda.com/images/Move_Date_Field_Drag_Handle.jpg" alt="Date field drag handle">&lt;/p>
