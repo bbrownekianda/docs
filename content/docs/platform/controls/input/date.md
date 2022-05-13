@@ -50,7 +50,7 @@ To view or edit the field properties associated with a **Date field**, select th
 
 In the example shown here, a **Date field** titled **Date** has been selected in a form called 'Expense Report' and the Field properties associated with this field include its Title, that its title will be shown in the form (the 'Show title' checkbox is ticked), that this will not be a field users are required to complete (the 'Required' checkbox is not selected), that this field will be enabled for users to complete (the 'Enabled' checkbox is ticked), and that this field will be visible to form users (the 'Visible' checkbox is ticked).
 
-To learn more about the different options within the Field properties menu, go to [Field Properties](/docs/platform/controls/properties/#field-properties/).
+To learn more about the different options within the Field properties menu, go to [Field Properties](/docs/platform/controls/properties#field-properties).
 
 ### Saving changes and version history ###
 Make sure to save any changes you make by clicking on the **Save** button ![Save](/images/saveprocess.png). You will always have the option to revert back to previous versions of your form by clicking the **Design Version History** ![Version button](/images/version8.png) button in the top right corner.
