@@ -38,12 +38,12 @@
 &lt;ul>
 &lt;li>
 &lt;ol>
-&lt;li>the option to choose the default date that will be automatically inserted in the form (&amp;rsquo;&lt;strong>Default date&lt;/strong>&amp;rsquo;) - you can choose from &amp;lsquo;&lt;strong>Now&lt;/strong>&amp;rsquo;, &amp;lsquo;&lt;strong>Today&lt;/strong>&amp;rsquo; (which inserts today&amp;rsquo;s date and a time of 00:00 midnight) or &amp;lsquo;&lt;strong>Relative from now&amp;rsquo;&lt;/strong> (you can insert the date you want to use, in terms of the number of days, hours and minutes from now;&lt;/li>
+&lt;li>&lt;strong>Default date&lt;/strong> - the option to choose the default date that will be automatically inserted in the form. You can choose from &amp;lsquo;&lt;strong>Now&lt;/strong>&amp;rsquo;, &amp;lsquo;&lt;strong>Today&lt;/strong>&amp;rsquo; (which inserts today&amp;rsquo;s date and a time of 00:00 midnight) or &amp;lsquo;&lt;strong>Relative from now&amp;rsquo;&lt;/strong> (you can insert the date you want to use, in terms of the number of days, hours and minutes from now.&lt;/li>
 &lt;/ol>
 &lt;/li>
 &lt;li>
 &lt;ol start="2">
-&lt;li>the option to &amp;lsquo;&lt;strong>Always set date even if not empty&lt;/strong>&amp;rsquo;.&lt;/li>
+&lt;li>&lt;strong>Always set date even if not empty&lt;/strong> - the option to have the default date you choose inserted in the date field, even if the field is not empty.&lt;/li>
 &lt;/ol>
 &lt;/li>
 &lt;/ul>
