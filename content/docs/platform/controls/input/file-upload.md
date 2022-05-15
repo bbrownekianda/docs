@@ -3,7 +3,7 @@ title: "File upload control"
 typora-root-url: ..\..\..\..\..\static
 ---
 
-**File upload controls** (fields) can be inserted in a form if you want form users to be able to upload a file or files. File upload fields can also be useful if you want a file to be generated from the information entered in a form or to be sent as part of your process - see [Rules](/docs/platform/rules/) for more information. 
+**File upload controls** (fields) can be inserted in a form if you want form users to be able to upload a file or files. File upload fields can also be useful if you want a file to be generated from the information entered in a form or if you want a file to be sent as part of your process - see [Rules](/docs/platform/rules/) for more information. 
 
 For example, in an Inspection process, you may want the user (an inspector) to be able to upload the details of their inspection as a PDF file or photos as they complete an Inspection Form; or you may want the Kianda system to generate a report based on the information in the Inspection Form and to email this as a PDF file to a supervisor.
 
