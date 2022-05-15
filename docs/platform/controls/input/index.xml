@@ -137,7 +137,7 @@
 &lt;/ul>
 &lt;/li>
 &lt;li>
-&lt;p>Once you complete the &lt;strong>New field - file&lt;/strong> dialog box and click &lt;strong>OK&lt;/strong>, a new &lt;strong>File upload field&lt;/strong> is added to your form, with the name you inserted as the &lt;strong>Title&lt;/strong> in the dialog box (by default the title is &lt;strong>File 1&lt;/strong> unless you change it). In the example of our Inspection Form, the new File upload field (titled &lt;strong>Upload photos&lt;/strong>) could look like this:&lt;/p>
+&lt;p>Once you complete the &lt;strong>New field - file&lt;/strong> dialog box and click &lt;strong>OK&lt;/strong>, a new &lt;strong>File upload field&lt;/strong> is added to your form, with the name you inserted as the &lt;strong>Title&lt;/strong> in the dialog box (by default the title is &lt;strong>File 1&lt;/strong> unless you change it). In the example of our Inspection Form, the new File upload field (titled &lt;strong>Upload photos&lt;/strong>) could look like this when viewed on a mobile phone:&lt;/p>
 &lt;p>&lt;img src="https://docs.kianda.com/images/File_Upload_Example_Mobile.jpg" alt="File upload example mobile phone">&lt;/p>
 &lt;/li>
 &lt;/ol>
