@@ -72,7 +72,102 @@
 &lt;li>&lt;a href="https://docs.kianda.com/docs/platform/controls/input/textbox/">Textbox control&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://docs.kianda.com/docs/platform/controls/input/toggle/">Toggle control&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://docs.kianda.com/docs/platform/controls/input/user-picker/">User picker control&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Docs: File upload control</title><link>https://docs.kianda.com/docs/platform/controls/input/file-upload/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/controls/input/file-upload/</guid><description/></item><item><title>Docs: List control</title><link>https://docs.kianda.com/docs/platform/controls/input/list/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/controls/input/list/</guid><description>
+&lt;/ul></description></item><item><title>Docs: File upload control</title><link>https://docs.kianda.com/docs/platform/controls/input/file-upload/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/controls/input/file-upload/</guid><description>
+&lt;p>&lt;strong>File upload controls&lt;/strong> (fields) can be inserted in a form if you want form users to be able to upload a file or files. File upload fields can also be useful if you want a file to be generated from the information entered in a form or to be sent as part of your process - see &lt;a href="https://docs.kianda.com/docs/platform/rules/">Rules&lt;/a> for more information.&lt;/p>
+&lt;p>For example, in an Inspection process, you may want the user (an inspector) to be able to upload the details of their inspection as a PDF file or photos as they complete an Inspection Form; or you may want the Kianda system to generate a report based on the information in the Inspection Form and to email this as a PDF file to a supervisor.&lt;/p>
+&lt;h2 id="how-to-get-started">How to get started&lt;/h2>
+&lt;ol>
+&lt;li>
+&lt;p>To add a &lt;strong>File upload field&lt;/strong> to a form, first open the relevant process. Then select the form within that process that you want to add the field to (so that the &lt;strong>Edit Form&lt;/strong> button &lt;img src="https://docs.kianda.com/images/penicon.png" alt="Edit form button"> is visible).&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Insert the &lt;strong>File upload field&lt;/strong> by clicking on &lt;strong>Controls&lt;/strong> in the left-hand pane to expand the Controls menu, then select &lt;strong>Input&lt;/strong> to view the range of Input controls and click on &lt;strong>File&lt;/strong>. A &lt;strong>New field - file&lt;/strong> dialog box will open with a range of options you can choose from for your new File upload field.&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/New_File_Field_dialog_box.jpg" alt="Edit file upload field dialog box">&lt;/p>
+&lt;p>The options available in the &lt;strong>New field - file&lt;/strong> dialog box include:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>Title&lt;/strong>: You can change the name of the File upload field from the default &amp;lsquo;&lt;strong>File 1&lt;/strong>&amp;rsquo;&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Help text&lt;/strong>: You can insert text to help the form user to complete the File upload field - a question mark &lt;img src="https://docs.kianda.com/images/Help_icon.jpg" alt="Help text icon"> icon will appear next to the field title and, if the user clicks on this, they will see the help text you have inserted.&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/File_Upload_Help_Text.jpg" alt="File upload help text example">&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Save location&lt;/strong>: This is the location the file will be saved to. When you click on the &lt;strong>Destination&lt;/strong> button, a &lt;strong>Select datasource&lt;/strong> dialog box opens in which you can choose where you want the file(s) to be saved to:&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/File_Upload_Select_Datasource.jpg" alt="Select datasource dialog box">&lt;/p>
+&lt;p>You can choose to save the file or files to Kianda or to another external data source.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Open file behaviour&lt;/strong>: You can choose whether the file is downloaded or opens in an internet browser.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Allow file override&lt;/strong>: You can choose whether or not to allow file override.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Allow remove file&lt;/strong>: If you select &lt;strong>Yes&lt;/strong>, another option appears - &lt;strong>Remove and delete file&lt;/strong>: if you choose &lt;strong>Yes&lt;/strong>, when the file is removed, it will also be deleted from the location where it was stored; if you choose &lt;strong>No&lt;/strong>, then only the reference to the file is removed from the form.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Allow uploading multiple files&lt;/strong>: Choose &lt;strong>No&lt;/strong> to only allow the user to upload one file or choose &lt;strong>Yes&lt;/strong> to allow the user to upload multiple files.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>File name options&lt;/strong>: Choose whether to keep the original file name, to have the file name auto generated by the system, or to be based on a form field. If you choose &lt;strong>From form field&lt;/strong>, another option appears - &lt;strong>File name field&lt;/strong> - and you click in the blank field to choose the file name field you want the file name to be:&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/File_Name_Field.jpg" alt="File name field">&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>File extension&lt;/strong>: You can set/limit the type of file(s) that can be uploaded by inserting a specific file type. For example, if you insert &lt;strong>.pdf&lt;/strong> in the File extension box, when the user browses for the file to attach, the file type will automatically be set to .pdf. If you want to allow any type of file to be attached, leave this option blank.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Enable media capture&lt;/strong>: If you choose &lt;strong>Yes&lt;/strong>, this enables the user to capture media to upload - on a mobile device, when the user clicks on the Upload button their camera/video recorder will open (depending on whether you&amp;rsquo;ve selected the file extension to be image or video).&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Button text&lt;/strong>: By default, the File upload icon has the text &lt;strong>Browse&lt;/strong>, but you can change this here.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Button icon&lt;/strong>: By default, the file upload icon is &lt;img src="https://docs.kianda.com/images/File_Upload_Icon.jpg" alt="File upload icon"> but you can change this by clicking the Button icon drop-down menu and choosing a different icon from the large range of icons available.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Enable background upload&lt;/strong>: Select this checkbox to enable files to be uploaded using a background operation.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Enable chunked upload&lt;/strong>: Select this checkbox to upload files using resumable chunks. This option can be useful if the file size is likely to be large or the network speed is likely to be slow.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Show uploaded files count&lt;/strong>: Select &lt;strong>Yes&lt;/strong> to show the number of uploaded files.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Once you complete the &lt;strong>New field - file&lt;/strong> dialog box and click &lt;strong>OK&lt;/strong>, a new &lt;strong>File upload field&lt;/strong> is added to your form, with the name you inserted as the &lt;strong>Title&lt;/strong> in the dialog box (by default the title is &lt;strong>File 1&lt;/strong> unless you change it). In the example of our Inspection Form, the new File upload field (titled &lt;strong>Upload photos&lt;/strong>) could look like this:&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/File_Upload_Example_Mobile.jpg" alt="File upload example mobile phone">&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h3 id="how-to-edit-move-and-delete-file-upload-fields">How to edit, move and delete File upload fields&lt;/h3>
+&lt;p>To edit a &lt;strong>File upload field&lt;/strong>, select the field (by either clicking on the field title or on the field&amp;rsquo;s &lt;strong>Drag handle&lt;/strong> button &lt;img src="https://docs.kianda.com/images/draghandlewhite_frame.png" alt="Drag handle button">) and then click on the &lt;strong>Edit field&lt;/strong> button (Pen icon) &lt;img src="https://docs.kianda.com/images/penicon.png" alt="Edit field button">.&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/File_Upload_Edit.jpg" alt="Select file upload file to edit">&lt;/p>
+&lt;p>The &lt;strong>Edit field - File&lt;/strong> dialog box will open, enabling you to choose from the same range of options as appear in the &lt;strong>New field - file&lt;/strong> dialog box (as already discussed in &lt;a href="https://docs.kianda.com/docs/platform/controls/input/file-upload#how-to-get-started">How to get started&lt;/a>).&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/File_Upload_Edit_Field_dialog_box.jpg" alt="Edit date field dialog box">&lt;/p>
+&lt;p>You can make any changes you wish in this dialog box and then click &lt;strong>OK&lt;/strong> to confirm.&lt;/p>
+&lt;p>To move a &lt;strong>File upload field&lt;/strong>, simply select the field&amp;rsquo;s &lt;strong>Drag handle&lt;/strong> button &lt;img src="https://docs.kianda.com/images/draghandlewhite_frame.png" alt="Drag handle button"> and drag and drop the field wherever you want to move it to within your form.&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/Upload_File_Move_draghandle.jpg" alt="Date field drag handle">&lt;/p>
+&lt;p>To delete a &lt;strong>File upload field&lt;/strong> from your form, simply select the field (by either clicking on the field&amp;rsquo;s name or its &lt;strong>Drag handle&lt;/strong> button &lt;img src="https://docs.kianda.com/images/draghandlewhite_frame.png" alt="Drag handle button">), click on the &lt;strong>Bin/Trash&lt;/strong> button &lt;img src="https://docs.kianda.com/images/binicon.png" alt="Bin icon"> and then click on &lt;strong>OK&lt;/strong> to confirm.&lt;/p>
+&lt;h3 id="how-to-edit-file-upload-field-properties">How to edit File upload field properties&lt;/h3>
+&lt;p>To view or edit the field properties associated with a &lt;strong>File upload field&lt;/strong>, select the field (by clicking on the field title or field drag handle button &lt;img src="https://docs.kianda.com/images/draghandlewhite_frame.png" alt="Drag handle button">) - the &lt;strong>Field properties&lt;/strong> menu will appear in the right-hand pane.&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/File_Upload_Field_Properties.jpg" alt="Field properties">&lt;/p>
+&lt;p>In the example shown here, a &lt;strong>File upload field&lt;/strong> titled &lt;strong>Upload Photos&lt;/strong> has been selected in a form called &amp;lsquo;Inspection Form&amp;rsquo; and the Field properties associated with this field include its Title, that its title will be shown in the form (the &amp;lsquo;Show title&amp;rsquo; checkbox is ticked), that this is a mandatory field that users must complete (the &amp;lsquo;Required&amp;rsquo; checkbox is selected and there is a red star next to the field name in the form), that this field will be enabled for users to complete (the &amp;lsquo;Enabled&amp;rsquo; checkbox is ticked), and that this field will be visible to form users (the &amp;lsquo;Visible&amp;rsquo; checkbox is ticked).&lt;/p>
+&lt;p>To learn more about the different options within the Field properties menu, go to &lt;a href="https://docs.kianda.com/docs/platform/controls/properties#field-properties">Field Properties&lt;/a>.&lt;/p>
+&lt;h3 id="saving-changes-and-version-history">Saving changes and version history&lt;/h3>
+&lt;p>Make sure to save any changes you make by clicking on the &lt;strong>Save&lt;/strong> button &lt;img src="https://docs.kianda.com/images/saveprocess.png" alt="Save">. You will always have the option to revert back to previous versions of your form by clicking the &lt;strong>Design Version History&lt;/strong> &lt;img src="https://docs.kianda.com/images/version8.png" alt="Version button"> button in the top right corner.&lt;/p>
+&lt;h3 id="whats-next--idea-iconimages18png">What&amp;rsquo;s next &lt;img src="https://docs.kianda.com/images/18.png" alt="Idea icon">&lt;/h3>
+&lt;p>Now that you&amp;rsquo;ve learned about the &lt;strong>File upload control&lt;/strong>, find out more about the other types of &lt;strong>Input fields&lt;/strong> you can add to a Kianda process:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://docs.kianda.com/docs/platform/controls/input/date/">Date control&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.kianda.com/docs/platform/controls/input/list/">List control&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.kianda.com/docs/platform/controls/input/number/">Number control&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.kianda.com/docs/platform/controls/input/table/">Table control&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.kianda.com/docs/platform/controls/input/textbox/">Textbox control&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.kianda.com/docs/platform/controls/input/toggle/">Toggle control&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.kianda.com/docs/platform/controls/input/user-picker/">User picker control&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Docs: List control</title><link>https://docs.kianda.com/docs/platform/controls/input/list/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/controls/input/list/</guid><description>
 &lt;p>&lt;strong>Lists&lt;/strong> can be manually entered into a form or linked from an external site like SharePoint, for example a list of Types of Training. There are different display options from dropdown lists to checklists and the ability to make lists mandatory for users to choose in a form amongst other options.&lt;/p>
 &lt;h2 id="how-to-get-started">How to get started&lt;/h2>
 &lt;ol>
