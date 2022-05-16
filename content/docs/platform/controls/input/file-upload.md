@@ -58,7 +58,7 @@ For example, in an Inspection process, you may want the user (an inspector) to b
 
 3. Once you complete the **New field - file** dialog box and click **OK**, a new **File upload field** is added to your form, with the name you inserted as the **Title** in the dialog box (by default the title is **File 1** unless you change it). 
 
-  In the example of our Inspection Form, the new File upload field (titled **Upload photos**) could look like this when viewed in **Mobile preview** by using the **Preview** option which can be opened by clicking the play button icon ![Preview](/images/preview.png):
+In the example of our Inspection Form, the new File upload field (titled **Upload photos**) added to the form could look like this when a user views it on a mobile phone (to see how your form or field will look on a mobile, view it in **Mobile preview** by using the **Preview** option which can be opened by clicking the play button icon ![Preview](/images/preview.png)):
 
   ![File upload example mobile phone](/images/File_Upload_Example_Mobile.jpg)
 
