@@ -137,10 +137,11 @@
 &lt;/ul>
 &lt;/li>
 &lt;li>
-&lt;p>Once you complete the &lt;strong>New field - file&lt;/strong> dialog box and click &lt;strong>OK&lt;/strong>, a new &lt;strong>File upload field&lt;/strong> is added to your form, with the name you inserted as the &lt;strong>Title&lt;/strong> in the dialog box (by default the title is &lt;strong>File 1&lt;/strong> unless you change it). In the example of our Inspection Form, the new File upload field (titled &lt;strong>Upload photos&lt;/strong>) could look like this when viewed on a mobile phone:&lt;/p>
-&lt;p>&lt;img src="https://docs.kianda.com/images/File_Upload_Example_Mobile.jpg" alt="File upload example mobile phone">&lt;/p>
+&lt;p>Once you complete the &lt;strong>New field - file&lt;/strong> dialog box and click &lt;strong>OK&lt;/strong>, a new &lt;strong>File upload field&lt;/strong> is added to your form, with the name you inserted as the &lt;strong>Title&lt;/strong> in the dialog box (by default the title is &lt;strong>File 1&lt;/strong> unless you change it).&lt;/p>
 &lt;/li>
 &lt;/ol>
+&lt;p>In the example of our Inspection Form, the new File upload field (titled &lt;strong>Upload photos&lt;/strong>) could look like this when viewed in &lt;strong>Mobile preview&lt;/strong> by using the &lt;strong>Preview&lt;/strong> option which can be opened by clicking the play button icon &lt;img src="https://docs.kianda.com/images/preview.png" alt="Preview">:&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/File_Upload_Example_Mobile.jpg" alt="File upload example mobile phone">&lt;/p>
 &lt;h3 id="how-to-edit-move-and-delete-file-upload-fields">How to edit, move and delete File upload fields&lt;/h3>
 &lt;p>To edit a &lt;strong>File upload field&lt;/strong>, select the field (by either clicking on the field title or on the field&amp;rsquo;s &lt;strong>Drag handle&lt;/strong> button &lt;img src="https://docs.kianda.com/images/draghandlewhite_frame.png" alt="Drag handle button">) and then click on the &lt;strong>Edit field&lt;/strong> button (Pen icon) &lt;img src="https://docs.kianda.com/images/penicon.png" alt="Edit field button">.&lt;/p>
 &lt;p>&lt;img src="https://docs.kianda.com/images/File_Upload_Edit.jpg" alt="Select file upload file to edit">&lt;/p>
