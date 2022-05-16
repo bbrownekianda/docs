@@ -56,9 +56,11 @@ For example, in an Inspection process, you may want the user (an inspector) to b
 
    
 
-3. Once you complete the **New field - file** dialog box and click **OK**, a new **File upload field** is added to your form, with the name you inserted as the **Title** in the dialog box (by default the title is **File 1** unless you change it). In the example of our Inspection Form, the new File upload field (titled **Upload photos**) could look like this when viewed on a mobile phone:
+3. Once you complete the **New field - file** dialog box and click **OK**, a new **File upload field** is added to your form, with the name you inserted as the **Title** in the dialog box (by default the title is **File 1** unless you change it). 
 
-	![File upload example mobile phone](/images/File_Upload_Example_Mobile.jpg)
+  In the example of our Inspection Form, the new File upload field (titled **Upload photos**) could look like this when viewed in **Mobile preview** by using the **Preview** option which can be opened by clicking the play button icon ![Preview](/images/preview.png):
+
+  ![File upload example mobile phone](/images/File_Upload_Example_Mobile.jpg)
 
 ### How to edit, move and delete File upload fields
 
