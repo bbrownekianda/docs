@@ -11,11 +11,11 @@ For example, in an Inspection process, you may want the user (an inspector) to b
 
 1. To add a **File upload field** to a form, first open the relevant process. Then select the form within that process that you want to add the field to (so that the **Edit Form** button ![Edit form button](/images/penicon.png) is visible). 
 
-2. Insert the **File upload field** by clicking on **Controls** in the left-hand pane to expand the Controls menu, then select **Input** to view the range of Input controls and click on **File**. A **New field - file** dialog box will open with a range of options you can choose from for your new File upload field.
+2. Insert the **File upload field** by clicking on **Controls** in the left-hand pane to expand the Controls menu, then select **Input** to view the range of Input controls and click on **File**. A **New field - File** dialog box will open with a range of options you can choose from for your new File upload field.
 
    ![Edit file upload field dialog box](/images/New_File_Field_dialog_box.jpg)
 
-   The options available in the **New field - file** dialog box include:
+   The options available in the **New field - File** dialog box include:
 
    - **Title**: You can change the name of the File upload field from the default '**File 1**'
    - **Help text**: You can insert text to help the form user to complete the File upload field - a question mark ![Help text icon](/images/Help_icon.jpg) icon will appear next to the field title and, if the user clicks on this, they will see the help text you have inserted.
@@ -68,7 +68,7 @@ To edit a **File upload field**, select the field (by either clicking on the fie
 
 ![Select file upload file to edit](/images/File_Upload_Edit.jpg)
 
-The **Edit field - File** dialog box will open, enabling you to choose from the same range of options as appear in the **New field - file** dialog box (as already discussed in [How to get started](/docs/platform/controls/input/file-upload#how-to-get-started)).
+The **Edit field - File** dialog box will open, enabling you to choose from the same range of options as appear in the **New field - File** dialog box (as already discussed in [How to get started](/docs/platform/controls/input/file-upload#how-to-get-started)).
 
 ![Edit date field dialog box](/images/File_Upload_Edit_Field_dialog_box.jpg)
 
