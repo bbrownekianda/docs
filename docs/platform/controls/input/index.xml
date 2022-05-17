@@ -252,7 +252,7 @@
 &lt;li>&lt;a href="https://docs.kianda.com/docs/platform/controls/input/textbox/">Textbox control&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://docs.kianda.com/docs/platform/controls/input/toggle/">Toggle control&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://docs.kianda.com/docs/platform/controls/input/user-picker/">User picker control&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Docs: Table control</title><link>https://docs.kianda.com/docs/platform/controls/input/table/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/controls/input/table/</guid><description/></item><item><title>Docs: Textbox control</title><link>https://docs.kianda.com/docs/platform/controls/input/textbox/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/controls/input/textbox/</guid><description>
+&lt;/ul></description></item><item><title>Docs: Number control</title><link>https://docs.kianda.com/docs/platform/controls/input/number/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/controls/input/number/</guid><description/></item><item><title>Docs: Table control</title><link>https://docs.kianda.com/docs/platform/controls/input/table/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/controls/input/table/</guid><description/></item><item><title>Docs: Textbox control</title><link>https://docs.kianda.com/docs/platform/controls/input/textbox/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/controls/input/textbox/</guid><description>
 &lt;p>The &lt;strong>Text box control&lt;/strong> is used to input text into a form for example a name or address. There are various options available when creating this field, these are explained below.&lt;/p>
 &lt;h2 id="how-to-get-started">How to get started&lt;/h2>
 &lt;p>&lt;strong>How to add a text box to a form - a sample video&lt;/strong>&lt;/p>
@@ -398,4 +398,4 @@
 &lt;p>&lt;img src="https://docs.kianda.com/images/textboxsize.png" alt="Changing text box width">&lt;/p>
 &lt;ul>
 &lt;li>&lt;strong>Rules&lt;/strong> - rules for input fields are covered in &lt;a href="rules/README.md">Rules&lt;/a>.&lt;/li>
-&lt;/ul></description></item><item><title>Docs: Number control</title><link>https://docs.kianda.com/docs/platform/controls/input/number/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/controls/input/number/</guid><description/></item></channel></rss>
+&lt;/ul></description></item></channel></rss>
