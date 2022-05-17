@@ -50,7 +50,7 @@
 &lt;li>&lt;a href="https://docs.kianda.com/docs/platform/controls/layout/">Layout controls&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://docs.kianda.com/docs/platform/controls/actions/">Actions&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://docs.kianda.com/docs/platform/controls/custom/">Custom controls&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Docs: Custom controls</title><link>https://docs.kianda.com/docs/platform/controls/custom/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/controls/custom/</guid><description/></item><item><title>Docs: Input controls</title><link>https://docs.kianda.com/docs/platform/controls/input/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/controls/input/</guid><description>
+&lt;/ul></description></item><item><title>Docs: Input controls</title><link>https://docs.kianda.com/docs/platform/controls/input/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/controls/input/</guid><description>
 &lt;p>&lt;strong>Input fields&lt;/strong> are one category of &lt;a href="../">controls&lt;/a> and include the most common data fields used to obtain user input - for example text boxes, lists and tables.&lt;/p>
 &lt;h2 id="getting-started-with-input-controls">Getting started with Input controls&lt;/h2>
 &lt;p>To start adding Input controls (fields) to your Kianda forms, you first need to either open an existing process or create a new process by going to &lt;strong>Administration&lt;/strong> &amp;gt; &lt;strong>Designer&lt;/strong> in the left side menu. See &lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/">Create First Process&lt;/a> to learn how to create your first process.&lt;/p>
@@ -120,4 +120,4 @@
 &lt;li>
 &lt;p>&lt;strong>Signature&lt;/strong> - applying this field provides a very neat way to electronically sign-off on a form or process, see &lt;a href="signature.md">Signature&lt;/a> for more information.&lt;/p>
 &lt;/li>
-&lt;/ul></description></item></channel></rss>
+&lt;/ul></description></item><item><title>Docs: Custom controls</title><link>https://docs.kianda.com/docs/platform/controls/custom/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/controls/custom/</guid><description/></item></channel></rss>
