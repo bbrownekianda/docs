@@ -1,7 +1,6 @@
 ---
 title: "Actions"
 linkTitle: "Actions"
-weight: 3
 typora-root-url: ..\..\..\..\..\static
 ---
 
