@@ -89,7 +89,7 @@
 &lt;p>&lt;strong>Title&lt;/strong>: You can change the name of the File upload field from the default &amp;lsquo;&lt;strong>File 1&lt;/strong>&amp;rsquo;&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;strong>Help text&lt;/strong>: You can insert text to help the form user to complete the File upload field - a question mark &lt;img src="https://docs.kianda.com/images/Help_icon.jpg" alt="Help text icon"> icon will appear next to the field title and, if the user clicks on this, they will see the help text you have inserted.&lt;/p>
+&lt;p>&lt;strong>Help text&lt;/strong>: You can insert text to help the form user to complete the File upload field - if you add help text, a question mark &lt;img src="https://docs.kianda.com/images/Help_icon.jpg" alt="Help text icon"> icon will appear next to the field title and, if the user clicks on this, they will see the help text you have inserted.&lt;/p>
 &lt;p>&lt;img src="https://docs.kianda.com/images/File_Upload_Help_Text.jpg" alt="File upload help text example">&lt;/p>
 &lt;/li>
 &lt;li>
@@ -137,7 +137,7 @@
 &lt;/ul>
 &lt;/li>
 &lt;li>
-&lt;p>Once you complete the &lt;strong>New field - file&lt;/strong> dialog box and click &lt;strong>OK&lt;/strong>, a new &lt;strong>File upload field&lt;/strong> is added to your form, with the name you inserted as the &lt;strong>Title&lt;/strong> in the dialog box (by default the title is &lt;strong>File 1&lt;/strong> unless you change it).&lt;/p>
+&lt;p>Once you complete the &lt;strong>New field - File&lt;/strong> dialog box and click &lt;strong>OK&lt;/strong>, a new &lt;strong>File upload field&lt;/strong> is added to your form, with the name you inserted as the &lt;strong>Title&lt;/strong> in the dialog box (by default the title is &lt;strong>File 1&lt;/strong> unless you change it).&lt;/p>
 &lt;/li>
 &lt;/ol>
 &lt;p>In the example of our Inspection Form, the new File upload field (titled &lt;strong>Upload photos&lt;/strong>) added to the form could look like this when a user views it on a mobile phone (to see how your form or field will look on a mobile, view it in &lt;strong>Mobile preview&lt;/strong> by using the &lt;strong>Preview&lt;/strong> option which can be opened by clicking the play button icon &lt;img src="https://docs.kianda.com/images/preview.png" alt="Preview">):&lt;/p>
