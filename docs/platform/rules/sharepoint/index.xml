@@ -1,1 +1,126 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kianda no-code platform for business process automation – SharePoint rules</title><link>https://docs.kianda.com/docs/platform/rules/sharepoint/</link><description>Recent content in SharePoint rules on Kianda no-code platform for business process automation</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://docs.kianda.com/docs/platform/rules/sharepoint/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Add a user to a group</title><link>https://docs.kianda.com/docs/platform/rules/sharepoint/add-a-user-to-a-group/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/sharepoint/add-a-user-to-a-group/</guid><description/></item><item><title>Docs: Check in or out an item</title><link>https://docs.kianda.com/docs/platform/rules/sharepoint/check-in-out-an-item/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/sharepoint/check-in-out-an-item/</guid><description/></item><item><title>Docs: Create a group</title><link>https://docs.kianda.com/docs/platform/rules/sharepoint/create-a-group/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/sharepoint/create-a-group/</guid><description/></item><item><title>Docs: Create a list</title><link>https://docs.kianda.com/docs/platform/rules/sharepoint/create-a-list/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/sharepoint/create-a-list/</guid><description/></item><item><title>Docs: Create a site</title><link>https://docs.kianda.com/docs/platform/rules/sharepoint/create-a-site/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/sharepoint/create-a-site/</guid><description/></item><item><title>Docs: Create an anonymous link</title><link>https://docs.kianda.com/docs/platform/rules/sharepoint/create-anonymous-link/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/sharepoint/create-anonymous-link/</guid><description/></item><item><title>Docs: Find a user</title><link>https://docs.kianda.com/docs/platform/rules/sharepoint/find-a-user/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/sharepoint/find-a-user/</guid><description/></item><item><title>Docs: Get List item attachments</title><link>https://docs.kianda.com/docs/platform/rules/sharepoint/get-attachments/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/sharepoint/get-attachments/</guid><description/></item><item><title>Docs: Remove a user from a group</title><link>https://docs.kianda.com/docs/platform/rules/sharepoint/remove-a-user-from-a-group/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/sharepoint/remove-a-user-from-a-group/</guid><description/></item><item><title>Docs: Reset permissions</title><link>https://docs.kianda.com/docs/platform/rules/sharepoint/reset-an-item-permissions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/sharepoint/reset-an-item-permissions/</guid><description/></item></channel></rss>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kianda no-code platform for business process automation – SharePoint rules</title><link>https://docs.kianda.com/docs/platform/rules/sharepoint/</link><description>Recent content in SharePoint rules on Kianda no-code platform for business process automation</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://docs.kianda.com/docs/platform/rules/sharepoint/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Add a user to a group</title><link>https://docs.kianda.com/docs/platform/rules/sharepoint/add-a-user-to-a-group/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/sharepoint/add-a-user-to-a-group/</guid><description>
+&lt;p>This rule allows you to add a user into a SharePoint group from within Kianda.&lt;/p>
+&lt;p>When to use:&lt;/p>
+&lt;p>This rule should be used when a user within Kianda should be added to SharePoint Group, i.e. a new hire being added to a team group during their onboarding&lt;/p>
+&lt;p>You can add this rule:&lt;/p>
+&lt;p>· to a field&lt;/p>
+&lt;p>· to a form&lt;/p>
+&lt;p>· to a process (the rule will run on load)&lt;/p>
+&lt;p>How to use:&lt;/p>
+&lt;p>To add a user to a SharePoint group, the first step is to select the SharePoint data source where the group is located, you will then be presented with two fields “Group title field” &amp;amp; “Username or User ID field”.&lt;/p>
+&lt;p>These two fields will be present within the Kianda form (these can be a username &amp;amp; group name field for example) and are used to confirm the user which is to be added and the group they are to be added to Then utilizing the success mapping you can set values from the Kianda form into the user entry within SharePoint.&lt;/p>
+&lt;p>Once these fields are set you can also set conditions on the rule, further details on conditions can be found here:&lt;/p>
+&lt;p>Finally on success/on error mapping can also be set to populate fields on the form, for further details on success &amp;amp; error mapping please see here:&lt;/p></description></item><item><title>Docs: Check in or out an item</title><link>https://docs.kianda.com/docs/platform/rules/sharepoint/check-in-out-an-item/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/sharepoint/check-in-out-an-item/</guid><description>
+&lt;p>This rule allows you to check in or check out an item within SharePoint from Kianda.&lt;/p>
+&lt;p>When to use:&lt;/p>
+&lt;p>This rule should be used when a user within Kianda wanted to check in or check out an item from SharePoint&lt;/p>
+&lt;p>You can add this rule:&lt;/p>
+&lt;p>· to a field&lt;/p>
+&lt;p>· to a form&lt;/p>
+&lt;p>· to a process (the rule will run on load)&lt;/p>
+&lt;p>How to use:&lt;/p>
+&lt;p>To check in or check out an item the first step is to select the SharePoint data source and the list where the item is present which is needed to be checked in/out.&lt;/p>
+&lt;p>Next the operation should be selected as to whether it is a check in or a check out.&lt;/p>
+&lt;p>You should then also select the itemID field from the Kianda form, which will be used to determine which item is being checked in/out.&lt;/p>
+&lt;p>You can then also select a field which will serve as a check in comment field.&lt;/p>
+&lt;p>Finally on success/on error mapping can also be set to populate fields of the form, for further details on success &amp;amp; error mapping please see here:&lt;/p></description></item><item><title>Docs: Create a group</title><link>https://docs.kianda.com/docs/platform/rules/sharepoint/create-a-group/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/sharepoint/create-a-group/</guid><description>
+&lt;p>This rule allows you to create a SharePoint group from within Kianda.&lt;/p>
+&lt;p>When to use:&lt;/p>
+&lt;p>This rule should be used when within your Kianda process you wish to create a new SharePoint group, i.e. as part of a new project you want to create a group in SharePoint to provide permissions to specific users&lt;/p>
+&lt;p>You can add this rule:&lt;/p>
+&lt;p>· to a field&lt;/p>
+&lt;p>· to a form&lt;/p>
+&lt;p>· to a process (the rule will run on load)&lt;/p>
+&lt;p>How to use:&lt;/p>
+&lt;p>To create a SharePoint group, the first step is to select the SharePoint data source where you want the group to be located, you will then be presented with two fields “Group title field” &amp;amp; “Group Description field”.&lt;/p>
+&lt;p>These two fields will be present within the Kianda form (these can be a group description &amp;amp; group name field for example) and are used to confirm the group details. Then utilizing the success mapping you can set values from the Kianda form into the group details within SharePoint.&lt;/p>
+&lt;p>Once these fields are set you can also set conditions on the rule, further details on conditions can be found here:&lt;/p>
+&lt;p>Finally on success/on error mapping can also be set to populate fields of the form or within the List, for further details on success &amp;amp; error mapping please see here:&lt;/p></description></item><item><title>Docs: Create a list</title><link>https://docs.kianda.com/docs/platform/rules/sharepoint/create-a-list/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/sharepoint/create-a-list/</guid><description>
+&lt;p>This rule allows you to create a SharePoint List from within Kianda.&lt;/p>
+&lt;p>When to use:&lt;/p>
+&lt;p>This rule should be used when within your Kianda process you wish to create a new SharePoint List, i.e. as part of a new project you want to create a list in SharePoint to store information pertaining to that project.&lt;/p>
+&lt;p>You can add this rule:&lt;/p>
+&lt;p>· to a field&lt;/p>
+&lt;p>· to a form&lt;/p>
+&lt;p>· to a process (the rule will run on load)&lt;/p>
+&lt;p>How to use:&lt;/p>
+&lt;p>To create a SharePoint list, the first step is to select the SharePoint data source where you want the list to be located, you will then be presented with six options.&lt;/p>
+&lt;p>The List template allows you to select an existing SharePoint list within the SharePoint data source to emulate the formatting and design of the list.&lt;/p>
+&lt;p>List Name, List URL, and List description field are all derived from the Kianda form. Here you select a Kianda field which will be used as the base for the list you are creating. The name field will be used to create the name of the list, the list URL will be used in the creation of the URL within SharePoint and finally the List description will be used for the SharePoint list description.&lt;/p>
+&lt;p>Once these fields are set you can also set conditions on the rule, further details on conditions can be found here:&lt;/p>
+&lt;p>Finally on success/on error mapping can also be set to populate fields of the form or within the List, for further details on success &amp;amp; error mapping please see here:&lt;/p></description></item><item><title>Docs: Create a site</title><link>https://docs.kianda.com/docs/platform/rules/sharepoint/create-a-site/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/sharepoint/create-a-site/</guid><description>
+&lt;p>This rule allows you to create a SharePoint site from within Kianda.&lt;/p>
+&lt;p>When to use:&lt;/p>
+&lt;p>This rule should be used when within your Kianda process you wish to create a new SharePoint site, i.e. as part of a new project you want to create a site in SharePoint to store information pertaining to that project.&lt;/p>
+&lt;p>You can add this rule:&lt;/p>
+&lt;p>· to a field&lt;/p>
+&lt;p>· to a form&lt;/p>
+&lt;p>· to a process (the rule will run on load)&lt;/p>
+&lt;p>How to use:&lt;/p>
+&lt;p>To create a SharePoint site, the first step is to select the SharePoint data source where you want the site to be located, you will then be presented with six options.&lt;/p>
+&lt;p>The site template allows you to select an existing SharePoint site within the SharePoint data source to emulate the formatting and design of the site.&lt;/p>
+&lt;p>site Name, site URL, and site description field are all derived from the Kianda form. Here you select a Kianda field which will be used as the base for the site you are creating. The name field will be used to create the name of the site, the site URL will be used in the creation of the URL within SharePoint and then the site description will be used for the SharePoint site description. Additionally, you can enable “Inherit parent permissions” which will allow you to new site to inherit parent permissions for the SharePoint location&lt;/p>
+&lt;p>Once these fields are set you can also set conditions on the rule, further details on conditions can be found here:&lt;/p>
+&lt;p>Finally on success/on error mapping can also be set to populate fields of the form or within the site, for further details on success &amp;amp; error mapping please see here:&lt;/p></description></item><item><title>Docs: Create an anonymous link</title><link>https://docs.kianda.com/docs/platform/rules/sharepoint/create-anonymous-link/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/sharepoint/create-anonymous-link/</guid><description>
+&lt;p>This rule allows you to create an anonymous link for a file within SharePoint from a Kianda form&lt;/p>
+&lt;p>When to use:&lt;/p>
+&lt;p>This rule should be used when a file within SharePoint should be shared with an individual via an anonymous link.&lt;/p>
+&lt;p>You can add this rule:&lt;/p>
+&lt;p>· to a field&lt;/p>
+&lt;p>· to a form&lt;/p>
+&lt;p>· to a process (the rule will run on load)&lt;/p>
+&lt;p>How to use:&lt;/p>
+&lt;p>The first step in configuring this rule is to select the file field where the desired file is set in Kianda.&lt;/p>
+&lt;p>The next step is to set the duration of the link, this is by default 6 hours, this can be extended or reduced as needed.&lt;/p>
+&lt;p>Finally, you choose a field within Kianda to store this anonymous link, which can then be used to access the file.&lt;/p></description></item><item><title>Docs: Find a user</title><link>https://docs.kianda.com/docs/platform/rules/sharepoint/find-a-user/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/sharepoint/find-a-user/</guid><description>
+&lt;p>This rule allows you to find a user from a data source from within Kianda.&lt;/p>
+&lt;p>When to use:&lt;/p>
+&lt;p>This rule should be used you wish to pull user data into a Kianda form, i.e. when someone wants to bring in employee information.&lt;/p>
+&lt;p>You can add this rule:&lt;/p>
+&lt;p>· to a field&lt;/p>
+&lt;p>· to a form&lt;/p>
+&lt;p>· to a process (the rule will run on load)&lt;/p>
+&lt;p>How to use:&lt;/p>
+&lt;p>To find a user, the first step is to select the data source where the user is located. You will then be presented with two options. First is a radio button to select what search criteria you are using to find the user, i.e. display name, email, or ID. Next the search term field is used to select the Kianda form field which will be used to lookup the user details from the data source.&lt;/p>
+&lt;p>Finally on success/on error mapping can be set to populate fields on the form based on the user information, for further details on success &amp;amp; error mapping please see here:&lt;/p></description></item><item><title>Docs: Get List item attachments</title><link>https://docs.kianda.com/docs/platform/rules/sharepoint/get-attachments/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/sharepoint/get-attachments/</guid><description>
+&lt;p>This rule allows you to retrieve an attachment from a SharePoint list and become available within Kianda&lt;/p>
+&lt;p>When to use:&lt;/p>
+&lt;p>This rule should be used when an attachment is to be pulled from SharePoint and displayed within a Kianda process.&lt;/p>
+&lt;p>You can add this rule:&lt;/p>
+&lt;p>· to a field&lt;/p>
+&lt;p>· to a form&lt;/p>
+&lt;p>· to a process (the rule will run on load)&lt;/p>
+&lt;p>How to use:&lt;/p>
+&lt;p>To retrieve an attachment from SharePoint, the first step is to select the SharePoint data source where the file is located, you will then select the file field within Kianda where the file should be available.&lt;/p>
+&lt;p>Once the setup is complete, you can set a condition on the rule to determine which file is pulled from SharePoint. The simplest way of doing this is to use a condition on the name of the attachment within SharePoint equaling a value that is set on the condition, i.e. “filename.csv”.&lt;/p>
+&lt;p>Further details on conditions can be found here:&lt;/p>
+&lt;p>This can then be run on a button which is manually triggered by a user, or automatically on load of the process. From here the file can be utilized to populate data fields/tables etc. This will be discussed further in other rules.&lt;/p></description></item><item><title>Docs: Remove a user from a group</title><link>https://docs.kianda.com/docs/platform/rules/sharepoint/remove-a-user-from-a-group/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/sharepoint/remove-a-user-from-a-group/</guid><description>
+&lt;p>This rule allows you to remove a user from a SharePoint group from within Kianda.&lt;/p>
+&lt;p>When to use:&lt;/p>
+&lt;p>This rule should be used when a user within Kianda should be removed from a SharePoint Group, i.e. an employee leaving a company and to ensure they are removed from team groups&lt;/p>
+&lt;p>You can add this rule:&lt;/p>
+&lt;p>· to a field&lt;/p>
+&lt;p>· to a form&lt;/p>
+&lt;p>· to a process (the rule will run on load)&lt;/p>
+&lt;p>How to use:&lt;/p>
+&lt;p>To remove a user from a SharePoint group, the first step is to select the SharePoint data source where the group is located, you will then be presented with two fields “Group title field” &amp;amp; “Username or User ID field”.&lt;/p>
+&lt;p>These two fields will be present within the Kianda form (these can be a username &amp;amp; group name field for example) and are used to confirm the user which is to be removed and the group they are to be removed from.&lt;/p>
+&lt;p>Once these fields are set you can also set conditions on the rule, further details on conditions can be found here:&lt;/p>
+&lt;p>Finally on success/on error mapping can also be set to populate fields on the form, for further details on success &amp;amp; error mapping please see here:&lt;/p></description></item><item><title>Docs: Reset permissions</title><link>https://docs.kianda.com/docs/platform/rules/sharepoint/reset-an-item-permissions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/sharepoint/reset-an-item-permissions/</guid><description>
+&lt;p>This rule allows you to reset permissions for a user/group within a SharePoint site/list/item within Kianda.&lt;/p>
+&lt;p>When to use:&lt;/p>
+&lt;p>This rule should be used when you wish to alter permissions within Kianda to reflect within SharePoint.&lt;/p>
+&lt;p>You can add this rule:&lt;/p>
+&lt;p>· to a field&lt;/p>
+&lt;p>· to a form&lt;/p>
+&lt;p>· to a process (the rule will run on load)&lt;/p>
+&lt;p>How to use:&lt;/p>
+&lt;p>To set the permissions for a user/group in SharePoint, the first step is to select the SharePoint data source where the user or group is located, you will then be presented with three options.&lt;/p>
+&lt;p>The item type is used to confirm what level the permissions are to be set, be it at a site level, list level or item level.&lt;/p>
+&lt;p>The site relative URL is used as a reference for where the permissions are to be set. This will be a field within Kianda where you will store the site URL from SharePoint.&lt;/p>
+&lt;p>Next, the existing permissions allows you to either append or override the permissions of the user/group within SharePoint, if it is set to add to existing it will append the permissions and if it is set to replace existing it will override the current permissions and only reflect the new permissions assigned via this rule.&lt;/p>
+&lt;p>The last step is to set the input mapping which is used to determine what level of permissions the user/group will be assigned. The “User or Group ID” will be a field within Kianda which will have the ID for the user or group in SharePoint which is to be updated. The permission level will then detail what permissions will be assigned to the user/group selected in the input mapping.&lt;/p>
+&lt;p>Once these fields are set you can also set conditions on the rule, further details on conditions can be found here:&lt;/p>
+&lt;p>Finally on success/on error mapping can also be set to populate fields of the form or within the site, for further details on success &amp;amp; error mapping please see here:&lt;/p>
+&lt;p>Further details on conditions can be found here:&lt;/p>
+&lt;p>This can then be run on a button which is manually triggered by a user, or automatically on load of the process to update a user’s permissions within SharePoint.&lt;/p></description></item></channel></rss>

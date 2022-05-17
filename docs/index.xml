@@ -1200,7 +1200,19 @@ Your browser does not support the video tag.
 &lt;li>
 &lt;p>Go to &lt;a href="#list.md">List widget&lt;/a> to find out about other sorting and search options.&lt;/p>
 &lt;/li>
-&lt;/ol></description></item><item><title>Docs: Active directory</title><link>https://docs.kianda.com/docs/platform/connectors/active-directory/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/connectors/active-directory/</guid><description/></item><item><title>Docs: Add a user to a group</title><link>https://docs.kianda.com/docs/platform/rules/sharepoint/add-a-user-to-a-group/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/sharepoint/add-a-user-to-a-group/</guid><description/></item><item><title>Docs: Add time to date</title><link>https://docs.kianda.com/docs/platform/rules/dates/add-time-to-date/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/dates/add-time-to-date/</guid><description>
+&lt;/ol></description></item><item><title>Docs: Active directory</title><link>https://docs.kianda.com/docs/platform/connectors/active-directory/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/connectors/active-directory/</guid><description/></item><item><title>Docs: Add a user to a group</title><link>https://docs.kianda.com/docs/platform/rules/sharepoint/add-a-user-to-a-group/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/sharepoint/add-a-user-to-a-group/</guid><description>
+&lt;p>This rule allows you to add a user into a SharePoint group from within Kianda.&lt;/p>
+&lt;p>When to use:&lt;/p>
+&lt;p>This rule should be used when a user within Kianda should be added to SharePoint Group, i.e. a new hire being added to a team group during their onboarding&lt;/p>
+&lt;p>You can add this rule:&lt;/p>
+&lt;p>· to a field&lt;/p>
+&lt;p>· to a form&lt;/p>
+&lt;p>· to a process (the rule will run on load)&lt;/p>
+&lt;p>How to use:&lt;/p>
+&lt;p>To add a user to a SharePoint group, the first step is to select the SharePoint data source where the group is located, you will then be presented with two fields “Group title field” &amp;amp; “Username or User ID field”.&lt;/p>
+&lt;p>These two fields will be present within the Kianda form (these can be a username &amp;amp; group name field for example) and are used to confirm the user which is to be added and the group they are to be added to Then utilizing the success mapping you can set values from the Kianda form into the user entry within SharePoint.&lt;/p>
+&lt;p>Once these fields are set you can also set conditions on the rule, further details on conditions can be found here:&lt;/p>
+&lt;p>Finally on success/on error mapping can also be set to populate fields on the form, for further details on success &amp;amp; error mapping please see here:&lt;/p></description></item><item><title>Docs: Add time to date</title><link>https://docs.kianda.com/docs/platform/rules/dates/add-time-to-date/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/dates/add-time-to-date/</guid><description>
 &lt;pre>&lt;code> A screenshots back-up the intro
 &lt;/code>&lt;/pre>
 &lt;h6 id="when-to-use">When to use&lt;/h6>
