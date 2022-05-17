@@ -1,6 +1,5 @@
 ---
 title: "Control properties"
-linkTitle: "Control properties"
 weight: 1
 typora-root-url: ..\..\..\..\static
 ---

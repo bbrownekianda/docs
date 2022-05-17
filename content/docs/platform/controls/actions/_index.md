@@ -1,6 +1,9 @@
 ---
 title: "Actions"
+<<<<<<< HEAD
 linkTitle: "Actions"
+=======
+>>>>>>> parent of 6fb3ee32 (Inserted (where needed) code at top of pages (title, linkTitle, weight, typora-root-url).)
 typora-root-url: ..\..\..\..\..\static
 ---
 

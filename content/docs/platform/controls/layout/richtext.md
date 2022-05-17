@@ -1,7 +1,5 @@
 ---
 title: "Richtext control"
-linkTitle: "Richtext controls"
-weight: 4
 typora-root-url: ..\..\..\..\..\static
 ---
 

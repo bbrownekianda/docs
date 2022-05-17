@@ -1,7 +1,5 @@
 ---
 title: "Signature control"
-linkTitle: "Signature control"
-weight: 5
 typora-root-url: ..\..\..\..\..\static
 ---
 

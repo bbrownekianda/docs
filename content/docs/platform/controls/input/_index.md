@@ -1,6 +1,5 @@
 ---
 title: "Input controls"
-linkTitle: "Input controls"
 weight: 1
 typora-root-url: ..\..\..\..\..\static
 ---

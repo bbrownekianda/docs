@@ -1,7 +1,5 @@
 ---
 title: "User picker control"
-linkTitle: "User picker control"
-weight: 8
 typora-root-url: ..\..\..\..\..\static
 ---
 

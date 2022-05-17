@@ -1,7 +1,5 @@
 ---
 title: "List control"
-linkTitle: "List control"
-weight: 3
 typora-root-url: ..\..\..\..\..\static
 ---
 
