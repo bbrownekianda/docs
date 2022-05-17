@@ -5,7 +5,7 @@
 Your browser does not support the video tag.
 &lt;/source>
 &lt;/video>
-&lt;p>Back to &lt;a href="../">How to Videos&lt;/a>&lt;/p></description></item><item><title>Docs: Application design principles</title><link>https://docs.kianda.com/docs/low-code/application-design/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/low-code/application-design/</guid><description/></item><item><title>Docs: Control properties</title><link>https://docs.kianda.com/docs/platform/controls/properties/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/controls/properties/</guid><description>
+&lt;p>Back to &lt;a href="../">How to Videos&lt;/a>&lt;/p></description></item><item><title>Docs: Application design principles</title><link>https://docs.kianda.com/docs/low-code/application-design/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/low-code/application-design/</guid><description/></item><item><title>Docs: Button control</title><link>https://docs.kianda.com/docs/platform/controls/actions/button/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/controls/actions/button/</guid><description/></item><item><title>Docs: Control properties</title><link>https://docs.kianda.com/docs/platform/controls/properties/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/controls/properties/</guid><description>
 &lt;p>Each process, form and control (field) will have the properties associated with it displayed in the right-hand pane of the &lt;a href="https://docs.kianda.com/docs/platform/application-designer/designer/">Designer&lt;/a> view.&lt;/p>
 &lt;h2 id="process-properties">Process properties&lt;/h2>
 &lt;p>When you go to &lt;strong>Administration&lt;/strong> &amp;gt; &lt;strong>Designer&lt;/strong> and then click on a process, you will see the &lt;strong>Process properties&lt;/strong> for that process in the right-hand pane.&lt;/p>
@@ -88,6 +88,139 @@ Your browser does not support the video tag.
 &lt;li>&lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/design-and-build/add-forms/">&lt;strong>Add forms&lt;/strong>&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/design-and-build/add-forms/designer/">&lt;strong>Designer&lt;/strong>&lt;/a>&lt;/li>
 &lt;li>&lt;strong>&lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/design-and-build/add-controls-and-rules/">Add controls and rules&lt;/a>&lt;/strong>&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Date control</title><link>https://docs.kianda.com/docs/platform/controls/input/date/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/controls/input/date/</guid><description>
+&lt;p>&lt;strong>Date controls&lt;/strong> or &lt;strong>Date fields&lt;/strong> can be inserted in a form when you want a user to be able to input a date and time by using a date and time picker. For example, in a Training Request form, you may want the user to select the date and time of the training course they want to attend.&lt;/p>
+&lt;h2 id="how-to-get-started">How to get started&lt;/h2>
+&lt;ol>
+&lt;li>
+&lt;p>To add a &lt;strong>Date field&lt;/strong> to a form, first open the relevant process. Then select the form within that process that you want to add the field to (so that the &lt;strong>Edit Form&lt;/strong> button &lt;img src="https://docs.kianda.com/images/penicon.png" alt="Edit form button"> is visible).&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Insert the &lt;strong>Date field&lt;/strong> by clicking on &lt;strong>Controls&lt;/strong> in the left-hand pane to expand the Controls menu, then select &lt;strong>Input&lt;/strong> to view the range of Input controls and click on &lt;strong>Date&lt;/strong>. A date field will be added to your form with the default title of &amp;lsquo;&lt;strong>Date 1&lt;/strong>&amp;rsquo; and a pop-up message will say &amp;lsquo;Field added&amp;rsquo;.&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/Date_Field_Added.jpg" alt="List inside and outside a panel">&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>The Date field has a small calendar icon on the right hand side - when the user clicks on this icon a calendar is displayed, allowing them to select a date.&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/Date_Field_Expanded.jpg" alt="List inside and outside a panel">&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h3 id="how-to-edit-move-and-delete-date-fields">How to edit, move and delete Date fields&lt;/h3>
+&lt;p>To edit a &lt;strong>Date field&lt;/strong>, select the field (by either clicking on the field title or on the field&amp;rsquo;s &lt;strong>Drag handle&lt;/strong> button &lt;img src="https://docs.kianda.com/images/draghandlewhite_frame.png" alt="Drag handle button">) and then click on the &lt;strong>Edit field&lt;/strong> button (Pen icon) &lt;img src="https://docs.kianda.com/images/penicon.png" alt="Edit field button">.&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/Select_Date_field_to_edit.jpg" alt="Select date field to edit">&lt;/p>
+&lt;p>The &lt;strong>Edit field&lt;/strong> dialog box will open, enabling you to choose from a range of options.&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/Edit_Date_Field_dialog_box.jpg" alt="Edit date field dialog box">&lt;/p>
+&lt;p>The options within the &lt;strong>Edit date field dialog box&lt;/strong> include:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>Title&lt;/strong> - you can change the title of the date field&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Help text&lt;/strong> - you can insert help text a user can view when completing the date field&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Display format&lt;/strong> - you can choose whether the date field shows the date only or the date and time&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Adjust to user timezone&lt;/strong> - you can select this if you want the date field to adjust to the time zone of the form user&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Set default date onload&lt;/strong> - if you choose &amp;lsquo;Yes&amp;rsquo;, this means that a value will automatically be put in the date field (like a date stamp) when a user fills out the form and two additional options will appear in the dialog box:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;ol>
+&lt;li>&lt;strong>Default date&lt;/strong> - the option to choose the default date that will be automatically inserted in the form. You can choose from &amp;lsquo;&lt;strong>Now&lt;/strong>&amp;rsquo;, &amp;lsquo;&lt;strong>Today&lt;/strong>&amp;rsquo; (which inserts today&amp;rsquo;s date and a time of 00:00 midnight) or &amp;lsquo;&lt;strong>Relative from now&amp;rsquo;&lt;/strong> (you can insert the date you want to use, in terms of the number of days, hours and minutes from now.&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>
+&lt;ol start="2">
+&lt;li>&lt;strong>Always set date even if not empty&lt;/strong> - the option to have the default date you choose inserted in the date field, even if the field is not empty.&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Enable native picker on mobile&lt;/strong> - you can choose to allow users who are completing the date field on a mobile phone to use the default pop-up date picker associated with their mobile phone&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>To move a &lt;strong>Date field&lt;/strong>, simply select the field&amp;rsquo;s &lt;strong>Drag handle&lt;/strong> button &lt;img src="https://docs.kianda.com/images/draghandlewhite_frame.png" alt="Drag handle button"> and drag and drop the field wherever you want to move it to within your form.&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/Move_Date_Field_Drag_Handle.jpg" alt="Date field drag handle">&lt;/p>
+&lt;p>To delete a &lt;strong>Date field&lt;/strong> from your form, simply select the field (by either clicking on the field&amp;rsquo;s name or its &lt;strong>Drag handle&lt;/strong> button &lt;img src="https://docs.kianda.com/images/draghandlewhite_frame.png" alt="Drag handle button">), click on the &lt;strong>Bin/Trash&lt;/strong> button &lt;img src="https://docs.kianda.com/images/binicon.png" alt="Bin icon"> and then click on &lt;strong>OK&lt;/strong> to confirm.&lt;/p>
+&lt;h3 id="how-to-edit-date-field-properties">How to edit Date field properties&lt;/h3>
+&lt;p>To view or edit the field properties associated with a &lt;strong>Date field&lt;/strong>, select the field (by clicking on the field title or field drag handle button &lt;img src="https://docs.kianda.com/images/draghandlewhite_frame.png" alt="Drag handle button">) - the &lt;strong>Field properties&lt;/strong> menu will appear in the right-hand pane.&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/Date_Field_Properties_new.jpg" alt="Field properties">&lt;/p>
+&lt;p>In the example shown here, a &lt;strong>Date field&lt;/strong> titled &lt;strong>Date&lt;/strong> has been selected in a form called &amp;lsquo;Expense Report&amp;rsquo; and the Field properties associated with this field include its Title, that its title will be shown in the form (the &amp;lsquo;Show title&amp;rsquo; checkbox is ticked), that this will not be a field users are required to complete (the &amp;lsquo;Required&amp;rsquo; checkbox is not selected), that this field will be enabled for users to complete (the &amp;lsquo;Enabled&amp;rsquo; checkbox is ticked), and that this field will be visible to form users (the &amp;lsquo;Visible&amp;rsquo; checkbox is ticked).&lt;/p>
+&lt;p>To learn more about the different options within the Field properties menu, go to &lt;a href="https://docs.kianda.com/docs/platform/controls/properties#field-properties">Field Properties&lt;/a>.&lt;/p>
+&lt;h3 id="saving-changes-and-version-history">Saving changes and version history&lt;/h3>
+&lt;p>Make sure to save any changes you make by clicking on the &lt;strong>Save&lt;/strong> button &lt;img src="https://docs.kianda.com/images/saveprocess.png" alt="Save">. You will always have the option to revert back to previous versions of your form by clicking the &lt;strong>Design Version History&lt;/strong> &lt;img src="https://docs.kianda.com/images/version8.png" alt="Version button"> button in the top right corner.&lt;/p>
+&lt;h3 id="whats-next--idea-iconimages18png">What&amp;rsquo;s next &lt;img src="https://docs.kianda.com/images/18.png" alt="Idea icon">&lt;/h3>
+&lt;p>Now that you&amp;rsquo;ve learned about &lt;strong>Date controls&lt;/strong>, find out more about the other types of &lt;strong>Input fields&lt;/strong> you can add to a Kianda process:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://docs.kianda.com/docs/platform/controls/input/file-upload/">File upload control&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.kianda.com/docs/platform/controls/input/list/">List control&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.kianda.com/docs/platform/controls/input/number/">Number control&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.kianda.com/docs/platform/controls/input/table/">Table control&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.kianda.com/docs/platform/controls/input/textbox/">Textbox control&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.kianda.com/docs/platform/controls/input/toggle/">Toggle control&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.kianda.com/docs/platform/controls/input/user-picker/">User picker control&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Field group control</title><link>https://docs.kianda.com/docs/platform/controls/layout/field-group/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/controls/layout/field-group/</guid><description>
+&lt;p>Using &lt;strong>field group&lt;/strong> is a convenient way to mirror a group of fields that are already created in a form, and reference those fields in your new form.&lt;/p>
+&lt;h2 id="how-to-get-started">How to get started&lt;/h2>
+&lt;ol>
+&lt;li>
+&lt;p>To use field group, click on &lt;strong>Controls&lt;/strong> &amp;gt; &lt;strong>Layout&lt;/strong> &amp;gt; &lt;strong>Field group&lt;/strong>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Choose from the edit options:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>Title&lt;/strong> - of the field group&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Name&lt;/strong> - this is a unique name for the field&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Help text&lt;/strong> - information to help the form user&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Select fields to group or mirror&lt;/strong> - choose one or more fields to group or mirror by clicking on the field and then expanding the list of forms and fields within that process. Click on as many fields as you need to group.&lt;/p>
+&lt;img src="https://docs.kianda.com/images/groupfields.png" alt="Selecting fields to group" style="zoom:70%;" />
+&lt;/li>
+&lt;/ul>
+&lt;p>Note that selected fields grouped under the current field group are not copied only referenced.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>What is Grouped fields? TO COME BACK TO.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Click on the &lt;strong>OK&lt;/strong> button &lt;img src="https://docs.kianda.com/images/ok.png" alt="OK button"> when you are finished editing the field to save your changes or click on &lt;strong>Close&lt;/strong> to exit the dialog box without saving.&lt;/p>
+&lt;p>Noted that the saved group is now available to move and edit as a group within the form.&lt;/p>
+&lt;img src="https://docs.kianda.com/images/group.png" alt="Group" style="zoom:67%;" />
+&lt;/li>
+&lt;li>
+&lt;p>To move the group, click on the &lt;strong>Drag handle&lt;/strong> &lt;img src="https://docs.kianda.com/images/move.png" alt="Move button"> and drag the group to where you want it to appear on the form.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>To save your changes, click on the &lt;strong>Save&lt;/strong> button &lt;img src="https://docs.kianda.com/images/saveprocess.png" alt="Save button">.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>To delete the group, click on the group itself and then click on the &lt;strong>Bin/Trash&lt;/strong> button &lt;img src="https://docs.kianda.com/images/binicon.png" alt="Bin or Trash icon"> and then click on &lt;strong>Ok&lt;/strong> after you have reviewed the field name and are sure this is what you want to delete. Click on &lt;strong>Cancel&lt;/strong> if you wish to cancel the deletion.&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h2 id="how-to-edit-group-properties">How to edit group properties&lt;/h2>
+&lt;p>To change the group properties, click on the group itself and the properties pane appears on the right.&lt;/p>
+&lt;img src="https://docs.kianda.com/images/groupproperties.png" alt="Group properties" style="zoom:67%;" />
+&lt;p>The &lt;strong>Field type&lt;/strong>, Field group, is shown along with the &lt;strong>Title&lt;/strong> of the field, in the example above Training Details.&lt;/p>
+&lt;p>The options within properties are as follows, check the checkbox to implement:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Show Title&lt;/strong> - show the title of the panel&lt;/li>
+&lt;li>&lt;strong>Required&lt;/strong> - make this field mandatory for users to fill out&lt;/li>
+&lt;li>&lt;strong>Enabled&lt;/strong> - the field is enabled for users to fill out&lt;/li>
+&lt;li>&lt;strong>Visible&lt;/strong> - the field is visible to users&lt;/li>
+&lt;li>&lt;strong>Layout&lt;/strong> - change the width of the field by clicking on the Layout box until you see the desired size. Click on the arrow beside Layout to see the Mobile Layout and click on box to change the width of the panel for mobile use.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://docs.kianda.com/images/textboxsize.png" alt="Changing text box width">&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Rules&lt;/strong> - rules for fields are covered in &lt;a href="rules/README.md">Rules&lt;/a>.&lt;/li>
 &lt;/ul></description></item><item><title>Docs: How does Kianda work</title><link>https://docs.kianda.com/docs/getting-started/welcome/how-kianda-works/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/getting-started/welcome/how-kianda-works/</guid><description>
 &lt;p>The Kianda no-code / low-code (NCLC) platform has been created with the ultimate flexibility and agility in mind, allowing simple user interactions to build complex processes.&lt;/p>
 &lt;p>Kianda has been constructed using an &lt;strong>Model, View, Controller (MVC) approach&lt;/strong>. This approach allows designers to build mobile-responsive applications via &lt;strong>rapid User Interface (UI) prototyping&lt;/strong>. The UI provides an easy way to build an application by clicking, scrolling, and dragging and dropping fields. The layout both provides a way to build the application or process schema, and to capture and monitor data at run-time.&lt;/p>
@@ -123,13 +256,109 @@ Your browser does not support the video tag.
 &lt;p>&lt;img src="https://docs.kianda.com/images/two.png" alt="2"> &lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/design-and-build/">&lt;strong>Design and build your process&lt;/strong>&lt;/a>&lt;/p>
 &lt;p>&lt;img src="https://docs.kianda.com/images/three.png" alt="3"> &lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/publish-your-process/">&lt;strong>Publish your process&lt;/strong>&lt;/a>&lt;/p></description></item><item><title>Docs: Rule conditions</title><link>https://docs.kianda.com/docs/platform/rules/general/add-conditions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/general/add-conditions/</guid><description/></item><item><title>Docs: Word document add-in</title><link>https://docs.kianda.com/docs/platform/document-generation/word-document-add-in/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/document-generation/word-document-add-in/</guid><description/></item><item><title>Docs: Workspace security</title><link>https://docs.kianda.com/docs/security/workspace-security/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/security/workspace-security/</guid><description/></item><item><title>Docs: Connecting to SharePoint lists and Libraries</title><link>https://docs.kianda.com/docs/how-to/connect-to-sharepoint/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/how-to/connect-to-sharepoint/</guid><description>
 &lt;p>This video demonstrates how to connect to a datasource in SharePoint and use that information in a form list.&lt;/p>
-&lt;div style="padding:50.94% 0 0 0;position:relative;">&lt;iframe src="https://player.vimeo.com/video/677724364?h=cdfc835f25&amp;amp;badge=0&amp;amp;autopause=0&amp;amp;player_id=0&amp;amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Connecting to SharePoint example">&lt;/iframe>&lt;/div>&lt;script src="https://player.vimeo.com/api/player.js">&lt;/script></description></item><item><title>Docs: Excel workbook add-in</title><link>https://docs.kianda.com/docs/platform/document-generation/excel-workbook-add-in/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/document-generation/excel-workbook-add-in/</guid><description/></item><item><title>Docs: Field level security</title><link>https://docs.kianda.com/docs/security/form-and-field-security/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/security/form-and-field-security/</guid><description/></item><item><title>Docs: How to create cascading dropdown lists</title><link>https://docs.kianda.com/docs/how-to/create-cascading-dropdown-lists/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/how-to/create-cascading-dropdown-lists/</guid><description>
+&lt;div style="padding:50.94% 0 0 0;position:relative;">&lt;iframe src="https://player.vimeo.com/video/677724364?h=cdfc835f25&amp;amp;badge=0&amp;amp;autopause=0&amp;amp;player_id=0&amp;amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Connecting to SharePoint example">&lt;/iframe>&lt;/div>&lt;script src="https://player.vimeo.com/api/player.js">&lt;/script></description></item><item><title>Docs: Excel workbook add-in</title><link>https://docs.kianda.com/docs/platform/document-generation/excel-workbook-add-in/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/document-generation/excel-workbook-add-in/</guid><description/></item><item><title>Docs: Field level security</title><link>https://docs.kianda.com/docs/security/form-and-field-security/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/security/form-and-field-security/</guid><description/></item><item><title>Docs: File upload control</title><link>https://docs.kianda.com/docs/platform/controls/input/file-upload/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/controls/input/file-upload/</guid><description>
+&lt;p>&lt;strong>File upload controls&lt;/strong> (fields) can be inserted in a form if you want form users to be able to upload a file or files. File upload fields can also be useful if you want a file to be generated from the information entered in a form or if you want a file to be sent as part of your process - see &lt;a href="https://docs.kianda.com/docs/platform/rules/">Rules&lt;/a> for more information.&lt;/p>
+&lt;p>For example, in an Inspection process, you may want the user (an inspector) to be able to upload the details of their inspection as a PDF file or photos as they complete an Inspection Form; or you may want the Kianda system to generate a report based on the information in the Inspection Form and to email this as a PDF file to a supervisor.&lt;/p>
+&lt;h2 id="how-to-get-started">How to get started&lt;/h2>
+&lt;ol>
+&lt;li>
+&lt;p>To add a &lt;strong>File upload field&lt;/strong> to a form, first open the relevant process. Then select the form within that process that you want to add the field to (so that the &lt;strong>Edit Form&lt;/strong> button &lt;img src="https://docs.kianda.com/images/penicon.png" alt="Edit form button"> is visible).&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Insert the &lt;strong>File upload field&lt;/strong> by clicking on &lt;strong>Controls&lt;/strong> in the left-hand pane to expand the Controls menu, then select &lt;strong>Input&lt;/strong> to view the range of Input controls and click on &lt;strong>File&lt;/strong>. A &lt;strong>New field - File&lt;/strong> dialog box will open with a range of options you can choose from for your new File upload field.&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/New_File_Field_dialog_box.jpg" alt="Edit file upload field dialog box">&lt;/p>
+&lt;p>The options available in the &lt;strong>New field - File&lt;/strong> dialog box include:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>Title&lt;/strong>: You can change the name of the File upload field from the default &amp;lsquo;&lt;strong>File 1&lt;/strong>&amp;rsquo;&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Help text&lt;/strong>: You can insert text to help the form user to complete the File upload field - if you add help text, a question mark &lt;img src="https://docs.kianda.com/images/Help_icon.jpg" alt="Help text icon"> icon will appear next to the field title and, if the user clicks on this, they will see the help text you have inserted.&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/File_Upload_Help_Text.jpg" alt="File upload help text example">&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Save location&lt;/strong>: This is the location the file will be saved to. When you click on the &lt;strong>Destination&lt;/strong> button, a &lt;strong>Select datasource&lt;/strong> dialog box opens in which you can choose where you want the file(s) to be saved to:&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/File_Upload_Select_Datasource.jpg" alt="Select datasource dialog box">&lt;/p>
+&lt;p>You can choose to save the file or files to Kianda or to another external data source.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Open file behaviour&lt;/strong>: You can choose whether the file is downloaded or opens in an internet browser.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Allow file override&lt;/strong>: You can choose whether or not to allow file override.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Allow remove file&lt;/strong>: If you select &lt;strong>Yes&lt;/strong>, another option appears - &lt;strong>Remove and delete file&lt;/strong>: if you choose &lt;strong>Yes&lt;/strong>, when the file is removed, it will also be deleted from the location where it was stored; if you choose &lt;strong>No&lt;/strong>, then only the reference to the file is removed from the form.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Allow uploading multiple files&lt;/strong>: Choose &lt;strong>No&lt;/strong> to only allow the user to upload one file or choose &lt;strong>Yes&lt;/strong> to allow the user to upload multiple files.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>File name options&lt;/strong>: Choose whether to keep the original file name, to have the file name auto generated by the system, or to be based on a form field. If you choose &lt;strong>From form field&lt;/strong>, another option appears - &lt;strong>File name field&lt;/strong> - and you click in the blank field to choose the file name field you want the file name to be:&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/File_Name_Field.jpg" alt="File name field">&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>File extension&lt;/strong>: You can set/limit the type of file(s) that can be uploaded by inserting a specific file type. For example, if you insert &lt;strong>.pdf&lt;/strong> in the File extension box, when the user browses for the file to attach, the file type will automatically be set to .pdf. If you want to allow any type of file to be attached, leave this option blank.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Enable media capture&lt;/strong>: If you choose &lt;strong>Yes&lt;/strong>, this enables the user to capture media to upload - on a mobile device, when the user clicks on the Upload button their camera/video recorder will open (depending on whether you&amp;rsquo;ve selected the file extension to be image or video).&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Button text&lt;/strong>: By default, the File upload icon has the text &lt;strong>Browse&lt;/strong>, but you can change this here.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Button icon&lt;/strong>: By default, the file upload icon is &lt;img src="https://docs.kianda.com/images/File_Upload_Icon.jpg" alt="File upload icon"> but you can change this by clicking the Button icon drop-down menu and choosing a different icon from the large range of icons available.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Enable background upload&lt;/strong>: Select this checkbox to enable files to be uploaded using a background operation.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Enable chunked upload&lt;/strong>: Select this checkbox to upload files using resumable chunks. This option can be useful if the file size is likely to be large or the network speed is likely to be slow.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Show uploaded files count&lt;/strong>: Select &lt;strong>Yes&lt;/strong> to show the number of uploaded files.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Once you complete the &lt;strong>New field - File&lt;/strong> dialog box and click &lt;strong>OK&lt;/strong>, a new &lt;strong>File upload field&lt;/strong> is added to your form, with the name you inserted as the &lt;strong>Title&lt;/strong> in the dialog box (by default the title is &lt;strong>File 1&lt;/strong> unless you change it).&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;p>In the example of our Inspection Form, the new File upload field (titled &lt;strong>Upload photos&lt;/strong>) added to the form could look like this when a user views it on a mobile phone (to see how your form or field will look on a mobile, view it in &lt;strong>Mobile preview&lt;/strong> by using the &lt;strong>Preview&lt;/strong> option which can be opened by clicking the play button icon &lt;img src="https://docs.kianda.com/images/preview.png" alt="Preview">):&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/File_Upload_Example_Mobile.jpg" alt="File upload example mobile phone">&lt;/p>
+&lt;h3 id="how-to-edit-move-and-delete-file-upload-fields">How to edit, move and delete File upload fields&lt;/h3>
+&lt;p>To edit a &lt;strong>File upload field&lt;/strong>, select the field (by either clicking on the field title or on the field&amp;rsquo;s &lt;strong>Drag handle&lt;/strong> button &lt;img src="https://docs.kianda.com/images/draghandlewhite_frame.png" alt="Drag handle button">) and then click on the &lt;strong>Edit field&lt;/strong> button (Pen icon) &lt;img src="https://docs.kianda.com/images/penicon.png" alt="Edit field button">.&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/File_Upload_Edit.jpg" alt="Select file upload file to edit">&lt;/p>
+&lt;p>The &lt;strong>Edit field - File&lt;/strong> dialog box will open, enabling you to choose from the same range of options as appear in the &lt;strong>New field - File&lt;/strong> dialog box (as already discussed in &lt;a href="https://docs.kianda.com/docs/platform/controls/input/file-upload#how-to-get-started">How to get started&lt;/a>).&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/File_Upload_Edit_Field_dialog_box.jpg" alt="Edit date field dialog box">&lt;/p>
+&lt;p>You can make any changes you wish in this dialog box and then click &lt;strong>OK&lt;/strong> to confirm.&lt;/p>
+&lt;p>To move a &lt;strong>File upload field&lt;/strong>, simply select the field&amp;rsquo;s &lt;strong>Drag handle&lt;/strong> button &lt;img src="https://docs.kianda.com/images/draghandlewhite_frame.png" alt="Drag handle button"> and drag and drop the field wherever you want to move it to within your form.&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/Upload_File_Move_draghandle.jpg" alt="Date field drag handle">&lt;/p>
+&lt;p>To delete a &lt;strong>File upload field&lt;/strong> from your form, simply select the field (by either clicking on the field&amp;rsquo;s name or its &lt;strong>Drag handle&lt;/strong> button &lt;img src="https://docs.kianda.com/images/draghandlewhite_frame.png" alt="Drag handle button">), click on the &lt;strong>Bin/Trash&lt;/strong> button &lt;img src="https://docs.kianda.com/images/binicon.png" alt="Bin icon"> and then click on &lt;strong>OK&lt;/strong> to confirm.&lt;/p>
+&lt;h3 id="how-to-edit-file-upload-field-properties">How to edit File upload field properties&lt;/h3>
+&lt;p>To view or edit the field properties associated with a &lt;strong>File upload field&lt;/strong>, select the field (by clicking on the field title or field drag handle button &lt;img src="https://docs.kianda.com/images/draghandlewhite_frame.png" alt="Drag handle button">) - the &lt;strong>Field properties&lt;/strong> menu will appear in the right-hand pane.&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/File_Upload_Field_Properties.jpg" alt="Field properties">&lt;/p>
+&lt;p>In the example shown here, a &lt;strong>File upload field&lt;/strong> titled &lt;strong>Upload Photos&lt;/strong> has been selected in a form called &amp;lsquo;Inspection Form&amp;rsquo; and the Field properties associated with this field include its Title, that its title will be shown in the form (the &amp;lsquo;Show title&amp;rsquo; checkbox is ticked), that this is a mandatory field that users must complete (the &amp;lsquo;Required&amp;rsquo; checkbox is selected and there is a red star next to the field name in the form), that this field will be enabled for users to complete (the &amp;lsquo;Enabled&amp;rsquo; checkbox is ticked), and that this field will be visible to form users (the &amp;lsquo;Visible&amp;rsquo; checkbox is ticked).&lt;/p>
+&lt;p>To learn more about the different options within the Field properties menu, go to &lt;a href="https://docs.kianda.com/docs/platform/controls/properties#field-properties">Field Properties&lt;/a>.&lt;/p>
+&lt;h3 id="saving-changes-and-version-history">Saving changes and version history&lt;/h3>
+&lt;p>Make sure to save any changes you make by clicking on the &lt;strong>Save&lt;/strong> button &lt;img src="https://docs.kianda.com/images/saveprocess.png" alt="Save">. You will always have the option to revert back to previous versions of your form by clicking the &lt;strong>Design Version History&lt;/strong> &lt;img src="https://docs.kianda.com/images/version8.png" alt="Version button"> button in the top right corner.&lt;/p>
+&lt;h3 id="whats-next--idea-iconimages18png">What&amp;rsquo;s next &lt;img src="https://docs.kianda.com/images/18.png" alt="Idea icon">&lt;/h3>
+&lt;p>Now that you&amp;rsquo;ve learned about the &lt;strong>File upload control&lt;/strong>, find out more about the other types of &lt;strong>Input fields&lt;/strong> you can add to a Kianda process:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://docs.kianda.com/docs/platform/controls/input/date/">Date control&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.kianda.com/docs/platform/controls/input/list/">List control&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.kianda.com/docs/platform/controls/input/number/">Number control&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.kianda.com/docs/platform/controls/input/table/">Table control&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.kianda.com/docs/platform/controls/input/textbox/">Textbox control&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.kianda.com/docs/platform/controls/input/toggle/">Toggle control&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.kianda.com/docs/platform/controls/input/user-picker/">User picker control&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Docs: How to create cascading dropdown lists</title><link>https://docs.kianda.com/docs/how-to/create-cascading-dropdown-lists/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/how-to/create-cascading-dropdown-lists/</guid><description>
 &lt;video width="100%" style="width:100%" controls>
 &lt;source src="https://docs.kianda.com/videos/cascadinglists.mp4">
 Your browser does not support the video tag.
 &lt;/source>
 &lt;/video>
-&lt;p>Back to &lt;a href="../">How to videos&lt;/a>&lt;/p></description></item><item><title>Docs: Multiple rules</title><link>https://docs.kianda.com/docs/platform/rules/general/multiple-rules/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/general/multiple-rules/</guid><description/></item><item><title>Docs: Progressive Web Application (PWA)</title><link>https://docs.kianda.com/docs/low-code/pwa/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/low-code/pwa/</guid><description>
+&lt;p>Back to &lt;a href="../">How to videos&lt;/a>&lt;/p></description></item><item><title>Docs: Image control</title><link>https://docs.kianda.com/docs/platform/controls/actions/image/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/controls/actions/image/</guid><description/></item><item><title>Docs: Modal dialog control</title><link>https://docs.kianda.com/docs/platform/controls/layout/dialog/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/controls/layout/dialog/</guid><description/></item><item><title>Docs: Multiple rules</title><link>https://docs.kianda.com/docs/platform/rules/general/multiple-rules/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/general/multiple-rules/</guid><description/></item><item><title>Docs: Progressive Web Application (PWA)</title><link>https://docs.kianda.com/docs/low-code/pwa/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/low-code/pwa/</guid><description>
 &lt;p>Progressive web applications are the next great trend for the mobile web.&lt;/p>
 &lt;p>Kianda is a progressive web application. This means with Kianda you get a digital experience that is native-like while maintaining online web benefits.&lt;/p>
 &lt;blockquote>
@@ -865,7 +1094,156 @@ You should be able to see the ID number as a whole number equal to the instance 
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
-&lt;p>&lt;strong>Note&lt;/strong>: In the case of the last three expressions, you should select a field which contains data. If you give the name of a button field for example, then no data will be returned.&lt;/p></description></item><item><title>Docs: Instance or record level security</title><link>https://docs.kianda.com/docs/security/record-security/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/security/record-security/</guid><description/></item><item><title>Docs: Templating basics</title><link>https://docs.kianda.com/docs/low-code/templating-basics/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/low-code/templating-basics/</guid><description/></item><item><title>Docs: What is Low-Code Development?</title><link>https://docs.kianda.com/docs/getting-started/welcome/low-code/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/getting-started/welcome/low-code/</guid><description>
+&lt;p>&lt;strong>Note&lt;/strong>: In the case of the last three expressions, you should select a field which contains data. If you give the name of a button field for example, then no data will be returned.&lt;/p></description></item><item><title>Docs: Link control</title><link>https://docs.kianda.com/docs/platform/controls/actions/link/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/controls/actions/link/</guid><description/></item><item><title>Docs: List control</title><link>https://docs.kianda.com/docs/platform/controls/input/list/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/controls/input/list/</guid><description>
+&lt;p>&lt;strong>List fields&lt;/strong> (controls) can be manually entered into a form or can be linked to from an external site like SharePoint. There are different display options - from dropdown lists to checklists - as well as other options (like the ability to make a list field mandatory for a user to complete).&lt;/p>
+&lt;p>For example, you could insert a list field in your form that will show a drop-down list of Types of Training that is maintained on SharePoint. The advantage of linking to an external data source like this is that your list will stay up-to-date with any changes made to the list on SharePoint.&lt;/p>
+&lt;h2 id="how-to-get-started">How to get started&lt;/h2>
+&lt;ol>
+&lt;li>
+&lt;p>To add a &lt;strong>List field&lt;/strong> to a form, first open the relevant process. Then select the form within that process that you want to add the field to (so that the &lt;strong>Edit Form&lt;/strong> button &lt;img src="https://docs.kianda.com/images/penicon.png" alt="Edit form button"> is visible). If you want to add the List field to a panel within your form, first select the panel by clicking on it and then add the &lt;strong>List field&lt;/strong>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Insert the new &lt;strong>List field&lt;/strong> by clicking on &lt;strong>Controls&lt;/strong> in the left-hand pane to expand the Controls menu, then select &lt;strong>Input&lt;/strong> to view the range of Input controls and click on &lt;strong>List&lt;/strong>. A &lt;strong>New field - List&lt;/strong> dialog box will open with a range of options you can choose from for your new List field.&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;p>&lt;img src="https://docs.kianda.com/images/List_Field_New_dialog_box.jpg" alt="New list field dialog box">&lt;/p>
+&lt;p>The options available in the &lt;strong>New field - List&lt;/strong> dialog box include:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>Title&lt;/strong> - You can change the name of the List field from the default title &lt;strong>List 1&lt;/strong>. For example, if you are working on a Training Request form, you may want to insert a List field to contain the types of training and may choose to title this &amp;lsquo;Type of Training&amp;rsquo;.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Name&lt;/strong> - This is a unique name for the field.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Help text&lt;/strong> - You can insert text to help the form user to complete the List field. If you add help text, a question mark &lt;img src="https://docs.kianda.com/images/Help_icon.jpg" alt="Help text icon"> icon will appear next to the field title and, if the user clicks on this, they will see the help text you have inserted. In this example, the list field is titled &amp;lsquo;Type of Training&amp;rsquo; and has associated help text:&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/List_Field_Help_Text.jpg" alt="List field help text example">&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>List source&lt;/strong> - You have three main options in terms of the source of the choices that will appear in your List field:&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>​ a) &lt;strong>Entered manually&lt;/strong>
+​ b) &lt;strong>Form data&lt;/strong>
+​ c) &lt;strong>Data source&lt;/strong>&lt;/p>
+&lt;p>​ We will look at each of these three list source options in turn.&lt;/p>
+&lt;p>If you select the &lt;strong>Entered manually&lt;/strong> checkbox, you must then manually type the choices you want to appear in your list into the &lt;strong>List source&lt;/strong> box. Three default choices are shown - simply replace these with the choices you want to appear in your list (keeping the same format of one choice per line). You can insert more than three choices.&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/List_Field_List_Source_Manually.jpg" alt="Manually entered list">&lt;/p>
+&lt;p>If you select the &lt;strong>Form data&lt;/strong> checkbox (so the source of your list options is a form field), then the box under &lt;strong>List source&lt;/strong> will now show the instruction &amp;lsquo;Select a form field&amp;hellip;&amp;rsquo; and two further options will appear below this - &lt;strong>Display field&lt;/strong> and &lt;strong>Value field&lt;/strong>. Click into the &lt;strong>List source&lt;/strong> box and select the form field you wish to use as your &lt;strong>List source&lt;/strong>. Then choose a &lt;strong>Display field&lt;/strong> (the field used to display values) and a &lt;strong>Value field&lt;/strong>.&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/List_Field_List_Source_Form_Data.jpg" alt="List field list source form data">&lt;/p>
+&lt;p>If you select the &lt;strong>Data source&lt;/strong> checkbox (to use an external data source as the source for the choices to appear in your list) a range of new options appears below the &lt;strong>List source&lt;/strong> radio boxes:&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/List_Field_List_Source_Datasource.jpg" alt="List field list source datasource">&lt;/p>
+&lt;p>Click on the &lt;strong>Datasource&lt;/strong> button &lt;img src="https://docs.kianda.com/images/datasource.png" alt="Data source button"> to open the &lt;strong>Select datasource&lt;/strong> dialog box and choose the data source you want to connect to as the source for your list options - for example, SharePoint. For more information on how to connect to data sources in Kianda, go to &lt;a href="https://docs.kianda.com/docs/platform/connectors/">Data connectors&lt;/a>.&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/List_Field_Select_Data_Source.jpg" alt="List field select data source dialog box">&lt;/p>
+&lt;p>Once you&amp;rsquo;ve selected a data source, click &lt;strong>OK&lt;/strong> - a range of new options will now be shown below the &lt;strong>Datasource&lt;/strong> button in the &lt;strong>New field - List&lt;/strong> dialog box.&lt;/p>
+&lt;p>Select the &lt;strong>Display field&lt;/strong>, &lt;strong>Value field&lt;/strong> and a field to &lt;strong>Sort by&lt;/strong> (the &amp;lsquo;Sort by&amp;rsquo; option appears once you&amp;rsquo;ve selected a data source). Once you&amp;rsquo;ve chosen a field to sort by, an additional option - &lt;strong>Direction&lt;/strong> - appears, enabling you to choose to sort values in &lt;strong>Ascending&lt;/strong> or &lt;strong>Descending&lt;/strong> order. The &lt;strong>Enable offline cache&lt;/strong> option will make the list data available when the user is offline.&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/List_Field_Datasource_Options.jpg" alt="List field Data source options example">&lt;/p>
+&lt;p>Click on the &lt;strong>Edit conditions&lt;/strong> button if you want to add a condition to your List field. To learn more about applying conditions, go to &lt;a href="https://docs.kianda.com/docs/platform/rules/general/add-conditions/">Conditions&lt;/a>.&lt;/p>
+&lt;p>Once you&amp;rsquo;ve selected your &lt;strong>List source&lt;/strong> and the various options associated with it, complete the remaining options in the &lt;strong>New field - List&lt;/strong> dialog box:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Display format&lt;/strong> - You can choose to have your list field appear as either a Drop-down list, a Radio list, Multi-select or a Checkbox list.&lt;/li>
+&lt;/ul>
+&lt;p>By default, the &lt;strong>Dropdown list&lt;/strong> radio button is selected, along with two additional options - &lt;strong>Filter mode&lt;/strong> (you can choose either &amp;lsquo;Starts With&amp;rsquo; or &amp;lsquo;Contains&amp;rsquo;) and &lt;strong>Enable native selector on mobile&lt;/strong> (so a user completing the list field on their mobile phone can use the default list selector on it).&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/List_Field_Display_Format.jpg" alt="Dropdown list display format">&lt;/p>
+&lt;p>If you choose &lt;strong>Radio list&lt;/strong> or &lt;strong>Checkbox list&lt;/strong> you can choose a &lt;strong>List display position&lt;/strong> of either Vertical or Horizontal.&lt;/p>
+&lt;ol start="3">
+&lt;li>Once you complete the &lt;strong>New field - List&lt;/strong> dialog box and click &lt;strong>OK&lt;/strong> button, a new &lt;strong>List field&lt;/strong> is added to your form, with the name you inserted as the &lt;strong>Title&lt;/strong> in the dialog box (by default, the title is &lt;strong>List 1&lt;/strong> unless you change it).&lt;/li>
+&lt;/ol>
+&lt;p>If we take the example of a Training Request form with a list field that contains the different types of training a user can request, the list field (which is titled &amp;lsquo;Type of Training&amp;rsquo; and has a drop-down list format) could look like this when a user views it on their mobile phone:&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/List_Field_Example_Mobile.jpg" alt="List field dropdown list example mobile phone">&lt;/p>
+&lt;p>To see how your form or field will look like on a mobile, view it in &lt;strong>Mobile preview&lt;/strong> by clicking the &lt;strong>Preview&lt;/strong> button &lt;img src="https://docs.kianda.com/images/preview.png" alt="Preview">(play icon) after first saving your changes.&lt;/p>
+&lt;h3 id="how-to-edit-move-and-delete-file-upload-fields">How to edit, move and delete File upload fields&lt;/h3>
+&lt;p>To edit a &lt;strong>List field&lt;/strong>, select the field (by either clicking on the field title or on the field&amp;rsquo;s &lt;strong>Drag handle&lt;/strong> button &lt;img src="https://docs.kianda.com/images/draghandlewhite_frame.png" alt="Drag handle button">) and then click on the &lt;strong>Edit field&lt;/strong> button (Pen icon) &lt;img src="https://docs.kianda.com/images/penicon.png" alt="Edit field button">.&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/List_Field_Select_to_Edit.jpg" alt="Select file upload file to edit">&lt;/p>
+&lt;p>The &lt;strong>Edit field - List&lt;/strong> dialog box will open, enabling you to choose from the same range of options as appear in the &lt;strong>New field - List&lt;/strong> dialog box (as already discussed in &lt;a href="https://docs.kianda.com/docs/platform/controls/input/list#how-to-get-started">How to get started&lt;/a>).&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/List_Field_Edit_dialog_box_example.jpg" alt="Edit date field dialog box">&lt;/p>
+&lt;p>You can make any changes you wish in this dialog box and then click &lt;strong>OK&lt;/strong> to confirm.&lt;/p>
+&lt;p>To move a &lt;strong>List field&lt;/strong>, simply select the field&amp;rsquo;s &lt;strong>Drag handle&lt;/strong> button &lt;img src="https://docs.kianda.com/images/draghandlewhite_frame.png" alt="Drag handle button"> and drag and drop the field wherever you want to move it to within your form.&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/List_Field_Move_draghandle.jpg" alt="Date field drag handle">&lt;/p>
+&lt;p>To delete a &lt;strong>List field&lt;/strong> from your form, simply select the field (by either clicking on the field&amp;rsquo;s name or its &lt;strong>Drag handle&lt;/strong> button &lt;img src="https://docs.kianda.com/images/draghandlewhite_frame.png" alt="Drag handle button">), click on the &lt;strong>Bin/Trash&lt;/strong> button &lt;img src="https://docs.kianda.com/images/binicon.png" alt="Bin icon"> and then click on &lt;strong>OK&lt;/strong> to confirm.&lt;/p>
+&lt;h3 id="how-to-edit-list-field-properties">How to edit List field properties&lt;/h3>
+&lt;p>To view or edit the field properties associated with a &lt;strong>List field&lt;/strong>, select the field (by clicking on the field title or field drag handle button &lt;img src="https://docs.kianda.com/images/draghandlewhite_frame.png" alt="Drag handle button">) - the &lt;strong>Field properties&lt;/strong> menu will appear in the right-hand pane.&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/List_Field_Field_Properties.jpg" alt="List properties">&lt;/p>
+&lt;p>In the example shown here, a &lt;strong>List field&lt;/strong> titled &lt;strong>Type of Training&lt;/strong> has been selected and it&amp;rsquo;s properties are displayed, including: its Title, that its Title will be shown in the form (the &amp;lsquo;Show title&amp;rsquo; checkbox is ticked), that it will be a mandatory field for users to complete (the &amp;lsquo;Required&amp;rsquo; checkbox is ticked and there is a red star next to the field name in the form), that this field will be enabled for users to complete (the &amp;lsquo;Enabled&amp;rsquo; checkbox is ticked), and that this field will be visible to form users (the &amp;lsquo;Visible&amp;rsquo; checkbox is ticked). The width of the field on PC and mobile is also shown.&lt;/p>
+&lt;p>To learn more about the different options within the Field properties menu, go to &lt;a href="https://docs.kianda.com/docs/platform/controls/properties#field-properties">Field Properties&lt;/a>.&lt;/p>
+&lt;h3 id="saving-changes-and-version-history">Saving changes and version history&lt;/h3>
+&lt;p>Make sure to save any changes you make by clicking on the &lt;strong>Save&lt;/strong> button &lt;img src="https://docs.kianda.com/images/saveprocess.png" alt="Save">. You will always have the option to revert back to previous versions of your form by clicking the &lt;strong>Design Version History&lt;/strong> &lt;img src="https://docs.kianda.com/images/version8.png" alt="Version button"> button in the top right corner.&lt;/p>
+&lt;h3 id="whats-next--idea-iconimages18png">What&amp;rsquo;s next &lt;img src="https://docs.kianda.com/images/18.png" alt="Idea icon">&lt;/h3>
+&lt;p>Now that you&amp;rsquo;ve learned about &lt;strong>List controls&lt;/strong>, find out more about the other types of &lt;strong>Input fields&lt;/strong> you can add to a Kianda process:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://docs.kianda.com/docs/platform/controls/input/date/">Date control&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.kianda.com/docs/platform/controls/input/file-upload/">File upload control&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.kianda.com/docs/platform/controls/input/number/">Number control&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.kianda.com/docs/platform/controls/input/table/">Table control&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.kianda.com/docs/platform/controls/input/textbox/">Textbox control&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.kianda.com/docs/platform/controls/input/toggle/">Toggle control&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.kianda.com/docs/platform/controls/input/user-picker/">User picker control&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Panel layout control</title><link>https://docs.kianda.com/docs/platform/controls/layout/panel/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/controls/layout/panel/</guid><description>
+&lt;p>A &lt;strong>panel&lt;/strong> is section of a form. Panels hold other fields like lists and text boxes. It is a good idea when first creating a form to insert a panel and from there to insert other control fields.&lt;/p>
+&lt;h2 id="how-to-get-started">How to get started&lt;/h2>
+&lt;ol>
+&lt;li>
+&lt;p>To add a panel to your form click on &lt;strong>Controls&lt;/strong> &amp;gt; &lt;strong>Layout&lt;/strong> &amp;gt; &lt;strong>Panel&lt;/strong>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>To edit the panel click on the panel itself and the &lt;strong>Pen&lt;/strong> button &lt;img src="https://docs.kianda.com/images/penicon.png" alt="Pen icon"> appears allowing you to edit the panel.&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/panel.png" alt="Edit panel">&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Choose from the edit options:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>Title&lt;/strong> - of the panel, for example Section 1&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Name&lt;/strong> - this is a unique name for the field&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Help text&lt;/strong> - information to help the form user&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Layout columns&lt;/strong> - control the size of the panel, choose from 1 to 12 columns in width. For example click half-way across the blue bar to create a panel that is 6 columns wide, or click on the right of the blue bar to create a column that is 12 columns wide.&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/layoutcolumns.png" alt="Panel width">&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Colour scheme&lt;/strong> - choose from 6 different colour options: navy, green, blue, amber, red, white&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Enable panel security&lt;/strong> - choose from Yes or No&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/panelfields.png" alt="Panel fields">&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Click on the &lt;strong>OK&lt;/strong> button &lt;img src="https://docs.kianda.com/images/ok.png" alt="OK button"> when you are finished editing the panel to save your changes or click on &lt;strong>Close&lt;/strong> to exit the dialog box without saving.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>To move the panel, click on the &lt;strong>Drag handle&lt;/strong> in the panel itself &lt;img src="images/move.png" alt="Move button"> and drag the panel to where you want it to appear on the form.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>To save your changes, click on the &lt;strong>Save&lt;/strong> button &lt;img src="https://docs.kianda.com/images/saveprocess.png" alt="Save button">.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>To delete the panel, click on the panel itself and then click on the &lt;strong>Bin/Trash&lt;/strong> button &lt;img src="https://docs.kianda.com/images/binicon.png" alt="Bin or Trash icon"> and then click on &lt;strong>Ok&lt;/strong> after you have reviewed the field name and are sure this is what you want to delete. Click on &lt;strong>Cancel&lt;/strong> if you wish to cancel the deletion.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>You are now ready to add elements to your panel, for example a textbox, table or other fields, as well as rules. Go to &lt;a href="fields/README.md">Controls&lt;/a> to see the full list of fields available and &lt;a href="rules/README.md">Rules&lt;/a> to read about different categories of rules that can be applied.&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h2 id="how-to-edit-panel-properties">How to edit panel properties&lt;/h2>
+&lt;p>To change the panel properties, click on the panel itself and the properties pane appears on the right.&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/panelproperties.png" alt="Panel properties">&lt;/p>
+&lt;p>The &lt;strong>Field type&lt;/strong>, Panel, is shown along with the &lt;strong>Title&lt;/strong> of the field, in the example above Section 2.&lt;/p>
+&lt;p>The options within properties are as follows, check the checkbox to implement:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Show Title&lt;/strong> - show the title of the panel&lt;/li>
+&lt;li>&lt;strong>Visible&lt;/strong> - the panel is visible to users&lt;/li>
+&lt;li>&lt;strong>Layout&lt;/strong> - change the width of the panel by clicking on the Layout box until you see the desired size. Click on the arrow beside Layout to see the Mobile Layout and click on box to change the width of the panel for mobile use.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://docs.kianda.com/images/textboxsize.png" alt="Changing text box width">&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Rules&lt;/strong> - rules for fields are covered in &lt;a href="rules/README.md">Rules&lt;/a>.&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Instance or record level security</title><link>https://docs.kianda.com/docs/security/record-security/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/security/record-security/</guid><description/></item><item><title>Docs: Templating basics</title><link>https://docs.kianda.com/docs/low-code/templating-basics/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/low-code/templating-basics/</guid><description/></item><item><title>Docs: What is Low-Code Development?</title><link>https://docs.kianda.com/docs/getting-started/welcome/low-code/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/getting-started/welcome/low-code/</guid><description>
 &lt;p>Low-code development offers &lt;strong>software developers&lt;/strong> a shortcut to create something new and beneficial for their organisation. Rather than having to think about every single line of code, as a developer you can take advantage of Kianda&amp;rsquo;s &lt;strong>Developer&lt;/strong> section to create your own custom widgets from predefined field, rule and dashboard code.&lt;/p>
 &lt;p>You can also quickly use Kianda &lt;strong>Developer&lt;/strong> to add &lt;a href="#webhooks">webhooks&lt;/a>, providing an efficient way to push GET requests to other applications in real-time as the Kianda process runs and avoiding the need to poll for data.&lt;/p>
 &lt;p>Kianda uses EmberJS to build widgets, and in particular the Handlebars templating library, to power the application&amp;rsquo;s user interface. See &lt;a href="#emberjs-templating-basics">templating basics&lt;/a> to get started.&lt;/p>
@@ -1031,7 +1409,67 @@ Your browser does not support the video tag.
 Your browser does not support the video tag.
 &lt;/source>
 &lt;/video>
-&lt;p>Back to &lt;a href="../">How to videos&lt;/a>&lt;/p></description></item><item><title>Docs: Low-code customisation options for the list widget</title><link>https://docs.kianda.com/docs/low-code/list-widget-template/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/low-code/list-widget-template/</guid><description/></item><item><title>Docs: Single Sign On (SSO)</title><link>https://docs.kianda.com/docs/security/sso/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/security/sso/</guid><description>
+&lt;p>Back to &lt;a href="../">How to videos&lt;/a>&lt;/p></description></item><item><title>Docs: Low-code customisation options for the list widget</title><link>https://docs.kianda.com/docs/low-code/list-widget-template/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/low-code/list-widget-template/</guid><description/></item><item><title>Docs: Richtext control</title><link>https://docs.kianda.com/docs/platform/controls/actions/richtext/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/controls/actions/richtext/</guid><description/></item><item><title>Docs: Richtext control</title><link>https://docs.kianda.com/docs/platform/controls/layout/richtext/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/controls/layout/richtext/</guid><description>
+&lt;p>Using &lt;strong>Richtext&lt;/strong>, it is easy to create rich text content that supports text formatting, such as bold and italics and&lt;/p>
+&lt;h2 id="how-to-get-started">How to get started&lt;/h2>
+&lt;ol>
+&lt;li>
+&lt;p>To use field group, click on &lt;strong>Controls&lt;/strong> &amp;gt; &lt;strong>Layout&lt;/strong> &amp;gt; &lt;strong>Richtext&lt;/strong>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Choose from the edit options:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>Title&lt;/strong> - of the field&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Name&lt;/strong> - this is a unique name for the field&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Help text&lt;/strong> - information to help the form user&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Richtext&lt;/strong> - choose from an array of styles and formats to create your text including &lt;strong>Style,&lt;/strong> &lt;strong>Colour&lt;/strong>, &lt;strong>Bold&lt;/strong>, &lt;strong>Underline&lt;/strong>, &lt;strong>Remove font style&lt;/strong>, &lt;strong>Font size&lt;/strong>,&lt;strong>Font family&lt;/strong>, &lt;strong>Unordered list&lt;/strong>, &lt;strong>Ordered list&lt;/strong>, &lt;strong>Paragraph&lt;/strong>, &lt;strong>Table&lt;/strong>, &lt;strong>Link&lt;/strong>, &lt;strong>Picture&lt;/strong>, and &lt;strong>Code view&lt;/strong>. For example if you click on &lt;strong>Code view&lt;/strong> button &lt;img src="https://docs.kianda.com/images/code.png" alt="Code view button">you can copy HTML code directly into the text. Type in the text you want into the body of the Richtext box.&lt;/p>
+&lt;img src="https://docs.kianda.com/images/richtexttext.png" alt="Richtext formats" style="zoom:67%;" />
+&lt;p>You can click on the &lt;strong>Help&lt;/strong> button &lt;img src="images/help.png" alt="Help" style="zoom:67%;" />to get a list of over 20 keyboard shortcuts that you can use to style your text.&lt;/p>
+&lt;p>If you want a useful way to personalise richtextemails click on the &lt;strong>Ellipsis&lt;/strong> button &lt;img src="images/ellipsis-16401854043731.png" alt="Ellipsis button">to add an expression, see [Expression builder](#Expression builder) for more details.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Colour scheme&lt;/strong> - choose from Navy, Green, Blue, Amber, Red or White Colours for your rich text background.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Click on the &lt;strong>OK&lt;/strong> button &lt;img src="https://docs.kianda.com/images/ok.png" alt="OK button"> when you are finished editing the field to save your changes or click on &lt;strong>Close&lt;/strong> to exit the dialog box without saving.&lt;/p>
+&lt;p>In the example below a richtext banner called Training Details is created which can be used as a heading on a form.&lt;/p>
+&lt;img src="https://docs.kianda.com/images/banner.png" alt="Richtext banner" style="zoom:67%;" />
+&lt;/li>
+&lt;li>
+&lt;p>To move the field, click on the &lt;strong>Drag handle&lt;/strong> &lt;img src="images%5Cmove.png" alt="Move button"> and drag the text to where you want it to appear on the form.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>To save your changes, click on the &lt;strong>Save&lt;/strong> button &lt;img src="https://docs.kianda.com/images/saveprocess.png" alt="Save button">.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>To delete the field, click on the field itself and then click on the &lt;strong>Bin/Trash&lt;/strong> button &lt;img src="images%5Cbinicon.png" alt="Bin or Trash icon"> and then click on &lt;strong>Ok&lt;/strong> after you have reviewed the field name and are sure this is what you want to delete. Click on &lt;strong>Cancel&lt;/strong> if you wish to cancel the deletion.&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h2 id="how-to-edit-richtext-properties">How to edit richtext properties&lt;/h2>
+&lt;p>To change the field properties, click on the field itself and the properties pane appears on the right.&lt;/p>
+&lt;img src="https://docs.kianda.com/images/richtextproperties.png" alt="Richtext properties" style="zoom:67%;" />
+&lt;p>The &lt;strong>Field type&lt;/strong>, Richtext, is shown along with the &lt;strong>Title&lt;/strong> of the field, in the example above Banner 1.&lt;/p>
+&lt;p>The options within properties are as follows, check the checkbox to implement:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Show Title&lt;/strong> - show the title of the field&lt;/li>
+&lt;li>&lt;strong>Required&lt;/strong> - make this field mandatory for users to fill out&lt;/li>
+&lt;li>&lt;strong>Enabled&lt;/strong> - the field is enabled for users to fill out&lt;/li>
+&lt;li>&lt;strong>Visible&lt;/strong> - the field is visible to users&lt;/li>
+&lt;li>&lt;strong>Layout&lt;/strong> - change the width of the field by clicking on the Layout box until you see the desired size. Click on the arrow beside Layout to see the Mobile Layout and click on box to change the width of the panel for mobile use.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://docs.kianda.com/images/textboxsize.png" alt="Changing text box width">&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Rules&lt;/strong> - rules for fields are covered in &lt;a href="../../rules/">Rules&lt;/a>.&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Single Sign On (SSO)</title><link>https://docs.kianda.com/docs/security/sso/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/security/sso/</guid><description>
 &lt;p>&lt;em>Note: If the Single-Sign-On is already enabled and if you wish to disable it. Try to clear the cache memory and&lt;/em> &lt;em>login to&lt;/em> Kianda by entering &lt;em>your password first and then the username.&lt;/em>&lt;/p>
 &lt;p>Enabling Single-Sign-On allows the user to login via Single-Sign-On connector. This connector could be SharePoint, Office365 or anything else. To enable Single-Sign-On, please follow the below steps:&lt;/p>
 &lt;ol>
@@ -1161,334 +1599,176 @@ Your browser does not support the video tag.
 &lt;p>If you want to use Kianda for no-code development, follow these simple steps:&lt;/p>
 &lt;p>&lt;img src="https://docs.kianda.com/images/one.png" alt="1"> &lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/plan-your-process/">&lt;strong>Plan your process&lt;/strong>&lt;/a>&lt;/p>
 &lt;p>&lt;img src="https://docs.kianda.com/images/two.png" alt="2"> &lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/design-and-build/">&lt;strong>Design and build your process&lt;/strong>&lt;/a>&lt;/p>
-&lt;p>&lt;img src="https://docs.kianda.com/images/three.png" alt="3"> &lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/publish-your-process/">&lt;strong>Publish your process&lt;/strong>&lt;/a>&lt;/p></description></item><item><title>Docs: Global CSS file</title><link>https://docs.kianda.com/docs/low-code/global-css-file/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/low-code/global-css-file/</guid><description/></item><item><title>Docs: Global JavaScript file</title><link>https://docs.kianda.com/docs/low-code/global-javascript-file/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/low-code/global-javascript-file/</guid><description/></item><item><title>Docs: Custom form control development</title><link>https://docs.kianda.com/docs/low-code/field-widget/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/low-code/field-widget/</guid><description/></item><item><title>Docs: Custom rule widget development</title><link>https://docs.kianda.com/docs/low-code/rule-widget/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/low-code/rule-widget/</guid><description/></item><item><title>Docs: Custom dashboard widget development</title><link>https://docs.kianda.com/docs/low-code/dashboard-widget/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/low-code/dashboard-widget/</guid><description/></item><item><title>Docs: Low-Code development best practices</title><link>https://docs.kianda.com/docs/low-code/best-practices/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/low-code/best-practices/</guid><description/></item><item><title>Docs:</title><link>https://docs.kianda.com/docs/platform/pages/listviewfields/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/pages/listviewfields/</guid><description>
-&lt;h1 id="list-view-fields">List view fields&lt;/h1>
-&lt;p>When you choose the List widget for your dashboard, there are a number of ways to select fields that you want to view.&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/three.png" alt="3"> &lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/publish-your-process/">&lt;strong>Publish your process&lt;/strong>&lt;/a>&lt;/p></description></item><item><title>Docs: Signature control</title><link>https://docs.kianda.com/docs/platform/controls/actions/signature/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/controls/actions/signature/</guid><description>
+&lt;p>A &lt;strong>signature&lt;/strong> is section of a form. Panels hold other fields like lists and text boxes. It is a good idea when first creating a form to insert a panel and from there to insert other control fields.&lt;/p>
+&lt;h2 id="how-to-get-started">How to get started&lt;/h2>
 &lt;ol>
 &lt;li>
-&lt;p>Click on the &lt;strong>Pen&lt;/strong> button &lt;img src="images/pen.png" alt="Pen button">in the widget you have created, to see the &lt;strong>List view fields&lt;/strong> visible in the right-hand pane.&lt;/p>
-&lt;p>&lt;img src="images/listconfig_frame.png" alt="List view fields">&lt;/p>
+&lt;p>To add a Signature to your form click on &lt;strong>Controls&lt;/strong> &amp;gt; &lt;strong>Actions&lt;/strong> &amp;gt; &lt;strong>Signature&lt;/strong>.&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>Click on &lt;strong>Common fields&lt;/strong> to see a list of commonly used dashboard fields such as &amp;lsquo;Status&amp;rsquo;, &amp;lsquo;Created by&amp;rsquo; and &amp;lsquo;Modified&amp;rsquo;. Click on as many fields as needed to add to the dashboard, for example 3 fields are selected below.&lt;/p>
-&lt;p>&lt;img src="images/commonfields.png" alt="Common fields">&lt;/p>
-&lt;p>Click on &lt;strong>Common fields&lt;/strong> again to close the options.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Click on &lt;strong>Design fields&lt;/strong> to see a list of all the fields used in the design of the forms used in the chosen process. For example the Training Process shown below has 2 forms, &amp;lsquo;Training Request&amp;rsquo; and &amp;lsquo;Training Approval&amp;rsquo; and all control fields used in the form design are available to choose as filters for the dashboard. Click on the + symbol to drill down into the form, and click on the relevant fields to use them, for example Name, Type of Training and Management Decision have been chosen below.&lt;/p>
-&lt;p>&lt;img src="images/designfields.png" alt="Design fields">&lt;/p>
-&lt;p>Click on &lt;strong>Design fields&lt;/strong> again to close the options.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Clicking on &lt;strong>List fields&lt;/strong> shows you a list of all the fields you have already chosen from &lt;strong>Common fields&lt;/strong> and &lt;strong>Design fields&lt;/strong>. There is also an option to &lt;strong>Add column&lt;/strong> and &lt;strong>Add action&lt;/strong>. You can change the order of the fields as they appear in the list from left to right by clicking on the Drag handle button &lt;img src="images/draghandlewhite.png" alt="Drag handle">.&lt;/p>
-&lt;p>&lt;img src="images/listfields.png" alt="List fields">&lt;/p>
-&lt;p>TO COME BACK TO.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Click on the &lt;strong>OK&lt;/strong> button when you are finished editing to save your changes or click on &lt;strong>Close&lt;/strong> to exit the dialog box without saving.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>To change the list settings, that is the way the list looks, title and so on, click on the &lt;strong>Settings&lt;/strong> button &lt;img src="images/cog.png" alt="Settings button">and go to &lt;a href="pages/list.md">List widget&lt;/a> to find out more about edit options.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>When you are finished making edits, click on the &lt;strong>Save&lt;/strong> button &lt;img src="images/save.png" alt="Save button"> in the top menu to ensure your dashboard changes are saved and you see a pop-up message &lt;strong>Page saved successfully&lt;/strong>.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>To make further changes later on, click on the &lt;strong>Edit&lt;/strong> button &lt;img src="images/edit.png" alt="Edit button"> in the top menu and then click on the &lt;strong>Pen&lt;/strong> button&lt;/p>
-&lt;p>&lt;img src="images/penbutton.png" alt="Pen button in a widget">&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Go to &lt;a href="#list.md">List widget&lt;/a> to find out about other sorting and search options.&lt;/p>
-&lt;/li>
-&lt;/ol></description></item><item><title>Docs: Active directory</title><link>https://docs.kianda.com/docs/platform/connectors/active-directory/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/connectors/active-directory/</guid><description/></item><item><title>Docs: Add a user to a group</title><link>https://docs.kianda.com/docs/platform/rules/sharepoint/add-a-user-to-a-group/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/sharepoint/add-a-user-to-a-group/</guid><description>
-&lt;p>This rule allows you to add a user into a SharePoint group from within Kianda.&lt;/p>
-&lt;p>When to use:&lt;/p>
-&lt;p>This rule should be used when a user within Kianda should be added to SharePoint Group, i.e. a new hire being added to a team group during their onboarding&lt;/p>
-&lt;p>You can add this rule:&lt;/p>
-&lt;p>· to a field&lt;/p>
-&lt;p>· to a form&lt;/p>
-&lt;p>· to a process (the rule will run on load)&lt;/p>
-&lt;p>How to use:&lt;/p>
-&lt;p>To add a user to a SharePoint group, the first step is to select the SharePoint data source where the group is located, you will then be presented with two fields “Group title field” &amp;amp; “Username or User ID field”.&lt;/p>
-&lt;p>These two fields will be present within the Kianda form (these can be a username &amp;amp; group name field for example) and are used to confirm the user which is to be added and the group they are to be added to Then utilizing the success mapping you can set values from the Kianda form into the user entry within SharePoint.&lt;/p>
-&lt;p>Once these fields are set you can also set conditions on the rule, further details on conditions can be found here:&lt;/p>
-&lt;p>Finally on success/on error mapping can also be set to populate fields on the form, for further details on success &amp;amp; error mapping please see here:&lt;/p></description></item><item><title>Docs: Add time to date</title><link>https://docs.kianda.com/docs/platform/rules/dates/add-time-to-date/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/dates/add-time-to-date/</guid><description>
-&lt;pre>&lt;code> A screenshots back-up the intro
-&lt;/code>&lt;/pre>
-&lt;h6 id="when-to-use">When to use&lt;/h6>
-&lt;h6 id="how-to-use">How to use&lt;/h6>
-&lt;pre>&lt;code> Number of points for the actual steps you need to follow to configure the rule.
-Video should be here?
-&lt;/code>&lt;/pre>
-&lt;h6 id="notes">Notes&lt;/h6>
-&lt;p>Explain other advanced scenarios of the rule&lt;/p>
-&lt;p>&amp;ldquo;Allows precise date calculation. This allows adding a number of time units (minutes, hours, days, weeks, etc) to calculate date based on now date, today date (starting at mid night) or a spefici date value&amp;rdquo;&lt;/p>
-&lt;p>FROM HELP??
-With the Dates rules, it is easy to manipulate dates! On the example, we are dynamically calculating the starting date of a new employee, with an on-load rule. The starting date will be within 20 days from the registration day (today), excluding a special date. To do so:&lt;/p>
-&lt;p>You can add a condition to this rule
-Click on the form name, on the top of the page, to open the on load rules
-Navigate to Dates &amp;gt; Add time to a date
-Give the rule a title
-Set the amount of time you want to add to the date - 20 days in this case
-On to date, select the date you want to add the time to - it can be a date specified in a date field in your form
-Add the destination field where the result will be displayed
-Add the special dates - days you want to exclude from your addition
-Save and press ok
-Note: If you are adding hours or minutes to a date, you can limit the day with the business hours option - ie.: 09:00 to 17:00.
-VIDEO&lt;/p></description></item><item><title>Docs: Aggregate table</title><link>https://docs.kianda.com/docs/platform/rules/tables/aggregate-table/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/tables/aggregate-table/</guid><description>
-&lt;h5 id="heading">&lt;/h5>
-&lt;h6 id="introduction---good-description-simple-language">Introduction - good description, simple language&lt;/h6>
-&lt;pre>&lt;code> A screenshots back-up the intro
-&lt;/code>&lt;/pre>
-&lt;h6 id="when-to-use">When to use&lt;/h6>
-&lt;h6 id="how-to-use">How to use&lt;/h6>
-&lt;p>Number of points for the actual steps you need to follow to configure the rule.&lt;/p>
-&lt;h6 id="notes">Notes&lt;/h6>
-&lt;p>Explain other advanced scenarios of the rule
-Loops through table rows
-Loops through a table to trigger consecutively rules within the table
-FROM HELP??
-If you need to perform loop actions on table, you can do so with Loop tables under Add a rule. In the example, we are importing data using the file and performing loop action on the &amp;lsquo;Set Complete&amp;rsquo; button.&lt;/p>
-&lt;p>In this case, we need to set form field value of &amp;lsquo;Status&amp;rsquo; to &amp;lsquo;Complete&amp;rsquo;.&lt;/p>
-&lt;p>Select &amp;lsquo;Loop Complete&amp;rsquo; button.
-Go to &amp;lsquo;Add a rule&amp;rsquo;.
-Select &amp;lsquo;Tables&amp;rsquo;.
-Select &amp;lsquo;Loop table&amp;rsquo;.
-Select a table &amp;lsquo;List of tickets&amp;rsquo;.
-Select column field which needs to be triggered.
-VIDEO??&lt;/p>
-&lt;h5 id="add-table-row">Add table row&lt;/h5>
-&lt;h6 id="introduction---good-description-simple-language-1">Introduction - good description, simple language&lt;/h6>
-&lt;pre>&lt;code> A screenshots back-up the intro
-&lt;/code>&lt;/pre>
-&lt;h6 id="when-to-use-1">When to use&lt;/h6>
-&lt;h6 id="how-to-use-1">How to use&lt;/h6>
-&lt;pre>&lt;code> Number of points for the actual steps you need to follow to configure the rule.
-Video should be here?
-&lt;/code>&lt;/pre>
-&lt;h6 id="notes-1">Notes&lt;/h6>
-&lt;p>Explain other advanced scenarios of the rule
-Add a new row to a table
-Adds a new row into a table&lt;/p>
-&lt;h5 id="remove-table-row">Remove table row&lt;/h5>
-&lt;h6 id="introduction---good-description-simple-language-2">Introduction - good description, simple language&lt;/h6>
-&lt;pre>&lt;code> A screenshots back-up the intro
-&lt;/code>&lt;/pre>
-&lt;h6 id="when-to-use-2">When to use&lt;/h6>
-&lt;h6 id="how-to-use-2">How to use&lt;/h6>
-&lt;pre>&lt;code> Number of points for the actual steps you need to follow to configure the rule.
-Video should be here?
-&lt;/code>&lt;/pre>
-&lt;h6 id="notes-2">Notes&lt;/h6>
-&lt;p>Explain other advanced scenarios of the rule&lt;/p>
-&lt;p>Remove current row from a table
-Remove a row from the table.
-Run this rule from the context of the row to remove the current row&lt;/p>
-&lt;h5 id="import-csv">Import CSV&lt;/h5>
-&lt;h6 id="introduction---good-description-simple-language-3">Introduction - good description, simple language&lt;/h6>
-&lt;pre>&lt;code> A screenshots back-up the intro
-&lt;/code>&lt;/pre>
-&lt;h6 id="when-to-use-3">When to use&lt;/h6>
-&lt;h6 id="how-to-use-3">How to use&lt;/h6>
-&lt;pre>&lt;code> Number of points for the actual steps you need to follow to configure the rule.
-Video should be here?
-&lt;/code>&lt;/pre>
-&lt;h6 id="notes-3">Notes&lt;/h6>
-&lt;p>Explain other advanced scenarios of the rule
-Import a csv file into a table
-Imports CSV or XLSX data into a table based on provided mapping
-FROM HELP??
-Yes, you can easily do that. First of all, you will need a File upload input, so you can upload the file from your computer. Then, you can create the rule wherever it suits you. On the example, we created a button specifically to map the CSV file to the table.&lt;/p>
-&lt;p>Click on the button to add the rule.
-Navigate to Tables &amp;gt; Import CSV.
-Select the CSV file field where you will upload the CSV file.
-On the CSV Separator, as the data on our CSV file is separated in columns, we are using the &amp;quot; | &amp;quot; sign.
-Select the number of columns expected.
-You can skip the first line, in case you have a header row in your file.
-Select the destination table.
-You can alternatively, override existing table fields.
-Select the mapping options and click &amp;lsquo;OK&amp;rsquo;.
-VIDEO??&lt;/p>
-&lt;h5 id="export-csv">Export CSV&lt;/h5>
-&lt;h6 id="introduction---good-description-simple-language-4">Introduction - good description, simple language&lt;/h6>
-&lt;pre>&lt;code> A screenshots back-up the intro
-&lt;/code>&lt;/pre>
-&lt;h6 id="when-to-use-4">When to use&lt;/h6>
-&lt;h6 id="how-to-use-4">How to use&lt;/h6>
-&lt;pre>&lt;code> Number of points for the actual steps you need to follow to configure the rule.
-Video should be here?
-&lt;/code>&lt;/pre>
-&lt;h6 id="notes-4">Notes&lt;/h6>
-&lt;p>Explain other advanced scenarios of the rule&lt;/p>
-&lt;p>Export a table as CSV file
-Exports the content of the table as a CSV file&lt;/p>
-&lt;h5 id="copy-table-rows">Copy table rows&lt;/h5>
-&lt;h6 id="introduction---good-description-simple-language-5">Introduction - good description, simple language&lt;/h6>
-&lt;pre>&lt;code> A screenshots back-up the intro
-&lt;/code>&lt;/pre>
-&lt;h6 id="when-to-use-5">When to use&lt;/h6>
-&lt;h6 id="how-to-use-5">How to use&lt;/h6>
-&lt;pre>&lt;code> Number of points for the actual steps you need to follow to configure the rule.
-Video should be here?
-&lt;/code>&lt;/pre>
-&lt;h6 id="notes-5">Notes&lt;/h6>
-&lt;p>Explain other advanced scenarios of the rule&lt;/p>
-&lt;p>Copy table rows from one table to another
-Copy rows between tables based on copy conditions&lt;/p>
-&lt;h5 id="clear-table-rows">Clear table rows&lt;/h5>
-&lt;h6 id="introduction---good-description-simple-language-6">Introduction - good description, simple language&lt;/h6>
-&lt;pre>&lt;code> A screenshots back-up the intro
-&lt;/code>&lt;/pre>
-&lt;h6 id="when-to-use-6">When to use&lt;/h6>
-&lt;h6 id="how-to-use-6">How to use&lt;/h6>
-&lt;pre>&lt;code> Number of points for the actual steps you need to follow to configure the rule.
-Video should be here?
-&lt;/code>&lt;/pre>
-&lt;h6 id="notes-6">Notes&lt;/h6>
-&lt;p>Explain other advanced scenarios of the rule&lt;/p>
-&lt;p>Remove table rows matching a criteria
-Clears or conditionally removes rows from a table&lt;/p>
-&lt;h5 id="lookup-value-from-table">Lookup value from table&lt;/h5>
-&lt;h6 id="introduction---good-description-simple-language-7">Introduction - good description, simple language&lt;/h6>
-&lt;pre>&lt;code> A screenshots back-up the intro
-&lt;/code>&lt;/pre>
-&lt;h6 id="when-to-use-7">When to use&lt;/h6>
-&lt;h6 id="how-to-use-7">How to use&lt;/h6>
-&lt;pre>&lt;code> Number of points for the actual steps you need to follow to configure the rule.
-Video should be here?
-&lt;/code>&lt;/pre>
-&lt;h6 id="notes-7">Notes&lt;/h6>
-&lt;p>Explain other advanced scenarios of the rule&lt;/p>
-&lt;p>Lookup table value matching a criteria
-Lookup table cell value based on conditions&lt;/p>
-&lt;h5 id="update-table-values">Update table values&lt;/h5>
-&lt;h6 id="introduction---good-description-simple-language-8">Introduction - good description, simple language&lt;/h6>
-&lt;pre>&lt;code> A screenshots back-up the intro
-&lt;/code>&lt;/pre>
-&lt;h6 id="when-to-use-8">When to use&lt;/h6>
-&lt;h6 id="how-to-use-8">How to use&lt;/h6>
-&lt;pre>&lt;code> Number of points for the actual steps you need to follow to configure the rule.
-Video should be here?
-&lt;/code>&lt;/pre>
-&lt;h6 id="notes-8">Notes&lt;/h6>
-&lt;p>Explain other advanced scenarios of the rule&lt;/p>
-&lt;p>Update table column matching a criteria
-Updates table cell values based on conditions&lt;/p>
-&lt;h5 id="sort-table">Sort table&lt;/h5>
-&lt;h6 id="introduction---good-description-simple-language-9">Introduction - good description, simple language&lt;/h6>
-&lt;pre>&lt;code> A screenshots back-up the intro
-&lt;/code>&lt;/pre>
-&lt;h6 id="when-to-use-9">When to use&lt;/h6>
-&lt;h6 id="how-to-use-9">How to use&lt;/h6>
-&lt;pre>&lt;code> Number of points for the actual steps you need to follow to configure the rule.
-Video should be here?
-&lt;/code>&lt;/pre>
-&lt;h6 id="notes-9">Notes&lt;/h6>
-&lt;p>Explain other advanced scenarios of the rule&lt;/p>
-&lt;p>Sort a table based on a table field(s)
-Sort table data based on multiple conditions.
-Multiple sortings can be used sequentially to achieve the desired results&lt;/p>
-&lt;h5 id="aggregate-table">Aggregate table&lt;/h5>
-&lt;h6 id="introduction---good-description-simple-language-10">Introduction - good description, simple language&lt;/h6>
-&lt;pre>&lt;code> A screenshots back-up the intro
-&lt;/code>&lt;/pre>
-&lt;h6 id="when-to-use-10">When to use&lt;/h6>
-&lt;h6 id="how-to-use-10">How to use&lt;/h6>
-&lt;pre>&lt;code> Number of points for the actual steps you need to follow to configure the rule.
-Video should be here?
-&lt;/code>&lt;/pre>
-&lt;h6 id="notes-10">Notes&lt;/h6>
-&lt;p>Explain other advanced scenarios of the rule&lt;/p>
-&lt;p>See example in suggestion box&lt;/p>
-&lt;p>Aggregate table values
-&amp;ldquo;Use this rule to perform sum of a table cell, count the rows or even calculate the avg of the value within a table cell. Use conditions to further improve how aggregation occurs&amp;rdquo;&lt;/p>
-&lt;h5 id="hide--show-column">Hide / Show column&lt;/h5>
-&lt;h6 id="introduction---good-description-simple-language-11">Introduction - good description, simple language&lt;/h6>
-&lt;pre>&lt;code> A screenshots back-up the intro
-&lt;/code>&lt;/pre>
-&lt;h6 id="when-to-use-11">When to use&lt;/h6>
-&lt;h6 id="how-to-use-11">How to use&lt;/h6>
-&lt;pre>&lt;code> Number of points for the actual steps you need to follow to configure the rule.
-Video should be here?
-&lt;/code>&lt;/pre>
-&lt;h6 id="notes-11">Notes&lt;/h6>
-&lt;p>Explain other advanced scenarios of the rule&lt;/p>
-&lt;p>Hide or show table columns
-Similar to hide / show rule enables the complete hidding of a whole column within a table.&lt;/p></description></item><item><title>Docs: Anonymous form link</title><link>https://docs.kianda.com/docs/platform/rules/communications/anonymous-form-link/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/communications/anonymous-form-link/</guid><description>
-&lt;p>This rule creates a link to a form which can be sent to an external user. The user can open the form without the need for authentication.&lt;/p>
-&lt;p>&lt;img src="https://docs.kianda.com/images/anonymousformlink.png" alt="Anonymous form link dialog box">&lt;/p>
-&lt;h6 id="when-to-use">When to use&lt;/h6>
-&lt;p>You can add this rule:&lt;/p>
+&lt;p>Choose from the edit options:&lt;/p>
 &lt;ul>
-&lt;li>&lt;input checked="" disabled="" type="checkbox"> to a field&lt;/li>
-&lt;li>&lt;input checked="" disabled="" type="checkbox"> to a form&lt;/li>
-&lt;li>&lt;input checked="" disabled="" type="checkbox"> to a process (the rule will run on load)&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Title&lt;/strong> - of the Signature for example HR Manager Signature&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Name&lt;/strong> - this is a unique name for the field&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Help text&lt;/strong> - information to help the form user&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Signature pad height (pixels)&lt;/strong> - the height of the signature in pixels&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Signature color&lt;/strong> - click on the field and use the slider to move between colours and click on the palette to choose a particular hue or type in the R G B value if you know the colour you are looking for.&lt;/p>
+&lt;img src="https://docs.kianda.com/images/sigcolor.png" alt="Signature colour" style="zoom:67%;" />
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Signature tickness&lt;/strong> - number value&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Start signing button text&lt;/strong> - default text is &amp;lsquo;Start Signing&amp;rsquo;, type in the field to change the text that will appear on your Signature button&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Re-sign button text&lt;/strong> - default text is &amp;lsquo;Re-sign&amp;rsquo;&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Show username and signing time&lt;/strong> - options are a) Yes or b) No&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Require user authentication&lt;/strong> - options are a) Yes or b) No&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Hide sign by textbox&lt;/strong> - options are a) Yes or b) No&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Allow override sign by&lt;/strong> - options are a) Yes or b) No&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Hide default signature tab&lt;/strong> - options are a) Yes or b) No&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Auto save signature&lt;/strong> - options are a) Yes or b) No&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Button icon&lt;/strong> - click on the arrow in the dropdown list to select from several hundred icons for your signature button.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Button color&lt;/strong> - choose from Navy, Green, Blue, Amber, Red or White colours for your signature button.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Sign dialog button text&lt;/strong>&lt;/p>
+&lt;/li>
 &lt;/ul>
-&lt;h6 id="how-to-use">How to use&lt;/h6>
-&lt;p>To send an anonymous form link to an external user:&lt;/p>
-&lt;ol>
-&lt;li>Before adding the rule, add a text field to store the anonymous link: Click on Controls &amp;gt; Input &amp;gt; Text and drag the field onto the form. Edit the field by clicking on it and then clicking the pen icon. Change the Title to &lt;em>Anonymous Link&lt;/em>. Change the Name(unique) to &lt;em>anonymousLink&lt;/em>.&lt;/li>
-&lt;li>Select the Submit button.&lt;/li>
-&lt;li>Click on Add a rule &amp;gt; Communications &amp;gt; Anonymous form link.&lt;/li>
-&lt;li>Under Action, Select a form to be completed by an external user.&lt;/li>
-&lt;li>Select the Anonymous Link field where the link will be stored.&lt;/li>
-&lt;li>Enter a message for the external user. This message will be displayed when they submit the form.&lt;/li>
-&lt;li>Click OK.&lt;/li>
-&lt;li>Select Add a rule &amp;gt; Communications &amp;gt; Send email:
-a. Add the external user&amp;rsquo;s email address under To:
-b. Add a Subject.
-c. Use the Expression builder to add [anonymousLink] to the Body of the email.
-d. Refer to the documentation for the Send email rule, if required.&lt;/li>
-&lt;li>Click OK.&lt;/li>
+&lt;/li>
+&lt;li>
+&lt;p>Click on the &lt;strong>OK&lt;/strong> button &lt;img src="https://docs.kianda.com/images/ok.png" alt="OK button"> when you are finished editing the panel to save your changes or click on &lt;strong>Close&lt;/strong> to exit the dialog box without saving.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>To move the signature, click on the &lt;strong>Drag handle&lt;/strong> beside the signature button &lt;img src="https://docs.kianda.com/images/move.png" alt="Move button"> and drag the signature to where you want it to appear on the form.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>To save your changes, click on the &lt;strong>Save&lt;/strong> button &lt;img src="https://docs.kianda.com/images/saveprocess.png" alt="Save button">.&lt;/p>
+&lt;p>When your signature is complete, you can click on it within the form and a dialog box appears giving you and option to choose from a system created &lt;strong>Signature&lt;/strong> or to &lt;strong>Draw or Upload&lt;/strong> your own version.&lt;/p>
+&lt;img src="https://docs.kianda.com/images/sigdecision.png" alt="Signature format" style="zoom:50%;" />
+&lt;p>If you click on &lt;strong>Draw or Upload&lt;/strong> then you can sign on the dotted line and click on &lt;strong>Clear&lt;/strong> at any stage to erase your work, or click on &lt;strong>Upload handwritten signature&lt;/strong> and browse for a file.&lt;/p>
+&lt;img src="https://docs.kianda.com/images/sigupload.png" alt="Signature upload" style="zoom:60%;" />
+&lt;p>Click on the &lt;strong>OK&lt;/strong> button to save your work.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>To delete the signature, click on the signature itself and then click on the &lt;strong>Bin/Trash&lt;/strong> button &lt;img src="images%5Cbinicon.png" alt="Bin or Trash icon"> and then click on &lt;strong>Ok&lt;/strong> after you have reviewed the field name and are sure this is what you want to delete. Click on &lt;strong>Cancel&lt;/strong> if you wish to cancel the deletion.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>You are now ready to add elements to your panel, for example a textbox, table or other fields, as well as rules. Go to &lt;a href="fields/README.md">Controls&lt;/a> to see the full list of fields available and &lt;a href="rules/README.md">Rules&lt;/a> to read about different categories of rules that can be applied.&lt;/p>
+&lt;/li>
 &lt;/ol>
-&lt;p>The field used to store the Anonymous Link can be made invisible to the user of the current form. Go to the field properties and set the field to &lt;em>not visible&lt;/em>.&lt;/p>
-&lt;h6 id="notes">Notes&lt;/h6>
-&lt;p>&lt;em>Each record or instance of a process can have only one active link.&lt;/em> If a second anonymous link is created for an instance of a process, the first link will not exist anymore. Users clicking on the first link will get an error message.&lt;/p>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th style="text-align:left">Link expire settings&lt;/th>
-&lt;th style="text-align:left">Options&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td style="text-align:left">Never expires&lt;/td>
-&lt;td style="text-align:left">The link will never expire.&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:left">Expire after a number of uses&lt;/td>
-&lt;td style="text-align:left">Add the number of uses before the link expires.&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:left">Expire in time&lt;/td>
-&lt;td style="text-align:left">Give the number of days, hours, and minutes before the link expires.&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;p>Hide form topbar: when selected, the tabs with the form names will not appear at top of the form opened by the external user.&lt;/p>
-&lt;p>Force log out: when set to Yes, the user will be logged out automatically.&lt;/p></description></item><item><title>Docs: Application layout</title><link>https://docs.kianda.com/docs/no-code/application-layout/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/no-code/application-layout/</guid><description>
-&lt;p>&lt;em>As a driver of agile software development&lt;/em>&lt;/p></description></item><item><title>Docs: Assign form</title><link>https://docs.kianda.com/docs/platform/rules/workflow/assign-form/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/workflow/assign-form/</guid><description>
-&lt;p>This rule is used to assign a form to a user or to a group of users. You can override the existing users or add to the existing users.&lt;/p>
-&lt;p>&lt;img src="images/Assign.png" alt="Assign rule dialog box">&lt;/p>
-&lt;h2 id="when-to-use">When to use&lt;/h2>
-&lt;p>You can add this rule:&lt;/p>
+&lt;h2 id="how-to-edit-signature-properties">How to edit signature properties&lt;/h2>
+&lt;p>To change the signature properties, click on the signature itself and the properties pane appears on the right.&lt;/p>
+&lt;img src="https://docs.kianda.com/images/sigproperties.png" alt="Signature properties" style="zoom:60%;" />
+&lt;p>The &lt;strong>Field type&lt;/strong>, Signature is shown along with the &lt;strong>Title&lt;/strong> of the field, in the example above Signature 1.&lt;/p>
+&lt;p>The options within properties are as follows, check the checkbox to implement:&lt;/p>
 &lt;ul>
-&lt;li>&lt;input checked="" disabled="" type="checkbox"> to a field&lt;/li>
-&lt;li>&lt;input checked="" disabled="" type="checkbox"> to a form&lt;/li>
-&lt;li>&lt;input checked="" disabled="" type="checkbox"> to a process (the rule will run on load)&lt;/li>
+&lt;li>&lt;strong>Show Title&lt;/strong> - show the title of the field&lt;/li>
+&lt;li>&lt;strong>Required&lt;/strong> - make this field mandatory for users to fill out&lt;/li>
+&lt;li>&lt;strong>Enabled&lt;/strong> - the field is enabled for users to use&lt;/li>
+&lt;li>&lt;strong>Visible&lt;/strong> - the field is visible to users&lt;/li>
+&lt;li>&lt;strong>Layout&lt;/strong> - change the width of the Signature button by clicking on the Layout box until you see the desired size. Click on the arrow beside Layout to see the Mobile Layout and click on box to change the width of the panel for mobile use.&lt;/li>
 &lt;/ul>
-&lt;h2 id="how-to-use">How to use&lt;/h2>
-&lt;p>To assign a form to a user:&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/textboxsize.png" alt="Changing text box width">&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Rules&lt;/strong> - rules for fields are covered in &lt;a href="https://docs.kianda.com/docs/platform/rules/">Rules&lt;/a>.&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Table control</title><link>https://docs.kianda.com/docs/platform/controls/input/table/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/controls/input/table/</guid><description/></item><item><title>Docs: Global CSS file</title><link>https://docs.kianda.com/docs/low-code/global-css-file/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/low-code/global-css-file/</guid><description/></item><item><title>Docs: Textbox control</title><link>https://docs.kianda.com/docs/platform/controls/input/textbox/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/controls/input/textbox/</guid><description>
+&lt;p>The &lt;strong>Text box control&lt;/strong> is used to input text into a form for example a name or address. There are various options available when creating this field, these are explained below.&lt;/p>
+&lt;h2 id="how-to-get-started">How to get started&lt;/h2>
+&lt;p>&lt;strong>How to add a text box to a form - a sample video&lt;/strong>&lt;/p>
+&lt;video title="How to add a text box to a form" width="100%" style="width:100%" controls="controls">
+&lt;source src="https://docs.kianda.com/videos/textbox.mp4" type="video/mp4">
+&lt;/video>
 &lt;ol>
-&lt;li>Select Controls &amp;gt; Input &amp;gt; User picker to add a field to store the user.&lt;/li>
-&lt;li>Click on a button e.g. the Submit button.&lt;/li>
-&lt;li>Select Add a rule &amp;gt; Workflow &amp;gt; Assign form.&lt;/li>
-&lt;li>Under Action, select a form. You can select more forms by clicking the plus icon.&lt;/li>
-&lt;li>For Assign to, select Defined in a user field. Then select the User picker field created earlier.&lt;/li>
-&lt;li>Set Existing user(s) to Override to make the selected user the only user.&lt;/li>
-&lt;li>Click OK.&lt;/li>
-&lt;/ol>
-&lt;h2 id="notes">Notes&lt;/h2>
-&lt;p>This rule can be used multiple times in sequence: typically the first rule overrides the existing users and the following rule(s) appends users.&lt;/p>
-&lt;p>To view the default owners for the form, go to Edit form in the Designer.&lt;/p></description></item><item><title>Docs: B2B Portals</title><link>https://docs.kianda.com/docs/platform/administration/b2b-portals/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/administration/b2b-portals/</guid><description/></item><item><title>Docs: Button control</title><link>https://docs.kianda.com/docs/platform/controls/actions/button/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/controls/actions/button/</guid><description/></item></channel></rss>
+&lt;li>
+&lt;p>To add the Text box to your form click on &lt;strong>Controls&lt;/strong> &amp;gt; &lt;strong>Input&lt;/strong> &amp;gt; &lt;strong>Text box&lt;/strong>. The text box can also be placed within an element for example a panel, by clicking on the panel itself and then add the text box. Compare in the image below, the text box Name which is inside a panel versus Reason for the request which is outside the panel, both in the form Employee Request.&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/textboxinout.png" alt="Text boxes inside and outside a panel">&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>To edit the Text box, click on the field itself and the &lt;strong>Pen&lt;/strong> button &lt;img src="https://docs.kianda.com/images/penicon.png" alt="Pen icon"> appears allowing you to edit the field.&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/edittextbox.png" alt="Edit text box">&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Choose from the edit options:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>Title&lt;/strong> - of the field, for example Employee Name&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Name&lt;/strong> - this is a unique name for the field&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Help text&lt;/strong> - information to help the form user&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Mode&lt;/strong> - options are a) Single line of text b) Multiple lines of text c) Rich text&lt;/p>
+&lt;p>If you choose a) Single line of text then the following additional options are visible:&lt;/p>
+&lt;p>​ &lt;strong>Control type&lt;/strong> - options are a) Text b) Password&lt;/p>
+&lt;p>​ &lt;strong>Autofill type&lt;/strong> - options are a) Default b) Off c) Password d) Address e) Email f) Phone&lt;/p>
+&lt;p>​ &lt;strong>Placeholder&lt;/strong> - placeholder text that can help the user to know what to fill out in the text box&lt;/p>
+&lt;p>If you choose b) Multiple lines of text then the following additional options are visible:&lt;/p>
+&lt;p>​ &lt;strong>Control type&lt;/strong> - options are a) Text b) Password&lt;/p>
+&lt;p>​ &lt;strong>Autofill type&lt;/strong> - options are a) Default b) Off c) Password d) Address e) Email f) Phone&lt;/p>
+&lt;p>​ &lt;strong>Placeholder&lt;/strong> - placeholder text that can help the user to know what to fill out in the text box&lt;/p>
+&lt;p>​ &lt;strong>Rows&lt;/strong> - the number of rows you would like for the text box&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Text style&lt;/strong> - options are a) Normal b) Capitalise c) Uppercase d) Lowercase&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Max length&lt;/strong> - the maximum number of characters for the field&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Text style&lt;/strong> - options are a) Normal b) Capitalise c) Uppercase d) Lowercase&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Expression&lt;/strong> - this can be used to return a value for example Date() returns the current date and time. For a full explanation of expressions go to &lt;a href="platform/expressions.md">Expressions&lt;/a>&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/textboxfilled.png" alt="Example of text box options">&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Click on the &lt;strong>OK&lt;/strong> button &lt;img src="https://docs.kianda.com/images/ok.png" alt="OK button"> when you are finished editing the field to save your changes or click on &lt;strong>Close&lt;/strong> to exit the dialog box without saving.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>To move the text box, click on the &lt;strong>Drag handle&lt;/strong> &lt;img src="images/move.png" alt="Move button">on the text box field itself and drag it to where you want it to appear on the form, for example within a panel.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>To change the text box properties, click on the field itself and the properties pane appears on the right.&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/textboxproperties.png" alt="Text box properties">&lt;/p>
+&lt;p>Go to &lt;a href="fields/properties.md">Properties&lt;/a> to find out more about options.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>To save your changes to the form, click on the &lt;strong>Save&lt;/strong> button &lt;img src="https://docs.kianda.com/images/saveprocess.png" alt="Save button">.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>To delete the text box, click on the field itself and then click on the &lt;strong>Bin/Trash&lt;/strong> button &lt;img src="https://docs.kianda.com/images/binicon.png" alt="Bin or Trash icon"> and then click on &lt;strong>Ok&lt;/strong> after you have reviewed the field name and are sure this is what you want to delete. Click on &lt;strong>Cancel&lt;/strong> if you wish to cancel the deletion.&lt;/p>
+&lt;/li>
+&lt;/ol></description></item><item><title>Docs: Global JavaScript file</title><link>https://docs.kianda.com/docs/low-code/global-javascript-file/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/low-code/global-javascript-file/</guid><description/></item></channel></rss>
