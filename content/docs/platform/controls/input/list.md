@@ -69,6 +69,7 @@ If you choose **Radio list** or **Checkbox list** you can choose a **List displa
 
 3. Once you complete the **New field - List** dialog box and click **OK** button, a new **List field** is added to your form, with the name you inserted as the **Title** in the dialog box (by default, the title is **List 1** unless you change it).
 
+
 If we take the example of a Training Request form with a list field that contains the different types of training a user can request, the list field (which is titled 'Type of Training' and has a drop-down list format) could look like this when a user views it on their mobile phone:
 
 ![List field dropdown list example mobile phone](/images/List_Field_Example_Mobile.jpg)
@@ -108,12 +109,12 @@ In the example shown here, a **List field** titled **Type of Training** has been
 
 To learn more about the different options within the Field properties menu, go to [Field Properties](/docs/platform/controls/properties#field-properties).
 
+
+
 ### Saving changes and version history ###
 Make sure to save any changes you make by clicking on the **Save** button ![Save](/images/saveprocess.png). You will always have the option to revert back to previous versions of your form by clicking the **Design Version History** ![Version button](/images/version8.png) button in the top right corner.
 
-When your list is complete you should see the list displaying in the format chosen - for example, as a dropdown list as shown here:
 
-![List field dropdown list example](/images/List_Field_Dropdown_List_Example.jpg)
 
 ### What's next  ![Idea icon](/images/18.png) ###
 
