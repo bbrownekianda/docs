@@ -18,7 +18,7 @@ For example, in an Inspection process, you may want the user (an inspector) to b
    The options available in the **New field - File** dialog box include:
 
    - **Title**: You can change the name of the File upload field from the default '**File 1**'
-   - **Help text**: You can insert text to help the form user to complete the File upload field - a question mark ![Help text icon](/images/Help_icon.jpg) icon will appear next to the field title and, if the user clicks on this, they will see the help text you have inserted.
+   - **Help text**: You can insert text to help the form user to complete the File upload field - if you add help text, a question mark ![Help text icon](/images/Help_icon.jpg) icon will appear next to the field title and, if the user clicks on this, they will see the help text you have inserted.
 
    		![File upload help text example](/images/File_Upload_Help_Text.jpg)
 
@@ -56,7 +56,7 @@ For example, in an Inspection process, you may want the user (an inspector) to b
 
    
 
-3. Once you complete the **New field - file** dialog box and click **OK**, a new **File upload field** is added to your form, with the name you inserted as the **Title** in the dialog box (by default the title is **File 1** unless you change it). 
+3. Once you complete the **New field - File** dialog box and click **OK**, a new **File upload field** is added to your form, with the name you inserted as the **Title** in the dialog box (by default the title is **File 1** unless you change it). 
 
 In the example of our Inspection Form, the new File upload field (titled **Upload photos**) added to the form could look like this when a user views it on a mobile phone (to see how your form or field will look on a mobile, view it in **Mobile preview** by using the **Preview** option which can be opened by clicking the play button icon ![Preview](/images/preview.png)):
 
