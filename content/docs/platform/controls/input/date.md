@@ -1,5 +1,7 @@
 ---
 title: "Date control"
+linkTitle: "Date control"
+weight: 1
 typora-root-url: ..\..\..\..\..\static
 ---
 

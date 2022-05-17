@@ -1,5 +1,7 @@
 ---
 title: "Textbox control"
+linkTitle: "Textbox control"
+weight: 6
 typora-root-url: ..\..\..\..\..\static
 ---
 

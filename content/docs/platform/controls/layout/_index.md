@@ -1,5 +1,6 @@
 ---
 title: "Layout controls"
+linkTitle: "Layout controls"
 weight: 2
 typora-root-url: ..\..\..\..\..\static
 ---

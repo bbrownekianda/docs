@@ -1,5 +1,7 @@
 ---
 title: "Panel layout control"
+linkTitle: "Panel layout control"
+weight: 3
 typora-root-url: ..\..\..\..\..\static
 ---
 

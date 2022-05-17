@@ -1,5 +1,7 @@
 ---
 title: "File upload control"
+linkTitle: "File upload control"
+weight: 2
 typora-root-url: ..\..\..\..\..\static
 ---
 

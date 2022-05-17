@@ -1,5 +1,7 @@
 ---
 title: "Field group control"
+linkTitle: "Field group control"
+weight: 1
 typora-root-url: ..\..\..\..\..\static
 ---
 
