@@ -15,12 +15,12 @@ You can add this rule:
 - [x] to a form 
 - [x] to a process (the rule will run on load)
 
- 
+
 ### How to use
 
-To apply this rule, first choose an item to attach the rule to, for example a field, such as a Submit button. 
+To apply this rule, first choose an item to attach the rule to, for example a field, such as a Submit button or other button.
 
-1. Select the **Submit** button, for example.
+1. Select the field to attach the rule to.
 
 2. Click on **Add a rule** > **SharePoint** > **Create a group**.
 
@@ -43,4 +43,10 @@ Under **On error mapping**, click on **Add mapping**.
 
 6. Click on **OK** when complete.
 
-7. Move the rule in the right-hand pane to change the order of execution.
+7. Move the rule in the right-hand pane to change the order of execution as necessary.
+
+
+
+### What's next  ![Idea icon](/images/18.png) ###
+
+Now that you've learned about **Create a group**, return to the [SharePoint rules](/docs/platform/rules/SharePoint/) page to find out about other SharePoint rules. 

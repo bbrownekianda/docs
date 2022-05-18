@@ -24,9 +24,9 @@ You can add this rule:
 
 ### How to use
 
-To add a new SharePoint user, choose an item to attach the rule to, for example a field, such as a Submit button. 
+To add a new SharePoint user, choose an item to attach the rule to, for example a field, such as a Submit button or other button.
 
-1. Select the **Submit** button, for example.
+1. Select the field to attach the rule to.
 
 2. Click on **Add a rule** > **SharePoint** > **Add a user to a group**.
 
@@ -52,7 +52,7 @@ To add a new SharePoint user, choose an item to attach the rule to, for example 
 
 6. Click on **OK** when complete.
 
-7. Move the rule in the right-hand pane to change the order of execution.
+7. Move the rule under **Rules** in the right-hand pane to change the order of execution as necessary.
 
 ### Notes
 
@@ -62,5 +62,5 @@ To use this rule, you must have a user predefined in Kianda and in SharePoint. T
 
 ### What's next  ![Idea icon](/images/18.png) ###
 
-Now that you've learned about **Add a user to a group**, return to the [SharePoint rules](/docs/platform/rules/SharePoint) page to find out about other SharePoint rules. 
+Now that you've learned about **Add a user to a group**, return to the [SharePoint rules](/docs/platform/rules/SharePoint/) page to find out about other SharePoint rules. 
 

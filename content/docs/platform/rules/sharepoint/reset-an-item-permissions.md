@@ -21,10 +21,10 @@ You can add this rule:
 
 ### How to use
 
-To add a new SharePoint user, choose an item to attach the rule to, for example a field, such as a Submit button. 
+To add a new SharePoint user, choose an item to attach the rule to, for example a field, such as a Submit button or other button.
 
-1. Select the **Submit** button, for example.
-2. Click on **Add a rule** > **SharePoint** > **Add a user to a group**.
+1. Select the field to attach the rule to.
+2. Click on **Add a rule** > **SharePoint** > **Reset an item permissions**.
 3. Select a SharePoint **data source** from the drop-down list where the user or group is located. You will be presented with three options:
    - The **item type** is used to confirm what level the permissions are to be set, be it at a site level, list level or item level. Choose from the options: **Site**, **List** or **Other item**. 
    - The **site relative URL** is used as a reference for where the permissions are to be set. This will be a field within Kianda where you will store the site URL from SharePoint. Copy in the URL of the SharePoint item. You can also sore the URL in a field and select the field from the <u>drop-down list</u>.
@@ -46,4 +46,10 @@ To add a new SharePoint user, choose an item to attach the rule to, for example 
 ​		select a field where the text is stored.
 
 7. Click on **OK** when complete.
-8. Move the rule in the right-hand pane to change the order of execution.
+8. Move the rule in the right-hand pane to change the order of execution as necessary.
+
+
+
+### What's next  ![Idea icon](/images/18.png) ###
+
+Now that you've learned about **Create a group**, return to the [SharePoint rules](/docs/platform/rules/SharePoint/) page to find out about other SharePoint rules. 

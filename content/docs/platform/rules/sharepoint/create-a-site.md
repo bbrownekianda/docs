@@ -19,14 +19,18 @@ You can add this rule:
 
 ### How to use
 
-To apply this rule, first choose an item to attach the rule to, for example a field, such as a Submit button. 
+To apply this rule, first choose an item to attach the rule to, for example a field, such as a Submit button or other button.
 
-1. Select the **Submit** button, for example.
+1. Select the field to attach the rule to.
 2. Click on **Add a rule** > **SharePoint** > **Create a site**.
-3. Select a SharePoint **data source** where you want the group to be located. You will be presented with <u>six options</u>.
-4. The site template allows you to select an existing SharePoint site within the SharePoint data source to emulate the formatting and design of the site Site Name, site URL, and site description field are all derived from the Kianda form. Here you select a Kianda field which will be used as the base for the site you are creating. The name field will be used to create the name of the site, the site URL will be used in the creation of the URL within SharePoint and then the site description will be used for the SharePoint site description. Additionally, you can enable “Inherit parent permissions” which will allow you to new site to inherit parent permissions for the SharePoint location.
-5. Once these fields are set you can also set conditions on the rule, further details on conditions can be found here.
-6. The final two sections are optional:
+3. Select a SharePoint **data source** where you want the group to be located. You will be presented with <u>six options</u>:
+   - The **site template** allows you to select an existing SharePoint site within the SharePoint data source to emulate the formatting and design of the site.
+   - **Site Name** allows you to select a Kianda field which will be used as the base for the site you are creating. The name field will be used to create the name of the site, 
+   - **Site URL** will be used in the creation of the URL within SharePoint and then the 
+   - **site description** will be used for the SharePoint site description. **Site Name**, **site URL**, and **site description field** are all derived from the Kianda form.
+   - **Inherit parent permissions** - options are: **Yes** and **No**. If you choose 'Yes' it will allow your new site inherit parent permissions for that SharePoint location.
+4. Once these fields are set you can also set conditions on the rule, further details on conditions can be found here.
+5. The final two sections are optional:
 
 Under **On success mapping**, click on **Add mapping**. 
 	For **Form Field**, select a field to store the text. 
@@ -40,4 +44,11 @@ Under **On error mapping**, click on **Add mapping**.
 
 6. Click on **OK** when complete.
 
-7. Move the rule in the right-hand pane to change the order of execution.
+7. Move the rule in the right-hand pane to change the order of execution as necessary.
+
+   
+
+
+### What's next  ![Idea icon](/images/18.png) ###
+
+Now that you've learned about **Create a site**, return to the [SharePoint rules](/docs/platform/rules/SharePoint/) page to find out about other SharePoint rules. 
