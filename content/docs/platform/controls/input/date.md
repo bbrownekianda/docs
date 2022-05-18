@@ -32,13 +32,20 @@ The **Edit field** dialog box will open, enabling you to choose from a range of 
 The options within the **Edit date field dialog box** include:
 
 - **Title** - you can change the title of the date field
-- **Help text** - you can insert help text a user can view when completing the date field
-- **Display format** - you can choose whether the date field shows the date only or the date and time
-- **Adjust to user timezone** - you can select this if you want the date field to adjust to the time zone of the form user
-- **Set default date onload** - if you choose 'Yes', this means that a value will automatically be put in the date field (like a date stamp) when a user fills out the form and two additional options will appear in the dialog box: 
-  - 1. **Default date** - the option to choose the default date that will be automatically inserted in the form. You can choose from '**Now**', '**Today**' (which inserts today's date and a time of 00:00 midnight) or '**Relative from now'** (you can insert the date you want to use, in terms of the number of days, hours and minutes from now.
-  - 2. **Always set date even if not empty** - the option to have the default date you choose inserted in the date field, even if the field is not empty.
 
+- **Help text** - you can insert help text a user can view when completing the date field
+
+- **Display format** - you can choose whether the date field shows the date only or the date and time
+
+- **Adjust to user timezone** - you can select this if you want the date field to adjust to the time zone of the form user
+
+- **Set default date onload** - if you choose 'Yes', this means that the date field will automatically be populated (with a date stamp) when a user opens the form to start completing it; by default, the date that will be inserted is today's date. If you choose 'No', then the user will need to manually complete the date field. 
+  
+  If you choose 'Yes', two additional options then appear in the dialog box: 
+
+  - 1. **Default date** - this is where you can choose the default date that will be automatically inserted in the form when a user opens it. You can choose from '**Now**', '**Today**' (which inserts today's date and a time of 00:00 midnight) or '**Relative from now'** (you can insert the date you want to use, in terms of the number of days, hours and minutes from now).
+  - 2. **Always set date even if not empty** - if you select this option, this means that the default date you've chosen to be automatically inserted when a user opens the form will be updated/changed *each time* the user goes into the form. In other words, the initial date that was inserted when the form was first opened will be replaced/updated when the user goes back into the form. If you want the date field to retain the initial date the user started to complete the form, do not tick this checkbox.
+  
 - **Enable native picker on mobile** - you can choose to allow users who are completing the date field on a mobile phone to use the default pop-up date picker associated with their mobile phone
 
 To move a **Date field**, simply select the field's **Drag handle** button ![Drag handle button](/images/draghandlewhite_frame.png) and drag and drop the field wherever you want to move it to within your form.
