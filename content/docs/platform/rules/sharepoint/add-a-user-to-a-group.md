@@ -57,3 +57,9 @@ To add a new SharePoint user, choose an item to attach the rule to, for example 
 ### Notes
 
 To use this rule, you must have a user predefined in Kianda and in SharePoint. The group must also be predefined in SharePoint. This rule gives the advantage of allowing multiple users to move to SharePoint groups which could be useful for example during restructuring in an organisation, where existing users need to move to other departments/groups. 
+
+
+
+### What's next  ![Idea icon](/images/18.png) ###
+
+Now that you've learned about **Add a user to a group**, return to the [SharePoint rules](/docs/platform/rules/SharePoint) page to find out about other SharePoint rules. 
