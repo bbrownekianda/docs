@@ -1487,7 +1487,81 @@ Your browser does not support the video tag.
 &lt;li>
 &lt;p>To delete the text box, click on the field itself and then click on the &lt;strong>Bin/Trash&lt;/strong> button &lt;img src="https://docs.kianda.com/images/binicon.png" alt="Bin or Trash icon"> and then click on &lt;strong>Ok&lt;/strong> after you have reviewed the field name and are sure this is what you want to delete. Click on &lt;strong>Cancel&lt;/strong> if you wish to cancel the deletion.&lt;/p>
 &lt;/li>
-&lt;/ol></description></item><item><title>Docs: Global JavaScript file</title><link>https://docs.kianda.com/docs/low-code/global-javascript-file/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/low-code/global-javascript-file/</guid><description/></item><item><title>Docs: Toggle control</title><link>https://docs.kianda.com/docs/platform/controls/input/toggle/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/controls/input/toggle/</guid><description/></item><item><title>Docs: Custom form control development</title><link>https://docs.kianda.com/docs/low-code/field-widget/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/low-code/field-widget/</guid><description/></item><item><title>Docs: Custom rule widget development</title><link>https://docs.kianda.com/docs/low-code/rule-widget/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/low-code/rule-widget/</guid><description/></item><item><title>Docs: Custom dashboard widget development</title><link>https://docs.kianda.com/docs/low-code/dashboard-widget/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/low-code/dashboard-widget/</guid><description/></item><item><title>Docs: Low-Code development best practices</title><link>https://docs.kianda.com/docs/low-code/best-practices/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/low-code/best-practices/</guid><description/></item><item><title>Docs:</title><link>https://docs.kianda.com/docs/platform/pages/listviewfields/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/pages/listviewfields/</guid><description>
+&lt;/ol></description></item><item><title>Docs: Global JavaScript file</title><link>https://docs.kianda.com/docs/low-code/global-javascript-file/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/low-code/global-javascript-file/</guid><description/></item><item><title>Docs: Toggle control</title><link>https://docs.kianda.com/docs/platform/controls/input/toggle/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/controls/input/toggle/</guid><description/></item><item><title>Docs: Custom form control development</title><link>https://docs.kianda.com/docs/low-code/field-widget/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/low-code/field-widget/</guid><description/></item><item><title>Docs: User picker control</title><link>https://docs.kianda.com/docs/platform/controls/input/user-picker/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/controls/input/user-picker/</guid><description>
+&lt;p>The &lt;strong>user picker field&lt;/strong> provides a way to associate a user to a particular task for example to allow a form user to find their manager to approve a workflow. This is achieved by connecting your Kianda form to a data source, for example information in SharePoint, and using the user picker field.&lt;/p>
+&lt;h2 id="how-to-get-started">How to get started&lt;/h2>
+&lt;ol>
+&lt;li>
+&lt;p>To add a particular user, click on &lt;strong>Controls&lt;/strong> &amp;gt; &lt;strong>Input&lt;/strong> &amp;gt; &lt;strong>User picker&lt;/strong>. The field can also be placed within an element for example a panel, by clicking on the panel itself and then add user picker field. Compare in the image below, the field Line Manager which is inside a panel versus Department Manager which is outside the panel, both in the form Employee Request.&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/userpickerinout.png" alt="User picker field inside and outside a panel">&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Choose from the edit options:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>Title&lt;/strong> - of the user, for example Training Manager&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Name&lt;/strong> - this is a unique name for the field&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Help text&lt;/strong> - information to help the form user&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Mode&lt;/strong> - options are a) Single or b) Multiple&lt;/p>
+&lt;p>If you choose b) Multiple then you can choose the maximum number of users to select by clicking on the arrow or simply typing your number into the box, for example 3 users as shown below.&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/maxusers.png" alt="Maximum number of users to select">&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Default to current user&lt;/strong> - options to default to the current user when in edit mode are a) No or b) Yes&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Member of group&lt;/strong> - select the group from your data source that the user is a member of, for example HR Managers&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Selection options&lt;/strong> - choose from a) Users b) Groups c) Partners, as many as needed&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Default selection option&lt;/strong> - choose one from a) Users b) Groups c) Partners&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Show selection option menu&lt;/strong> - options are a) No or b) Yes&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Click on the &lt;strong>OK&lt;/strong> button &lt;img src="https://docs.kianda.com/images/ok.png" alt="Ok button"> when you are finished editing to save your changes or click on &lt;strong>Close&lt;/strong> to exit the dialog box without saving.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>If you need to re-edit the user picker field, click on the field itself and the &lt;strong>Pen&lt;/strong> button &lt;img src="https://docs.kianda.com/images/penicon.png" alt="Pen icon"> appears allowing you to edit the field.&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/userpickeredit.png" alt="Editing the user picker field">&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>To move the field, click on the &lt;strong>Drag handle&lt;/strong> &lt;img src="images/move.png" alt="Move button">on the user picker field itself and drag it to where you want it to appear on the form, for example within a panel.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>To save your changes to the form, click on the &lt;strong>Save&lt;/strong> button &lt;img src="https://docs.kianda.com/images/saveprocess.png" alt="Save button">.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>To delete the field, click on the field itself and then click on the &lt;strong>Bin/Trash&lt;/strong> button &lt;img src="https://docs.kianda.com/images/binicon.png" alt="Bin or Trash icon"> and then click on &lt;strong>Ok&lt;/strong> after you have reviewed the field name and are sure this is what you want to delete. Click on &lt;strong>Cancel&lt;/strong> if you wish to cancel the deletion.&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h2 id="how-to-edit-user-picker-properties">How to edit user picker properties&lt;/h2>
+&lt;p>To change the user picker field properties, click on the field itself and the properties pane appears on the right.&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/userpickerproperties.png" alt="User picker field properties">&lt;/p>
+&lt;p>The &lt;strong>Field type&lt;/strong>, User picker, is shown along with the &lt;strong>Title&lt;/strong> of the field, in the example above Training Manager.&lt;/p>
+&lt;p>The options within properties are as follows, check the checkbox to implement:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Show Title&lt;/strong> - show the title of the field&lt;/li>
+&lt;li>&lt;strong>Required&lt;/strong> - make this field mandatory for users to use&lt;/li>
+&lt;li>&lt;strong>Enabled&lt;/strong> - the field is enabled for users to use&lt;/li>
+&lt;li>&lt;strong>Visible&lt;/strong> - the field is visible to users&lt;/li>
+&lt;li>&lt;strong>Layout&lt;/strong> - change the width of the field by clicking on the bar in the Layout box until you see the desired size. Click on the arrow beside Layout to see the Mobile Layout and click on the bar to change the width of the text box for mobile use.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://docs.kianda.com/images/textboxsize.png" alt="Changing text box width">&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Rules&lt;/strong> - rules for input fields are covered in &lt;a href="rules/README.md">Rules&lt;/a>.&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Custom rule widget development</title><link>https://docs.kianda.com/docs/low-code/rule-widget/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/low-code/rule-widget/</guid><description/></item><item><title>Docs: Custom dashboard widget development</title><link>https://docs.kianda.com/docs/low-code/dashboard-widget/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/low-code/dashboard-widget/</guid><description/></item><item><title>Docs: Low-Code development best practices</title><link>https://docs.kianda.com/docs/low-code/best-practices/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/low-code/best-practices/</guid><description/></item><item><title>Docs:</title><link>https://docs.kianda.com/docs/platform/pages/listviewfields/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/pages/listviewfields/</guid><description>
 &lt;h1 id="list-view-fields">List view fields&lt;/h1>
 &lt;p>When you choose the List widget for your dashboard, there are a number of ways to select fields that you want to view.&lt;/p>
 &lt;ol>
@@ -1526,16 +1600,4 @@ Your browser does not support the video tag.
 &lt;li>
 &lt;p>Go to &lt;a href="#list.md">List widget&lt;/a> to find out about other sorting and search options.&lt;/p>
 &lt;/li>
-&lt;/ol></description></item><item><title>Docs: Active directory</title><link>https://docs.kianda.com/docs/platform/connectors/active-directory/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/connectors/active-directory/</guid><description/></item><item><title>Docs: Add a user to a group</title><link>https://docs.kianda.com/docs/platform/rules/sharepoint/add-a-user-to-a-group/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/sharepoint/add-a-user-to-a-group/</guid><description>
-&lt;p>This rule allows you to add a user into a SharePoint group from within Kianda.&lt;/p>
-&lt;p>When to use:&lt;/p>
-&lt;p>This rule should be used when a user within Kianda should be added to SharePoint Group, i.e. a new hire being added to a team group during their onboarding&lt;/p>
-&lt;p>You can add this rule:&lt;/p>
-&lt;p>· to a field&lt;/p>
-&lt;p>· to a form&lt;/p>
-&lt;p>· to a process (the rule will run on load)&lt;/p>
-&lt;p>How to use:&lt;/p>
-&lt;p>To add a user to a SharePoint group, the first step is to select the SharePoint data source where the group is located, you will then be presented with two fields “Group title field” &amp;amp; “Username or User ID field”.&lt;/p>
-&lt;p>These two fields will be present within the Kianda form (these can be a username &amp;amp; group name field for example) and are used to confirm the user which is to be added and the group they are to be added to Then utilizing the success mapping you can set values from the Kianda form into the user entry within SharePoint.&lt;/p>
-&lt;p>Once these fields are set you can also set conditions on the rule, further details on conditions can be found here:&lt;/p>
-&lt;p>Finally on success/on error mapping can also be set to populate fields on the form, for further details on success &amp;amp; error mapping please see here:&lt;/p></description></item></channel></rss>
+&lt;/ol></description></item><item><title>Docs: Active directory</title><link>https://docs.kianda.com/docs/platform/connectors/active-directory/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/connectors/active-directory/</guid><description/></item></channel></rss>
