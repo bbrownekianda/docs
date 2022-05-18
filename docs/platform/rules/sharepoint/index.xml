@@ -15,10 +15,10 @@
 &lt;/li>
 &lt;/ul>
 &lt;h3 id="how-to-use">How to use&lt;/h3>
-&lt;p>To add a new SharePoint user, choose an item to attach the rule to, for example a field, such as a Submit button.&lt;/p>
+&lt;p>To add a new SharePoint user, choose an item to attach the rule to, for example a field, such as a Submit button or other button.&lt;/p>
 &lt;ol>
 &lt;li>
-&lt;p>Select the &lt;strong>Submit&lt;/strong> button, for example.&lt;/p>
+&lt;p>Select the field to attach the rule to.&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>Click on &lt;strong>Add a rule&lt;/strong> &amp;gt; &lt;strong>SharePoint&lt;/strong> &amp;gt; &lt;strong>Add a user to a group&lt;/strong>.&lt;/p>
@@ -47,13 +47,13 @@ select a field where the text is stored.&lt;/p>
 &lt;p>Click on &lt;strong>OK&lt;/strong> when complete.&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>Move the rule in the right-hand pane to change the order of execution.&lt;/p>
+&lt;p>Move the rule under &lt;strong>Rules&lt;/strong> in the right-hand pane to change the order of execution as necessary.&lt;/p>
 &lt;/li>
 &lt;/ol>
 &lt;h3 id="notes">Notes&lt;/h3>
 &lt;p>To use this rule, you must have a user predefined in Kianda and in SharePoint. The group must also be predefined in SharePoint. This rule gives the advantage of allowing multiple users to move to SharePoint groups which could be useful for example during restructuring in an organisation, where existing users need to move to other departments/groups.&lt;/p>
 &lt;h3 id="whats-next--idea-iconimages18png">What&amp;rsquo;s next &lt;img src="https://docs.kianda.com/images/18.png" alt="Idea icon">&lt;/h3>
-&lt;p>Now that you&amp;rsquo;ve learned about &lt;strong>Add a user to a group&lt;/strong>, return to the &lt;a href="https://docs.kianda.com/docs/platform/rules/SharePoint">SharePoint rules&lt;/a> page to find out about other SharePoint rules.&lt;/p></description></item><item><title>Docs: Check in or out an item</title><link>https://docs.kianda.com/docs/platform/rules/sharepoint/check-in-out-an-item/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/sharepoint/check-in-out-an-item/</guid><description>
+&lt;p>Now that you&amp;rsquo;ve learned about &lt;strong>Add a user to a group&lt;/strong>, return to the &lt;a href="https://docs.kianda.com/docs/platform/rules/SharePoint/">SharePoint rules&lt;/a> page to find out about other SharePoint rules.&lt;/p></description></item><item><title>Docs: Check in or out an item</title><link>https://docs.kianda.com/docs/platform/rules/sharepoint/check-in-out-an-item/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/sharepoint/check-in-out-an-item/</guid><description>
 &lt;p>This rule allows you to check in or check out an item within SharePoint from Kianda.&lt;/p>
 &lt;h3 id="when-to-use">When to use&lt;/h3>
 &lt;p>This rule should be used when a user within Kianda wanted to check in or check out an item from SharePoint&lt;/p>
@@ -64,10 +64,10 @@ select a field where the text is stored.&lt;/p>
 &lt;li>&lt;input checked="" disabled="" type="checkbox"> to a process (the rule will run on load)&lt;/li>
 &lt;/ul>
 &lt;h3 id="how-to-use">How to use&lt;/h3>
-&lt;p>To apply this rule, first choose an item to attach the rule to, for example a field, such as a Submit button.&lt;/p>
+&lt;p>To apply this rule, first choose an item to attach the rule to, for example a field, such as a Submit button or other button.&lt;/p>
 &lt;ol>
 &lt;li>
-&lt;p>Select the &lt;strong>Submit&lt;/strong> button, for example.&lt;/p>
+&lt;p>Select the field to attach the rule to.&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>Click on &lt;strong>Add a rule&lt;/strong> &amp;gt; &lt;strong>SharePoint&lt;/strong> &amp;gt; &lt;strong>Check in/out an item&lt;/strong>.&lt;/p>
@@ -100,9 +100,11 @@ select a field where the text is stored.&lt;/p>
 &lt;p>Click on &lt;strong>OK&lt;/strong> when complete.&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>Move the rule in the right-hand pane to change the order of execution.&lt;/p>
+&lt;p>Move the rule under &lt;strong>Rules&lt;/strong> in the right-hand pane to change the order of execution as necessary.&lt;/p>
 &lt;/li>
-&lt;/ol></description></item><item><title>Docs: Create a group</title><link>https://docs.kianda.com/docs/platform/rules/sharepoint/create-a-group/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/sharepoint/create-a-group/</guid><description>
+&lt;/ol>
+&lt;h3 id="whats-next--idea-iconimages18png">What&amp;rsquo;s next &lt;img src="https://docs.kianda.com/images/18.png" alt="Idea icon">&lt;/h3>
+&lt;p>Now that you&amp;rsquo;ve learned about &lt;strong>Check in/out an item&lt;/strong>, return to the &lt;a href="https://docs.kianda.com/docs/platform/rules/SharePoint/">SharePoint rules&lt;/a> page to find out about other SharePoint rules.&lt;/p></description></item><item><title>Docs: Create a group</title><link>https://docs.kianda.com/docs/platform/rules/sharepoint/create-a-group/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/sharepoint/create-a-group/</guid><description>
 &lt;p>This rule allows you to create a SharePoint group from within Kianda.&lt;/p>
 &lt;h3 id="when-to-use">When to use&lt;/h3>
 &lt;p>This rule should be used when you want to create a new SharePoint group from within your Kianda process for example as part of a new project you want to create a group in SharePoint to provide permissions to specific users.&lt;/p>
@@ -113,10 +115,10 @@ select a field where the text is stored.&lt;/p>
 &lt;li>&lt;input checked="" disabled="" type="checkbox"> to a process (the rule will run on load)&lt;/li>
 &lt;/ul>
 &lt;h3 id="how-to-use">How to use&lt;/h3>
-&lt;p>To apply this rule, first choose an item to attach the rule to, for example a field, such as a Submit button.&lt;/p>
+&lt;p>To apply this rule, first choose an item to attach the rule to, for example a field, such as a Submit button or other button.&lt;/p>
 &lt;ol>
 &lt;li>
-&lt;p>Select the &lt;strong>Submit&lt;/strong> button, for example.&lt;/p>
+&lt;p>Select the field to attach the rule to.&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>Click on &lt;strong>Add a rule&lt;/strong> &amp;gt; &lt;strong>SharePoint&lt;/strong> &amp;gt; &lt;strong>Create a group&lt;/strong>.&lt;/p>
@@ -146,9 +148,11 @@ select a field where the text is stored.&lt;/p>
 &lt;p>Click on &lt;strong>OK&lt;/strong> when complete.&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>Move the rule in the right-hand pane to change the order of execution.&lt;/p>
+&lt;p>Move the rule in the right-hand pane to change the order of execution as necessary.&lt;/p>
 &lt;/li>
-&lt;/ol></description></item><item><title>Docs: Create a list</title><link>https://docs.kianda.com/docs/platform/rules/sharepoint/create-a-list/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/sharepoint/create-a-list/</guid><description>
+&lt;/ol>
+&lt;h3 id="whats-next--idea-iconimages18png">What&amp;rsquo;s next &lt;img src="https://docs.kianda.com/images/18.png" alt="Idea icon">&lt;/h3>
+&lt;p>Now that you&amp;rsquo;ve learned about &lt;strong>Create a group&lt;/strong>, return to the &lt;a href="https://docs.kianda.com/docs/platform/rules/SharePoint/">SharePoint rules&lt;/a> page to find out about other SharePoint rules.&lt;/p></description></item><item><title>Docs: Create a list</title><link>https://docs.kianda.com/docs/platform/rules/sharepoint/create-a-list/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/sharepoint/create-a-list/</guid><description>
 &lt;p>This rule allows you to create a SharePoint List from within Kianda.&lt;/p>
 &lt;h3 id="when-to-use">When to use&lt;/h3>
 &lt;p>This rule should be used when within your Kianda process you wish to create a new SharePoint list, for example as part of a new project you want to create a list in SharePoint to store information pertaining to that project such as invoice numbers.&lt;/p>
@@ -159,10 +163,10 @@ select a field where the text is stored.&lt;/p>
 &lt;li>&lt;input checked="" disabled="" type="checkbox"> to a process (the rule will run on load)&lt;/li>
 &lt;/ul>
 &lt;h3 id="how-to-use">How to use&lt;/h3>
-&lt;p>To apply this rule, first choose an item to attach the rule to, for example a field, such as a Submit button.&lt;/p>
+&lt;p>To apply this rule, first choose an item to attach the rule to, for example a field, such as a Submit button or other button.&lt;/p>
 &lt;ol>
 &lt;li>
-&lt;p>Select the &lt;strong>Submit&lt;/strong> button, for example.&lt;/p>
+&lt;p>Select he field to attach the rule to.&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>Click on &lt;strong>Add a rule&lt;/strong> &amp;gt; &lt;strong>SharePoint&lt;/strong> &amp;gt; &lt;strong>Create a list&lt;/strong>.&lt;/p>
@@ -193,9 +197,11 @@ select a field where the text is stored.&lt;/p>
 &lt;p>Click on &lt;strong>OK&lt;/strong> when complete.&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>Move the rule in the right-hand pane to change the order of execution.&lt;/p>
+&lt;p>Move the rule in the right-hand pane to change the order of execution as necessary.&lt;/p>
 &lt;/li>
-&lt;/ol></description></item><item><title>Docs: Create a site</title><link>https://docs.kianda.com/docs/platform/rules/sharepoint/create-a-site/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/sharepoint/create-a-site/</guid><description>
+&lt;/ol>
+&lt;h3 id="whats-next--idea-iconimages18png">What&amp;rsquo;s next &lt;img src="https://docs.kianda.com/images/18.png" alt="Idea icon">&lt;/h3>
+&lt;p>Now that you&amp;rsquo;ve learned about &lt;strong>Create a list&lt;/strong>, return to the &lt;a href="https://docs.kianda.com/docs/platform/rules/SharePoint/">SharePoint rules&lt;/a> page to find out about other SharePoint rules.&lt;/p></description></item><item><title>Docs: Create a site</title><link>https://docs.kianda.com/docs/platform/rules/sharepoint/create-a-site/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/sharepoint/create-a-site/</guid><description>
 &lt;p>This rule allows you to create a SharePoint site from within Kianda.&lt;/p>
 &lt;h3 id="when-to-use">When to use&lt;/h3>
 &lt;p>This rule should be used when within your Kianda process you wish to create a new SharePoint site, for example, as part of a new project you want to create a site in SharePoint to store information pertaining to that project, to include all lists and other documentation that you need.&lt;/p>
@@ -206,12 +212,19 @@ select a field where the text is stored.&lt;/p>
 &lt;li>&lt;input checked="" disabled="" type="checkbox"> to a process (the rule will run on load)&lt;/li>
 &lt;/ul>
 &lt;h3 id="how-to-use">How to use&lt;/h3>
-&lt;p>To apply this rule, first choose an item to attach the rule to, for example a field, such as a Submit button.&lt;/p>
+&lt;p>To apply this rule, first choose an item to attach the rule to, for example a field, such as a Submit button or other button.&lt;/p>
 &lt;ol>
-&lt;li>Select the &lt;strong>Submit&lt;/strong> button, for example.&lt;/li>
+&lt;li>Select the field to attach the rule to.&lt;/li>
 &lt;li>Click on &lt;strong>Add a rule&lt;/strong> &amp;gt; &lt;strong>SharePoint&lt;/strong> &amp;gt; &lt;strong>Create a site&lt;/strong>.&lt;/li>
-&lt;li>Select a SharePoint &lt;strong>data source&lt;/strong> where you want the group to be located. You will be presented with &lt;u>six options&lt;/u>.&lt;/li>
-&lt;li>The site template allows you to select an existing SharePoint site within the SharePoint data source to emulate the formatting and design of the site Site Name, site URL, and site description field are all derived from the Kianda form. Here you select a Kianda field which will be used as the base for the site you are creating. The name field will be used to create the name of the site, the site URL will be used in the creation of the URL within SharePoint and then the site description will be used for the SharePoint site description. Additionally, you can enable “Inherit parent permissions” which will allow you to new site to inherit parent permissions for the SharePoint location.&lt;/li>
+&lt;li>Select a SharePoint &lt;strong>data source&lt;/strong> where you want the group to be located. You will be presented with &lt;u>six options&lt;/u>:
+&lt;ul>
+&lt;li>The &lt;strong>site template&lt;/strong> allows you to select an existing SharePoint site within the SharePoint data source to emulate the formatting and design of the site.&lt;/li>
+&lt;li>&lt;strong>Site Name&lt;/strong> allows you to select a Kianda field which will be used as the base for the site you are creating. The name field will be used to create the name of the site,&lt;/li>
+&lt;li>&lt;strong>Site URL&lt;/strong> will be used in the creation of the URL within SharePoint and then the&lt;/li>
+&lt;li>&lt;strong>site description&lt;/strong> will be used for the SharePoint site description. &lt;strong>Site Name&lt;/strong>, &lt;strong>site URL&lt;/strong>, and &lt;strong>site description field&lt;/strong> are all derived from the Kianda form.&lt;/li>
+&lt;li>&lt;strong>Inherit parent permissions&lt;/strong> - options are: &lt;strong>Yes&lt;/strong> and &lt;strong>No&lt;/strong>. If you choose &amp;lsquo;Yes&amp;rsquo; it will allow your new site inherit parent permissions for that SharePoint location.&lt;/li>
+&lt;/ul>
+&lt;/li>
 &lt;li>Once these fields are set you can also set conditions on the rule, further details on conditions can be found here.&lt;/li>
 &lt;li>The final two sections are optional:&lt;/li>
 &lt;/ol>
@@ -228,9 +241,11 @@ select a field where the text is stored.&lt;/p>
 &lt;p>Click on &lt;strong>OK&lt;/strong> when complete.&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>Move the rule in the right-hand pane to change the order of execution.&lt;/p>
+&lt;p>Move the rule in the right-hand pane to change the order of execution as necessary.&lt;/p>
 &lt;/li>
-&lt;/ol></description></item><item><title>Docs: Create an anonymous link</title><link>https://docs.kianda.com/docs/platform/rules/sharepoint/create-anonymous-link/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/sharepoint/create-anonymous-link/</guid><description>
+&lt;/ol>
+&lt;h3 id="whats-next--idea-iconimages18png">What&amp;rsquo;s next &lt;img src="https://docs.kianda.com/images/18.png" alt="Idea icon">&lt;/h3>
+&lt;p>Now that you&amp;rsquo;ve learned about &lt;strong>Create a site&lt;/strong>, return to the &lt;a href="https://docs.kianda.com/docs/platform/rules/SharePoint/">SharePoint rules&lt;/a> page to find out about other SharePoint rules.&lt;/p></description></item><item><title>Docs: Create an anonymous link</title><link>https://docs.kianda.com/docs/platform/rules/sharepoint/create-anonymous-link/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/sharepoint/create-anonymous-link/</guid><description>
 &lt;p>This rule allows you to create an anonymous link for a file within SharePoint from a Kianda form&lt;/p>
 &lt;h3 id="when-to-use">When to use&lt;/h3>
 &lt;p>This rule should be used when a file within SharePoint should be shared with an individual via an anonymous link.&lt;/p>
@@ -243,12 +258,24 @@ select a field where the text is stored.&lt;/p>
 &lt;h3 id="how-to-use">How to use&lt;/h3>
 &lt;p>To apply this rule, first choose an item to attach the rule to, for example a file field where the desired file is set in Kianda.&lt;/p>
 &lt;ol>
-&lt;li>Select a file field.&lt;/li>
-&lt;li>Click on &lt;strong>Add a rule&lt;/strong> &amp;gt; &lt;strong>SharePoint&lt;/strong> &amp;gt; &lt;strong>Create anonymous link&lt;/strong>.&lt;/li>
-&lt;li>Select a SharePoint &lt;strong>data source&lt;/strong> where you want the group to be located.&lt;/li>
-&lt;li>The next step is to set the &lt;u>duration of the link&lt;/u>, this is by default 6 hours, this can be extended or reduced as needed.&lt;/li>
-&lt;li>Finally, choose a field within Kianda to store this &lt;u>anonymous link&lt;/u>, which can then be used to access the file. For example you could create a utility panel with a textbox for the anonymous link, where the panel and the textbox are not visible to users. This textbox is simply used to hold the system generated link.&lt;/li>
-&lt;/ol></description></item><item><title>Docs: Find a user</title><link>https://docs.kianda.com/docs/platform/rules/sharepoint/find-a-user/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/sharepoint/find-a-user/</guid><description>
+&lt;li>
+&lt;p>Select a file field.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Click on &lt;strong>Add a rule&lt;/strong> &amp;gt; &lt;strong>SharePoint&lt;/strong> &amp;gt; &lt;strong>Create anonymous link&lt;/strong>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Select a SharePoint &lt;strong>data source&lt;/strong> where you want the group to be located.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>The next step is to set the &lt;u>duration of the link&lt;/u>, this is by default 6 hours, this can be extended or reduced as needed.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Finally, choose a field within Kianda to store this anonymous link, which can then be used to access the file. For example you could create a utility panel with a textbox for the anonymous link, where the panel and the textbox are not visible to users. This textbox is simply used to hold the system generated link.&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h3 id="whats-next--idea-iconimages18png">What&amp;rsquo;s next &lt;img src="https://docs.kianda.com/images/18.png" alt="Idea icon">&lt;/h3>
+&lt;p>Now that you&amp;rsquo;ve learned about &lt;strong>Create anonymous link&lt;/strong>, return to the &lt;a href="https://docs.kianda.com/docs/platform/rules/SharePoint/">SharePoint rules&lt;/a> page to find out about other SharePoint rules.&lt;/p></description></item><item><title>Docs: Find a user</title><link>https://docs.kianda.com/docs/platform/rules/sharepoint/find-a-user/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/sharepoint/find-a-user/</guid><description>
 &lt;p>This rule allows you to find a user from a data source using a Kianda process.&lt;/p>
 &lt;h3 id="when-to-use">When to use&lt;/h3>
 &lt;p>Use this rule to pull user data into a Kianda form for example when someone wants to add employee information to a form using SharePoint details.&lt;/p>
@@ -259,10 +286,10 @@ select a field where the text is stored.&lt;/p>
 &lt;li>&lt;input checked="" disabled="" type="checkbox"> to a process (the rule will run on load)&lt;/li>
 &lt;/ul>
 &lt;h3 id="how-to-use">How to use&lt;/h3>
-&lt;p>To apply this rule, first choose an item to attach the rule to, for example a field, such as a Submit button.&lt;/p>
+&lt;p>To apply this rule, first choose an item to attach the rule to, for example a field, such as a Submit button or other button.&lt;/p>
 &lt;ol>
 &lt;li>
-&lt;p>Select the &lt;strong>Submit&lt;/strong> button, for example.&lt;/p>
+&lt;p>Select the field to attach the rule to.&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>Click on &lt;strong>Add a rule&lt;/strong> &amp;gt; &lt;strong>SharePoint&lt;/strong> &amp;gt; &lt;strong>Find a user&lt;/strong>.&lt;/p>
@@ -285,27 +312,37 @@ select a field where the text is stored.&lt;/p>
 &lt;p>Click on &lt;strong>OK&lt;/strong> when complete.&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>Move the rule in the right-hand pane to change the order of execution.&lt;/p>
+&lt;p>Move the rule in the right-hand pane to change the order of execution as necessary.&lt;/p>
 &lt;/li>
-&lt;/ol></description></item><item><title>Docs: Get List item attachments</title><link>https://docs.kianda.com/docs/platform/rules/sharepoint/get-attachments/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/sharepoint/get-attachments/</guid><description>
+&lt;/ol>
+&lt;h3 id="whats-next--idea-iconcontentdocsplatformrulessharepointfind-a-userassets18png">What&amp;rsquo;s next &lt;img src="https://docs.kianda.com/../content/docs/platform/rules/sharepoint/find-a-user.assets/18.png" alt="Idea icon">&lt;/h3>
+&lt;p>Now that you&amp;rsquo;ve learned about &lt;strong>Find a user&lt;/strong>, return to the &lt;a href="https://docs.kianda.com/docs/platform/rules/SharePoint/">SharePoint rules&lt;/a> page to find out about other SharePoint rules.&lt;/p></description></item><item><title>Docs: Get List item attachments</title><link>https://docs.kianda.com/docs/platform/rules/sharepoint/get-attachments/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/sharepoint/get-attachments/</guid><description>
 &lt;p>This rule allows you to retrieve an &lt;u>attachment&lt;/u> from a SharePoint list for use in a Kianda process.&lt;/p>
 &lt;h3 id="when-to-use">When to use&lt;/h3>
 &lt;p>This rule should be used when an attachment is to be pulled from SharePoint and displayed within a Kianda process.&lt;/p>
 &lt;p>You can add this rule:&lt;/p>
 &lt;ul>
-&lt;li>&lt;input checked="" disabled="" type="checkbox"> to a field&lt;/li>
-&lt;li>&lt;input checked="" disabled="" type="checkbox"> to a form&lt;/li>
-&lt;li>&lt;input checked="" disabled="" type="checkbox"> to a process (the rule will run on load)&lt;/li>
+&lt;li>
+&lt;p>&lt;input checked="" disabled="" type="checkbox"> to a field&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;input checked="" disabled="" type="checkbox"> to a form&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;input checked="" disabled="" type="checkbox"> to a process (the rule will run on load)&lt;/p>
+&lt;/li>
 &lt;/ul>
 &lt;h3 id="how-to-use">How to use&lt;/h3>
-&lt;p>To apply this rule, first choose an item to attach the rule to, for example a field, such as a Submit button.&lt;/p>
+&lt;p>To apply this rule, first choose an item to attach the rule to, for example a field, such as a Submit button or other button.&lt;/p>
 &lt;ol>
-&lt;li>Select the &lt;strong>Submit&lt;/strong> button, for example.&lt;/li>
+&lt;li>Select the field to attach the rule to.&lt;/li>
 &lt;li>Click on &lt;strong>Add a rule&lt;/strong> &amp;gt; &lt;strong>SharePoint&lt;/strong> &amp;gt; &lt;strong>Get attachments&lt;/strong>.&lt;/li>
 &lt;li>Select a SharePoint &lt;strong>data source&lt;/strong> where the file is located. Then select the file field within Kianda where the file should be available.&lt;/li>
 &lt;li>Once the &lt;u>setup is complete&lt;/u>, you can set a condition on the rule to determine which file is pulled from SharePoint. The simplest way of doing this is to use a condition on the name of the attachment within SharePoint equaling a value that is set on the condition, i.e. “filename.csv”.&lt;/li>
 &lt;/ol>
-&lt;p>This rule can then be run on a button which is manually triggered by a user, or automatically on load of the process. From here the file can be utilized to populate data fields/tables etc. This will be discussed further in &lt;u>other rules&lt;/u>.&lt;/p></description></item><item><title>Docs: Remove a user from a group</title><link>https://docs.kianda.com/docs/platform/rules/sharepoint/remove-a-user-from-a-group/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/sharepoint/remove-a-user-from-a-group/</guid><description>
+&lt;p>This rule can then be run on a button which is manually triggered by a user, or automatically on load of the process. From here the file can be utilized to populate data fields/tables etc. This will be discussed further in &lt;u>other rules&lt;/u>.&lt;/p>
+&lt;h3 id="whats-next--idea-iconcontentdocsplatformrulessharepointget-attachmentsassets18png">What&amp;rsquo;s next &lt;img src="https://docs.kianda.com/../content/docs/platform/rules/sharepoint/get-attachments.assets/18.png" alt="Idea icon">&lt;/h3>
+&lt;p>Now that you&amp;rsquo;ve learned about &lt;strong>Get attachments&lt;/strong>, return to the &lt;a href="https://docs.kianda.com/docs/platform/rules/SharePoint/">SharePoint rules&lt;/a> page to find out about other SharePoint rules.&lt;/p></description></item><item><title>Docs: Remove a user from a group</title><link>https://docs.kianda.com/docs/platform/rules/sharepoint/remove-a-user-from-a-group/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/sharepoint/remove-a-user-from-a-group/</guid><description>
 &lt;p>This rule allows you to remove a user from a SharePoint group from within Kianda.&lt;/p>
 &lt;h3 id="when-to-use">When to use&lt;/h3>
 &lt;p>This rule should be used when a user within Kianda should be removed from a SharePoint Group, i.e. an employee leaving a company and to ensure they are removed from team groups&lt;/p>
@@ -316,10 +353,10 @@ select a field where the text is stored.&lt;/p>
 &lt;li>&lt;input checked="" disabled="" type="checkbox"> to a process (the rule will run on load)&lt;/li>
 &lt;/ul>
 &lt;h3 id="how-to-use">How to use&lt;/h3>
-&lt;p>To apply this rule, first choose an item to attach the rule to, for example a field, such as a Submit button.&lt;/p>
+&lt;p>To apply this rule, first choose an item to attach the rule to, for example a field, such as a Submit button or other button.&lt;/p>
 &lt;ol>
 &lt;li>
-&lt;p>Select the &lt;strong>Submit&lt;/strong> button, for example.&lt;/p>
+&lt;p>Select the field to attach the rule to.&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>Click on &lt;strong>Add a rule&lt;/strong> &amp;gt; &lt;strong>SharePoint&lt;/strong> &amp;gt; &lt;strong>Remove a user from a group&lt;/strong>.&lt;/p>
@@ -350,9 +387,11 @@ select a field where the text is stored.&lt;/p>
 &lt;p>Click on &lt;strong>OK&lt;/strong> when complete.&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>Move the rule in the right-hand pane to change the order of execution.&lt;/p>
+&lt;p>Move the rule in the right-hand pane to change the order of execution as necessary.&lt;/p>
 &lt;/li>
-&lt;/ol></description></item><item><title>Docs: Reset permissions</title><link>https://docs.kianda.com/docs/platform/rules/sharepoint/reset-an-item-permissions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/sharepoint/reset-an-item-permissions/</guid><description>
+&lt;/ol>
+&lt;h3 id="whats-next--idea-iconimages18png">What&amp;rsquo;s next &lt;img src="https://docs.kianda.com/images/18.png" alt="Idea icon">&lt;/h3>
+&lt;p>Now that you&amp;rsquo;ve learned about &lt;strong>Remove a user from a group&lt;/strong>, return to the &lt;a href="https://docs.kianda.com/docs/platform/rules/SharePoint/">SharePoint rules&lt;/a> page to find out about other SharePoint rules.&lt;/p></description></item><item><title>Docs: Reset permissions</title><link>https://docs.kianda.com/docs/platform/rules/sharepoint/reset-an-item-permissions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/sharepoint/reset-an-item-permissions/</guid><description>
 &lt;p>This rule allows you to reset permissions for a user/group within a SharePoint site/list/item within Kianda.&lt;/p>
 &lt;h3 id="when-to-use">When to use&lt;/h3>
 &lt;p>This rule should be used when you wish to alter permissions within Kianda to reflect within SharePoint.&lt;/p>
@@ -369,10 +408,10 @@ select a field where the text is stored.&lt;/p>
 &lt;/li>
 &lt;/ul>
 &lt;h3 id="how-to-use">How to use&lt;/h3>
-&lt;p>To add a new SharePoint user, choose an item to attach the rule to, for example a field, such as a Submit button.&lt;/p>
+&lt;p>To add a new SharePoint user, choose an item to attach the rule to, for example a field, such as a Submit button or other button.&lt;/p>
 &lt;ol>
-&lt;li>Select the &lt;strong>Submit&lt;/strong> button, for example.&lt;/li>
-&lt;li>Click on &lt;strong>Add a rule&lt;/strong> &amp;gt; &lt;strong>SharePoint&lt;/strong> &amp;gt; &lt;strong>Add a user to a group&lt;/strong>.&lt;/li>
+&lt;li>Select the field to attach the rule to.&lt;/li>
+&lt;li>Click on &lt;strong>Add a rule&lt;/strong> &amp;gt; &lt;strong>SharePoint&lt;/strong> &amp;gt; &lt;strong>Reset an item permissions&lt;/strong>.&lt;/li>
 &lt;li>Select a SharePoint &lt;strong>data source&lt;/strong> from the drop-down list where the user or group is located. You will be presented with three options:
 &lt;ul>
 &lt;li>The &lt;strong>item type&lt;/strong> is used to confirm what level the permissions are to be set, be it at a site level, list level or item level. Choose from the options: &lt;strong>Site&lt;/strong>, &lt;strong>List&lt;/strong> or &lt;strong>Other item&lt;/strong>.&lt;/li>
@@ -396,5 +435,7 @@ Select the &lt;strong>Permission level&lt;/strong> from the drop-down list. Exam
 ​ select a field where the text is stored.&lt;/p>
 &lt;ol start="7">
 &lt;li>Click on &lt;strong>OK&lt;/strong> when complete.&lt;/li>
-&lt;li>Move the rule in the right-hand pane to change the order of execution.&lt;/li>
-&lt;/ol></description></item></channel></rss>
+&lt;li>Move the rule in the right-hand pane to change the order of execution as necessary.&lt;/li>
+&lt;/ol>
+&lt;h3 id="whats-next--idea-iconimages18png">What&amp;rsquo;s next &lt;img src="https://docs.kianda.com/images/18.png" alt="Idea icon">&lt;/h3>
+&lt;p>Now that you&amp;rsquo;ve learned about &lt;strong>Create a group&lt;/strong>, return to the &lt;a href="https://docs.kianda.com/docs/platform/rules/SharePoint/">SharePoint rules&lt;/a> page to find out about other SharePoint rules.&lt;/p></description></item></channel></rss>
