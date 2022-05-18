@@ -18,6 +18,7 @@ You can add this rule:
 - [x] to a field
 - [x] to a form 
 - [x] to a process (the rule will run on load)
+
 ###### How to use
 To send a meeting request when the user submits a form:
 1. Before adding the rule, add fields to store the start date & time, the end date & time, and the location of the meeting: 

@@ -5,36 +5,45 @@ typora-root-url: ..\..\..\..\..\static
 
 This rule allows you to reset permissions for a user/group within a SharePoint site/list/item within Kianda.
 
-When to use:
+### When to use
 
 This rule should be used when you wish to alter permissions within Kianda to reflect within SharePoint. 
 
 You can add this rule:
 
-·    to a field
+- [x] to a field
 
-·    to a form
+- [x] to a form 
 
-·    to a process (the rule will run on load)
+- [x] to a process (the rule will run on load)
 
  
 
-How to use:
+### How to use
 
-To set the permissions for a user/group in SharePoint, the first step is to select the SharePoint data source where the user or group is located, you will then be presented with three options. 
+To add a new SharePoint user, choose an item to attach the rule to, for example a field, such as a Submit button. 
 
-The item type is used to confirm what level the permissions are to be set, be it at a site level, list level or item level. 
+1. Select the **Submit** button, for example.
+2. Click on **Add a rule** > **SharePoint** > **Add a user to a group**.
+3. Select a SharePoint **data source** from the drop-down list where the user or group is located. You will be presented with three options:
+   - The **item type** is used to confirm what level the permissions are to be set, be it at a site level, list level or item level. Choose from the options: **Site**, **List** or **Other item**. 
+   - The **site relative URL** is used as a reference for where the permissions are to be set. This will be a field within Kianda where you will store the site URL from SharePoint. Copy in the URL of the SharePoint item. You can also sore the URL in a field and select the field from the <u>drop-down list</u>.
+   - The **Existing permissions** allows you to either append or override the permissions of the user/group within SharePoint. Choose from the options: **Add to existing** or **Replace existing**. If it is set to **Add to existing** it will append the permissions and if it is set to **Replace existing** it will override the current permissions and only reflect the new permissions assigned via this rule. 
+4. Under **Input mapping** section, click on **Add mapping**. This setting is used to determine what level of permissions the user/group will be assigned.
+   For **User or Group id**, select the field where the user is stored.  This could be either a  User Picker field or a text field.
+   Select the **Permission level** from the drop-down list.  Examples are <u>**Edit** or **View only**</u>.
+5. Once these fields are set you can also set conditions on the rule, further details on conditions can be found here:
+6. The final two sections are optional:
 
-The site relative URL is used as a reference for where the permissions are to be set. This will be a field within Kianda where you will store the site URL from SharePoint. 
+​	Under **On success mapping**, click on **Add mapping**. 
+​	For **Form Field**, select a field to store the text. 
+​	For **Data source field** or text, either enter the text or 
+​		select a field where the text is stored.
 
-Next, the existing permissions allows you to either append or override the permissions of the user/group within SharePoint, if it is set to add to existing it will append the permissions and if it is set to replace existing it will override the current permissions and only reflect the new permissions assigned via this rule. 
+​	Under **On error mapping**, click on **Add mapping**. 
+​	For **Form Field**, select a field to store the text. 
+​	For **Error message** or text, either enter the text or 
+​		select a field where the text is stored.
 
-The last step is to set the input mapping which is used to determine what level of permissions the user/group will be assigned. The “User or Group ID” will be a field within Kianda which will have the ID for the user or group in SharePoint which is to be updated. The permission level will then detail what permissions will be assigned to the user/group selected in the input mapping. 
-
-Once these fields are set you can also set conditions on the rule, further details on conditions can be found here:
-
-Finally on success/on error mapping can also be set to populate fields of the form or within the site, for further details on success & error mapping please see here:
-
-Further details on conditions can be found here:
-
-This can then be run on a button which is manually triggered by a user, or automatically on load of the process to update a user’s permissions within SharePoint.
+7. Click on **OK** when complete.
+8. Move the rule in the right-hand pane to change the order of execution.

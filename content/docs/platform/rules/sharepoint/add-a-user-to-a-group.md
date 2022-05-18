@@ -5,30 +5,55 @@ typora-root-url: ..\..\..\..\..\static
 
 This rule allows you to add a user into a SharePoint group from within Kianda.
 
-When to use:
 
-This rule should be used when a user within Kianda should be added to SharePoint Group, i.e. a new hire being added to a team group during their onboarding
+
+### When to use
+
+This rule should be used when a user within Kianda should be added to SharePoint Group,for example, a new hire being added to a team group during their onboarding.
 
 You can add this rule:
 
-·    to a field
+- [x] to a field
 
-·    to a form
+- [x] to a form 
 
-·    to a process (the rule will run on load)
+- [x] to a process (the rule will run on load)
 
- 
+  
 
-How to use:
 
-To add a user to a SharePoint group, the first step is to select the SharePoint data source where the group is located, you will then be presented with two fields “Group title field” & “Username or User ID field”. 
+### How to use
 
-These two fields will be present within the Kianda form (these can be a username & group name field for example) and are used to confirm the user which is to be added and the group they are to be added to Then utilizing the success mapping you can set values from the Kianda form into the user entry within SharePoint. 
+To add a new SharePoint user, choose an item to attach the rule to, for example a field, such as a Submit button. 
 
- 
+1. Select the **Submit** button, for example.
 
-Once these fields are set you can also set conditions on the rule, further details on conditions can be found here:
+2. Click on **Add a rule** > **SharePoint** > **Add a user to a group**.
 
- 
+3. Select a SharePoint **data source** from the drop-down list.  
 
-Finally on success/on error mapping can also be set to populate fields on the form, for further details on success & error mapping please see here:
+4. Two new fields will appear: 
+   For **Group title** field, select the field where the group title is stored for example, a list field.
+   For **Username or User Id**, select the field where the Username or User id is stored.
+
+5. The final two sections are optional:
+
+   Under **On success mapping**, click on **Add mapping**. 
+   	For **Form Field**, select a field to store the text. 
+   	For **Data source field** or text, either enter the text or 
+   		select a field where the text is stored.
+
+   Under **On error mapping**, click on **Add mapping**. 
+   	For **Form Field**, select a field to store the text. 
+   	For **Error message** or text, either enter the text or 
+   		select a field where the text is stored.
+
+   For further details on success & error mapping please see here.
+
+6. Click on **OK** when complete.
+
+7. Move the rule in the right-hand pane to change the order of execution.
+
+### Notes
+
+To use this rule, you must have a user predefined in Kianda and in SharePoint. The group must also be predefined in SharePoint. This rule gives the advantage of allowing multiple users to move to SharePoint groups which could be useful for example during restructuring in an organisation, where existing users need to move to other departments/groups. 
