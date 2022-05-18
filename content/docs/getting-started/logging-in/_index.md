@@ -4,7 +4,7 @@ weight: 2
 typora-root-url: ..\..\..\..\static
 ---
 
-If your organisation already has a login, go to your given Kianda login page. If not, sign up for a free trial by going to https://portal.kianda.com/public/signup. You will be prompted to confirm your email address and then you can log in. The Kianda platform runs in the cloud, so you only need a web browser to use it and can use any mobile device to log in. 
+If your organisation already has a login, go to your given Kianda login page. You will be prompted to confirm your email address and then you can log in. The Kianda platform runs in the cloud, so you only need a web browser to use it and can use any mobile device to log in. 
 
 When you log in, you will have access to the Kianda **workspace** where you can build end-to-end business processes, connect to data sources and view the results in real-time data dashboards.  
 
