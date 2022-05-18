@@ -1415,7 +1415,7 @@ Your browser does not support the video tag.
 &lt;p>If you want to use Kianda for no-code development, follow these simple steps:&lt;/p>
 &lt;p>&lt;img src="https://docs.kianda.com/images/one.png" alt="1"> &lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/plan-your-process/">&lt;strong>Plan your process&lt;/strong>&lt;/a>&lt;/p>
 &lt;p>&lt;img src="https://docs.kianda.com/images/two.png" alt="2"> &lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/design-and-build/">&lt;strong>Design and build your process&lt;/strong>&lt;/a>&lt;/p>
-&lt;p>&lt;img src="https://docs.kianda.com/images/three.png" alt="3"> &lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/publish-your-process/">&lt;strong>Publish your process&lt;/strong>&lt;/a>&lt;/p></description></item><item><title>Docs: Global CSS file</title><link>https://docs.kianda.com/docs/low-code/global-css-file/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/low-code/global-css-file/</guid><description/></item><item><title>Docs: Global JavaScript file</title><link>https://docs.kianda.com/docs/low-code/global-javascript-file/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/low-code/global-javascript-file/</guid><description/></item><item><title>Docs: Custom form control development</title><link>https://docs.kianda.com/docs/low-code/field-widget/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/low-code/field-widget/</guid><description/></item><item><title>Docs: Custom rule widget development</title><link>https://docs.kianda.com/docs/low-code/rule-widget/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/low-code/rule-widget/</guid><description/></item><item><title>Docs: Custom dashboard widget development</title><link>https://docs.kianda.com/docs/low-code/dashboard-widget/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/low-code/dashboard-widget/</guid><description/></item><item><title>Docs: Low-Code development best practices</title><link>https://docs.kianda.com/docs/low-code/best-practices/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/low-code/best-practices/</guid><description/></item><item><title>Docs:</title><link>https://docs.kianda.com/docs/platform/pages/listviewfields/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/pages/listviewfields/</guid><description>
+&lt;p>&lt;img src="https://docs.kianda.com/images/three.png" alt="3"> &lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/publish-your-process/">&lt;strong>Publish your process&lt;/strong>&lt;/a>&lt;/p></description></item><item><title>Docs: Table control</title><link>https://docs.kianda.com/docs/platform/controls/input/table/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/controls/input/table/</guid><description/></item><item><title>Docs: Global CSS file</title><link>https://docs.kianda.com/docs/low-code/global-css-file/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/low-code/global-css-file/</guid><description/></item><item><title>Docs: Global JavaScript file</title><link>https://docs.kianda.com/docs/low-code/global-javascript-file/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/low-code/global-javascript-file/</guid><description/></item><item><title>Docs: Custom form control development</title><link>https://docs.kianda.com/docs/low-code/field-widget/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/low-code/field-widget/</guid><description/></item><item><title>Docs: Custom rule widget development</title><link>https://docs.kianda.com/docs/low-code/rule-widget/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/low-code/rule-widget/</guid><description/></item><item><title>Docs: Custom dashboard widget development</title><link>https://docs.kianda.com/docs/low-code/dashboard-widget/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/low-code/dashboard-widget/</guid><description/></item><item><title>Docs: Low-Code development best practices</title><link>https://docs.kianda.com/docs/low-code/best-practices/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/low-code/best-practices/</guid><description/></item><item><title>Docs:</title><link>https://docs.kianda.com/docs/platform/pages/listviewfields/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/pages/listviewfields/</guid><description>
 &lt;h1 id="list-view-fields">List view fields&lt;/h1>
 &lt;p>When you choose the List widget for your dashboard, there are a number of ways to select fields that you want to view.&lt;/p>
 &lt;ol>
@@ -1668,57 +1668,4 @@ Video should be here?
 &lt;h6 id="notes-11">Notes&lt;/h6>
 &lt;p>Explain other advanced scenarios of the rule&lt;/p>
 &lt;p>Hide or show table columns
-Similar to hide / show rule enables the complete hidding of a whole column within a table.&lt;/p></description></item><item><title>Docs: Anonymous form link</title><link>https://docs.kianda.com/docs/platform/rules/communications/anonymous-form-link/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/communications/anonymous-form-link/</guid><description>
-&lt;p>This rule creates a link to a form which can be sent to an external user. The user can open the form without the need for authentication.&lt;/p>
-&lt;p>&lt;img src="https://docs.kianda.com/images/anonymousformlink.png" alt="Anonymous form link dialog box">&lt;/p>
-&lt;h6 id="when-to-use">When to use&lt;/h6>
-&lt;p>You can add this rule:&lt;/p>
-&lt;ul>
-&lt;li>&lt;input checked="" disabled="" type="checkbox"> to a field&lt;/li>
-&lt;li>&lt;input checked="" disabled="" type="checkbox"> to a form&lt;/li>
-&lt;li>&lt;input checked="" disabled="" type="checkbox"> to a process (the rule will run on load)&lt;/li>
-&lt;/ul>
-&lt;h6 id="how-to-use">How to use&lt;/h6>
-&lt;p>To send an anonymous form link to an external user:&lt;/p>
-&lt;ol>
-&lt;li>Before adding the rule, add a text field to store the anonymous link: Click on Controls &amp;gt; Input &amp;gt; Text and drag the field onto the form. Edit the field by clicking on it and then clicking the pen icon. Change the Title to &lt;em>Anonymous Link&lt;/em>. Change the Name(unique) to &lt;em>anonymousLink&lt;/em>.&lt;/li>
-&lt;li>Select the Submit button.&lt;/li>
-&lt;li>Click on Add a rule &amp;gt; Communications &amp;gt; Anonymous form link.&lt;/li>
-&lt;li>Under Action, Select a form to be completed by an external user.&lt;/li>
-&lt;li>Select the Anonymous Link field where the link will be stored.&lt;/li>
-&lt;li>Enter a message for the external user. This message will be displayed when they submit the form.&lt;/li>
-&lt;li>Click OK.&lt;/li>
-&lt;li>Select Add a rule &amp;gt; Communications &amp;gt; Send email:
-a. Add the external user&amp;rsquo;s email address under To:
-b. Add a Subject.
-c. Use the Expression builder to add [anonymousLink] to the Body of the email.
-d. Refer to the documentation for the Send email rule, if required.&lt;/li>
-&lt;li>Click OK.&lt;/li>
-&lt;/ol>
-&lt;p>The field used to store the Anonymous Link can be made invisible to the user of the current form. Go to the field properties and set the field to &lt;em>not visible&lt;/em>.&lt;/p>
-&lt;h6 id="notes">Notes&lt;/h6>
-&lt;p>&lt;em>Each record or instance of a process can have only one active link.&lt;/em> If a second anonymous link is created for an instance of a process, the first link will not exist anymore. Users clicking on the first link will get an error message.&lt;/p>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th style="text-align:left">Link expire settings&lt;/th>
-&lt;th style="text-align:left">Options&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td style="text-align:left">Never expires&lt;/td>
-&lt;td style="text-align:left">The link will never expire.&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:left">Expire after a number of uses&lt;/td>
-&lt;td style="text-align:left">Add the number of uses before the link expires.&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:left">Expire in time&lt;/td>
-&lt;td style="text-align:left">Give the number of days, hours, and minutes before the link expires.&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;p>Hide form topbar: when selected, the tabs with the form names will not appear at top of the form opened by the external user.&lt;/p>
-&lt;p>Force log out: when set to Yes, the user will be logged out automatically.&lt;/p></description></item></channel></rss>
+Similar to hide / show rule enables the complete hidding of a whole column within a table.&lt;/p></description></item></channel></rss>
