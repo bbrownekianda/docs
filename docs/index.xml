@@ -219,7 +219,7 @@ Your browser does not support the video tag.
 &lt;p>&lt;img src="https://docs.kianda.com/images/File_Upload_Help_Text.jpg" alt="File upload help text example">&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;strong>Save location&lt;/strong>: This is the location the file will be saved to. When you click on the &lt;strong>Destination&lt;/strong> button, a &lt;strong>Select datasource&lt;/strong> dialog box opens in which you can choose where you want the file(s) to be saved to:&lt;/p>
+&lt;p>&lt;strong>Save location&lt;/strong>: This is the location the file will be saved to. When you click on the &lt;strong>Destination&lt;/strong> button, a &lt;strong>Select datasource&lt;/strong> dialog box opens in which you can choose where to save the file(s):&lt;/p>
 &lt;p>&lt;img src="https://docs.kianda.com/images/File_Upload_Select_Datasource.jpg" alt="Select datasource dialog box">&lt;/p>
 &lt;p>You can choose to save the file or files to Kianda or to another external data source.&lt;/p>
 &lt;/li>
@@ -227,10 +227,13 @@ Your browser does not support the video tag.
 &lt;p>&lt;strong>Open file behaviour&lt;/strong>: You can choose whether the file is downloaded or opens in an internet browser.&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;strong>Allow file override&lt;/strong>: You can choose whether or not to allow file override.&lt;/p>
+&lt;p>&lt;strong>Folder structure&lt;/strong>: If you have chosen an external data source as the &amp;lsquo;Save location&amp;rsquo; for the file(s) uploaded to the file upload field, you can then choose the folder structure you want to use for saving the files to that external data source.&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;strong>Allow remove file&lt;/strong>: If you select &lt;strong>Yes&lt;/strong>, another option appears - &lt;strong>Remove and delete file&lt;/strong>: if you choose &lt;strong>Yes&lt;/strong>, when the file is removed, it will also be deleted from the location where it was stored; if you choose &lt;strong>No&lt;/strong>, then only the reference to the file is removed from the form.&lt;/p>
+&lt;p>&lt;strong>Allow file override&lt;/strong>: You can choose whether or not to allow file override. If you choose &amp;lsquo;Yes&amp;rsquo;, if a user goes back into the form and uploads another file to the File upload field, this will override the original file they had uploaded. This option works in conjunction with the &lt;strong>Allow uploading multiple files&lt;/strong> option - if you choose to allow multiple files to be uploaded, then the &amp;lsquo;Allow file override&amp;rsquo; option is no longer relevant (as uploading more files will not override file/files already uploaded).&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Allow remove file&lt;/strong>: If you select &lt;strong>Yes&lt;/strong>, this allows the form user to come back into the form and remove the file they had previously uploaded, and another option appears - &lt;strong>Remove and delete file&lt;/strong>: if you choose &lt;strong>Yes&lt;/strong>, when the file is removed, it will also be deleted from the location where it was stored; if you choose &lt;strong>No&lt;/strong>, then only the reference to the file is removed from the form.&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>&lt;strong>Allow uploading multiple files&lt;/strong>: Choose &lt;strong>No&lt;/strong> to only allow the user to upload one file or choose &lt;strong>Yes&lt;/strong> to allow the user to upload multiple files.&lt;/p>
@@ -252,10 +255,16 @@ Your browser does not support the video tag.
 &lt;p>&lt;strong>Button icon&lt;/strong>: By default, the file upload icon is &lt;img src="https://docs.kianda.com/images/File_Upload_Icon.jpg" alt="File upload icon"> but you can change this by clicking the Button icon drop-down menu and choosing a different icon from the large range of icons available.&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;strong>Enable background upload&lt;/strong>: Select this checkbox to enable files to be uploaded using a background operation.&lt;/p>
+&lt;p>&lt;strong>Enable background upload&lt;/strong>: Select this checkbox to enable files to be uploaded using a background operation. This option is typically used in conjunction with the &lt;strong>Enable chunked upload&lt;/strong> option.&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>&lt;strong>Enable chunked upload&lt;/strong>: Select this checkbox to upload files using resumable chunks. This option can be useful if the file size is likely to be large or the network speed is likely to be slow.&lt;/p>
+&lt;p>&lt;strong>Note:&lt;/strong> If you select &lt;strong>Enable background upload&lt;/strong> and &lt;strong>Enable chunked upload&lt;/strong> there is an additional step you need to take to ensure that these upload options work. In your form, you need to select &lt;u>each field or button&lt;/u> that has a &lt;strong>Save process rule&lt;/strong> applied to it, click on that rule to open the &lt;strong>Edit rule&lt;/strong> dialog box and select the &lt;strong>Perform background save&lt;/strong> checkbox. Then click &lt;strong>OK&lt;/strong>. This will ensure that the upload options you&amp;rsquo;ve chosen for your File upload field work as intended.&lt;/p>
+&lt;p>For example, you would need to select the &amp;lsquo;Save process&amp;rsquo; rule attached to the &amp;lsquo;Save&amp;rsquo; button in your form (by clicking on the &lt;strong>Save&lt;/strong> button and then clicking on the &lt;strong>Save process&lt;/strong> rule):&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/Selecting_Save_Process_Rule.jpg" alt="Selecting Save Process rule">&lt;/p>
+&lt;p>This opens the &lt;strong>Edit rule - Save form&lt;/strong> dialog box - check the &lt;strong>Perform background save&lt;/strong> option and then click &lt;strong>OK&lt;/strong>:&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/Save_Process_Rule_Perform_Background_Save.jpg" alt="Edit rule dialog box perform background save">&lt;/p>
+&lt;p>If the &lt;strong>Enable background upload&lt;/strong> and &lt;strong>Enable chunked upload&lt;/strong> options are chosen and a user completes a form while they are in an area with poor coverage, once the user re-establishes internet connection they will need to go back into Kianda and click the &lt;strong>Force refresh&lt;/strong> button &lt;img src="https://docs.kianda.com/images/refresh.png" alt="Refresh button"> at the top right of the &lt;strong>Home&lt;/strong> page.&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>&lt;strong>Show uploaded files count&lt;/strong>: Select &lt;strong>Yes&lt;/strong> to show the number of uploaded files.&lt;/p>
