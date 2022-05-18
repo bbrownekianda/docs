@@ -19,11 +19,12 @@ For example, in an Inspection process, you may want the user (an inspector) to b
    The options available in the **New field - File** dialog box include:
 
    - **Title**: You can change the name of the File upload field from the default '**File 1**'
+
    - **Help text**: You can insert text to help the form user to complete the File upload field - if you add help text, a question mark ![Help text icon](/images/Help_icon.jpg) icon will appear next to the field title and, if the user clicks on this, they will see the help text you have inserted.
 
    		![File upload help text example](/images/File_Upload_Help_Text.jpg)
 
-   - **Save location**: This is the location the file will be saved to. When you click on the **Destination** button, a **Select datasource** dialog box opens in which you can choose where you want the file(s) to be saved to:
+   - **Save location**: This is the location the file will be saved to. When you click on the **Destination** button, a **Select datasource** dialog box opens in which you can choose where to save the file(s):
 
      ![Select datasource dialog box](/images/File_Upload_Select_Datasource.jpg)
 
@@ -31,9 +32,11 @@ For example, in an Inspection process, you may want the user (an inspector) to b
 
    - **Open file behaviour**: You can choose whether the file is downloaded or opens in an internet browser.
 
-   - **Allow file override**: You can choose whether or not to allow file override.
+   - **Folder structure**: If you have chosen an external data source as the 'Save location' for the file(s) uploaded to the file upload field, you can then choose the folder structure you want to use for saving the files to that external data source.
 
-   - **Allow remove file**: If you select **Yes**, another option appears - **Remove and delete file**: if you choose **Yes**, when the file is removed, it will also be deleted from the location where it was stored; if you choose **No**, then only the reference to the file is removed from the form.
+   - **Allow file override**: You can choose whether or not to allow file override. If you choose 'Yes', if a user goes back into the form and uploads another file to the File upload field, this will override the original file they had uploaded. This option works in conjunction with the **Allow uploading multiple files** option - if you choose to allow multiple files to be uploaded, then the 'Allow file override' option is no longer relevant (as uploading more files will not override file/files already uploaded).
+
+   - **Allow remove file**: If you select **Yes**, this allows the form user to come back into the form and remove the file they had previously uploaded, and another option appears - **Remove and delete file**: if you choose **Yes**, when the file is removed, it will also be deleted from the location where it was stored; if you choose **No**, then only the reference to the file is removed from the form.
 
    - **Allow uploading multiple files**: Choose **No** to only allow the user to upload one file or choose **Yes** to allow the user to upload multiple files.
 
@@ -49,9 +52,21 @@ For example, in an Inspection process, you may want the user (an inspector) to b
 
    - **Button icon**: By default, the file upload icon is ![File upload icon](/images/File_Upload_Icon.jpg) but you can change this by clicking the Button icon drop-down menu and choosing a different icon from the large range of icons available.
 
-   - **Enable background upload**: Select this checkbox to enable files to be uploaded using a background operation.
+   - **Enable background upload**: Select this checkbox to enable files to be uploaded using a background operation. This option is typically used in conjunction with the **Enable chunked upload** option. 
 
    - **Enable chunked upload**: Select this checkbox to upload files using resumable chunks. This option can be useful if the file size is likely to be large or the network speed is likely to be slow.
+
+     **Note:** If you select **Enable background upload** and **Enable chunked upload** there is an additional step you need to take to ensure that these upload options work. In your form, you need to select <u>each field or button</u> that has a **Save process rule** applied to it, click on that rule to open the **Edit rule** dialog box and select the **Perform background save** checkbox. Then click **OK**. This will ensure that the upload options you've chosen for your File upload field work as intended.
+
+     For example, you would need to select the 'Save process' rule attached to the 'Save' button in your form (by clicking on the **Save** button and then clicking on the **Save process** rule):
+
+     ![Selecting Save Process rule](/images/Selecting_Save_Process_Rule.jpg)
+
+     This opens the **Edit rule - Save form** dialog box - check the **Perform background save** option and then click **OK**:
+
+     ![Edit rule dialog box perform background save](/images/Save_Process_Rule_Perform_Background_Save.jpg)
+
+     If the **Enable background upload** and **Enable chunked upload** options are chosen and a user completes a form while they are in an area with poor coverage, once the user re-establishes internet connection they will need to go back into Kianda and click the **Force refresh** button ![Refresh button](/images/refresh.png) at the top right of the **Home** page.
 
    - **Show uploaded files count**: Select **Yes** to show the number of uploaded files.
 
