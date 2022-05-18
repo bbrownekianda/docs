@@ -1415,7 +1415,79 @@ Your browser does not support the video tag.
 &lt;p>If you want to use Kianda for no-code development, follow these simple steps:&lt;/p>
 &lt;p>&lt;img src="https://docs.kianda.com/images/one.png" alt="1"> &lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/plan-your-process/">&lt;strong>Plan your process&lt;/strong>&lt;/a>&lt;/p>
 &lt;p>&lt;img src="https://docs.kianda.com/images/two.png" alt="2"> &lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/design-and-build/">&lt;strong>Design and build your process&lt;/strong>&lt;/a>&lt;/p>
-&lt;p>&lt;img src="https://docs.kianda.com/images/three.png" alt="3"> &lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/publish-your-process/">&lt;strong>Publish your process&lt;/strong>&lt;/a>&lt;/p></description></item><item><title>Docs: Table control</title><link>https://docs.kianda.com/docs/platform/controls/input/table/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/controls/input/table/</guid><description/></item><item><title>Docs: Global CSS file</title><link>https://docs.kianda.com/docs/low-code/global-css-file/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/low-code/global-css-file/</guid><description/></item><item><title>Docs: Global JavaScript file</title><link>https://docs.kianda.com/docs/low-code/global-javascript-file/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/low-code/global-javascript-file/</guid><description/></item><item><title>Docs: Custom form control development</title><link>https://docs.kianda.com/docs/low-code/field-widget/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/low-code/field-widget/</guid><description/></item><item><title>Docs: Custom rule widget development</title><link>https://docs.kianda.com/docs/low-code/rule-widget/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/low-code/rule-widget/</guid><description/></item><item><title>Docs: Custom dashboard widget development</title><link>https://docs.kianda.com/docs/low-code/dashboard-widget/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/low-code/dashboard-widget/</guid><description/></item><item><title>Docs: Low-Code development best practices</title><link>https://docs.kianda.com/docs/low-code/best-practices/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/low-code/best-practices/</guid><description/></item><item><title>Docs:</title><link>https://docs.kianda.com/docs/platform/pages/listviewfields/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/pages/listviewfields/</guid><description>
+&lt;p>&lt;img src="https://docs.kianda.com/images/three.png" alt="3"> &lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/publish-your-process/">&lt;strong>Publish your process&lt;/strong>&lt;/a>&lt;/p></description></item><item><title>Docs: Table control</title><link>https://docs.kianda.com/docs/platform/controls/input/table/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/controls/input/table/</guid><description/></item><item><title>Docs: Global CSS file</title><link>https://docs.kianda.com/docs/low-code/global-css-file/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/low-code/global-css-file/</guid><description/></item><item><title>Docs: Textbox control</title><link>https://docs.kianda.com/docs/platform/controls/input/textbox/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/controls/input/textbox/</guid><description>
+&lt;p>The &lt;strong>Text box control&lt;/strong> is used to input text into a form for example a name or address. There are various options available when creating this field, these are explained below.&lt;/p>
+&lt;h2 id="how-to-get-started">How to get started&lt;/h2>
+&lt;p>&lt;strong>How to add a text box to a form - a sample video&lt;/strong>&lt;/p>
+&lt;video title="How to add a text box to a form" width="100%" style="width:100%" controls="controls">
+&lt;source src="https://docs.kianda.com/videos/textbox.mp4" type="video/mp4">
+&lt;/video>
+&lt;ol>
+&lt;li>
+&lt;p>To add the Text box to your form click on &lt;strong>Controls&lt;/strong> &amp;gt; &lt;strong>Input&lt;/strong> &amp;gt; &lt;strong>Text box&lt;/strong>. The text box can also be placed within an element for example a panel, by clicking on the panel itself and then add the text box. Compare in the image below, the text box Name which is inside a panel versus Reason for the request which is outside the panel, both in the form Employee Request.&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/textboxinout.png" alt="Text boxes inside and outside a panel">&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>To edit the Text box, click on the field itself and the &lt;strong>Pen&lt;/strong> button &lt;img src="https://docs.kianda.com/images/penicon.png" alt="Pen icon"> appears allowing you to edit the field.&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/edittextbox.png" alt="Edit text box">&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Choose from the edit options:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>Title&lt;/strong> - of the field, for example Employee Name&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Name&lt;/strong> - this is a unique name for the field&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Help text&lt;/strong> - information to help the form user&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Mode&lt;/strong> - options are a) Single line of text b) Multiple lines of text c) Rich text&lt;/p>
+&lt;p>If you choose a) Single line of text then the following additional options are visible:&lt;/p>
+&lt;p>​ &lt;strong>Control type&lt;/strong> - options are a) Text b) Password&lt;/p>
+&lt;p>​ &lt;strong>Autofill type&lt;/strong> - options are a) Default b) Off c) Password d) Address e) Email f) Phone&lt;/p>
+&lt;p>​ &lt;strong>Placeholder&lt;/strong> - placeholder text that can help the user to know what to fill out in the text box&lt;/p>
+&lt;p>If you choose b) Multiple lines of text then the following additional options are visible:&lt;/p>
+&lt;p>​ &lt;strong>Control type&lt;/strong> - options are a) Text b) Password&lt;/p>
+&lt;p>​ &lt;strong>Autofill type&lt;/strong> - options are a) Default b) Off c) Password d) Address e) Email f) Phone&lt;/p>
+&lt;p>​ &lt;strong>Placeholder&lt;/strong> - placeholder text that can help the user to know what to fill out in the text box&lt;/p>
+&lt;p>​ &lt;strong>Rows&lt;/strong> - the number of rows you would like for the text box&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Text style&lt;/strong> - options are a) Normal b) Capitalise c) Uppercase d) Lowercase&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Max length&lt;/strong> - the maximum number of characters for the field&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Text style&lt;/strong> - options are a) Normal b) Capitalise c) Uppercase d) Lowercase&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Expression&lt;/strong> - this can be used to return a value for example Date() returns the current date and time. For a full explanation of expressions go to &lt;a href="platform/expressions.md">Expressions&lt;/a>&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/textboxfilled.png" alt="Example of text box options">&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Click on the &lt;strong>OK&lt;/strong> button &lt;img src="https://docs.kianda.com/images/ok.png" alt="OK button"> when you are finished editing the field to save your changes or click on &lt;strong>Close&lt;/strong> to exit the dialog box without saving.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>To move the text box, click on the &lt;strong>Drag handle&lt;/strong> &lt;img src="images/move.png" alt="Move button">on the text box field itself and drag it to where you want it to appear on the form, for example within a panel.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>To change the text box properties, click on the field itself and the properties pane appears on the right.&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/textboxproperties.png" alt="Text box properties">&lt;/p>
+&lt;p>Go to &lt;a href="fields/properties.md">Properties&lt;/a> to find out more about options.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>To save your changes to the form, click on the &lt;strong>Save&lt;/strong> button &lt;img src="https://docs.kianda.com/images/saveprocess.png" alt="Save button">.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>To delete the text box, click on the field itself and then click on the &lt;strong>Bin/Trash&lt;/strong> button &lt;img src="https://docs.kianda.com/images/binicon.png" alt="Bin or Trash icon"> and then click on &lt;strong>Ok&lt;/strong> after you have reviewed the field name and are sure this is what you want to delete. Click on &lt;strong>Cancel&lt;/strong> if you wish to cancel the deletion.&lt;/p>
+&lt;/li>
+&lt;/ol></description></item><item><title>Docs: Global JavaScript file</title><link>https://docs.kianda.com/docs/low-code/global-javascript-file/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/low-code/global-javascript-file/</guid><description/></item><item><title>Docs: Custom form control development</title><link>https://docs.kianda.com/docs/low-code/field-widget/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/low-code/field-widget/</guid><description/></item><item><title>Docs: Custom rule widget development</title><link>https://docs.kianda.com/docs/low-code/rule-widget/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/low-code/rule-widget/</guid><description/></item><item><title>Docs: Custom dashboard widget development</title><link>https://docs.kianda.com/docs/low-code/dashboard-widget/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/low-code/dashboard-widget/</guid><description/></item><item><title>Docs: Low-Code development best practices</title><link>https://docs.kianda.com/docs/low-code/best-practices/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/low-code/best-practices/</guid><description/></item><item><title>Docs:</title><link>https://docs.kianda.com/docs/platform/pages/listviewfields/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/pages/listviewfields/</guid><description>
 &lt;h1 id="list-view-fields">List view fields&lt;/h1>
 &lt;p>When you choose the List widget for your dashboard, there are a number of ways to select fields that you want to view.&lt;/p>
 &lt;ol>
@@ -1489,183 +1561,4 @@ Add the destination field where the result will be displayed
 Add the special dates - days you want to exclude from your addition
 Save and press ok
 Note: If you are adding hours or minutes to a date, you can limit the day with the business hours option - ie.: 09:00 to 17:00.
-VIDEO&lt;/p></description></item><item><title>Docs: Aggregate table</title><link>https://docs.kianda.com/docs/platform/rules/tables/aggregate-table/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/tables/aggregate-table/</guid><description>
-&lt;h5 id="heading">&lt;/h5>
-&lt;h6 id="introduction---good-description-simple-language">Introduction - good description, simple language&lt;/h6>
-&lt;pre>&lt;code> A screenshots back-up the intro
-&lt;/code>&lt;/pre>
-&lt;h6 id="when-to-use">When to use&lt;/h6>
-&lt;h6 id="how-to-use">How to use&lt;/h6>
-&lt;p>Number of points for the actual steps you need to follow to configure the rule.&lt;/p>
-&lt;h6 id="notes">Notes&lt;/h6>
-&lt;p>Explain other advanced scenarios of the rule
-Loops through table rows
-Loops through a table to trigger consecutively rules within the table
-FROM HELP??
-If you need to perform loop actions on table, you can do so with Loop tables under Add a rule. In the example, we are importing data using the file and performing loop action on the &amp;lsquo;Set Complete&amp;rsquo; button.&lt;/p>
-&lt;p>In this case, we need to set form field value of &amp;lsquo;Status&amp;rsquo; to &amp;lsquo;Complete&amp;rsquo;.&lt;/p>
-&lt;p>Select &amp;lsquo;Loop Complete&amp;rsquo; button.
-Go to &amp;lsquo;Add a rule&amp;rsquo;.
-Select &amp;lsquo;Tables&amp;rsquo;.
-Select &amp;lsquo;Loop table&amp;rsquo;.
-Select a table &amp;lsquo;List of tickets&amp;rsquo;.
-Select column field which needs to be triggered.
-VIDEO??&lt;/p>
-&lt;h5 id="add-table-row">Add table row&lt;/h5>
-&lt;h6 id="introduction---good-description-simple-language-1">Introduction - good description, simple language&lt;/h6>
-&lt;pre>&lt;code> A screenshots back-up the intro
-&lt;/code>&lt;/pre>
-&lt;h6 id="when-to-use-1">When to use&lt;/h6>
-&lt;h6 id="how-to-use-1">How to use&lt;/h6>
-&lt;pre>&lt;code> Number of points for the actual steps you need to follow to configure the rule.
-Video should be here?
-&lt;/code>&lt;/pre>
-&lt;h6 id="notes-1">Notes&lt;/h6>
-&lt;p>Explain other advanced scenarios of the rule
-Add a new row to a table
-Adds a new row into a table&lt;/p>
-&lt;h5 id="remove-table-row">Remove table row&lt;/h5>
-&lt;h6 id="introduction---good-description-simple-language-2">Introduction - good description, simple language&lt;/h6>
-&lt;pre>&lt;code> A screenshots back-up the intro
-&lt;/code>&lt;/pre>
-&lt;h6 id="when-to-use-2">When to use&lt;/h6>
-&lt;h6 id="how-to-use-2">How to use&lt;/h6>
-&lt;pre>&lt;code> Number of points for the actual steps you need to follow to configure the rule.
-Video should be here?
-&lt;/code>&lt;/pre>
-&lt;h6 id="notes-2">Notes&lt;/h6>
-&lt;p>Explain other advanced scenarios of the rule&lt;/p>
-&lt;p>Remove current row from a table
-Remove a row from the table.
-Run this rule from the context of the row to remove the current row&lt;/p>
-&lt;h5 id="import-csv">Import CSV&lt;/h5>
-&lt;h6 id="introduction---good-description-simple-language-3">Introduction - good description, simple language&lt;/h6>
-&lt;pre>&lt;code> A screenshots back-up the intro
-&lt;/code>&lt;/pre>
-&lt;h6 id="when-to-use-3">When to use&lt;/h6>
-&lt;h6 id="how-to-use-3">How to use&lt;/h6>
-&lt;pre>&lt;code> Number of points for the actual steps you need to follow to configure the rule.
-Video should be here?
-&lt;/code>&lt;/pre>
-&lt;h6 id="notes-3">Notes&lt;/h6>
-&lt;p>Explain other advanced scenarios of the rule
-Import a csv file into a table
-Imports CSV or XLSX data into a table based on provided mapping
-FROM HELP??
-Yes, you can easily do that. First of all, you will need a File upload input, so you can upload the file from your computer. Then, you can create the rule wherever it suits you. On the example, we created a button specifically to map the CSV file to the table.&lt;/p>
-&lt;p>Click on the button to add the rule.
-Navigate to Tables &amp;gt; Import CSV.
-Select the CSV file field where you will upload the CSV file.
-On the CSV Separator, as the data on our CSV file is separated in columns, we are using the &amp;quot; | &amp;quot; sign.
-Select the number of columns expected.
-You can skip the first line, in case you have a header row in your file.
-Select the destination table.
-You can alternatively, override existing table fields.
-Select the mapping options and click &amp;lsquo;OK&amp;rsquo;.
-VIDEO??&lt;/p>
-&lt;h5 id="export-csv">Export CSV&lt;/h5>
-&lt;h6 id="introduction---good-description-simple-language-4">Introduction - good description, simple language&lt;/h6>
-&lt;pre>&lt;code> A screenshots back-up the intro
-&lt;/code>&lt;/pre>
-&lt;h6 id="when-to-use-4">When to use&lt;/h6>
-&lt;h6 id="how-to-use-4">How to use&lt;/h6>
-&lt;pre>&lt;code> Number of points for the actual steps you need to follow to configure the rule.
-Video should be here?
-&lt;/code>&lt;/pre>
-&lt;h6 id="notes-4">Notes&lt;/h6>
-&lt;p>Explain other advanced scenarios of the rule&lt;/p>
-&lt;p>Export a table as CSV file
-Exports the content of the table as a CSV file&lt;/p>
-&lt;h5 id="copy-table-rows">Copy table rows&lt;/h5>
-&lt;h6 id="introduction---good-description-simple-language-5">Introduction - good description, simple language&lt;/h6>
-&lt;pre>&lt;code> A screenshots back-up the intro
-&lt;/code>&lt;/pre>
-&lt;h6 id="when-to-use-5">When to use&lt;/h6>
-&lt;h6 id="how-to-use-5">How to use&lt;/h6>
-&lt;pre>&lt;code> Number of points for the actual steps you need to follow to configure the rule.
-Video should be here?
-&lt;/code>&lt;/pre>
-&lt;h6 id="notes-5">Notes&lt;/h6>
-&lt;p>Explain other advanced scenarios of the rule&lt;/p>
-&lt;p>Copy table rows from one table to another
-Copy rows between tables based on copy conditions&lt;/p>
-&lt;h5 id="clear-table-rows">Clear table rows&lt;/h5>
-&lt;h6 id="introduction---good-description-simple-language-6">Introduction - good description, simple language&lt;/h6>
-&lt;pre>&lt;code> A screenshots back-up the intro
-&lt;/code>&lt;/pre>
-&lt;h6 id="when-to-use-6">When to use&lt;/h6>
-&lt;h6 id="how-to-use-6">How to use&lt;/h6>
-&lt;pre>&lt;code> Number of points for the actual steps you need to follow to configure the rule.
-Video should be here?
-&lt;/code>&lt;/pre>
-&lt;h6 id="notes-6">Notes&lt;/h6>
-&lt;p>Explain other advanced scenarios of the rule&lt;/p>
-&lt;p>Remove table rows matching a criteria
-Clears or conditionally removes rows from a table&lt;/p>
-&lt;h5 id="lookup-value-from-table">Lookup value from table&lt;/h5>
-&lt;h6 id="introduction---good-description-simple-language-7">Introduction - good description, simple language&lt;/h6>
-&lt;pre>&lt;code> A screenshots back-up the intro
-&lt;/code>&lt;/pre>
-&lt;h6 id="when-to-use-7">When to use&lt;/h6>
-&lt;h6 id="how-to-use-7">How to use&lt;/h6>
-&lt;pre>&lt;code> Number of points for the actual steps you need to follow to configure the rule.
-Video should be here?
-&lt;/code>&lt;/pre>
-&lt;h6 id="notes-7">Notes&lt;/h6>
-&lt;p>Explain other advanced scenarios of the rule&lt;/p>
-&lt;p>Lookup table value matching a criteria
-Lookup table cell value based on conditions&lt;/p>
-&lt;h5 id="update-table-values">Update table values&lt;/h5>
-&lt;h6 id="introduction---good-description-simple-language-8">Introduction - good description, simple language&lt;/h6>
-&lt;pre>&lt;code> A screenshots back-up the intro
-&lt;/code>&lt;/pre>
-&lt;h6 id="when-to-use-8">When to use&lt;/h6>
-&lt;h6 id="how-to-use-8">How to use&lt;/h6>
-&lt;pre>&lt;code> Number of points for the actual steps you need to follow to configure the rule.
-Video should be here?
-&lt;/code>&lt;/pre>
-&lt;h6 id="notes-8">Notes&lt;/h6>
-&lt;p>Explain other advanced scenarios of the rule&lt;/p>
-&lt;p>Update table column matching a criteria
-Updates table cell values based on conditions&lt;/p>
-&lt;h5 id="sort-table">Sort table&lt;/h5>
-&lt;h6 id="introduction---good-description-simple-language-9">Introduction - good description, simple language&lt;/h6>
-&lt;pre>&lt;code> A screenshots back-up the intro
-&lt;/code>&lt;/pre>
-&lt;h6 id="when-to-use-9">When to use&lt;/h6>
-&lt;h6 id="how-to-use-9">How to use&lt;/h6>
-&lt;pre>&lt;code> Number of points for the actual steps you need to follow to configure the rule.
-Video should be here?
-&lt;/code>&lt;/pre>
-&lt;h6 id="notes-9">Notes&lt;/h6>
-&lt;p>Explain other advanced scenarios of the rule&lt;/p>
-&lt;p>Sort a table based on a table field(s)
-Sort table data based on multiple conditions.
-Multiple sortings can be used sequentially to achieve the desired results&lt;/p>
-&lt;h5 id="aggregate-table">Aggregate table&lt;/h5>
-&lt;h6 id="introduction---good-description-simple-language-10">Introduction - good description, simple language&lt;/h6>
-&lt;pre>&lt;code> A screenshots back-up the intro
-&lt;/code>&lt;/pre>
-&lt;h6 id="when-to-use-10">When to use&lt;/h6>
-&lt;h6 id="how-to-use-10">How to use&lt;/h6>
-&lt;pre>&lt;code> Number of points for the actual steps you need to follow to configure the rule.
-Video should be here?
-&lt;/code>&lt;/pre>
-&lt;h6 id="notes-10">Notes&lt;/h6>
-&lt;p>Explain other advanced scenarios of the rule&lt;/p>
-&lt;p>See example in suggestion box&lt;/p>
-&lt;p>Aggregate table values
-&amp;ldquo;Use this rule to perform sum of a table cell, count the rows or even calculate the avg of the value within a table cell. Use conditions to further improve how aggregation occurs&amp;rdquo;&lt;/p>
-&lt;h5 id="hide--show-column">Hide / Show column&lt;/h5>
-&lt;h6 id="introduction---good-description-simple-language-11">Introduction - good description, simple language&lt;/h6>
-&lt;pre>&lt;code> A screenshots back-up the intro
-&lt;/code>&lt;/pre>
-&lt;h6 id="when-to-use-11">When to use&lt;/h6>
-&lt;h6 id="how-to-use-11">How to use&lt;/h6>
-&lt;pre>&lt;code> Number of points for the actual steps you need to follow to configure the rule.
-Video should be here?
-&lt;/code>&lt;/pre>
-&lt;h6 id="notes-11">Notes&lt;/h6>
-&lt;p>Explain other advanced scenarios of the rule&lt;/p>
-&lt;p>Hide or show table columns
-Similar to hide / show rule enables the complete hidding of a whole column within a table.&lt;/p></description></item></channel></rss>
+VIDEO&lt;/p></description></item></channel></rss>
