@@ -124,103 +124,23 @@ Multiple conditions can be grouped with condition groups.&lt;/p>
 &lt;/li>
 &lt;/ul></description></item><item><title>Docs: AI rules</title><link>https://docs.kianda.com/docs/platform/rules/kianda-ai/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/kianda-ai/</guid><description>
 &lt;p>Artificial Intelligence powered text analysis performs sentiment analysis to text content&lt;/p></description></item><item><title>Docs: SharePoint rules</title><link>https://docs.kianda.com/docs/platform/rules/sharepoint/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/sharepoint/</guid><description>
-&lt;p>These rules describe SharePoint specific functionality. These rules are typically used to perform actions with SharePoint connectors that are not related with data like reseting permissions or adding a user into a group.&lt;/p>
-&lt;h5 id="create-a-list">Create a list&lt;/h5>
-&lt;p>Creates a new list on SharePoint
-SharePoint specific rule. Allows the creation of a new list in a SharePoint site&lt;/p>
-&lt;h5 id="create-a-site">Create a site&lt;/h5>
-&lt;p>Creates a new site on SharePoint
-Used to create a new web in SharePoint. Enables the use of a site template&lt;/p>
-&lt;h5 id="create-a-group">Create a group&lt;/h5>
-&lt;p>Creates a new group on SharePoint
-Enables the creation of SharePoint group&lt;/p>
-&lt;h5 id="find-a-user">Find a user&lt;/h5>
-&lt;p>Finds a user on SharePoint Finds or searches for a user within SharePoint&lt;/p>
-&lt;h5 id="add-a-user-to-a-group">Add a user to a group&lt;/h5>
-&lt;p>This rule adds a SharePoint user to a SharePoint group&lt;/p>
-&lt;p>It is important to note the difference between Sharepoint users and Kianda users. Sharepoint users are users of the Sharepoint system. Kianda users are users of the Kianda system.&lt;/p>
-&lt;p>If there is a user group assigned to a SharePoint url then you can select a Kianda user to be added to that group.&lt;/p>
-&lt;p>To add a new SharePoint user&lt;/p>
-&lt;ol>
-&lt;li>Select the Submit button, for example.&lt;/li>
-&lt;li>Click on Add a rule-&amp;gt;SharePoint -&amp;gt;Add a user to a group&lt;/li>
-&lt;li>Select a SharePoint data source from the drop-down list. Two new fields will appear:
-For Group title field, select the field where the group title is stored e.g. a list field.
-For Username or User Id, select the field where the Username or User id is stored.&lt;/li>
-&lt;li>The final two sections are optional:
-Under On success mapping, click on Add mapping.
-For Form Field, select a field to store the text.
-For Data source field or text, either enter the text or
-select a field where the text is stored.
-Under On error mapping, click on Add mapping.
-For Form Field, select a field to store the text.
-For Error message or text, either enter the text or
-select a field where the text is stored.&lt;/li>
-&lt;li>Move the rule&amp;hellip;&lt;/li>
-&lt;/ol>
-&lt;h5 id="remove-a-user-from-a-group">Remove a user from a group&lt;/h5>
-&lt;p>This rule removes a SharePoint user from a SharePoint group&lt;/p>
-&lt;p>It is important to note the difference between Sharepoint users and Kianda users. Sharepoint users are users of the Sharepoint system. Kianda users are users of the Kianda system.&lt;/p>
-&lt;p>To remove a user from a group&lt;/p>
-&lt;ol>
-&lt;li>Select the Submit button, for example.&lt;/li>
-&lt;li>Click on Add a rule-&amp;gt;SharePoint -&amp;gt;Remove a user from a group&lt;/li>
-&lt;li>Select a SharePoint data source from the drop-down list. Two new fields will appear:
-For Group title field, select the field where the group title is stored e.g. a list field.
-For Username or User Id, select the field where the Username or User id is stored.&lt;/li>
-&lt;li>The final two sections are optional:
-Under On success mapping, click on Add mapping.
-For Form Field, select a field to store the text.
-For Data source field or text, either enter the text or
-select a field where the text is stored.
-Under On error mapping, click on Add mapping.
-For Form Field, select a field to store the text.
-For Error message or text, either enter the text or
-select a field where the text is stored.&lt;/li>
-&lt;li>Move the rule&amp;hellip;&lt;/li>
-&lt;/ol>
-&lt;h5 id="reset-an-item-permissions-now">Reset an item permissions NOW&lt;/h5>
-&lt;p>This rule changes the SharePoint permissions for a given list, document or folder.&lt;/p>
-&lt;p>To reset the permissions of an item&lt;/p>
-&lt;ol>
-&lt;li>
-&lt;p>Select the Submit button, for example.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Click on Add a rule-&amp;gt;SharePoint -&amp;gt;Reset an item permissions&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Select a SharePoint data source from the drop-down list. Three new fields will appear:&lt;/p>
-&lt;p>For Item Type, choose from the options: Site, List or other Item
-For Site relative URL field, copy in the URL of the Sharepoint item. [You can also store the URL in a field and select the field from the drop-down list.]
-For Existing permissions, choose either Add to existing or Replace existing&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Under Input mapping section, click on Add mapping.
-For User or Group id, select the field where the user is stored. This could be either a User Picker field or a text field.
-Select the Permission level from the drop-down list. Examples are Edit or View only.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>The final two sections are optional:
-Under On success mapping, click on Add mapping.
-For Form Field, select a field to store the text.
-For Data source field or text, either enter the text or
-select a field where the text is stored.
-Under On error mapping, click on Add mapping.
-For Form Field, select a field to store the text.
-For Error message or text, either enter the text or
-select a field where the text is stored.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Move the rule&amp;hellip;&lt;/p>
-&lt;/li>
-&lt;/ol>
-&lt;h5 id="check-in--out-an-item">Check in / out an item&lt;/h5>
-&lt;p>Checks in or out a SharePoint item
-Checks in or out a file in SharePoint&lt;/p>
-&lt;h5 id="get-attachments">Get attachments&lt;/h5>
-&lt;p>Loads item(s) attachments into a file input
-Reads the attachments from a SharePoint list&lt;/p>
-&lt;h5 id="create-anonymous-link">Create anonymous link&lt;/h5>
-&lt;p>Create SharePoint anonymous link(s) from a SharePoint file input
-Creates anonymous links for a SharePoint held file&lt;/p></description></item></channel></rss>
+&lt;h3 id="getting-started-with-sharepoint-rules">Getting started with SharePoint rules&lt;/h3>
+&lt;p>SharePoint rules are associated with SharePoint specific functionality. These rules are typically used to perform actions with SharePoint connectors that are not related with data, for example resetting SharePoint permissions or adding a user into a group on SharePoint.&lt;/p>
+&lt;p>There are 10 SharePoint rules as follows:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Create a list&lt;/strong> - creates a new list in a SharePoint site.&lt;/li>
+&lt;li>&lt;strong>Create a site&lt;/strong> - creates a new site on SharePoint, enabling the use of a site template.&lt;/li>
+&lt;li>&lt;strong>Create a group&lt;/strong> - creates a new group on SharePoint&lt;/li>
+&lt;li>&lt;strong>Find a user&lt;/strong> - finds or searches for a user within SharePoint&lt;/li>
+&lt;li>&lt;strong>Add a user to a group&lt;/strong> - adds a SharePoint user to a SharePoint group. It is important to note the difference between Sharepoint users and Kianda users. Sharepoint users are users of the Sharepoint system. Kianda users are users of the Kianda system.&lt;/li>
+&lt;li>&lt;strong>Remove a user from a group&lt;/strong> - removes a SharePoint user from a SharePoint group&lt;/li>
+&lt;li>&lt;strong>Reset an item permission&lt;/strong>s - changes the SharePoint permissions for a given list, document or folder.&lt;/li>
+&lt;li>&lt;strong>Check in / out an item&lt;/strong> - checks in or out a file in SharePoint&lt;/li>
+&lt;li>&lt;strong>Get attachments&lt;/strong> - reads the attachments from a SharePoint list&lt;/li>
+&lt;li>&lt;strong>Create anonymous link&lt;/strong> - creates anonymous links for a SharePoint held file&lt;/li>
+&lt;/ul>
+&lt;h3 id="whats-next--idea-iconckiandadocscontentdocsplatformrulessharepoint_indexassets18png">What&amp;rsquo;s next &lt;img src="C:%5CKianda%5Cdocs%5Ccontent%5Cdocs%5Cplatform%5Crules%5Csharepoint_index.assets%5C18.png" alt="Idea icon">&lt;/h3>
+&lt;p>We have briefly introduced each of the ten types of &lt;strong>SharePoint rules&lt;/strong>. Click on the links below to find out more about each rule in detail.&lt;/p>
+&lt;p>​&lt;/p>
+&lt;p>​&lt;/p>
+&lt;p>​&lt;/p></description></item></channel></rss>
