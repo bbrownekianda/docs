@@ -63,3 +63,4 @@ To use this rule, you must have a user predefined in Kianda and in SharePoint. T
 ### What's next  ![Idea icon](/images/18.png) ###
 
 Now that you've learned about **Add a user to a group**, return to the [SharePoint rules](/docs/platform/rules/SharePoint) page to find out about other SharePoint rules. 
+
