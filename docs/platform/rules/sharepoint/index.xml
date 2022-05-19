@@ -180,8 +180,8 @@ For &lt;strong>Group Description field&lt;/strong>, create a description for the
 &lt;p>You will be presented with five options within the dialog box:&lt;/p>
 &lt;ul>
 &lt;li>&lt;strong>List template&lt;/strong> allows you to select an existing SharePoint list within the SharePoint data source to emulate the formatting and design of the list.&lt;/li>
-&lt;li>&lt;strong>List name field&lt;/strong> allows you to create a name for the list. This field, &lt;strong>List url field&lt;/strong> and &lt;strong>List description field&lt;/strong> are all populated from a Kianda form, so choose a field from a form.&lt;/li>
-&lt;li>&lt;strong>List url field&lt;/strong> will be used in the creation of the URL within SharePoint. Provide the appropriate URL&lt;/li>
+&lt;li>&lt;strong>List name field&lt;/strong> allows you to create a name for the list. This field, &lt;strong>List url field&lt;/strong> and &lt;strong>List description field&lt;/strong> are all populated from a Kianda form. Choose a field from a Kianda form.&lt;/li>
+&lt;li>&lt;strong>List url field&lt;/strong> will be used in the creation of the URL within SharePoint. Choose a field from a Kianda form.&lt;/li>
 &lt;li>&lt;strong>List description field&lt;/strong> will be used for the SharePoint list description. Choose a field from a Kianda form.&lt;/li>
 &lt;li>&lt;strong>Quick Launch menu&lt;/strong> - options are &lt;strong>Yes&lt;/strong> or &lt;strong>No&lt;/strong>.&lt;/li>
 &lt;/ul>
