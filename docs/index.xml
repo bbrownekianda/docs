@@ -115,7 +115,7 @@ Your browser does not support the video tag.
 &lt;p>&lt;strong>Title&lt;/strong> - you can change the title of the date field&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;strong>Help text&lt;/strong> - you can insert help text a user can view when completing the date field&lt;/p>
+&lt;p>&lt;strong>Help text&lt;/strong> - you can insert help text a user can view when completing the date field. If you add help text, a question mark &lt;img src="https://docs.kianda.com/images/help-icon.jpg" alt="Help text icon"> icon will appear next to the field title and, if the user clicks on this, they will see the help text you have inserted.&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>&lt;strong>Display format&lt;/strong> - you can choose whether the date field shows the date only or the date and time&lt;/p>
