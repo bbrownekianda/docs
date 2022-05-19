@@ -14,7 +14,7 @@ For example, you could insert a list field in your form that will show a drop-do
 
 2. Insert the new **List field** by clicking on **Controls** in the left-hand pane to expand the Controls menu, then select **Input** to view the range of Input controls and click on **List**. A **New field - List** dialog box will open with a range of options you can choose from for your new List field.
 
-![New list field dialog box](/images/List_Field_New_dialog_box.jpg)
+![New list field dialog box](/images/list-field-dialog-box.jpg)
 
    The options available in the **New field - List** dialog box include:
 
@@ -22,9 +22,9 @@ For example, you could insert a list field in your form that will show a drop-do
 
    - **Name** - This is a unique name for the field.
 
-   - **Help text** - You can insert text to help the form user to complete the List field. If you add help text, a question mark ![Help text icon](/images/Help_icon.jpg) icon will appear next to the field title and, if the user clicks on this, they will see the help text you have inserted. In this example, the list field is titled 'Type of Training' and has associated help text:
+   - **Help text** - You can insert text to help the form user to complete the List field. If you add help text, a question mark ![Help text icon](/images/help-icon.jpg) icon will appear next to the field title and, if the user clicks on this, they will see the help text you have inserted. In this example, the list field is titled 'Type of Training' and has associated help text:
 
-     ![List field help text example](/images/List_Field_Help_Text.jpg)
+     ![List field help text example](/images/list-field-help-text.jpg)
 
    - **List source** - You have three main options in terms of the source of the choices that will appear in your List field: 
 
@@ -36,25 +36,25 @@ For example, you could insert a list field in your form that will show a drop-do
 
 If you select the **Entered manually** checkbox, you must then manually type the choices you want to appear in your list into the **List source** box. Three default choices are shown - simply replace these with the choices you want to appear in your list (keeping the same format of one choice per line). You can insert more than three choices.
 
-![Manually entered list](/images/List_Field_List_Source_Manually.jpg)
+![Manually entered list](/images/list-source-manually.jpg)
 
 If you select the **Form data** checkbox (so the source of your list options is a form field), then the box under **List source** will now show the instruction 'Select a form field...' and two further options will appear below this - **Display field** and **Value field**. 
 
-![List field list source form data](/images/List_Field_List_Source_Form_Data.jpg)        
+![List field list source form data](/images/list-source-form-data.jpg)      
 
 Click into the **List source** box and select the form field you wish to use as your **List source** and then choose a **Display field** (the field used to display values) and **Value field** to specify how you want to map the values from your data source into your list field.
 
 Select the **Data source** checkbox if you want to use an external data source as the source for the choices to appear in your list:
 
-![List field list source datasource](/images/List_Field_List_Source_Datasource.jpg)
+![List field list source datasource](/images/list-source-datasource.jpg)
 
 Then click on the **Datasource** button ![Data source button](/images/datasource.png) to open the **Select datasource** dialog box and choose the data source you want to connect to - for example, SharePoint. For more information on how to connect to data sources in Kianda, go to [Data connectors](/docs/platform/connectors/).
 
-![List field select data source dialog box](/images/List_Field_Select_Data_Source.jpg)
+![List field select data source dialog box](/images/list-select-data-source.jpg)
 
 Once you've selected a data source, click **OK** - a range of new options will now be shown below the **Datasource** button in the **New field - List** dialog box.
 
-![List field Data source options example](/images/List_Field_Datasource_Options.jpg)
+![List field Data source options example](/images/list-datasource-options.jpg)
 
 Select the **Display field**, **Value field** and a field to **Sort by** (the 'Sort by' option appears once you've selected a data source). Once you've chosen a field to sort by, an additional option - **Direction** - appears, enabling you to choose to sort values in **Ascending** or **Descending** order. In the example shown here, Kianda has been chosen as the data source and a field titled 'Type of Training' from a form called 'Training Request' has been chosen as both the Display field and Value field.
 
@@ -69,7 +69,7 @@ If you choose Kianda as the data source for your list field, two additional opti
 
 By default, the **Dropdown list** radio button is selected, along with two additional options - **Filter mode** (you can choose either 'Starts With' or 'Contains') and **Enable native selector on mobile** (so a user completing the list field on their mobile phone can use the default list selector on it).
 
-![Dropdown list display format](/images/List_Field_Display_Format.jpg)
+![Dropdown list display format](/images/list-display-format.jpg)
 
 If you choose **Radio list** or **Checkbox list** you can choose a **List display position** of either Vertical or Horizontal.  
 
@@ -78,7 +78,7 @@ If you choose **Radio list** or **Checkbox list** you can choose a **List displa
 
 If we take the example of a Training Request form with a list field that contains the different types of training a user can request, the list field (which is titled 'Type of Training' and has a drop-down list format) could look like this when a user views it on their mobile phone:
 
-![List field dropdown list example mobile phone](/images/List_Field_Example_Mobile.jpg)
+![List field dropdown list example mobile phone](/images/list-example-mobile.jpg)
 
 
 
@@ -88,28 +88,28 @@ To see how your form or field will look like on a mobile, view it in **Mobile pr
 
 ### How to edit, move and delete File upload fields
 
-To edit a **List field**, select the field (by either clicking on the field title or on the field's **Drag handle** button ![Drag handle button](/images/draghandlewhite_frame.png)) and then click on the **Edit field** button (Pen icon) ![Edit field button](/images/penicon.png).
+To edit a **List field**, select the field (by either clicking on the field title or on the field's **Drag handle** button ![Drag handle button](/images/draghandlewhite-frame.png)) and then click on the **Edit field** button (Pen icon) ![Edit field button](/images/penicon.png).
 
-![Select file upload file to edit](/images/List_Field_Select_to_Edit.jpg)
+![Select file upload file to edit](/images/list-select-to-edit.jpg)
 
 The **Edit field - List** dialog box will open, enabling you to choose from the same range of options as appear in the **New field - List** dialog box (as already discussed in [How to get started](/docs/platform/controls/input/list#how-to-get-started)).
 
-![Edit date field dialog box](/images/List_Field_Edit_dialog_box_example.jpg)
+![Edit date field dialog box](/images/list-edit-dialog-example.jpg)
 
 You can make any changes you wish in this dialog box and then click **OK** to confirm. 
 
-To move a **List field**, simply select the field's **Drag handle** button ![Drag handle button](/images/draghandlewhite_frame.png) and drag and drop the field wherever you want to move it to within your form.
+To move a **List field**, simply select the field's **Drag handle** button ![Drag handle button](/images/draghandlewhite-frame.png) and drag and drop the field wherever you want to move it to within your form.
 
-![Date field drag handle](/images/List_Field_Move_draghandle.jpg)
+![Date field drag handle](/images/list-move-draghandle.jpg)
 
-To delete a **List field** from your form, simply select the field (by either clicking on the field's name or its **Drag handle** button ![Drag handle button](/images/draghandlewhite_frame.png)), click on the **Bin/Trash** button ![Bin icon](/images/binicon.png) and then click on **OK** to confirm.
+To delete a **List field** from your form, simply select the field (by either clicking on the field's name or its **Drag handle** button ![Drag handle button](/images/draghandlewhite-frame.png)), click on the **Bin/Trash** button ![Bin icon](/images/binicon.png) and then click on **OK** to confirm.
 
 
 ### How to edit List field properties
 
-To view or edit the field properties associated with a **List field**, select the field (by clicking on the field title or field drag handle button ![Drag handle button](/images/draghandlewhite_frame.png)) - the **Field properties** menu will appear in the right-hand pane.
+To view or edit the field properties associated with a **List field**, select the field (by clicking on the field title or field drag handle button ![Drag handle button](/images/draghandlewhite-frame.png)) - the **Field properties** menu will appear in the right-hand pane.
 
-![List properties](/images/List_Field_Field_Properties.jpg)
+![List properties](/images/list-field-properties.jpg)
 
 In the example shown here, a **List field** titled **Type of Training** has been selected and it's properties are displayed, including: its Title, that its Title will be shown in the form (the 'Show title' checkbox is ticked), that it will be a mandatory field for users to complete (the 'Required' checkbox is ticked and there is a red star next to the field name in the form), that this field will be enabled for users to complete (the 'Enabled' checkbox is ticked), and that this field will be visible to form users (the 'Visible' checkbox is ticked). The width of the field on PC and mobile is also shown. 
 
