@@ -48,7 +48,7 @@ Select the **Data source** checkbox if you want to use an external data source a
 
 ![List field list source datasource](/images/List_Field_List_Source_Datasource.jpg)
 
-Then click on the **Datasource** button ![Data source button](/images/datasource.png) to open the **Select datasource** dialog box and choose the data source you want to connect to as the source for your list options - for example, SharePoint. For more information on how to connect to data sources in Kianda, go to [Data connectors](/docs/platform/connectors/).
+Then click on the **Datasource** button ![Data source button](/images/datasource.png) to open the **Select datasource** dialog box and choose the data source you want to connect to - for example, SharePoint. For more information on how to connect to data sources in Kianda, go to [Data connectors](/docs/platform/connectors/).
 
 ![List field select data source dialog box](/images/List_Field_Select_Data_Source.jpg)
 
@@ -56,7 +56,7 @@ Once you've selected a data source, click **OK** - a range of new options will n
 
 ![List field Data source options example](/images/List_Field_Datasource_Options.jpg)
 
-Select the **Display field**, **Value field** and a field to **Sort by** (the 'Sort by' option appears once you've selected a data source). Once you've chosen a field to sort by, an additional option - **Direction** - appears, enabling you to choose to sort values in **Ascending** or **Descending** order. 
+Select the **Display field**, **Value field** and a field to **Sort by** (the 'Sort by' option appears once you've selected a data source). Once you've chosen a field to sort by, an additional option - **Direction** - appears, enabling you to choose to sort values in **Ascending** or **Descending** order. In the example shown here, Kianda has been chosen as the data source and a field titled 'Type of Training' from a form called 'Training Request' has been chosen as both the Display field and Value field.
 
 Click on the **Edit conditions** button if you want to add a condition to your List field - for example, if you want to create a cascading list where the options available in a second list are dependent upon the option the user has chosen from a first list. To learn more about applying conditions, go to [**Conditions**](/docs/platform/rules/general/add-conditions/) and to find out more about creating cascading lists, watch the video on [**How to create cascading dropdown lists**](/docs/how-to/create-cascading-dropdown-lists/).
 
@@ -64,7 +64,7 @@ If you choose Kianda as the data source for your list field, two additional opti
 
  Once you've selected your **List source** and the various options associated with it, complete the remaining options in the **New field - List** dialog box:
 
-- **Enable offline cache** - You can choose this option to make list data available when offline (only available for lists with less than 500 options). **Note:** If a Kianda form is completed offline, once the user re-establishes internet connection, they need to go into Kianda and click the **Force refresh** button ![Force refresh button](/images/refresh.png) at the top right of their Home page to ensure the form is uploaded in full.
+- **Enable offline cache** - You can choose this option to make list data available when offline (only available for lists with less than 500 options). 
 - **Display format** - You can choose to have your list field appear as either a Drop-down list, a Radio list, Multi-select or a Checkbox list.
 
 By default, the **Dropdown list** radio button is selected, along with two additional options - **Filter mode** (you can choose either 'Starts With' or 'Contains') and **Enable native selector on mobile** (so a user completing the list field on their mobile phone can use the default list selector on it).
