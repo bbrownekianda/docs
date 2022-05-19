@@ -15,7 +15,7 @@ If you have developer skills,  you can create your own custom field widget - see
 
 If you go to **Administration** > **Designer** and click on an existing process or create a new process and then select a form within that process so that the **Edit Form** button (Pen icon ![Pen button](/images/penicon.png)) is visible, the predefined fields you can add to forms are found in the left-hand pane.
 
-![Controls](/images/Access_ControlsMenu_Select_Form.jpg)
+![Controls](/images/access-controlsmenu-selectfForm.jpg)
 
 **Note:** By default, three buttons are automatically added to any new form created - **Submit**, **Save** and **Close** (as shown in this form canvas image).
 
@@ -29,7 +29,7 @@ If you develop custom fields, they will be available to form designers under a f
 
 To start adding fields to a form, select the form you want to work on so that the **Edit Form** button (Pen icon ![Pen button](/images/penicon.png)) appears. Then click on a Controls category and control type in the left-hand pane. For example, you could choose the **Input** category and select **Text box** to insert a text box into your form. 
 
-To move a field, click on the **Drag handle** button ![Drag handle button](/images/draghandlewhite_frame.png).
+To move a field, click on the **Drag handle** button ![Drag handle button](/images/draghandlewhite-frame.png).
 
 To remove a field from your form, select the field you want to remove, then click on the **Bin/Trash** button ![Bin icon](/images/binicon.png) and then click **OK** to confirm removal.
 
@@ -41,7 +41,7 @@ All fields will have edit options when you start creating the field, as well as 
 
 This table lists out the full range of available field types.
 
-![Form controls](/images/Fields_Controls_List_Table.jpg)
+![Form controls](/images/fields-controls-list-table.jpg)
 
 
 

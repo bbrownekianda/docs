@@ -12,15 +12,15 @@ typora-root-url: ..\..\..\..\..\static
 
 To start adding Input controls (fields) to your Kianda forms, you first need to either open an existing process or create a new process by going to **Administration** > **Designer** in the left side menu. See [Create First Process](/docs/getting-started/create-first-process/) to learn how to create your first process.
 
-![Opening Designer from left side menu by choosing Administration>Designer](/images/Administration_Designer_InputControls.jpg)
+![Opening Designer from left side menu by choosing Administration>Designer](/images/administration-designer-inputcont.jpg)
 
 Once you have opened your process, select the form you want to work on (so that the **Edit Form** button ![Pen icon](/images/penicon.png) is shown) and then click on **Controls** in the left-hand pane so the Controls menu expands to show the four categories of Controls (fields): Input, Layout, Actions and Custom.
 
-![Opening Controls menu to view four categories of Controls](/images/Open_Controls_Categories_TrainingProcess.jpg)
+![Opening Controls menu to view four categories of Controls](/images/open-controls-cat-trainingprocess.jpg)
 
 Select **Input** to view the eight types of Input fields:
 
-![Input fields](/images/Input_Menu_Controls.jpg)
+![Input fields](/images/input-menu-controls.jpg)
 
 The eight types of input fields are:
 
@@ -39,17 +39,17 @@ The eight types of input fields are:
 
 To insert an **Input field** into your form, click on the field type you want to add from the **Input** menu. For example, to add a new text box field, click on **Text box** - a pop-up message will appear saying 'Field added' and a new text box with the default name **Text box 1** will be added to your form.
 
-![Inserting a text box field](/images/Insert_Text_Box_Input_Menu.jpg)
+![Inserting a text box field](/images/insert-text-box-input.jpg)
 
 To edit whatever type of input field you have added to your form, select the field (by either clicking on the field name or on the **Drag handle** button ![Drag handle button](/images/draghandlewhite_frame.png)) and then click on the **Edit Field** button (Pen icon) ![Pen button](/images/penicon.png). This will open up the **Edit Field** dialog box where you can make various changes (such as changing the Title of the field) and where a variety of options will be available to you, depending on the type of Input field you are working with.
 
-![Select field to edit](/images/Select_Text_Box_field_to_edit.jpg)
+![Select field to edit](/images/select-text-box-edit.jpg)
 
 To move an input field, simply select the field's **Drag handle** button ![Drag handle button](/images/draghandlewhite_frame.png) and drag and drop the field wherever you want to move it within your form.
 
-![Select field drag handle](/images/Move_Input_Field_Drag_Handle.jpg)
+![Select field drag handle](/images/move-drag-handle.jpg)
 
-To delete an input field from your form, select the field (by either clicking on the field's name or its **Drag handle** button ![Drag handle button](/images/draghandlewhite_frame.png)), click on the **Bin/Trash** button ![Bin icon](/images/binicon.png) and then click on **OK** to confirm.
+To delete an input field from your form, select the field (by either clicking on the field's name or its **Drag handle** button ![Drag handle button](/images/draghandlewhite-frame.png)), click on the **Bin/Trash** button ![Bin icon](/images/binicon.png) and then click on **OK** to confirm.
 
 You can also view and edit an input field's **Field Properties** by selecting the field - for more details, see [Field Properties](/docs/platform/controls/properties/#field-properties/).
 

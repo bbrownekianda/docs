@@ -13,21 +13,21 @@ typora-root-url: ..\..\..\..\..\static
 
 2. Insert the **Date field** by clicking on **Controls** in the left-hand pane to expand the Controls menu, then select **Input** to view the range of Input controls and click on **Date**. A date field will be added to your form with the default title of '**Date 1**' and a pop-up message will say 'Field added'.
 
-   ![List inside and outside a panel](/images/Date_Field_Added.jpg)
+   ![List inside and outside a panel](/images/date-field-added.jpg)
    
 3. The Date field has a small calendar icon on the right hand side - when the user clicks on this icon a calendar is displayed, allowing them to select a date.
 
-   ![List inside and outside a panel](/images/Date_Field_Expanded.jpg)
+   ![List inside and outside a panel](/images/date-field-expanded.jpg)
    
 ### How to edit, move and delete Date fields
 
-To edit a **Date field**, select the field (by either clicking on the field title or on the field's **Drag handle** button ![Drag handle button](/images/draghandlewhite_frame.png)) and then click on the **Edit field** button (Pen icon) ![Edit field button](/images/penicon.png). 
+To edit a **Date field**, select the field (by either clicking on the field title or on the field's **Drag handle** button ![Drag handle button](/images/draghandlewhite-frame.png)) and then click on the **Edit field** button (Pen icon) ![Edit field button](/images/penicon.png). 
 
-![Select date field to edit](/images/Select_Date_field_to_edit.jpg)
+![Select date field to edit](/images/select-date-field-to-edit.jpg)
 
 The **Edit field** dialog box will open, enabling you to choose from a range of options.
 
-![Edit date field dialog box](/images/Edit_Date_Field_dialog_box.jpg)
+![Edit date field dialog box](/images/edit-date-field-dialog-box.jpg)
 
 The options within the **Edit date field dialog box** include:
 
@@ -48,16 +48,16 @@ The options within the **Edit date field dialog box** include:
   
 - **Enable native picker on mobile** - you can choose to allow users who are completing the date field on a mobile phone to use the default pop-up date picker associated with their mobile phone
 
-To move a **Date field**, simply select the field's **Drag handle** button ![Drag handle button](/images/draghandlewhite_frame.png) and drag and drop the field wherever you want to move it to within your form.
+To move a **Date field**, simply select the field's **Drag handle** button ![Drag handle button](/images/draghandlewhite-frame.png) and drag and drop the field wherever you want to move it to within your form.
 
-![Date field drag handle](/images/Move_Date_Field_Drag_Handle.jpg)
+![Date field drag handle](/images/move-date-field-drag-handle.jpg)
 
-To delete a **Date field** from your form, simply select the field (by either clicking on the field's name or its **Drag handle** button ![Drag handle button](/images/draghandlewhite_frame.png)), click on the **Bin/Trash** button ![Bin icon](/images/binicon.png) and then click on **OK** to confirm.
+To delete a **Date field** from your form, simply select the field (by either clicking on the field's name or its **Drag handle** button ![Drag handle button](/images/draghandlewhite-frame.png)), click on the **Bin/Trash** button ![Bin icon](/images/binicon.png) and then click on **OK** to confirm.
 
 ### How to edit Date field properties ###
-To view or edit the field properties associated with a **Date field**, select the field (by clicking on the field title or field drag handle button ![Drag handle button](/images/draghandlewhite_frame.png)) - the **Field properties** menu will appear in the right-hand pane.
+To view or edit the field properties associated with a **Date field**, select the field (by clicking on the field title or field drag handle button ![Drag handle button](/images/draghandlewhite-frame.png)) - the **Field properties** menu will appear in the right-hand pane.
 
-![Field properties](/images/Date_Field_Properties_new.jpg)
+![Field properties](/images/date-field-properties-new.jpg)
 
 In the example shown here, a **Date field** titled **Date** has been selected in a form called 'Expense Report' and the Field properties associated with this field include its Title, that its title will be shown in the form (the 'Show title' checkbox is ticked), that this will not be a field users are required to complete (the 'Required' checkbox is not selected), that this field will be enabled for users to complete (the 'Enabled' checkbox is ticked), and that this field will be visible to form users (the 'Visible' checkbox is ticked).
 
