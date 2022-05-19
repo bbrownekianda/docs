@@ -12,13 +12,13 @@ Your browser does not support the video tag.
 &lt;p>The Process properties include:&lt;/p>
 &lt;ul>
 &lt;li>Title - the title of the process, for example Quarterly Training Request&lt;/li>
-&lt;li>Page layout - you can click on &lt;strong>Wide&lt;/strong> &lt;img src="https://docs.kianda.com/images/wide_resized.png" alt="Wide button">or &lt;strong>Narrow&lt;/strong> &lt;img src="https://docs.kianda.com/images/narrow_resized.png" alt="Narrow button"> to change the process layout.&lt;/li>
+&lt;li>Page layout - you can click on &lt;strong>Wide&lt;/strong> &lt;img src="https://docs.kianda.com/images/wide-resized.png" alt="Wide button">or &lt;strong>Narrow&lt;/strong> &lt;img src="https://docs.kianda.com/images/narrow-resized.png" alt="Narrow button"> to change the process layout.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="https://docs.kianda.com/images/Process_Properties_TrainingProcess.jpg" alt="Process and form properties">&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/process-properties-trainingprocess.jpg" alt="Process and form properties">&lt;/p>
 &lt;p>In the example shown here, the &amp;lsquo;Training Process&amp;rsquo; has two forms: &amp;lsquo;Training Request&amp;rsquo; and &amp;lsquo;Training Approval&amp;rsquo;. When you open the process, the &lt;strong>Process properties&lt;/strong> are shown. If you click on one of the forms within the process, the &lt;a href="#form-properties">&lt;strong>Form properties&lt;/strong>&lt;/a> associated with that particular form will then be shown in the right-hand pane.&lt;/p>
 &lt;h2 id="form-properties">Form properties&lt;/h2>
 &lt;p>When you click on a form, the &lt;strong>Form properties&lt;/strong> appear in the right-hand pane.&lt;/p>
-&lt;p>&lt;img src="https://docs.kianda.com/images/Form_Properties_TrainingProcess.jpg" alt="Form properties">&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/form-properties-trainingprocess.jpg" alt="Form properties">&lt;/p>
 &lt;p>The Form properties include:&lt;/p>
 &lt;ul>
 &lt;li>
@@ -31,12 +31,12 @@ Your browser does not support the video tag.
 &lt;p>Show info - click on this checkbox if you want details (such as the form owner, the design version and when the form was started and completed) to be displayed at the bottom of the form.&lt;/p>
 &lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="https://docs.kianda.com/images/Form_Properties_Show_Info_Version.jpg" alt="Form information">&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/form-properties-show-info-version.jpg" alt="Form information">&lt;/p>
 &lt;p>Underneath the Form properties you will see &lt;strong>Form submit rules&lt;/strong> - go to &lt;a href="https://docs.kianda.com/docs/platform/rules/">Rules&lt;/a> to find out more about the rules that can be applied to forms.&lt;/p>
 &lt;p>Click on one particular field (control) in the form - for example a text box - to see the &lt;a href="#field-properties">&lt;strong>Field properties&lt;/strong>&lt;/a> associated with that field.&lt;/p>
 &lt;h2 id="field-properties">Field properties&lt;/h2>
 &lt;p>When you select any field within a form (by clicking on the field name or field drag handle button &lt;img src="https://docs.kianda.com/images/draghandlewhite_frame.png" alt="Drag handle button">) - such as User picker, list or text box - the &lt;strong>Field properties&lt;/strong> associated with that field will appear in the right-hand pane.&lt;/p>
-&lt;p>&lt;img src="https://docs.kianda.com/images/Field_Properties_TrainingProcess.jpg" alt="Field properties">&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/field-properties-trainingprocess.jpg" alt="Field properties">&lt;/p>
 &lt;p>In the example shown here, the Employee Name field has been selected and the &lt;strong>Field properties&lt;/strong> associated with it include the &lt;strong>Field type&lt;/strong> (&lt;strong>Text box&lt;/strong> in this case) and the &lt;strong>Title&lt;/strong> of the field.&lt;/p>
 &lt;p>The options within the Field properties menu are:&lt;/p>
 &lt;ul>
@@ -46,7 +46,7 @@ Your browser does not support the video tag.
 &lt;li>Visible - tick this checkbox to make the field visible to users&lt;/li>
 &lt;li>Layout - change the width of the field by clicking on the bar in the Layout box until you see the desired size. Click on the arrow beside Layout to see the Mobile Layout and click on the bar to change the width of the text box for mobile use.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="https://docs.kianda.com/images/textboxsize_frame.png" alt="Changing text box width">&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/textboxsize-frame.png" alt="Changing text box width">&lt;/p>
 &lt;p>Underneath the Field properties menu, you will see &lt;strong>Rules&lt;/strong> - go to &lt;a href="https://docs.kianda.com/docs/platform/rules/">Rules&lt;/a> to find out more about the rules that can be applied to fields.&lt;/p>
 &lt;h2 id="saving-changes-and-version-history">Saving changes and version history&lt;/h2>
 &lt;p>Make sure to save any changes you make by clicking on the &lt;strong>Save&lt;/strong> button &lt;img src="https://docs.kianda.com/images/saveprocess.png" alt="Save">. You will always have the option to revert back to previous versions of your form by clicking the &lt;strong>Design Version History&lt;/strong> &lt;img src="https://docs.kianda.com/images/version8.png" alt="Version button"> button in the top right corner.&lt;/p>
@@ -97,18 +97,18 @@ Your browser does not support the video tag.
 &lt;/li>
 &lt;li>
 &lt;p>Insert the &lt;strong>Date field&lt;/strong> by clicking on &lt;strong>Controls&lt;/strong> in the left-hand pane to expand the Controls menu, then select &lt;strong>Input&lt;/strong> to view the range of Input controls and click on &lt;strong>Date&lt;/strong>. A date field will be added to your form with the default title of &amp;lsquo;&lt;strong>Date 1&lt;/strong>&amp;rsquo; and a pop-up message will say &amp;lsquo;Field added&amp;rsquo;.&lt;/p>
-&lt;p>&lt;img src="https://docs.kianda.com/images/Date_Field_Added.jpg" alt="List inside and outside a panel">&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/date-field-added.jpg" alt="List inside and outside a panel">&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>The Date field has a small calendar icon on the right hand side - when the user clicks on this icon a calendar is displayed, allowing them to select a date.&lt;/p>
-&lt;p>&lt;img src="https://docs.kianda.com/images/Date_Field_Expanded.jpg" alt="List inside and outside a panel">&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/date-field-expanded.jpg" alt="List inside and outside a panel">&lt;/p>
 &lt;/li>
 &lt;/ol>
 &lt;h3 id="how-to-edit-move-and-delete-date-fields">How to edit, move and delete Date fields&lt;/h3>
-&lt;p>To edit a &lt;strong>Date field&lt;/strong>, select the field (by either clicking on the field title or on the field&amp;rsquo;s &lt;strong>Drag handle&lt;/strong> button &lt;img src="https://docs.kianda.com/images/draghandlewhite_frame.png" alt="Drag handle button">) and then click on the &lt;strong>Edit field&lt;/strong> button (Pen icon) &lt;img src="https://docs.kianda.com/images/penicon.png" alt="Edit field button">.&lt;/p>
-&lt;p>&lt;img src="https://docs.kianda.com/images/Select_Date_field_to_edit.jpg" alt="Select date field to edit">&lt;/p>
+&lt;p>To edit a &lt;strong>Date field&lt;/strong>, select the field (by either clicking on the field title or on the field&amp;rsquo;s &lt;strong>Drag handle&lt;/strong> button &lt;img src="https://docs.kianda.com/images/draghandlewhite-frame.png" alt="Drag handle button">) and then click on the &lt;strong>Edit field&lt;/strong> button (Pen icon) &lt;img src="https://docs.kianda.com/images/penicon.png" alt="Edit field button">.&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/select-date-field-to-edit.jpg" alt="Select date field to edit">&lt;/p>
 &lt;p>The &lt;strong>Edit field&lt;/strong> dialog box will open, enabling you to choose from a range of options.&lt;/p>
-&lt;p>&lt;img src="https://docs.kianda.com/images/Edit_Date_Field_dialog_box.jpg" alt="Edit date field dialog box">&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/edit-date-field-dialog-box.jpg" alt="Edit date field dialog box">&lt;/p>
 &lt;p>The options within the &lt;strong>Edit date field dialog box&lt;/strong> include:&lt;/p>
 &lt;ul>
 &lt;li>
@@ -143,12 +143,12 @@ Your browser does not support the video tag.
 &lt;p>&lt;strong>Enable native picker on mobile&lt;/strong> - you can choose to allow users who are completing the date field on a mobile phone to use the default pop-up date picker associated with their mobile phone&lt;/p>
 &lt;/li>
 &lt;/ul>
-&lt;p>To move a &lt;strong>Date field&lt;/strong>, simply select the field&amp;rsquo;s &lt;strong>Drag handle&lt;/strong> button &lt;img src="https://docs.kianda.com/images/draghandlewhite_frame.png" alt="Drag handle button"> and drag and drop the field wherever you want to move it to within your form.&lt;/p>
-&lt;p>&lt;img src="https://docs.kianda.com/images/Move_Date_Field_Drag_Handle.jpg" alt="Date field drag handle">&lt;/p>
-&lt;p>To delete a &lt;strong>Date field&lt;/strong> from your form, simply select the field (by either clicking on the field&amp;rsquo;s name or its &lt;strong>Drag handle&lt;/strong> button &lt;img src="https://docs.kianda.com/images/draghandlewhite_frame.png" alt="Drag handle button">), click on the &lt;strong>Bin/Trash&lt;/strong> button &lt;img src="https://docs.kianda.com/images/binicon.png" alt="Bin icon"> and then click on &lt;strong>OK&lt;/strong> to confirm.&lt;/p>
+&lt;p>To move a &lt;strong>Date field&lt;/strong>, simply select the field&amp;rsquo;s &lt;strong>Drag handle&lt;/strong> button &lt;img src="https://docs.kianda.com/images/draghandlewhite-frame.png" alt="Drag handle button"> and drag and drop the field wherever you want to move it to within your form.&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/move-date-field-drag-handle.jpg" alt="Date field drag handle">&lt;/p>
+&lt;p>To delete a &lt;strong>Date field&lt;/strong> from your form, simply select the field (by either clicking on the field&amp;rsquo;s name or its &lt;strong>Drag handle&lt;/strong> button &lt;img src="https://docs.kianda.com/images/draghandlewhite-frame.png" alt="Drag handle button">), click on the &lt;strong>Bin/Trash&lt;/strong> button &lt;img src="https://docs.kianda.com/images/binicon.png" alt="Bin icon"> and then click on &lt;strong>OK&lt;/strong> to confirm.&lt;/p>
 &lt;h3 id="how-to-edit-date-field-properties">How to edit Date field properties&lt;/h3>
-&lt;p>To view or edit the field properties associated with a &lt;strong>Date field&lt;/strong>, select the field (by clicking on the field title or field drag handle button &lt;img src="https://docs.kianda.com/images/draghandlewhite_frame.png" alt="Drag handle button">) - the &lt;strong>Field properties&lt;/strong> menu will appear in the right-hand pane.&lt;/p>
-&lt;p>&lt;img src="https://docs.kianda.com/images/Date_Field_Properties_new.jpg" alt="Field properties">&lt;/p>
+&lt;p>To view or edit the field properties associated with a &lt;strong>Date field&lt;/strong>, select the field (by clicking on the field title or field drag handle button &lt;img src="https://docs.kianda.com/images/draghandlewhite-frame.png" alt="Drag handle button">) - the &lt;strong>Field properties&lt;/strong> menu will appear in the right-hand pane.&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/date-field-properties-new.jpg" alt="Field properties">&lt;/p>
 &lt;p>In the example shown here, a &lt;strong>Date field&lt;/strong> titled &lt;strong>Date&lt;/strong> has been selected in a form called &amp;lsquo;Expense Report&amp;rsquo; and the Field properties associated with this field include its Title, that its title will be shown in the form (the &amp;lsquo;Show title&amp;rsquo; checkbox is ticked), that this will not be a field users are required to complete (the &amp;lsquo;Required&amp;rsquo; checkbox is not selected), that this field will be enabled for users to complete (the &amp;lsquo;Enabled&amp;rsquo; checkbox is ticked), and that this field will be visible to form users (the &amp;lsquo;Visible&amp;rsquo; checkbox is ticked).&lt;/p>
 &lt;p>To learn more about the different options within the Field properties menu, go to &lt;a href="https://docs.kianda.com/docs/platform/controls/properties#field-properties">Field Properties&lt;/a>.&lt;/p>
 &lt;h3 id="saving-changes-and-version-history">Saving changes and version history&lt;/h3>
@@ -208,19 +208,19 @@ Your browser does not support the video tag.
 &lt;/li>
 &lt;li>
 &lt;p>Insert the &lt;strong>File upload field&lt;/strong> by clicking on &lt;strong>Controls&lt;/strong> in the left-hand pane to expand the Controls menu, then select &lt;strong>Input&lt;/strong> to view the range of Input controls and click on &lt;strong>File&lt;/strong>. A &lt;strong>New field - File&lt;/strong> dialog box will open with a range of options you can choose from for your new File upload field.&lt;/p>
-&lt;p>&lt;img src="https://docs.kianda.com/images/New_File_Field_dialog_box.jpg" alt="Edit file upload field dialog box">&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/new-file-field.jpg" alt="Edit file upload field dialog box">&lt;/p>
 &lt;p>The options available in the &lt;strong>New field - File&lt;/strong> dialog box include:&lt;/p>
 &lt;ul>
 &lt;li>
 &lt;p>&lt;strong>Title&lt;/strong>: You can change the name of the File upload field from the default &amp;lsquo;&lt;strong>File 1&lt;/strong>&amp;rsquo;&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;strong>Help text&lt;/strong>: You can insert text to help the form user to complete the File upload field - if you add help text, a question mark &lt;img src="https://docs.kianda.com/images/Help_icon.jpg" alt="Help text icon"> icon will appear next to the field title and, if the user clicks on this, they will see the help text you have inserted.&lt;/p>
-&lt;p>&lt;img src="https://docs.kianda.com/images/File_Upload_Help_Text.jpg" alt="File upload help text example">&lt;/p>
+&lt;p>&lt;strong>Help text&lt;/strong>: You can insert text to help the form user to complete the File upload field - if you add help text, a question mark &lt;img src="https://docs.kianda.com/images/help-icon.jpg" alt="Help text icon"> icon will appear next to the field title and, if the user clicks on this, they will see the help text you have inserted.&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/file-upload-help-text.jpg" alt="File upload help text example">&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>&lt;strong>Save location&lt;/strong>: This is the location the file will be saved to. When you click on the &lt;strong>Destination&lt;/strong> button, a &lt;strong>Select datasource&lt;/strong> dialog box opens in which you can choose where to save the file(s):&lt;/p>
-&lt;p>&lt;img src="https://docs.kianda.com/images/File_Upload_Select_Datasource.jpg" alt="Select datasource dialog box">&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/file-upload-datasource.jpg" alt="Select datasource dialog box">&lt;/p>
 &lt;p>You can choose to save the file or files to Kianda or to another external data source.&lt;/p>
 &lt;/li>
 &lt;li>
@@ -240,7 +240,7 @@ Your browser does not support the video tag.
 &lt;/li>
 &lt;li>
 &lt;p>&lt;strong>File name options&lt;/strong>: Choose whether to keep the original file name, to have the file name auto generated by the system, or to be based on a form field. If you choose &lt;strong>From form field&lt;/strong>, another option appears - &lt;strong>File name field&lt;/strong> - and you click in the blank field to choose the file name field you want the file name to be:&lt;/p>
-&lt;p>&lt;img src="https://docs.kianda.com/images/File_Name_Field.jpg" alt="File name field">&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/file-name-field.jpg" alt="File name field">&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>&lt;strong>File extension&lt;/strong>: You can set/limit the type of file(s) that can be uploaded by inserting a specific file type. For example, if you insert &lt;strong>.pdf&lt;/strong> in the File extension box, when the user browses for the file to attach, the file type will automatically be set to .pdf. If you want to allow any type of file to be attached, leave this option blank.&lt;/p>
@@ -252,7 +252,7 @@ Your browser does not support the video tag.
 &lt;p>&lt;strong>Button text&lt;/strong>: By default, the File upload icon has the text &lt;strong>Browse&lt;/strong>, but you can change this here.&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;strong>Button icon&lt;/strong>: By default, the file upload icon is &lt;img src="https://docs.kianda.com/images/File_Upload_Icon.jpg" alt="File upload icon"> but you can change this by clicking the Button icon drop-down menu and choosing a different icon from the large range of icons available.&lt;/p>
+&lt;p>&lt;strong>Button icon&lt;/strong>: By default, the file upload icon is &lt;img src="https://docs.kianda.com/images/file-upload-icon.jpg" alt="File upload icon"> but you can change this by clicking the Button icon drop-down menu and choosing a different icon from the large range of icons available.&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>&lt;strong>Enable background upload&lt;/strong>: Select this checkbox to enable files to be uploaded using a background operation. This option is typically used in conjunction with the &lt;strong>Enable chunked upload&lt;/strong> option.&lt;/p>
@@ -261,9 +261,10 @@ Your browser does not support the video tag.
 &lt;p>&lt;strong>Enable chunked upload&lt;/strong>: Select this checkbox to upload files using resumable chunks. This option can be useful if the file size is likely to be large or the network speed is likely to be slow.&lt;/p>
 &lt;p>&lt;strong>Note:&lt;/strong> If you select &lt;strong>Enable background upload&lt;/strong> and &lt;strong>Enable chunked upload&lt;/strong> there is an additional step you need to take to ensure that these upload options work. In your form, you need to select &lt;u>each field or button&lt;/u> that has a &lt;strong>Save process rule&lt;/strong> applied to it, click on that rule to open the &lt;strong>Edit rule&lt;/strong> dialog box and select the &lt;strong>Perform background save&lt;/strong> checkbox. Then click &lt;strong>OK&lt;/strong>. This will ensure that the upload options you&amp;rsquo;ve chosen for your File upload field work as intended.&lt;/p>
 &lt;p>For example, you would need to select the &amp;lsquo;Save process&amp;rsquo; rule attached to the &amp;lsquo;Save&amp;rsquo; button in your form (by clicking on the &lt;strong>Save&lt;/strong> button and then clicking on the &lt;strong>Save process&lt;/strong> rule):&lt;/p>
-&lt;p>&lt;img src="https://docs.kianda.com/images/Selecting_Save_Process_Rule.jpg" alt="Selecting Save Process rule">&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/selecting-save-process-rule.jpg" alt="Selecting Save Process rule">&lt;/p>
 &lt;p>This opens the &lt;strong>Edit rule - Save form&lt;/strong> dialog box - check the &lt;strong>Perform background save&lt;/strong> option and then click &lt;strong>OK&lt;/strong>:&lt;/p>
-&lt;p>&lt;img src="https://docs.kianda.com/images/Save_Process_Rule_Perform_Background_Save.jpg" alt="Edit rule dialog box perform background save">&lt;/p>
+&lt;p>![Edit rule dialog box perform background save](/images/save-process-rule-perform-
+background.jpg)&lt;/p>
 &lt;p>If the &lt;strong>Enable background upload&lt;/strong> and &lt;strong>Enable chunked upload&lt;/strong> options are chosen and a user completes a form while they are in an area with poor coverage, once the user re-establishes internet connection they will need to go back into Kianda and click the &lt;strong>Force refresh&lt;/strong> button &lt;img src="https://docs.kianda.com/images/refresh.png" alt="Refresh button"> at the top right of the &lt;strong>Home&lt;/strong> page.&lt;/p>
 &lt;/li>
 &lt;li>
@@ -276,19 +277,19 @@ Your browser does not support the video tag.
 &lt;/li>
 &lt;/ol>
 &lt;p>In the example of our Inspection Form, the new File upload field (titled &lt;strong>Upload photos&lt;/strong>) added to the form could look like this when a user views it on a mobile phone (to see how your form or field will look on a mobile, view it in &lt;strong>Mobile preview&lt;/strong> by using the &lt;strong>Preview&lt;/strong> option which can be opened by clicking the play button icon &lt;img src="https://docs.kianda.com/images/preview.png" alt="Preview">):&lt;/p>
-&lt;p>&lt;img src="https://docs.kianda.com/images/File_Upload_Example_Mobile.jpg" alt="File upload example mobile phone">&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/file-upload-example-mobile.jpg" alt="File upload example mobile phone">&lt;/p>
 &lt;h3 id="how-to-edit-move-and-delete-file-upload-fields">How to edit, move and delete File upload fields&lt;/h3>
-&lt;p>To edit a &lt;strong>File upload field&lt;/strong>, select the field (by either clicking on the field title or on the field&amp;rsquo;s &lt;strong>Drag handle&lt;/strong> button &lt;img src="https://docs.kianda.com/images/draghandlewhite_frame.png" alt="Drag handle button">) and then click on the &lt;strong>Edit field&lt;/strong> button (Pen icon) &lt;img src="https://docs.kianda.com/images/penicon.png" alt="Edit field button">.&lt;/p>
-&lt;p>&lt;img src="https://docs.kianda.com/images/File_Upload_Edit.jpg" alt="Select file upload file to edit">&lt;/p>
+&lt;p>To edit a &lt;strong>File upload field&lt;/strong>, select the field (by either clicking on the field title or on the field&amp;rsquo;s &lt;strong>Drag handle&lt;/strong> button &lt;img src="https://docs.kianda.com/images/draghandlewhite-frame.png" alt="Drag handle button">) and then click on the &lt;strong>Edit field&lt;/strong> button (Pen icon) &lt;img src="https://docs.kianda.com/images/penicon.png" alt="Edit field button">.&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/file-upload-edit.jpg" alt="Select file upload file to edit">&lt;/p>
 &lt;p>The &lt;strong>Edit field - File&lt;/strong> dialog box will open, enabling you to choose from the same range of options as appear in the &lt;strong>New field - File&lt;/strong> dialog box (as already discussed in &lt;a href="https://docs.kianda.com/docs/platform/controls/input/file-upload#how-to-get-started">How to get started&lt;/a>).&lt;/p>
-&lt;p>&lt;img src="https://docs.kianda.com/images/File_Upload_Edit_Field_dialog_box.jpg" alt="Edit date field dialog box">&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/file-upload-edit-field-dialog.jpg" alt="Edit date field dialog box">&lt;/p>
 &lt;p>You can make any changes you wish in this dialog box and then click &lt;strong>OK&lt;/strong> to confirm.&lt;/p>
-&lt;p>To move a &lt;strong>File upload field&lt;/strong>, simply select the field&amp;rsquo;s &lt;strong>Drag handle&lt;/strong> button &lt;img src="https://docs.kianda.com/images/draghandlewhite_frame.png" alt="Drag handle button"> and drag and drop the field wherever you want to move it to within your form.&lt;/p>
-&lt;p>&lt;img src="https://docs.kianda.com/images/Upload_File_Move_draghandle.jpg" alt="Date field drag handle">&lt;/p>
-&lt;p>To delete a &lt;strong>File upload field&lt;/strong> from your form, simply select the field (by either clicking on the field&amp;rsquo;s name or its &lt;strong>Drag handle&lt;/strong> button &lt;img src="https://docs.kianda.com/images/draghandlewhite_frame.png" alt="Drag handle button">), click on the &lt;strong>Bin/Trash&lt;/strong> button &lt;img src="https://docs.kianda.com/images/binicon.png" alt="Bin icon"> and then click on &lt;strong>OK&lt;/strong> to confirm.&lt;/p>
+&lt;p>To move a &lt;strong>File upload field&lt;/strong>, simply select the field&amp;rsquo;s &lt;strong>Drag handle&lt;/strong> button &lt;img src="https://docs.kianda.com/images/draghandlewhite-frame.png" alt="Drag handle button"> and drag and drop the field wherever you want to move it to within your form.&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/upload-file-draghandle.jpg" alt="Date field drag handle">&lt;/p>
+&lt;p>To delete a &lt;strong>File upload field&lt;/strong> from your form, simply select the field (by either clicking on the field&amp;rsquo;s name or its &lt;strong>Drag handle&lt;/strong> button &lt;img src="https://docs.kianda.com/images/draghandlewhite-frame.png" alt="Drag handle button">), click on the &lt;strong>Bin/Trash&lt;/strong> button &lt;img src="https://docs.kianda.com/images/binicon.png" alt="Bin icon"> and then click on &lt;strong>OK&lt;/strong> to confirm.&lt;/p>
 &lt;h3 id="how-to-edit-file-upload-field-properties">How to edit File upload field properties&lt;/h3>
-&lt;p>To view or edit the field properties associated with a &lt;strong>File upload field&lt;/strong>, select the field (by clicking on the field title or field drag handle button &lt;img src="https://docs.kianda.com/images/draghandlewhite_frame.png" alt="Drag handle button">) - the &lt;strong>Field properties&lt;/strong> menu will appear in the right-hand pane.&lt;/p>
-&lt;p>&lt;img src="https://docs.kianda.com/images/File_Upload_Field_Properties.jpg" alt="Field properties">&lt;/p>
+&lt;p>To view or edit the field properties associated with a &lt;strong>File upload field&lt;/strong>, select the field (by clicking on the field title or field drag handle button &lt;img src="https://docs.kianda.com/images/draghandlewhite-frame.png" alt="Drag handle button">) - the &lt;strong>Field properties&lt;/strong> menu will appear in the right-hand pane.&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/file-upload-file-prop.jpg" alt="Field properties">&lt;/p>
 &lt;p>In the example shown here, a &lt;strong>File upload field&lt;/strong> titled &lt;strong>Upload Photos&lt;/strong> has been selected in a form called &amp;lsquo;Inspection Form&amp;rsquo; and the Field properties associated with this field include its Title, that its title will be shown in the form (the &amp;lsquo;Show title&amp;rsquo; checkbox is ticked), that this is a mandatory field that users must complete (the &amp;lsquo;Required&amp;rsquo; checkbox is selected and there is a red star next to the field name in the form), that this field will be enabled for users to complete (the &amp;lsquo;Enabled&amp;rsquo; checkbox is ticked), and that this field will be visible to form users (the &amp;lsquo;Visible&amp;rsquo; checkbox is ticked).&lt;/p>
 &lt;p>To learn more about the different options within the Field properties menu, go to &lt;a href="https://docs.kianda.com/docs/platform/controls/properties#field-properties">Field Properties&lt;/a>.&lt;/p>
 &lt;h3 id="saving-changes-and-version-history">Saving changes and version history&lt;/h3>

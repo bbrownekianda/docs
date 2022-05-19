@@ -5,13 +5,13 @@
 &lt;p>The Process properties include:&lt;/p>
 &lt;ul>
 &lt;li>Title - the title of the process, for example Quarterly Training Request&lt;/li>
-&lt;li>Page layout - you can click on &lt;strong>Wide&lt;/strong> &lt;img src="https://docs.kianda.com/images/wide_resized.png" alt="Wide button">or &lt;strong>Narrow&lt;/strong> &lt;img src="https://docs.kianda.com/images/narrow_resized.png" alt="Narrow button"> to change the process layout.&lt;/li>
+&lt;li>Page layout - you can click on &lt;strong>Wide&lt;/strong> &lt;img src="https://docs.kianda.com/images/wide-resized.png" alt="Wide button">or &lt;strong>Narrow&lt;/strong> &lt;img src="https://docs.kianda.com/images/narrow-resized.png" alt="Narrow button"> to change the process layout.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="https://docs.kianda.com/images/Process_Properties_TrainingProcess.jpg" alt="Process and form properties">&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/process-properties-trainingprocess.jpg" alt="Process and form properties">&lt;/p>
 &lt;p>In the example shown here, the &amp;lsquo;Training Process&amp;rsquo; has two forms: &amp;lsquo;Training Request&amp;rsquo; and &amp;lsquo;Training Approval&amp;rsquo;. When you open the process, the &lt;strong>Process properties&lt;/strong> are shown. If you click on one of the forms within the process, the &lt;a href="#form-properties">&lt;strong>Form properties&lt;/strong>&lt;/a> associated with that particular form will then be shown in the right-hand pane.&lt;/p>
 &lt;h2 id="form-properties">Form properties&lt;/h2>
 &lt;p>When you click on a form, the &lt;strong>Form properties&lt;/strong> appear in the right-hand pane.&lt;/p>
-&lt;p>&lt;img src="https://docs.kianda.com/images/Form_Properties_TrainingProcess.jpg" alt="Form properties">&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/form-properties-trainingprocess.jpg" alt="Form properties">&lt;/p>
 &lt;p>The Form properties include:&lt;/p>
 &lt;ul>
 &lt;li>
@@ -24,12 +24,12 @@
 &lt;p>Show info - click on this checkbox if you want details (such as the form owner, the design version and when the form was started and completed) to be displayed at the bottom of the form.&lt;/p>
 &lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="https://docs.kianda.com/images/Form_Properties_Show_Info_Version.jpg" alt="Form information">&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/form-properties-show-info-version.jpg" alt="Form information">&lt;/p>
 &lt;p>Underneath the Form properties you will see &lt;strong>Form submit rules&lt;/strong> - go to &lt;a href="https://docs.kianda.com/docs/platform/rules/">Rules&lt;/a> to find out more about the rules that can be applied to forms.&lt;/p>
 &lt;p>Click on one particular field (control) in the form - for example a text box - to see the &lt;a href="#field-properties">&lt;strong>Field properties&lt;/strong>&lt;/a> associated with that field.&lt;/p>
 &lt;h2 id="field-properties">Field properties&lt;/h2>
 &lt;p>When you select any field within a form (by clicking on the field name or field drag handle button &lt;img src="https://docs.kianda.com/images/draghandlewhite_frame.png" alt="Drag handle button">) - such as User picker, list or text box - the &lt;strong>Field properties&lt;/strong> associated with that field will appear in the right-hand pane.&lt;/p>
-&lt;p>&lt;img src="https://docs.kianda.com/images/Field_Properties_TrainingProcess.jpg" alt="Field properties">&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/field-properties-trainingprocess.jpg" alt="Field properties">&lt;/p>
 &lt;p>In the example shown here, the Employee Name field has been selected and the &lt;strong>Field properties&lt;/strong> associated with it include the &lt;strong>Field type&lt;/strong> (&lt;strong>Text box&lt;/strong> in this case) and the &lt;strong>Title&lt;/strong> of the field.&lt;/p>
 &lt;p>The options within the Field properties menu are:&lt;/p>
 &lt;ul>
@@ -39,7 +39,7 @@
 &lt;li>Visible - tick this checkbox to make the field visible to users&lt;/li>
 &lt;li>Layout - change the width of the field by clicking on the bar in the Layout box until you see the desired size. Click on the arrow beside Layout to see the Mobile Layout and click on the bar to change the width of the text box for mobile use.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="https://docs.kianda.com/images/textboxsize_frame.png" alt="Changing text box width">&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/textboxsize-frame.png" alt="Changing text box width">&lt;/p>
 &lt;p>Underneath the Field properties menu, you will see &lt;strong>Rules&lt;/strong> - go to &lt;a href="https://docs.kianda.com/docs/platform/rules/">Rules&lt;/a> to find out more about the rules that can be applied to fields.&lt;/p>
 &lt;h2 id="saving-changes-and-version-history">Saving changes and version history&lt;/h2>
 &lt;p>Make sure to save any changes you make by clicking on the &lt;strong>Save&lt;/strong> button &lt;img src="https://docs.kianda.com/images/saveprocess.png" alt="Save">. You will always have the option to revert back to previous versions of your form by clicking the &lt;strong>Design Version History&lt;/strong> &lt;img src="https://docs.kianda.com/images/version8.png" alt="Version button"> button in the top right corner.&lt;/p>
@@ -54,11 +54,11 @@
 &lt;p>&lt;strong>Input fields&lt;/strong> are one category of &lt;a href="../">controls&lt;/a> and include the most common data fields used to obtain user input - for example text boxes, lists and tables.&lt;/p>
 &lt;h2 id="getting-started-with-input-controls">Getting started with Input controls&lt;/h2>
 &lt;p>To start adding Input controls (fields) to your Kianda forms, you first need to either open an existing process or create a new process by going to &lt;strong>Administration&lt;/strong> &amp;gt; &lt;strong>Designer&lt;/strong> in the left side menu. See &lt;a href="https://docs.kianda.com/docs/getting-started/create-first-process/">Create First Process&lt;/a> to learn how to create your first process.&lt;/p>
-&lt;p>&lt;img src="https://docs.kianda.com/images/Administration_Designer_InputControls.jpg" alt="Opening Designer from left side menu by choosing Administration&amp;gt;Designer">&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/administration-designer-inputcont.jpg" alt="Opening Designer from left side menu by choosing Administration&amp;gt;Designer">&lt;/p>
 &lt;p>Once you have opened your process, select the form you want to work on (so that the &lt;strong>Edit Form&lt;/strong> button &lt;img src="https://docs.kianda.com/images/penicon.png" alt="Pen icon"> is shown) and then click on &lt;strong>Controls&lt;/strong> in the left-hand pane so the Controls menu expands to show the four categories of Controls (fields): Input, Layout, Actions and Custom.&lt;/p>
-&lt;p>&lt;img src="https://docs.kianda.com/images/Open_Controls_Categories_TrainingProcess.jpg" alt="Opening Controls menu to view four categories of Controls">&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/open-controls-cat-trainingprocess.jpg" alt="Opening Controls menu to view four categories of Controls">&lt;/p>
 &lt;p>Select &lt;strong>Input&lt;/strong> to view the eight types of Input fields:&lt;/p>
-&lt;p>&lt;img src="https://docs.kianda.com/images/Input_Menu_Controls.jpg" alt="Input fields">&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/input-menu-controls.jpg" alt="Input fields">&lt;/p>
 &lt;p>The eight types of input fields are:&lt;/p>
 &lt;ul>
 &lt;li>&lt;strong>Text box&lt;/strong> - A text box field is a section in your form where users can enter text, for example, an Address field. See &lt;a href="https://docs.kianda.com/docs/platform/controls/input/textbox/">Textbox control&lt;/a> for more information.&lt;/li>
@@ -72,12 +72,12 @@
 &lt;/ul>
 &lt;h3 id="how-to-add-edit-move-and-delete-input-fields">How to add, edit, move and delete Input fields&lt;/h3>
 &lt;p>To insert an &lt;strong>Input field&lt;/strong> into your form, click on the field type you want to add from the &lt;strong>Input&lt;/strong> menu. For example, to add a new text box field, click on &lt;strong>Text box&lt;/strong> - a pop-up message will appear saying &amp;lsquo;Field added&amp;rsquo; and a new text box with the default name &lt;strong>Text box 1&lt;/strong> will be added to your form.&lt;/p>
-&lt;p>&lt;img src="https://docs.kianda.com/images/Insert_Text_Box_Input_Menu.jpg" alt="Inserting a text box field">&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/insert-text-box-input.jpg" alt="Inserting a text box field">&lt;/p>
 &lt;p>To edit whatever type of input field you have added to your form, select the field (by either clicking on the field name or on the &lt;strong>Drag handle&lt;/strong> button &lt;img src="https://docs.kianda.com/images/draghandlewhite_frame.png" alt="Drag handle button">) and then click on the &lt;strong>Edit Field&lt;/strong> button (Pen icon) &lt;img src="https://docs.kianda.com/images/penicon.png" alt="Pen button">. This will open up the &lt;strong>Edit Field&lt;/strong> dialog box where you can make various changes (such as changing the Title of the field) and where a variety of options will be available to you, depending on the type of Input field you are working with.&lt;/p>
-&lt;p>&lt;img src="https://docs.kianda.com/images/Select_Text_Box_field_to_edit.jpg" alt="Select field to edit">&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/select-text-box-edit.jpg" alt="Select field to edit">&lt;/p>
 &lt;p>To move an input field, simply select the field&amp;rsquo;s &lt;strong>Drag handle&lt;/strong> button &lt;img src="https://docs.kianda.com/images/draghandlewhite_frame.png" alt="Drag handle button"> and drag and drop the field wherever you want to move it within your form.&lt;/p>
-&lt;p>&lt;img src="https://docs.kianda.com/images/Move_Input_Field_Drag_Handle.jpg" alt="Select field drag handle">&lt;/p>
-&lt;p>To delete an input field from your form, select the field (by either clicking on the field&amp;rsquo;s name or its &lt;strong>Drag handle&lt;/strong> button &lt;img src="https://docs.kianda.com/images/draghandlewhite_frame.png" alt="Drag handle button">), click on the &lt;strong>Bin/Trash&lt;/strong> button &lt;img src="https://docs.kianda.com/images/binicon.png" alt="Bin icon"> and then click on &lt;strong>OK&lt;/strong> to confirm.&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/move-drag-handle.jpg" alt="Select field drag handle">&lt;/p>
+&lt;p>To delete an input field from your form, select the field (by either clicking on the field&amp;rsquo;s name or its &lt;strong>Drag handle&lt;/strong> button &lt;img src="https://docs.kianda.com/images/draghandlewhite-frame.png" alt="Drag handle button">), click on the &lt;strong>Bin/Trash&lt;/strong> button &lt;img src="https://docs.kianda.com/images/binicon.png" alt="Bin icon"> and then click on &lt;strong>OK&lt;/strong> to confirm.&lt;/p>
 &lt;p>You can also view and edit an input field&amp;rsquo;s &lt;strong>Field Properties&lt;/strong> by selecting the field - for more details, see &lt;a href="https://docs.kianda.com/docs/platform/controls/properties/#field-properties/">Field Properties&lt;/a>.&lt;/p>
 &lt;h3 id="saving-changes-and-version-history">Saving changes and version history&lt;/h3>
 &lt;p>Make sure to save any changes you make by clicking on the &lt;strong>Save&lt;/strong> button &lt;img src="https://docs.kianda.com/images/saveprocess.png" alt="Save">. You will always have the option to revert back to previous versions of your form by clicking the &lt;strong>Design Version History&lt;/strong> &lt;img src="https://docs.kianda.com/images/version8.png" alt="Version button"> button in the top right corner.&lt;/p>
