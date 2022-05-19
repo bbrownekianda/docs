@@ -48,7 +48,7 @@ Select the **Data source** checkbox if you want to use an external data source a
 
 ![List field list source datasource](/images/List_Field_List_Source_Datasource.jpg)
 
-Then click on the **Datasource** button ![Data source button](/images/datasource.png) to open the **Select datasource** dialog box and choose the data source you want to connect to as the source for your list options - for example, SharePoint. For more information on how to connect to data sources in Kianda, go to [Data connectors](/docs/platform/connectors/).
+Then click on the **Datasource** button ![Data source button](/images/datasource.png) to open the **Select datasource** dialog box and choose the data source you want to connect to - for example, SharePoint. For more information on how to connect to data sources in Kianda, go to [Data connectors](/docs/platform/connectors/).
 
 ![List field select data source dialog box](/images/List_Field_Select_Data_Source.jpg)
 
@@ -56,7 +56,7 @@ Once you've selected a data source, click **OK** - a range of new options will n
 
 ![List field Data source options example](/images/List_Field_Datasource_Options.jpg)
 
-Select the **Display field**, **Value field** and a field to **Sort by** (the 'Sort by' option appears once you've selected a data source). Once you've chosen a field to sort by, an additional option - **Direction** - appears, enabling you to choose to sort values in **Ascending** or **Descending** order. In the example shown here, Kianda has been chosen as the data source and the Display field and Value field have both been set to a field titled 'Type of Training' from a form called 'Training Request'.
+Select the **Display field**, **Value field** and a field to **Sort by** (the 'Sort by' option appears once you've selected a data source). Once you've chosen a field to sort by, an additional option - **Direction** - appears, enabling you to choose to sort values in **Ascending** or **Descending** order. In the example shown here, Kianda has been chosen as the data source and a field titled 'Type of Training' from a form called 'Training Request' has been chosen as both the Display field and Value field.
 
 Click on the **Edit conditions** button if you want to add a condition to your List field - for example, if you want to create a cascading list where the options available in a second list are dependent upon the option the user has chosen from a first list. To learn more about applying conditions, go to [**Conditions**](/docs/platform/rules/general/add-conditions/) and to find out more about creating cascading lists, watch the video on [**How to create cascading dropdown lists**](/docs/how-to/create-cascading-dropdown-lists/).
 
