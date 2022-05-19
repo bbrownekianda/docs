@@ -31,8 +31,8 @@ To apply this rule, first choose an item to attach the rule to and have a ShareP
 4. You will be presented with five options within the dialog box:
 
    - **List template** allows you to select an existing SharePoint list within the SharePoint data source to emulate the formatting and design of the list. 
-   - **List name field** allows you to create a name for the list. This field, **List url field** and **List description field** are all populated from a Kianda form, so choose a field from a form.
-   - **List url field** will be used in the creation of the URL within SharePoint. Provide the appropriate URL
+   - **List name field** allows you to create a name for the list. This field, **List url field** and **List description field** are all populated from a Kianda form. Choose a field from a Kianda form.
+   - **List url field** will be used in the creation of the URL within SharePoint. Choose a field from a Kianda form.
    - **List description field** will be used for the SharePoint list description. Choose a field from a Kianda form.
    - **Quick Launch menu** - options are **Yes** or **No**.
 
