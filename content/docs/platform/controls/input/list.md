@@ -64,7 +64,7 @@ If you choose Kianda as the data source for your list field, two additional opti
 
  Once you've selected your **List source** and the various options associated with it, complete the remaining options in the **New field - List** dialog box:
 
-- **Enable offline cache** - You can choose this option to make list data available when offline (only available for lists with less than 500 options). **Note:** If a Kianda form is completed offline, once the user re-establishes internet connection, they need to go into Kianda and click the **Force refresh** button ![Force refresh button](/images/refresh.png) at the top right of their Home page to ensure the form is uploaded in full.
+- **Enable offline cache** - You can choose this option to make list data available when offline (only available for lists with less than 500 options). 
 - **Display format** - You can choose to have your list field appear as either a Drop-down list, a Radio list, Multi-select or a Checkbox list.
 
 By default, the **Dropdown list** radio button is selected, along with two additional options - **Filter mode** (you can choose either 'Starts With' or 'Contains') and **Enable native selector on mobile** (so a user completing the list field on their mobile phone can use the default list selector on it).
