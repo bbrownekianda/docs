@@ -115,16 +115,17 @@ select a field where the text is stored.&lt;/p>
 &lt;li>&lt;input checked="" disabled="" type="checkbox"> to a process (the rule will run on load)&lt;/li>
 &lt;/ul>
 &lt;h3 id="how-to-use">How to use&lt;/h3>
-&lt;p>To apply this rule, first choose an item to attach the rule to, for example a field, such as a Submit button or other button.&lt;/p>
+&lt;p>To apply this rule, first choose an item to attach the rule to and have a SharePoint data source ready where you want the list to be located. This data source should be a predefined data connector created with &lt;strong>Data sources&lt;/strong> under &lt;strong>Administration&lt;/strong>.&lt;/p>
 &lt;ol>
 &lt;li>
-&lt;p>Select the field to attach the rule to.&lt;/p>
+&lt;p>Select the field or other item to attach the rule to.&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>Click on &lt;strong>Add a rule&lt;/strong> &amp;gt; &lt;strong>SharePoint&lt;/strong> &amp;gt; &lt;strong>Create a group&lt;/strong>.&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>Select a SharePoint &lt;strong>data source&lt;/strong> where you want the group to be located.&lt;/p>
+&lt;p>In the &lt;strong>Edit rule - Create a group&lt;/strong> dialog box, give the rule a &lt;strong>Title&lt;/strong>. Then select a SharePoint data source from the drop-down list.&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/create-a-group-rule.jpg" alt="Create a group rule dialog box">&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>Two new fields will appear to allow you to confirm group details:
@@ -135,14 +136,14 @@ For &lt;strong>Group Description field&lt;/strong>, create a description for the
 &lt;p>The final two sections are optional:&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;p>Under &lt;strong>On success mapping&lt;/strong>, click on &lt;strong>Add mapping&lt;/strong>.
-For &lt;strong>Form Field&lt;/strong>, select a field to store the text.
-For &lt;strong>Data source field&lt;/strong> or text, either enter the text or
-select a field where the text is stored.&lt;/p>
-&lt;p>Under &lt;strong>On error mapping&lt;/strong>, click on &lt;strong>Add mapping&lt;/strong>.
-For &lt;strong>Form Field&lt;/strong>, select a field to store the text.
-For &lt;strong>Error message&lt;/strong> or text, either enter the text or
-select a field where the text is stored.&lt;/p>
+&lt;p>​ Under &lt;strong>On success mapping&lt;/strong>, click on &lt;strong>Add mapping&lt;/strong>.
+​ For &lt;strong>Form Field&lt;/strong>, select a field to store the text.
+​ For &lt;strong>Data source field&lt;/strong> or text, either enter the text or
+​ select a field where the text is stored.&lt;/p>
+&lt;p>​ Under &lt;strong>On error mapping&lt;/strong>, click on &lt;strong>Add mapping&lt;/strong>.
+​ For &lt;strong>Form Field&lt;/strong>, select a field to store the text.
+​ For &lt;strong>Error message&lt;/strong> or text, either enter the text or
+​ select a field where the text is stored.&lt;/p>
 &lt;ol start="6">
 &lt;li>
 &lt;p>Click on &lt;strong>OK&lt;/strong> when complete.&lt;/p>
@@ -152,7 +153,7 @@ select a field where the text is stored.&lt;/p>
 &lt;/li>
 &lt;/ol>
 &lt;h3 id="whats-next--idea-iconimages18png">What&amp;rsquo;s next &lt;img src="https://docs.kianda.com/images/18.png" alt="Idea icon">&lt;/h3>
-&lt;p>Now that you&amp;rsquo;ve learned about &lt;strong>Create a group&lt;/strong>, return to the &lt;a href="https://docs.kianda.com/docs/platform/rules/SharePoint/">SharePoint rules&lt;/a> page to find out about other SharePoint rules.&lt;/p></description></item><item><title>Docs: Create a list</title><link>https://docs.kianda.com/docs/platform/rules/sharepoint/create-a-list/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/sharepoint/create-a-list/</guid><description>
+&lt;p>Now that you&amp;rsquo;ve learned about &lt;strong>Create a group&lt;/strong>, return to the &lt;a href="https://docs.kianda.com/docs/platform/rules/sharepoint/">SharePoint rules&lt;/a> page to find out about other SharePoint rules.&lt;/p></description></item><item><title>Docs: Create a list</title><link>https://docs.kianda.com/docs/platform/rules/sharepoint/create-a-list/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/sharepoint/create-a-list/</guid><description>
 &lt;p>This rule allows you to create a SharePoint List from within Kianda.&lt;/p>
 &lt;h3 id="when-to-use">When to use&lt;/h3>
 &lt;p>This rule should be used when within your Kianda process you wish to create a new SharePoint list, for example as part of a new project you want to create a list in SharePoint to store information pertaining to that project such as invoice numbers.&lt;/p>
@@ -166,7 +167,7 @@ select a field where the text is stored.&lt;/p>
 &lt;p>To apply this rule, first choose an item to attach the rule to and have a SharePoint data source ready where you want the list to be located. This data source should be a predefined data connector created with &lt;strong>Data sources&lt;/strong> under &lt;strong>Administration&lt;/strong>.&lt;/p>
 &lt;ol>
 &lt;li>
-&lt;p>Select the field to attach the rule to.&lt;/p>
+&lt;p>Select a field or other item to attach the rule to.&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>Click on &lt;strong>Add a rule&lt;/strong> &amp;gt; &lt;strong>SharePoint&lt;/strong> &amp;gt; &lt;strong>Create a list&lt;/strong>.&lt;/p>
@@ -220,40 +221,53 @@ select a field where the text is stored.&lt;/p>
 &lt;li>&lt;input checked="" disabled="" type="checkbox"> to a process (the rule will run on load)&lt;/li>
 &lt;/ul>
 &lt;h3 id="how-to-use">How to use&lt;/h3>
-&lt;p>To apply this rule, first choose an item to attach the rule to, for example a field, such as a Submit button or other button.&lt;/p>
+&lt;p>To apply this rule, first choose an item to attach the rule to and have a SharePoint data source ready where you want the list to be located. This data source should be a predefined data connector created with &lt;strong>Data sources&lt;/strong> under &lt;strong>Administration&lt;/strong>.&lt;/p>
 &lt;ol>
-&lt;li>Select the field to attach the rule to.&lt;/li>
-&lt;li>Click on &lt;strong>Add a rule&lt;/strong> &amp;gt; &lt;strong>SharePoint&lt;/strong> &amp;gt; &lt;strong>Create a site&lt;/strong>.&lt;/li>
-&lt;li>Select a SharePoint &lt;strong>data source&lt;/strong> where you want the group to be located. You will be presented with &lt;u>six options&lt;/u>:
+&lt;li>
+&lt;p>Select a field or other item to attach the rule to.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Click on &lt;strong>Add a rule&lt;/strong> &amp;gt; &lt;strong>SharePoint&lt;/strong> &amp;gt; &lt;strong>Create a site&lt;/strong>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>In the &lt;strong>Edit rule - Create a site&lt;/strong> dialog box, give the rule a &lt;strong>Title&lt;/strong>. Then select a SharePoint data source from the drop-down list.&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/create-a-site-rule.jpg" alt="Create a site rule dialog box">&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>You will be presented with five options within the dialog box:&lt;/p>
 &lt;ul>
-&lt;li>The &lt;strong>site template&lt;/strong> allows you to select an existing SharePoint site within the SharePoint data source to emulate the formatting and design of the site.&lt;/li>
-&lt;li>&lt;strong>Site Name&lt;/strong> allows you to select a Kianda field which will be used as the base for the site you are creating. The name field will be used to create the name of the site,&lt;/li>
-&lt;li>&lt;strong>Site URL&lt;/strong> will be used in the creation of the URL within SharePoint and then the&lt;/li>
-&lt;li>&lt;strong>site description&lt;/strong> will be used for the SharePoint site description. &lt;strong>Site Name&lt;/strong>, &lt;strong>site URL&lt;/strong>, and &lt;strong>site description field&lt;/strong> are all derived from the Kianda form.&lt;/li>
-&lt;li>&lt;strong>Inherit parent permissions&lt;/strong> - options are: &lt;strong>Yes&lt;/strong> and &lt;strong>No&lt;/strong>. If you choose &amp;lsquo;Yes&amp;rsquo; it will allow your new site inherit parent permissions for that SharePoint location.&lt;/li>
+&lt;li>&lt;strong>Site template&lt;/strong> allows you to select an existing SharePoint site within the SharePoint data source to emulate the formatting and design of the site.&lt;/li>
+&lt;li>&lt;strong>Site title field&lt;/strong> will be used to create the name of the site. &lt;strong>Site title field&lt;/strong>, &lt;strong>site URL&lt;/strong>, and &lt;strong>site description field&lt;/strong> are all derived from the Kianda form. Choose a field from a Kianda form.&lt;/li>
+&lt;li>&lt;strong>Site url field&lt;/strong> will be used in the creation of the URL within SharePoint. Choose a field from a Kianda form.&lt;/li>
+&lt;li>&lt;strong>Site description field&lt;/strong> will be used for the SharePoint site description. Choose a field from a Kianda form.&lt;/li>
+&lt;li>&lt;strong>Inherit parent permissions&lt;/strong> - options are: &lt;strong>Yes&lt;/strong> and &lt;strong>No&lt;/strong>. If you choose &amp;lsquo;Yes&amp;rsquo; it will allow your new site to inherit parent permissions for that SharePoint location.&lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;li>Once these fields are set you can also set conditions on the rule, further details on conditions can be found here.&lt;/li>
-&lt;li>The final two sections are optional:&lt;/li>
+&lt;li>
+&lt;p>Once these fields are set you can also set conditions on the rule, further details on conditions can be found here.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>The final two sections are optional:&lt;/p>
+&lt;/li>
 &lt;/ol>
-&lt;p>Under &lt;strong>On success mapping&lt;/strong>, click on &lt;strong>Add mapping&lt;/strong>.
-For &lt;strong>Form Field&lt;/strong>, select a field to store the text.
-For &lt;strong>Data source field&lt;/strong> or text, either enter the text or
-select a field where the text is stored.&lt;/p>
-&lt;p>Under &lt;strong>On error mapping&lt;/strong>, click on &lt;strong>Add mapping&lt;/strong>.
-For &lt;strong>Form Field&lt;/strong>, select a field to store the text.
-For &lt;strong>Error message&lt;/strong> or text, either enter the text or
-select a field where the text is stored.&lt;/p>
+&lt;p>​ Under &lt;strong>On success mapping&lt;/strong>, click on &lt;strong>Add mapping&lt;/strong>.
+​ For &lt;strong>Form Field&lt;/strong>, select a field to store the text.
+​ For &lt;strong>Data source field&lt;/strong> or text, either enter the text or
+​ select a field where the text is stored.&lt;/p>
+&lt;p>​ Under &lt;strong>On error mapping&lt;/strong>, click on &lt;strong>Add mapping&lt;/strong>.
+​ For &lt;strong>Form Field&lt;/strong>, select a field to store the text.
+​ For &lt;strong>Error message&lt;/strong> or text, either enter the text or
+​ select a field where the text is stored.&lt;/p>
 &lt;ol start="6">
 &lt;li>
 &lt;p>Click on &lt;strong>OK&lt;/strong> when complete.&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>Move the rule in the right-hand pane to change the order of execution as necessary.&lt;/p>
+&lt;p>Move the rule in the right-hand pane under &lt;strong>Rules&lt;/strong> to change the order of execution as necessary.&lt;/p>
 &lt;/li>
 &lt;/ol>
 &lt;h3 id="whats-next--idea-iconimages18png">What&amp;rsquo;s next &lt;img src="https://docs.kianda.com/images/18.png" alt="Idea icon">&lt;/h3>
-&lt;p>Now that you&amp;rsquo;ve learned about &lt;strong>Create a site&lt;/strong>, return to the &lt;a href="https://docs.kianda.com/docs/platform/rules/SharePoint/">SharePoint rules&lt;/a> page to find out about other SharePoint rules.&lt;/p></description></item><item><title>Docs: Create an anonymous link</title><link>https://docs.kianda.com/docs/platform/rules/sharepoint/create-anonymous-link/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/sharepoint/create-anonymous-link/</guid><description>
+&lt;p>Now that you&amp;rsquo;ve learned about &lt;strong>Create a site&lt;/strong>, return to the &lt;a href="https://docs.kianda.com/docs/platform/rules/sharepoint/">SharePoint rules&lt;/a> page to find out about other SharePoint rules.&lt;/p></description></item><item><title>Docs: Create an anonymous link</title><link>https://docs.kianda.com/docs/platform/rules/sharepoint/create-anonymous-link/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/sharepoint/create-anonymous-link/</guid><description>
 &lt;p>This rule allows you to create an anonymous link for a file within SharePoint from a Kianda form&lt;/p>
 &lt;h3 id="when-to-use">When to use&lt;/h3>
 &lt;p>This rule should be used when a file within SharePoint should be shared with an individual via an anonymous link.&lt;/p>
@@ -294,17 +308,27 @@ select a field where the text is stored.&lt;/p>
 &lt;li>&lt;input checked="" disabled="" type="checkbox"> to a process (the rule will run on load)&lt;/li>
 &lt;/ul>
 &lt;h3 id="how-to-use">How to use&lt;/h3>
-&lt;p>To apply this rule, first choose an item to attach the rule to, for example a field, such as a Submit button or other button.&lt;/p>
+&lt;p>To apply this rule, first choose an item to attach the rule to and have a SharePoint data source ready where you want the list to be located. This data source should be a predefined data connector created with &lt;strong>Data sources&lt;/strong> under &lt;strong>Administration&lt;/strong>.&lt;/p>
 &lt;ol>
 &lt;li>
-&lt;p>Select the field to attach the rule to.&lt;/p>
+&lt;p>Select a field or other item to attach the rule to.&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>Click on &lt;strong>Add a rule&lt;/strong> &amp;gt; &lt;strong>SharePoint&lt;/strong> &amp;gt; &lt;strong>Find a user&lt;/strong>.&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>Select a SharePoint &lt;strong>data source&lt;/strong> where the user is located. You will be presented with two options. First is a radio button to select what search criteria you are using to find the user, i.e. display name, email, or ID. Next the search term field is used to select the Kianda form field which will be used to lookup the user details from the data source.&lt;/p>
+&lt;p>In the &lt;strong>Edit rule - Find a user&lt;/strong> dialog box, give the rule a &lt;strong>Title&lt;/strong>. Then select a SharePoint data source from the drop-down list.&lt;/p>
 &lt;/li>
+&lt;li>&lt;/li>
+&lt;li>
+&lt;p>You will be presented with two options within the dialog box:&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>&lt;strong>Find user by&lt;/strong> provides the search criteria to find the user that is, &lt;strong>display name&lt;/strong>, &lt;strong>email&lt;/strong>, or &lt;strong>ID&lt;/strong>.&lt;/li>
+&lt;li>&lt;strong>Search term field&lt;/strong> is used to select the Kianda form field which will be used to lookup the user details from the data source.&lt;/li>
+&lt;/ul>
+&lt;ol start="6">
 &lt;li>
 &lt;p>The final two sections are optional:&lt;/p>
 &lt;p>Under &lt;strong>On success mapping&lt;/strong>, click on &lt;strong>Add mapping&lt;/strong>.
@@ -324,7 +348,7 @@ select a field where the text is stored.&lt;/p>
 &lt;/li>
 &lt;/ol>
 &lt;h3 id="whats-next--idea-iconcontentdocsplatformrulessharepointfind-a-userassets18png">What&amp;rsquo;s next &lt;img src="https://docs.kianda.com/../content/docs/platform/rules/sharepoint/find-a-user.assets/18.png" alt="Idea icon">&lt;/h3>
-&lt;p>Now that you&amp;rsquo;ve learned about &lt;strong>Find a user&lt;/strong>, return to the &lt;a href="https://docs.kianda.com/docs/platform/rules/SharePoint/">SharePoint rules&lt;/a> page to find out about other SharePoint rules.&lt;/p></description></item><item><title>Docs: Get List item attachments</title><link>https://docs.kianda.com/docs/platform/rules/sharepoint/get-attachments/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/sharepoint/get-attachments/</guid><description>
+&lt;p>Now that you&amp;rsquo;ve learned about &lt;strong>Find a user&lt;/strong>, return to the &lt;a href="https://docs.kianda.com/docs/platform/rules/sharepoint/">SharePoint rules&lt;/a> page to find out about other SharePoint rules.&lt;/p></description></item><item><title>Docs: Get List item attachments</title><link>https://docs.kianda.com/docs/platform/rules/sharepoint/get-attachments/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/sharepoint/get-attachments/</guid><description>
 &lt;p>This rule allows you to retrieve an &lt;u>attachment&lt;/u> from a SharePoint list for use in a Kianda process.&lt;/p>
 &lt;h3 id="when-to-use">When to use&lt;/h3>
 &lt;p>This rule should be used when an attachment is to be pulled from SharePoint and displayed within a Kianda process.&lt;/p>
