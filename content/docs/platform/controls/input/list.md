@@ -56,7 +56,7 @@ Once you've selected a data source, click **OK** - a range of new options will n
 
 ![List field Data source options example](/images/List_Field_Datasource_Options.jpg)
 
-Select the **Display field**, **Value field** and a field to **Sort by** (the 'Sort by' option appears once you've selected a data source). Once you've chosen a field to sort by, an additional option - **Direction** - appears, enabling you to choose to sort values in **Ascending** or **Descending** order. 
+Select the **Display field**, **Value field** and a field to **Sort by** (the 'Sort by' option appears once you've selected a data source). Once you've chosen a field to sort by, an additional option - **Direction** - appears, enabling you to choose to sort values in **Ascending** or **Descending** order. In the example shown here, Kianda has been chosen as the data source and the Display field and Value field have both been set to a field titled 'Type of Training' from a form called 'Training Request'.
 
 Click on the **Edit conditions** button if you want to add a condition to your List field - for example, if you want to create a cascading list where the options available in a second list are dependent upon the option the user has chosen from a first list. To learn more about applying conditions, go to [**Conditions**](/docs/platform/rules/general/add-conditions/) and to find out more about creating cascading lists, watch the video on [**How to create cascading dropdown lists**](/docs/how-to/create-cascading-dropdown-lists/).
 
