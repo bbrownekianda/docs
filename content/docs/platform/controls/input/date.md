@@ -33,7 +33,7 @@ The options within the **Edit date field dialog box** include:
 
 - **Title** - you can change the title of the date field
 
-- **Help text** - you can insert help text a user can view when completing the date field
+- **Help text** - you can insert help text a user can view when completing the date field. If you add help text, a question mark ![Help text icon](/images/help-icon.jpg) icon will appear next to the field title and, if the user clicks on this, they will see the help text you have inserted.
 
 - **Display format** - you can choose whether the date field shows the date only or the date and time
 
