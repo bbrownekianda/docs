@@ -18,28 +18,31 @@ You can add this rule:
 
 ### How to use
 
-To apply this rule, first choose an item to attach the rule to, for example a field, such as a Submit button or other button.
+To apply this rule, first choose an item to attach the rule to and have a SharePoint data source ready where you want the list to be located. This data source should be a predefined data connector created with **Data sources** under **Administration**. 
 
-1. Select the field to attach the rule to.
+1. Select the field or other item to attach the rule to.
 
 2. Click on **Add a rule** > **SharePoint** > **Create a group**.
 
-3. Select a SharePoint **data source** where you want the group to be located. 
+3. In the **Edit rule - Create a group** dialog box, give the rule a **Title**. Then select a SharePoint data source from the drop-down list.
+
+   ![Create a group rule dialog box](/images/create-a-group-rule.jpg)
 
 4. Two new fields will appear to allow you to confirm group details: 
    For **Group title** field, select the field where the group title is stored for example,  a list field.
    For **Group Description field**, create a description for the group. 
+
 5. The final two sections are optional:
 
-Under **On success mapping**, click on **Add mapping**. 
-	For **Form Field**, select a field to store the text. 
-	For **Data source field** or text, either enter the text or 
-		select a field where the text is stored.
+​		Under **On success mapping**, click on **Add mapping**. 
+​			For **Form Field**, select a field to store the text. 
+​			For **Data source field** or text, either enter the text or 
+​			select a field where the text is stored.
 
-Under **On error mapping**, click on **Add mapping**. 
-	For **Form Field**, select a field to store the text. 
-	For **Error message** or text, either enter the text or 
-		select a field where the text is stored.
+​		Under **On error mapping**, click on **Add mapping**. 
+​			For **Form Field**, select a field to store the text. 
+​			For **Error message** or text, either enter the text or 
+​		select a field where the text is stored.
 
 6. Click on **OK** when complete.
 
@@ -49,4 +52,4 @@ Under **On error mapping**, click on **Add mapping**.
 
 ### What's next  ![Idea icon](/images/18.png) ###
 
-Now that you've learned about **Create a group**, return to the [SharePoint rules](/docs/platform/rules/SharePoint/) page to find out about other SharePoint rules. 
+Now that you've learned about **Create a group**, return to the [SharePoint rules](/docs/platform/rules/sharepoint/) page to find out about other SharePoint rules. 

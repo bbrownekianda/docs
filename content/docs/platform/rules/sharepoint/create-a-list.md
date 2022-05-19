@@ -20,7 +20,7 @@ You can add this rule:
 
 To apply this rule, first choose an item to attach the rule to and have a SharePoint data source ready where you want the list to be located. This data source should be a predefined data connector created with **Data sources** under **Administration**. 
 
-1. Select the field to attach the rule to.
+1. Select a field or other item to attach the rule to.
 
 2. Click on **Add a rule** > **SharePoint** > **Create a list**. 
 

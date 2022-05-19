@@ -19,36 +19,40 @@ You can add this rule:
 
 ### How to use
 
-To apply this rule, first choose an item to attach the rule to, for example a field, such as a Submit button or other button.
+To apply this rule, first choose an item to attach the rule to and have a SharePoint data source ready where you want the list to be located. This data source should be a predefined data connector created with **Data sources** under **Administration**. 
 
-1. Select the field to attach the rule to.
+1. Select a field or other item to attach the rule to.
 2. Click on **Add a rule** > **SharePoint** > **Create a site**.
-3. Select a SharePoint **data source** where you want the group to be located. You will be presented with <u>six options</u>:
-   - The **site template** allows you to select an existing SharePoint site within the SharePoint data source to emulate the formatting and design of the site.
-   - **Site Name** allows you to select a Kianda field which will be used as the base for the site you are creating. The name field will be used to create the name of the site, 
-   - **Site URL** will be used in the creation of the URL within SharePoint and then the 
-   - **site description** will be used for the SharePoint site description. **Site Name**, **site URL**, and **site description field** are all derived from the Kianda form.
-   - **Inherit parent permissions** - options are: **Yes** and **No**. If you choose 'Yes' it will allow your new site inherit parent permissions for that SharePoint location.
-4. Once these fields are set you can also set conditions on the rule, further details on conditions can be found here.
-5. The final two sections are optional:
+3. In the **Edit rule - Create a site** dialog box, give the rule a **Title**. Then select a SharePoint data source from the drop-down list.
 
-Under **On success mapping**, click on **Add mapping**. 
-	For **Form Field**, select a field to store the text. 
-	For **Data source field** or text, either enter the text or 
-		select a field where the text is stored.
+	![Create a site rule dialog box](/images/create-a-site-rule.jpg)
 
-Under **On error mapping**, click on **Add mapping**. 
-	For **Form Field**, select a field to store the text. 
-	For **Error message** or text, either enter the text or 
-		select a field where the text is stored.
+4. You will be presented with five options within the dialog box:
+   - **Site template** allows you to select an existing SharePoint site within the SharePoint data source to emulate the formatting and design of the site.
+   - **Site title field** will be used to create the name of the site. **Site title field**, **site URL**, and **site description field** are all derived from the Kianda form. Choose a field from a Kianda form.
+   - **Site url field** will be used in the creation of the URL within SharePoint. Choose a field from a Kianda form.
+   - **Site description field** will be used for the SharePoint site description. Choose a field from a Kianda form.
+   - **Inherit parent permissions** - options are: **Yes** and **No**. If you choose 'Yes' it will allow your new site to inherit parent permissions for that SharePoint location.
+5. Once these fields are set you can also set conditions on the rule, further details on conditions can be found here.
+6. The final two sections are optional:
+
+​		Under **On success mapping**, click on **Add mapping**. 
+​			For **Form Field**, select a field to store the text. 
+​			For **Data source field** or text, either enter the text or 
+​			select a field where the text is stored.
+
+​		Under **On error mapping**, click on **Add mapping**. 
+​			For **Form Field**, select a field to store the text. 
+​			For **Error message** or text, either enter the text or 
+​			select a field where the text is stored.
 
 6. Click on **OK** when complete.
 
-7. Move the rule in the right-hand pane to change the order of execution as necessary.
+7. Move the rule in the right-hand pane under **Rules** to change the order of execution as necessary.
 
    
 
 
 ### What's next  ![Idea icon](/images/18.png) ###
 
-Now that you've learned about **Create a site**, return to the [SharePoint rules](/docs/platform/rules/SharePoint/) page to find out about other SharePoint rules. 
+Now that you've learned about **Create a site**, return to the [SharePoint rules](/docs/platform/rules/sharepoint/) page to find out about other SharePoint rules. 
