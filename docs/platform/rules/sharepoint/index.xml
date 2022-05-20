@@ -253,7 +253,7 @@ For &lt;strong>Group Description field&lt;/strong>, create a description for the
 &lt;p>&lt;img src="https://docs.kianda.com/images/create-anon-link-rule.jpg" alt="Create anonymous link dialog box">&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>Under &lt;strong>Select a file field with files to create anonymous link(s)&lt;/strong> select the file field that will be used to hold the generated anonymous link.&lt;/p>
+&lt;p>Under &lt;strong>Select a file field with files to create anonymous link(s)&lt;/strong> select the file field to link to the desired SharePoint file(s).&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>Under &lt;strong>Link duration in hours&lt;/strong> type in a number value. By default the link duration is 6 hours, but this can be increased or decreased as needed.&lt;/p>
@@ -320,9 +320,10 @@ For &lt;strong>Group Description field&lt;/strong>, create a description for the
 &lt;p>If you have multiple rules attached to the field or other item, you may wish to reorder the rules to change the order of rule execution. Go to &lt;a href="https://docs.kianda.com/docs/platform/rules/general/multiple-rules/">Multiple rules&lt;/a> to find out more.&lt;/p>
 &lt;h3 id="whats-next--idea-iconimages18png">What&amp;rsquo;s next &lt;img src="https://docs.kianda.com/images/18.png" alt="Idea icon">&lt;/h3>
 &lt;p>Now that you&amp;rsquo;ve learned about &lt;strong>Find a user&lt;/strong>, return to the &lt;a href="https://docs.kianda.com/docs/platform/rules/sharepoint/">SharePoint rules&lt;/a> page to find out about other SharePoint rules.&lt;/p></description></item><item><title>Docs: Get List item attachments</title><link>https://docs.kianda.com/docs/platform/rules/sharepoint/get-attachments/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/sharepoint/get-attachments/</guid><description>
-&lt;p>This rule allows you to retrieve an &lt;u>attachment&lt;/u> from a SharePoint list for use in a Kianda process.&lt;/p>
+&lt;p>This rule allows you to retrieve an attachment from a SharePoint list for use in a Kianda process.&lt;/p>
 &lt;h3 id="when-to-use">When to use&lt;/h3>
-&lt;p>This rule should be used when an attachment is to be pulled from SharePoint and displayed within a Kianda process.&lt;/p>
+&lt;p>This rule should be used when an attachment needs to be extracted from SharePoint and displayed within a Kianda process, for example a SharePoint list with attachment as seen in the image below.&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/list-attachment.jpg" alt="List attachment example">&lt;/p>
 &lt;p>You can add this rule:&lt;/p>
 &lt;ul>
 &lt;li>
@@ -342,12 +343,12 @@ For &lt;strong>Group Description field&lt;/strong>, create a description for the
 &lt;li>Click on &lt;strong>Add a rule&lt;/strong> &amp;gt; &lt;strong>SharePoint&lt;/strong> &amp;gt; &lt;strong>Get attachments&lt;/strong>.&lt;/li>
 &lt;li>In the &lt;strong>Edit rule - Get attachments&lt;/strong> dialog box, give the rule a &lt;strong>Title&lt;/strong>. Then select a SharePoint data source by clicking on &lt;strong>Select data source&lt;/strong>.
 &lt;img src="https://docs.kianda.com/images/get-attachments-rule.jpg" alt="Get attachments dialog box">&lt;/li>
-&lt;li>Click on &lt;strong>Data source filter&lt;/strong> to create a filter to find that data source.&lt;/li>
+&lt;li>Click on &lt;strong>Data source filter&lt;/strong> to create a filter to find that data source. The filter works the same as a condition, see &lt;a href="https://docs.kianda.com/docs/platform/rules/general/add-conditions/">Conditions&lt;/a> for more information.&lt;/li>
 &lt;li>For the field &lt;strong>Select a destination file input&lt;/strong> select the file field within Kianda where the file should be available.&lt;/li>
-&lt;li>Once these fields are set, you can set a condition on the rule to determine which file is pulled from SharePoint. The simplest way of doing this is to use a condition on the name of the attachment within SharePoint that equals a value that is set on the condition, for example, “filename.csv”.&lt;/li>
+&lt;li>Once these fields are set, you can set a condition on the rule to determine which file is pulled from SharePoint. The simplest way of doing this is to use a condition on the name of the attachment within SharePoint that equals a value that is set on the condition, for example, “filename.csv”. See &lt;a href="https://docs.kianda.com/docs/platform/rules/general/add-conditions/">Conditions&lt;/a> for more information.&lt;/li>
 &lt;li>Click on &lt;strong>OK&lt;/strong> when complete.&lt;/li>
 &lt;/ol>
-&lt;p>This rule can then be run for example on a button which is manually triggered by a user, or automatically on load of the process. From here the file can be utilized to populate data fields, tables and so on. This will be discussed further in &lt;u>other rules&lt;/u>.&lt;/p>
+&lt;p>This rule can then be run for example on a button which is manually triggered by a user, or automatically on load of the process. From here the file can be utilised to populate data fields, tables and so on. Go to the &lt;a href="https://docs.kianda.com/docs/platform/rules/">Rules&lt;/a> page to navigate to other rules.&lt;/p>
 &lt;h3 id="user-tip-target-iconimages05png">User tip &lt;img src="https://docs.kianda.com/images/05.png" alt="Target icon">&lt;/h3>
 &lt;p>If you have multiple rules attached to the field or other item, you may wish to reorder the rules to change the order of rule execution. Go to &lt;a href="https://docs.kianda.com/docs/platform/rules/general/multiple-rules/">Multiple rules&lt;/a> to find out more.&lt;/p>
 &lt;h3 id="whats-next--idea-iconimages18png">What&amp;rsquo;s next &lt;img src="https://docs.kianda.com/images/18.png" alt="Idea icon">&lt;/h3>
@@ -436,39 +437,40 @@ For &lt;strong>Username or User Id&lt;/strong>, select the field where the Usern
 For &lt;strong>User or Group id&lt;/strong>, select the field where the user is stored. This could be either a User Picker field or a text field.
 Select the &lt;strong>Permission level&lt;/strong> from the drop-down list.&lt;/p>
 &lt;p>&lt;img src="https://docs.kianda.com/images/permissions-rule.jpg" alt="Permissions in SharePoint dialog box">&lt;/p>
-&lt;p>There are 10 possible permissions:&lt;/p>
+&lt;p>There are 10 permissions:&lt;/p>
 &lt;ul>
 &lt;li>
-&lt;p>&lt;strong>Full control&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>Full control&lt;/strong> - enables users to have full control of the website&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;strong>Design&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>Design&lt;/strong> - enables users to view, add, update, delete, approve, and customize items or pages in the website.&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;strong>Edit&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>Edit&lt;/strong> - enables users to manage lists.&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;strong>Contribute&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>Contribute&lt;/strong> - enables users to manage personal views, edit items and user information, delete versions in existing lists and document libraries, and add, remove, and update personal Web Parts.&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;strong>Read&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>Read&lt;/strong> - enables users to view pages and list items, and to download documents.&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;strong>View Only&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>View Only&lt;/strong> - enables users to view application pages. The View Only permission level is used for the Excel Services Viewers group.&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;strong>Approve&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>Approve&lt;/strong> - enables users to edit and approve pages, list items, and documents. For publishing sites only.&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;strong>Manage Hierarchy&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>Manage Hierarchy&lt;/strong> - enables users to create sites; edit pages, list items, and documents, and change site permissions. For Publishing sites only.&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;strong>Restricted Read&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>Restricted Read&lt;/strong> - enables users to view pages and documents. For publishing sites only.&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;strong>Restricted Interfaces for Translation&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>Restricted Interfaces for Translation&lt;/strong> - enables users to view lists/libraries properties by remote interface (like REST API, Web Services).&lt;/p>
 &lt;/li>
 &lt;/ul>
+&lt;p>For more on SharePoint permissions go to &lt;a href="https://docs.microsoft.com/en-us/sharepoint/sites/user-permissions-and-permission-levels">https://docs.microsoft.com/en-us/sharepoint/sites/user-permissions-and-permission-levels&lt;/a>.&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>Once these fields are set you can also set conditions for the rule, see &lt;a href="https://docs.kianda.com/docs/platform/rules/general/add-conditions/">Conditions&lt;/a> for more information.&lt;/p>
