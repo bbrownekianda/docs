@@ -1,35 +1,33 @@
 ---
-title: "Add time to date"
+title: "Add time to date" 
 ---
 
-              A screenshots back-up the intro
+The add time to date rule allows you to add time to a date field in order to have a future date set within your form.
 
-###### When to use 
+**When to use:**
 
+The add time to date rule should be used when a user wishes to add time to a date, i.e. for a reminder email to be sent after 24 hours.
 
-###### How to use
-              Number of points for the actual steps you need to follow to configure the rule.
-    
-              Video should be here?   
+ 
 
-###### Notes
-Explain other advanced scenarios of the rule
+**You can add this rule:**
 
+·    to a field
 
-"Allows precise date calculation. This allows adding a number of time units (minutes, hours, days, weeks, etc) to calculate date based on now date, today date (starting at mid night) or a spefici date value"		
+·    to a form
 
-FROM HELP??
-With the Dates rules, it is easy to manipulate dates! On the example, we are dynamically calculating the starting date of a new employee, with an on-load rule. The starting date will be within 20 days from the registration day (today), excluding a special date. To do so:
+·    to a process (the rule will run on load)
 
-You can add a condition to this rule
-Click on the form name, on the top of the page, to open the on load rules
-Navigate to Dates > Add time to a date
-Give the rule a title
-Set the amount of time you want to add to the date - 20 days in this case
-On to date, select the date you want to add the time to - it can be a date specified in a date field in your form
-Add the destination field where the result will be displayed
-Add the special dates - days you want to exclude from your addition
-Save and press ok
-Note: If you are adding hours or minutes to a date, you can limit the day with the business hours option - ie.: 09:00 to 17:00.
-VIDEO 
+ 
 
+**How to use:**
+
+1. The first step you select the time to add to your date field, this can be either a numerical value, or can be field within Kianda. 
+
+2. You then need to select what unit the time is, whether it is a minute, hour, day, etc. 
+
+3. Then you select when the date is to be added from i.e., a date field, or today. 
+
+4. You must then select within the destination field the date field which this new date is to be stored within. You can also select if it is business hours so the time is set to within your working hours.
+
+5. Finally, you can decide to exclude weekends or special dates within your date calculation, using the date calculation settings & the special date settings. 
