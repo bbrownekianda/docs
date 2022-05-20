@@ -205,12 +205,26 @@ Your browser does not support the video tag.
 &lt;p>· to a form&lt;/p>
 &lt;p>· to a process (the rule will run on load)&lt;/p>
 &lt;p>&lt;strong>How to use:&lt;/strong>&lt;/p>
-&lt;p>\1. When you edit the condition, the first thing you will select is the Kianda field which you want the condition to apply to.&lt;/p>
-&lt;p>\2. Next you select the match type of the filter, i.e. equal to, not equal to, is blank, etc.&lt;/p>
-&lt;p>\3. The third portion of the condition is to select the value you wish to be your filter criteria. This could be either an existing field within Kianda, or it can be a text input you can add directly to the field.&lt;/p>
-&lt;p>\4. You can have multiple conditions and can have one or all of the filter criteria being met via the and/or setting which is available after adding a second condition.&lt;/p>
-&lt;p>\5. It is also possible to add additional condition groups, this will allow you to have multiple different conditions depending on your needs.&lt;/p>
-&lt;p>\6. Click Ok and the condition is now set.&lt;/p></description></item><item><title>Docs: Word document add-in</title><link>https://docs.kianda.com/docs/platform/document-generation/word-document-add-in/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/document-generation/word-document-add-in/</guid><description/></item><item><title>Docs: Workspace security</title><link>https://docs.kianda.com/docs/security/workspace-security/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/security/workspace-security/</guid><description/></item><item><title>Docs: Connecting to SharePoint lists and Libraries</title><link>https://docs.kianda.com/docs/how-to/connect-to-sharepoint/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/how-to/connect-to-sharepoint/</guid><description>
+&lt;ol>
+&lt;li>
+&lt;p>When you edit the condition, the first thing you will select is the Kianda field which you want the condition to apply to.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Next you select the match type of the filter, i.e. equal to, not equal to, is blank, etc.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>The third portion of the condition is to select the value you wish to be your filter criteria. This could be either an existing field within Kianda, or it can be a text input you can add directly to the field.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>You can have multiple conditions and can have one or all of the filter criteria being met via the and/or setting which is available after adding a second condition.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>It is also possible to add additional condition groups, this will allow you to have multiple different conditions depending on your needs.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Click Ok and the condition is now set.&lt;/p>
+&lt;/li>
+&lt;/ol></description></item><item><title>Docs: Word document add-in</title><link>https://docs.kianda.com/docs/platform/document-generation/word-document-add-in/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/document-generation/word-document-add-in/</guid><description/></item><item><title>Docs: Workspace security</title><link>https://docs.kianda.com/docs/security/workspace-security/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/security/workspace-security/</guid><description/></item><item><title>Docs: Connecting to SharePoint lists and Libraries</title><link>https://docs.kianda.com/docs/how-to/connect-to-sharepoint/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/how-to/connect-to-sharepoint/</guid><description>
 &lt;p>This video demonstrates how to connect to a datasource in SharePoint and use that information in a form list.&lt;/p>
 &lt;div style="padding:50.94% 0 0 0;position:relative;">&lt;iframe src="https://player.vimeo.com/video/677724364?h=cdfc835f25&amp;amp;badge=0&amp;amp;autopause=0&amp;amp;player_id=0&amp;amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Connecting to SharePoint example">&lt;/iframe>&lt;/div>&lt;script src="https://player.vimeo.com/api/player.js">&lt;/script></description></item><item><title>Docs: Excel workbook add-in</title><link>https://docs.kianda.com/docs/platform/document-generation/excel-workbook-add-in/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/document-generation/excel-workbook-add-in/</guid><description/></item><item><title>Docs: Field level security</title><link>https://docs.kianda.com/docs/security/form-and-field-security/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/security/form-and-field-security/</guid><description/></item><item><title>Docs: File upload control</title><link>https://docs.kianda.com/docs/platform/controls/input/file-upload/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/controls/input/file-upload/</guid><description>
 &lt;p>&lt;strong>File upload controls&lt;/strong> (fields) can be inserted in a form if you want form users to be able to upload a file or files. File upload fields can also be useful if you want a file to be generated from the information entered in a form or if you want a file to be sent as part of your process - see &lt;a href="https://docs.kianda.com/docs/platform/rules/">Rules&lt;/a> for more information.&lt;/p>
@@ -1156,11 +1170,23 @@ You should be able to see the ID number as a whole number equal to the instance 
 &lt;p>· to a form&lt;/p>
 &lt;p>· to a process (the rule will run on load)&lt;/p>
 &lt;p>&lt;strong>How to use:&lt;/strong>&lt;/p>
-&lt;p>\1. For on success mapping select the “form field” and chose the field within the form which you want to store the information.&lt;/p>
-&lt;p>\2. Then in the “data source field or text” you can select the column/field within your respective data source and this value will be stored in the “form field”.&lt;/p>
-&lt;p>\3. For on error mapping, you simply need to select the field within the form which will store the error message&lt;/p>
-&lt;p>\4. Then select the error message from the dropdown. This error message will be a system generated error which will indicate what if anything has gone wrong when the rule executed.&lt;/p>
-&lt;p>\5. Click OK and the mapping is set.&lt;/p></description></item><item><title>Docs: Templating basics</title><link>https://docs.kianda.com/docs/low-code/templating-basics/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/low-code/templating-basics/</guid><description/></item><item><title>Docs: What is Low-Code Development?</title><link>https://docs.kianda.com/docs/getting-started/welcome/low-code/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/getting-started/welcome/low-code/</guid><description>
+&lt;ol>
+&lt;li>
+&lt;p>For on success mapping select the “form field” and chose the field within the form which you want to store the information.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Then in the “data source field or text” you can select the column/field within your respective data source and this value will be stored in the “form field”.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>For on error mapping, you simply need to select the field within the form which will store the error message&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Then select the error message from the dropdown. This error message will be a system generated error which will indicate what if anything has gone wrong when the rule executed.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Click OK and the mapping is set.&lt;/p>
+&lt;/li>
+&lt;/ol></description></item><item><title>Docs: Templating basics</title><link>https://docs.kianda.com/docs/low-code/templating-basics/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/low-code/templating-basics/</guid><description/></item><item><title>Docs: What is Low-Code Development?</title><link>https://docs.kianda.com/docs/getting-started/welcome/low-code/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/getting-started/welcome/low-code/</guid><description>
 &lt;p>Low-code development offers &lt;strong>software developers&lt;/strong> a shortcut to create something new and beneficial for their organisation. Rather than having to think about every single line of code, as a developer you can take advantage of Kianda&amp;rsquo;s &lt;strong>Developer&lt;/strong> section to create your own custom widgets from predefined field, rule and dashboard code.&lt;/p>
 &lt;p>You can also quickly use Kianda &lt;strong>Developer&lt;/strong> to add &lt;a href="#webhooks">webhooks&lt;/a>, providing an efficient way to push GET requests to other applications in real-time as the Kianda process runs and avoiding the need to poll for data.&lt;/p>
 &lt;p>Kianda uses EmberJS to build widgets, and in particular the Handlebars templating library, to power the application&amp;rsquo;s user interface. See &lt;a href="#emberjs-templating-basics">templating basics&lt;/a> to get started.&lt;/p>
