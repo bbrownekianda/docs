@@ -3,7 +3,7 @@ title: "Check in or out an item"
 typora-root-url: ..\..\..\..\..\static
 ---
 
-This rule allows you to check in or check out an item within SharePoint from Kianda.
+This rule allows you to check in or check out an item within SharePoint using Kianda.
 
  
 
@@ -21,37 +21,33 @@ You can add this rule:
 
 ### How to use
 
-To apply this rule, first choose an item to attach the rule to, for example a field, such as a Submit button or other button.
+To apply this rule, first choose an item to attach the rule to and have a SharePoint data source ready where you want the list to be located. This data source should be a predefined data connector created with **Data sources** under **Administration**. 
 
-1. Select the field to attach the rule to.
+1. Select the field or other item to attach the rule to.
 
 2. Click on **Add a rule** > **SharePoint** > **Check in/out an item**.
 
-3. Select a SharePoint **data source** from the drop-down list.  
+3. In the **Edit rule - Check in/out an item** dialog box, give the rule a **Title**. Then select a SharePoint data source from the drop-down list.
 
-4. Select the list where the item is present which is needed to be checked in/out.
+    ![Check in/out an item dialog box](/images/check-in-out-rule.jpg)
 
-5. Next the operation should be selected as to whether it is a check in or a check out.  You should then also select the itemID field from the Kianda form, which will be used to determine which item is being checked in/out. 
+4. Three options are presented:
 
-6. You can then also select a field which will serve as a check in comment field. 
+    - **List** - select the list where the item is present which is needed to be checked in/out.
+    - **Operation** - choose from **Check in** or **Check out**. If you choose **Check in** then select also a field from a Kianda form which will serve as a **Check in comment field**.
+    - **Item Id field** - this will be used to determine which item is being checked in/out. Select the appropriate field from a Kianda form.
 
-7. The final two sections are optional:
+5. Once these fields are set you can also set conditions for the rule, see [Conditions](/docs/platform/rules/general/add-conditions/) for more information. 
 
-   Under **On success mapping**, click on **Add mapping**. 
-   	For **Form Field**, select a field to store the text. 
-   	For **Data source field** or text, either enter the text or 
-   		select a field where the text is stored.
+6. The final two sections are optional: **On success mapping** and **Error mapping**. See [Success and Error Mapping](/docs/platform/rules/general/success-error-mapping/) for more information. 
 
-   Under **On error mapping**, click on **Add mapping**. 
-   	For **Form Field**, select a field to store the text. 
-   	For **Error message** or text, either enter the text or 
-   		select a field where the text is stored.
+7. Click on **OK** when complete.
 
-   For further details on success & error mapping please see here.
 
-8. Click on **OK** when complete.
 
-9. Move the rule under **Rules** in the right-hand pane to change the order of execution as necessary.
+### User tip ![Target icon](/../content/docs/platform/rules/sharepoint/check-in-out-an-item.assets/05.png) ###
+
+If you have multiple rules attached to the field or other item, you may wish to reorder the rules to change the order of rule execution. Go to [Multiple rules](/docs/platform/rules/general/multiple-rules/)  to find out more. 
 
 
 

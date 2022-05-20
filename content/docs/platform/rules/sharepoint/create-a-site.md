@@ -33,24 +33,17 @@ To apply this rule, first choose an item to attach the rule to and have a ShareP
    - **Site url field** will be used in the creation of the URL within SharePoint. Choose a field from a Kianda form.
    - **Site description field** will be used for the SharePoint site description. Choose a field from a Kianda form.
    - **Inherit parent permissions** - options are: **Yes** and **No**. If you choose 'Yes' it will allow your new site to inherit parent permissions for that SharePoint location.
-5. Once these fields are set you can also set conditions on the rule, further details on conditions can be found here.
-6. The final two sections are optional:
-
-​		Under **On success mapping**, click on **Add mapping**. 
-​			For **Form Field**, select a field to store the text. 
-​			For **Data source field** or text, either enter the text or 
-​			select a field where the text is stored.
-
-​		Under **On error mapping**, click on **Add mapping**. 
-​			For **Form Field**, select a field to store the text. 
-​			For **Error message** or text, either enter the text or 
-​			select a field where the text is stored.
+5. Once these fields are set you can also set conditions for the rule, see [Conditions](/docs/platform/rules/general/add-conditions/) for more information. 
+6. The final two sections are optional: **On success mapping** and **Error mapping**. See [Success and Error Mapping](/docs/platform/rules/general/success-error-mapping/) for more information. 
 
 6. Click on **OK** when complete.
 
-7. Move the rule in the right-hand pane under **Rules** to change the order of execution as necessary.
-
    
+
+### User tip ![Target icon](/../content/docs/platform/rules/sharepoint/create-a-site.assets/05.png) ###
+
+If you have multiple rules attached to the field or other item, you may wish to reorder the rules to change the order of rule execution. Go to [Multiple rules](/docs/platform/rules/general/multiple-rules/)  to find out more. 
+
 
 
 ### What's next  ![Idea icon](/images/18.png) ###

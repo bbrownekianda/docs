@@ -32,21 +32,18 @@ To apply this rule, first choose an item to attach the rule to and have a ShareP
    For **Group title** field, select the field where the group title is stored for example,  a list field.
    For **Group Description field**, create a description for the group. 
 
-5. The final two sections are optional:
+5. Once these fields are set you can also set conditions for the rule, see [Conditions](/docs/platform/rules/general/add-conditions/) for more information. 
 
-​		Under **On success mapping**, click on **Add mapping**. 
-​			For **Form Field**, select a field to store the text. 
-​			For **Data source field** or text, either enter the text or 
-​			select a field where the text is stored.
+6. The final two sections are optional: **On success mapping** and **Error mapping**. See [Success and Error Mapping](/docs/platform/rules/general/success-error-mapping/) for more information. 
 
-​		Under **On error mapping**, click on **Add mapping**. 
-​			For **Form Field**, select a field to store the text. 
-​			For **Error message** or text, either enter the text or 
-​		select a field where the text is stored.
+7. Click on **OK** when complete.
 
-6. Click on **OK** when complete.
+   
 
-7. Move the rule in the right-hand pane to change the order of execution as necessary.
+
+### User tip ![Target icon](/images/05.png) ###
+
+If you have multiple rules attached to the field or other item, you may wish to reorder the rules to change the order of rule execution. Go to [Multiple rules](/docs/platform/rules/general/multiple-rules/)  to find out more. 
 
 
 

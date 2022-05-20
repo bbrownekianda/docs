@@ -27,32 +27,29 @@ To apply this rule, first choose an item to attach the rule to and have a ShareP
 
 3. In the **Edit rule - Find a user** dialog box, give the rule a **Title**. Then select a SharePoint data source from the drop-down list.
 
-4. 
-  ![Find a user dialog box](/images/find-a-user-rule.jpg)
+
+     ![Find a user dialog box](/images/find-a-user-rule.jpg)
 
 5. You will be presented with two options within the dialog box:
 
-  - **Find user by** provides the search criteria to find the user that is, **display name**, **email**, or **ID**. 
+  - **Find user by** provides the search criteria to find the user that is, **display name**, **email**, or **ID**. These are all SharePoint parameters.
   - **Search term field** is used to select the Kianda form field which will be used to lookup the user details from the data source. 
 
-6. The final two sections are optional:
+6. Once these fields are set you can also set conditions for the rule, see [Conditions](/docs/platform/rules/general/add-conditions/) for more information. 
 
-   Under **On success mapping**, click on **Add mapping**. 
-   	For **Form Field**, select a field to store the text. 
-   	For **Data source field** or text, either enter the text or 
-   	select a field where the text is stored.
+7. The final two sections are optional: **On success mapping** and **Error mapping**. See [Success and Error Mapping](/docs/platform/rules/general/success-error-mapping/) for more information. 
 
-   Under **On error mapping**, click on **Add mapping**. 
-   	For **Form Field**, select a field to store the text. 
-   	For **Error message** or text, either enter the text or 
-   	select a field where the text is stored.
-
-7. Click on **OK** when complete.
-
-8. Move the rule in the right-hand pane to change the order of execution as necessary.
+8. Click on **OK** when complete.
 
 
 
-### What's next  ![Idea icon](/../content/docs/platform/rules/sharepoint/find-a-user.assets/18.png) ###
+### User tip ![Target icon](/images/05.png) ###
+
+If you have multiple rules attached to the field or other item, you may wish to reorder the rules to change the order of rule execution. Go to [Multiple rules](/docs/platform/rules/general/multiple-rules/)  to find out more. 
+
+
+
+
+### What's next  ![Idea icon](/images/18.png) ###
 
 Now that you've learned about **Find a user**, return to the [SharePoint rules](/docs/platform/rules/sharepoint/) page to find out about other SharePoint rules. 
