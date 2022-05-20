@@ -2,38 +2,34 @@
 title: "Compare dates"
 ---
 
-Compare dates	
-"Enables the comparison of date fields, use tis to know if a date is between dates, is before or after a given date"		
+The compare dates rule is utilized to compare two date fields and store the difference between them in a Kianda form field.
 
-###### Introduction - good description, simple language 
+**When to use:**
 
-              A screenshots back-up the intro
+The compare dates rule should be used when a user wishes to compare one date with another from within Kianda.
 
-###### When to use 
+ 
 
+**You can add this rule:**
 
-###### How to use
+·    to a field
 
-              Number of points for the actual steps you need to follow to configure the rule.
-    
-              Video should be here?   
+·    to a form
 
-###### Notes
+·    to a process (the rule will run on load)
 
-Explain other advanced scenarios of the rule
+ 
 
+**How to use:**
 
+1. The first step you select the date to compare which the calculation will start from. 
 
-FROM THE HELP:
-Compare dates rule is used to compare a date field with respect to a date, with functions such as: Is between dates, Is before date or Is after date. For example, if we have requirement to compare if current date is between 'from' date and 'to' date on submission. To do so: 
+2. You then need to select what unit the time is, whether it is a minute, hour, day, etc. 
 
-Select the 'Submit' button.
-Navigate to Dates > Compare dates.
-You can optionally add conditions.
-Select the 'Compare function' as 'Is between dates'.
-Specify the Date to compare from the form. In this case it is the 'Current date'.
-Specify 'Compare from date' and 'Compare to date'. In this case 'from' date and 'to' date.
-Now, select the Destination field where the result can be stored. Values when returned true or false can be defined in the fields provided.
-Click on 'OK'.
-VIDEO??
+3. Then you select when the date is to be compared to i.e., a date field, today, or now. 
 
+4. You must then select the date field within the destination field which this new date is to be stored within. You can also select if it is business hours so the time is set to within your working hours.
+
+5. You can also count only full minutes via a yes/no option, so the resulted time will be a rounded to the minute. 
+
+Finally, you can decide to exclude weekends or special dates within your date calculation, using the date calculation settings & the special date settings. 

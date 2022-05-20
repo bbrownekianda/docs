@@ -2,35 +2,34 @@
 title: "Calculate time"
 ---
 
-​    Introduction - good description, simple language 
+The calculate time rule allows you to calculate the time between one date field and another, or from the current date and a date field and store this within Kianda.
 
-              A screenshots back-up the intro
+**When to use:**
 
-###### When to use 
+The calculate time rule should be used when a user wishes to calculate the time difference between a date field and another date/time.
 
+ 
 
-###### How to use
+**You can add this rule:**
 
-              Number of points for the actual steps you need to follow to configure the rule.
-    
-              Video should be here?   
+·    to a field
 
-###### Notes
+·    to a form
 
-Explain other advanced scenarios of the rule     
+·    to a process (the rule will run on load)
 
-Calculate time between dates	
-Calculates the number of time units beteeen two dates or now / today		
-FROM HELP??
-Absolutely! You can use the Calculate time rule to do it. This is a great way to validate user input like birthdate, for example, by displaying a warning message. On the example, we are calculating the applicant's age and displaying the results on the Applicants age field.
+ 
 
-Select the field to apply the rule
-Navigate to Dates > Calculate time
-Give the rule a title
-On from date, choose the time unit and the first date or field to be compared
-On to date, choose the second date from a field, or compare it to today's date
-On the destination field, choose where you are going to map the result
-You can alternatively add conditions and special dates
-Click Ok
-VIDEO??
+**How to use:**
 
+1. The first step you select the “from date” which the calculation will start from. 
+
+2. You then need to select what unit the time is, whether it is a minute, hour, day, etc. 
+
+3. Then you select when the date is to be compared to i.e., a date field, today, or now. 
+
+4. You must then select the date field within the destination field which this new date is to be stored within. You can also select if it is business hours so the time is set to within your working hours.
+
+5. You can also count only full minutes via a yes/no option, so the resulted time will be a rounded to the minute. 
+
+6. Finally, you can decide to exclude weekends or special dates within your date calculation, using the date calculation settings & the special date settings. 

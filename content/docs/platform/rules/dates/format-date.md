@@ -2,22 +2,34 @@
 title: "Format date"
 ---
 
-Format a date field value	
-Applies custom formatting to input date field. Enables dates to be formatted in a flexible manner		
+The format date rule is used to reformat a date field present within your form
 
-###### Introduction - good description, simple language 
+**When to use:**
 
-              A screenshots back-up the intro
+The format date should be used when you wish to amend the formatting of a date field within Kianda, i.e. you receive a date from a data source in one format and which to present it in the form in another format.
 
-###### When to use 
+ 
 
+**You can add this rule:**
 
-###### How to use
+·    to a field
 
-              Number of points for the actual steps you need to follow to configure the rule.
-    
-              Video should be here?   
+·    to a form
 
-###### Notes
+·    to a process (the rule will run on load)
 
-Explain other advanced scenarios of the rule
+ 
+
+**How to use:**
+
+1. The first step you select the date field you wish to reformat. 
+
+2. You then need to select what unit the time is, whether it is a minute, hour, day, etc. 
+
+3. Then you select when the date is to be compared to i.e., a date field, today, or now. 
+
+4. You must then select the date field within the destination field which this newly formatted date is to be stored within. 
+
+5. You can also apply a condition to the rule, to restrict when it will run, more details on conditions can be found here: [https://docs.kianda.com/docs/platform/rules/general/add-conditions/](https://docs.kianda.com/docs/platform/rules/general/add-conditions/)
+
+6. Click OK and the rule is configured.
