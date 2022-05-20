@@ -3,11 +3,15 @@ title: "Get List item attachments"
 typora-root-url: ..\..\..\..\..\static
 ---
 
-This rule allows you to retrieve an <u>attachment</u> from a SharePoint list for use in a Kianda process.
+This rule allows you to retrieve an attachment from a SharePoint list for use in a Kianda process.
 
 ### When to use
 
-This rule should be used when an attachment is to be pulled from SharePoint and displayed within a Kianda process.
+This rule should be used when an attachment needs to be extracted from SharePoint and displayed within a Kianda process, for example a SharePoint list with attachment as seen in the image below.
+
+![List attachment example](/images/list-attachment.jpg)
+
+
 
 You can add this rule:
 
@@ -28,12 +32,12 @@ To apply this rule, first choose an item to attach the rule to and have a ShareP
 2. Click on **Add a rule** > **SharePoint** > **Get attachments**.
 3.  In the **Edit rule - Get attachments** dialog box, give the rule a **Title**. Then select a SharePoint data source by clicking on **Select data source**.
 	  ![Get attachments dialog box](/images/get-attachments-rule.jpg)
-4. Click on **Data source filter** to create a filter to find that data source.
+4. Click on **Data source filter** to create a filter to find that data source. The filter works the same as a condition, see [Conditions](/docs/platform/rules/general/add-conditions/) for more information.
 5. For the field **Select a destination file input** select the file field within Kianda where the file should be available.
-6. Once these fields are set, you can set a condition on the rule to determine which file is pulled from SharePoint. The simplest way of doing this is to use a condition on the name of the attachment within SharePoint that equals a value that is set on the condition, for example, “filename.csv”.
+6. Once these fields are set, you can set a condition on the rule to determine which file is pulled from SharePoint. The simplest way of doing this is to use a condition on the name of the attachment within SharePoint that equals a value that is set on the condition, for example, “filename.csv”. See [Conditions](/docs/platform/rules/general/add-conditions/) for more information.
 7. Click on **OK** when complete.
 
-This rule can then be run for example on a button which is manually triggered by a user, or automatically on load of the process. From here the file can be utilized to populate data fields, tables and so on. This will be discussed further in <u>other rules</u>. 
+This rule can then be run for example on a button which is manually triggered by a user, or automatically on load of the process. From here the file can be utilised to populate data fields, tables and so on. Go to the [Rules](/docs/platform/rules/) page to navigate to other rules. 
 
 
 

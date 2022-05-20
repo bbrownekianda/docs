@@ -39,36 +39,38 @@ To apply this rule, first choose an item to attach the rule to and have a ShareP
 5. Under **Input mapping** section, click on **Add mapping**. This setting is used to determine what level of permissions the user/group will be assigned.
    For **User or Group id**, select the field where the user is stored.  This could be either a  User Picker field or a text field.
    Select the **Permission level** from the drop-down list.  
-   
+
     ![Permissions in SharePoint dialog box](/images/permissions-rule.jpg)
-   
-   There are 10 possible permissions:
 
-   - **Full control**
+   There are 10 permissions:
 
-   - **Design**
+   - **Full control** - enables users to have full control of the website
 
-   - **Edit**
+   - **Design** - enables users to view, add, update, delete, approve, and customize items or pages in the website.
 
-   - **Contribute**
+   - **Edit** -  enables users to manage lists.
 
-   - **Read**
+   - **Contribute** - enables users to manage personal views, edit items and user information, delete versions in existing lists and document libraries, and add, remove, and update personal Web Parts.
 
-   - **View Only**
+   - **Read** -  enables users to view pages and list items, and to download documents.
 
-   - **Approve**
+   - **View Only** - enables users to view application pages. The View Only permission level is used for the Excel Services Viewers group.
 
-   - **Manage Hierarchy**
+   - **Approve** - enables users to edit and approve pages, list items, and documents. For publishing sites only.
 
-   - **Restricted Read**
+   - **Manage Hierarchy** - enables users to create sites; edit pages, list items, and documents, and change site permissions. For Publishing sites only.
 
-   - **Restricted Interfaces for Translation**
+   - **Restricted Read** - enables users to view pages and documents. For publishing sites only.
+
+   - **Restricted Interfaces for Translation**  - enables users to view lists/libraries properties by remote interface (like REST API, Web Services).
+
+   For more on SharePoint permissions go to https://docs.microsoft.com/en-us/sharepoint/sites/user-permissions-and-permission-levels.
 
 6. Once these fields are set you can also set conditions for the rule, see [Conditions](/docs/platform/rules/general/add-conditions/) for more information. 
 
 7. The final two sections are optional: **On success mapping** and **Error mapping**. See [Success and Error Mapping](/docs/platform/rules/general/success-error-mapping/) for more information. 
 
-7. Click on **OK** when complete.
+8. Click on **OK** when complete.
 
 
 

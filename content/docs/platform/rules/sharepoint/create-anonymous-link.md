@@ -34,7 +34,7 @@ To apply this rule, first choose an item to attach the rule to, for example a fi
 
    ![Create anonymous link dialog box](/images/create-anon-link-rule.jpg)
 
-4. Under **Select a file field with files to create anonymous link(s)** select the file field that will be used to hold the generated anonymous link.
+4. Under **Select a file field with files to create anonymous link(s)** select the file field to link to the desired SharePoint file(s). 
 
 5. Under **Link duration in hours** type in a number value. By default the link duration is 6 hours, but this can be increased or decreased as needed. 
 
