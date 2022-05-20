@@ -26,12 +26,12 @@ Success/Error mapping should be used when after the execution of a rule you wish
 
 **How to use:**
 
-\1.    For on success mapping select the “form field” and chose the field within the form which you want to store the information. 
+1. For on success mapping select the “form field” and chose the field within the form which you want to store the information. 
 
-\2.    Then in the “data source field or text” you can select the column/field within your respective data source and this value will be stored in the “form field”.
+2. Then in the “data source field or text” you can select the column/field within your respective data source and this value will be stored in the “form field”.
 
-\3.    For on error mapping, you simply need to select the field within the form which will store the error message
+3. For on error mapping, you simply need to select the field within the form which will store the error message
 
-\4.    Then select the error message from the dropdown. This error message will be a system generated error which will indicate what if anything has gone wrong when the rule executed.
+4. Then select the error message from the dropdown. This error message will be a system generated error which will indicate what if anything has gone wrong when the rule executed.
 
-\5.    Click OK and the mapping is set.
+5. Click OK and the mapping is set.

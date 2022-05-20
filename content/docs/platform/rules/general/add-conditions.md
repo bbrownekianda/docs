@@ -24,14 +24,14 @@ Conditions should be used when a rule should only be triggered at a specific poi
 
 **How to use:**
 
-\1.    When you edit the condition, the first thing you will select is the Kianda field which you want the condition to apply to. 
+1. When you edit the condition, the first thing you will select is the Kianda field which you want the condition to apply to. 
 
-\2.    Next you select the match type of the filter, i.e. equal to, not equal to, is blank, etc. 
+2. Next you select the match type of the filter, i.e. equal to, not equal to, is blank, etc. 
 
-\3.    The third portion of the condition is to select the value you wish to be your filter criteria. This could be either an existing field within Kianda, or it can be a text input you can add directly to the field. 
+3. The third portion of the condition is to select the value you wish to be your filter criteria. This could be either an existing field within Kianda, or it can be a text input you can add directly to the field. 
 
-\4.    You can have multiple conditions and can have one or all of the filter criteria being met via the and/or setting which is available after adding a second condition. 
+4. You can have multiple conditions and can have one or all of the filter criteria being met via the and/or setting which is available after adding a second condition. 
 
-\5.    It is also possible to add additional condition groups, this will allow you to have multiple different conditions depending on your needs. 
+5. It is also possible to add additional condition groups, this will allow you to have multiple different conditions depending on your needs. 
 
-\6.    Click Ok and the condition is now set.
+6. Click Ok and the condition is now set.
