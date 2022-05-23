@@ -15,7 +15,7 @@ If you have developer skills,  you can create your own custom field widget - see
 
 If you go to **Administration** > **Designer** and click on an existing process or create a new process and then select a form within that process so that the **Edit Form** button (Pen icon ![Pen button](/images/penicon.png)) is visible, the predefined fields you can add to forms are found in the left-hand pane.
 
-![Controls](/images/access-controlsmenu-selectfForm.jpg)
+![Controls](/images/access-controlsmenu-select-form.jpg)
 
 **Note:** By default, three buttons are automatically added to any new form created - **Submit**, **Save** and **Close** (as shown in this form canvas image).
 
