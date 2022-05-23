@@ -64,8 +64,7 @@ For example, in an Inspection process, you may want the user (an inspector) to b
 
      This opens the **Edit rule - Save form** dialog box - check the **Perform background save** option and then click **OK**:
 
-     ![Edit rule dialog box perform background save](/images/save-process-rule-perform-
-     background.jpg)
+     ![Edit rule dialog box perform background save](/images/save-process-rule-perform-background.jpg)
 
      If the **Enable background upload** and **Enable chunked upload** options are chosen and a user completes a form while they are in an area with poor coverage, once the user re-establishes internet connection they will need to go back into Kianda and click the **Force refresh** button ![Refresh button](/images/refresh.png) at the top right of the **Home** page.
 
@@ -83,7 +82,7 @@ In the example of our Inspection Form, the new File upload field (titled **Uploa
 
 To edit a **File upload field**, select the field (by either clicking on the field title or on the field's **Drag handle** button ![Drag handle button](/images/draghandlewhite-frame.png)) and then click on the **Edit field** button (Pen icon) ![Edit field button](/images/penicon.png). 
 
-![Select file upload file to edit](/images/file-upload-edit.jpg)
+![Select file upload field to edit](/images/file-upload-edit-field.jpg)
 
 The **Edit field - File** dialog box will open, enabling you to choose from the same range of options as appear in the **New field - File** dialog box (as already discussed in [How to get started](/docs/platform/controls/input/file-upload#how-to-get-started)).
 
@@ -100,7 +99,7 @@ To delete a **File upload field** from your form, simply select the field (by ei
 ### How to edit File upload field properties ###
 To view or edit the field properties associated with a **File upload field**, select the field (by clicking on the field title or field drag handle button ![Drag handle button](/images/draghandlewhite-frame.png)) - the **Field properties** menu will appear in the right-hand pane.
 
-![Field properties](/images/file-upload-file-prop.jpg)
+![Field properties](/images/file-upload-field-prop.jpg)
 
 In the example shown here, a **File upload field** titled **Upload Photos** has been selected in a form called 'Inspection Form' and the Field properties associated with this field include its Title, that its title will be shown in the form (the 'Show title' checkbox is ticked), that this is a mandatory field that users must complete (the 'Required' checkbox is selected and there is a red star next to the field name in the form), that this field will be enabled for users to complete (the 'Enabled' checkbox is ticked), and that this field will be visible to form users (the 'Visible' checkbox is ticked).
 

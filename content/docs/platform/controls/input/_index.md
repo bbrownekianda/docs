@@ -41,11 +41,11 @@ To insert an **Input field** into your form, click on the field type you want to
 
 ![Inserting a text box field](/images/insert-text-box-input.jpg)
 
-To edit whatever type of input field you have added to your form, select the field (by either clicking on the field name or on the **Drag handle** button ![Drag handle button](/images/draghandlewhite_frame.png)) and then click on the **Edit Field** button (Pen icon) ![Pen button](/images/penicon.png). This will open up the **Edit Field** dialog box where you can make various changes (such as changing the Title of the field) and where a variety of options will be available to you, depending on the type of Input field you are working with.
+To edit whatever type of input field you have added to your form, select the field (by either clicking on the field name or on the **Drag handle** button ![Drag handle button](/images/draghandlewhite-frame.png)) and then click on the **Edit Field** button (Pen icon) ![Pen button](/images/penicon.png). This will open up the **Edit Field** dialog box where you can make various changes (such as changing the Title of the field) and where a variety of options will be available to you, depending on the type of Input field you are working with.
 
 ![Select field to edit](/images/select-text-box-edit.jpg)
 
-To move an input field, simply select the field's **Drag handle** button ![Drag handle button](/images/draghandlewhite_frame.png) and drag and drop the field wherever you want to move it within your form.
+To move an input field, simply select the field's **Drag handle** button ![Drag handle button](/images/draghandlewhite-frame.png) and drag and drop the field wherever you want to move it within your form.
 
 ![Select field drag handle](/images/move-drag-handle.jpg)
 
