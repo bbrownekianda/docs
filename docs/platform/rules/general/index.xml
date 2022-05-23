@@ -39,6 +39,7 @@
 &lt;li>Click on &lt;strong>Rules&lt;/strong> in the right-hand pane, drag the &lt;strong>Send email&lt;/strong> rule to the top of the list by clicking on the rule and drag it to the top of the list, before &lt;strong>Submit&lt;/strong>, &lt;strong>Save&lt;/strong> and &lt;strong>Close&lt;/strong> rules.&lt;/li>
 &lt;/ol>
 &lt;p>&lt;img src="https://academy.kianda.com/wp-content/uploads/2022/03/ruleorder_frame.png" alt="img">&lt;/p>
+&lt;p>The video below shows an example of a &lt;strong>Send email rule&lt;/strong> being created and saved. The rule is attached to the &lt;strong>Submit&lt;/strong> button. Once the rule is created, by default the new rule goes to the bottom of the list of rules. To move the rule, simply click on it and drag it to where you wish to place it. In this example we want the email sent &lt;u>before&lt;/u> any of the shutdown processes like Submit or Save, but after a &lt;strong>Generate Inspection&lt;/strong> rule, so the output from that rule can be used in the Send email rule.&lt;/p>
 &lt;video width="100%" style="width:100%" controls>
 &lt;source src="https://docs.kianda.com/videos/short-rule-order.mp4">
 Your browser does not support the video tag.
