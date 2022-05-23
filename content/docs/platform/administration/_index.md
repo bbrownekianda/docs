@@ -10,7 +10,7 @@ The **Administration** menu is found in the left-hand side pane when you log in 
 
 ![Administration menu](/images/admin-view.jpg)
 
-Other roles like **Developer**, or **Design business process role** will have access to the Administration menu, but will only see role-related items within the menu. For example a Developer will only see **Developer** within Administration, while a person with a Design business process role will only see **Designer** within Administraion. User roles are set by Administrator who will have access to the **Users** function within administration. If you have full administration access then you will see nine functions by default within administration. These are:
+Other roles like **Developer**, or **Design business process role** will have access to the Administration menu, but will only see role-related items within the menu. For example a Developer will only see **Developer** within Administration, while a person with a Design business process role will only see **Designer** within Administration. User roles are set by Administrator who will have access to the **Users** function within administration. If you have full administration access then you will see nine functions by default within administration. These are:
 
 - **Designer** - users with the Designer business process role and administrators can access this function to design business processes
 
@@ -32,6 +32,6 @@ Other roles like **Developer**, or **Design business process role** will have ac
 
   
 
-### What's next  ![Idea icon](/../content/docs/platform/administration/_index.assets/18.png) ###
+### What's next  ![Idea icon](/images/18.png) ###
 
 We have briefly introduced each of the nine functions within **Administration**. Now let's look at each of these functions in more detail:
