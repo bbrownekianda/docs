@@ -291,8 +291,7 @@ Your browser does not support the video tag.
 &lt;p>For example, you would need to select the &amp;lsquo;Save process&amp;rsquo; rule attached to the &amp;lsquo;Save&amp;rsquo; button in your form (by clicking on the &lt;strong>Save&lt;/strong> button and then clicking on the &lt;strong>Save process&lt;/strong> rule):&lt;/p>
 &lt;p>&lt;img src="https://docs.kianda.com/images/selecting-save-process-rule.jpg" alt="Selecting Save Process rule">&lt;/p>
 &lt;p>This opens the &lt;strong>Edit rule - Save form&lt;/strong> dialog box - check the &lt;strong>Perform background save&lt;/strong> option and then click &lt;strong>OK&lt;/strong>:&lt;/p>
-&lt;p>![Edit rule dialog box perform background save](/images/save-process-rule-perform-
-background.jpg)&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/save-process-rule-perform-background.jpg" alt="Edit rule dialog box perform background save">&lt;/p>
 &lt;p>If the &lt;strong>Enable background upload&lt;/strong> and &lt;strong>Enable chunked upload&lt;/strong> options are chosen and a user completes a form while they are in an area with poor coverage, once the user re-establishes internet connection they will need to go back into Kianda and click the &lt;strong>Force refresh&lt;/strong> button &lt;img src="https://docs.kianda.com/images/refresh.png" alt="Refresh button"> at the top right of the &lt;strong>Home&lt;/strong> page.&lt;/p>
 &lt;/li>
 &lt;li>
@@ -308,7 +307,7 @@ background.jpg)&lt;/p>
 &lt;p>&lt;img src="https://docs.kianda.com/images/file-upload-example-mobile.jpg" alt="File upload example mobile phone">&lt;/p>
 &lt;h3 id="how-to-edit-move-and-delete-file-upload-fields">How to edit, move and delete File upload fields&lt;/h3>
 &lt;p>To edit a &lt;strong>File upload field&lt;/strong>, select the field (by either clicking on the field title or on the field&amp;rsquo;s &lt;strong>Drag handle&lt;/strong> button &lt;img src="https://docs.kianda.com/images/draghandlewhite-frame.png" alt="Drag handle button">) and then click on the &lt;strong>Edit field&lt;/strong> button (Pen icon) &lt;img src="https://docs.kianda.com/images/penicon.png" alt="Edit field button">.&lt;/p>
-&lt;p>&lt;img src="https://docs.kianda.com/images/file-upload-edit.jpg" alt="Select file upload file to edit">&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/file-upload-edit-field.jpg" alt="Select file upload field to edit">&lt;/p>
 &lt;p>The &lt;strong>Edit field - File&lt;/strong> dialog box will open, enabling you to choose from the same range of options as appear in the &lt;strong>New field - File&lt;/strong> dialog box (as already discussed in &lt;a href="https://docs.kianda.com/docs/platform/controls/input/file-upload#how-to-get-started">How to get started&lt;/a>).&lt;/p>
 &lt;p>&lt;img src="https://docs.kianda.com/images/file-upload-edit-field-dialog.jpg" alt="Edit date field dialog box">&lt;/p>
 &lt;p>You can make any changes you wish in this dialog box and then click &lt;strong>OK&lt;/strong> to confirm.&lt;/p>
@@ -317,7 +316,7 @@ background.jpg)&lt;/p>
 &lt;p>To delete a &lt;strong>File upload field&lt;/strong> from your form, simply select the field (by either clicking on the field&amp;rsquo;s name or its &lt;strong>Drag handle&lt;/strong> button &lt;img src="https://docs.kianda.com/images/draghandlewhite-frame.png" alt="Drag handle button">), click on the &lt;strong>Bin/Trash&lt;/strong> button &lt;img src="https://docs.kianda.com/images/binicon.png" alt="Bin icon"> and then click on &lt;strong>OK&lt;/strong> to confirm.&lt;/p>
 &lt;h3 id="how-to-edit-file-upload-field-properties">How to edit File upload field properties&lt;/h3>
 &lt;p>To view or edit the field properties associated with a &lt;strong>File upload field&lt;/strong>, select the field (by clicking on the field title or field drag handle button &lt;img src="https://docs.kianda.com/images/draghandlewhite-frame.png" alt="Drag handle button">) - the &lt;strong>Field properties&lt;/strong> menu will appear in the right-hand pane.&lt;/p>
-&lt;p>&lt;img src="https://docs.kianda.com/images/file-upload-file-prop.jpg" alt="Field properties">&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/file-upload-field-prop.jpg" alt="Field properties">&lt;/p>
 &lt;p>In the example shown here, a &lt;strong>File upload field&lt;/strong> titled &lt;strong>Upload Photos&lt;/strong> has been selected in a form called &amp;lsquo;Inspection Form&amp;rsquo; and the Field properties associated with this field include its Title, that its title will be shown in the form (the &amp;lsquo;Show title&amp;rsquo; checkbox is ticked), that this is a mandatory field that users must complete (the &amp;lsquo;Required&amp;rsquo; checkbox is selected and there is a red star next to the field name in the form), that this field will be enabled for users to complete (the &amp;lsquo;Enabled&amp;rsquo; checkbox is ticked), and that this field will be visible to form users (the &amp;lsquo;Visible&amp;rsquo; checkbox is ticked).&lt;/p>
 &lt;p>To learn more about the different options within the Field properties menu, go to &lt;a href="https://docs.kianda.com/docs/platform/controls/properties#field-properties">Field Properties&lt;/a>.&lt;/p>
 &lt;h3 id="saving-changes-and-version-history">Saving changes and version history&lt;/h3>
