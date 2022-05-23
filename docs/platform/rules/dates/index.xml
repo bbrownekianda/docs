@@ -52,30 +52,34 @@
 &lt;p>Finally, you can decide to exclude weekends or special dates within your date calculation, using the date calculation settings &amp;amp; the special date settings.&lt;/p>
 &lt;/li>
 &lt;/ol></description></item><item><title>Docs: Compare dates</title><link>https://docs.kianda.com/docs/platform/rules/dates/compare-dates/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/dates/compare-dates/</guid><description>
-&lt;p>The compare dates rule is utilized to compare two date fields and store the difference between them in a Kianda form field.&lt;/p>
-&lt;p>&lt;strong>When to use:&lt;/strong>&lt;/p>
-&lt;p>The compare dates rule should be used when a user wishes to compare one date with another from within Kianda.&lt;/p>
-&lt;p>&lt;strong>You can add this rule:&lt;/strong>&lt;/p>
-&lt;p>· to a field&lt;/p>
-&lt;p>· to a form&lt;/p>
-&lt;p>· to a process (the rule will run on load)&lt;/p>
-&lt;p>&lt;strong>How to use:&lt;/strong>&lt;/p>
+&lt;p>The compare dates rule is utilised to compare two date fields and store the difference between them in a Kianda form field.&lt;/p>
+&lt;h3 id="when-to-use">When to use&lt;/h3>
+&lt;p>This rule should be used when a user wishes to compare one date with another from within Kianda.&lt;/p>
+&lt;p>You can add this rule:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;input checked="" disabled="" type="checkbox"> to a field&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;input checked="" disabled="" type="checkbox"> to a form&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;input checked="" disabled="" type="checkbox"> to a process (the rule will run on load)&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="how-to-use">How to use&lt;/h3>
+&lt;p>To apply this rule, first choose an item to attach the rule to.&lt;/p>
 &lt;ol>
-&lt;li>
-&lt;p>The first step you select the date to compare which the calculation will start from.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>You then need to select what unit the time is, whether it is a minute, hour, day, etc.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Then you select when the date is to be compared to i.e., a date field, today, or now.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>You must then select the date field within the destination field which this new date is to be stored within. You can also select if it is business hours so the time is set to within your working hours.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>You can also count only full minutes via a yes/no option, so the resulted time will be a rounded to the minute.&lt;/p>
-&lt;/li>
+&lt;li>Click on &lt;strong>Add a rule&lt;/strong> &amp;gt; &lt;strong>Dates&lt;/strong> &amp;gt; &lt;strong>Compare dates&lt;/strong>.&lt;/li>
+&lt;li>The Compare dates rule dialog box appears. Give the rule a Title.
+&lt;img src="https://docs.kianda.com/images/compare-dates.jpg" alt="Compare dates dialog box">&lt;/li>
+&lt;li>Under &lt;strong>Date to compare&lt;/strong>, select the date to compare where the calculation will start from.&lt;/li>
+&lt;li>Under &lt;strong>Compare function&lt;/strong> select from the options: &lt;strong>Is between dates&lt;/strong>, &lt;strong>Is before date&lt;/strong>, and &lt;strong>Is after date&lt;/strong>. If you choose a) &lt;strong>Is between dates&lt;/strong> then you must provide the &lt;strong>Compare from date&lt;/strong> and &lt;strong>Compare to date&lt;/strong>. If you choose b) or c) then you need only to provide the &lt;strong>Compare to date&lt;/strong>. These are fields from within the Kianda form.&lt;/li>
+&lt;li>Under &lt;strong>Result&lt;/strong>, select a &lt;strong>Destination field&lt;/strong> which is the new date to store the comparison.&lt;/li>
+&lt;li>You then need to select what unit the time is, whether it is a minute, hour, day, etc.&lt;/li>
+&lt;li>Then you select when the date is to be compared to i.e., a date field, today, or now.&lt;/li>
+&lt;li>You must then select the date field within the destination field which this new date is to be stored within. You can also select if it is business hours so the time is set to within your working hours.&lt;/li>
+&lt;li>You can also count only full minutes via a yes/no option, so the resulted time will be a rounded to the minute.&lt;/li>
 &lt;/ol>
 &lt;p>Finally, you can decide to exclude weekends or special dates within your date calculation, using the date calculation settings &amp;amp; the special date settings.&lt;/p></description></item><item><title>Docs: Format date</title><link>https://docs.kianda.com/docs/platform/rules/dates/format-date/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/dates/format-date/</guid><description>
 &lt;p>The format date rule is used to reformat a date field present within your form&lt;/p>
