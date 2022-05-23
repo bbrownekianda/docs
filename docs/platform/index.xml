@@ -2,7 +2,7 @@
 &lt;p>The &lt;strong>Administration&lt;/strong> menu contains all the functions you need to maintain your Kianda workspace.&lt;/p>
 &lt;p>The &lt;strong>Administration&lt;/strong> menu is found in the left-hand side pane when you log in to Kianda. This menu will only appear if you have a certain role, for example Administrators will see all items shown in the image below.&lt;/p>
 &lt;p>&lt;img src="https://docs.kianda.com/images/admin-view.jpg" alt="Administration menu">&lt;/p>
-&lt;p>Other roles like &lt;strong>Developer&lt;/strong>, or &lt;strong>Design business process role&lt;/strong> will have access to the Administration menu, but will only see role-related items within the menu. For example a Developer will only see &lt;strong>Developer&lt;/strong> within Administration, while a person with a Design business process role will only see &lt;strong>Designer&lt;/strong> within Administraion. User roles are set by Administrator who will have access to the &lt;strong>Users&lt;/strong> function within administration. If you have full administration access then you will see nine functions by default within administration. These are:&lt;/p>
+&lt;p>Other roles like &lt;strong>Developer&lt;/strong>, or &lt;strong>Design business process role&lt;/strong> will have access to the Administration menu, but will only see role-related items within the menu. For example a Developer will only see &lt;strong>Developer&lt;/strong> within Administration, while a person with a Design business process role will only see &lt;strong>Designer&lt;/strong> within Administration. User roles are set by Administrator who will have access to the &lt;strong>Users&lt;/strong> function within administration. If you have full administration access then you will see nine functions by default within administration. These are:&lt;/p>
 &lt;ul>
 &lt;li>
 &lt;p>&lt;strong>Designer&lt;/strong> - users with the Designer business process role and administrators can access this function to design business processes&lt;/p>
@@ -32,7 +32,7 @@
 &lt;p>&lt;strong>Developer&lt;/strong> - developers and administrators can access this function to create customised field, rule and dashboard widgets.&lt;/p>
 &lt;/li>
 &lt;/ul>
-&lt;h3 id="whats-next--idea-iconcontentdocsplatformadministration_indexassets18png">What&amp;rsquo;s next &lt;img src="https://docs.kianda.com/../content/docs/platform/administration/_index.assets/18.png" alt="Idea icon">&lt;/h3>
+&lt;h3 id="whats-next--idea-iconimages18png">What&amp;rsquo;s next &lt;img src="https://docs.kianda.com/images/18.png" alt="Idea icon">&lt;/h3>
 &lt;p>We have briefly introduced each of the nine functions within &lt;strong>Administration&lt;/strong>. Now let&amp;rsquo;s look at each of these functions in more detail:&lt;/p></description></item><item><title>Docs: Application designer</title><link>https://docs.kianda.com/docs/platform/application-designer/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/application-designer/</guid><description>
 &lt;p>Kianda process designer provides an intuitive interface where you can quickly start building forms for any use case.&lt;/p>
 &lt;p>The key components of the form designer are:&lt;/p>
