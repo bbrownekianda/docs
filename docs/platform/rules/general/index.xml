@@ -26,7 +26,24 @@
 &lt;li>
 &lt;p>Click Ok and the condition is now set.&lt;/p>
 &lt;/li>
-&lt;/ol></description></item><item><title>Docs: Multiple rules</title><link>https://docs.kianda.com/docs/platform/rules/general/multiple-rules/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/general/multiple-rules/</guid><description/></item><item><title>Docs: Expression builder</title><link>https://docs.kianda.com/docs/platform/rules/general/expression-builder/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/general/expression-builder/</guid><description>
+&lt;/ol></description></item><item><title>Docs: Multiple rules</title><link>https://docs.kianda.com/docs/platform/rules/general/multiple-rules/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/general/multiple-rules/</guid><description>
+&lt;h3 id="introduction">Introduction&lt;/h3>
+&lt;p>When working with rules in forms, a key principle to consider is &lt;strong>rule order&lt;/strong>. This is important if there are &lt;strong>multiple rules&lt;/strong> attached to an item like a button. In this case the order of execution is important and can be modified to suit your needs.&lt;/p>
+&lt;p>For example, you may want a &lt;strong>Send email rule&lt;/strong> to be executed once the &lt;strong>Submit&lt;/strong> button is clicked. This will result in an automated email to a designated person. You may also want to attach a report to this email, a report that is a complete form. In this example a &lt;strong>Generate word&lt;/strong> &lt;strong>document&lt;/strong> &lt;strong>rule&lt;/strong> could be used to generate a report when the &lt;strong>Submit&lt;/strong> button is clicked. In this example the &lt;strong>Generate word document rule&lt;/strong> has to be executed before the &lt;strong>Send email rule&lt;/strong>, so that the Word document can be generated and then attached to the email.&lt;/p>
+&lt;p>The rule order consideration is therefore particularly important when rules are dependent on each other - where the output of one rule is the input of another rule.&lt;/p>
+&lt;h3 id="changing-the-rule-order-of-multiple-rules">Changing the rule order of multiple rules&lt;/h3>
+&lt;p>In the example below we will look at changing the rule order of a Send email rule attached to a Submit button. The &lt;strong>Submit&lt;/strong>, &lt;strong>Save&lt;/strong> and &lt;strong>Close&lt;/strong> buttons by default already have &lt;strong>Submit&lt;/strong>, &lt;strong>Save&lt;/strong> and &lt;strong>Close&lt;/strong> process rules attached, in order to allow form shutdown.&lt;/p>
+&lt;p>To change rule order, when the rule is created:&lt;/p>
+&lt;ol>
+&lt;li>Click on the item that has multiple rules attached, for example a &lt;strong>Submit&lt;/strong> button.&lt;/li>
+&lt;li>Click on &lt;strong>Rules&lt;/strong> in the right-hand pane, drag the &lt;strong>Send email&lt;/strong> rule to the top of the list by clicking on the rule and drag it to the top of the list, before &lt;strong>Submit&lt;/strong>, &lt;strong>Save&lt;/strong> and &lt;strong>Close&lt;/strong> rules.&lt;/li>
+&lt;/ol>
+&lt;p>&lt;img src="https://academy.kianda.com/wp-content/uploads/2022/03/ruleorder_frame.png" alt="img">&lt;/p>
+&lt;video width="100%" style="width:100%" controls>
+&lt;source src="https://docs.kianda.com/videos/short-rule-order.mp4">
+Your browser does not support the video tag.
+&lt;/source>
+&lt;/video></description></item><item><title>Docs: Expression builder</title><link>https://docs.kianda.com/docs/platform/rules/general/expression-builder/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/general/expression-builder/</guid><description>
 &lt;p>Hard explanation - go into the reference plus other functions you can use&lt;/p>
 &lt;p>list of expressions e.g. ProcessId(), ProcessLink(), Date(), User() etc..&lt;/p>
 &lt;p>&lt;img src="https://docs.kianda.com/images/expressionbuilder.png" alt="Expression builder dialog box">&lt;/p>
