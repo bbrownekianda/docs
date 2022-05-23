@@ -42,7 +42,7 @@ Click on one particular field (control) in the form - for example a text box - t
 
 
 ## Field properties ##
-When you select any field within a form (by clicking on the field name or field drag handle button ![Drag handle button](/images/draghandlewhite_frame.png)) - such as User picker, list or text box - the **Field properties** associated with that field will appear in the right-hand pane.
+When you select any field within a form (by clicking on the field name or field drag handle button ![Drag handle button](/images/draghandlewhite-frame.png)) - such as User picker, list or text box - the **Field properties** associated with that field will appear in the right-hand pane.
 
 ![Field properties](/images/field-properties-trainingprocess.jpg)
 
