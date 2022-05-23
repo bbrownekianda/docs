@@ -150,7 +150,7 @@ Your browser does not support the video tag.
 &lt;p>If you have developer skills, you can create your own custom field widget - see &lt;a href="https://docs.kianda.com/docs/low-code/">Development&lt;/a> for more information.&lt;/p>
 &lt;h2 id="getting-started-with-controls">Getting started with Controls&lt;/h2>
 &lt;p>If you go to &lt;strong>Administration&lt;/strong> &amp;gt; &lt;strong>Designer&lt;/strong> and click on an existing process or create a new process and then select a form within that process so that the &lt;strong>Edit Form&lt;/strong> button (Pen icon &lt;img src="https://docs.kianda.com/images/penicon.png" alt="Pen button">) is visible, the predefined fields you can add to forms are found in the left-hand pane.&lt;/p>
-&lt;p>&lt;img src="https://docs.kianda.com/images/access-controlsmenu-selectfForm.jpg" alt="Controls">&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/access-controlsmenu-select-form.jpg" alt="Controls">&lt;/p>
 &lt;p>&lt;strong>Note:&lt;/strong> By default, three buttons are automatically added to any new form created - &lt;strong>Submit&lt;/strong>, &lt;strong>Save&lt;/strong> and &lt;strong>Close&lt;/strong> (as shown in this form canvas image).&lt;/p>
 &lt;p>There are three categories of controls (fields):&lt;/p>
 &lt;ol>
