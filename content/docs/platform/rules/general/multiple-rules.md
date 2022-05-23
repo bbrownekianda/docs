@@ -23,9 +23,9 @@ To change rule order, when the rule is created:
 1. Click on the item that has multiple rules attached, for example a **Submit** button.
 2. Click on **Rules** in the right-hand pane, drag the **Send email** rule to the top of the list by clicking on the rule and drag it to the top of the list, before **Submit**, **Save** and **Close** rules. 
 
-
-
 ![img](https://academy.kianda.com/wp-content/uploads/2022/03/ruleorder_frame.png)
+
+The video below shows an example of a **Send email rule** being created and saved. The rule is attached to the **Submit** button. Once the rule is created, by default the new rule goes to the bottom of the list of rules. To move the rule, simply click on it and drag it to where you wish to place it. In this example we want the email sent <u>before</u> any of the shutdown processes like Submit or Save, but after a **Generate Inspection** rule, so the output from that rule can be used in the Send email rule. 
 
 <video width="100%" style="width:100%" controls>
     <source src="/videos/short-rule-order.mp4">
