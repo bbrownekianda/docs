@@ -3,7 +3,7 @@ title: "Scheduled tasks"
 typora-root-url: ..\..\..\..\static
 ---
 
-The **Scheduled tasks** function is available to administrators and is found in the left-hand side pane, under **Administration**. The recycle bin holds deleted process instances, dashboard pages and process designs. Deleted items are held for 30 days and are permanently deleted after this time.
+The **Scheduled tasks** function is available to administrators and is found in the left-hand side pane, under **Administration**. The Scheduled tasks function allows you to schedule a task, that could be a process or a rule for example to send reminder emails.
 
 ### How to get started
 
@@ -13,11 +13,11 @@ To view items in the Recycle bin:
 
 2. You can view any deleted items in the main recycle bin view. 
 
-   ![Recycle bin main view](/../content/docs/platform/administration/scheduledtasks.assets/recycle-bin-view.jpg)
+   ![Recycle bin main view](/images/recycle-bin-view2.jpg)
 
    The first column in the view shows **Item type** and in this example there are two processes, four dashboard pages and five process instances.
 
-3. To restore an item click on the **Restore item** button ![Restore recycle bin button](/../content/docs/platform/administration/scheduledtasks.assets/restore-bin-item.jpg) beside the item name. 
+3. To restore an item click on the **Restore item** button ![Restore recycle bin button](/images/restore-bin-item.jpg) beside the item name. 
 
 4. When you click on the button you will get a pop-up confirmation asking you to confirm that you want to restore that item, click on **OK** if you wish to restore the item or **Cancel** to exit. If you click on **OK** the item is restored, for example a dashboard page appears again under **Dashboard** in the left-hand pane.
 
@@ -25,7 +25,7 @@ To view items in the Recycle bin:
 
 
 
-### What's next  ![Idea icon](/../content/docs/platform/administration/scheduledtasks.assets/18.png) ###
+### What's next  ![Idea icon](/images/18.png) ###
 
 To read more about how to create processes and form go to [Application Designer](/docs/platform/application-designer/).
 
