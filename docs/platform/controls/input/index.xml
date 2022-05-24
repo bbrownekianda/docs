@@ -371,8 +371,8 @@
 &lt;/li>
 &lt;/ol>
 &lt;h3 id="how-to-edit-move-and-delete-table-fields">How to edit, move and delete Table fields&lt;/h3>
-&lt;h4 id="how-to-edit-column-fields-in-a-table">How to edit column fields in a Table&lt;/h4>
 &lt;p>As we go through the options available for editing a Table, we will keep in mind the example of the table we added to the &amp;lsquo;Training Request&amp;rsquo; form above.&lt;/p>
+&lt;h4 id="how-to-edit-column-fields-in-a-table">How to edit column fields in a Table&lt;/h4>
 &lt;p>First, decide &lt;strong>how many columns&lt;/strong> you need in your table and &lt;strong>what type of input field&lt;/strong> you want to use for each column. To learn more about the eight different types of Input fields that you can use, go to &lt;a href="https://docs.kianda.com/docs/platform/controls/input/">Input controls&lt;/a>.&lt;/p>
 &lt;p>In our example, we want to change the default table that was inserted - titled &lt;strong>Table 1&lt;/strong> with two columns of textbox fields - into a table called &amp;lsquo;Existing Qualifications&amp;rsquo; to capture the existing qualifications of the user who is requesting futher training.&lt;/p>
 &lt;p>We want our table to have three columns: the first column will be a textbox field titled &amp;lsquo;Qualification Description&amp;rsquo; where the user will manually type in the name of a qualification, the second column will be a drop-down list titled &amp;lsquo;Educational Institution&amp;rsquo; (which could link to an external data source) where the user will choose the relevant institution, and the third column will be a date field titled &amp;lsquo;Date Qualification Obtained&amp;rsquo;, as shown here:&lt;/p>
