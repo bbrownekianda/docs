@@ -106,10 +106,17 @@ Multiple conditions can be grouped with condition groups.&lt;/p>
 &lt;h3 id="whats-next--idea-iconimages18png">What&amp;rsquo;s next &lt;img src="https://docs.kianda.com/images/18.png" alt="Idea icon">&lt;/h3>
 &lt;p>We have briefly introduced each of the five types of &lt;strong>Data rules&lt;/strong>. Click on the links below to find out more about each rule in detail.&lt;/p></description></item><item><title>Docs: User rules</title><link>https://docs.kianda.com/docs/platform/rules/users/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/users/</guid><description/></item><item><title>Docs: File management rules</title><link>https://docs.kianda.com/docs/platform/rules/files/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/files/</guid><description/></item><item><title>Docs: Table rules</title><link>https://docs.kianda.com/docs/platform/rules/tables/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/tables/</guid><description/></item><item><title>Docs: Date rules</title><link>https://docs.kianda.com/docs/platform/rules/dates/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/dates/</guid><description/></item><item><title>Docs: Form action rules</title><link>https://docs.kianda.com/docs/platform/rules/form-actions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/form-actions/</guid><description>
 &lt;p>Rules within the form action rules allow to perform form specific actions such as saving a form / process, submiting a form, closing a form, deleting a process and validating form input.&lt;/p>
-&lt;p>There are 6 form action rules as follows:&lt;/p>
+&lt;p>There are six form action rules as follows:&lt;/p>
 &lt;ul>
-&lt;li>&lt;/li>
-&lt;/ul></description></item><item><title>Docs: AI rules</title><link>https://docs.kianda.com/docs/platform/rules/kianda-ai/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/kianda-ai/</guid><description>
+&lt;li>Validate input - provides ability perform flexible data validation and prevents incorrect data submission&lt;/li>
+&lt;li>Field display mode - this rule forces the display mode to override the automatic display mode of fields and forms&lt;/li>
+&lt;li>Submit form - marks the current form as complete and makes it read-only&lt;/li>
+&lt;li>Save form - commits a record or process instance in the server&lt;/li>
+&lt;li>Close form - closes the form and navigates to another resource&lt;/li>
+&lt;li>Delete form - marks the record or process instance to be deleted&lt;/li>
+&lt;/ul>
+&lt;h3 id="whats-next--idea-iconimages18png">What&amp;rsquo;s next &lt;img src="https://docs.kianda.com/images/18.png" alt="Idea icon">&lt;/h3>
+&lt;p>To read more about each of the rule types go to the links below:&lt;/p></description></item><item><title>Docs: AI rules</title><link>https://docs.kianda.com/docs/platform/rules/kianda-ai/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/kianda-ai/</guid><description>
 &lt;p>Artificial Intelligence powered text analysis performs sentiment analysis to text content&lt;/p></description></item><item><title>Docs: SharePoint rules</title><link>https://docs.kianda.com/docs/platform/rules/sharepoint/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/sharepoint/</guid><description>
 &lt;h3 id="getting-started-with-sharepoint-rules">Getting started with SharePoint rules&lt;/h3>
 &lt;p>SharePoint rules are associated with SharePoint specific functionality. These rules are typically used to perform actions with SharePoint connectors that are not related with data, for example resetting SharePoint permissions or adding a user into a group on SharePoint.&lt;/p>
