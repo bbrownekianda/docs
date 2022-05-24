@@ -2,41 +2,43 @@
 title: "Close form"
 ---
 
-              A screenshots back-up the intro
-
-###### When to use 
 
 
-###### How to use
+The **Close form** rule closes the form to allow users to navigate to another resource. This rule is automatically attached to **Close**, **Submit** and **Save** buttons which are added to forms by default. 
 
-              Number of points for the actual steps you need to follow to configure the rule.
-    
-              Video should be here?   
+###### 
 
-###### Notes
+### When to use
 
-Explain other advanced scenarios of the rule
+Together with the **Submit**, and **Save** rules, the **Close form** rule forms the shutdown procedures for forms and should not be deleted from **Submit**, **Save** or Close buttons.
+
+You can add this rule:
+
+- [x] to a field
+- [x] to a form 
+- [x] to a process (the rule will run on load)
 
 
 
-close changes made	
-Close the form and navigates to another resource		
+### How to use
 
-Show image of screen
+By default all forms come with a Close button, and therefore a **Close form** rule however, you can set a close rule yourself, and redirect the user anywhere with the Close rule. To do so:
 
-Can choose what the user sees when the form closes...	
+1. Select a field to attach the rule to.
 
-FROM HELP???
-Yes sure. You can redirect the user anywhere with the Close rule. By default, all forms come with a close button, however, you can set a close rule yourself, to do so:
+2. Click on **Add a rule** > **Form actions** > **Close form**. 
 
-Select the button you want
-Click on add rule > Form actions > Close form
-Add a title to the rule
-Select the action you want to execute after closing the form
-Auto will redirect the user to the last location they were before opening the form
-Return to a dashboard will redirect the user to a dashboard of your choice
-Return to URL will redirect the user to any URL specified
-VIDEO???
+3. In the **Edit rule - Close form** dialog box, give the rule a **Title**. 
 
-Warning: you cannot use Close form and Go to form in the same button.
+4. Select the action you want to execute after closing the form.
+
+5. Auto will redirect the user to the last location they were before opening the form.
+
+6. Return to a dashboard will redirect the user to a dashboard of your choice
+
+7. Return to URL will redirect the user to any URL specified
+
+**Note**: You cannot use Close form and Go to form in the same button.
+
+
 
