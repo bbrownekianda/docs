@@ -4,7 +4,7 @@ title: "Start a process"
 
 This rule allows you to start a new instance of a different process (or a new instance of the same process). You can transfer field data from the current process instance to a new process instance. 
 
-![Process security rule dialog box 1](images/StartaProcess.png)
+![Process security rule dialog box 1](/images/StartaProcess.png)
 
 ## When to use 
 

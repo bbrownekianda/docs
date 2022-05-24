@@ -4,7 +4,7 @@ title: "Assign form"
 
 This rule is used to assign a form to a user or to a group of users.  You can override the existing users or add to the existing users.
 
-![Assign rule dialog box](images/Assign.png)
+![Assign rule dialog box](/images/Assign.png)
 
 ## When to use 
 You can add this rule:

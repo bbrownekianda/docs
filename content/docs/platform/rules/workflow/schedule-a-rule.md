@@ -4,7 +4,8 @@ title: "Schedule a rule"
 
 This rule allows you to schedule a rule (or field e.g. a button with rules) to be triggered either immediately or at some point in the future. 
 
-<img src="images/ScheduleaRule1.png" alt="Schedule a rule dialog box" style="zoom:67%;" />
+![Schedule a Rule](/images/ScheduleaRule1.png)
+
 
 ## When to use 
 

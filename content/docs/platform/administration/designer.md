@@ -55,5 +55,5 @@ Kianda **Designer** is made up of three panes:
 
 ### What's next  ![Idea icon](/images/18.png) ###
 
-To read more about Designer and how to use the interface to create forms  go to [Application Designer](/docs/platform/application-designer/)
+To read more about Designer and how to use the interface to create forms  go to [Application Designer](/docs/platform/application-designer/).
 

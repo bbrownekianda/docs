@@ -20,9 +20,5 @@ To convert a Word file to PDF:
 - Repeat for another field called Destination File.
 3. Select the Submit button.
 4. Add a rule > File management > Convert to PDF.
-5. ???.
-6. ???.
 7. Click on OK. 
 
-###### Notes
-None.

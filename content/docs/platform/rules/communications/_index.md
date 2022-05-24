@@ -16,9 +16,9 @@ If you go to **Administration** > **Designer** and click on a process or create 
 
 
 
-There are 4 types of Communication rules as follows:
+There are four types of Communication rules as follows:
 
-- Send email - triggers an email which can be sent on behalf...see [Send email](send_email.md) for more information.
+- Send email
 
 - Meeting request
 
@@ -28,3 +28,6 @@ There are 4 types of Communication rules as follows:
 
   
 
+### What's next  ![Idea icon](/images/18.png) ###
+
+To read more about each of the rule types go to the links below:

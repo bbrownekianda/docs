@@ -10,35 +10,19 @@ Sharepoint or SQL Server
 
 ![Create item dialog box](/images/createitem.png)
 
-###### When to use 
+### When to use 
 You can add this rule:
 - [x] to a field
 - [x] to a form 
 - [x] to a process (the rule will run on load)
 
-###### How to use
-To ..SharePoint list:???
-1. Click on a button e.g. the Submit button.???
-2. Select Add a rule > Data >Create item.
-3. Under Action, click on Select data source.
-- Select a SharePoint??
-4. Under Input mapping...
-5. Under On success mapping...
-6. Under On error mapping...
+### How to use
+1. Click on a button e.g. the Submit button.
+2. Select **Add a rule** > **Data** >**Create item**.
+3. Under Action, click on **Select data source**, for example the data source could be a SharePoint data connector.
+4. Under **Input mapping** select the fields in the form that will map to SharePoint fields, such as User ID.
+5. Under **On success mapping** select the field(s) in the form which will store information and populate the **data source field or text** field with the respective data source value. 
+6. Under **On error mapping** select the field(s) in the form which will store error messages. Then type in a value or use Error message, to create a system generated error message if an error occurs during rule execution.
 
 
-###### Notes
-Explain other advanced scenarios of the rule
-
-Create an item in a data source	"Datasource query rule - Use this rule together with a datasource to perform a create / insert query and return data identifiers for use with the form. Employ the transactional nature of the rule with input fields, results and error nodes to build retry logic"	
- FROM HELP??
- It's easy! First, make sure you have Kianda Cloud Connect installed on your computer (refer to How to download Kianda Cloud Connect, in the help section), and you have successfully configured a connection to your on-premises SQL database (refer to Can I connect to an on-premises data source?).
-
-On the example, we already have these set, and also, we have a SQL database with a table called Products, as well as a form with the same name and fields.
-
-To save the data into the SQL database, you use the same method as in any other data source:
-
-Add the Create Item rule (under Data) on the button of your choice
-Click on Select Data Source, and select your Connection
-Map your input according to the database
 

@@ -13,7 +13,6 @@ You can add this rule:
 - [x] to a process (the rule will run on load)
 
 ###### How to use
-To copy a file from one x to y???:
 1. Before adding the rule, add two file fields: Click on Controls > Input > File and drag the field onto the form. Edit the field by clicking on it and then clicking the pen icon. Change the Title to . 
 2. Select the Submit button.
 3. Add a rule > Data > Set form field.
@@ -22,7 +21,5 @@ To copy a file from one x to y???:
 6. Click on OK.
 
 ###### Notes
-Explain other advanced scenarios of the rule
-
 Copy files from one field to another
 Allows copying files between datasources. Use this file together with two file fields to move files between two different file locations. Example to copy files between an on premises folder and a SharePoint folder		
