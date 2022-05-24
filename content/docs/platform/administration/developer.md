@@ -21,6 +21,6 @@ To start using **Developer**:
 
 
 
-### What's next  ![Idea icon](/../content/docs/platform/administration/developer.assets/18.png) ###
+### What's next  ![Idea icon](/images/18.png) ###
 
 To read more about Developer and how to use the interface to low-code development.
