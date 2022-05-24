@@ -1,5 +1,5 @@
 ---
-title: "show, hide or disable"
+title: "Show, hide or disable"
 ---
 
 This rule can perform one of the following actions on either fields or forms:
@@ -11,7 +11,7 @@ This rule can perform one of the following actions on either fields or forms:
 - Toggle enable: toggle between enabled and not enabled
 - Hide and clear: hide from the user (not visible) and clear the contents
 
-![Hide or disable rule dialog box](images/HideorDisable.png)
+![Hide or disable rule dialog box](/images/HideorDisable.png)
 
 ## When to use
 

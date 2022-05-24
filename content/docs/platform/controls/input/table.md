@@ -39,9 +39,9 @@ We will now go through
 
 ### How to edit, move and delete Table fields
 
-#### How to edit column fields in a Table
-
 As we go through the options available for editing a Table, we will keep in mind the example of the table we added to the 'Training Request' form above. 
+
+#### How to edit column fields in a Table
 
 First, decide **how many columns** you need in your table and **what type of input field** you want to use for each column. To learn more about the eight different types of Input fields that you can use, go to [Input controls](/docs/platform/controls/input/).
 

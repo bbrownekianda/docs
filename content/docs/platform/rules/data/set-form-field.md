@@ -58,10 +58,7 @@ Some examples of the usage of this rule are given below.
 7. Under Value or expression, check the expression is [firstNumber] + [secondNumber].
 8. Click on OK.
 
-See Advanced Features below for more information.
 
-###### Notes
-None.
 
 
 

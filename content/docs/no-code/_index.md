@@ -3,6 +3,8 @@ title: "What is No-code development?"
 linkTitle: "No-code development"
 weight: 3
 typora-root-url: ..\..\..\static
+toc_hide: true
+hide_summary: true
 ---
 
 The key components of the form designer are:

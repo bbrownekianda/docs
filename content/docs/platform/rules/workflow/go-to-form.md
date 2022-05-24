@@ -4,7 +4,7 @@ title: "Go to form"
 
 This rule is used to control how a user moves between forms.  Normally control passes to the next form and the user is not allowed to go back to the previous form.  The Go to form rule allows you to redirect the user to any form.  The user can then navigate back and forth between those forms.
 
-![Go to form rule dialog box](images/Gotoform.png)
+![Go to form rule dialog box](/images/Gotoform.png)
 
 ## When to use
 

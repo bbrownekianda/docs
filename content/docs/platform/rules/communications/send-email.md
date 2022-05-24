@@ -22,10 +22,10 @@ You can add this rule:
 In advance of using this rule, you need to have **created one or more forms, complete with control fields**. For example a text box control with an employee's 'Name' may be part of a form 'Annual Leave Request'. Then this 'Name' field can be used as an **expression** in the email to send personalised emails, so these aspects must be set up in advance.
 
 1. Decide how the rule will be implemented, for example will an email be sent once a form is saved or submitted. In the example of form submit, then click on that form in the process > **Submit** button > **Add a rule** > **Send email**.
-2. Decide who the automated email will be sent from, for example a no-reply type email. If you leave the From field empty, the email will be sent from noreply@kianda.com. If you want your email to come from a different sender, then go to [Email connector](#Email connector) for more details on how to set that up. TO COME BACK TO
+2. Decide who the automated email will be sent from, for example a no-reply type email. If you leave the From field empty, the email will be sent from noreply@kianda.com. If you want your email to come from a different sender, then go to [Email connector](#Email connector) for more details on how to set that up. 
 3. Any email addresses to send To, From, CC or BCC must be set up in advance. This could be a textbox in a form called 'Email address' with a unique Name like 'emailAddress', or it could be a user picker field associated with particular users, groups or partners.
-4. If you want to track the emails, then you must set up a field in your form to store email tracking. TO COME BACK TO
-5. If you want to attach any files to an email, files must first be stored in a File field in one of the forms. TO COME BACK TO
+4. If you want to track the emails, then you must set up a field in your form to store email tracking. 
+5. If you want to attach any files to an email, files must first be stored in a File field in one of the forms. 
 
 
 
@@ -41,7 +41,7 @@ In advance of using this rule, you need to have **created one or more forms, com
 
    1. **Title** - of the email for example 'Send email to Training Managers'
 
-   2. **Edit conditions** - click on the **Edit conditions** button ![Edit conditions button](/images/editconditions.png) create conditions to send the email, for example based....TO COME BACK TO
+   2. **Edit conditions** - click on the **Edit conditions** button ![Edit conditions button](/images/editconditions.png) create conditions to send the email, for example while a process has a 'status' of 'open'. This type of status value can be set in a utility panel.
 
    3. **From** - who the email is from, click on **Person** button ![Person button](/images/person.png) and choose from the appropriate Selection mode, see [Selection mode](#Selection mode) below.
 
@@ -69,7 +69,7 @@ In advance of using this rule, you need to have **created one or more forms, com
    
    9. **Send via connector** - options are a) No or b) Yes 
    
-      - If you choose **Yes** then you must choose an **Email connector** and decide if you want to **Save Sent Items** (Yes or No) which means sent emails are saved in a sent items folder in your email account. TO COME BACK TO. For more information go to [Email connector](#Email connector)
+      - If you choose **Yes** then you must choose an **Email connector** and decide if you want to **Save Sent Items** (Yes or No) which means sent emails are saved in a sent items folder in your email account. For more information go to [Email connector](#Email connector)
    ![Email connector options](/images/emailconnector.png) 
    
    5. **Enable tracking** - options are a) No or b) Yes 
@@ -101,7 +101,7 @@ If you leave the From field empty, the email will be sent from noreply@kianda.co
 2. Click into the field under **Email connector** and select a connector. 
 3. Click on **OK** button when you are finished editing to save your changes or click on **Close** to exit the dialog box without saving.
 
-Note that this will override the global Email connector setting if one has been configured for your system.  Go to **Administration** > **Subscription** > **Subscription Details** to check for a global setting. TO COME BACK TO
+Note that this will override the global Email connector setting if one has been configured for your system.  Go to **Administration** > **Subscription** > **Subscription Details** to check for a global setting. 
 
 
 
@@ -181,7 +181,7 @@ For example if you have a form Annual Leave request that contains a text box fie
 
    ![Click here text](/images/clickhere.png)
 
-   In this way you can build sophisticated automated emails that can ....TO COME BACK TO. For more information on References and Expressions see [Expressions](expressions.md) for more information.
+   In this way you can build sophisticated automated emails that provide a link back to a process instance, for example that a manager can view, update or approve. For more information on References and Expressions see [Expressions](expressions.md) for more information.
 
 
 

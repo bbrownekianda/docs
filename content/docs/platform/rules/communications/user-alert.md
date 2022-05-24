@@ -7,13 +7,13 @@ This rule sends an alert to a user who can then open an instance of a process.  
 
 ![User alert dialog box](/images/useralert.png)
 
-###### When to use 
+### When to use 
 You can add this rule:
 - [x] to a field
 - [x] to a form 
 - [x] to a process (the rule will run on load)
 
-###### How to use
+### How to use
 To send an alert to the current user:
 1. Select the Submit button
 2. Add a rule >Communications > User Alert
@@ -26,7 +26,7 @@ To send an alert to the current user:
 
 
 
-###### Notes
+### Notes
 
 **Send alert to:**
 | Option | Notes                                                |
