@@ -6,4 +6,8 @@
 &lt;/ul>
 &lt;p>The result at the end of the process is an email to a designated Safety manager, who receives a PDF report of the inspection form.&lt;/p>
 &lt;p>The process will use &lt;strong>utility panels&lt;/strong> to hold form fields and values, not visible to the end user, but these will be used with rules to automate the process.&lt;/p>
-&lt;h3 id="how-to-get-started">How to get started&lt;/h3></description></item></channel></rss>
+&lt;h3 id="how-to-get-started">How to get started&lt;/h3>
+&lt;p>You can create an Inspection process if you have the role &lt;strong>Administrator&lt;/strong> or &lt;strong>Designer&lt;/strong> by going to the left-hand side menu and click on &lt;strong>Administration&lt;/strong> and &lt;strong>Designer&lt;/strong>.&lt;/p>
+&lt;ol>
+&lt;li>In the main process view, click on the&lt;/li>
+&lt;/ol></description></item></channel></rss>
