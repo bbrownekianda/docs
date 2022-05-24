@@ -13,7 +13,7 @@ To start creating a process so that Kianda Designer will open:
 
 2. You can view any created processes in the main process view.
 
-   ![Process view](/images/process-view.jpg)
+   ![Process view](/images/process-view.gif)
 
 3. To view an existing process, click on a process name, or click on a folder or group to see processes within that group, for example a group like **Training** in the image above. 
 
