@@ -132,7 +132,7 @@
 &lt;/ol>
 &lt;h3 id="whats-next--idea-iconimages18png">What&amp;rsquo;s next &lt;img src="https://docs.kianda.com/images/18.png" alt="Idea icon">&lt;/h3>
 &lt;p>To read more about how to create processes and form go to &lt;a href="https://docs.kianda.com/docs/platform/application-designer/">Application Designer&lt;/a>.&lt;/p></description></item><item><title>Docs: Scheduled tasks</title><link>https://docs.kianda.com/docs/platform/administration/scheduledtasks/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/administration/scheduledtasks/</guid><description>
-&lt;p>The &lt;strong>Scheduled tasks&lt;/strong> function is available to administrators and is found in the left-hand side pane, under &lt;strong>Administration&lt;/strong>. The recycle bin holds deleted process instances, dashboard pages and process designs. Deleted items are held for 30 days and are permanently deleted after this time.&lt;/p>
+&lt;p>The &lt;strong>Scheduled tasks&lt;/strong> function is available to administrators and is found in the left-hand side pane, under &lt;strong>Administration&lt;/strong>. The Scheduled tasks function allows you to schedule a task, that could be a process or a rule for example to send reminder emails.&lt;/p>
 &lt;h3 id="how-to-get-started">How to get started&lt;/h3>
 &lt;p>To view items in the Recycle bin:&lt;/p>
 &lt;ol>
@@ -141,17 +141,17 @@
 &lt;/li>
 &lt;li>
 &lt;p>You can view any deleted items in the main recycle bin view.&lt;/p>
-&lt;p>&lt;img src="https://docs.kianda.com/../content/docs/platform/administration/scheduledtasks.assets/recycle-bin-view.jpg" alt="Recycle bin main view">&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/recycle-bin-view2.jpg" alt="Recycle bin main view">&lt;/p>
 &lt;p>The first column in the view shows &lt;strong>Item type&lt;/strong> and in this example there are two processes, four dashboard pages and five process instances.&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>To restore an item click on the &lt;strong>Restore item&lt;/strong> button &lt;img src="https://docs.kianda.com/../content/docs/platform/administration/scheduledtasks.assets/restore-bin-item.jpg" alt="Restore recycle bin button"> beside the item name.&lt;/p>
+&lt;p>To restore an item click on the &lt;strong>Restore item&lt;/strong> button &lt;img src="https://docs.kianda.com/images/restore-bin-item.jpg" alt="Restore recycle bin button"> beside the item name.&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>When you click on the button you will get a pop-up confirmation asking you to confirm that you want to restore that item, click on &lt;strong>OK&lt;/strong> if you wish to restore the item or &lt;strong>Cancel&lt;/strong> to exit. If you click on &lt;strong>OK&lt;/strong> the item is restored, for example a dashboard page appears again under &lt;strong>Dashboard&lt;/strong> in the left-hand pane.&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;h3 id="whats-next--idea-iconcontentdocsplatformadministrationscheduledtasksassets18png">What&amp;rsquo;s next &lt;img src="https://docs.kianda.com/../content/docs/platform/administration/scheduledtasks.assets/18.png" alt="Idea icon">&lt;/h3>
+&lt;h3 id="whats-next--idea-iconimages18png">What&amp;rsquo;s next &lt;img src="https://docs.kianda.com/images/18.png" alt="Idea icon">&lt;/h3>
 &lt;p>To read more about how to create processes and form go to &lt;a href="https://docs.kianda.com/docs/platform/application-designer/">Application Designer&lt;/a>.&lt;/p></description></item><item><title>Docs: Subscription</title><link>https://docs.kianda.com/docs/platform/administration/subscription/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/administration/subscription/</guid><description>
 &lt;p>Page under construction&lt;/p></description></item><item><title>Docs: Support</title><link>https://docs.kianda.com/docs/platform/administration/support/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/administration/support/</guid><description>
 &lt;p>Page under construction&lt;/p></description></item><item><title>Docs: Users &amp; Groups</title><link>https://docs.kianda.com/docs/platform/administration/users/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/administration/users/</guid><description>
