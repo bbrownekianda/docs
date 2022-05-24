@@ -59,15 +59,14 @@ d. Refer to the documentation for the Send email rule, if required.&lt;/li>
 &lt;li>Location&lt;/li>
 &lt;/ul>
 &lt;p>If you are using an email connector, a meeting request will appear in the calendar of the receiver(s). Otherwise the meeting request will appear as a calendar file (.ics file type) attached to an email.&lt;/p>
-&lt;p>&lt;img src="https://docs.kianda.com/images/MeetingRequest.png" alt="Meeting request rule dialog box">&lt;/p>
-&lt;h6 id="when-to-use">When to use&lt;/h6>
+&lt;h3 id="when-to-use">When to use&lt;/h3>
 &lt;p>You can add this rule:&lt;/p>
 &lt;ul>
 &lt;li>&lt;input checked="" disabled="" type="checkbox"> to a field&lt;/li>
 &lt;li>&lt;input checked="" disabled="" type="checkbox"> to a form&lt;/li>
 &lt;li>&lt;input checked="" disabled="" type="checkbox"> to a process (the rule will run on load)&lt;/li>
 &lt;/ul>
-&lt;h6 id="how-to-use">How to use&lt;/h6>
+&lt;h3 id="how-to-use">How to use&lt;/h3>
 &lt;p>To send a meeting request when the user submits a form:&lt;/p>
 &lt;ol>
 &lt;li>Before adding the rule, add fields to store the start date &amp;amp; time, the end date &amp;amp; time, and the location of the meeting:
@@ -80,9 +79,7 @@ c. Add a text field: Click on Controls &amp;gt; Input &amp;gt; Text and drag the
 &lt;li>For the End time, select the End field added earlier.&lt;/li>
 &lt;li>And for the Location, select the Location field added earlier.&lt;/li>
 &lt;li>Continue as for the Send email rule.&lt;/li>
-&lt;/ol>
-&lt;h6 id="notes">Notes&lt;/h6>
-&lt;p>None.&lt;/p></description></item><item><title>Docs: Send email</title><link>https://docs.kianda.com/docs/platform/rules/communications/send-email/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/communications/send-email/</guid><description>
+&lt;/ol></description></item><item><title>Docs: Send email</title><link>https://docs.kianda.com/docs/platform/rules/communications/send-email/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/communications/send-email/</guid><description>
 &lt;p>This rule sends an email according to a predefined template. Each element of the email is configurable. The body of the email can include text, images and attachments. Data stored in fields in the current form can be copied in dynamically.&lt;/p>
 &lt;h2 id="when-to-use-the-send-email-rule">When to use the Send email rule&lt;/h2>
 &lt;p>You can add this rule:&lt;/p>
@@ -95,10 +92,10 @@ c. Add a text field: Click on Controls &amp;gt; Input &amp;gt; Text and drag the
 &lt;p>In advance of using this rule, you need to have &lt;strong>created one or more forms, complete with control fields&lt;/strong>. For example a text box control with an employee&amp;rsquo;s &amp;lsquo;Name&amp;rsquo; may be part of a form &amp;lsquo;Annual Leave Request&amp;rsquo;. Then this &amp;lsquo;Name&amp;rsquo; field can be used as an &lt;strong>expression&lt;/strong> in the email to send personalised emails, so these aspects must be set up in advance.&lt;/p>
 &lt;ol>
 &lt;li>Decide how the rule will be implemented, for example will an email be sent once a form is saved or submitted. In the example of form submit, then click on that form in the process &amp;gt; &lt;strong>Submit&lt;/strong> button &amp;gt; &lt;strong>Add a rule&lt;/strong> &amp;gt; &lt;strong>Send email&lt;/strong>.&lt;/li>
-&lt;li>Decide who the automated email will be sent from, for example a no-reply type email. If you leave the From field empty, the email will be sent from &lt;a href="mailto:noreply@kianda.com">noreply@kianda.com&lt;/a>. If you want your email to come from a different sender, then go to [Email connector](#Email connector) for more details on how to set that up. TO COME BACK TO&lt;/li>
+&lt;li>Decide who the automated email will be sent from, for example a no-reply type email. If you leave the From field empty, the email will be sent from &lt;a href="mailto:noreply@kianda.com">noreply@kianda.com&lt;/a>. If you want your email to come from a different sender, then go to [Email connector](#Email connector) for more details on how to set that up.&lt;/li>
 &lt;li>Any email addresses to send To, From, CC or BCC must be set up in advance. This could be a textbox in a form called &amp;lsquo;Email address&amp;rsquo; with a unique Name like &amp;rsquo;emailAddress&amp;rsquo;, or it could be a user picker field associated with particular users, groups or partners.&lt;/li>
-&lt;li>If you want to track the emails, then you must set up a field in your form to store email tracking. TO COME BACK TO&lt;/li>
-&lt;li>If you want to attach any files to an email, files must first be stored in a File field in one of the forms. TO COME BACK TO&lt;/li>
+&lt;li>If you want to track the emails, then you must set up a field in your form to store email tracking.&lt;/li>
+&lt;li>If you want to attach any files to an email, files must first be stored in a File field in one of the forms.&lt;/li>
 &lt;/ol>
 &lt;h2 id="how-to-get-started">How to get started&lt;/h2>
 &lt;ol>
@@ -116,7 +113,7 @@ c. Add a text field: Click on Controls &amp;gt; Input &amp;gt; Text and drag the
 &lt;p>&lt;strong>Title&lt;/strong> - of the email for example &amp;lsquo;Send email to Training Managers&amp;rsquo;&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;strong>Edit conditions&lt;/strong> - click on the &lt;strong>Edit conditions&lt;/strong> button &lt;img src="https://docs.kianda.com/images/editconditions.png" alt="Edit conditions button"> create conditions to send the email, for example based&amp;hellip;.TO COME BACK TO&lt;/p>
+&lt;p>&lt;strong>Edit conditions&lt;/strong> - click on the &lt;strong>Edit conditions&lt;/strong> button &lt;img src="https://docs.kianda.com/images/editconditions.png" alt="Edit conditions button"> create conditions to send the email, for example while a process has a &amp;lsquo;status&amp;rsquo; of &amp;lsquo;open&amp;rsquo;. This type of status value can be set in a utility panel.&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>&lt;strong>From&lt;/strong> - who the email is from, click on &lt;strong>Person&lt;/strong> button &lt;img src="https://docs.kianda.com/images/person.png" alt="Person button"> and choose from the appropriate Selection mode, see [Selection mode](#Selection mode) below.&lt;/p>
@@ -146,7 +143,7 @@ c. Add a text field: Click on Controls &amp;gt; Input &amp;gt; Text and drag the
 &lt;li>
 &lt;p>&lt;strong>Send via connector&lt;/strong> - options are a) No or b) Yes&lt;/p>
 &lt;ul>
-&lt;li>If you choose &lt;strong>Yes&lt;/strong> then you must choose an &lt;strong>Email connector&lt;/strong> and decide if you want to &lt;strong>Save Sent Items&lt;/strong> (Yes or No) which means sent emails are saved in a sent items folder in your email account. TO COME BACK TO. For more information go to [Email connector](#Email connector)
+&lt;li>If you choose &lt;strong>Yes&lt;/strong> then you must choose an &lt;strong>Email connector&lt;/strong> and decide if you want to &lt;strong>Save Sent Items&lt;/strong> (Yes or No) which means sent emails are saved in a sent items folder in your email account. For more information go to [Email connector](#Email connector)
 &lt;img src="https://docs.kianda.com/images/emailconnector.png" alt="Email connector options">&lt;/li>
 &lt;/ul>
 &lt;/li>
@@ -181,7 +178,7 @@ c. Add a text field: Click on Controls &amp;gt; Input &amp;gt; Text and drag the
 &lt;li>Click into the field under &lt;strong>Email connector&lt;/strong> and select a connector.&lt;/li>
 &lt;li>Click on &lt;strong>OK&lt;/strong> button when you are finished editing to save your changes or click on &lt;strong>Close&lt;/strong> to exit the dialog box without saving.&lt;/li>
 &lt;/ol>
-&lt;p>Note that this will override the global Email connector setting if one has been configured for your system. Go to &lt;strong>Administration&lt;/strong> &amp;gt; &lt;strong>Subscription&lt;/strong> &amp;gt; &lt;strong>Subscription Details&lt;/strong> to check for a global setting. TO COME BACK TO&lt;/p>
+&lt;p>Note that this will override the global Email connector setting if one has been configured for your system. Go to &lt;strong>Administration&lt;/strong> &amp;gt; &lt;strong>Subscription&lt;/strong> &amp;gt; &lt;strong>Subscription Details&lt;/strong> to check for a global setting.&lt;/p>
 &lt;h3 id="selection-mode">Selection mode&lt;/h3>
 &lt;p>When you are filling out the &lt;strong>To&lt;/strong>, &lt;strong>From&lt;/strong>, &lt;strong>CC&lt;/strong> or &lt;strong>BCC&lt;/strong> fields and click on the &lt;strong>Person&lt;/strong> button &lt;img src="https://docs.kianda.com/images/person.png" alt="Person button">you have the following selection mode options to choose from: &lt;strong>Any user or partner&lt;/strong>, &lt;strong>User(s) defined in a user field&lt;/strong>, &lt;strong>Form owner(s)&lt;/strong>, &lt;strong>Email address in a field&lt;/strong>. Each option is explained below.&lt;/p>
 &lt;p>&lt;img src="https://docs.kianda.com/images/anygroups2.png" alt="Any user or partner mode">&lt;/p>
@@ -242,7 +239,7 @@ c. Add a text field: Click on Controls &amp;gt; Input &amp;gt; Text and drag the
 &lt;li>
 &lt;p>Click on Reference button &lt;img src="https://docs.kianda.com/images/reference.png" alt="Expression reference"> button to find out how to use particular functions in your email. For example &lt;strong>ProcessLink()&lt;/strong> returns the html link to the current process. Copy this function into the Expression box and click on &lt;strong>OK&lt;/strong> to add the function. Then in the &lt;strong>Body&lt;/strong> type in the text you want associated with this link for example &amp;ldquo;click here&amp;rdquo; into the brackets of the function:&lt;/p>
 &lt;p>&lt;img src="https://docs.kianda.com/images/clickhere.png" alt="Click here text">&lt;/p>
-&lt;p>In this way you can build sophisticated automated emails that can &amp;hellip;.TO COME BACK TO. For more information on References and Expressions see &lt;a href="expressions.md">Expressions&lt;/a> for more information.&lt;/p>
+&lt;p>In this way you can build sophisticated automated emails that provide a link back to a process instance, for example that a manager can view, update or approve. For more information on References and Expressions see &lt;a href="expressions.md">Expressions&lt;/a> for more information.&lt;/p>
 &lt;/li>
 &lt;/ol>
 &lt;h3 id="attachments">Attachments&lt;/h3>
@@ -250,14 +247,14 @@ c. Add a text field: Click on Controls &amp;gt; Input &amp;gt; Text and drag the
 &lt;p>&lt;strong>Attachments&lt;/strong>: Files can be attached to the email. First the file must be stored in a File field in one of the forms. Open the Send Email rule and find the File icon in the Body field menu. Click in the File field to find the field where the file is stored. Click on Insert attachment. There is an option to attach a link to the file rather than the file itself.&lt;/p></description></item><item><title>Docs: User alert</title><link>https://docs.kianda.com/docs/platform/rules/communications/user-alert/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/communications/user-alert/</guid><description>
 &lt;p>This rule sends an alert to a user who can then open an instance of a process. A user can view all alerts by clicking on the bell icon on the top right-hand corner of their screen.&lt;/p>
 &lt;p>&lt;img src="https://docs.kianda.com/images/useralert.png" alt="User alert dialog box">&lt;/p>
-&lt;h6 id="when-to-use">When to use&lt;/h6>
+&lt;h3 id="when-to-use">When to use&lt;/h3>
 &lt;p>You can add this rule:&lt;/p>
 &lt;ul>
 &lt;li>&lt;input checked="" disabled="" type="checkbox"> to a field&lt;/li>
 &lt;li>&lt;input checked="" disabled="" type="checkbox"> to a form&lt;/li>
 &lt;li>&lt;input checked="" disabled="" type="checkbox"> to a process (the rule will run on load)&lt;/li>
 &lt;/ul>
-&lt;h6 id="how-to-use">How to use&lt;/h6>
+&lt;h3 id="how-to-use">How to use&lt;/h3>
 &lt;p>To send an alert to the current user:&lt;/p>
 &lt;ol>
 &lt;li>Select the Submit button&lt;/li>
@@ -269,7 +266,7 @@ c. Add a text field: Click on Controls &amp;gt; Input &amp;gt; Text and drag the
 &lt;li>Choose an Alert icon e.g. flag.&lt;/li>
 &lt;li>Click on OK.&lt;/li>
 &lt;/ol>
-&lt;h6 id="notes">Notes&lt;/h6>
+&lt;h3 id="notes">Notes&lt;/h3>
 &lt;p>&lt;strong>Send alert to:&lt;/strong>&lt;/p>
 &lt;table>
 &lt;thead>

@@ -20,12 +20,8 @@
 &lt;ol start="3">
 &lt;li>Select the Submit button.&lt;/li>
 &lt;li>Add a rule &amp;gt; File management &amp;gt; Convert to PDF.&lt;/li>
-&lt;li>???.&lt;/li>
-&lt;li>???.&lt;/li>
 &lt;li>Click on OK.&lt;/li>
-&lt;/ol>
-&lt;h6 id="notes">Notes&lt;/h6>
-&lt;p>None.&lt;/p></description></item><item><title>Docs: Copy file</title><link>https://docs.kianda.com/docs/platform/rules/files/copy-file/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/files/copy-file/</guid><description>
+&lt;/ol></description></item><item><title>Docs: Copy file</title><link>https://docs.kianda.com/docs/platform/rules/files/copy-file/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/files/copy-file/</guid><description>
 &lt;p>This rule copies a file from one data location to another.&lt;br>
 &lt;img src="https://docs.kianda.com/images/copyfile.png" alt="Send email rule dialog box">&lt;/p>
 &lt;h6 id="when-to-use">When to use&lt;/h6>
@@ -36,7 +32,6 @@
 &lt;li>&lt;input checked="" disabled="" type="checkbox"> to a process (the rule will run on load)&lt;/li>
 &lt;/ul>
 &lt;h6 id="how-to-use">How to use&lt;/h6>
-&lt;p>To copy a file from one x to y???:&lt;/p>
 &lt;ol>
 &lt;li>Before adding the rule, add two file fields: Click on Controls &amp;gt; Input &amp;gt; File and drag the field onto the form. Edit the field by clicking on it and then clicking the pen icon. Change the Title to .&lt;/li>
 &lt;li>Select the Submit button.&lt;/li>
@@ -46,7 +41,6 @@
 &lt;li>Click on OK.&lt;/li>
 &lt;/ol>
 &lt;h6 id="notes">Notes&lt;/h6>
-&lt;p>Explain other advanced scenarios of the rule&lt;/p>
 &lt;p>Copy files from one field to another
 Allows copying files between datasources. Use this file together with two file fields to move files between two different file locations. Example to copy files between an on premises folder and a SharePoint folder&lt;/p></description></item><item><title>Docs: Create a file anonymous link</title><link>https://docs.kianda.com/docs/platform/rules/files/create-a-file-anonymous/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/files/create-a-file-anonymous/</guid><description>
 &lt;p>This rule enables the creation of file links from an existing file field that can be shared anonymously&lt;/p>

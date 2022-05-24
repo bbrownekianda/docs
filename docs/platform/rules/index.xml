@@ -65,10 +65,10 @@ Multiple conditions can be grouped with condition groups.&lt;/p>
 &lt;h2 id="getting-started-with-communication-rules">Getting started with Communication rules&lt;/h2>
 &lt;p>If you go to &lt;strong>Administration&lt;/strong> &amp;gt; &lt;strong>Designer&lt;/strong> and click on a process or create a new process, then click on &lt;strong>Add a rule&lt;/strong> the Communication rules are found in the left-hand pane when you click on &lt;strong>Communications&lt;/strong>.&lt;/p>
 &lt;p>&lt;img src="https://docs.kianda.com/images/communications.png" alt="Communication rules">&lt;/p>
-&lt;p>There are 4 types of Communication rules as follows:&lt;/p>
+&lt;p>There are four types of Communication rules as follows:&lt;/p>
 &lt;ul>
 &lt;li>
-&lt;p>Send email - triggers an email which can be sent on behalf&amp;hellip;see &lt;a href="send_email.md">Send email&lt;/a> for more information.&lt;/p>
+&lt;p>Send email&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>Meeting request&lt;/p>
@@ -79,49 +79,36 @@ Multiple conditions can be grouped with condition groups.&lt;/p>
 &lt;li>
 &lt;p>User alert&lt;/p>
 &lt;/li>
-&lt;/ul></description></item><item><title>Docs: Data rules</title><link>https://docs.kianda.com/docs/platform/rules/data/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/data/</guid><description>
+&lt;/ul>
+&lt;h3 id="whats-next--idea-iconimages18png">What&amp;rsquo;s next &lt;img src="https://docs.kianda.com/images/18.png" alt="Idea icon">&lt;/h3>
+&lt;p>To read more about each of the rule types go to the links below:&lt;/p></description></item><item><title>Docs: Data rules</title><link>https://docs.kianda.com/docs/platform/rules/data/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/data/</guid><description>
 &lt;p>Data rules is the category of rules that enables that flow between data connectors and form elements, for example reading or writing data from a database table or performing data manipulation with the &lt;a href="set_form_field.md">Set form field rule&lt;/a> expressions.&lt;/p>
 &lt;h2 id="getting-started-with-data-rules">Getting started with Data rules&lt;/h2>
 &lt;p>If you go to &lt;strong>Administration&lt;/strong> &amp;gt; &lt;strong>Designer&lt;/strong> and click on a process or create a new process, then click on &lt;strong>Add a rule&lt;/strong> the Data rules are found in the left-hand pane when you click on &lt;strong>Data&lt;/strong>.&lt;/p>
-&lt;p>There are 5 types of Data rules as follows:&lt;/p>
+&lt;p>There are five types of data rules as follows:&lt;/p>
 &lt;ul>
 &lt;li>
-&lt;p>Create item&lt;/p>
+&lt;p>Create item - Use this rule together with a datasource to perform a create / insert query and return data identifiers for use with the form.&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>Delete item&lt;/p>
+&lt;p>Delete item - Use this rule together with a datasource to perform a delete query and return data identifiers for use with the form.&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>Update item&lt;/p>
+&lt;p>Update item - Use this rule together with a datasource to perform an update query and return data identifiers for use with the form.&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>Find Items&lt;/p>
+&lt;p>Find Items - Use this rule together with a datasource to perform a query and return data for use with the form.&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>Set form field&lt;/p>
+&lt;p>Set form field - This rule is used to update the value of fields in a form. Use this rule to copy content between fields or to apply a custom expression to set the value of a given field.&lt;/p>
 &lt;/li>
-&lt;/ul></description></item><item><title>Docs: User rules</title><link>https://docs.kianda.com/docs/platform/rules/users/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/users/</guid><description/></item><item><title>Docs: File management rules</title><link>https://docs.kianda.com/docs/platform/rules/files/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/files/</guid><description/></item><item><title>Docs: Table rules</title><link>https://docs.kianda.com/docs/platform/rules/tables/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/tables/</guid><description/></item><item><title>Docs: Date rules</title><link>https://docs.kianda.com/docs/platform/rules/dates/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/dates/</guid><description/></item><item><title>Docs: Form action rules</title><link>https://docs.kianda.com/docs/platform/rules/form-actions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/form-actions/</guid><description>
+&lt;/ul>
+&lt;h3 id="whats-next--idea-iconimages18png">What&amp;rsquo;s next &lt;img src="https://docs.kianda.com/images/18.png" alt="Idea icon">&lt;/h3>
+&lt;p>We have briefly introduced each of the five types of &lt;strong>Data rules&lt;/strong>. Click on the links below to find out more about each rule in detail.&lt;/p></description></item><item><title>Docs: User rules</title><link>https://docs.kianda.com/docs/platform/rules/users/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/users/</guid><description/></item><item><title>Docs: File management rules</title><link>https://docs.kianda.com/docs/platform/rules/files/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/files/</guid><description/></item><item><title>Docs: Table rules</title><link>https://docs.kianda.com/docs/platform/rules/tables/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/tables/</guid><description/></item><item><title>Docs: Date rules</title><link>https://docs.kianda.com/docs/platform/rules/dates/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/dates/</guid><description/></item><item><title>Docs: Form action rules</title><link>https://docs.kianda.com/docs/platform/rules/form-actions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/form-actions/</guid><description>
 &lt;p>Rules within the form action rules allow to perform form specific actions such as saving a form / process, submiting a form, closing a form, deleting a process and validating form input.&lt;/p>
-&lt;p>To find out more about each action go to the pages below:&lt;/p>
+&lt;p>There are 6 form action rules as follows:&lt;/p>
 &lt;ul>
-&lt;li>
-&lt;p>&lt;a href="close_form.md">Close a form&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;a href="save_form.md">Save a form&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;a href="submit_form.md">Submit a form&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Validate input&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Delete form / process&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Field display mode&lt;/p>
-&lt;/li>
+&lt;li>&lt;/li>
 &lt;/ul></description></item><item><title>Docs: AI rules</title><link>https://docs.kianda.com/docs/platform/rules/kianda-ai/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/kianda-ai/</guid><description>
 &lt;p>Artificial Intelligence powered text analysis performs sentiment analysis to text content&lt;/p></description></item><item><title>Docs: SharePoint rules</title><link>https://docs.kianda.com/docs/platform/rules/sharepoint/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/rules/sharepoint/</guid><description>
 &lt;h3 id="getting-started-with-sharepoint-rules">Getting started with SharePoint rules&lt;/h3>
