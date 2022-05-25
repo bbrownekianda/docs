@@ -1689,14 +1689,10 @@ Your browser does not support the video tag.
 &lt;li>&lt;a href="https://docs.kianda.com/docs/platform/controls/input/textbox/">Textbox control&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://docs.kianda.com/docs/platform/controls/input/toggle/">Toggle control&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://docs.kianda.com/docs/platform/controls/input/user-picker/">User picker control&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Docs: Global CSS file</title><link>https://docs.kianda.com/docs/low-code/global-css-file/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/low-code/global-css-file/</guid><description/></item><item><title>Docs: Textbox control</title><link>https://docs.kianda.com/docs/platform/controls/input/textbox/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/controls/input/textbox/</guid><description>
+&lt;/ul></description></item><item><title>Docs: Global CSS file</title><link>https://docs.kianda.com/docs/low-code/global-css-file/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/low-code/global-css-file/</guid><description/></item><item><title>Docs: Text box control</title><link>https://docs.kianda.com/docs/platform/controls/input/textbox/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/controls/input/textbox/</guid><description>
 &lt;p>The &lt;strong>Text box control&lt;/strong> can be used if you want a user to manually input text into a form. For example, in a Training Request form, you may want the user to insert their first name and surname and may want those fields to be mandatory for the user to complete.&lt;/p>
 &lt;p>There are various options available when creating a Text box field, such as formatting it to allow multiple lines of text, to contain a password (text input is not shown) or to autofil with saved information such as the user&amp;rsquo;s address or email. More advanced options include applying a rule or expression to a Text box field - for more information, see &lt;a href="https://docs.kianda.com/docs/platform/rules/">Rules&lt;/a> and &lt;a href="https://docs.kianda.com/docs/platform/rules/general/expression-builder">Expression builder&lt;/a>.&lt;/p>
 &lt;h2 id="how-to-get-started">How to get started&lt;/h2>
-&lt;p>&lt;strong>How to add a text box to a form - a sample video&lt;/strong>&lt;/p>
-&lt;video title="How to add a text box to a form" width="100%" style="width:100%" controls="controls">
-&lt;source src="https://docs.kianda.com/videos/textbox.mp4" type="video/mp4">
-&lt;/video>
 &lt;ol>
 &lt;li>
 &lt;p>To add a &lt;strong>Text box&lt;/strong> field to a form, first open the relevant process. Then select the form within that process that you want to add the field to (so that the &lt;strong>Edit Form&lt;/strong> button &lt;img src="https://docs.kianda.com/images/penicon.png" alt="Edit form button"> is visible).&lt;/p>
