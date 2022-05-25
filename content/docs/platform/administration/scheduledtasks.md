@@ -19,8 +19,20 @@ To view use the Scheduled tasks function:
 
 3. To see a complete list of scheduled tasks click on **Show All**.
 
-4. To schedule a new task, click on the **Schedule a task** button.
+4. To schedule a new task, click on the **Schedule a task** button. 
 
+5. In the **Schedule a task** dialog box, select a **Task name** for the task and then a **schedule** choosing from  **One time**, or a periodic schedule from: **Minutes**, **Hourly**, **Daily**, **Weekly**, **Monthly** or **On demand**.
+
+  ![Scheduled tasks view](/images/schedule-tasks-box.jpg)
+
+6. Depending on which option you choose, different **time modes** will be presented:
+
+   - **One time** - choose from **Absolute** or **Relative from now** as shown in the image above. Choosing **Absolute** means the time starts at the date and time entered into the date and time field, choosing **Relative from now** means you can choose that the schedule starts in X number of **days**, **hours** and **mins**. 
+   - **Minutes** - enter a numeric value into the minutes box
+   - **Hourly** - enter a numeric value into the minutes and **Every** box
+     ![Hourly schedule option](/images/hour-schedule.jpg)
+   - **Daily** - 
+   
    
 
 
