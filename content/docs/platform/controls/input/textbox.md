@@ -1,5 +1,5 @@
 ---
-title: "Textbox control"
+title: "Text box control"
 weight: 6
 typora-root-url: ..\..\..\..\..\static
 ---
@@ -12,13 +12,6 @@ There are various options available when creating a Text box field, such as form
 
 
 ## How to get started
-**How to add a text box to a form - a sample video**
-
-<video title="How to add a text box to a form" width="100%" style="width:100%" controls="controls">
-    <source src="/videos/textbox.mp4" type="video/mp4">
-</video>
-
-
 
 
 1. To add a **Text box** field to a form, first open the relevant process. Then select the form within that process that you want to add the field to (so that the **Edit Form** button ![Edit form button](/images/penicon.png) is visible).
