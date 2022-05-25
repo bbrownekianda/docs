@@ -150,9 +150,45 @@
 &lt;li>
 &lt;p>To schedule a new task, click on the &lt;strong>Schedule a task&lt;/strong> button.&lt;/p>
 &lt;/li>
+&lt;li>
+&lt;p>In the &lt;strong>Schedule a task&lt;/strong> dialog box, select a &lt;strong>Task name&lt;/strong> for the task and then a &lt;strong>schedule&lt;/strong> choosing from &lt;strong>One time&lt;/strong>, or a periodic schedule from: &lt;strong>Minutes&lt;/strong>, &lt;strong>Hourly&lt;/strong>, &lt;strong>Daily&lt;/strong>, &lt;strong>Weekly&lt;/strong>, &lt;strong>Monthly&lt;/strong> or &lt;strong>On demand&lt;/strong>.&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;p>&lt;img src="https://docs.kianda.com/images/schedule-tasks-box.jpg" alt="Scheduled tasks view">&lt;/p>
+&lt;ol start="6">
+&lt;li>
+&lt;p>Depending on which option you choose, different &lt;strong>time modes&lt;/strong> will be presented:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>One time&lt;/strong> - choose from &lt;strong>Absolute&lt;/strong> or &lt;strong>Relative from now&lt;/strong> as shown in the image above. Choosing &lt;strong>Absolute&lt;/strong> means the time starts at the date and time entered into the date and time field, choosing &lt;strong>Relative from now&lt;/strong> means you can choose that the schedule starts in X number of &lt;strong>days&lt;/strong>, &lt;strong>hours&lt;/strong> and &lt;strong>mins&lt;/strong>.&lt;/li>
+&lt;li>&lt;strong>Minutes&lt;/strong> - enter a numeric value into the minutes box&lt;/li>
+&lt;li>&lt;strong>Hourly&lt;/strong> - enter a numeric value into the minutes and &lt;strong>Every&lt;/strong> box
+&lt;img src="https://docs.kianda.com/images/hour-schedule.jpg" alt="Hourly schedule option">&lt;/li>
+&lt;li>&lt;strong>Daily&lt;/strong> -&lt;/li>
+&lt;/ul>
+&lt;/li>
 &lt;/ol>
 &lt;h3 id="whats-next--idea-iconimages18png">What&amp;rsquo;s next &lt;img src="https://docs.kianda.com/images/18.png" alt="Idea icon">&lt;/h3>
 &lt;p>To read more about how to create processes and forms go to &lt;a href="https://docs.kianda.com/docs/platform/application-designer/">Application Designer&lt;/a>.&lt;/p></description></item><item><title>Docs: Subscription</title><link>https://docs.kianda.com/docs/platform/administration/subscription/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/administration/subscription/</guid><description>
-&lt;p>Page under construction&lt;/p></description></item><item><title>Docs: Support</title><link>https://docs.kianda.com/docs/platform/administration/support/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/administration/support/</guid><description>
+&lt;p>The &lt;strong>Scheduled tasks&lt;/strong> function is available to administrators and is found in the left-hand side pane, under &lt;strong>Administration&lt;/strong>. The Scheduled tasks function allows you to schedule a task, that could be a process or a rule for example to send reminder emails.&lt;/p>
+&lt;h3 id="how-to-get-started">How to get started&lt;/h3>
+&lt;p>To view use the Scheduled tasks function:&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>Click on &lt;strong>Administration&lt;/strong> in the left-hand side pane and then click on &lt;strong>Scheduled tasks&lt;/strong>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>You can view any current tasks in the main tasks view.&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/../content/docs/platform/administration/subscription.assets/schedule-tasks-view.jpg" alt="Scheduled tasks view">&lt;/p>
+&lt;p>In this view you can see the &lt;strong>Name&lt;/strong> of the task, the &lt;strong>Schedule&lt;/strong> for example weekly or monthly, when the task was &lt;strong>last run&lt;/strong>, when the task will &lt;strong>next run&lt;/strong>, the &lt;strong>status&lt;/strong> of the task, the name of the associated &lt;strong>process&lt;/strong> and process &lt;strong>instance&lt;/strong> where relevant, and &lt;strong>who&lt;/strong> is the administrator of the task/who has created the task.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>To see a complete list of scheduled tasks click on &lt;strong>Show All&lt;/strong>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>To schedule a new task, click on the &lt;strong>Schedule a task&lt;/strong> button.&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h3 id="whats-next--idea-iconcontentdocsplatformadministrationsubscriptionassets18png">What&amp;rsquo;s next &lt;img src="https://docs.kianda.com/../content/docs/platform/administration/subscription.assets/18.png" alt="Idea icon">&lt;/h3>
+&lt;p>To read more about how to create processes and forms go to &lt;a href="https://docs.kianda.com/docs/platform/application-designer/">Application Designer&lt;/a>.&lt;/p></description></item><item><title>Docs: Support</title><link>https://docs.kianda.com/docs/platform/administration/support/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/administration/support/</guid><description>
 &lt;p>Page under construction&lt;/p></description></item><item><title>Docs: Users &amp; Groups</title><link>https://docs.kianda.com/docs/platform/administration/users/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/administration/users/</guid><description>
 &lt;p>Page under construction&lt;/p></description></item></channel></rss>
