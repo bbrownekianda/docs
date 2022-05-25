@@ -7,19 +7,19 @@ The **Scheduled tasks** function is available to administrators and is found in 
 
 ### How to get started
 
-To view items in the Recycle bin:
+To view use the Scheduled tasks function:
 
-1. Click on **Administration** in the left-hand side pane and then click on **Recycle bin**. 
+1. Click on **Administration** in the left-hand side pane and then click on **Scheduled tasks**. 
 
-2. You can view any deleted items in the main recycle bin view. 
+2. You can view any current tasks in the main tasks view. 
 
-   ![Recycle bin main view](/images/recycle-bin-view2.jpg)
+   ![Scheduled tasks view](/images/schedule-tasks-view.jpg)
 
-   The first column in the view shows **Item type** and in this example there are two processes, four dashboard pages and five process instances.
+   In this view you can see the **Name** of the task, the **Schedule** for example weekly or monthly, when the task was **last run**, when the task will **next run**, the **status** of the task, the name of the associated **process** and process **instance** where relevant, and **who** is the administrator of the task/who has created the task. 
 
-3. To restore an item click on the **Restore item** button ![Restore recycle bin button](/images/restore-bin-item.jpg) beside the item name. 
+3. To see a complete list of scheduled tasks click on **Show All**.
 
-4. When you click on the button you will get a pop-up confirmation asking you to confirm that you want to restore that item, click on **OK** if you wish to restore the item or **Cancel** to exit. If you click on **OK** the item is restored, for example a dashboard page appears again under **Dashboard** in the left-hand pane.
+4. To schedule a new task, click on the **Schedule a task** button.
 
    
 
@@ -27,5 +27,5 @@ To view items in the Recycle bin:
 
 ### What's next  ![Idea icon](/images/18.png) ###
 
-To read more about how to create processes and form go to [Application Designer](/docs/platform/application-designer/).
+To read more about how to create processes and forms go to [Application Designer](/docs/platform/application-designer/).
 

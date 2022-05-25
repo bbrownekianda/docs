@@ -13,7 +13,7 @@ To view items in the Recycle bin:
 
 2. You can view any deleted items in the main recycle bin view. 
 
-   ![Recycle bin main view](/images/recycle-bin-view.jpg)
+   ![Recycle bin main view](/images/recycle-bin-view2.jpg)
 
    The first column in the view shows **Item type** and in this example there are two processes, four dashboard pages and five process instances.
 
