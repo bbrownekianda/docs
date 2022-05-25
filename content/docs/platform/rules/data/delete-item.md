@@ -21,4 +21,5 @@ You can add this rule:
 3. Under Action, click on Select data source, for example a SharePoint data connector.
 4. Under **On success mapping** select the field(s) in the form which will store information and populate the **data source field or text** field with the respective data source value. 
 5. Under **On error mapping** select the field(s) in the form which will store error messages. Then type in a value or use Error message, to create a system generated error message if an error occurs during rule execution.
+6. 
 
