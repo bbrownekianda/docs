@@ -1690,7 +1690,8 @@ Your browser does not support the video tag.
 &lt;li>&lt;a href="https://docs.kianda.com/docs/platform/controls/input/toggle/">Toggle control&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://docs.kianda.com/docs/platform/controls/input/user-picker/">User picker control&lt;/a>&lt;/li>
 &lt;/ul></description></item><item><title>Docs: Global CSS file</title><link>https://docs.kianda.com/docs/low-code/global-css-file/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/low-code/global-css-file/</guid><description/></item><item><title>Docs: Textbox control</title><link>https://docs.kianda.com/docs/platform/controls/input/textbox/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/controls/input/textbox/</guid><description>
-&lt;p>The &lt;strong>Text box control&lt;/strong> is used to input text into a form for example a name or address. There are various options available when creating this field, these are explained below.&lt;/p>
+&lt;p>The &lt;strong>Text box control&lt;/strong> can be used if you want a user to manually input text into a form. For example, in a Training Request form, you may want the user to insert their first name and surname and may want those fields to be mandatory for the user to complete.&lt;/p>
+&lt;p>There are various options available when creating a Text box field, such as formatting it to allow multiple lines of text, to contain a password (text input is not shown) or to autofil with saved information such as the user&amp;rsquo;s address or email. More advanced options include applying a rule or expression to a Text box field - for more information, see &lt;a href="https://docs.kianda.com/docs/platform/rules/">Rules&lt;/a> and &lt;a href="https://docs.kianda.com/docs/platform/rules/general/expression-builder">Expression builder&lt;/a>.&lt;/p>
 &lt;h2 id="how-to-get-started">How to get started&lt;/h2>
 &lt;p>&lt;strong>How to add a text box to a form - a sample video&lt;/strong>&lt;/p>
 &lt;video title="How to add a text box to a form" width="100%" style="width:100%" controls="controls">
@@ -1698,70 +1699,109 @@ Your browser does not support the video tag.
 &lt;/video>
 &lt;ol>
 &lt;li>
-&lt;p>To add the Text box to your form click on &lt;strong>Controls&lt;/strong> &amp;gt; &lt;strong>Input&lt;/strong> &amp;gt; &lt;strong>Text box&lt;/strong>. The text box can also be placed within an element for example a panel, by clicking on the panel itself and then add the text box. Compare in the image below, the text box Name which is inside a panel versus Reason for the request which is outside the panel, both in the form Employee Request.&lt;/p>
-&lt;p>&lt;img src="https://docs.kianda.com/images/textboxinout.png" alt="Text boxes inside and outside a panel">&lt;/p>
+&lt;p>To add a &lt;strong>Text box&lt;/strong> field to a form, first open the relevant process. Then select the form within that process that you want to add the field to (so that the &lt;strong>Edit Form&lt;/strong> button &lt;img src="https://docs.kianda.com/images/penicon.png" alt="Edit form button"> is visible).&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>To edit the Text box, click on the field itself and the &lt;strong>Pen&lt;/strong> button &lt;img src="https://docs.kianda.com/images/penicon.png" alt="Pen icon"> appears allowing you to edit the field.&lt;/p>
-&lt;p>&lt;img src="https://docs.kianda.com/images/edittextbox.png" alt="Edit text box">&lt;/p>
+&lt;p>Insert the &lt;strong>Text box&lt;/strong> field by clicking on &lt;strong>Controls&lt;/strong> in the left-hand pane to expand the Controls menu, then select &lt;strong>Input&lt;/strong> to view the range of Input controls and click on &lt;strong>Text box&lt;/strong>. A Text box field will be added to your form with the default title of &amp;lsquo;&amp;rsquo;&lt;strong>Text box 1&lt;/strong>&amp;rsquo;&amp;rsquo; and a pop-up message will say &amp;lsquo;Field added&amp;rsquo;.&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/textbox-inserted.jpg" alt="Text box inserted">&lt;/p>
+&lt;p>In the example shown here, a Text box field has been added to a form called &amp;lsquo;Training Request&amp;rsquo; in a process called &amp;lsquo;Training Process&amp;rsquo;, as the first step in adding two Text box fields (which will be used to capture the first name and surname of the user who is completing the form).&lt;/p>
+&lt;p>You can also place a Text box within an element - such as within a panel in a form. In the example above, the Text box was inserted outside the panel in the form. If you wanted to insert it &lt;em>within&lt;/em> the panel, simply select the panel itself by clicking on its drag handle &lt;img src="https://docs.kianda.com/images/draghandlewhite-frame.png" alt="Drag Handle icon"> and then click on &lt;strong>Controls&amp;gt;Input&amp;gt;Text box&lt;/strong> - this will result in the new Text box being added inside the panel, as shown here:&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/textbox-inside-panel.jpg" alt="Text box inside a panel">&lt;/p>
 &lt;/li>
-&lt;li>
-&lt;p>Choose from the edit options:&lt;/p>
+&lt;/ol>
+&lt;h3 id="how-to-edit-move-and-delete-text-box-fields">How to edit, move and delete Text box fields&lt;/h3>
+&lt;p>As we go through the options available for editing a Text box, we will keep in mind the example of adding two text boxes to the &amp;lsquo;Training Request&amp;rsquo; form to capture a user&amp;rsquo;s first name and surname.&lt;/p>
+&lt;h4 id="how-to-edit-a-text-box-field">How to edit a Text box field&lt;/h4>
+&lt;p>To edit a &lt;strong>Text box field&lt;/strong>, select the Text box (by either clicking on its title or its &lt;strong>Drag handle&lt;/strong> button &lt;img src="https://docs.kianda.com/images/draghandlewhite-frame.png" alt="Drag handle button">) and then click on the &lt;strong>Edit field&lt;/strong> button (Pen icon) &lt;img src="https://docs.kianda.com/images/penicon.png" alt="Edit field button">.&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/textbox-edit-button.jpg" alt="Select text box edit button">&lt;/p>
+&lt;p>The &lt;strong>Edit field - Text&lt;/strong> dialog box will open, enabling you to choose from a range of options:&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/textbox-edit-dialog.jpg" alt="Edit table field dialog box">&lt;/p>
+&lt;p>The options within the &lt;strong>Edit field - Text box&lt;/strong> dialog box include:&lt;/p>
 &lt;ul>
 &lt;li>
-&lt;p>&lt;strong>Title&lt;/strong> - of the field, for example Employee Name&lt;/p>
+&lt;p>&lt;strong>Title&lt;/strong> - you can change the title of the Text box from the default &amp;lsquo;&lt;strong>Text box 1&lt;/strong>&amp;rsquo;. In our example, we could change the name of the first Text box to &amp;lsquo;First Name&amp;rsquo; and the second Text box to &amp;lsquo;Surname&amp;rsquo;.&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;strong>Name&lt;/strong> - this is a unique name for the field&lt;/p>
+&lt;p>&lt;strong>Name (unique)&lt;/strong> - this is a unique name for the Text box field&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;strong>Help text&lt;/strong> - information to help the form user&lt;/p>
+&lt;p>&lt;strong>Help text&lt;/strong> - you can insert text to help the form user to complete the Table. If you add help text, a question mark &lt;img src="https://docs.kianda.com/images/help-icon.jpg" alt="Help text icon"> icon will appear next to the field title and, if the user clicks on this, they will see the help text you have inserted.&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/textbox-help-text.jpg" alt="Table help text example">&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;strong>Mode&lt;/strong> - options are a) Single line of text b) Multiple lines of text c) Rich text&lt;/p>
-&lt;p>If you choose a) Single line of text then the following additional options are visible:&lt;/p>
-&lt;p>​ &lt;strong>Control type&lt;/strong> - options are a) Text b) Password&lt;/p>
-&lt;p>​ &lt;strong>Autofill type&lt;/strong> - options are a) Default b) Off c) Password d) Address e) Email f) Phone&lt;/p>
-&lt;p>​ &lt;strong>Placeholder&lt;/strong> - placeholder text that can help the user to know what to fill out in the text box&lt;/p>
-&lt;p>If you choose b) Multiple lines of text then the following additional options are visible:&lt;/p>
-&lt;p>​ &lt;strong>Control type&lt;/strong> - options are a) Text b) Password&lt;/p>
-&lt;p>​ &lt;strong>Autofill type&lt;/strong> - options are a) Default b) Off c) Password d) Address e) Email f) Phone&lt;/p>
-&lt;p>​ &lt;strong>Placeholder&lt;/strong> - placeholder text that can help the user to know what to fill out in the text box&lt;/p>
-&lt;p>​ &lt;strong>Rows&lt;/strong> - the number of rows you would like for the text box&lt;/p>
+&lt;p>&lt;strong>Mode&lt;/strong> - you can decide whether your Text box is limited to a &lt;strong>Single line of text&lt;/strong> or will allow for &lt;strong>Multiple lines of text&lt;/strong> or can choose &lt;strong>Rich text&lt;/strong>. Different additional options will then be shown, depending on the Mode you have chosen.&lt;/p>
+&lt;p>If you choose &amp;lsquo;&lt;strong>Single line of text&lt;/strong>&amp;rsquo; as the Mode for your Text box - as in the example shown above - these additional options will be shown:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>Max length&lt;/strong> - choose the maximum number of characters for the text inserted in your Text box by either typing in a number or by clicking the up/down arrow buttons &lt;img src="https://docs.kianda.com/images/up-down-arrows.jpg" alt="Up down arrow buttons"> at the right side of the blank field beneath it&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;strong>Text style&lt;/strong> - options are a) Normal b) Capitalise c) Uppercase d) Lowercase&lt;/p>
+&lt;p>&lt;strong>Text style&lt;/strong> - choose &lt;strong>Normal&lt;/strong>, &lt;strong>Capitalise&lt;/strong>, &lt;strong>Uppercase&lt;/strong> or &lt;strong>Lowercase&lt;/strong>, depending on how you want the text input in the Text box to appear&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;strong>Max length&lt;/strong> - the maximum number of characters for the field&lt;/p>
+&lt;p>&lt;strong>Control type&lt;/strong> - choose either &lt;strong>Text&lt;/strong> or &lt;strong>Password&lt;/strong>. If you choose Password, then the text input by the user in the Text box will not be visible:&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/textbox-password.jpg" alt="Text box formatted as a password">&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;strong>Text style&lt;/strong> - options are a) Normal b) Capitalise c) Uppercase d) Lowercase&lt;/p>
+&lt;p>&lt;strong>Autofill type&lt;/strong> - you can choose between &lt;strong>Default&lt;/strong>, &lt;strong>Off&lt;/strong>, &lt;strong>Password&lt;/strong>, &lt;strong>Address&lt;/strong>, &lt;strong>Email&lt;/strong> and &lt;strong>Phone&lt;/strong>. If, for example, you select Address, this means that when the user is completing this Text box field, it will automatically populate with the user&amp;rsquo;s saved address information (if the user has that saved information on their PC or mobile phone).&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;strong>Expression&lt;/strong> - this can be used to return a value for example Date() returns the current date and time. For a full explanation of expressions go to &lt;a href="platform/expressions.md">Expressions&lt;/a>&lt;/p>
-&lt;p>&lt;img src="https://docs.kianda.com/images/textboxfilled.png" alt="Example of text box options">&lt;/p>
+&lt;p>&lt;strong>Placeholder&lt;/strong> - you can insert placeholder text to appear in the Text box field to assist the user. For example, this Text box field titled &amp;lsquo;Address 1&amp;rsquo; has placeholder text:&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/textbox-placeholder.jpg" alt="Example of Text box placeholder text">&lt;/p>
 &lt;/li>
 &lt;/ul>
+&lt;p>If you choose &amp;lsquo;&lt;strong>Multiple lines of text&lt;/strong>&amp;rsquo; as the Mode for your Text box, these additional options will be shown:&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/textbox-multiple-lines-options.jpg" alt="Text box multiple lines of text options">&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>Rows&lt;/strong> - you can decide how many rows of text you want your Text box to have. Either manually type in a number or use the up/down arrows &lt;img src="https://docs.kianda.com/images/up-down-arrows.jpg" alt="Up down arrow buttons"> on the right-side of the field&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>Click on the &lt;strong>OK&lt;/strong> button &lt;img src="https://docs.kianda.com/images/ok.png" alt="OK button"> when you are finished editing the field to save your changes or click on &lt;strong>Close&lt;/strong> to exit the dialog box without saving.&lt;/p>
+&lt;p>&lt;strong>Max length&lt;/strong> - you can set a maximum number of characters for the Text box&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>To move the text box, click on the &lt;strong>Drag handle&lt;/strong> &lt;img src="images/move.png" alt="Move button">on the text box field itself and drag it to where you want it to appear on the form, for example within a panel.&lt;/p>
+&lt;p>&lt;strong>Text style&lt;/strong> - choose from &lt;strong>Normal&lt;/strong>, &lt;strong>Capitalise&lt;/strong>, &lt;strong>Uppercase&lt;/strong> or &lt;strong>Lowercase&lt;/strong>&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>To change the text box properties, click on the field itself and the properties pane appears on the right.&lt;/p>
-&lt;p>&lt;img src="https://docs.kianda.com/images/textboxproperties.png" alt="Text box properties">&lt;/p>
-&lt;p>Go to &lt;a href="fields/properties.md">Properties&lt;/a> to find out more about options.&lt;/p>
+&lt;p>&lt;strong>Placeholder&lt;/strong> - you can insert placeholder text to appear in the Text box field to assist the user.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>If you choose &amp;lsquo;&lt;strong>Rich text&lt;/strong>&amp;rsquo; as the Mode for your Text box, you will have the additional options of setting a &lt;strong>Max length&lt;/strong> (maximum number of characters that can be input in the field) and choosing a &lt;strong>Text style&lt;/strong>, as shown here:&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/textbox-richtext-options.jpg" alt="Text box Rich text options">&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>To save your changes to the form, click on the &lt;strong>Save&lt;/strong> button &lt;img src="https://docs.kianda.com/images/saveprocess.png" alt="Save button">.&lt;/p>
+&lt;p>&lt;strong>Expression&lt;/strong> - If you want to use your Text box field in a way that is more dynamic, you could decide to add an expression to it. For example, an Expression can be used to return a value - if you apply the Expression &amp;lsquo;&lt;strong>Date()&lt;/strong>&amp;rsquo; to your Text box field, it will return the current date and time.&lt;/p>
+&lt;p>To add an Expression to your Text box field, click on the ellipsis button &lt;img src="https://docs.kianda.com/images/ellipsis.png" alt="Ellipsis button in the Expression box"> to the right. This will open the &lt;strong>Expression builder&lt;/strong> dialog box:&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/expression-builder.jpg" alt="Expression builder dialog box">&lt;/p>
 &lt;/li>
-&lt;li>
-&lt;p>To delete the text box, click on the field itself and then click on the &lt;strong>Bin/Trash&lt;/strong> button &lt;img src="https://docs.kianda.com/images/binicon.png" alt="Bin or Trash icon"> and then click on &lt;strong>Ok&lt;/strong> after you have reviewed the field name and are sure this is what you want to delete. Click on &lt;strong>Cancel&lt;/strong> if you wish to cancel the deletion.&lt;/p>
-&lt;/li>
-&lt;/ol></description></item><item><title>Docs: Global JavaScript file</title><link>https://docs.kianda.com/docs/low-code/global-javascript-file/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/low-code/global-javascript-file/</guid><description/></item><item><title>Docs: Toggle control</title><link>https://docs.kianda.com/docs/platform/controls/input/toggle/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/controls/input/toggle/</guid><description/></item><item><title>Docs: Custom form control development</title><link>https://docs.kianda.com/docs/low-code/field-widget/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/low-code/field-widget/</guid><description/></item><item><title>Docs: User picker control</title><link>https://docs.kianda.com/docs/platform/controls/input/user-picker/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/controls/input/user-picker/</guid><description>
+&lt;/ul>
+&lt;p>You can click on the &lt;strong>Reference&lt;/strong> button &lt;img src="https://docs.kianda.com/images/reference.png" alt="Reference button in the Expression builder dialog box"> to see some of the most commonly used Expressions. To learn more about using Expressions, go to &lt;a href="https://docs.kianda.com/docs/platform/rules/general/expression-builder">Expression builder&lt;/a>.&lt;/p>
+&lt;p>Make whatever changes you want to make to the Text box field in the &lt;strong>Edit field - Text box&lt;/strong> dialog box and then click &lt;strong>OK&lt;/strong> to confirm.&lt;/p>
+&lt;h4 id="how-to-move-text-box-fields">How to move Text box fields&lt;/h4>
+&lt;p>To move a &lt;strong>Text box&lt;/strong> within your form, simply select the field&amp;rsquo;s &lt;strong>Drag handle&lt;/strong> button &lt;img src="https://docs.kianda.com/images/draghandlewhite-frame.png" alt="Drag handle button"> and drag and drop the field wherever you want to move it to. In our example, the two new Text boxes titled &amp;lsquo;First Name&amp;rsquo; and &amp;lsquo;Surname&amp;rsquo; can be moved from the botton of the form to the top:&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/textbox-move.jpg" alt="Table field drag handle">&lt;/p>
+&lt;h4 id="how-to-delete-text-box-fields">How to delete Text box fields&lt;/h4>
+&lt;p>To delete a &lt;strong>Text box field&lt;/strong> from your form, simply select the field (by either clicking on the field&amp;rsquo;s name or its &lt;strong>Drag handle&lt;/strong> button &lt;img src="https://docs.kianda.com/images/draghandlewhite-frame.png" alt="Drag handle button">), click on the &lt;strong>Bin/Trash&lt;/strong> button &lt;img src="https://docs.kianda.com/images/binicon.png" alt="Bin icon"> and then click on &lt;strong>OK&lt;/strong> to confirm. Click on &lt;strong>Cancel&lt;/strong> if you wish to cancel the deletion.&lt;/p>
+&lt;h3 id="how-to-edit-text-box-field-properties">How to edit Text box field properties&lt;/h3>
+&lt;p>To view or edit the field properties associated with a &lt;strong>Text box field&lt;/strong>, select the field (by clicking on its title or its drag handle button &lt;img src="https://docs.kianda.com/images/draghandlewhite-frame.png" alt="Drag handle button">) - the &lt;strong>Field properties&lt;/strong> menu will appear in the right-hand pane.&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/textbox-properties.jpg" alt="Field properties">&lt;/p>
+&lt;p>In the example shown here, our sample &lt;strong>Text box field&lt;/strong> titled &amp;lsquo;&lt;strong>First Name&lt;/strong>&amp;rsquo; has been selected and the Field properties associated with this field include the field type (Text box), its Title, that its title will be shown in the form (the &amp;lsquo;Show title&amp;rsquo; checkbox is ticked), that it will be a mandatory field that users must complete (the &amp;lsquo;Required&amp;rsquo; checkbox has been selected and there is a red star next to the field title), that this field will be enabled for users to complete (the &amp;lsquo;Enabled&amp;rsquo; checkbox is ticked), and it will be visible to form users (the &amp;lsquo;Visible&amp;rsquo; checkbox is ticked).&lt;/p>
+&lt;p>You can change the size of the Text box by clicking into the &lt;strong>Layout&lt;/strong> or &lt;strong>Mobile Layout&lt;/strong> options at the bottom of the Field Properties menu and changing the width of the blue bar. You can then check how the Text box will appear to users on their PC or mobile phone by first saving your form and then clicking on the Preview button &lt;img src="https://docs.kianda.com/images/preview.png" alt="Preview button">. Our simplified example of the &amp;lsquo;First Name&amp;rsquo; and &amp;lsquo;Surname&amp;rsquo; fields in a Training Request form could look like this when viewed on a user&amp;rsquo;s mobile phone:&lt;/p>
+&lt;p>&lt;img src="https://docs.kianda.com/images/textbox-preview-mobile.jpg" alt="Sample table in preview">&lt;/p>
+&lt;p>To learn more about the different options within the Field properties menu, go to &lt;a href="https://docs.kianda.com/docs/platform/controls/properties#field-properties">Field Properties&lt;/a>.&lt;/p>
+&lt;h3 id="saving-changes-and-version-history">Saving changes and version history&lt;/h3>
+&lt;p>Make sure to save any changes you make by clicking on the &lt;strong>Save&lt;/strong> button &lt;img src="https://docs.kianda.com/images/saveprocess.png" alt="Save">. You will always have the option to revert back to previous versions of your form by clicking the &lt;strong>Design Version History&lt;/strong> &lt;img src="https://docs.kianda.com/images/version8.png" alt="Version button"> button in the top right corner.&lt;/p>
+&lt;h3 id="whats-next--idea-iconimages18png">What&amp;rsquo;s next &lt;img src="https://docs.kianda.com/images/18.png" alt="Idea icon">&lt;/h3>
+&lt;p>Now that you&amp;rsquo;ve learned about the &lt;strong>Textbox control&lt;/strong>, find out more about the other types of &lt;strong>Input fields&lt;/strong> you can add to a Kianda process:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://docs.kianda.com/docs/platform/controls/input/date/">Date control&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.kianda.com/docs/platform/controls/input/file-upload/">File upload control&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.kianda.com/docs/platform/controls/input/list/">List control&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.kianda.com/docs/platform/controls/input/number/">Number control&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.kianda.com/docs/platform/controls/input/table/">Table control&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.kianda.com/docs/platform/controls/input/toggle/">Toggle control&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.kianda.com/docs/platform/controls/input/user-picker/">User picker control&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Global JavaScript file</title><link>https://docs.kianda.com/docs/low-code/global-javascript-file/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/low-code/global-javascript-file/</guid><description/></item><item><title>Docs: Toggle control</title><link>https://docs.kianda.com/docs/platform/controls/input/toggle/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/controls/input/toggle/</guid><description/></item><item><title>Docs: Custom form control development</title><link>https://docs.kianda.com/docs/low-code/field-widget/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/low-code/field-widget/</guid><description/></item><item><title>Docs: User picker control</title><link>https://docs.kianda.com/docs/platform/controls/input/user-picker/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.kianda.com/docs/platform/controls/input/user-picker/</guid><description>
 &lt;p>The &lt;strong>user picker field&lt;/strong> provides a way to associate a user to a particular task for example to allow a form user to find their manager to approve a workflow. This is achieved by connecting your Kianda form to a data source, for example information in SharePoint, and using the user picker field.&lt;/p>
 &lt;h2 id="how-to-get-started">How to get started&lt;/h2>
 &lt;ol>
